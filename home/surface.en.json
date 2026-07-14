@@ -1,0 +1,268 @@
+{
+	"meta": {
+		"title": "Amiya's Desk · sayori.org",
+		"description": "Amiya's Desk is Amiya_desi's personal public desk for blog posts, Godot game projects, homelab and Cloudflare notes, Obsidian workflows, public tools, and contact links.",
+		"themeColor": "#a8d4e6"
+	},
+	"music": {
+		"buttonLabel": "music",
+		"ariaLabel": "Play music",
+		"pianoAriaLabel": "Play music",
+		"tracks": {
+			"ohayouSayori": {
+				"youtube": "BUWuDdfe7v4",
+				"netease": "523658869"
+			},
+			"yourReality": {
+				"youtube": "CAL4WMpBNs0",
+				"netease": "523658880"
+			},
+			"sayoNara": {
+				"youtube": "vkqiC4KPeDs",
+				"netease": "523658877"
+			}
+		}
+	},
+	"links": {
+		"bilibili": "https://space.bilibili.com/3546919890585725",
+		"guestbookEndpoint": "https://comments.sayori.org/",
+		"guestbookPath": "/guestbook/"
+	},
+	"surface": {
+		"title": "a few notes",
+		"entryAriaLabel": "Entries",
+		"entries": [
+			{
+				"num": "01",
+				"title": "Blog",
+				"desc": "— posts, notes, and rambles",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"num": "03",
+				"title": "Bilibili",
+				"desc": "— videos, games, and build notes",
+				"href": "https://space.bilibili.com/3546919890585725",
+				"external": true
+			},
+			{
+				"num": "04",
+				"title": "About me",
+				"desc": "— public card and contact",
+				"action": "about"
+			},
+			{
+				"num": "05",
+				"title": "Tools & Links",
+				"desc": "— tools, projects, and links",
+				"action": "services"
+			},
+			{
+				"num": "02",
+				"title": "Site intro",
+				"desc": "— a quick video tour of the desk",
+				"action": "intro"
+			}
+		],
+		"marginNote": "whatever comes to mind.",
+		"footerNotice": "Amiya_desi's solo creator workbench",
+		"languageLink": {
+			"href": "../zh/",
+			"label": "中文"
+		},
+		"version": "v.2026",
+		"foldHint": "peek?",
+		"foldAriaLabel": "Flip page",
+		"heartAriaLabel": "Click for hearts",
+		"stickyQuotes": [
+			"Cheer up today!",
+			"Remember to drink water.",
+			"You're here~",
+			"This is a safe place.",
+			"It's okay to rest sometimes.",
+			"Someone is reading this paper.",
+			"Go for a walk if the weather is nice.",
+			"Don't forget breakfast."
+		]
+	},
+	"intro": {
+		"ariaLabel": "sayori.org site introduction",
+		"backLabel": "← Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "02 / Site intro",
+		"title": "Start With A Short Tour",
+		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public tools and links, and why they live on the same desk.",
+		"videoTitle": "sayori.org site introduction - Bilibili",
+		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
+		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
+		"openLabel": "Open original video on Bilibili"
+	},
+	"profile": {
+		"ariaLabel": "About Amiya",
+		"backLabel": "← Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "04 / Solo creator card",
+		"name": "Amiya_desi",
+		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
+		"columns": [
+			{
+				"title": "Public Directions",
+				"items": [
+					"Game development: Godot 4.x, GDScript, and C# for 2D prototypes, state machines, event buses, object pools, resources/save systems, and editor tooling.",
+					"Gameplay expression: platformer movement, time rewind, input buffering/coyote time, level pacing, feel tuning, and meta-leaning narrative puzzle prototypes.",
+					"Publishing surface: personal site, blog, Bilibili, GitHub, GameJam projects, and public tools and links, slowly turning the portfolio into a growing doorway.",
+					"Web / homelab: static sites, blog content pipelines, Linux, Docker, Cloudflare Pages / Tunnel, and ops scripts."
+				]
+			},
+			{
+				"title": "Project Notes",
+				"items": [
+					{
+						"text": "WakeUpAtTheBorder: Godot 2D narrative platformer about a border-crossing premise, 2nd place in GodotHub 3rd Dev Contest.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+							}
+						]
+					},
+					{
+						"text": "TimeRuner: C# action platformer built around 5-second rewind and compact level pacing, 034GameJam best time-themed game.",
+						"links": [
+							{
+								"label": "TimeRuner",
+								"href": "https://github.com/Amiyadesi/time-runner"
+							}
+						]
+					},
+					{
+						"text": "EnhanceSaveSystem: Godot save plugin focused on maintainable save engineering: AES-GCM, gzip, atomic writes, and migrations.",
+						"links": [
+							{
+								"label": "EnhanceSaveSystem",
+								"href": "https://github.com/Amiyadesi/enahnce_save_system"
+							}
+						]
+					},
+					{
+						"text": "Mio's Windowanderer / Masquerade of Girls: multi-window puzzle and text-puzzle GameJam work.",
+						"links": [
+							{
+								"label": "Mio's Windowanderer",
+								"href": "https://github.com/Amiyadesi/ThatGameJam"
+							},
+							{
+								"label": "Masquerade of Girls",
+								"href": "https://github.com/Amiyadesi/ggj"
+							}
+						]
+					}
+				]
+			}
+		],
+		"learning": [
+			"Godot games and plugin development",
+			"Servers / Cloudflare / Docker",
+			"Obsidian writing and content pipelines",
+			"Boundaries and retrospectives for AI-assisted development",
+			"Story, drawing, and music fundamentals",
+			"Personal brand and project publishing"
+		],
+		"faq": {
+			"title": "Common Questions",
+			"items": [
+				{
+					"question": "What is sayori.org?",
+					"answer": "It is Amiya_desi's personal public entry point for the blog, Godot game projects, public tools, homelab and Cloudflare notes, Obsidian workflows, GitHub, Bilibili, and contact links."
+				},
+				{
+					"question": "What does the blog cover?",
+					"answer": "blog.sayori.org covers tutorials, homelab notes, Godot development, AI-assisted development retrospectives, resource indexes, project logs, and some personal daily echoes."
+				},
+				{
+					"question": "Is this a commercial service or local business site?",
+					"answer": "No. This is a personal public identity and work entry. It does not publish fake addresses, phone numbers, price lists, local service pages, or commercial delivery promises."
+				},
+				{
+					"question": "How can I contact or learn more?",
+					"answer": "Use me@sayori.org, or continue through the public links on this page: GitHub, Blog, Bilibili, Linux.do, GeoScore, the whiteboard, and the guestbook."
+				}
+			]
+		},
+		"contact": {
+			"email": "me@sayori.org",
+			"linksAriaLabel": "Public links",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/Amiyadesi"
+				},
+				{
+					"label": "Blog",
+					"href": "https://blog.sayori.org/"
+				},
+				{
+					"label": "Bilibili",
+					"href": "https://space.bilibili.com/3546919890585725"
+				},
+				{
+					"label": "YouTube",
+					"href": "https://www.youtube.com/@Amiya_desi"
+				},
+				{
+					"label": "X",
+					"href": "https://x.com/KirstAdali78973"
+				},
+				{
+					"label": "Linux.do",
+					"href": "https://linux.do/u/Amiya_desi"
+				},
+				{
+					"label": "NodeLoc",
+					"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+				}
+			]
+		}
+	},
+	"services": {
+		"ariaLabel": "Tools & Links",
+		"backLabel": "← Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "05 / Tools & Links",
+		"title": "Tools & Links",
+		"intro": "Public tools, project entries, and links: resource shelf, GeoScore, whiteboard, guestbook, and a tiny shop.",
+		"items": [
+			{
+				"index": "LINKS",
+				"title": "Resource Shelf",
+				"desc": "Tools, assets, and notes I keep coming back to. More drawer than directory.",
+				"href": "https://blog.sayori.org/posts/resource-index/"
+			},
+			{
+				"index": "BOARD",
+				"title": "Amiya Whiteboard",
+				"desc": "A small browser whiteboard for sketches, rough diagrams, and messy ideas.",
+				"href": "https://board.sayori.org/"
+			},
+			{
+				"index": "GEO",
+				"title": "GeoScore",
+				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints.",
+				"href": "https://geo.sayori.org/"
+			},
+			{
+				"index": "NOTE",
+				"title": "Guestbook",
+				"desc": "Leave a small note, hello, reading response, or feedback after wandering through.",
+				"href": "https://blog.sayori.org/guestbook/"
+			},
+			{
+				"index": "SHOP",
+				"title": "LDC Shop",
+				"desc": "A tiny points-trading experiment. Real listings will get clearer notes later.",
+				"href": "https://ldc.sayori.org/"
+			}
+		],
+		"footnote": "Other entries stay private until they are actually worth showing."
+	}
+}

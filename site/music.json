@@ -1,0 +1,406 @@
+{
+  "enable": true,
+  "showFloatingPlayer": true,
+  "floatingEntryMode": "fab",
+  "regionAware": true,
+  "shuffle": true,
+  "defaultProvider": "auto",
+  "tracks": [
+    {
+      "id": 1,
+      "title": "Ohayou Sayori!",
+      "artist": "Dan Salvato / Team Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "BUWuDdfe7v4",
+      "netease": "523658869"
+    },
+    {
+      "id": 2,
+      "title": "Your Reality",
+      "artist": "Dan Salvato / Team Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "CAL4WMpBNs0",
+      "netease": "523658880"
+    },
+    {
+      "id": 3,
+      "title": "Sayo-nara",
+      "artist": "Dan Salvato / Team Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "al1BNB8bKaE",
+      "netease": "523658877"
+    },
+    {
+      "id": 4,
+      "title": "カナデトモスソラ",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "GTlQhMRHXIg",
+      "netease": "2623481923"
+    },
+    {
+      "id": 5,
+      "title": "ロウワー",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "16M9oC-a5bY",
+      "netease": ""
+    },
+    {
+      "id": 6,
+      "title": "Bug",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "2Ii7UBMxWVw",
+      "netease": ""
+    },
+    {
+      "id": 7,
+      "title": "ザムザ",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "cchy8Tl5Oa8",
+      "netease": "3330704274"
+    },
+    {
+      "id": 8,
+      "title": "ウルトラマンの歌",
+      "artist": "Ultraman Series",
+      "category": "ultraman",
+      "cover": "cover/ultraman-placeholder.svg",
+      "youtube": "nEeClD9gFPY",
+      "netease": "1864231412"
+    },
+    {
+      "id": 9,
+      "title": "TAKE ME HIGHER",
+      "artist": "V6",
+      "category": "ultraman",
+      "cover": "cover/ultraman-placeholder.svg",
+      "youtube": "hSoD1fcc_Bg",
+      "netease": "2757491597"
+    },
+    {
+      "id": 10,
+      "title": "Sono Chi no Sadame",
+      "artist": "Hiroaki TOMMY Tominaga",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "owwmE6wBk4o",
+      "netease": ""
+    },
+    {
+      "id": 11,
+      "title": "BLOODY STREAM",
+      "artist": "Coda",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "hmpJqJLsR48",
+      "netease": ""
+    },
+    {
+      "id": 12,
+      "title": "STAND PROUD",
+      "artist": "Jin Hashimoto",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "83VIsPiAw3Y",
+      "netease": "2077887707"
+    },
+    {
+      "id": 13,
+      "title": "ドラえもんのうた",
+      "artist": "Doraemon Series",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "p0JFc5giu9U",
+      "netease": "1987949859"
+    },
+    {
+      "id": 14,
+      "title": "夢をかなえてドラえもん",
+      "artist": "Mao",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "T9R-NPhRi1M",
+      "netease": "28762749"
+    },
+    {
+      "id": 15,
+      "title": "ノマド",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "yvKp1yrqoZc",
+      "netease": ""
+    },
+    {
+      "id": 16,
+      "title": "再生",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "8wdgH9J8ajs",
+      "netease": "2623483207"
+    },
+    {
+      "id": 17,
+      "title": "悔やむと書いてミライ",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "1864932183"
+    },
+    {
+      "id": 18,
+      "title": "25時の情熱",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "2114394281"
+    },
+    {
+      "id": 19,
+      "title": "化けの花",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "2646181584"
+    },
+    {
+      "id": 20,
+      "title": "アイディスマイル",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "JTOM6fuXptg",
+      "netease": "1913268601"
+    },
+    {
+      "id": 21,
+      "title": "限りなく灰色へ",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "qtJ6U4c0_fQ",
+      "netease": "1913268598"
+    },
+    {
+      "id": 22,
+      "title": "ウルトラマンメビウス",
+      "artist": "Project DMM",
+      "category": "ultraman",
+      "cover": "cover/ultraman-placeholder.svg",
+      "youtube": "aTWNhgU54f0",
+      "netease": "4969164"
+    },
+    {
+      "id": 23,
+      "title": "英雄",
+      "artist": "doa",
+      "category": "ultraman",
+      "cover": "cover/ultraman-placeholder.svg",
+      "youtube": "zSB_f4ORMvQ",
+      "netease": "406347677"
+    },
+    {
+      "id": 24,
+      "title": "GEEDの証",
+      "artist": "濱田龍臣 / ボイジャー",
+      "category": "ultraman",
+      "cover": "cover/ultraman-placeholder.svg",
+      "youtube": "8fpBOoJFkwQ",
+      "netease": "494645653"
+    },
+    {
+      "id": 25,
+      "title": "Crazy Noisy Bizarre Town",
+      "artist": "THE DU",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "qlaRFRA4qFU",
+      "netease": ""
+    },
+    {
+      "id": 26,
+      "title": "Great Days",
+      "artist": "Karen Aoki / Daisuke Hasegawa",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "UztXN2rKQNc",
+      "netease": ""
+    },
+    {
+      "id": 27,
+      "title": "Fighting Gold",
+      "artist": "Coda",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "ub3EI4xw48c",
+      "netease": ""
+    },
+    {
+      "id": 28,
+      "title": "裏切り者のレクイエム",
+      "artist": "Daisuke Hasegawa",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "x06wB8UDxMI",
+      "netease": ""
+    },
+    {
+      "id": 29,
+      "title": "STONE OCEAN",
+      "artist": "ichigo from 岸田教団&THE明星ロケッツ",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "z6nbRXdDfN8",
+      "netease": ""
+    },
+    {
+      "id": 30,
+      "title": "ひまわりの約束",
+      "artist": "秦基博",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "rKsQ-3N-Bks",
+      "netease": ""
+    },
+    {
+      "id": 31,
+      "title": "ドラえもん",
+      "artist": "星野源",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "ypRTzt1KrF8",
+      "netease": "541480237"
+    },
+    {
+      "id": 32,
+      "title": "虹",
+      "artist": "菅田将暉",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "hkBbUf4oGfA",
+      "netease": ""
+    },
+    {
+      "id": 33,
+      "title": "ボクノート",
+      "artist": "スキマスイッチ",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "AeMRXJtg500",
+      "netease": ""
+    },
+    {
+      "id": 34,
+      "title": "Poem Panic!",
+      "artist": "Dan Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "",
+      "netease": "523658873"
+    },
+    {
+      "id": 35,
+      "title": "Okay, Everyone!",
+      "artist": "Dan Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "",
+      "netease": "523658871"
+    },
+    {
+      "id": 36,
+      "title": "Dreams of Love and Literature",
+      "artist": "Dan Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "",
+      "netease": "523658870"
+    },
+    {
+      "id": 37,
+      "title": "My Confession",
+      "artist": "Dan Salvato",
+      "category": "ddlc",
+      "cover": "cover/ddlc-placeholder.svg",
+      "youtube": "",
+      "netease": "523658876"
+    },
+    {
+      "id": 38,
+      "title": "Iなんです",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "2083741894"
+    },
+    {
+      "id": 39,
+      "title": "ジャックポットサッドガール",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "1864932184"
+    },
+    {
+      "id": 40,
+      "title": "携帯恋話",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "1864931358"
+    },
+    {
+      "id": 41,
+      "title": "君の夜をくれ",
+      "artist": "25時、ナイトコードで。",
+      "category": "25ji",
+      "cover": "cover/25ji-placeholder.svg",
+      "youtube": "",
+      "netease": "2083741892"
+    },
+    {
+      "id": 42,
+      "title": "ウルトラマンギンガの歌",
+      "artist": "ボイジャー",
+      "category": "ultraman",
+      "cover": "cover/ultraman-placeholder.svg",
+      "youtube": "",
+      "netease": "33051558"
+    },
+    {
+      "id": 43,
+      "title": "Yoshikage Kira Theme",
+      "artist": "Samuel Kim",
+      "category": "jojo",
+      "cover": "cover/jojo-placeholder.svg",
+      "youtube": "",
+      "netease": "1860839023"
+    },
+    {
+      "id": 44,
+      "title": "Universe",
+      "artist": "Official髭男dism",
+      "category": "doraemon",
+      "cover": "cover/doraemon-placeholder.svg",
+      "youtube": "",
+      "netease": "1810320628"
+    }
+  ]
+}

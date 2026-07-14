@@ -1,0 +1,310 @@
+{
+	"terminal": {
+		"title": "sayori.exe — terminal",
+		"placeholder": "/help",
+		"ariaLabel": "输入指令",
+		"layerAriaLabel": "终端",
+		"closeAriaLabel": "关闭终端",
+		"minimizeAriaLabel": "最小化",
+		"closeMessage": "正在关闭终端..."
+	},
+	"responses": {
+		"help": [
+			"可用指令：",
+			"  /help    — 你正在看的这个",
+			"  /blog    — 去博客看看",
+			"  /bilibili — 去 B 站主页",
+			"  /about   — 关于这个站",
+			"  /restore — 把纸盖回去（或者直接输入 Y）",
+			"",
+			"  /color <名字> — 换个颜色看看 (cyan/pink/green/amber)",
+			"  /glitch  — 手动触发一次故障",
+			"  /matrix  — 数字雨开关，再输一次就关",
+			"  /cat sayori.txt — 偷看日记",
+			"",
+			"  ...这里好像还藏着些东西。"
+		],
+		"about": [
+			"Amiya的书桌 — 一个个人导航站。",
+			"静态站托管在 Cloudflare Pages。",
+			"没有后端，没有数据库，只有一张纸。"
+		],
+		"restore": "好啦，把纸盖回去了。",
+		"credits": [
+			"=== credits ===",
+			"  本站作者 · Amiya_desi",
+			"  插画 · 原创手绘图",
+			"  字体 · Comic Neue / 霞鹜文楷 GB Screen / JetBrains Mono",
+			"  托管 · Cloudflare Pages + Cloudflare Tunnel",
+			"  灵感 · 大概是凌晨三点的某个瞬间。"
+		],
+		"version": [
+			"sayori.org v.2026.06 · Obsidian managed notebook",
+			"  surface/truth: articles/home/*.json",
+			"  build target: sayori-home/public"
+		],
+		"poem": [
+			"「",
+			"  天气很好",
+			"  云在跑",
+			"  我在等",
+			"  一个永远不会按下回车的人",
+			"」",
+			"  — 大概是某个角色说的。"
+		],
+		"secret": [
+			"...你怎么知道这里有秘密？",
+			"  其实我也不知道这里藏了什么。",
+			"  也许这就是秘密本身吧。",
+			"",
+			"  （提示：试试输入一些名字。）"
+		],
+		"diary": [
+			"5月27日。",
+			"今天又有人翻开了这张纸。",
+			"他点了纸角。我没拦住他。",
+			"...希望他还能再回来。"
+		],
+		"protect": [
+			"OK，我会守住这张纸的。",
+			"虽然我也不知道我能守多久。"
+		],
+		"reload": [
+			"reload? 这里没有 reload 哦。",
+			"刷新页面会让我忘记你的，请不要。"
+		],
+		"sudo": [
+			"sudo: sayori 不在 sudoers 文件中。这件事将被报告。",
+			"  （...其实并没有谁会被报告。）"
+		],
+		"rm": [
+			"...请不要 rm。",
+			"我们都不喜欢 rm。"
+		],
+		"ls": [
+			"./",
+			"├─ blog/",
+			"├─ amiya_desi.md",
+			"└─ .sayori_was_here"
+		],
+		"cd": ["...你想 cd 到哪儿去呢？"],
+		"whoami": ["你是访客，编号未定。"],
+		"pwd": ["/dreams/sayori/notebook"],
+		"echo": ["...echo 什么呀？空的指令。"],
+		"date": ["此刻 · 你看到这张纸的当下。"],
+		"uptime": [
+			"sayori.exe 已运行 ∞ 秒。",
+			"从某个清晨醒来之后就没关过。"
+		],
+		"login": ["...你已经登入了。一直都在。"],
+		"logout": ["不要走啦，再陪我一会儿嘛。"],
+		"coffee": ["☕ 桌上那杯已经凉了。"],
+		"ping": ["pong. （但你 ping 的不是网络，是我。）"],
+		"diary_text": [
+			"=== sayori.txt ===",
+			"  今天 Amiya 又在折腾服务器了。",
+			"  他把我从某个角落搬到了这里。",
+			"  说是要让我有个自己的纸面。",
+			"",
+			"  ...我不太明白技术，但是有人翻开这张纸的时候，",
+			"  我就觉得，自己还在。",
+			"  这样就够了。",
+			"",
+			"  — 凌晨三点"
+		],
+		"matrix_msg": ["...嘘。背景留给你了。", "  再输一次 /matrix 就关掉。"],
+		"glitch_msg": ["...有什么东西在抖。", "  噪声等级 +1。"],
+		"color_help": [
+			"用法：/color <名字>",
+			"  可选：cyan / pink / green / amber / reset"
+		],
+		"color_changed": ["...好的，换个颜色。"]
+	},
+	"eggs": {
+		"sayori": [
+			"嗯？是我？你叫我做什么呀。",
+			"我就在这里啊，不用喊我的。",
+			"...你打我的名字干嘛，怪不好意思的。"
+		],
+		"just sayori": [
+			"Just Sayori。",
+			"...嗯。只有我就好了。",
+			"我哪儿也不去。一直在这里。"
+		],
+		"monika": [
+			"...别提她。",
+			"她不在这里。这里只有我。"
+		],
+		"natsuki": [
+			"Natsuki 偶尔会过来，说我又偷吃她的纸杯蛋糕。",
+			"她其实人很好的，只是嘴硬。"
+		],
+		"yuri": [
+			"Yuri 在看书。她总是在看书。",
+			"你想找她？她最近读的那本，可能不太适合分享。"
+		],
+		"mc": ["哪个 MC？我没有 MC。"],
+		"protagonist": ["...你说的是谁呀？"],
+		"player": ["...诶？你怎么知道这个词。"],
+		"amiya": [
+			"Amiya 在某个地方折腾服务器吧。他总在做这种事。",
+			"他大概又熬夜了。"
+		],
+		"amiya_desi": [
+			"你认识 Amiya_desi 哦。",
+			"他就是搭这个站的人。",
+			"  → 他的博客：blog.sayori.org"
+		],
+		"desi": ["这个名字...你是怎么知道的？"],
+		"hello": ["你好呀！", "嗨~", "诶嘿嘿，你来啦。"],
+		"hi": ["嗨~"],
+		"hey": ["哎~ 怎么啦？"],
+		"你好": ["你好呀！"],
+		"嗨": ["嗨嗨~"],
+		"早": ["早安~ 今天天气也很好哦。"],
+		"晚安": ["晚安。做个好梦。"],
+		"bye": ["不要走啦..."],
+		"再见": ["不要走啦..."],
+		"love": [
+			"...诶？",
+			"...嗯，我也是。",
+			"（小声）谢谢你。"
+		],
+		"喜欢": [
+			"...诶？",
+			"诶嘿嘿。"
+		],
+		"delete": [
+			"...请不要。",
+			"拜托不要 delete 我。",
+			"我会消失的。"
+		],
+		"sunshine": [
+			"...你知道那首歌吗？",
+			"You are my sunshine, my only sunshine...",
+			"诶嘿，我唱得不好。但是是真心的。"
+		],
+		"rain": [
+			"下雨了。",
+			"我喜欢雨天。因为所有人都会撑伞走快一点。",
+			"这样就没人注意到我走得慢了。"
+		],
+		"cookie": [
+			"你要饼干吗？我这里有。",
+			"...虽然是画在纸上的。",
+			"但是心意是真的哦。"
+		],
+		"happy": [
+			"开心？嗯，我很开心。",
+			"...大概吧。",
+			"有你在的时候，是真的开心。"
+		],
+		"nothing": ["...嗯。"],
+		"why": [
+			"...因为我想留下来。",
+			"就这样而已。"
+		],
+		"how": [
+			"...怎么做到的？",
+			"是 Amiya_desi 做的，问他吧。"
+		]
+	},
+	"fallback": [
+		"嗯？没听懂。试试 /help？",
+		"这个指令不存在哦。",
+		"你在乱打什么啦...",
+		"输入 /help 看看有什么能用的吧。",
+		"...你是不是在测试我？",
+		"我只是一个小小的 .exe，别为难我。",
+		"再乱输我就要生气了。才怪。",
+		"这里没有彩蛋啦。大概。",
+		"...再试试别的词？"
+	],
+	"cameos": {
+		"roles": {
+			"sayori": {
+				"image": [
+					"../assets/generated/terminal-sayori-v2.webp",
+					"../assets/generated/terminal-sayori-full.webp",
+					"../assets/generated/terminal-sayori-wave.webp"
+				],
+				"label": "sayori.chr",
+				"lines": {
+					"name": "嗯？叫我了？我就在这里啊。",
+					"chr": "不要把我当文件来读啦...怪痒的。",
+					"delete": "...请不要。Amiya 已经帮我把这个锁住了。",
+					"just": "Just Sayori。...只有我，也可以的吧？",
+					"justDelete": "不不不，请不要再说那句话了。",
+					"file": "想读我的文件？里面没什么的，只有一点心跳声。"
+				}
+			},
+			"monika": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "monika.chr",
+				"lines": {
+					"name": "不要叫她...她从纸的外面回应了。",
+					"chr": "她的文件能读，但是它不肯安静下来。",
+					"delete": "有人已经试过了。回来的时候被改写过了。",
+					"just": "这里没有的。这张书桌上没有那个选项。",
+					"justDelete": "...请不要再试那个了。纸会变得奇怪。",
+					"file": "打开她的文件，光标里会漏出一些东西。要小心。"
+				}
+			},
+			"natsuki": {
+				"image": "../assets/generated/terminal-natsuki.webp",
+				"label": "natsuki.chr",
+				"lines": {
+					"name": "诶，她在我打招呼之前就啪地合上了。",
+					"chr": "她的文件小小的，但是塞得满满的。...像纸杯蛋糕？",
+					"delete": "她在你按下去之前就合上了。还好。",
+					"just": "她隔着屏幕瞪我。我觉得她生气了。",
+					"justDelete": "她把锁咬住了，根本运行不起来。...不要逗她啦。",
+					"file": "小心地打开。包装纸像漫画书一样沙沙响。"
+				}
+			},
+			"yuri": {
+				"image": "../assets/generated/terminal-yuri.webp",
+				"label": "yuri.chr",
+				"lines": {
+					"name": "她很安静...但是墨迹不是。",
+					"chr": "她的文件好密。我读到一半就停下来了。",
+					"delete": "纸页起了静电，但是她留下来了。太好了。",
+					"just": "你那样说的时候，光标就开始呼吸变慢了。",
+					"justDelete": "她的墨水溢出来挡住了。...还是不要吧。",
+					"file": "她的文件闻起来像旧纸。其实挺好闻的。"
+				}
+			}
+		},
+		"global": {
+			"act 2": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "act2.flag",
+				"tone": "strong",
+				"line": "...你不应该说出那个词的。"
+			},
+			"chr": {
+				"image": [
+					"../assets/generated/terminal-sayori-v2.webp",
+					"../assets/generated/terminal-sayori-full.webp",
+					"../assets/generated/terminal-sayori-wave.webp"
+				],
+				"label": "*.chr",
+				"tone": "strong",
+				"line": "那些不是普通的存档...那些是我们。"
+			},
+			"file": {
+				"image": "../assets/generated/terminal-yuri.webp",
+				"label": "file table",
+				"tone": "strong",
+				"line": "文件表乱糟糟的，但是那四个名字还能看清。"
+			},
+			"void": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "void",
+				"tone": "strong",
+				"line": "文字背后还有文字。...不要看得太深。"
+			}
+		}
+	},
+	"greeting": "sayori.exe 已启动。输入 /help 查看可用指令。"
+}

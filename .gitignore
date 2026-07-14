@@ -1,0 +1,6 @@
+.obsidian/
+.env
+user_archive-*/
+*.bak
+*.pem
+*.key

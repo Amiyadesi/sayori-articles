@@ -1,0 +1,62 @@
+{
+  "avatar": "avatar-sayori-optimized.jpg",
+  "name": "Amiya_desi",
+  "bio": "Amiya_desi 参上！这里是 Amiya_desi 的博客！看到我摸鱼可以提醒我要学习了！\n我期待数据能拟合出我，帮我解决那些我一个人想不明白的东西，所以我要把这些都记录下来",
+  "typewriter": {
+    "enable": true,
+    "speed": 80
+  },
+  "links": [
+    {
+      "name": "Home",
+      "icon": "material-symbols:home-pin-outline",
+      "url": "https://sayori.org/"
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "url": "https://github.com/Amiyadesi"
+    },
+    {
+      "name": "Bilibili",
+      "icon": "simple-icons:bilibili",
+      "url": "https://space.bilibili.com/3546919890585725"
+    },
+    {
+      "name": "YouTube",
+      "icon": "simple-icons:youtube",
+      "url": "https://www.youtube.com/@Amiya_desi"
+    },
+    {
+      "name": "X",
+      "icon": "simple-icons:x",
+      "url": "https://x.com/KirstAdali78973"
+    },
+    {
+      "name": "Linux DO",
+      "icon": "material-symbols:forum-outline",
+      "image": "/assets/profile/linuxdo.svg",
+      "url": "https://linux.do/u/Amiya_desi"
+    },
+    {
+      "name": "NodeLoc",
+      "icon": "material-symbols:forum-outline",
+      "url": "https://www.nodeloc.com/u/amiya_desi/summary"
+    },
+    {
+      "name": "RSS",
+      "icon": "material-symbols:rss-feed",
+      "url": "https://blog.sayori.org/rss.xml"
+    },
+    {
+      "name": "Ko-fi",
+      "icon": "material-symbols:local-cafe",
+      "url": "https://ko-fi.com/amiya_desi/tip"
+    },
+    {
+      "name": "爱发电",
+      "icon": "material-symbols:favorite",
+      "url": "https://ifdian.net/a/amiya_desi/plan"
+    }
+  ]
+}
