@@ -1,0 +1,69 @@
+{
+  "links": [
+    {
+      "preset": "Home"
+    },
+    {
+      "preset": "Archive"
+    },
+    {
+      "preset": "Anime"
+    },
+    {
+      "preset": "Timeline"
+    },
+    {
+      "name": "随笔",
+      "url": "/essays/",
+      "icon": "material-symbols:ink-pen"
+    },
+    {
+      "preset": "Friends"
+    },
+    {
+      "name": "留言",
+      "url": "/guestbook/",
+      "icon": "material-symbols:chat"
+    },
+    {
+      "name": "更多",
+      "url": "#",
+      "icon": "material-symbols:dashboard",
+      "children": [
+        {
+          "name": "关于",
+          "url": "/about/",
+          "icon": "material-symbols:person"
+        },
+        {
+          "name": "开往",
+          "url": "https://www.travellings.cn/go.html",
+          "external": true,
+          "icon": "material-symbols:train"
+        },
+        {
+          "name": "资源索引",
+          "url": "/posts/resource-index/",
+          "icon": "material-symbols:bookmarks"
+        },
+        {
+          "name": "赞助",
+          "url": "/sponsor/",
+          "icon": "material-symbols:favorite"
+        },
+        {
+          "name": "主入口",
+          "url": "https://sayori.org/",
+          "external": true,
+          "icon": "material-symbols:home-pin"
+        },
+        {
+          "name": "LDC 商店",
+          "url": "https://ldc.sayori.org/",
+          "external": true,
+          "icon": "material-symbols:storefront"
+        }
+      ]
+    }
+  ]
+}

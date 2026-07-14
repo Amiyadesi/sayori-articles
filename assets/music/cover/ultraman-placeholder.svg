@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#1d2d50"/>
+  <path d="M256 74l48 130 138 8-108 86 34 134-112-74-112 74 34-134-108-86 138-8z" fill="#e63946"/>
+  <text x="256" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#fff">ULTRA</text>
+</svg>
