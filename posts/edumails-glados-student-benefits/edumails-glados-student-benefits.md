@@ -2,9 +2,9 @@
 title: 学生权益导航：教育邮箱别闲着
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-07-11
-lastEdited: 2026-07-11
-updateCount: 5
+updated: 2026-07-15
+lastEdited: 2026-07-15
+updateCount: 6
 description: 我会先拿 GitHub、JetBrains 和 Zed，再按需要用 YX Flow、GLaDOS、阿里云和 Pages
 image: ""
 tags:
@@ -30,6 +30,8 @@ alias: ""
 教育邮箱别只拿来收学校通知
 
 我自己的顺序很简单，先把 GitHub、JetBrains 这类长期能用的申请了，再看 AI、网络和服务器
+
+这里还有一个别人整理的总览[https://nav.edumails.cn](https://nav.edumails.cn)可以看一下，这里给出我领取过的资源
 
 ## 先拿开发工具
 
