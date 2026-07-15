@@ -20,6 +20,17 @@ node scripts/verify-public-content.mjs
 The blog and home deployment workflows check out this repository into `content/`
 and pass `CONTENT_DIR=./content` before building.
 
+## Publishing boundary
+
+The local Obsidian vault remains private. Its publish command mirrors an
+explicit public-content allowlist into this repository, runs the verification
+above, and then commits here. Do not add `.obsidian`, logs, drafts, backups,
+machine configuration, or server files to this repository.
+
+After a content push, the local publisher requests the standalone `sayori-blog`
+and `sayori-home` GitHub Actions workflows. Those workflows read this repository
+at `main`; they do not read the private vault.
+
 ## License
 
 Unless a file says otherwise, original text and structured content are available
