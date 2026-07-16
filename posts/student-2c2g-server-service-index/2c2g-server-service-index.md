@@ -8,12 +8,10 @@ updateCount: 3
 description: "站长的 2C2G 阿里云轻量服务器实战配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索网关。包含真实内存占用和不推荐列表。"
 image: ""
 tags:
-  - 教程
-  - 2C2G
+  - 学生服务器
   - Docker
   - 自托管
-  - 学生向
-category: 服务器探索
+category: 建站与自托管
 draft: false
 alias: ""
 ---
@@ -392,4 +390,3 @@ Swap:          2.0Gi       987Mi       1.0Gi
 但这就够了。
 
 服务器不是配置完就结束，它会逼着你认真对待备份、安全、监控。这其实是好事。
-

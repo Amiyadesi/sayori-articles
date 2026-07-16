@@ -8,13 +8,10 @@ updateCount: 7
 description: 把之前零散记录的互联网社区，整理成一个 wiki 式的小型论坛列表仓库和独立站，也欢迎大家一起提交 PR。
 image: ""
 tags:
-  - 资源整合
   - 中文社区
-  - 小众社区
   - 论坛
-  - GitHub
-  - 互联网观察
-category: 互联网观察
+  - 开源
+category: 互联网与社区
 draft: false
 alias: ""
 ---

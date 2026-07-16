@@ -10,10 +10,8 @@ image: ""
 tags:
   - Bangumi
   - Doki Chinese Club
-  - DDLC
   - 中文社区
-  - 互联网观察
-category: 互联网观察
+category: 互联网与社区
 draft: false
 alias: ""
 ---

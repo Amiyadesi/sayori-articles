@@ -10,11 +10,8 @@ image: ""
 tags:
   - 独立博客
   - GEO
-  - GEOFlow
-  - 内容工程
   - AI 写作
-  - 随笔
-category: 日常回声
+category: 个人记录
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

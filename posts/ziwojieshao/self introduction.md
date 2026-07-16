@@ -8,11 +8,10 @@ updateCount: 2
 description: 隔一段时间重新介绍一次自己吧。毕竟几个月前的我还不知道那些社区，也没想到自己会去搭网站、做视频，甚至真的挂科
 image: ""
 tags:
-  - 自我介绍
   - 成长记录
   - 独立游戏
   - Godot
-category: 日常回声
+category: 个人记录
 draft: false
 alias: ""
 ---

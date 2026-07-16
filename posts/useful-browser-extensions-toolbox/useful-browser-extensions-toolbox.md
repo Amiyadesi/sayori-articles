@@ -8,11 +8,10 @@ updateCount: 1
 description: 油猴脚本、沉浸式翻译、Bitwarden、Global Speed、SimilarSites、AI 辅助插件和隐私插件的简短整理
 image: ""
 tags:
-  - 资源整合
-  - 浏览器插件
+  - 浏览器扩展
   - 效率工具
-  - 隐私工具
-category: 资源分享
+  - 隐私
+category: 工具与资源
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

@@ -8,12 +8,10 @@ updateCount: 6
 description: "整理几个还能找到免费 AI API 的入口，以及适合查公益站和免费额度的导航"
 image: ""
 tags:
-  - 教程
   - AI API
   - Claude Code
-  - cc-switch
   - 免费资源
-category: AI工具
+category: AI 与工作流
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

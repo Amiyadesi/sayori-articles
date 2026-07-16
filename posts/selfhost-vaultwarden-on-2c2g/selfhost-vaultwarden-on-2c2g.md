@@ -8,13 +8,10 @@ updateCount: 4
 description: 用 Docker Compose 在学生服务器上部署 Vaultwarden，并把 HTTPS、关闭注册、备份、恢复演练这些真正重要的部分讲清楚。
 image: ""
 tags:
-  - 教程
   - Vaultwarden
-  - Bitwarden
   - Docker
-  - Cloudflare Tunnel
-  - 备份
-category: 服务器探索
+  - 密码管理
+category: 建站与自托管
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

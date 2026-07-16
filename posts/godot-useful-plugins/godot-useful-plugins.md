@@ -9,8 +9,8 @@ description: ""
 image: ""
 tags:
   - Godot
-  - Plugins
-  - 效率工具
+  - 插件
+  - 开发工具
 category: 游戏开发
 draft: false
 alias: ""

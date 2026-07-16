@@ -8,12 +8,10 @@ updateCount: 8
 description: "给大学生看的 AnyRouter 注册、SharedChat GPT 额度领取和 cc-switch 配置记录，配合我已经发到 B 站的视频看。"
 image: ""
 tags:
-  - 教程
-  - AI 工具
   - Claude Code
-  - 学生向
-  - 视频配套
-category: AI工具
+  - AI 额度
+  - 学生资源
+category: AI 与工作流
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

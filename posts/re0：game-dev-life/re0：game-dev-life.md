@@ -8,11 +8,9 @@ updateCount: 0
 description: 即将熬过该死的期末周，对于过去的总结，未来的思考，汇聚成一篇文章
 image: ""
 tags:
-  - gamedev
   - 独立游戏
-  - 复盘
-  - 成长回顾
-category: 日常回声
+  - 成长记录
+category: 游戏开发
 draft: false
 alias: re0game-dev-life
 ---
