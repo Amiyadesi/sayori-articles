@@ -9,9 +9,8 @@ description: ""
 image: ""
 tags:
   - 搜索
-  - 自定义
-  - 资源整合
-category: 服务器探索
+  - 自托管
+category: 建站与自托管
 draft: false
 alias: ""
 ---

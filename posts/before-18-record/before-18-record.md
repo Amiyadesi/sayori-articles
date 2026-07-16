@@ -8,10 +8,9 @@ updateCount: 1
 description: 一段很长的自我故事介绍，关于减肥、运动、做游戏、踩坑，以及第一次真正把想法做出来。
 image: ""
 tags:
-  - 随笔
+  - 成长记录
   - 独立游戏
-  - 成长回顾
-category: 日常回声
+category: 个人记录
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

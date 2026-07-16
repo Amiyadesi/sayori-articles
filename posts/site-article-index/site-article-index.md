@@ -8,10 +8,9 @@ updateCount: 1
 description: 把本站和建站、服务器、AI 资源、社区、创作工具相关的文章单独整理出来
 image: ""
 tags:
-  - 资源整合
   - 站内导航
   - 独立博客
-category: 资源分享
+category: 工具与资源
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

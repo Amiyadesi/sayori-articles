@@ -8,13 +8,10 @@ updateCount: 6
 description: 从 DNSHE 免费二级域名、Cloudflare DNS 到评论系统、开往、萌备、十年之约，给刚搭好的博客补上域名、互动和一点被看见的机会。
 image: ""
 tags:
-  - 教程
-  - 免费域名
-  - DNSHE
+  - 域名
   - Cloudflare
   - 独立博客
-  - 站长社区
-category: 服务器探索
+category: 建站与自托管
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

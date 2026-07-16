@@ -8,12 +8,9 @@ updateCount: 5
 description: 给 Another Dayu 博客作者 9 问留的一份答卷
 image: ""
 tags:
-  - 随笔
   - 独立博客
-  - 问卷
   - 写作
-  - 草稿
-category: 日常回声
+category: 个人记录
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

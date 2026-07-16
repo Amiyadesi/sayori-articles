@@ -8,11 +8,8 @@ updateCount: 1
 description: 第一篇文章，给这个小小的个人博客开门。
 image: ""
 tags:
-  - 随笔
-  - hello
-  - blog
-  - Sayori
-category: 日常回声
+  - 独立博客
+category: 个人记录
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

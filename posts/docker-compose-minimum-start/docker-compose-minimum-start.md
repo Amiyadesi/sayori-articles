@@ -8,11 +8,9 @@ updateCount: 3
 description: "给刚拿到服务器的人写的 Docker 最小入门：容器是什么、Compose 文件怎么读、怎么启动停止更新删除，不讲原理只讲能用。"
 image: ""
 tags:
-  - 教程
   - Docker
-  - Docker Compose
-  - 新手友好
-category: 服务器探索
+  - 新手入门
+category: 建站与自托管
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

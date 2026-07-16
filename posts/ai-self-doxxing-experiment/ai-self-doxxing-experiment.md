@@ -8,12 +8,10 @@ updateCount: 1
 description: 我让 AI 去搜索 Amiya_desi 这个名字，想看看公开互联网我目前的画像
 image: ""
 tags:
-  - 随笔
   - AI
   - 隐私
-  - 互联网痕迹
-  - 日常回声
-category: 日常回声
+  - 数字足迹
+category: 个人记录
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

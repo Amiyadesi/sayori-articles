@@ -8,12 +8,10 @@ updateCount: 3
 description: 从两个浏览器收藏栏整理出来的公开资源索引，偏游戏开发、素材、美术、音乐、AI 和学习。
 image: ""
 tags:
-  - 资源整合
-  - resources
-  - gamedev
-  - tools
-  - bookmarks
-category: 资源分享
+  - 创作资源
+  - 游戏开发
+  - 学习资源
+category: 工具与资源
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

@@ -8,13 +8,10 @@ updateCount: 1
 description: 记录 Disroot 这个开源服务平台，邮箱、云盘、XMPP、CryptPad、Forgejo、FEDIsroot 和注册时那个有点有趣的问题
 image: ""
 tags:
-  - Disroot
   - 开源服务
   - 隐私
-  - 邮箱
   - Fediverse
-  - 资源分享
-category: 资源分享
+category: 工具与资源
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

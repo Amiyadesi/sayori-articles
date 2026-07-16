@@ -8,13 +8,10 @@ updateCount: 3
 description: 用 2C2G 学生服务器试跑 Fast Note Sync Service，给 Obsidian 多端同步、备份、REST/MCP 接口留一条私有路线。
 image: ""
 tags:
-  - 教程
   - Obsidian
-  - Fast Note Sync
   - Docker
   - 笔记同步
-  - MCP
-category: 服务器探索
+category: 建站与自托管
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"
@@ -172,7 +169,6 @@ AI 能读写你的笔记，意味着权限边界要更清楚：
 正常个人使用应该还好
 
 真正占资源的是附件数量、同步频率、还有你是不是把一整个几十 GB 的素材库塞进 Obsidian
-
 
 
 

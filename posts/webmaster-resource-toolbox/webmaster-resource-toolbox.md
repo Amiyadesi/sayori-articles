@@ -8,11 +8,10 @@ updateCount: 5
 description: 域名、托管、评论、监控、自托管、Cloudflare、统计、站长社区和博客框架的外部资源入口
 image: ""
 tags:
-  - 资源整合
-  - 站长工具箱
+  - 站长工具
   - 独立博客
   - 自托管
-category: 资源分享
+category: 工具与资源
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

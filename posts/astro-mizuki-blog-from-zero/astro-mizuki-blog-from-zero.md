@@ -8,13 +8,10 @@ updateCount: 4
 description: 从注册 GitHub 和 Cloudflare 开始，用我的 Obsidian 博客模板写文章，再用 GitHub Actions 发布到 Cloudflare Pages。
 image: ""
 tags:
-  - 教程
   - Astro
-  - Mizuki
+  - Cloudflare
   - Obsidian
-  - Cloudflare Pages
-  - GitHub
-category: 服务器探索
+category: 建站与自托管
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"
