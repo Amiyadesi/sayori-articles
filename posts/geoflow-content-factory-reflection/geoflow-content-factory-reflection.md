@@ -14,7 +14,7 @@ tags:
 category: 个人记录
 draft: false
 aiSummary:
-  generatedAt: 2026-07-11
+  generatedAt: "2026-07-11"
   model: codex-local
   items:
     - 看完 GEOFlow 后一度想给博客套上内容工厂
