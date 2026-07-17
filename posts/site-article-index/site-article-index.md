@@ -87,4 +87,7 @@ alias: ""
 
 | 文章 | 内容 |
 | --- | --- |
+| [[booom-jam-boundary-window-postmortem|Boundary Window 做完以后，我决定不把它硬扩成长篇]] | GameJam 项目复盘 |
+| [[daily-reflection-projects-and-self-doubt|我也会怀疑自己有没有天赋，但产出还是要继续]] | 项目停滞和自我怀疑 |
+| [[current-public-plan|最近的公开计划书]] | 近期公开计划 |
 | [[blog-author-9-questions-answer|博客作者 9 问答卷]] | 博客作者自述 |
