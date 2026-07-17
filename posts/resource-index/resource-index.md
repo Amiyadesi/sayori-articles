@@ -37,7 +37,6 @@ aiSummary:
 
 - [[site-article-index|本站文章索引]] — 站内文章总入口
 - [[webmaster-resource-toolbox|个人站长外部资源清单]] — 域名、托管、监控、评论、友链、站长社区外部链接
-- [[free-ai-api-landscape|不花钱能用的 AI API 全景]] — 学生能免费或低成本调用的大模型 API
 - [[aliyun-student-300-voucher-guide|阿里云学生 300 元代金券能买什么]] — ECS、轻量、无影、百炼、ACA 认证
 - [[cloudflare-free-tier-developer-guide|Cloudflare 免费层能做什么]] — Pages、Workers、R2、Tunnel、Email Routing
 - [[2c2g-server-service-index|2C2G 学生服务器能跑什么]] — 自托管服务清单

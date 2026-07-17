@@ -14,7 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
+        with:
+          repository: Amiyadesi/sayori-blog
+          ref: main
+          path: .ci/sayori-blog
       - uses: actions/setup-node@v6
         with:
           node-version: 22
+      - run: node --test scripts/verify-public-content.test.mjs
       - run: node scripts/verify-public-content.mjs
+      - name: Validate the real Blog content sync contract
+        working-directory: .ci/sayori-blog
+        env:
+          CONTENT_DIR: ${{ github.workspace }}
+        run: node scripts/sync-content.js
