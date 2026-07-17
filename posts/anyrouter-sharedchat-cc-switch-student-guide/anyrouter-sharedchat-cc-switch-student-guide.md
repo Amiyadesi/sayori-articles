@@ -2,9 +2,9 @@
 title: "大学生怎么用 AnyRouter、SharedChat 和 cc-switch 管理 AI 额度"
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-06-27
-lastEdited: 2026-06-27
-updateCount: 8
+updated: 2026-07-17
+lastEdited: 2026-07-17
+updateCount: 9
 description: "给大学生看的 AnyRouter 注册、SharedChat GPT 额度领取和 cc-switch 配置记录，配合我已经发到 B 站的视频看。"
 image: ""
 tags:
@@ -53,6 +53,10 @@ cc-switch 是桌面端配置管理工具，GitHub 仓库是 [farion1231/cc-switc
 还有一个可以一起看的入口是 AgentRouter：[https://agentrouter.org/register?aff=a572](https://agentrouter.org/register?aff=a572)
 
 它可以用 GitHub 和 Linux Do 账号注册 / 登录，模型列表里能看到 `gpt-5.5` 和 Claude 系列。如果能够注册，可以把它当成备用路线
+
+注册要求在这里
+
+![[Pasted image 20260717102951.png]]
 
 ![[agentrouter-model-list.png]]
 

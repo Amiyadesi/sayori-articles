@@ -2,10 +2,10 @@
 title: 我差点给个人博客套上内容工厂
 published: 2026-06-24
 created: 2026-06-24
-updated: 2026-06-25
-lastEdited: 2026-06-25
-updateCount: 3
-description: 看完 GEOFlow 以后，我本来想把它接进博客，后来发现我真正需要的不是更多页面，而是更清楚地保护自己的写作边界。
+updated: 2026-07-17
+lastEdited: 2026-07-17
+updateCount: 4
+description: 看完 GEOFlow 以后，我本来想把它接进博客，后来发现我真正需要的不是更多页面，而是更清楚地保护自己的写作边界
 image: ""
 tags:
   - 独立博客
@@ -14,15 +14,14 @@ tags:
 category: 个人记录
 draft: false
 aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
+  generatedAt: 2026-07-11
+  model: codex-local
   items:
-    - "看完 GEOFlow 后一度想给博客套上内容工厂"
-    - "后来发现个人站不该只追求页面数量"
-    - "把重点放回写作边界和真实内容"
+    - 看完 GEOFlow 后一度想给博客套上内容工厂
+    - 后来发现个人站不该只追求页面数量
+    - 把重点放回写作边界和真实内容
 alias: ""
 sourceLink: https://github.com/yaojingang/GEOFlow
-
 ---
 
 我一开始看到 [GEOFlow](https://github.com/yaojingang/geoflow) 的时候，其实有点心动
