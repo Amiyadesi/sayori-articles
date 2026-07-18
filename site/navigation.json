@@ -56,12 +56,6 @@
           "url": "https://sayori.org/",
           "external": true,
           "icon": "material-symbols:home-pin"
-        },
-        {
-          "name": "LDC 商店",
-          "url": "https://ldc.sayori.org/",
-          "external": true,
-          "icon": "material-symbols:storefront"
         }
       ]
     }
