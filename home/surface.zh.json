@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya的书桌 · sayori.org",
-		"description": "Amiya的书桌是 Amiya_desi 的个人公开入口，收纳博客文章、Godot 游戏作品、服务器和 Cloudflare 折腾、Obsidian 写作流、公开小工具与联系方式。",
+		"description": "Amiya的书桌是 Amiya_desi 的个人公开入口，收纳博客文章、Godot 游戏作品、服务器和 Cloudflare 折腾、Obsidian 写作流、公共数字服务与联系方式。",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -53,8 +53,8 @@
 			},
 			{
 				"num": "05",
-				"title": "公开工具与入口",
-				"desc": "— 工具、项目和链接",
+				"title": "公共服务",
+				"desc": "— 工具、项目与使用边界",
 				"action": "services"
 			},
 			{
@@ -91,7 +91,7 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "02 / 网站介绍",
 		"title": "先看一支介绍",
-		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、公开工具与入口，以及我为什么把它们放在同一张书桌上。",
+		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、留言板、公共服务和项目入口，以及我为什么把它们放在同一张书桌上。",
 		"videoTitle": "sayori.org 网站介绍 - Bilibili",
 		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
 		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
@@ -103,14 +103,14 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "04 / 超级个体名片",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi 是我长期经营的个人公开身份：围绕 Godot 游戏、个人网站、服务器折腾、Cloudflare 工作流、Obsidian 写作流和 AI 辅助开发做作品、工具、文章与复盘。这个入口负责把稳定可公开的东西放在一起：博客文章、GameJam 作品、GitHub 项目、GeoScore、小白板、留言板和公开联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
+		"intro": "Amiya_desi 是我长期经营的个人公开身份：围绕 Godot 游戏、个人网站、服务器折腾、Cloudflare 工作流、Obsidian 写作流和 AI 辅助开发做作品、工具、文章与复盘。这个入口负责把稳定可公开的东西放在一起：博客文章、GameJam 作品、GitHub 项目、GeoScore、公共服务说明、留言板和公开联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
 		"columns": [
 			{
 				"title": "公开方向",
 				"items": [
 					"游戏开发：Godot 4.x、GDScript、C#，能做 2D 玩法原型、状态机、事件总线、对象池、资源/存档系统和编辑器工具。",
 					"玩法表达：平台跳跃、时间回溯、输入缓冲/容错、关卡节奏、手感调参，以及偏 meta 的叙事和解谜原型。",
-					"独立发布面：个人网站、博客、Bilibili、GitHub、GameJam 作品和公开工具与入口，正在把作品集做成可持续增长的入口。",
+					"独立发布面：个人网站、博客、Bilibili、GitHub、GameJam 作品和公共数字服务，正在把作品集做成可持续增长的入口。",
 					"Web / 服务器：静态站、博客内容管线、Linux、Docker、Cloudflare Pages / Tunnel 和日常运维脚本。"
 				]
 			},
@@ -185,7 +185,7 @@
 				},
 				{
 					"question": "可以从哪里联系或继续了解？",
-					"answer": "可以通过 me@sayori.org 联系，也可以从这个页面进入 GitHub、博客、Bilibili、Linux.do、GeoScore、小白板和留言板。"
+					"answer": "可以通过 me@sayori.org 联系，也可以从这个页面进入 GitHub、博客、Bilibili、Linux.do、GeoScore、公共服务说明和留言板。"
 				}
 			]
 		},
@@ -225,44 +225,45 @@
 		}
 	},
 	"services": {
-		"ariaLabel": "公开工具与入口",
+		"ariaLabel": "公共服务",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "05 / 公开工具与入口",
-		"title": "公开工具与入口",
-		"intro": "这里放工具、项目和链接：资料抽屉、GeoScore、小白板、留言板和小商店。能给别人直接点开的，就摆在桌上。",
+		"kicker": "05 / 公共服务",
+		"title": "公共服务",
+		"intro": "首页只放常用入口。完整状态、使用边界和小范围计划请查看服务说明页。",
 		"items": [
 			{
-				"index": "LINKS",
-				"title": "资源索引",
-				"desc": "我会翻回去的工具、素材和学习资料。不是大全，更像自己的抽屉。",
-				"href": "https://blog.sayori.org/posts/resource-index/"
-			},
-			{
-				"index": "BOARD",
-				"title": "Amiya 的白板",
-				"desc": "轻量浏览器白板。适合临时画图、讲想法，也适合随手乱涂。",
-				"href": "https://board.sayori.org/"
+				"index": "SERVICES",
+				"title": "完整服务说明",
+				"desc": "查看公开运行、开源自部署、邀请制计划和私有基础设施的边界。",
+				"href": "/zh/services/",
+				"external": false
 			},
 			{
 				"index": "GEO",
 				"title": "GeoScore",
-				"desc": "公开 SEO / GEO 审计工具。输入公网域名，查看结构化数据、页面信号和可见内容建议。",
+				"desc": "公开 SEO / GEO 审计工具。输入公网域名，查看事实检查、证据地图和可复验修复任务。",
 				"href": "https://geo.sayori.org/"
 			},
 			{
-				"index": "NOTE",
-				"title": "留言板",
-				"desc": "路过可以塞一张小纸条。反馈、读后感、碎碎念都可以放这里。",
-				"href": "https://blog.sayori.org/guestbook/"
+				"index": "READ",
+				"title": "公开文章",
+				"desc": "教程、建站记录、Godot 开发、项目复盘和可订阅的 RSS。",
+				"href": "https://blog.sayori.org/"
 			},
 			{
-				"index": "SHOP",
-				"title": "LDC 商店",
-				"desc": "小小的积分交易实验。真上架东西会慢慢补说明。",
-				"href": "https://ldc.sayori.org/"
+				"index": "CODE",
+				"title": "Search Gateway",
+				"desc": "统一搜索与证据快照的开源项目。线上实例为站长内部使用，不提供公共 API 额度。",
+				"href": "https://github.com/Amiyadesi/search-gateway"
+			},
+			{
+				"index": "NOTE",
+				"title": "留言与反馈",
+				"desc": "路过可以留一张小纸条，也可以反馈服务问题和使用感受。",
+				"href": "https://blog.sayori.org/guestbook/"
 			}
 		],
-		"footnote": "其他东西暂时不放公开入口。等它们适合见人了，再写进博客。"
+		"footnote": "暂停维护的实验和私有基础设施不放公开入口。"
 	}
 }
