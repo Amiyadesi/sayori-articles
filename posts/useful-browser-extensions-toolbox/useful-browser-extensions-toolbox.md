@@ -42,9 +42,11 @@ alias: ""
 # Tampermonkey
 大名鼎鼎的油猴脚本想必不用多说，这相当于插件中的自定义插件了，[https://www.youxiaohou.com/](https://www.youxiaohou.com/)，推荐可以通过这个网站里面的资源下载各种脚本和其他，然后这里给一个我用的比较多的[hmjz100/LinkSwift: 一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘](https://github.com/hmjz100/LinkSwift)，还有其他各种方便的脚本之类的，以及作为学生党，用这个能做的事也很多，具体就不说了嘻嘻
 
-# 沉浸式翻译
-![[Pasted image 20260703121638.png|width=560|align=center|caption=沉浸式翻译插件]]
+# ~~沉浸式翻译~~——陪读蛙🐸
+![[Pasted image 20260718200848.png|width=560|align=center|caption=陪读蛙插件]]
 可以在插件商店找到，用于做双语翻译之类的很舒服，自带的免费也不错，如果要求比较高的话可以充值一些deepseek用deepseek v4 flash来翻译也能支持很久了，或者就去找一些有deepseek的公益站之类的，比如我的这篇文章里就有[[freeapi-glm-kimi-cc-switch|一些目前的免费API]]
+
+最近尝试了陪读蛙，才发现原来翻译可以这么快啊！沉浸式翻译你是谁，我不认识，不要打扰我和陪读蛙过日子了
 
 # Bitwarden
 ![[Pasted image 20260703121438.png|width=560|align=center|caption=Bitwarden 插件]]
