@@ -233,6 +233,8 @@ DNSHE 不是唯一的选择。这里再记几个我看到过的：
 
 [ 可托管CF现有开放可注册免费域名集合](https://www.nodeloc.com/t/topic/70964?u=amiya_desi)
 
+[https://domain.stackryze.com/](https://domain.stackryze.com/)友情提示，可以注册四个域名，目前可以托管CF的只有，.in,.cc这两个域名
+
 nodeloc的一个小宝藏贴，里面汇聚了挺多的
 
 ### GitHub Pages 自带域名

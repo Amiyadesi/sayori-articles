@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya's Desk · sayori.org",
-		"description": "Amiya's Desk is Amiya_desi's personal public desk for blog posts, Godot game projects, homelab and Cloudflare notes, Obsidian workflows, public digital services, and contact links.",
+		"description": "Amiya's Desk is Amiya_desi's personal public desk for blog posts, Godot game projects, homelab and Cloudflare notes, Obsidian workflows, public tools, and contact links.",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -53,8 +53,8 @@
 			},
 			{
 				"num": "05",
-				"title": "Public services",
-				"desc": "— tools, projects, and boundaries",
+				"title": "Tools & Links",
+				"desc": "— tools, projects, and links",
 				"action": "services"
 			},
 			{
@@ -91,7 +91,7 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "02 / Site intro",
 		"title": "Start With A Short Tour",
-		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public services, project entries, and why they live on the same desk.",
+		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public tools and links, and why they live on the same desk.",
 		"videoTitle": "sayori.org site introduction - Bilibili",
 		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
 		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
@@ -103,14 +103,14 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "04 / Solo creator card",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, the public services guide, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
+		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
 		"columns": [
 			{
 				"title": "Public Directions",
 				"items": [
 					"Game development: Godot 4.x, GDScript, and C# for 2D prototypes, state machines, event buses, object pools, resources/save systems, and editor tooling.",
 					"Gameplay expression: platformer movement, time rewind, input buffering/coyote time, level pacing, feel tuning, and meta-leaning narrative puzzle prototypes.",
-					"Publishing surface: personal site, blog, Bilibili, GitHub, GameJam projects, and public digital services, slowly turning the portfolio into a growing doorway.",
+					"Publishing surface: personal site, blog, Bilibili, GitHub, GameJam projects, and public tools and links, slowly turning the portfolio into a growing doorway.",
 					"Web / homelab: static sites, blog content pipelines, Linux, Docker, Cloudflare Pages / Tunnel, and ops scripts."
 				]
 			},
@@ -185,7 +185,7 @@
 				},
 				{
 					"question": "How can I contact or learn more?",
-					"answer": "Use me@sayori.org, or continue through the public links on this page: GitHub, Blog, Bilibili, Linux.do, GeoScore, the whiteboard, the public services guide, and the guestbook."
+					"answer": "Use me@sayori.org, or continue through the public links on this page: GitHub, Blog, Bilibili, Linux.do, GeoScore, the whiteboard, and the guestbook."
 				}
 			]
 		},
@@ -225,51 +225,38 @@
 		}
 	},
 	"services": {
-		"ariaLabel": "Public services",
+		"ariaLabel": "Tools & Links",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "05 / Public services",
-		"title": "Public services",
-		"intro": "The home panel keeps only the common entries. The full guide explains current status, operating boundaries, and small invitation-only plans.",
+		"kicker": "05 / Tools & Links",
+		"title": "Tools & Links",
+		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, whiteboard, and guestbook.",
 		"items": [
 			{
-				"index": "SERVICES",
-				"title": "Full services guide",
-				"desc": "See what is public, self-hostable, invitation-only, or private infrastructure.",
-				"href": "/en/services/",
-				"external": false
-			},
-			{
-				"index": "GEO",
-				"title": "GeoScore",
-				"desc": "A public SEO / GEO audit tool with factual checks, an Evidence Map, and verifiable repair tasks.",
-				"href": "https://geo.sayori.org/"
+				"index": "LINKS",
+				"title": "Resource Shelf",
+				"desc": "Tools, assets, and notes I keep coming back to. More drawer than directory.",
+				"href": "https://blog.sayori.org/posts/resource-index/"
 			},
 			{
 				"index": "BOARD",
 				"title": "Amiya Whiteboard",
-				"desc": "A lightweight browser whiteboard for quick sketches, rough diagrams, and explaining ideas without an account.",
+				"desc": "A small browser whiteboard for sketches, rough diagrams, and messy ideas.",
 				"href": "https://board.sayori.org/"
 			},
 			{
-				"index": "READ",
-				"title": "Public writing",
-				"desc": "Tutorials, site notes, Godot development, project retrospectives, and an RSS feed.",
-				"href": "https://blog.sayori.org/"
-			},
-			{
-				"index": "CODE",
-				"title": "Search Gateway",
-				"desc": "An open-source unified search and evidence snapshot project. The hosted instance is private and has no public API quota.",
-				"href": "https://github.com/Amiyadesi/search-gateway"
+				"index": "GEO",
+				"title": "GeoScore",
+				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints.",
+				"href": "https://geo.sayori.org/"
 			},
 			{
 				"index": "NOTE",
-				"title": "Guestbook & feedback",
-				"desc": "Leave a note, report a service issue, or share what worked for you.",
+				"title": "Guestbook",
+				"desc": "Leave a small note, hello, reading response, or feedback after wandering through.",
 				"href": "https://blog.sayori.org/guestbook/"
 			}
 		],
-		"footnote": "Paused experiments and private infrastructure are not listed as public entries."
+		"footnote": "Other entries stay private until they are actually worth showing."
 	}
 }

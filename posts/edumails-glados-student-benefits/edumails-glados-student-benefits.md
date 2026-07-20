@@ -82,5 +82,3 @@ GLaDOS Education提供：
 我的实际踩坑和几个可选方向写在 [[aliyun-student-300-voucher-guide|阿里云学生 300 元代金券能买什么]]
 
 网页只是放课程项目、文档或作品集的话，先用 [GitHub Pages](https://pages.github.com/) 或 [Cloudflare Pages](https://pages.cloudflare.com/)，够用再碰服务器
-
-真开了机器，第一件事是设费用预警，检查安全组和自动续费
