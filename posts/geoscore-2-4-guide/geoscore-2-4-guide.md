@@ -2,9 +2,9 @@
 title: GeoScore 2.4.5：一个站长用来查自己网站到底缺什么的工具
 published: 2026-07-16
 created: 2026-07-16
-updated: 2026-07-18
-lastEdited: 2026-07-18
-updateCount: 2
+updated: 2026-07-22
+lastEdited: 2026-07-22
+updateCount: 3
 description: 用站点画像、真实抓取证据与修复报告，搞清楚一个网站真正缺的东西
 image: ""
 tags:

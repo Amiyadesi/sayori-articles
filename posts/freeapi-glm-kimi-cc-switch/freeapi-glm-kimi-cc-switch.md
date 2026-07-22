@@ -2,9 +2,9 @@
 title: "免费 AI API 入口：商汤、innilove 和几个导航站"
 published: 2026-06-25
 created: 2026-06-25
-updated: 2026-07-12
-lastEdited: 2026-07-12
-updateCount: 6
+updated: 2026-07-22
+lastEdited: 2026-07-22
+updateCount: 7
 description: "整理几个还能找到免费 AI API 的入口，以及适合查公益站和免费额度的导航"
 image: ""
 tags:
@@ -112,8 +112,6 @@ Base URL: https://api.innilove.xyz/v1
 
 想找新 API 时，可以先在这里搜平台名字，再点回官方页面确认
 
-它适合找线索，不适合拿来填 Base URL
-
 ## 俏亮拆除公益 API 导航
 
 入口：
@@ -172,7 +170,7 @@ Sonnet -> glm-5.2
 Haiku -> sensenova-6.7-flash-lite
 ```
 
-保存后先发一句很轻的请求
+保存后先发一句请求
 
 ```text
 用三句话说明你当前使用的模型

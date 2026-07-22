@@ -8,4 +8,5 @@ tags:
   - 个人博客
   - 友链
 visible: true
+feedurl: https://moran.cc.cd/atom.xml
 ---

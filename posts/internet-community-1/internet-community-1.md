@@ -2,9 +2,9 @@
 title: 互联网社区记录 1： Linux.do  NodeLoc 和NodeSeek，mjj和AI相关
 published: 2026-06-21
 created: 2026-06-21
-updated: 2026-07-11
-lastEdited: 2026-07-11
-updateCount: 15
+updated: 2026-07-22
+lastEdited: 2026-07-22
+updateCount: 16
 description: 第一篇中文互联网社区记录，先只讲 Linux.do 和 NodeLoc：它们适合看什么，新人进去前要注意什么。
 image: ""
 tags:

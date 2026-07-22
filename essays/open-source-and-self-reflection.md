@@ -2,8 +2,8 @@
 title: 开源思考和自身思考
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-06-24
-lastEdited: 2026-06-24
+updated: 2026-07-22
+lastEdited: 2026-07-22
 updateCount: 1
 description: 一段关于开源工作流、表达欲、独立游戏、天赋和继续学习的真实碎片。
 image: ""

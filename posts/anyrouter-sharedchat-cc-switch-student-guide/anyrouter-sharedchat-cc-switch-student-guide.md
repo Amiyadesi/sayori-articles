@@ -2,8 +2,8 @@
 title: "大学生怎么用 AnyRouter、SharedChat 和 cc-switch 管理 AI 额度"
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-07-17
-lastEdited: 2026-07-17
+updated: 2026-07-22
+lastEdited: 2026-07-22
 updateCount: 9
 description: "给大学生看的 AnyRouter 注册、SharedChat GPT 额度领取和 cc-switch 配置记录，配合我已经发到 B 站的视频看。"
 image: ""
@@ -85,7 +85,7 @@ Base URL: AnyRouter 主页给的 API 地址
 
 流程大致是：
 
-1. 用 QQ 邮箱注册 / 登录 [Codex 公益站](https://new.sharedchat.cc/list/#/login)，**而不是付费站**。当然你想付费也行。
+1. 用 QQ 邮箱注册 / 登录 [Codex 公益站](https://new.sharedchat.cc/list/#/register?i=E8v44)，**而不是付费站**。当然你想付费也行。
 2. ![[Pasted image 20260620234009.png]]
 3. 点击右下角的申请，写一些小理由就好了，如果浏览器提示不通过，就换一个或者开无痕模式
 
