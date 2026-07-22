@@ -2,9 +2,9 @@
 title: 免费好用浏览器插件清单：脚本、翻译、密码、倍速、查站和隐私
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-07-03
-lastEdited: 2026-07-03
-updateCount: 1
+updated: 2026-07-22
+lastEdited: 2026-07-22
+updateCount: 2
 description: 油猴脚本、沉浸式翻译、Bitwarden、Global Speed、SimilarSites、AI 辅助插件和隐私插件的简短整理
 image: ""
 tags:

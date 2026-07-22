@@ -2,9 +2,9 @@
 title: Riseup 的“激进服务器”列表：公益组织在提供什么，我能做什么
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-07-19
-lastEdited: 2026-07-19
-updateCount: 2
+updated: 2026-07-22
+lastEdited: 2026-07-22
+updateCount: 3
 description: 认识 Riseup 整理的非商业技术组织与公共服务，也记录 sayori.org 现在能开放的网页审计和 API 能力
 image: ""
 tags:
@@ -18,13 +18,9 @@ draft: false
 alias: ""
 ---
 
-# Riseup 的“激进服务器”列表：公益组织在提供什么，我能做什么
-
 我最近在 Riseup 的安全资源里翻到一页很长的名单
 
 [激进服务器 - riseup.net](https://riseup.net/zh/security/resources/radical-servers)
-
-它收集的不是普通云厂商，也不是免费 VPS 活动
 
 名单里的项目大多由非营利组织、自治技术团体、合作社或志愿者集体维护，为社会运动、草根组织、非商业项目和重视隐私的人提供网络基础设施
 
@@ -214,6 +210,4 @@ curl "https://geo-api.sayori.org/api/audit/example.com"
 
 如果以后增加网站体检互助、静态站上线协助或少量搜索证据额度，也会先邀请、限额和人工处理
 
-公共服务的价值不在入口数量
-
-更重要的是使用者知道它能做什么，维护者知道自己什么时候应该说不
+争取能够尽自己最大的力去帮助他人
