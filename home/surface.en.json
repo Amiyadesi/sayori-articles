@@ -39,23 +39,29 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "02",
+				"num": "03",
 				"title": "Bilibili",
 				"desc": "— videos, games, and build notes",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "03",
+				"num": "04",
 				"title": "About me",
 				"desc": "— public card and contact",
 				"action": "about"
 			},
 			{
-				"num": "04",
+				"num": "05",
 				"title": "Tools & Links",
 				"desc": "— tools, projects, and links",
 				"action": "services"
+			},
+			{
+				"num": "02",
+				"title": "Site intro",
+				"desc": "— a quick video tour of the desk",
+				"action": "intro"
 			}
 		],
 		"marginNote": "whatever comes to mind.",
@@ -79,13 +85,25 @@
 			"Don't forget breakfast."
 		]
 	},
+	"intro": {
+		"ariaLabel": "sayori.org site introduction",
+		"backLabel": "← Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "02 / Site intro",
+		"title": "Start With A Short Tour",
+		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public tools and links, and why they live on the same desk.",
+		"videoTitle": "sayori.org site introduction - Bilibili",
+		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
+		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
+		"openLabel": "Open original video on Bilibili"
+	},
 	"profile": {
 		"ariaLabel": "About Amiya",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "03 / Solo creator card",
+		"kicker": "04 / Solo creator card",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. Lately I have also been turning hands-on work with student resources, AI tool setup, mobile privacy, and self-hosting into reproducible articles. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
+		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
 		"columns": [
 			{
 				"title": "Public Directions",
@@ -93,8 +111,7 @@
 					"Game development: Godot 4.x, GDScript, and C# for 2D prototypes, state machines, event buses, object pools, resources/save systems, and editor tooling.",
 					"Gameplay expression: platformer movement, time rewind, input buffering/coyote time, level pacing, feel tuning, and meta-leaning narrative puzzle prototypes.",
 					"Publishing surface: personal site, blog, Bilibili, GitHub, GameJam projects, and public tools and links, slowly turning the portfolio into a growing doorway.",
-					"Web / homelab: static sites, blog content pipelines, Linux, Docker, Cloudflare Pages / Tunnel, and ops scripts.",
-					"Writing: reproducible notes from hands-on work with student resources, AI tools, mobile privacy, website building, and self-hosting."
+					"Web / homelab: static sites, blog content pipelines, Linux, Docker, Cloudflare Pages / Tunnel, and ops scripts."
 				]
 			},
 			{
@@ -148,7 +165,6 @@
 			"Servers / Cloudflare / Docker",
 			"Obsidian writing and content pipelines",
 			"Boundaries and retrospectives for AI-assisted development",
-			"Mobile privacy and practical security",
 			"Story, drawing, and music fundamentals",
 			"Personal brand and project publishing"
 		],
@@ -161,7 +177,7 @@
 				},
 				{
 					"question": "What does the blog cover?",
-					"answer": "blog.sayori.org covers tutorials, homelab notes, Godot development, AI tools and student resources, mobile privacy, resource indexes, project logs, and some personal daily echoes."
+					"answer": "blog.sayori.org covers tutorials, homelab notes, Godot development, AI-assisted development retrospectives, resource indexes, project logs, and some personal daily echoes."
 				},
 				{
 					"question": "Is this a commercial service or local business site?",
@@ -212,7 +228,7 @@
 		"ariaLabel": "Tools & Links",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "04 / Tools & Links",
+		"kicker": "05 / Tools & Links",
 		"title": "Tools & Links",
 		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, whiteboard, and guestbook.",
 		"items": [
