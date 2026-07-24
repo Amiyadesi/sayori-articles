@@ -2,9 +2,9 @@
 title: 本站文章索引
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-07-23
-lastEdited: 2026-07-23
-updateCount: 3
+updated: 2026-07-22
+lastEdited: 2026-07-22
+updateCount: 2
 description: 把本站和建站、服务器、AI 资源、社区、创作工具相关的文章单独整理出来
 image: ""
 tags:
@@ -50,7 +50,8 @@ alias: ""
 | --- | --- |
 | [[astro-mizuki-blog-from-zero        |从零搭一个自己的博客：GitHub、Cloudflare Pages、Mizuki 和 Obsidian]] | 博客仓库、Cloudflare Pages、Mizuki、Obsidian 写作目录 |
 | [[free-domain-and-web-community      |给刚搭好的博客配一个免费域名，再去站长社区露个脸]] | 免费域名、Cloudflare DNS、评论系统、开往、萌备、十年之约、揪蝉 |
-| [[webmaster-resource-toolbox|个人站长外部资源清单]] | 域名、托管、评论、监控、自托管、站长社区外部链接 |
+| [[webmaster-resource-toolbox]]       |个人站长外部资源清单]] | 域名、托管、评论、监控、自托管、站长社区外部链接 |
+| [[geoflow-content-factory-reflection |我差点给个人博客套上内容工厂]] | 个人博客不要写成内容工厂的复盘 |
 
 ## 学生资源和 AI
 
@@ -81,14 +82,6 @@ alias: ""
 | [[resource-index|我的创作资源索引]] | 游戏开发、素材、美术、音乐、AI 和学习资源 |
 | [[useful-free-software-toolbox|免费好用软件清单：远程、转换、传文件、笔记、录屏和像素画]] | 常用软件和下载入口 |
 | [[useful-browser-extensions-toolbox|免费好用浏览器插件清单：脚本、翻译、密码、倍速、查站和隐私]] | 浏览器插件、油猴脚本和隐私工具 |
-
-## 移动隐私和广告生态
-
-| 文章 | 内容 |
-| --- | --- |
-| [[cross-app-tracking-device-fingerprinting|（转载）为什么你刚搜的东西，其他 App 转头就知道了]] | 设备信息、相册、局域网与跨 App 设备指纹 |
-| [[mobile-app-ad-targeting-device-profiling|（转载）你的手机是怎样被广告系统区分对待的]] | 快应用、广告 SDK、设备画像与常见广告处理方法 |
-| [[rogue-app-advertising-user-traps|（转载）流氓 App 是怎样围剿和诱导用户的]] | 广告跳转、用户画像、权限绕过、风控规避与投诉截流 |
 
 ## 创作和游戏
 

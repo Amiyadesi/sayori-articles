@@ -39,23 +39,29 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "02",
+				"num": "03",
 				"title": "Bilibili",
 				"desc": "— 视频、游戏和折腾记录",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "03",
+				"num": "04",
 				"title": "关于我",
 				"desc": "— 公开名片和联系方式",
 				"action": "about"
 			},
 			{
-				"num": "04",
+				"num": "05",
 				"title": "公开工具与入口",
 				"desc": "— 工具、项目和链接",
 				"action": "services"
+			},
+			{
+				"num": "02",
+				"title": "网站介绍",
+				"desc": "— 先用一支视频逛逛这里",
+				"action": "intro"
 			}
 		],
 		"marginNote": "想到啥写啥。",
@@ -79,13 +85,25 @@
 			"不要忘记吃早饭。"
 		]
 	},
+	"intro": {
+		"ariaLabel": "sayori.org 网站介绍",
+		"backLabel": "← 返回",
+		"backAriaLabel": "返回主纸页",
+		"kicker": "02 / 网站介绍",
+		"title": "先看一支介绍",
+		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、公开工具与入口，以及我为什么把它们放在同一张书桌上。",
+		"videoTitle": "sayori.org 网站介绍 - Bilibili",
+		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
+		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
+		"openLabel": "去 B 站打开原视频"
+	},
 	"profile": {
 		"ariaLabel": "关于 Amiya",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "03 / 超级个体名片",
+		"kicker": "04 / 超级个体名片",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi 是我长期经营的个人公开身份：围绕 Godot 游戏、个人网站、服务器折腾、Cloudflare 工作流、Obsidian 写作流和 AI 辅助开发做作品、工具、文章与复盘。最近也在把亲自跑过的学生资源、AI 工具配置、移动隐私和自托管流程整理成文章。这个入口负责把稳定可公开的东西放在一起：博客文章、GameJam 作品、GitHub 项目、GeoScore、小白板、留言板和公开联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
+		"intro": "Amiya_desi 是我长期经营的个人公开身份：围绕 Godot 游戏、个人网站、服务器折腾、Cloudflare 工作流、Obsidian 写作流和 AI 辅助开发做作品、工具、文章与复盘。这个入口负责把稳定可公开的东西放在一起：博客文章、GameJam 作品、GitHub 项目、GeoScore、小白板、留言板和公开联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
 		"columns": [
 			{
 				"title": "公开方向",
@@ -93,8 +111,7 @@
 					"游戏开发：Godot 4.x、GDScript、C#，能做 2D 玩法原型、状态机、事件总线、对象池、资源/存档系统和编辑器工具。",
 					"玩法表达：平台跳跃、时间回溯、输入缓冲/容错、关卡节奏、手感调参，以及偏 meta 的叙事和解谜原型。",
 					"独立发布面：个人网站、博客、Bilibili、GitHub、GameJam 作品和公开工具与入口，正在把作品集做成可持续增长的入口。",
-					"Web / 服务器：静态站、博客内容管线、Linux、Docker、Cloudflare Pages / Tunnel 和日常运维脚本。",
-					"内容整理：把学生资源、AI 工具、移动隐私、建站和自托管中亲自验证过的流程写成可复现文章。"
+					"Web / 服务器：静态站、博客内容管线、Linux、Docker、Cloudflare Pages / Tunnel 和日常运维脚本。"
 				]
 			},
 			{
@@ -148,7 +165,6 @@
 			"服务器 / Cloudflare / Docker",
 			"Obsidian 写作和内容管线",
 			"AI 辅助开发的边界与复盘方法",
-			"移动隐私与网络安全",
 			"故事、绘画、编曲基础",
 			"个人品牌与作品发布"
 		],
@@ -161,7 +177,7 @@
 				},
 				{
 					"question": "博客主要写什么？",
-					"answer": "blog.sayori.org 主要记录教程文章、服务器折腾、Godot 开发、AI 工具与学生资源、移动隐私、资源索引、项目日志和一些日常回声。"
+					"answer": "blog.sayori.org 主要记录教程文章、服务器折腾、Godot 开发、AI 辅助开发复盘、资源索引、项目日志和一些日常回声。"
 				},
 				{
 					"question": "这里提供商业服务或本地业务吗？",
@@ -212,7 +228,7 @@
 		"ariaLabel": "公开工具与入口",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "04 / 公开工具与入口",
+		"kicker": "05 / 公开工具与入口",
 		"title": "公开工具与入口",
 		"intro": "这里放目前仍在维护的工具、项目和链接：资料抽屉、GeoScore、小白板与留言板。能给别人直接点开的，就摆在桌上。",
 		"items": [
