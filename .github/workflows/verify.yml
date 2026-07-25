@@ -29,3 +29,39 @@ jobs:
         env:
           CONTENT_DIR: ${{ github.workspace }}
         run: node scripts/sync-content.js
+
+  dispatch:
+    name: deploy-sites
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require downstream deployment token
+        shell: bash
+        env:
+          CONTENT_DEPLOY_TOKEN: ${{ secrets.CONTENT_DEPLOY_TOKEN }}
+        run: |
+          if [[ -z "${CONTENT_DEPLOY_TOKEN}" ]]; then
+            echo "::error::Missing GitHub Actions secret: CONTENT_DEPLOY_TOKEN"
+            exit 1
+          fi
+
+      - name: Notify blog and home repositories
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.CONTENT_DEPLOY_TOKEN }}
+          script: |
+            const repositories = ["sayori-blog", "sayori-home"];
+            for (const repo of repositories) {
+              await github.rest.repos.createDispatchEvent({
+                owner: "Amiyadesi",
+                repo,
+                event_type: "content-updated",
+                client_payload: {
+                  content_repository: context.repo.repo,
+                  content_sha: context.sha,
+                  workflow_run: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+                },
+              });
+              core.info(`Dispatched content-updated to Amiyadesi/${repo}`);
+            }
