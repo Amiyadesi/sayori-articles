@@ -24,12 +24,16 @@ and pass `CONTENT_DIR=./content` before building.
 
 The local Obsidian vault remains private. Its publish command mirrors an
 explicit public-content allowlist into this repository, runs the verification
-above, and then commits here. Do not add `.obsidian`, logs, drafts, backups,
-machine configuration, or server files to this repository.
+above, and then commits to `main`. Adds, edits, and removals in that allowlist
+are all synchronized. Do not add `.obsidian`, logs, drafts, backups, machine
+configuration, or server files to this repository.
 
-After a content push, the local publisher requests the standalone `sayori-blog`
-and `sayori-home` GitHub Actions workflows. Those workflows read this repository
-at `main`; they do not read the private vault.
+After a verified push to `main`, this repository sends a `content-updated`
+repository dispatch to `sayori-blog` and `sayori-home`. Configure the
+`CONTENT_DEPLOY_TOKEN` Actions secret as a fine-grained PAT scoped only to those
+two repositories with `Contents: write`. The token is used only by Actions and
+must never be committed. The downstream workflows read this repository at
+`main`; they do not read the private vault.
 
 ## License
 
