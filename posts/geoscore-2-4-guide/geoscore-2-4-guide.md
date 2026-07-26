@@ -13,7 +13,7 @@ tags:
   - 教程
   - 开源工具
   - 网站优化
-category: 教程
+category: 建站与自托管
 draft: false
 alias: ""
 ---
