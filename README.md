@@ -28,12 +28,11 @@ above, and then commits to `main`. Adds, edits, and removals in that allowlist
 are all synchronized. Do not add `.obsidian`, logs, drafts, backups, machine
 configuration, or server files to this repository.
 
-After a verified push to `main`, this repository sends a `content-updated`
-repository dispatch to `sayori-blog` and `sayori-home`. Configure the
-`CONTENT_DEPLOY_TOKEN` Actions secret as a fine-grained PAT scoped only to those
-two repositories with `Contents: write`. The token is used only by Actions and
-must never be committed. The downstream workflows read this repository at
-`main`; they do not read the private vault.
+Pushing to `main` validates the public-content boundary but does not deploy the
+sites automatically. After reviewing the published diff, manually run the Blog
+and Home deployment workflows. Both downstream workflows read this repository
+at `main`; they do not read the private vault. No cross-repository deployment
+token is required.
 
 ## License
 
