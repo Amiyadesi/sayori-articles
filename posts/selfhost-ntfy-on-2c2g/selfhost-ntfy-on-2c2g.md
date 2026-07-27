@@ -11,9 +11,9 @@ tags:
   - ntfy
   - Docker
   - 推送通知
-  - 学生服务器
+  - 服务器探索
   - 自托管
-category: 建站与自托管
+category: 服务器探索
 draft: false
 alias: ""
 ---
@@ -104,7 +104,7 @@ docker compose logs -f
 curl http://127.0.0.1:8090/
 ```
 
-能看到 ntfy 的 Web 界面响应就行。
+能看到 ntfy 的 Web 界面响应就行
 
 ## 创建用户
 
@@ -137,7 +137,7 @@ ntfy.example.com
   -> ntfy
 ```
 
-确认 HTTPS 能正常访问后，打开 `https://ntfy.example.com`，用刚才的账号登录 Web 界面。
+确认 HTTPS 能正常访问后，打开 `https://ntfy.example.com`，用刚才的账号登录 Web 界面
 
 ## 发第一条通知
 
@@ -149,7 +149,7 @@ curl -H "Authorization: Bearer 你的token" \
      https://ntfy.example.com/test
 ```
 
-这里 `/test` 是 topic 名。你可以随便起名，比如 `/backup`、`/alert`、`/server`。
+这里 `/test` 是 topic 名。你可以随便起名，比如 `/backup`、`/alert`、`/server`
 
 也可以带标题和优先级：
 
@@ -165,20 +165,20 @@ curl -H "Authorization: Bearer 你的token" \
 
 Android：
 
-- F-Droid 上有 ntfy 客户端。
-- Google Play 也有。
+- F-Droid 上有 ntfy 客户端
+- Google Play 也有
 
 iOS：
 
-- App Store 搜 ntfy。
+- App Store 搜 ntfy
 
 打开 App 后：
 
-1. 设置里添加你的自建服务器地址。
-2. 填账号密码或 token。
-3. 订阅你的 topic（比如 `backup`、`alert`）。
+1. 设置里添加你的自建服务器地址
+2. 填账号密码或 token
+3. 订阅你的 topic（比如 `backup`、`alert`）
 
-以后服务器发出去的通知就会推到手机上。
+以后服务器发出去的通知就会推到手机上
 
 ## 在脚本里用
 
@@ -214,11 +214,11 @@ some_command || curl -s -H "Authorization: Bearer $NTFY_TOKEN" \
 
 ## 和 Gatus 配合
 
-如果你跑了 Gatus 做健康检查，可以在 Gatus 配置里加 ntfy 作为告警通道。
+如果你跑了 Gatus 做健康检查，可以在 Gatus 配置里加 ntfy 作为告警通道
 
-Gatus 支持 ntfy 原生告警，配置里写服务器地址、topic 和 token 就行。
+Gatus 支持 ntfy 原生告警，配置里写服务器地址、topic 和 token 就行
 
-这样某个服务挂了，Gatus 会自动往 ntfy 发通知，你手机就会响。
+这样某个服务挂了，Gatus 会自动往 ntfy 发通知，你手机就会响
 
 ## 资源占用
 
@@ -240,3 +240,4 @@ ntfy 非常轻
 非常适合。它可能是 2C2G 上性价比最高的服务之一
 
 装上以后，你会发现几乎所有脚本的最后一步都变成了「发个通知告诉我结果」。这比你每天 SSH 进去看日志舒服太多了
+

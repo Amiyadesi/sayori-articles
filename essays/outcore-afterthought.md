@@ -7,7 +7,7 @@ tags:
   - 游戏玩后感
   - Outcore
   - 随笔
-category: 日常回声
+category: 其他
 draft: false
 ---
 
