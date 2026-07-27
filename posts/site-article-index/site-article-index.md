@@ -51,7 +51,6 @@ alias: ""
 | [[astro-mizuki-blog-from-zero        |从零搭一个自己的博客：GitHub、Cloudflare Pages、Mizuki 和 Obsidian]] | 博客仓库、Cloudflare Pages、Mizuki、Obsidian 写作目录 |
 | [[free-domain-and-web-community      |给刚搭好的博客配一个免费域名，再去站长社区露个脸]] | 免费域名、Cloudflare DNS、评论系统、开往、萌备、十年之约、揪蝉 |
 | [[webmaster-resource-toolbox]]       |个人站长外部资源清单]] | 域名、托管、评论、监控、自托管、站长社区外部链接 |
-| [[geoflow-content-factory-reflection |我差点给个人博客套上内容工厂]] | 个人博客不要写成内容工厂的复盘 |
 
 ## 学生资源和 AI
 
