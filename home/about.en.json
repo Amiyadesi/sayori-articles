@@ -1,0 +1,160 @@
+{
+	"meta": {
+		"title": "About me · Amiya's Desk",
+		"description": "A long letter left on the desk: who Amiya_desi is, where the name came from, the games and sites he has built, and how he thinks about AI and creation.",
+		"themeColor": "#a8d4e6"
+	},
+	"letter": {
+		"ariaLabel": "About Amiya_desi",
+		"backLabel": "← Back to the desk",
+		"backHref": "/",
+		"kicker": "03 / a letter on the desk",
+		"dateStamp": "Summer 2026 · long-term card",
+		"title": "Hi, I'm Amiya_desi",
+		"intro": "This is not a resume, and not a live status feed. It is closer to a letter I rewrite every few months — for you, who happened to pass by this desk and want to know me a little better.",
+		"sections": [
+			{
+				"heading": "The name",
+				"paragraphs": [
+					"I'm Amiya_desi, 19, a digital media technology student. I mostly build games with Godot these days, have finished a handful of Game Jams, and I'm still looking for the one project I want to keep growing for years.",
+					"The name has no epic origin. Amia comes from Akiyama Mizuki, a character I used to love; desi comes from my bad hearing mishearing his catchphrase desu. When I learned programmer usernames only allow letters, digits and underscores, I joined the two with a _ — accidentally correct snake_case:",
+					"It's not proper Japanese at all, but after all this time, it has simply become me."
+				],
+				"code": "Amia + desu + snake_case = Amiya_desi"
+			},
+			{
+				"heading": "One rabbit hole after another",
+				"paragraphs": [
+					"At 16, after climbing a flight of stairs, I suddenly decided to lose weight. No master plan, no supervision — just diet control, running and stair climbing, from a few laps to 3 km, 5 km, eventually 10 km. About 25 kg lighter in half a year. The process wasn't scientific, but it gave me my first transferable piece of self-evidence: I really can stick with something.",
+					"That experience is what I later used to convince myself to start making games. Undertale made me dream of indie games as a kid; in middle school I only dared to write settings in notebooks. At 17 I finally learned Python, installed Godot, followed tutorial projects, and stumbled into my first Game Jam.",
+					"Six jams so far. Some entries turned out fine, some failed hard — but the bottom line holds: every one of them got finished and submitted. After that it was one rabbit hole after another: AI for game dev, communities for resources, servers and domains from those communities, then articles and resource lists once the site was up, and lately even videos. The previous hole isn't filled yet, and my eyes are already on the next interesting one."
+				]
+			},
+			{
+				"heading": "Things I've made",
+				"intro": "A few I'm willing to put on the table:",
+				"items": [
+					{
+						"text": "TimeRewindLinker: a puzzle game whose last 11 levels were ground out by AI plus my own brain — one of the few works I'll willingly reopen.",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "WakeUpAtTheBorder: a Godot 2D side-scrolling narrative game about a border, second prize at the 3rd GodotHub dev contest.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+							}
+						]
+					},
+					{
+						"text": "TimeRuner: a C# action platformer built around a 5-second time rewind, Best Time-Themed Game at 034GameJam.",
+						"links": [
+							{
+								"label": "TimeRuner",
+								"href": "https://github.com/Amiyadesi/time-runner"
+							}
+						]
+					},
+					{
+						"text": "EnhanceSaveSystem: a Godot save plugin about maintainable save engineering — AES-GCM, gzip, atomic writes and version migration.",
+						"links": [
+							{
+								"label": "EnhanceSaveSystem",
+								"href": "https://github.com/Amiyadesi/enahnce_save_system"
+							}
+						]
+					},
+					{
+						"text": "sayori.org: the desk you're standing on. The domain has a simple origin — after playing Sayori's route in Blue Skies, I fell hard, and wanted to remember her in my own way."
+					}
+				]
+			},
+			{
+				"heading": "About AI",
+				"paragraphs": [
+					"AI shows up in more and more of my workflow: writing code, digging up references, organizing notes, prototyping character setups and animation keyframes. Sometimes it's genuinely useful and rolls great ideas; sometimes it wrecks a project beyond recognition.",
+					"I don't want to introduce myself as an AI-tools account. AI is a tool I use — an amplifier, not the author. Real work still has to answer: did you build this with your own hands, trip over the pits yourself, and can you explain how it works?"
+				]
+			},
+			{
+				"heading": "Closing the letter",
+				"paragraphs": [
+					"These days I love Sayori, Miku, 25-ji, Undertale and Re:0, and I still want to make a meta game that is truly my own. Those virtual worlds keep moving me — so I want to build a world that can move someone else.",
+					"I once asked AI to write a sentence for me, and I still like it: “I hope the data can fit me, and help me solve the things I can't figure out alone.”",
+					"So I'll keep writing, keep making, and keep leaving all this messy stuff on the internet. In a few months this letter will probably be rewritten — by then there should be new bonds, and a bit more skill."
+				]
+			}
+		],
+		"signature": {
+			"line": "— Amiya_desi, written at the desk",
+			"ps": "P.S. If anything in this letter resonates, feel free to leave a small note on the guestbook."
+		}
+	},
+	"faq": {
+		"title": "A few common questions",
+		"items": [
+			{
+				"question": "What is sayori.org?",
+				"answer": "It's Amiya_desi's personal public entry point: blog posts, Godot game projects, public tools, homelab and Cloudflare notes, Obsidian workflows, GitHub, Bilibili and contact links."
+			},
+			{
+				"question": "What does the blog cover?",
+				"answer": "blog.sayori.org mainly records tutorials, server tinkering, Godot development, AI tools and student resources, mobile privacy, resource indexes, project logs and everyday echoes."
+			},
+			{
+				"question": "Do you offer commercial or local services?",
+				"answer": "No. This is a personal public presence and portfolio entry — no fake addresses, phone numbers, price lists, local-service pages or commercial delivery promises."
+			},
+			{
+				"question": "How can I reach you or learn more?",
+				"answer": "Email me@sayori.org, or continue from here to GitHub, the blog, Bilibili, itch.io, YouTube, Linux.do and the guestbook."
+			}
+		]
+	},
+	"contact": {
+		"title": "Where to find me",
+		"email": "me@sayori.org",
+		"emailLabel": "Click to copy the email",
+		"linksAriaLabel": "Public entries",
+		"links": [
+			{
+				"label": "GitHub",
+				"href": "https://github.com/Amiyadesi"
+			},
+			{
+				"label": "Blog",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"label": "itch.io",
+				"href": "https://amiya-desi.itch.io/"
+			},
+			{
+				"label": "Bilibili",
+				"href": "https://space.bilibili.com/3546919890585725"
+			},
+			{
+				"label": "YouTube",
+				"href": "https://www.youtube.com/@Amiya_desi"
+			},
+			{
+				"label": "X",
+				"href": "https://x.com/KirstAdali78973"
+			},
+			{
+				"label": "Linux.do",
+				"href": "https://linux.do/u/Amiya_desi"
+			},
+			{
+				"label": "NodeLoc",
+				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+			}
+		]
+	}
+}

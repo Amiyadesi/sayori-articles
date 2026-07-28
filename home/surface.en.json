@@ -48,8 +48,8 @@
 			{
 				"num": "04",
 				"title": "About me",
-				"desc": "— public card and contact",
-				"action": "about"
+				"desc": "— a letter on the desk",
+				"href": "/about/"
 			},
 			{
 				"num": "05",
