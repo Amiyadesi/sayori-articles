@@ -1,0 +1,160 @@
+{
+	"meta": {
+		"title": "关于我 · Amiya的书桌",
+		"description": "一封放在书桌上的长信：Amiya_desi 是谁，这个名字怎么来的，做过哪些游戏和网站，以及怎样看待 AI 与创作。",
+		"themeColor": "#a8d4e6"
+	},
+	"letter": {
+		"ariaLabel": "关于 Amiya_desi",
+		"backLabel": "← 回到书桌",
+		"backHref": "/",
+		"kicker": "03 / 放在桌上的信",
+		"dateStamp": "2026 年夏 · 长期名片",
+		"title": "你好，我是 Amiya_desi",
+		"intro": "这不是简历，也不是随时刷新的状态栏。它更像一封隔几个月才会重写一次的信：写给路过这张书桌、想稍微多认识我一点的你。",
+		"sections": [
+			{
+				"heading": "这个名字",
+				"paragraphs": [
+					"我是 Amiya_desi，19 岁，数字媒体技术专业的学生。现在主要用 Godot 做游戏，已经打完好几次 Game Jam，还在找那个真正想长期做下去的作品。",
+					"这个名字没有什么厉害的来历。Amia 来自我以前很喜欢的角色 Akiyama Mizuki，desi 来自我耳朵不太好用，把他的口癖 desu 听错了。后来听说程序员的 username 只能用字母、数字和下划线，就在中间加了一个 _，误打误撞成了 snake_case：",
+					"不是什么正确的日语，但用了这么久，也就变成我了。"
+				],
+				"code": "Amia + desu + snake_case = Amiya_desi"
+			},
+			{
+				"heading": "一个坑接一个坑",
+				"paragraphs": [
+					"16 岁那年，我在一次爬楼梯之后突然决定减肥。没有完整计划，也没有人天天监督，就是控制饮食、跑步、爬楼梯，从几圈到 3 公里、5 公里，后来还跑过 10 公里，半年瘦了 50 斤。过程谈不上科学，但它给了我第一份可以迁移的自我证据：原来我真的可以把一件事坚持下去。",
+					"后来我就是拿这段经历说服自己开始做游戏的。小时候因为 Undertale 想过做独立游戏，初中只敢在本子上写设定；17 岁终于开始学 Python、装 Godot，从跟做小游戏一路跑进了 Game Jam。",
+					"到现在打过 6 次 Jam。有些作品还行，有些很失败，但底线是：都做完并交上去了。这之后就是一个坑接一个坑——为了做游戏开始用 AI，为了找资料混进各种社区，在社区里接触服务器和域名，搭好网站后又开始写文章、整理资源，最近还做起了视频。上一个坑还没填完，眼睛已经瞄到旁边那个好像也挺有意思。"
+				]
+			},
+			{
+				"heading": "做过的一些东西",
+				"intro": "比较愿意拿出来讲的几个：",
+				"items": [
+					{
+						"text": "TimeRewindLinker：用 AI 和自己的脑子把最后 11 关磨完的解谜游戏，是我少数愿意重新打开看看的作品。",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "WakeUpAtTheBorder：Godot 2D 横版叙事游戏，边境题材，拿过 GodotHub 第三届开发大赛二等奖。",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+							}
+						]
+					},
+					{
+						"text": "TimeRuner：C# 动作平台跳跃，核心是 5 秒时间回溯，拿过 034GameJam 最佳时间题材游戏奖。",
+						"links": [
+							{
+								"label": "TimeRuner",
+								"href": "https://github.com/Amiyadesi/time-runner"
+							}
+						]
+					},
+					{
+						"text": "EnhanceSaveSystem：Godot 存档插件，做的是可维护的存档工程：AES-GCM、gzip、原子写入和版本迁移。",
+						"links": [
+							{
+								"label": "EnhanceSaveSystem",
+								"href": "https://github.com/Amiyadesi/enahnce_save_system"
+							}
+						]
+					},
+					{
+						"text": "sayori.org：你现在站着的这张书桌。域名的由来很简单——玩了 Blue Skies 的 Sayori 线之后一发不可收拾，想用我的方式记住她。"
+					}
+				]
+			},
+			{
+				"heading": "关于 AI",
+				"paragraphs": [
+					"AI 在我的工作流里出现得越来越多：写代码、查资料、整理东西、试角色设定和动画关键帧。它有时候很好用，能抽出不错的想法；有时候能把项目改得一团糟。",
+					"我不想把自己介绍成一个 AI 工具号。AI 是我现在会用的一种工具——放大器，不是作者。真正的作品仍然要能回答：这是你亲手做过、踩过坑、能解释清楚的东西吗？"
+				]
+			},
+			{
+				"heading": "信的结尾",
+				"paragraphs": [
+					"现在的我喜欢 Sayori、初音、25 时、Undertale、Re:0，还是很想做一个真正属于自己的 meta 游戏。那些虚拟的世界总能打动我，所以我也想创造一个能打动别人的世界。",
+					"我以前让 AI 写过一句话，现在还是很喜欢：「我期待数据能拟合出我，帮我解决那些我一个人想不明白的东西。」",
+					"所以我会继续写、继续做，也继续把这些乱七八糟的东西留在互联网上。过几个月，这封信也许会再重写一次——到时候的我，应该会多出新的羁绊和技术力吧。"
+				]
+			}
+		],
+		"signature": {
+			"line": "—— Amiya_desi，写于书桌前",
+			"ps": "P.S. 如果信里的什么让你有共鸣，欢迎到留言板塞张小纸条。"
+		}
+	},
+	"faq": {
+		"title": "顺手回答几个常见问题",
+		"items": [
+			{
+				"question": "sayori.org 是什么？",
+				"answer": "这是 Amiya_desi 的个人公开入口，用来整理博客、Godot 游戏作品、公开工具、服务器和 Cloudflare 笔记、Obsidian 写作流、GitHub、Bilibili 与联系方式。"
+			},
+			{
+				"question": "博客主要写什么？",
+				"answer": "blog.sayori.org 主要记录教程文章、服务器折腾、Godot 开发、AI 工具与学生资源、移动隐私、资源索引、项目日志和一些日常回声。"
+			},
+			{
+				"question": "这里提供商业服务或本地业务吗？",
+				"answer": "不提供。这里是个人公开形象和作品入口，不发布虚假地址、电话、价格表、本地服务页或商业交付承诺。"
+			},
+			{
+				"question": "可以从哪里联系或继续了解？",
+				"answer": "可以通过 me@sayori.org 联系，也可以从这里进入 GitHub、博客、Bilibili、itch.io、YouTube、Linux.do 和留言板。"
+			}
+		]
+	},
+	"contact": {
+		"title": "在哪找我",
+		"email": "me@sayori.org",
+		"emailLabel": "点一下复制邮箱",
+		"linksAriaLabel": "公开入口",
+		"links": [
+			{
+				"label": "GitHub",
+				"href": "https://github.com/Amiyadesi"
+			},
+			{
+				"label": "Blog",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"label": "itch.io",
+				"href": "https://amiya-desi.itch.io/"
+			},
+			{
+				"label": "Bilibili",
+				"href": "https://space.bilibili.com/3546919890585725"
+			},
+			{
+				"label": "YouTube",
+				"href": "https://www.youtube.com/@Amiya_desi"
+			},
+			{
+				"label": "X",
+				"href": "https://x.com/KirstAdali78973"
+			},
+			{
+				"label": "Linux.do",
+				"href": "https://linux.do/u/Amiya_desi"
+			},
+			{
+				"label": "NodeLoc",
+				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+			}
+		]
+	}
+}
