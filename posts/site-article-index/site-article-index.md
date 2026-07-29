@@ -58,7 +58,7 @@ alias: ""
 | --- | --- |
 | [[aliyun-student-300-voucher-guide|阿里云学生 300 元代金券能买什么]] | ECS、轻量服务器、无影、百炼和代金券用法 |
 | [[anyrouter-sharedchat-cc-switch-student-guide|大学生怎么用 AnyRouter、SharedChat 和 cc-switch 管理 AI 额度]] | 学生 AI 额度和 cc-switch 配置 |
-| [[freeapi-glm-kimi-cc-switch|免费 AI API 备用入口：商汤 Token Plan 和 innilove New API]] | 免费 API 领取和 cc-switch 配置 |
+| [[freeapi-glm-kimi-cc-switch|免费 AI API 入口：innilove 和几个导航站]] | 免费 API 领取和 cc-switch 配置 |
 | [[edumails-glados-student-benefits|学生权益导航：教育邮箱别闲着]] | GitHub、JetBrains、Zed、YX Flow、GLaDOS、阿里云和 Pages |
 | [[Cloudflare 免费层能帮开发者做什么：不花钱的赛博大善人全家桶|Cloudflare 免费层能帮开发者做什么]] | Pages、Workers、R2、Tunnel、DNS 等免费层能力 |
 
