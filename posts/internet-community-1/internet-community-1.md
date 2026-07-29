@@ -2,9 +2,9 @@
 title: 互联网社区记录 1： Linux.do  NodeLoc 和NodeSeek，mjj和AI相关
 published: 2026-06-21
 created: 2026-06-21
-updated: 2026-07-22
-lastEdited: 2026-07-22
-updateCount: 16
+updated: 2026-07-29
+lastEdited: 2026-07-29
+updateCount: 17
 description: 第一篇中文互联网社区记录，先只讲 Linux.do 和 NodeLoc：它们适合看什么，新人进去前要注意什么。
 image: ""
 tags:
@@ -40,7 +40,7 @@ Linux do的一大特点就是有很多大佬开AI公益站，还有一些公益�
 然后福利羊毛里面，也是福利很多了，虽然大部分都是临时的，有时候一些最新的羊毛信息也会在这里出现，还是很有收获的
 
 开发调优就比较技术向了，里面一般有很多AI和编程相关的问题帖和技术帖，而且一般都比较新，
-[手把手教你搭建中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置 保姆级教程]([https://linux.do/t/topic/2140889](https://linux.do/t/topic/2140889?u=amiya_desi))，这个就是一个比较好的技术贴了
+[手把手教你搭建中转站 VPS+CLI Proxy API（CPA）+NEW API+Docker+Nginx+Cloudflare+SSL+域名配置 保姆级教程](https://linux.do/t/topic/2140889?u=amiya_desi)，这个就是一个比较好的技术贴了
 
 文档共建里面有很多长篇的有意思的教程，就比如这个[新人教程汇总](https://linux.do/t/topic/2434230?u=amiya_desi)，比我讲的全面多了（笑），那个修改DNS直连的里面也有，然后还有这个[[超详细教学] 教你从零开始，入坑域名、云服务器并部署 New API + Open WebUI！](https://linux.do/t/topic/188813?u=Amiya_desi),也是一个比较全面的知识，我也打算做一个类似的（笑）
 
