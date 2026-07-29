@@ -1,11 +1,11 @@
 ---
-title: 我的创作资源索引
+title: 我的资源链接索引
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-06-24
-lastEdited: 2026-07-02
-updateCount: 3
-description: 从两个浏览器收藏栏整理出来的公开资源索引，偏游戏开发、素材、美术、音乐、AI 和学习。
+updated: 2026-07-29
+lastEdited: 2026-07-29
+updateCount: 4
+description: 按创作、学习、AI、开发、站长工具、网络服务和开源项目分类整理的资源链接索引。
 image: ""
 tags:
   - 创作资源
@@ -17,18 +17,18 @@ aiSummary:
   generatedAt: "2026-07-11"
   model: "codex-local"
   items:
-    - "把两个浏览器收藏夹整理成公开资源索引"
-    - "偏游戏开发、素材、美术、音乐、AI 和学习"
+    - "把浏览器收藏夹和本地清单整理成公开资源索引"
+    - "覆盖创作、学习、AI、开发、站长工具、网络服务和开源项目"
     - "把它当检索入口，具体授权和质量仍要自己确认"
 
 ---
 
-这篇是从 Chrome / Edge 两份收藏栏导出的公开版资源索引，主打外部创作资源和工具库
+这篇把 Chrome、Edge 收藏夹和本地资源清单整理成一个按类别查找的链接索引
 
 整理规则：
 
 - 两份书签原始合计 285 条，按 URL 去重后 212 条。
-- 公开版本只保留创作、学习、工具、素材、社区类链接。
+- 本次新增 75 个去重后的资源链接。
 - 许可证和商用限制以网站当页说明为准。下载素材时建议单独记录作者、来源 URL、License 和下载日期。
 
 ---
@@ -103,7 +103,6 @@ aiSummary:
 | [PixelGif](http://pixelgif.cn/#/saint11/12-) | 像素动画参考。 | 看逐帧动画案例。 | 参考学习为主。 |
 | [Pixel Art Run Animation Tutorial](https://www.youtube.com/watch?v=LPBvrdJ_1a8&list=PLBarSI1L3htlNR8oYQyKJ-1wBfSlocsCB&index=8) | 跑步动画教程。 | 边看边画关键帧。 | 教程免费。 |
 | [Pixel Art Boss Attack Tutorial](https://www.youtube.com/watch?v=r5VIb2wLww4&list=PLHuVBjokeuXFO_0FzN0kiPRyB83QaKeyS&index=2) | Boss 攻击动画教程。 | 拆关键帧和特效节奏。 | 教程免费。 |
-| [Pixel Art Generator](https://pixelartgenerator.app/zh) | 图片转像素风工具。 | 生成草稿后手修。 | AI/在线工具，商用前看条款。 |
 | [Pixel Nova](https://pixelnova.app/) | AI 像素图生成/工具。 | 生成灵感图或初稿。 | 需要看额度和授权。 |
 | [白枭课堂](http://www.pixpolly.com/) | 美术设计灵感库。 | 看教程、参考和灵感。 | 站内内容条件不一。 |
 | [The Dots CSS Loaders Collection](https://css-loaders.com/dots/) | CSS loading 动效参考。 | 复制 CSS 后按项目风格改。 | 看站内授权说明。 |
@@ -193,6 +192,122 @@ aiSummary:
 | --- | --- | --- | --- |
 | [LINUX DO](https://linux.do/) | 技术社区。 | 看帖、提问、找工具讨论。 | 需要账号，社区规则较严格。 |
 | [indienova 独立游戏](https://indienova.com/indie-game-development/thoughts-on-self-learning-music-production-for-games/) | 独立游戏文章。 | 搜开发经验和访谈。 | 免费阅读为主。 |
+
+## 更多资源链接
+
+### 正版订阅与官方入口
+
+- [ChatGPT 正版订阅教程](https://ucnh8s3rdzjl.feishu.cn/wiki/HDDEw9cUOiigO0kTlUUcwsYXnbh)
+- [Apple Account](https://account.apple.com/)
+- [SEAGM 礼品卡](https://www.seagm.com/)
+- [Pockyt Shop](https://shop.pockyt.io/)
+- [全球 App Store 区服价格比较](https://appstoreprice.org/zh)
+
+### 邮箱工具
+
+- [TempMail](https://tempmail.lol/)
+- [Cloudflare 免费邮箱系统](https://github.com/wenfxl/freemail)
+
+### AI 工具
+
+- [CC-Switch](https://github.com/farion1231/cc-switch)
+- [CLIProxyAPI](https://help.router-for.me/cn/)
+- [Cherry Studio](https://www.cherry-ai.com/download)
+- [XDetector](https://xdetector.ai/)
+- [ZeroGPT](https://www.zerogpt.plus/)
+- [PaperRed](https://www.paperred.com/)
+- [Cockpit Tools](https://github.com/jlcodes99/cockpit-tools)
+
+### 监控与数据
+
+- [Star History](https://www.star-history.com/)
+- [拿猪咪域名查询](https://www.nazhumi.com/domain/org)
+- [阿拉丁神灯](https://www.aldsd.com/)
+- [全球热闻](https://hotsea.pages.dev/)
+- [UAPI](https://uapis.cn/docs/api-reference)
+- [公众号监测](https://www.dajiala.com/main/OfficialAccountMonitor)
+- [App Store 价格查询](https://app.vbr.me/)
+- [TrendRadar](https://github.com/sansan0/TrendRadar)
+- [NewsNow](https://newsnow.busiyi.world/)
+- [NewsNow 源码](https://github.com/ourongxing/newsnow)
+- [Codex Radar](https://codexradar.com/)
+- [isChinaUser](https://yarna.github.io/isChinaUser/)
+
+### 云服务器与 VPS
+
+- [LowEndBox VPS 列表](https://lowendbox.com/blog/1-vps-1-usd-vps-per-month/)
+- [三丰云](https://www.sanfengyun.com/)
+- [ClawCloud](https://ap-northeast-1.run.claw.cloud/)
+- [优云](https://passport.compshare.cn)
+- [核云](https://www.heyunidc.cn/)
+
+### 网络安全
+
+- [FOFA](https://fofa.info/)
+
+### 代理与 IP 服务
+
+- [Bright Data](https://www.bright.cn/)
+- [ProxyShare](https://www.proxyshare.com/)
+- [Webshare](https://www.webshare.io/)
+- [1024Proxy](https://1024proxy.com)
+
+### IP 查询工具
+
+- [ping0](https://ping0.cc/)
+- [IPPure](https://ippure.com/)
+- [IP.SKK](https://ip.skk.moe/)
+- [IP Coffee](https://ip.net.coffee/)
+- [IPRisk](https://iprisk.top/)
+
+### 实用工具
+
+- [恋风壁纸](https://www.luvbree.com/)
+
+### API 网关搭建
+
+- [New API](https://github.com/QuantumNous/new-api)
+- [Sub2API](https://github.com/Wei-Shaw/sub2api/)
+
+### API 质量检测
+
+- [RelayPulse](https://relaypulse.top/)
+- [M179 模型卫士](https://m179.com/)
+- [禾维 AI](https://hvoy.ai/)
+- [CCTest](https://cctest.ai/)
+- [照妖镜](https://iffs.cn/)
+
+### 技术论坛
+
+- [LowEndTalk](https://lowendtalk.com/)
+- [NodeSeek](https://www.nodeseek.com/)
+- [远景论坛](https://bbs.pcbeta.com/)
+- [昔尘社区](https://www.azx.us/)
+- [NodeLoc](https://www.nodeloc.com/)
+
+### 开源项目与开发工具
+
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent)
+- [OpenScreen](https://github.com/siddharthvaddem/openscreen)
+- [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex)
+- [Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode)
+- [Onyx](https://github.com/onyx-dot-app/onyx)
+- [CLIProxyAPI Quota Inspector](https://github.com/AllenReder/CLIProxyAPI-Quota-Inspector)
+- [ChatLab](https://github.com/ChatLab/ChatLab)
+- [RTK](https://github.com/rtk-ai/rtk)
+- [Apache ECharts 示例](https://echarts.apache.org/examples/zh/index.html)
+- [MakeAPie](https://www.makeapie.cn/echarts)
+- [PPChart](https://ppchart.com/#/)
+- [ECharts 示例集](https://echarts.zhangmuchen.top/)
+- [Banana Slides](https://github.com/Anionex/banana-slides)
+- [LandPPT](https://github.com/sligter/LandPPT)
+- [PPTist](https://github.com/pipipi-pikachu/PPTist)
+- [CliHub](https://github.com/weirens/clihub)
+- [Golutra](https://github.com/golutra/golutra)
+- [Vibe CLI Editor](https://github.com/RecurForest/VibeCliEditor)
+- [Agent Vibes](https://github.com/funny-vibes/agent-vibes/tree/main)
+- [GPT Image Playground](https://github.com/CookSleep/gpt_image_playground)
+- [ChatLab 在线版](https://chatlab.fun/cn/)
 
 ## 后续维护
 
