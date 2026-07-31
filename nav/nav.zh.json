@@ -1,8 +1,8 @@
 {
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
-		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，按创作、学习、AI、网络服务和站长工具分类整理。",
-		"updated": "2026-07-30"
+		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，支持站内搜索与常见搜索引擎切换。",
+		"updated": "2026-07-31"
 	},
 	"categories": [
 		{
@@ -1057,6 +1057,30 @@
 					"desc": "动漫壁纸站。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "editghost",
+					"url": "https://editghost.xyz/",
+					"desc": "浏览器端抠图、去物体和照片清理。",
+					"usage": "上传图片后在浏览器内处理。",
+					"license": "按站内条款使用。"
+				},
+				{
+					"category": "tools",
+					"name": "remove.bg",
+					"url": "https://www.remove.bg/zh",
+					"desc": "自动去除图片背景。",
+					"usage": "上传图片后下载处理结果。",
+					"license": "免费额度和商用规则以站内说明为准。"
+				},
+				{
+					"category": "tools",
+					"name": "ToolKnit",
+					"url": "https://toolknit.com/",
+					"desc": "浏览器端 PDF、图片、视频、音频和文本工具箱。",
+					"usage": "按类型选择工具，支持直接在浏览器处理。",
+					"license": "具体工具的上传和隐私说明以站内页面为准。"
 				}
 			]
 		},
@@ -1164,6 +1188,242 @@
 						"导航",
 						"教程"
 					]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "FMHY",
+					"url": "https://fmhy.net/",
+					"desc": "覆盖学习、工具、媒体和开源项目的免费资源索引。",
+					"usage": "按目录和站内搜索找具体资源。",
+					"license": "各目标站的版权和使用条款不同。",
+					"tier": "good",
+					"tags": ["资源", "导航"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Yarrlist",
+					"url": "https://yarrlist.net/",
+					"desc": "资源站点索引和导航。",
+					"usage": "按分类浏览外部站点。",
+					"license": "目标站条款以原站为准。",
+					"tags": ["资源", "导航"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "硬核指南",
+					"url": "https://yinghezhinan.com/",
+					"desc": "工具、软件和网络资源整理。",
+					"usage": "按主题查找入口。",
+					"license": "各资源页面条件不同。",
+					"tags": ["资源", "导航"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Wotaku",
+					"url": "https://wotaku.wiki/",
+					"desc": "欧美 ACG 用户整理的资源维基。",
+					"usage": "按 ACG 主题和站点目录浏览。",
+					"license": "外部资源按原站条款使用。",
+					"tags": ["ACG", "导航"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Freeaday",
+					"url": "https://www.freeaday.com/",
+					"desc": "免费软件和网络资源合集。",
+					"usage": "按分类浏览每日资源。",
+					"license": "下载前查看软件和站内授权说明。",
+					"tags": ["免费", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "图欧学习资源库",
+					"url": "https://tuostudy.com/",
+					"desc": "学习资料和课程资源集合。",
+					"usage": "按学科或关键词查找。",
+					"license": "具体资料来源和版权以页面说明为准。",
+					"tags": ["学习", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Archive.today",
+					"url": "https://archive.ph/",
+					"desc": "网页快照和历史页面保存服务。",
+					"usage": "输入网页地址创建或查找快照。",
+					"license": "快照内容版权归原页面权利人。",
+					"tags": ["网页", "档案"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Archive.org",
+					"url": "https://archive.org/",
+					"desc": "保存书籍、音视频、软件和网页的数字图书馆。",
+					"usage": "用站内搜索查找公开资料。",
+					"license": "每个项目的授权和访问条件不同。",
+					"tier": "good",
+					"tags": ["档案", "学习"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Soushu2030",
+					"url": "https://www.soushu2030.com/",
+					"desc": "小说资源检索入口。",
+					"usage": "按书名或作者搜索。",
+					"license": "阅读和下载条件以站内及原作者说明为准。",
+					"tags": ["小说", "阅读"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "MyComic",
+					"url": "https://mycomic.com/",
+					"desc": "漫画阅读和资源入口。",
+					"usage": "搜索漫画标题或作者。",
+					"license": "内容版权和使用条件以原站说明为准。",
+					"tags": ["漫画", "阅读"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Komiic",
+					"url": "https://komiic.cc/",
+					"desc": "漫画网页版和 App 入口。",
+					"usage": "搜索作品后选择阅读入口。",
+					"license": "内容版权和使用条件以原站说明为准。",
+					"tags": ["漫画", "阅读"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Gamer520",
+					"url": "https://www.gamer520.com/",
+					"desc": "游戏资源、补丁和相关讨论入口。",
+					"usage": "按游戏名搜索资源。",
+					"license": "游戏版权归原权利人，下载前确认授权。",
+					"tags": ["游戏", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "520Switch",
+					"url": "https://www.520switch.com/",
+					"desc": "Switch 游戏和相关资源入口。",
+					"usage": "按游戏名浏览站内分类。",
+					"license": "游戏版权和使用条件以原站说明为准。",
+					"tags": ["游戏", "Switch"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "RuTracker",
+					"url": "https://rutracker.org/forum/index.php",
+					"desc": "综合资源论坛和索引。",
+					"usage": "使用站内搜索查找公开条目。",
+					"license": "下载前确认内容版权和当地法律要求。",
+					"tags": ["论坛", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Bangumi Moe",
+					"url": "https://bangumi.moe/",
+					"desc": "动漫资源索引和社区。",
+					"usage": "按番剧名称查找条目。",
+					"license": "内容版权和使用条件以原站说明为准。",
+					"tags": ["动漫", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Nyaa",
+					"url": "https://nyaa.si/",
+					"desc": "动漫、软件等公开 torrent 索引。",
+					"usage": "用关键词搜索条目。",
+					"license": "下载前确认内容版权和当地法律要求。",
+					"tags": ["动漫", "索引"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "MoonTV",
+					"url": "https://ftz-moontv.pages.dev/",
+					"desc": "影视聚合示例站。",
+					"usage": "用站内搜索或分类浏览。",
+					"license": "内容来源、版权和服务状态以页面说明为准。",
+					"tags": ["影视", "聚合"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "XunyingTV",
+					"url": "https://xunyingtv.com/",
+					"desc": "电影和电视剧聚合入口。",
+					"usage": "按片名搜索或浏览分类。",
+					"license": "内容版权和使用条件以原站说明为准。",
+					"tags": ["影视", "聚合"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Yingmiwo",
+					"url": "https://yingmiwo.me/",
+					"desc": "影视和游戏资源检索入口。",
+					"usage": "按分类和关键词查找。",
+					"license": "内容版权和使用条件以原站说明为准。",
+					"tags": ["影视", "游戏"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "OTV / ATV",
+					"url": "https://otv.666986.xyz/",
+					"desc": "影视播放入口。",
+					"usage": "按页面入口浏览内容。",
+					"license": "内容版权和服务状态以原站说明为准。",
+					"tags": ["影视"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Jidi 游戏站",
+					"url": "https://www.jidiyouxi.com/",
+					"desc": "PC 游戏资源、存档和攻略入口。",
+					"usage": "按游戏名搜索站内内容。",
+					"license": "游戏版权和使用条件以原站说明为准。",
+					"tags": ["游戏", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "The Pirate Bay",
+					"url": "https://thepiratebay.org/index.html",
+					"desc": "综合 torrent 索引。",
+					"usage": "使用关键词搜索条目。",
+					"license": "下载前确认内容版权和当地法律要求。",
+					"tags": ["索引", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "PlayZip",
+					"url": "https://playzip.com/",
+					"desc": "PC 游戏下载入口。",
+					"usage": "按游戏名称浏览。",
+					"license": "游戏版权和使用条件以原站说明为准。",
+					"tags": ["游戏", "资源"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "马克思主义文献库",
+					"url": "https://www.marxists.org/chinese/index.html",
+					"desc": "中文马克思主义文献和历史资料档案。",
+					"usage": "按作者、主题或文献目录查阅。",
+					"license": "资料版权和转载条件以原页面说明为准。",
+					"tags": ["文献", "档案"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "HelloWindows",
+					"url": "https://hellowindows.cn/",
+					"desc": "Windows 原版镜像和工具索引。",
+					"usage": "按 Windows 版本查找官方镜像信息。",
+					"license": "下载前确认来源、校验和及授权。",
+					"tags": ["Windows", "系统"]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "ASMR Online",
+					"url": "https://www.asmr.one/works",
+					"desc": "在线 ASMR 和同人音声目录。",
+					"usage": "按作品和标签浏览。",
+					"license": "内容和年龄限制以原站说明为准。",
+					"tags": ["音声", "娱乐"]
 				}
 			]
 		},
