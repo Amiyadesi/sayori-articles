@@ -230,7 +230,7 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "05 / 公开工具与入口",
 		"title": "公开工具与入口",
-		"intro": "这里放目前仍在维护的工具、项目和链接：资料抽屉、GeoScore、小白板与留言板。能给别人直接点开的，就摆在桌上。",
+		"intro": "这里放目前仍在维护的工具、项目和链接：资料抽屉、GeoScore、小工具台、白板与留言板。能给别人直接点开的，就摆在桌上。",
 		"items": [
 			{
 				"index": "LINKS",
@@ -249,6 +249,12 @@
 				"title": "GeoScore",
 				"desc": "公开 SEO / GEO 审计工具。输入公网域名，查看结构化数据、页面信号和可见内容建议。",
 				"href": "https://geo.sayori.org/"
+			},
+			{
+				"index": "TOOLS",
+				"title": "小工具台",
+				"desc": "在浏览器里处理图片：像素化、图块切片和本地导出，不上传原图。",
+				"href": "https://sayori.org/tools/"
 			},
 			{
 				"index": "NOTE",
