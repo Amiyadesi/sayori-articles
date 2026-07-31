@@ -230,7 +230,7 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "05 / Tools & Links",
 		"title": "Tools & Links",
-		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, whiteboard, and guestbook.",
+		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, the tool bench, whiteboard, and guestbook.",
 		"items": [
 			{
 				"index": "LINKS",
@@ -249,6 +249,12 @@
 				"title": "GeoScore",
 				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints.",
 				"href": "https://geo.sayori.org/"
+			},
+			{
+				"index": "TOOLS",
+				"title": "Tiny tool bench",
+				"desc": "Browser-only image tools for pixelizing, slicing tile sheets, and exporting locally without uploads.",
+				"href": "https://sayori.org/tools/"
 			},
 			{
 				"index": "NOTE",

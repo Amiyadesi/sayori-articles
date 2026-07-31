@@ -125,7 +125,7 @@ aiSummary:
 | [大学资源网](https://www.dxzy163.com/) | 自我提升课程资源入口。 | 搜课程/技能主题。 | 注意资源来源和版权。 |
 | [终身教育平台](https://le.ouchn.cn/home) | 公开学习平台。 | 选课程学习。 | 可能需要账号。 |
 | [英语学习资源导航](https://en.knowledgefxg.com/) | 英语学习资料导航。 | 按听说读写分类找工具。 | 各站条件不同。 |
-| [MuscleWiki 中文](https://musclewiki.cn/) | 健身动作参考。 | 按肌群查动作。 | 免费访问。 |
+| [MuscleWiki 中文](https://musclewiki.com/zh-cn) | 健身动作参考。 | 按肌群查动作。 | 免费访问。 |
 
 ## AI 与效率
 
