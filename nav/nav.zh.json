@@ -133,7 +133,7 @@
 					"license": "有账号、额度、商用条款限制。"
 				}
 			],
-			"icon": "🎵"
+			"icon": "Music2"
 		},
 		{
 			"id": "game-assets",
@@ -310,7 +310,7 @@
 					"license": "文章免费。"
 				}
 			],
-			"icon": "🎮"
+			"icon": "Gamepad2"
 		},
 		{
 			"id": "game-sites",
@@ -383,7 +383,7 @@
 					"license": ""
 				}
 			],
-			"icon": "🕹️"
+			"icon": "PackageOpen"
 		},
 		{
 			"id": "media",
@@ -480,7 +480,7 @@
 					"license": ""
 				}
 			],
-			"icon": "🎬"
+			"icon": "Clapperboard"
 		},
 		{
 			"id": "art",
@@ -569,7 +569,7 @@
 					"license": "看站内授权说明。"
 				}
 			],
-			"icon": "🎨"
+			"icon": "Palette"
 		},
 		{
 			"id": "learn",
@@ -882,7 +882,7 @@
 					"license": ""
 				}
 			],
-			"icon": "📚"
+			"icon": "GraduationCap"
 		},
 		{
 			"id": "ai",
@@ -1075,7 +1075,7 @@
 					"license": ""
 				}
 			],
-			"icon": "✨"
+			"icon": "Sparkles"
 		},
 		{
 			"id": "tools",
@@ -1316,7 +1316,7 @@
 					"license": "每个模型和服务条款不同，不能默认商用。"
 				}
 			],
-			"icon": "🧰"
+			"icon": "BriefcaseBusiness"
 		},
 		{
 			"id": "downloads",
@@ -1381,7 +1381,7 @@
 					"license": ""
 				}
 			],
-			"icon": "📦"
+			"icon": "Archive"
 		},
 		{
 			"id": "nav-hubs",
@@ -1465,8 +1465,8 @@
 					"category": "nav-hubs",
 					"name": "阿虚同学的储物间",
 					"url": "https://axutongxue.net/",
-					"desc": "老牌互联网资源导航：影视、电子书、磁力、软件、AI 工具，编号分类加 🥇🥈 分级，更新多年。",
-					"usage": "按编号分类找站，优先看带 🥇 的推荐位。",
+					"desc": "老牌互联网资源导航：影视、电子书、磁力、软件、AI 工具，编号分类加编辑分级，更新多年。",
+					"usage": "按编号分类找站，优先看带编辑标记的推荐位。",
 					"license": "各站条件不同，自行看目标站说明。",
 					"tags": [
 						"导航",
@@ -1477,7 +1477,7 @@
 					"category": "nav-hubs",
 					"name": "奔跑中的奶酪",
 					"url": "https://www.runningcheese.com/a",
-					"desc": "奶酪的网上冲浪指南和 AI 指南：浏览器玩法、扩展清单、AI 工具评测，带 👍 编辑标记。",
+					"desc": "奶酪的网上冲浪指南和 AI 指南：浏览器玩法、扩展清单、AI 工具评测，带编辑标记。",
 					"usage": "当教程和工具评测读，收藏夹可以照着重构。",
 					"license": "文章和清单免费阅读，资源版权看原站。",
 					"tags": [
@@ -1797,7 +1797,7 @@
 					]
 				}
 			],
-			"icon": "🧭"
+			"icon": "Compass"
 		},
 		{
 			"id": "net-services",
@@ -2078,7 +2078,7 @@
 					"license": ""
 				}
 			],
-			"icon": "🌐"
+			"icon": "Globe2"
 		},
 		{
 			"id": "webmaster",
@@ -2160,7 +2160,7 @@
 				},
 				{
 					"category": "webmaster",
-					"name": "sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics",
+					"name": "sindresorhus/awesome: Awesome lists about all kinds of interesting topics",
 					"url": "https://github.com/sindresorhus/awesome#readme",
 					"desc": "awesome列表帖，github 400k star+",
 					"usage": "",
@@ -2647,7 +2647,7 @@
 					"license": ""
 				}
 			],
-			"icon": "🛠️"
+			"icon": "Wrench"
 		},
 		{
 			"id": "community",
@@ -2704,7 +2704,7 @@
 					"license": ""
 				}
 			],
-			"icon": "💬"
+			"icon": "MessageCircle"
 		}
 	]
 }
