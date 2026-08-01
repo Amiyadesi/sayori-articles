@@ -58,6 +58,13 @@
 				"action": "services"
 			},
 			{
+				"num": "06",
+				"title": "资源导航",
+				"desc": "— 常用工具、资料和站点",
+				"href": "https://nav.sayori.org/",
+				"external": true
+			},
+			{
 				"num": "02",
 				"title": "网站介绍",
 				"desc": "— 先用一支视频逛逛这里",
@@ -255,6 +262,12 @@
 				"title": "小工具台",
 				"desc": "在浏览器里处理图片：像素化、图块切片和本地导出，不上传原图。",
 				"href": "https://sayori.org/tools/"
+			},
+			{
+				"index": "NAV",
+				"title": "资源导航",
+				"desc": "按分类整理常用工具、资料、社区和开源站点，支持站内与外部搜索。",
+				"href": "https://nav.sayori.org/"
 			},
 			{
 				"index": "NOTE",

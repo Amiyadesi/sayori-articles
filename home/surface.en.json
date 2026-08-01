@@ -58,6 +58,13 @@
 				"action": "services"
 			},
 			{
+				"num": "06",
+				"title": "Resource directory",
+				"desc": "— tools, references, and sites",
+				"href": "https://nav.sayori.org/",
+				"external": true
+			},
+			{
 				"num": "02",
 				"title": "Site intro",
 				"desc": "— a quick video tour of the desk",
@@ -255,6 +262,12 @@
 				"title": "Tiny tool bench",
 				"desc": "Browser-only image tools for pixelizing, slicing tile sheets, and exporting locally without uploads.",
 				"href": "https://sayori.org/tools/"
+			},
+			{
+				"index": "NAV",
+				"title": "Resource directory",
+				"desc": "A categorized shelf of useful tools, references, communities, and open-source sites with local and external search.",
+				"href": "https://nav.sayori.org/"
 			},
 			{
 				"index": "NOTE",
