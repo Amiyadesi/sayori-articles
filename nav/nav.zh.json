@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
 		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，支持站内搜索与常见搜索引擎切换。",
-		"updated": "2026-07-31",
+		"updated": "2026-08-01",
 		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
 	},
 	"categories": [
@@ -706,6 +706,14 @@
 					"desc": "ChatLab 的在线体验站。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Human Benchmark",
+					"url": "https://humanbenchmark.com/tests/reactiontime",
+					"desc": "反应速度等认知测试集合。",
+					"usage": "用作简单互动测试或记录个人练习结果。",
+					"license": "免费访问，结果仅作娱乐和自测参考。"
 				}
 			]
 		},
@@ -1082,6 +1090,86 @@
 					"desc": "浏览器端 PDF、图片、视频、音频和文本工具箱。",
 					"usage": "按类型选择工具，支持直接在浏览器处理。",
 					"license": "具体工具的上传和隐私说明以站内页面为准。"
+				},
+				{
+					"category": "tools",
+					"name": "iLovePDF",
+					"url": "https://www.ilovepdf.com/",
+					"desc": "在线 PDF 合并、转换、压缩和编辑工具。",
+					"usage": "处理非敏感文件；批量操作前先确认隐私和文件保留规则。",
+					"license": "免费功能、额度和隐私条款以站点说明为准。"
+				},
+				{
+					"category": "tools",
+					"name": "Photoroom 透明背景",
+					"url": "https://www.photoroom.com/zh/tools/transparent-background",
+					"desc": "在线去背景和制作透明 PNG。",
+					"usage": "上传产品图或素材做抠图预处理。",
+					"license": "免费/付费功能和上传内容条款以站点说明为准。"
+				},
+				{
+					"category": "tools",
+					"name": "WatermarkRemover.io",
+					"url": "https://www.watermarkremover.io/zh",
+					"desc": "在线图像去水印工具。",
+					"usage": "只处理自己拥有权利或获得授权的图片。",
+					"license": "工具可用范围和图片处理政策以站点说明为准。"
+				},
+				{
+					"category": "tools",
+					"name": "Squoosh",
+					"url": "https://squoosh.app/",
+					"desc": "浏览器内图片压缩和格式转换工具。",
+					"usage": "压缩 WebP、AVIF、JPEG、PNG 后对比体积和画质。",
+					"license": "开源浏览器工具；素材权利由使用者负责。"
+				},
+				{
+					"category": "tools",
+					"name": "Gartic.io",
+					"url": "https://gartic.io/",
+					"desc": "多人在线你画我猜游戏。",
+					"usage": "创建房间后和朋友联机。",
+					"license": "第三方服务，账号和社区规则以站点为准。"
+				},
+				{
+					"category": "tools",
+					"name": "Gartic Phone",
+					"url": "https://garticphone.com/zh-CN",
+					"desc": "中文传话绘画游戏。",
+					"usage": "创建房间，邀请朋友接龙绘画。",
+					"license": "第三方服务，内容和社区规则以站点为准。"
+				},
+				{
+					"category": "tools",
+					"name": "Will You Press The Button?",
+					"url": "https://www.willyoupressthebutton.com/",
+					"desc": "英文二选一问题小游戏。",
+					"usage": "适合休闲或做互动话题素材。",
+					"license": "英文第三方站点，内容质量和规则以站点为准。"
+				},
+				{
+					"category": "tools",
+					"name": "Filebin",
+					"url": "https://filebin.net/",
+					"desc": "临时文件分享服务。",
+					"usage": "分享短期文件；不要上传密钥、个人资料或敏感文件。",
+					"license": "保留期限、容量和隐私政策以站点说明为准。"
+				},
+				{
+					"category": "tools",
+					"name": "SauceNAO",
+					"url": "https://saucenao.com/",
+					"desc": "图片来源反向搜索工具。",
+					"usage": "查找图片出处和相似来源，再核对原作者授权。",
+					"license": "搜索结果不等于授权，使用图片前自行确认版权。"
+				},
+				{
+					"category": "tools",
+					"name": "Voice Models",
+					"url": "https://voice-models.com/",
+					"desc": "语音模型和语音生成资源索引。",
+					"usage": "先查看模型许可，再用于项目或公开发布。",
+					"license": "每个模型和服务条款不同，不能默认商用。"
 				}
 			]
 		},
