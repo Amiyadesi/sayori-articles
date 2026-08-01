@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
-		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，支持站内搜索与常见搜索引擎切换。",
+		"description": "按实际用途整理的工具、素材、学习资料、AI 入口、站长工具和资源导航，支持站内搜索与常见搜索引擎切换。",
 		"updated": "2026-08-01",
 		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
 	},
@@ -10,7 +10,6 @@
 			"id": "music",
 			"num": "01",
 			"name": "音乐与音效",
-			"icon": "🎵",
 			"desc": "BGM、音效、作曲工具",
 			"entries": [
 				{
@@ -19,8 +18,7 @@
 					"url": "https://peritune.com/",
 					"desc": "免费 BGM，适合游戏、视频、TRPG。",
 					"usage": "按风格/情绪搜索，下载后记录曲名和作者。",
-					"license": "多数可免费用，需看单曲授权和署名要求。",
-					"tier": "top"
+					"license": "多数可免费用，需看单曲授权和署名要求。"
 				},
 				{
 					"category": "music",
@@ -36,8 +34,7 @@
 					"url": "https://freesound.org/",
 					"desc": "音效库，适合找环境音、动作音、UI 音。",
 					"usage": "注册后搜索下载；用 License 过滤。",
-					"license": "需要账号；每个音频 License 不同。",
-					"tier": "good"
+					"license": "需要账号；每个音频 License 不同。"
 				},
 				{
 					"category": "music",
@@ -135,13 +132,13 @@
 					"usage": "登录后用 prompt 生成 demo。",
 					"license": "有账号、额度、商用条款限制。"
 				}
-			]
+			],
+			"icon": "🎵"
 		},
 		{
 			"id": "game-assets",
 			"num": "02",
 			"name": "游戏素材与资源",
-			"icon": "🎮",
 			"desc": "素材、插件、Shader、图标",
 			"entries": [
 				{
@@ -166,8 +163,7 @@
 					"url": "https://godotengine.org/asset-library/asset?filter=&category=&support%5Bfeatured%5D=1&godot_version=4.3&cost=&sort=updated",
 					"desc": "Godot 旧资源库。",
 					"usage": "按 Godot 版本和分类筛。",
-					"license": "以资源页 License 为准。",
-					"tier": "top"
+					"license": "以资源页 License 为准。"
 				},
 				{
 					"category": "game-assets",
@@ -183,8 +179,7 @@
 					"url": "https://www.kenney.nl/assets/",
 					"desc": "高质量免费游戏素材。",
 					"usage": "按素材包下载。",
-					"license": "通常非常宽松，建议保留来源。",
-					"tier": "top"
+					"license": "通常非常宽松，建议保留来源。"
 				},
 				{
 					"category": "game-assets",
@@ -192,8 +187,7 @@
 					"url": "https://opengameart.org/",
 					"desc": "开源游戏素材库。",
 					"usage": "用类型和 License 过滤。",
-					"license": "License 差异很大，必须逐条看。",
-					"tier": "good"
+					"license": "License 差异很大，必须逐条看。"
 				},
 				{
 					"category": "game-assets",
@@ -209,8 +203,7 @@
 					"url": "https://game-icons.net/",
 					"desc": "SVG/PNG 游戏图标。",
 					"usage": "搜关键词，调颜色后导出。",
-					"license": "通常 CC BY，需要署名。",
-					"tier": "top"
+					"license": "通常 CC BY，需要署名。"
 				},
 				{
 					"category": "game-assets",
@@ -218,8 +211,7 @@
 					"url": "https://www.svgrepo.com/",
 					"desc": "SVG 图标库。",
 					"usage": "搜图标，下载 SVG。",
-					"license": "每个图标 License 不同。",
-					"tier": "good"
+					"license": "每个图标 License 不同。"
 				},
 				{
 					"category": "game-assets",
@@ -317,13 +309,183 @@
 					"usage": "跟文章配置 C/C++ 扩展开发环境。",
 					"license": "文章免费。"
 				}
-			]
+			],
+			"icon": "🎮"
+		},
+		{
+			"id": "game-sites",
+			"num": "03",
+			"name": "游戏与补丁",
+			"desc": "游戏信息、补丁和安装资源索引",
+			"entries": [
+				{
+					"category": "game-sites",
+					"name": "byrutgame.org",
+					"url": "https://byrutgame.org/",
+					"desc": "PC 游戏资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "fitgirl-repacks.site",
+					"url": "https://fitgirl-repacks.site/",
+					"desc": "PC 游戏压缩版资源信息",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "gamer520.com",
+					"url": "https://gamer520.com/",
+					"desc": "PC 游戏信息与资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "IGG-Games",
+					"url": "https://igg-games.com/",
+					"desc": "PC 游戏资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "koyso.com",
+					"url": "https://koyso.com/",
+					"desc": "游戏资源与补丁信息",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "repack.me",
+					"url": "https://repack.me/",
+					"desc": "PC 游戏资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "steamzg.com",
+					"url": "https://steamzg.com/",
+					"desc": "Steam 游戏资源信息",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-sites",
+					"name": "XYG688 PC 游戏",
+					"url": "https://www.xyg688.com/post-category/app-share/pc-game",
+					"desc": "PC 游戏分类与资源索引",
+					"usage": "",
+					"license": ""
+				}
+			],
+			"icon": "🕹️"
+		},
+		{
+			"id": "media",
+			"num": "04",
+			"name": "影视与漫画",
+			"desc": "影视、动画、漫画和字幕入口",
+			"entries": [
+				{
+					"category": "media",
+					"name": "baozimh.com",
+					"url": "https://baozimh.com/",
+					"desc": "漫画阅读与搜索",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "bxkp.org",
+					"url": "https://bxkp.org/",
+					"desc": "影视内容索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "comix.to",
+					"url": "https://comix.to/",
+					"desc": "漫画阅读与搜索",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "m.agemys.org",
+					"url": "https://m.agemys.org/",
+					"desc": "影视与动画索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "mangaraw.ac",
+					"url": "https://mangaraw.ac/",
+					"desc": "漫画阅读与检索",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "manwa.me",
+					"url": "https://manwa.me/",
+					"desc": "漫画阅读与检索",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "mikanani.me",
+					"url": "https://mikanani.me/",
+					"desc": "番组与动画资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "subtitlecat.com",
+					"url": "https://www.subtitlecat.com/",
+					"desc": "字幕搜索与下载",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "wn4k.com",
+					"url": "https://wn4k.com/",
+					"desc": "4K 影视资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "yingmiwo.me",
+					"url": "https://yingmiwo.me/filmClassifySearch?Pid=17&Sort=release_stamp",
+					"desc": "影视分类与搜索",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "media",
+					"name": "zi8.cc",
+					"url": "https://zi8.cc/",
+					"desc": "影视内容索引",
+					"usage": "",
+					"license": ""
+				}
+			],
+			"icon": "🎬"
 		},
 		{
 			"id": "art",
-			"num": "03",
+			"num": "05",
 			"name": "美术与动画",
-			"icon": "🎨",
 			"desc": "像素画、动画、设计灵感",
 			"entries": [
 				{
@@ -406,13 +568,13 @@
 					"usage": "复制 CSS 后按项目风格改。",
 					"license": "看站内授权说明。"
 				}
-			]
+			],
+			"icon": "🎨"
 		},
 		{
 			"id": "learn",
-			"num": "04",
+			"num": "06",
 			"name": "学习与开发",
-			"icon": "📚",
 			"desc": "课程、路线图、开发工具",
 			"entries": [
 				{
@@ -421,8 +583,7 @@
 					"url": "https://cs50.harvard.edu/x/weeks/0/",
 					"desc": "计算机科学入门课。",
 					"usage": "从 Week 0 开始刷作业。",
-					"license": "免费公开课。",
-					"tier": "top"
+					"license": "免费公开课。"
 				},
 				{
 					"category": "learn",
@@ -430,8 +591,7 @@
 					"url": "https://roadmap.sh/game-developer",
 					"desc": "游戏开发路线图。",
 					"usage": "按分支查漏补缺。",
-					"license": "免费查看。",
-					"tier": "good"
+					"license": "免费查看。"
 				},
 				{
 					"category": "learn",
@@ -439,8 +599,7 @@
 					"url": "https://learnopengl.com/Introduction",
 					"desc": "OpenGL/图形学入门。",
 					"usage": "跟章节写代码。",
-					"license": "免费英文教程。",
-					"tier": "good"
+					"license": "免费英文教程。"
 				},
 				{
 					"category": "learn",
@@ -448,8 +607,7 @@
 					"url": "https://csdiy.wiki/",
 					"desc": "计算机课程自学路线。",
 					"usage": "按方向挑课程。",
-					"license": "免费导航。",
-					"tier": "top"
+					"license": "免费导航。"
 				},
 				{
 					"category": "learn",
@@ -714,14 +872,22 @@
 					"desc": "反应速度等认知测试集合。",
 					"usage": "用作简单互动测试或记录个人练习结果。",
 					"license": "免费访问，结果仅作娱乐和自测参考。"
+				},
+				{
+					"category": "learn",
+					"name": "zh.z-lib.gd",
+					"url": "https://zh.z-lib.gd/",
+					"desc": "电子书检索入口",
+					"usage": "",
+					"license": ""
 				}
-			]
+			],
+			"icon": "📚"
 		},
 		{
 			"id": "ai",
-			"num": "05",
+			"num": "07",
 			"name": "AI 与效率",
-			"icon": "🤖",
 			"desc": "模型入口、Agent、提示词",
 			"entries": [
 				{
@@ -730,8 +896,7 @@
 					"url": "https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview",
 					"desc": "Gemini 模型调试和原型。",
 					"usage": "登录后开 prompt / API key 测试。",
-					"license": "Google 账号；额度和地区可能限制。",
-					"tier": "top"
+					"license": "Google 账号；额度和地区可能限制。"
 				},
 				{
 					"category": "ai",
@@ -795,8 +960,7 @@
 					"url": "https://github.com/f/prompts.chat",
 					"desc": "提示词集合。",
 					"usage": "搜场景，改成自己的任务模板。",
-					"license": "开源仓库，看 License。",
-					"tier": "top"
+					"license": "开源仓库，看 License。"
 				},
 				{
 					"category": "ai",
@@ -824,20 +988,11 @@
 				},
 				{
 					"category": "ai",
-					"name": "claude-desktop-app",
-					"url": "https://github.com/pretend1111/claude-desktop-app",
-					"desc": "Claude 桌面助手项目。",
-					"usage": "看实现方式或本地运行。",
-					"license": "需要 Claude API，注意密钥安全。"
-				},
-				{
-					"category": "ai",
 					"name": "free-llm-api-resources",
 					"url": "https://github.com/cheahjs/free-llm-api-resources",
 					"desc": "免费 LLM API 资源清单。",
 					"usage": "做调研，不要直接把生产流量压上去。",
-					"license": "免费资源不稳定，安全性和条款自查。",
-					"tier": "top"
+					"license": "免费资源不稳定，安全性和条款自查。"
 				},
 				{
 					"category": "ai",
@@ -865,14 +1020,6 @@
 				},
 				{
 					"category": "ai",
-					"name": "AIPlus",
-					"url": "https://aiplus.lra.cn/chat",
-					"desc": "AI 对话站。",
-					"usage": "登录或直接试用。",
-					"license": "稳定性、额度和隐私需自查。"
-				},
-				{
-					"category": "ai",
 					"name": "CC-Switch",
 					"url": "https://github.com/farion1231/cc-switch",
 					"desc": "Claude Code 的 API 渠道切换工具。",
@@ -893,8 +1040,7 @@
 					"url": "https://www.cherry-ai.com/download",
 					"desc": "多模型桌面客户端。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "ai",
@@ -928,13 +1074,13 @@
 					"usage": "",
 					"license": ""
 				}
-			]
+			],
+			"icon": "✨"
 		},
 		{
 			"id": "tools",
-			"num": "06",
+			"num": "08",
 			"name": "实用工具",
-			"icon": "🧰",
 			"desc": "画图、图片处理、小工具",
 			"entries": [
 				{
@@ -943,8 +1089,7 @@
 					"url": "https://www.drawio.com/",
 					"desc": "画流程图、架构图。",
 					"usage": "在线画图或接入云盘。",
-					"license": "免费；保存位置自己选。",
-					"tier": "top"
+					"license": "免费；保存位置自己选。"
 				},
 				{
 					"category": "tools",
@@ -952,8 +1097,7 @@
 					"url": "https://minhaskamal.github.io/DownGit/#/home",
 					"desc": "下载 GitHub 仓库子目录。",
 					"usage": "粘贴 GitHub 文件夹链接。",
-					"license": "免费工具。",
-					"tier": "good"
+					"license": "免费工具。"
 				},
 				{
 					"category": "tools",
@@ -1171,13 +1315,78 @@
 					"usage": "先查看模型许可，再用于项目或公开发布。",
 					"license": "每个模型和服务条款不同，不能默认商用。"
 				}
-			]
+			],
+			"icon": "🧰"
+		},
+		{
+			"id": "downloads",
+			"num": "09",
+			"name": "资源下载",
+			"desc": "软件、资料和资源检索入口",
+			"entries": [
+				{
+					"category": "downloads",
+					"name": "blog.share888.top",
+					"url": "https://blog.share888.top/",
+					"desc": "软件与资源信息整理",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "downloads",
+					"name": "fufugal.com",
+					"url": "https://www.fufugal.com/",
+					"desc": "资源检索与分享入口",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "downloads",
+					"name": "mwxia.cn",
+					"url": "https://mwxia.cn/",
+					"desc": "影视资源检索",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "downloads",
+					"name": "nyaa.land",
+					"url": "https://nyaa.land/",
+					"desc": "磁力与种子索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "downloads",
+					"name": "share.acgnx.cc",
+					"url": "https://share.acgnx.cc/",
+					"desc": "ACG 资源分享入口",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "downloads",
+					"name": "software.share888.top",
+					"url": "https://software.share888.top/",
+					"desc": "软件资源索引",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "downloads",
+					"name": "tool.share888.top",
+					"url": "https://tool.share888.top/",
+					"desc": "在线工具集合",
+					"usage": "",
+					"license": ""
+				}
+			],
+			"icon": "📦"
 		},
 		{
 			"id": "nav-hubs",
-			"num": "07",
+			"num": "10",
 			"name": "导航与合集",
-			"icon": "🧭",
 			"desc": "别人的资源导航站",
 			"entries": [
 				{
@@ -1259,7 +1468,6 @@
 					"desc": "老牌互联网资源导航：影视、电子书、磁力、软件、AI 工具，编号分类加 🥇🥈 分级，更新多年。",
 					"usage": "按编号分类找站，优先看带 🥇 的推荐位。",
 					"license": "各站条件不同，自行看目标站说明。",
-					"tier": "top",
 					"tags": [
 						"导航",
 						"资源"
@@ -1272,7 +1480,6 @@
 					"desc": "奶酪的网上冲浪指南和 AI 指南：浏览器玩法、扩展清单、AI 工具评测，带 👍 编辑标记。",
 					"usage": "当教程和工具评测读，收藏夹可以照着重构。",
 					"license": "文章和清单免费阅读，资源版权看原站。",
-					"tier": "top",
 					"tags": [
 						"导航",
 						"教程"
@@ -1285,7 +1492,6 @@
 					"desc": "覆盖学习、工具、媒体和开源项目的免费资源索引。",
 					"usage": "按目录和站内搜索找具体资源。",
 					"license": "各目标站的版权和使用条款不同。",
-					"tier": "good",
 					"tags": [
 						"资源",
 						"导航"
@@ -1370,7 +1576,6 @@
 					"desc": "保存书籍、音视频、软件和网页的数字图书馆。",
 					"usage": "用站内搜索查找公开资料。",
 					"license": "每个项目的授权和访问条件不同。",
-					"tier": "good",
 					"tags": [
 						"档案",
 						"学习"
@@ -1385,9 +1590,7 @@
 					"license": "阅读和下载条件以站内及原作者说明为准。",
 					"tags": [
 						"小说",
-						"阅读",
-						"版权风险",
-						"本次未确认"
+						"阅读"
 					]
 				},
 				{
@@ -1435,9 +1638,7 @@
 					"license": "游戏版权和使用条件以原站说明为准。",
 					"tags": [
 						"游戏",
-						"Switch",
-						"版权风险",
-						"本次可达"
+						"Switch"
 					]
 				},
 				{
@@ -1449,9 +1650,7 @@
 					"license": "下载前确认内容版权和当地法律要求。",
 					"tags": [
 						"论坛",
-						"资源",
-						"版权风险",
-						"本次未确认"
+						"资源"
 					]
 				},
 				{
@@ -1463,9 +1662,7 @@
 					"license": "内容版权和使用条件以原站说明为准。",
 					"tags": [
 						"动漫",
-						"资源",
-						"版权风险",
-						"本次未确认"
+						"资源"
 					]
 				},
 				{
@@ -1477,9 +1674,7 @@
 					"license": "下载前确认内容版权和当地法律要求。",
 					"tags": [
 						"动漫",
-						"索引",
-						"版权风险",
-						"本次未确认"
+						"索引"
 					]
 				},
 				{
@@ -1503,9 +1698,7 @@
 					"license": "内容版权和使用条件以原站说明为准。",
 					"tags": [
 						"影视",
-						"聚合",
-						"版权风险",
-						"需浏览器核验"
+						"聚合"
 					]
 				},
 				{
@@ -1540,9 +1733,7 @@
 					"license": "游戏版权和使用条件以原站说明为准。",
 					"tags": [
 						"游戏",
-						"资源",
-						"版权风险",
-						"本次可达"
+						"资源"
 					]
 				},
 				{
@@ -1554,9 +1745,7 @@
 					"license": "下载前确认内容版权和当地法律要求。",
 					"tags": [
 						"索引",
-						"资源",
-						"版权风险",
-						"本次未确认"
+						"资源"
 					]
 				},
 				{
@@ -1592,9 +1781,7 @@
 					"license": "下载前确认来源、校验和及授权。",
 					"tags": [
 						"Windows",
-						"系统",
-						"版权风险",
-						"本次可达"
+						"系统"
 					]
 				},
 				{
@@ -1609,13 +1796,13 @@
 						"娱乐"
 					]
 				}
-			]
+			],
+			"icon": "🧭"
 		},
 		{
 			"id": "net-services",
-			"num": "08",
+			"num": "11",
 			"name": "网络与服务",
-			"icon": "🌐",
 			"desc": "邮箱、VPS、代理、监控、订阅",
 			"entries": [
 				{
@@ -1890,13 +2077,13 @@
 					"usage": "",
 					"license": ""
 				}
-			]
+			],
+			"icon": "🌐"
 		},
 		{
 			"id": "webmaster",
-			"num": "09",
+			"num": "12",
 			"name": "站长工具",
-			"icon": "🛠",
 			"desc": "域名、托管、评论、统计、自托管",
 			"entries": [
 				{
@@ -1905,8 +2092,7 @@
 					"url": "https://github.com/QuantumNous/new-api",
 					"desc": "大模型 API 分发管理中台。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -1962,8 +2148,7 @@
 					"url": "https://free-for.dev/#/",
 					"desc": "开发者免费服务合集，github 100k star+",
 					"usage": "",
-					"license": "",
-					"tier": "top"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2027,8 +2212,7 @@
 					"url": "https://pages.cloudflare.com/",
 					"desc": "会给你一个 `pages.dev`",
 					"usage": "",
-					"license": "",
-					"tier": "top"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2036,8 +2220,7 @@
 					"url": "https://www.namesilo.com/",
 					"desc": "域名注册商，价格透明。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2085,8 +2268,7 @@
 					"url": "https://giscus.app/",
 					"desc": "基于 GitHub Discussions 的评论系统。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2094,8 +2276,7 @@
 					"url": "https://twikoo.js.org/",
 					"desc": "轻量自托管评论系统。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2135,8 +2316,7 @@
 					"url": "https://github.com/louislam/uptime-kuma",
 					"desc": "自托管监控面板。",
 					"usage": "",
-					"license": "",
-					"tier": "top"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2160,8 +2340,7 @@
 					"url": "https://ntfy.sh/",
 					"desc": "简单的推送通知服务，可自托管。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2201,8 +2380,7 @@
 					"url": "https://awesome-selfhosted.net/",
 					"desc": "自托管软件大全导航。",
 					"usage": "",
-					"license": "",
-					"tier": "top"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2234,8 +2412,7 @@
 					"url": "https://developers.cloudflare.com/",
 					"desc": "Cloudflare 官方文档。",
 					"usage": "",
-					"license": "",
-					"tier": "top"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2299,8 +2476,7 @@
 					"url": "https://umami.is/",
 					"desc": "开源网站统计，界面干净。",
 					"usage": "",
-					"license": "",
-					"tier": "top"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2324,8 +2500,7 @@
 					"url": "https://www.travellings.cn/",
 					"desc": "中文独立博客互跳计划。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2405,8 +2580,7 @@
 					"url": "https://astro.build/",
 					"desc": "内容驱动的静态站框架。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2446,8 +2620,7 @@
 					"url": "https://github.com/dani-garcia/vaultwarden",
 					"desc": "Bitwarden 的轻量自托管实现。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "webmaster",
@@ -2473,13 +2646,13 @@
 					"usage": "",
 					"license": ""
 				}
-			]
+			],
+			"icon": "🛠️"
 		},
 		{
 			"id": "community",
-			"num": "10",
+			"num": "13",
 			"name": "社区与文章",
-			"icon": "💬",
 			"desc": "论坛、社区、经验文章",
 			"entries": [
 				{
@@ -2488,8 +2661,7 @@
 					"url": "https://linux.do/",
 					"desc": "技术社区。",
 					"usage": "看帖、提问、找工具讨论。",
-					"license": "需要账号，社区规则较严格。",
-					"tier": "top"
+					"license": "需要账号，社区规则较严格。"
 				},
 				{
 					"category": "community",
@@ -2505,8 +2677,7 @@
 					"url": "https://www.nodeseek.com/",
 					"desc": "中文主机和建站社区。",
 					"usage": "",
-					"license": "",
-					"tier": "good"
+					"license": ""
 				},
 				{
 					"category": "community",
@@ -2532,340 +2703,8 @@
 					"usage": "",
 					"license": ""
 				}
-			]
-		},
-		{
-			"id": "risk",
-			"num": "11",
-			"name": "版权与来源风险",
-			"icon": "⚠️",
-			"desc": "保留原始归档中的版权或来源风险入口，收录时做基础核验，不代表推荐。",
-			"entries": [
-				{
-					"category": "risk",
-					"name": "baozimh.com",
-					"url": "https://baozimh.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "blog.share888.top",
-					"url": "https://blog.share888.top/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "bxkp.org",
-					"url": "https://bxkp.org/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "byrutgame.org",
-					"url": "https://byrutgame.org/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "comix.to",
-					"url": "https://comix.to/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "fitgirl-repacks.site",
-					"url": "https://fitgirl-repacks.site/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "fufugal.com",
-					"url": "https://www.fufugal.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "gamer520.com",
-					"url": "https://gamer520.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "IGG-Games",
-					"url": "https://igg-games.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "koyso.com",
-					"url": "https://koyso.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "m.agemys.org",
-					"url": "https://m.agemys.org/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "mangaraw.ac",
-					"url": "https://mangaraw.ac/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "manwa.me",
-					"url": "https://manwa.me/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "mikanani.me",
-					"url": "https://mikanani.me/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "mwxia.cn",
-					"url": "https://mwxia.cn/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "nyaa.land",
-					"url": "https://nyaa.land/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "repack.me",
-					"url": "https://repack.me/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"需浏览器核验"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "share.acgnx.cc",
-					"url": "https://share.acgnx.cc/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "software.share888.top",
-					"url": "https://software.share888.top/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "steamzg.com",
-					"url": "https://steamzg.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "subtitlecat.com",
-					"url": "https://www.subtitlecat.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "tool.share888.top",
-					"url": "https://tool.share888.top/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "wn4k.com",
-					"url": "https://wn4k.com/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "XYG688 PC 游戏",
-					"url": "https://www.xyg688.com/post-category/app-share/pc-game",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "yingmiwo.me",
-					"url": "https://yingmiwo.me/filmClassifySearch?Pid=17&Sort=release_stamp",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "zh.z-lib.gd",
-					"url": "https://zh.z-lib.gd/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次未确认"
-					]
-				},
-				{
-					"category": "risk",
-					"name": "zi8.cc",
-					"url": "https://zi8.cc/",
-					"desc": "版权或来源风险入口，非推荐；使用前自行判断授权与合法性。",
-					"usage": "",
-					"license": "",
-					"tags": [
-						"版权风险",
-						"本次可达"
-					]
-				}
-			]
+			],
+			"icon": "💬"
 		}
 	]
 }

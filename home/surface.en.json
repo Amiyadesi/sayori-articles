@@ -39,36 +39,30 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "03",
+				"num": "02",
 				"title": "Bilibili",
 				"desc": "— videos, games, and build notes",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "04",
+				"num": "03",
 				"title": "About me",
 				"desc": "— a letter on the desk",
 				"href": "/about/"
 			},
 			{
-				"num": "05",
+				"num": "04",
 				"title": "Tools & Links",
 				"desc": "— tools, projects, and links",
 				"action": "services"
 			},
 			{
-				"num": "06",
+				"num": "05",
 				"title": "Resource directory",
 				"desc": "— tools, references, and sites",
 				"href": "https://nav.sayori.org/",
 				"external": true
-			},
-			{
-				"num": "02",
-				"title": "Site intro",
-				"desc": "— a quick video tour of the desk",
-				"action": "intro"
 			}
 		],
 		"marginNote": "whatever comes to mind.",
@@ -91,18 +85,6 @@
 			"Go for a walk if the weather is nice.",
 			"Don't forget breakfast."
 		]
-	},
-	"intro": {
-		"ariaLabel": "sayori.org site introduction",
-		"backLabel": "← Back",
-		"backAriaLabel": "Back to main page",
-		"kicker": "02 / Site intro",
-		"title": "Start With A Short Tour",
-		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public tools and links, and why they live on the same desk.",
-		"videoTitle": "sayori.org site introduction - Bilibili",
-		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
-		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
-		"openLabel": "Open original video on Bilibili"
 	},
 	"profile": {
 		"ariaLabel": "About Amiya",
@@ -237,13 +219,13 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "05 / Tools & Links",
 		"title": "Tools & Links",
-		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, the tool bench, whiteboard, and guestbook.",
+		"intro": "Maintained public services, tools, and project links: GeoScore, the tool bench, whiteboard, and guestbook.",
 		"items": [
 			{
-				"index": "LINKS",
-				"title": "Resource Shelf",
-				"desc": "Tools, assets, and notes I keep coming back to. More drawer than directory.",
-				"href": "https://blog.sayori.org/posts/resource-index/"
+				"index": "SERVICES",
+				"title": "Public services",
+				"desc": "Maintained public services and project links.",
+				"href": "https://sayori.org/services/"
 			},
 			{
 				"index": "BOARD",
@@ -266,7 +248,7 @@
 			{
 				"index": "NAV",
 				"title": "Resource directory",
-				"desc": "A categorized shelf of useful tools, references, communities, and open-source sites with local and external search.",
+				"desc": "A categorized shelf of tools, references, communities, and sites with local and external search.",
 				"href": "https://nav.sayori.org/"
 			},
 			{

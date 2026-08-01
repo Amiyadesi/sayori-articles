@@ -2,8 +2,8 @@
 title: 我的资源链接索引
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-07-29
-lastEdited: 2026-07-29
+updated: 2026-08-01
+lastEdited: 2026-08-01
 updateCount: 4
 description: 按创作、学习、AI、开发、站长工具、网络服务和开源项目分类整理的资源链接索引。
 image: ""
@@ -22,6 +22,8 @@ aiSummary:
     - "把它当检索入口，具体授权和质量仍要自己确认"
 
 ---
+
+> 这篇文章保留作整理过程的存档。后续资源的新增、删除、分类和状态，以 [资源导航](https://nav.sayori.org/) 为准
 
 这篇把 Chrome、Edge 收藏夹和本地资源清单整理成一个按类别查找的链接索引
 

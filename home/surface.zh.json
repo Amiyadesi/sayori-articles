@@ -39,36 +39,30 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "03",
+				"num": "02",
 				"title": "Bilibili",
 				"desc": "— 视频、游戏和折腾记录",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "04",
+				"num": "03",
 				"title": "关于我",
 				"desc": "— 放在桌上的一封信",
 				"href": "/about/"
 			},
 			{
-				"num": "05",
+				"num": "04",
 				"title": "公开工具与入口",
 				"desc": "— 工具、项目和链接",
 				"action": "services"
 			},
 			{
-				"num": "06",
+				"num": "05",
 				"title": "资源导航",
-				"desc": "— 常用工具、资料和站点",
+				"desc": "— 工具、资料和站点",
 				"href": "https://nav.sayori.org/",
 				"external": true
-			},
-			{
-				"num": "02",
-				"title": "网站介绍",
-				"desc": "— 先用一支视频逛逛这里",
-				"action": "intro"
 			}
 		],
 		"marginNote": "想到啥写啥。",
@@ -91,18 +85,6 @@
 			"天气好的话出去走走吧。",
 			"不要忘记吃早饭。"
 		]
-	},
-	"intro": {
-		"ariaLabel": "sayori.org 网站介绍",
-		"backLabel": "← 返回",
-		"backAriaLabel": "返回主纸页",
-		"kicker": "02 / 网站介绍",
-		"title": "先看一支介绍",
-		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、公开工具与入口，以及我为什么把它们放在同一张书桌上。",
-		"videoTitle": "sayori.org 网站介绍 - Bilibili",
-		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
-		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
-		"openLabel": "去 B 站打开原视频"
 	},
 	"profile": {
 		"ariaLabel": "关于 Amiya",
@@ -237,13 +219,13 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "05 / 公开工具与入口",
 		"title": "公开工具与入口",
-		"intro": "这里放目前仍在维护的工具、项目和链接：资料抽屉、GeoScore、小工具台、白板与留言板。能给别人直接点开的，就摆在桌上。",
+		"intro": "这里放目前仍在维护的公开服务、工具和项目入口：GeoScore、小工具台、白板与留言板。能给别人直接点开的，就摆在桌上。",
 		"items": [
 			{
-				"index": "LINKS",
-				"title": "资源索引",
-				"desc": "我会翻回去的工具、素材和学习资料。不是大全，更像自己的抽屉。",
-				"href": "https://blog.sayori.org/posts/resource-index/"
+				"index": "SERVICES",
+				"title": "公共服务",
+				"desc": "当前维护的公开服务与项目入口。",
+				"href": "https://sayori.org/services/"
 			},
 			{
 				"index": "BOARD",
@@ -266,7 +248,7 @@
 			{
 				"index": "NAV",
 				"title": "资源导航",
-				"desc": "按分类整理常用工具、资料、社区和开源站点，支持站内与外部搜索。",
+				"desc": "按分类整理工具、资料、社区和站点，支持站内与外部搜索。",
 				"href": "https://nav.sayori.org/"
 			},
 			{
