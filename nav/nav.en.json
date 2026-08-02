@@ -1,0 +1,2087 @@
+{
+	"meta": {
+		"title": "Resource Navigation · Amiya's Desk",
+		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
+		"updated": "2026-08-02",
+		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
+	},
+	"categories": [
+		{
+			"id": "music",
+			"num": "01",
+			"name": "Music & Sound",
+			"icon": "Music2",
+			"desc": "Music, sound effects, and audio tools for creative work",
+			"entries": [
+				{
+					"category": "music",
+					"name": "PeriTune",
+					"url": "https://peritune.com/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "music",
+					"name": "GD音乐台",
+					"url": "https://music.gdstudio.xyz/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "Freesound",
+					"url": "https://freesound.org/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "music",
+					"name": "Pixabay Sound Effects",
+					"url": "https://pixabay.com/sound-effects/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "南森津音乐室",
+					"url": "https://nagumorizu.com/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "黑耀耀的素材小屋",
+					"url": "https://www.heiyaoyao.cn/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "FreePD",
+					"url": "https://freepd.com/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "Clement Panchout 免费音乐包",
+					"url": "https://clement-panchout.itch.io/yet-another-free-music-pack",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "ChipTone",
+					"url": "https://sfbgames.itch.io/chiptone",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "jsfxr",
+					"url": "https://sfxr.me/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "SONNISS GameAudioGDC",
+					"url": "https://sonniss.com/gameaudiogdc/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "Minecraft Sounds",
+					"url": "https://o.xbottle.top/mcsounds/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "Composing Process/Tutorials",
+					"url": "https://www.youtube.com/playlist?list=PLr5xOMhVWITk0emmQlfEppVr6TXIHgw4W",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "自学游戏向音乐制作的心得",
+					"url": "https://indienova.com/indie-game-development/thoughts-on-self-learning-music-production-for-games/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "music",
+					"name": "Suno",
+					"url": "https://suno.com/",
+					"desc": "Curated music & sound resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "game-assets",
+			"num": "02",
+			"name": "Game Assets & Resources",
+			"icon": "Gamepad2",
+			"desc": "Game art, shaders, sprites, icons, and production resources",
+			"entries": [
+				{
+					"category": "game-assets",
+					"name": "Godot Shaders",
+					"url": "https://godotshaders.com/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Godot Asset Store",
+					"url": "https://store.godotengine.org/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Godot Asset Library",
+					"url": "https://godotengine.org/asset-library/asset?filter=&category=&support%5Bfeatured%5D=1&godot_version=4.3&cost=&sort=updated",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "game-assets",
+					"name": "Godot 2D 搜索",
+					"url": "https://store-beta.godotengine.org/search?q=%232d",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Kenney Assets",
+					"url": "https://www.kenney.nl/assets/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "game-assets",
+					"name": "OpenGameArt",
+					"url": "https://opengameart.org/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "game-assets",
+					"name": "The Spriters Resource",
+					"url": "https://www.spriters-resource.com/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Game-icons.net",
+					"url": "https://game-icons.net/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "game-assets",
+					"name": "SVG Repo",
+					"url": "https://www.svgrepo.com/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "game-assets",
+					"name": "CraftPix Pixel Assets",
+					"url": "https://craftpix.net/tags/pixel-art-game-assets-download/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "free-game-assets.itch.io",
+					"url": "https://free-game-assets.itch.io/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Antipixel Games",
+					"url": "https://antipixel-games.itch.io/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "BOOTH",
+					"url": "https://booth.pm/zh-cn",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Eagle 免费游戏素材整理",
+					"url": "https://cn.eagle.cool/blog/post/free-game-assets",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "3D Resources",
+					"url": "https://3d.devanshutak.xyz/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Universal LPC Spritesheet Generator",
+					"url": "https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light&sex=female",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Laigter",
+					"url": "https://azagaya.itch.io/laigter",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Shadertoy 中文教程",
+					"url": "https://shadertoy.peakcoder.com/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Inigo Quilez 2D SDF",
+					"url": "https://iquilezles.org/articles/distfunctions2d/",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Godot Demo Projects",
+					"url": "https://github.com/godotengine/godot-demo-projects",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "game-assets",
+					"name": "Godot C/C++ 扩展调试文章",
+					"url": "https://godot.atomgit.com/explore/journalism/detail/401311954326654976",
+					"desc": "Curated game assets & resources resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "art",
+			"num": "03",
+			"name": "Art & Animation",
+			"icon": "Palette",
+			"desc": "Pixel art, motion, animation, and visual references",
+			"entries": [
+				{
+					"category": "art",
+					"name": "Lospec Pixel Art: Where to Start",
+					"url": "https://lospec.com/articles/pixel-art-where-to-start/",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "PoseMy.Art",
+					"url": "https://posemy.art/app/?lang=zhHans",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "Jitter",
+					"url": "https://jitter.video/",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "PerfectPixel Processor",
+					"url": "https://theamusing.github.io/perfectPixel_webdemo/",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "PixelGif",
+					"url": "https://pixelgif.cn/#/saint11/12-",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "Pixel Art Run Animation Tutorial",
+					"url": "https://www.youtube.com/watch?v=LPBvrdJ_1a8&list=PLBarSI1L3htlNR8oYQyKJ-1wBfSlocsCB&index=8",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "Pixel Art Boss Attack Tutorial",
+					"url": "https://www.youtube.com/watch?v=r5VIb2wLww4&list=PLHuVBjokeuXFO_0FzN0kiPRyB83QaKeyS&index=2",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "Pixel Nova",
+					"url": "https://pixelnova.app/",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "白枭课堂",
+					"url": "https://www.pixpolly.com/",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "art",
+					"name": "The Dots CSS Loaders Collection",
+					"url": "https://css-loaders.com/dots/",
+					"desc": "Curated art & animation resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "learn",
+			"num": "04",
+			"name": "Learning & Development",
+			"icon": "GraduationCap",
+			"desc": "Courses, guides, developer tools, and practical references",
+			"entries": [
+				{
+					"category": "learn",
+					"name": "CS50x 2025",
+					"url": "https://cs50.harvard.edu/x/weeks/0/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "learn",
+					"name": "Game Developer Roadmap",
+					"url": "https://roadmap.sh/game-developer",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "learn",
+					"name": "LearnOpenGL",
+					"url": "https://learnopengl.com/Introduction",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "learn",
+					"name": "CS 自学指南",
+					"url": "https://csdiy.wiki/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "learn",
+					"name": "freeCodeCamp 中文",
+					"url": "https://www.freecodecamp.org/chinese/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "labuladong 算法",
+					"url": "https://github.com/labuladong/fucking-algorithm",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "The Art of Command Line",
+					"url": "https://github.com/jlevy/the-art-of-command-line/tree/master",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "IndieGameHub",
+					"url": "https://game.indiehubs.org/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Indieloop",
+					"url": "https://www.indieloop.com/#/home",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "软件开发学习笔记",
+					"url": "https://gamedevfan.cn/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Paper2Galgame",
+					"url": "https://paper2gal.com/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "大学资源网",
+					"url": "https://www.dxzy163.com/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "终身教育平台",
+					"url": "https://le.ouchn.cn/home",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "英语学习资源导航",
+					"url": "https://en.knowledgefxg.com/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "MuscleWiki 中文",
+					"url": "https://musclewiki.cn/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Hermes Agent",
+					"url": "https://github.com/NousResearch/hermes-agent",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "OpenScreen",
+					"url": "https://github.com/siddharthvaddem/openscreen",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Oh My Codex",
+					"url": "https://github.com/Yeachan-Heo/oh-my-codex",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Oh My ClaudeCode",
+					"url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Onyx",
+					"url": "https://github.com/onyx-dot-app/onyx",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "CLIProxyAPI Quota Inspector",
+					"url": "https://github.com/AllenReder/CLIProxyAPI-Quota-Inspector",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "ChatLab",
+					"url": "https://github.com/ChatLab/ChatLab",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "RTK",
+					"url": "https://github.com/rtk-ai/rtk",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Apache ECharts 示例",
+					"url": "https://echarts.apache.org/examples/zh/index.html",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "MakeAPie",
+					"url": "https://www.makeapie.cn/echarts",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "PPChart",
+					"url": "https://ppchart.com/#/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "ECharts 示例集",
+					"url": "https://echarts.zhangmuchen.top/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Banana Slides",
+					"url": "https://github.com/Anionex/banana-slides",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "LandPPT",
+					"url": "https://github.com/sligter/LandPPT",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "PPTist",
+					"url": "https://github.com/pipipi-pikachu/PPTist",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "CliHub",
+					"url": "https://github.com/weirens/clihub",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Golutra",
+					"url": "https://github.com/golutra/golutra",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Vibe CLI Editor",
+					"url": "https://github.com/RecurForest/VibeCliEditor",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "Agent Vibes",
+					"url": "https://github.com/funny-vibes/agent-vibes/tree/main",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "GPT Image Playground",
+					"url": "https://github.com/CookSleep/gpt_image_playground",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "learn",
+					"name": "ChatLab 在线版",
+					"url": "https://chatlab.fun/cn/",
+					"desc": "Curated learning & development resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "ai",
+			"num": "05",
+			"name": "AI & Productivity",
+			"icon": "Sparkles",
+			"desc": "AI models, agents, prompts, and productivity tools",
+			"entries": [
+				{
+					"category": "ai",
+					"name": "Google AI Studio",
+					"url": "https://aistudio.google.com/prompts/new_chat?model=gemini-3.1-flash-image-preview",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "ai",
+					"name": "Google Gemini",
+					"url": "https://gemini.google.com/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Grok",
+					"url": "https://grok.com/?referrer=website",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Flowith",
+					"url": "https://flowith.net/blank?inv=QGXZYY",
+					"desc": "Agentic workspace。",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "ClawHub",
+					"url": "https://clawhub.ai/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "skill0",
+					"url": "https://skill0.io/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Civitai",
+					"url": "https://civitaicn.com/?source=knowledge.raodaor.com",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "ElevenLabs / 11labs",
+					"url": "https://11labs.us/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Awesome ChatGPT Prompts",
+					"url": "https://github.com/f/prompts.chat",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "ai",
+					"name": "system-prompts-and-models-of-ai-tools",
+					"url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "awesome-openclaw-skills",
+					"url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "agency-agents",
+					"url": "https://github.com/msitarzewski/agency-agents?tab=readme-ov-file#-multi-tool-integrations",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "free-llm-api-resources",
+					"url": "https://github.com/cheahjs/free-llm-api-resources",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "ai",
+					"name": "HuntScreens",
+					"url": "https://huntscreens.com/zh",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Inferri",
+					"url": "https://inferri.com/zh-CN",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "AIHOT",
+					"url": "https://aihot.virxact.com/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "CC-Switch",
+					"url": "https://github.com/farion1231/cc-switch",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "CLIProxyAPI",
+					"url": "https://help.router-for.me/cn/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Cherry Studio",
+					"url": "https://www.cherry-ai.com/download",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "ai",
+					"name": "XDetector",
+					"url": "https://xdetector.ai/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "ZeroGPT",
+					"url": "https://www.zerogpt.plus/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "PaperRed",
+					"url": "https://www.paperred.com/",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "ai",
+					"name": "Cockpit Tools",
+					"url": "https://github.com/jlcodes99/cockpit-tools",
+					"desc": "Curated ai & productivity resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "tools",
+			"num": "06",
+			"name": "Practical Tools",
+			"icon": "BriefcaseBusiness",
+			"desc": "Small utilities for everyday work and making things",
+			"entries": [
+				{
+					"category": "tools",
+					"name": "draw.io",
+					"url": "https://www.drawio.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "tools",
+					"name": "DownGit",
+					"url": "https://minhaskamal.github.io/DownGit/#/home",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "tools",
+					"name": "FrameRonin",
+					"url": "https://frameronin.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "FrameRonin GitHub 版",
+					"url": "https://systemchester.github.io/FrameRonin/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "好拼",
+					"url": "https://img.ops-coffee.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "Firefox Relay",
+					"url": "https://relay.firefox.com/accounts/profile/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "2FA 验证码生成",
+					"url": "https://2fa.show/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "keybr",
+					"url": "https://www.keybr.com/profile",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "摸鱼工具库",
+					"url": "https://moyugongju.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "油小猴",
+					"url": "https://www.youxiaohou.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "大学生活质量指北",
+					"url": "https://colleges.chat/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "Resumeily",
+					"url": "https://resumeily.com/zh-cn",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "WonderCV",
+					"url": "https://www.wondercv.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "游鲨游戏行业资料共享文档",
+					"url": "https://www.kdocs.cn/l/ct4bcS9xHD3K",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "TapTapSDK 文档",
+					"url": "https://www.yuque.com/hongliqidechazi/dfyagr/kne46dd14blprhol?singleDoc#",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "tools",
+					"name": "恋风壁纸",
+					"url": "https://www.luvbree.com/",
+					"desc": "Curated practical tools resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "nav-hubs",
+			"num": "07",
+			"name": "Directories & Collections",
+			"icon": "Compass",
+			"desc": "Hand-curated directories and collections",
+			"entries": [
+				{
+					"category": "nav-hubs",
+					"name": "Moshangzhu 收集的资源网站",
+					"url": "https://www.moshangzhu.com.cn/indiegame/%E6%94%B6%E9%9B%86%E7%9A%84%E8%B5%84%E6%BA%90%E7%BD%91%E7%AB%99.html",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "FreeDw 资源库",
+					"url": "https://freedw.com/archives/category/%e7%b2%be%e5%93%81%e5%ae%9e%e7%94%a8%e7%bd%91%e7%ab%99",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "军大君独立开发工具站",
+					"url": "https://jundagame.top/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "山海之花",
+					"url": "https://cbge.top/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "木晞i 资源汇总导航",
+					"url": "https://yftdtddh.pages.dev/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "ACG 导航站",
+					"url": "https://www.acgdhz.com/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "ACGN 导航",
+					"url": "https://acg.cloudns.org/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "PanHunt",
+					"url": "https://panhunt.com/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "船长资源",
+					"url": "https://makecc.top/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "nav-hubs",
+					"name": "阿虚同学的储物间",
+					"url": "https://axutongxue.net/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top",
+					"tags": [
+						"导航",
+						"资源"
+					]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "奔跑中的奶酪",
+					"url": "https://www.runningcheese.com/a",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top",
+					"tags": [
+						"导航",
+						"教程"
+					]
+				},
+				{
+					"category": "nav-hubs",
+					"name": "Web Directory",
+					"url": "https://webdirectory.vercel.app/",
+					"desc": "Curated directories & collections resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "net-services",
+			"num": "08",
+			"name": "Networks & Services",
+			"icon": "Globe2",
+			"desc": "Public services, hosting, APIs, and network utilities",
+			"entries": [
+				{
+					"category": "net-services",
+					"name": "ChatGPT 正版订阅教程",
+					"url": "https://ucnh8s3rdzjl.feishu.cn/wiki/HDDEw9cUOiigO0kTlUUcwsYXnbh",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Apple Account",
+					"url": "https://account.apple.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "SEAGM 礼品卡",
+					"url": "https://www.seagm.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Pockyt Shop",
+					"url": "https://shop.pockyt.io/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "全球 App Store 区服价格比较",
+					"url": "https://appstoreprice.org/zh",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "TempMail",
+					"url": "https://tempmail.lol/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Cloudflare 免费邮箱系统",
+					"url": "https://github.com/wenfxl/freemail",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Star History",
+					"url": "https://www.star-history.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "拿猪咪域名查询",
+					"url": "https://www.nazhumi.com/domain/org",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "阿拉丁神灯",
+					"url": "https://www.aldsd.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "全球热闻",
+					"url": "https://hotsea.pages.dev/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "UAPI",
+					"url": "https://uapis.cn/docs/api-reference",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "公众号监测",
+					"url": "https://www.dajiala.com/main/OfficialAccountMonitor",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "App Store 价格查询",
+					"url": "https://app.vbr.me/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "TrendRadar",
+					"url": "https://github.com/sansan0/TrendRadar",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "NewsNow",
+					"url": "https://newsnow.busiyi.world/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "NewsNow 源码",
+					"url": "https://github.com/ourongxing/newsnow",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Codex Radar",
+					"url": "https://codexradar.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "isChinaUser",
+					"url": "https://yarna.github.io/isChinaUser/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "LowEndBox VPS 列表",
+					"url": "https://lowendbox.com/blog/1-vps-1-usd-vps-per-month/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "三丰云",
+					"url": "https://www.sanfengyun.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "ClawCloud",
+					"url": "https://ap-northeast-1.run.claw.cloud/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "优云",
+					"url": "https://passport.compshare.cn",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "核云",
+					"url": "https://www.heyunidc.cn/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "FOFA",
+					"url": "https://fofa.info/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Bright Data",
+					"url": "https://www.bright.cn/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "ProxyShare",
+					"url": "https://www.proxyshare.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "Webshare",
+					"url": "https://www.webshare.io/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "1024Proxy",
+					"url": "https://1024proxy.com",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "ping0",
+					"url": "https://ping0.cc/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "IPPure",
+					"url": "https://ippure.com/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "IP.SKK",
+					"url": "https://ip.skk.moe/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "IP Coffee",
+					"url": "https://ip.net.coffee/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "net-services",
+					"name": "IPRisk",
+					"url": "https://iprisk.top/",
+					"desc": "Curated networks & services resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "webmaster",
+			"num": "09",
+			"name": "Webmaster Tools",
+			"icon": "Wrench",
+			"desc": "Domains, hosting, analytics, monitoring, and publishing tools",
+			"entries": [
+				{
+					"category": "webmaster",
+					"name": "New API",
+					"url": "https://github.com/QuantumNous/new-api",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Sub2API",
+					"url": "https://github.com/Wei-Shaw/sub2api/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "RelayPulse",
+					"url": "https://relaypulse.top/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "M179 模型卫士",
+					"url": "https://m179.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "禾维 AI",
+					"url": "https://hvoy.ai/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "CCTest",
+					"url": "https://cctest.ai/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "照妖镜",
+					"url": "https://iffs.cn/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Free for Developers",
+					"url": "https://free-for.dev/#/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "webmaster",
+					"name": "awesome-cloudflare",
+					"url": "https://github.com/zhuima/awesome-cloudflare",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "sindresorhus/awesome: Awesome lists about all kinds of interesting topics",
+					"url": "https://github.com/sindresorhus/awesome#readme",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "DNSHE",
+					"url": "https://my.dnshe.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "eu.org",
+					"url": "https://nic.eu.org/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "us.kg",
+					"url": "https://nic.us.kg/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "pp.ua",
+					"url": "https://nic.ua/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "GitHub Pages",
+					"url": "https://pages.github.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Cloudflare Pages",
+					"url": "https://pages.cloudflare.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "webmaster",
+					"name": "Namesilo",
+					"url": "https://www.namesilo.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Porkbun",
+					"url": "https://porkbun.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Cloudflare Registrar",
+					"url": "https://www.cloudflare.com/products/registrar/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Vercel",
+					"url": "https://vercel.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Netlify",
+					"url": "https://www.netlify.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Render",
+					"url": "https://render.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Giscus",
+					"url": "https://giscus.app/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Twikoo",
+					"url": "https://twikoo.js.org/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Artalk",
+					"url": "https://artalk.js.org/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Waline",
+					"url": "https://waline.js.org/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Cusdis",
+					"url": "https://cusdis.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Gatus",
+					"url": "https://gatus.io/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Uptime Kuma",
+					"url": "https://github.com/louislam/uptime-kuma",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "webmaster",
+					"name": "UptimeRobot",
+					"url": "https://uptimerobot.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Better Stack",
+					"url": "https://betterstack.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "ntfy",
+					"url": "https://ntfy.sh/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Bark",
+					"url": "https://github.com/Finb/Bark",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Gotify",
+					"url": "https://gotify.net/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "PushDeer",
+					"url": "https://github.com/easychen/pushdeer",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Server 酱",
+					"url": "https://sct.ftqq.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "awesome-selfhosted",
+					"url": "https://awesome-selfhosted.net/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "webmaster",
+					"name": "awesome-selfhosted GitHub",
+					"url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "selfh.st",
+					"url": "https://selfh.st/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "noted.lol",
+					"url": "https://noted.lol/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Cloudflare Docs",
+					"url": "https://developers.cloudflare.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "webmaster",
+					"name": "Pages Docs",
+					"url": "https://developers.cloudflare.com/pages/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Workers Docs",
+					"url": "https://developers.cloudflare.com/workers/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "R2 Docs",
+					"url": "https://developers.cloudflare.com/r2/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Tunnel Docs",
+					"url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Backblaze B2",
+					"url": "https://www.backblaze.com/cloud-storage",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "GitHub Releases",
+					"url": "https://github.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "jsDelivr",
+					"url": "https://www.jsdelivr.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Umami",
+					"url": "https://umami.is/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "webmaster",
+					"name": "Plausible",
+					"url": "https://plausible.io/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "GoatCounter",
+					"url": "https://www.goatcounter.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "开往 Travellings",
+					"url": "https://www.travellings.cn/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "萌备",
+					"url": "https://icp.gov.moe/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "十年之约",
+					"url": "https://www.foreverblog.cn/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "揪蝉",
+					"url": "https://hi.jiuchan.org/docs",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "中文独立博客列表",
+					"url": "https://github.com/timqian/chinese-independent-blogs",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "BlogFinder",
+					"url": "https://bf.zzxworld.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "博友圈",
+					"url": "https://www.boyouquan.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "积薪",
+					"url": "https://firewood.news/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "V2EX",
+					"url": "https://www.v2ex.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Hacker News",
+					"url": "https://news.ycombinator.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Astro",
+					"url": "https://astro.build/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Hugo",
+					"url": "https://gohugo.io/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Hexo",
+					"url": "https://hexo.io/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "VitePress",
+					"url": "https://vitepress.dev/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Zola",
+					"url": "https://www.getzola.org/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Vaultwarden",
+					"url": "https://github.com/dani-garcia/vaultwarden",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "webmaster",
+					"name": "Bitwarden",
+					"url": "https://bitwarden.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Let's Encrypt",
+					"url": "https://letsencrypt.org/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
+					"name": "Caddy",
+					"url": "https://caddyserver.com/",
+					"desc": "Curated webmaster tools resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		},
+		{
+			"id": "community",
+			"num": "10",
+			"name": "Communities & Articles",
+			"icon": "MessageCircle",
+			"desc": "Forums, communities, and useful reading",
+			"entries": [
+				{
+					"category": "community",
+					"name": "LINUX DO",
+					"url": "https://linux.do/",
+					"desc": "Curated communities & articles resource.",
+					"usage": "",
+					"license": "",
+					"tier": "top"
+				},
+				{
+					"category": "community",
+					"name": "LowEndTalk",
+					"url": "https://lowendtalk.com/",
+					"desc": "Curated communities & articles resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "community",
+					"name": "NodeSeek",
+					"url": "https://www.nodeseek.com/",
+					"desc": "Curated communities & articles resource.",
+					"usage": "",
+					"license": "",
+					"tier": "good"
+				},
+				{
+					"category": "community",
+					"name": "远景论坛",
+					"url": "https://bbs.pcbeta.com/",
+					"desc": "Curated communities & articles resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "community",
+					"name": "昔尘社区",
+					"url": "https://www.azx.us/",
+					"desc": "Curated communities & articles resource.",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "community",
+					"name": "NodeLoc",
+					"url": "https://www.nodeloc.com/",
+					"desc": "Curated communities & articles resource.",
+					"usage": "",
+					"license": ""
+				}
+			]
+		}
+	]
+}
