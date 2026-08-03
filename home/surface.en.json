@@ -56,12 +56,6 @@
 				"title": "Tools & Links",
 				"desc": "— tools, projects, and links",
 				"action": "services"
-			},
-			{
-				"num": "02",
-				"title": "Site intro",
-				"desc": "— a quick video tour of the desk",
-				"action": "intro"
 			}
 		],
 		"marginNote": "whatever comes to mind.",
@@ -84,18 +78,6 @@
 			"Go for a walk if the weather is nice.",
 			"Don't forget breakfast."
 		]
-	},
-	"intro": {
-		"ariaLabel": "sayori.org site introduction",
-		"backLabel": "← Back",
-		"backAriaLabel": "Back to main page",
-		"kicker": "02 / Site intro",
-		"title": "Start With A Short Tour",
-		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public tools and links, and why they live on the same desk.",
-		"videoTitle": "sayori.org site introduction - Bilibili",
-		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
-		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
-		"openLabel": "Open original video on Bilibili"
 	},
 	"profile": {
 		"ariaLabel": "About Amiya",
