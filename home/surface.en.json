@@ -248,18 +248,6 @@
 				"href": "https://board.sayori.org/"
 			},
 			{
-				"index": "READ",
-				"title": "Public writing",
-				"desc": "Tutorials, site notes, Godot development, project retrospectives, and RSS.",
-				"href": "https://blog.sayori.org/"
-			},
-			{
-				"index": "CODE",
-				"title": "Search Gateway",
-				"desc": "An open-source search and evidence snapshot project. The hosted instance remains maintainer-only.",
-				"href": "https://github.com/Amiyadesi/search-gateway"
-			},
-			{
 				"index": "NAV",
 				"title": "Resource directory",
 				"desc": "Tools, references, communities, and sites organized by category with local and external search.",

@@ -248,18 +248,6 @@
 				"href": "https://board.sayori.org/"
 			},
 			{
-				"index": "READ",
-				"title": "公开文章",
-				"desc": "教程、建站记录、Godot 开发、项目复盘和可订阅的 RSS。",
-				"href": "https://blog.sayori.org/"
-			},
-			{
-				"index": "CODE",
-				"title": "Search Gateway",
-				"desc": "统一搜索与证据快照的开源项目。线上实例为站长内部使用，不提供公共 API 额度。",
-				"href": "https://github.com/Amiyadesi/search-gateway"
-			},
-			{
 				"index": "NAV",
 				"title": "资源导航",
 				"desc": "按分类整理工具、资料、社区和站点，支持站内与外部搜索。",
