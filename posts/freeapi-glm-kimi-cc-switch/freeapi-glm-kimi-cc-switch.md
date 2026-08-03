@@ -2,9 +2,9 @@
 title: "免费 AI API 入口：商汤、innilove 和几个导航站"
 published: 2026-06-25
 created: 2026-06-25
-updated: 2026-08-02
-lastEdited: 2026-08-02
-updateCount: 7
+updated: 2026-08-03
+lastEdited: 2026-08-03
+updateCount: 8
 description: "整理几个还能找到免费 AI API 的入口，以及适合查公益站和免费额度的导航"
 image: ""
 tags:
@@ -31,6 +31,8 @@ alias: ""
 - Yangmao AI：[https://yangmao.ai/zh/#ask](https://yangmao.ai/zh/#ask)
 - 俏亮拆除公益 API 导航：[https://link.qiaoliangchaichu.top/](https://link.qiaoliangchaichu.top/)
 - HCNSEC API 导航：[https://link.hcnsec.cn/](https://link.hcnsec.cn/)
+
+如果你想继续找同类入口，可以直接打开[资源导航的 AI 分类](https://nav.sayori.org/#cat-ai)，这里会把文章里提到的入口和其他常用 AI 工具放在一起，站点状态仍以目标站为准
 
 参考的 Linux.do 帖子：[商汤 Token Plan 免费计划延长到 7 月底](https://linux.do/t/topic/2514855)
 

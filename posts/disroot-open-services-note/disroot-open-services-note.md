@@ -2,9 +2,9 @@
 title: Disroot：一个很像互联网老理想的开源服务集合
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-08-02
-lastEdited: 2026-08-02
-updateCount: 3
+updated: 2026-08-03
+lastEdited: 2026-08-03
+updateCount: 4
 description: 记录 Disroot 的邮箱、云盘、XMPP 与协作工具，也借它重新整理 sayori.org 适合长期维护的公共服务
 image: ""
 tags:
@@ -56,6 +56,8 @@ alias: ""
 - LibreTranslate，翻译服务
 - Vault，密码管理相关服务
 
+如果你还想比较其他公益或社区维护的服务，可以看看[资源导航的网络与服务分类](https://nav.sayori.org/#cat-net-services)，这里会持续收录文章里实际提到、并做过基础检查的入口
+
 不一定每个都要用
 
 但它有趣的地方就在这里：你注册一个账号，就可以享受这么多的开源服务
@@ -99,5 +101,4 @@ alias: ""
 这些都不会一开始就做成匿名公共平台，而是先邀请、限额、人工处理。需求不存在就停，维护成本超过能力也停
 
 我现在更愿意把 sayori.org 称为个人维护、非商业、尽力而为的公共数字服务，而不是公益组织，因为我也没有这个精力就是了
-
 
