@@ -2,9 +2,9 @@
 title: Riseup 的“激进服务器”列表：公益组织在提供什么，我能做什么
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-08-02
-lastEdited: 2026-08-02
-updateCount: 3
+updated: 2026-08-03
+lastEdited: 2026-08-03
+updateCount: 4
 description: 认识 Riseup 整理的非商业技术组织与公共服务，也记录 sayori.org 现在能开放的网页审计和 API 能力
 image: ""
 tags:
@@ -27,6 +27,8 @@ alias: ""
 有些组织提供邮箱、邮件列表和网站托管，有些维护 VPN、XMPP、Matrix、Etherpad、文件分享、代码托管或社区网络
 
 这页名单让我第一次比较完整地看到，互联网角落中的其他公共服务
+
+我把文中提到的组织和 sayori.org 自己开放的入口也整理进了[资源导航的网络与服务分类](https://nav.sayori.org/#cat-net-services)，想按服务类型继续查可以从那里开始
 
 ## Riseup 为什么把它们叫作激进服务器
 
