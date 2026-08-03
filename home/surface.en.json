@@ -39,24 +39,31 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "03",
+				"num": "02",
 				"title": "Bilibili",
 				"desc": "— videos, games, and build notes",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "04",
+				"num": "03",
 				"title": "About me",
 				"desc": "— a letter on the desk",
 				"href": "/about/"
 			},
 			{
-				"num": "05",
-				"title": "Tools & Links",
-				"desc": "— tools, projects, and links",
+				"num": "04",
+				"title": "Public services",
+				"desc": "— tools, projects, and operating boundaries",
 				"action": "services"
-			}
+			},
+			{
+				"num": "05",
+				"title": "Resource directory",
+				"desc": "— tools, references, and community links",
+				"href": "https://nav.sayori.org/",
+				"external": true
+		}
 		],
 		"marginNote": "whatever comes to mind.",
 		"footerNotice": "Amiya_desi's solo creator workbench",
@@ -210,32 +217,58 @@
 		"ariaLabel": "Tools & Links",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "05 / Tools & Links",
-		"title": "Tools & Links",
-		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, whiteboard, and guestbook.",
+		"kicker": "04 / Public services",
+		"title": "Public services",
+		"intro": "The home page keeps the direct entrances. Full status, operating boundaries, and small-scale plans live on the services page.",
 		"items": [
 			{
-				"index": "LINKS",
-				"title": "Resource Navigation",
-				"desc": "A searchable, categorized directory of tools, assets, and hubs I keep coming back to. More drawer than encyclopedia.",
-				"href": "https://nav.sayori.org/"
-			},
-			{
-				"index": "BOARD",
-				"title": "Amiya Whiteboard",
-				"desc": "A small browser whiteboard for sketches, rough diagrams, and messy ideas.",
-				"href": "https://board.sayori.org/"
+				"index": "SERVICES",
+				"title": "Full service notes",
+				"desc": "Public runtime, self-hosting, invitation plans, and private infrastructure boundaries.",
+				"href": "/services/",
+				"external": false
 			},
 			{
 				"index": "GEO",
 				"title": "GeoScore",
-				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints.",
+				"desc": "A public SEO / GEO audit tool for public domains, factual checks, evidence maps, and verifiable repair tasks.",
 				"href": "https://geo.sayori.org/"
 			},
 			{
+				"index": "TOOLS",
+				"title": "Asset workbench",
+				"desc": "Pixelizing and tile slicing run locally in the browser; source images stay on this device.",
+				"href": "/tools/",
+				"external": false
+			},
+			{
+				"index": "BOARD",
+				"title": "Amiya Whiteboard",
+				"desc": "A no-account browser whiteboard for quick sketches, explanations, and rough layouts.",
+				"href": "https://board.sayori.org/"
+			},
+			{
+				"index": "READ",
+				"title": "Public writing",
+				"desc": "Tutorials, site notes, Godot development, project retrospectives, and RSS.",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"index": "CODE",
+				"title": "Search Gateway",
+				"desc": "An open-source search and evidence snapshot project. The hosted instance remains maintainer-only.",
+				"href": "https://github.com/Amiyadesi/search-gateway"
+			},
+			{
+				"index": "NAV",
+				"title": "Resource directory",
+				"desc": "Tools, references, communities, and sites organized by category with local and external search.",
+				"href": "https://nav.sayori.org/"
+			},
+			{
 				"index": "NOTE",
-				"title": "Guestbook",
-				"desc": "Leave a small note, hello, reading response, or feedback after wandering through.",
+				"title": "Guestbook & feedback",
+				"desc": "Leave a note, reading response, or service feedback after wandering through.",
 				"href": "https://blog.sayori.org/guestbook/"
 			}
 		],
