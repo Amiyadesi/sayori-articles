@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Resource Navigation · Amiya's Desk",
 		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
-		"updated": "2026-08-03",
+		"updated": "2026-08-04",
 		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
 	},
 	"categories": [
@@ -948,6 +948,15 @@
 					"usage": "Use it for research rather than production traffic.",
 					"license": "Each service has its own identity, invite, quota, and privacy rules.",
 					"added": "2026-08-03"
+				},
+				{
+					"category": "ai",
+					"name": "BaiPiao Free Resources",
+					"desc": "Community-checked directory of free APIs, models, VPS offers, and domains.",
+					"usage": "Check the last verification and votes, then open the original resource site.",
+					"license": "The directory does not guarantee ongoing availability; original API and account terms apply.",
+					"url": "https://baipiao.org/free/",
+					"added": "2026-08-04"
 				}
 			]
 		},
