@@ -32,15 +32,12 @@ You can also link to the navigation site:
 
 ## Blog Networks, Organizations, and Directories
 
-This page currently lists 16 public entry points, grouped by purpose. They are not all the same kind of thing: some are virtual filing services, blog networks, long-term blogging pledges, or directories; others are service or aggregation entrances. Read each site's rules before joining or using it.
+This page currently lists 13 public entry points, grouped by purpose. They are not all the same kind of thing: some are virtual filing services, blog networks, long-term blogging pledges, or directories; others are service or aggregation entrances. Read each site's rules before joining or using it.
 
 ### Virtual Filing and Site Identity
 
 - [Moe ICP](https://icp.gov.moe/): A virtual filing and site-identity service for personal websites, not a commercial filing authority.
 - [Tea ICP](https://icp.redcha.cn/): A site-identity service with a community hopping entrance; follow its current rules.
-- [Magic ICP](https://www.moicp.cn/): Another site-identity registration entrance; it currently does not support `.org`, so check the domain rules first.
-- [N3V Alliance](https://icp.n3v.cn/): A site-identity registration entrance; it currently does not support `.org`, so check the domain rules first.
-- [Fanyu Filing](https://icp.snzy.cc/): A site-identity registration entrance; it currently does not support `.org`, so check the domain rules first.
 
 ### Blog Networks and Organizations
 
