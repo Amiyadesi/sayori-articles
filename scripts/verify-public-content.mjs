@@ -66,6 +66,7 @@ if (!Array.isArray(music.tracks)) {
 		if (!track?.title) violations.push(`site/music.json track ${index + 1} missing title`);
 		if (track?.cover) validateAssetReference(track.cover, "assets/music", `site/music.json track ${index + 1} cover`);
 		if (track?.url) validateAssetReference(track.url, "assets/music", `site/music.json track ${index + 1} url`);
+		if (track?.lyrics) validateAssetReference(track.lyrics, "assets/music", `site/music.json track ${index + 1} lyrics`);
 	}
 }
 if (walk(path.join(root, "assets", "sponsor")).length === 0) {
