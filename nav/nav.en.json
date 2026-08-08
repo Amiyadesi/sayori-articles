@@ -2249,6 +2249,14 @@
 				},
 				{
 					"category": "community",
+					"name": "Bangumi",
+					"url": "https://bangumi.tv/",
+					"desc": "An interest community and catalog for anime, books, music, and games.",
+					"usage": "Track and discover works, then browse entries, reviews, and discussions.",
+					"license": "Content and work rights belong to their respective owners."
+				},
+				{
+					"category": "community",
 					"name": "LowEndTalk",
 					"url": "https://lowendtalk.com/",
 					"desc": "Curated communities & articles resource.",

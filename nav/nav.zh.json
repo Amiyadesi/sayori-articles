@@ -2249,6 +2249,14 @@
 				},
 				{
 					"category": "community",
+					"name": "Bangumi 番组计划",
+					"url": "https://bangumi.tv/",
+					"desc": "动画、书籍、音乐和游戏社区与目录。",
+					"usage": "记录和发现作品，查看条目、评论与讨论。",
+					"license": "内容与作品版权归各自权利人所有。"
+				},
+				{
+					"category": "community",
 					"name": "LowEndTalk",
 					"url": "https://lowendtalk.com/",
 					"desc": "低价 VPS 讨论论坛。",
