@@ -39,3 +39,34 @@
 - 同步目标：`sayori-nav/public/assets/data/nav-zh.json`（经 sayori-articles 镜像 + sayori-nav CI 的 sync 脚本生成）。
 - 这里不要写密钥、Cookie、服务器后台地址或私人链接。
 - JSON 写错时 CI 的 nav-data 测试会失败，部署会停，不会上线半坏页面。
+
+破解盗版资源站
+https://rutracker.org/forum/index.php
+https://macserialjunkie.com/forum/
+https://macked.app/
+https://pesktop.com/
+https://fitgirl-repacks.site/
+https://filecr.com/home/
+https://appstorrent.ru/
+https://byrutgame.org/
+https://www.qijishow.com/down/
+https://apkvision.org/
+https://downloadly.ir/
+https://www.coowsoft.com/
+
+
+- **[Receive an SMS](https://receive-a-sms.com/)** - 免费虚拟号码，覆盖多国
+- **[Get a free SMS number](https://getfreesmsnumber.com/)** - 覆盖 300+ 虚拟号码
+- **[Receive SMS Online NET](https://receivesmsonline.net/)** - 有美/英/加免费号码
+- **[7 SIM NET](http://7sim.net/)** - 免费临时号码，自称使用真实 SIM 卡而非 VoIP，覆盖 50+ 国家
+- **[Groovl](https://groovl.com/)** - 自称使用真实手机号码
+- **[Send SMS now](http://sendsmsnow.com/)** - 主要是发送短信，不能接收
+- **[Proovl](https://proovl.com/numbers)** - 提供 24 国真实号码
+
+- **[Receive an SMS](https://receive-a-sms.com/)** - 免费虚拟号码，覆盖多国
+- **[Get a free SMS number](https://getfreesmsnumber.com/)** - 覆盖 300+ 虚拟号码
+- **[Receive SMS Online NET](https://receivesmsonline.net/)** - 有美/英/加免费号码
+- **[7 SIM NET](http://7sim.net/)** - 免费临时号码，自称使用真实 SIM 卡而非 VoIP，覆盖 50+ 国家
+- **[Groovl](https://groovl.com/)** - 自称使用真实手机号码
+- **[Send SMS now](http://sendsmsnow.com/)** - 主要是发送短信，不能接收
+- **[Proovl](https://proovl.com/numbers)** - 提供 24 国真实号码

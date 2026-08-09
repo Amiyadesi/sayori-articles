@@ -1,10 +1,10 @@
 ---
-title: "免费 AI API 入口：白嫖 BaiPiao、innilove 和几个导航站"
+title: "免费 AI API 入口：商汤、innilove 和几个导航站"
 published: 2026-06-25
 created: 2026-06-25
-updated: 2026-08-04
-lastEdited: 2026-08-04
-updateCount: 9
+updated: 2026-08-09
+lastEdited: 2026-08-09
+updateCount: 7
 description: "整理几个还能找到免费 AI API 的入口，以及适合查公益站和免费额度的导航"
 image: ""
 tags:
@@ -14,10 +14,10 @@ tags:
 category: AI 与工作流
 draft: false
 aiSummary:
-  generatedAt: "2026-08-04"
+  generatedAt: "2026-07-11"
   model: "codex-local"
   items:
-    - "收集白嫖 BaiPiao、innilove 等免费 AI API 入口"
+    - "收集商汤、innilove 等免费 AI API 入口"
     - "补充查找公益站和免费额度的导航"
     - "免费入口变化快，调用前先看额度和稳定性"
 alias: ""
@@ -26,37 +26,58 @@ alias: ""
 
 现在先放这几个
 
-- 白嫖 BaiPiao 免费资源大全：[https://baipiao.org/free/](https://baipiao.org/free/)
+- 商汤 SenseNova Token Plan：[https://www.sensenova.cn/token-plan](https://www.sensenova.cn/token-plan)
 - innilove New API：[https://api.innilove.xyz/keys](https://api.innilove.xyz/keys)
 - Yangmao AI：[https://yangmao.ai/zh/#ask](https://yangmao.ai/zh/#ask)
 - 俏亮拆除公益 API 导航：[https://link.qiaoliangchaichu.top/](https://link.qiaoliangchaichu.top/)
 - HCNSEC API 导航：[https://link.hcnsec.cn/](https://link.hcnsec.cn/)
 
-如果你想继续找同类入口，可以直接打开[资源导航的 AI 分类](https://nav.sayori.org/#cat-ai)，这里会把文章里提到的入口和其他常用 AI 工具放在一起，站点状态仍以目标站为准
+参考的 Linux.do 帖子：[商汤 Token Plan 免费计划延长到 7 月底](https://linux.do/t/topic/2514855)
 
 > [!NOTE]
-> 本文按 2026-08-04 看到的页面整理，免费额度、模型、限速和站点状态都会变，真要用之前以官网和后台显示为准
+> 本文按 2026-07-10 看到的页面整理，免费额度、模型、限速和站点状态都会变，真要用之前以官网和后台显示为准
 
 如果你没看过站内的这个帖子，也可以去看看喵[[anyrouter-sharedchat-cc-switch-student-guide|Anyrouter和sharedchat还有AgentRouter测评与使用]]
 ## 先分清楚
 
-innilove 是可以直接拿来试的 API 入口
+商汤和 innilove 是可以直接拿来试的 API 入口
 
-BaiPiao、Yangmao、俏亮拆除、HCNSEC 更像导航站，用来找新的公益站、免费额度和中转入口
+Yangmao、俏亮拆除、HCNSEC 更像导航站，用来找新的公益站、免费额度和中转入口
 
 导航页不是 Base URL，也不是 API Key 页面，别把它们直接填进 cc-switch
 
-## 白嫖 BaiPiao
+## 商汤 SenseNova
 
-入口：
+这个目前最适合拿来当备用
 
-[https://baipiao.org/free/](https://baipiao.org/free/)
+入口页面：
 
-这是一个免费资源大全，不是单一 API 服务。首页按免费 API / 模型、VPS、域名等方向分类，API 分类在[白嫖 API / 模型](https://baipiao.org/free/api/)
+[https://www.sensenova.cn/token-plan](https://www.sensenova.cn/token-plan)
 
-页面会标最后验证时间，并用社区投票核实有效性，失效条目会沉底
+Key 管理：
 
-它适合找入口，不适合直接当 Base URL 或 API Key 页面。点进具体资源后，仍要回到原站确认注册条件、接口地址、模型名和额度
+[https://platform.sensenova.cn/console/keys](https://platform.sensenova.cn/console/keys)
+
+当前页面写的是 Free 公测，最多 20 个 API Key，每个模型每 5 小时最多 1500 次调用，特殊模型除外
+
+Linux.do 帖子里整理过这些模型
+
+```text
+sensenova-6.7-flash-lite: 每 5 小时 1500 次
+sensenova-u1-fast: 每 5 小时 1500 次
+deepseek-v4-flash: 每 5 小时 500 次
+glm-5.2: 每 5 小时 500 次
+```
+
+接口是 OpenAI 兼容格式
+
+```text
+Base URL: https://token.sensenova.cn/v1
+Chat Completions: https://token.sensenova.cn/v1/chat/completions
+模型: deepseek-v4-flash / glm-5.2 / sensenova-6.7-flash-lite / sensenova-u1-fast
+```
+
+配 cc-switch 时，填 Base URL 就行，别把完整的 `/chat/completions` 也塞进去
 
 ## innilove New API
 
@@ -111,13 +132,13 @@ Base URL: https://api.innilove.xyz/v1
 
 它的定位更直接，页面写的是“白嫖大模型 api 中转站导航网”，里面分了大厂、普通中转站和公益 API
 
-公开列表里能看到多家模型平台和 API 入口，也会混着一些需要实名、需要手机号或带邀请条件的服务
+公开列表里能看到 SenseNova、ModelScope、OpenRouter 等入口，也会混着一些需要实名、需要手机号或带邀请条件的服务
 
 这里适合拿来扫一遍新站，但别看到“免费”两个字就直接丢自己的主账号和代码进去
 
 ## 怎么选
 
-想马上配到 cc-switch，先进入 BaiPiao 的 API / 模型分类，或者进 innilove 后自己生成 Key
+想马上配到 cc-switch，先试商汤，或者进 innilove 后自己生成 Key
 
 想找更多入口，先看 Yangmao，再翻俏亮拆除和 HCNSEC
 
@@ -132,15 +153,21 @@ Base URL: https://api.innilove.xyz/v1
 
 ## 配到 cc-switch
 
-白嫖 BaiPiao 不能直接填进 cc-switch，它是资源目录。先点进具体条目，按条目给出的 Base URL、API Key 和模型名配置
-
-innilove 可以这样填
+商汤可以这样填
 
 ```text
-供应商名称: innilove New API
+供应商名称: SenseNova Token Plan
 API Key: 你在控制台生成的 Key
-Base URL: https://api.innilove.xyz/v1
+Base URL: https://token.sensenova.cn/v1
 接口格式: OpenAI 兼容
+```
+
+模型映射可以先这样
+
+```text
+Opus -> deepseek-v4-flash
+Sonnet -> glm-5.2
+Haiku -> sensenova-6.7-flash-lite
 ```
 
 保存后先发一句请求

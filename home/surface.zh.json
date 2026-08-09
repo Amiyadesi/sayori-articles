@@ -39,31 +39,30 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "02",
+				"num": "03",
 				"title": "Bilibili",
 				"desc": "— 视频、游戏和折腾记录",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "03",
+				"num": "04",
 				"title": "关于我",
 				"desc": "— 放在桌上的一封信",
 				"href": "/about/"
 			},
 			{
-				"num": "04",
-				"title": "公共服务",
-				"desc": "— 工具、项目与使用边界",
+				"num": "05",
+				"title": "公开工具与入口",
+				"desc": "— 工具、项目和链接",
 				"action": "services"
 			},
 			{
-				"num": "05",
-				"title": "资源导航",
-				"desc": "— 工具、资料和社区链接",
-				"href": "https://nav.sayori.org/",
-				"external": true
-		}
+				"num": "02",
+				"title": "网站介绍",
+				"desc": "— 先用一支视频逛逛这里",
+				"action": "intro"
+			}
 		],
 		"marginNote": "想到啥写啥。",
 		"footerNotice": "Amiya_desi 的超级个体工作台",
@@ -85,6 +84,18 @@
 			"天气好的话出去走走吧。",
 			"不要忘记吃早饭。"
 		]
+	},
+	"intro": {
+		"ariaLabel": "sayori.org 网站介绍",
+		"backLabel": "← 返回",
+		"backAriaLabel": "返回主纸页",
+		"kicker": "02 / 网站介绍",
+		"title": "先看一支介绍",
+		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、公开工具与入口，以及我为什么把它们放在同一张书桌上。",
+		"videoTitle": "sayori.org 网站介绍 - Bilibili",
+		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
+		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
+		"openLabel": "去 B 站打开原视频"
 	},
 	"profile": {
 		"ariaLabel": "关于 Amiya",
@@ -217,46 +228,32 @@
 		"ariaLabel": "公开工具与入口",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "04 / 公共服务",
-		"title": "公共服务",
-		"intro": "首页只放常用入口。完整状态、使用边界和小范围计划请查看服务说明页。",
+		"kicker": "05 / 公开工具与入口",
+		"title": "公开工具与入口",
+		"intro": "这里放目前仍在维护的工具、项目和链接：资料抽屉、GeoScore、小白板与留言板。能给别人直接点开的，就摆在桌上。",
 		"items": [
 			{
-				"index": "SERVICES",
-				"title": "完整服务说明",
-				"desc": "查看公开运行、开源自部署、邀请制计划和私有基础设施的边界。",
-				"href": "/services/",
-				"external": false
-			},
-			{
-				"index": "GEO",
-				"title": "GeoScore",
-				"desc": "公开 SEO / GEO 审计工具。输入公网域名，查看事实检查、证据地图和可复验修复任务。",
-				"href": "https://geo.sayori.org/"
-			},
-			{
-				"index": "TOOLS",
-				"title": "小工具台",
-				"desc": "像素化和图块切片都在浏览器本地完成，原图不上传，结果可以直接下载。",
-				"href": "/tools/",
-				"external": false
+				"index": "LINKS",
+				"title": "资源导航",
+				"desc": "我反复回去用的工具、素材和导航站，可搜索、按分类整理。不是大全，更像自己的抽屉。",
+				"href": "https://nav.sayori.org/"
 			},
 			{
 				"index": "BOARD",
 				"title": "Amiya 的白板",
-				"desc": "无需注册的轻量浏览器白板。适合临时画图、讲想法和整理草图。",
+				"desc": "轻量浏览器白板。适合临时画图、讲想法，也适合随手乱涂。",
 				"href": "https://board.sayori.org/"
 			},
 			{
-				"index": "NAV",
-				"title": "资源导航",
-				"desc": "按分类整理工具、资料、社区和站点，支持站内与外部搜索。",
-				"href": "https://nav.sayori.org/"
+				"index": "GEO",
+				"title": "GeoScore",
+				"desc": "公开 SEO / GEO 审计工具。输入公网域名，查看结构化数据、页面信号和可见内容建议。",
+				"href": "https://geo.sayori.org/"
 			},
 			{
 				"index": "NOTE",
-				"title": "留言与反馈",
-				"desc": "路过可以留一张小纸条，也可以反馈服务问题和使用感受。",
+				"title": "留言板",
+				"desc": "路过可以塞一张小纸条。反馈、读后感、碎碎念都可以放这里。",
 				"href": "https://blog.sayori.org/guestbook/"
 			}
 		],

@@ -2,9 +2,9 @@
 title: 互联网社区记录 2：Bangumi 和 Doki Chinese Club 还有 South Plus
 published: 2026-07-11
 created: 2026-07-11
-updated: 2026-07-13
-lastEdited: 2026-07-13
-updateCount: 4
+updated: 2026-08-09
+lastEdited: 2026-08-09
+updateCount: 5
 description: 从 Bangumi 的条目和讨论，写到我最早加入的 Doki Chinese Club 论坛，最后再提一嘴South Plus
 image: ""
 tags:
@@ -17,7 +17,7 @@ alias: ""
 ---
 
 
-上一篇写 Linux.do 和 NodeLoc 时提过 Doki，不过当时还没想好怎么写，最近想了想，这些应该都能算二次元论坛，所以就先都记录上了
+上一篇写 Linux.do 和 NodeLoc 时提过 Doki，不过当时还没想好怎么写，最近想了想，这些应该都能算二次元兴趣论坛，所以就先都记录上了
 
 ## Bangumi
 
@@ -95,3 +95,6 @@ r18资源比较多，[社区论坛任务 南+ South Plus - powered by Pu!mdHd](h
 > - **成人向 / NSFW 社区**：内容尺度较大，属于典型的“色站”类论坛
 > - **资源导向**：用户多以分享、求资源、讨论成人内容为主
 > - 在中文互联网的成人/地下圈子里有一定知名度，但属于小众且内容敏感的社区
+
+# 总结
+这些都是各种兴趣社区因为一种共同的爱好而聚集在一起的呢，所以社区氛围只要你能对的上电波还是很舒适的，而且相比于上一篇中提到的社区能够更放心大胆的水呢，好了，接下来迎面向我们走来的是[[internet-community-3|互联网社区记录 3：各种站长社区和组织！]]

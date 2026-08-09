@@ -39,31 +39,30 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
-				"num": "02",
+				"num": "03",
 				"title": "Bilibili",
 				"desc": "— videos, games, and build notes",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "03",
+				"num": "04",
 				"title": "About me",
 				"desc": "— a letter on the desk",
 				"href": "/about/"
 			},
 			{
-				"num": "04",
-				"title": "Public services",
-				"desc": "— tools, projects, and operating boundaries",
+				"num": "05",
+				"title": "Tools & Links",
+				"desc": "— tools, projects, and links",
 				"action": "services"
 			},
 			{
-				"num": "05",
-				"title": "Resource directory",
-				"desc": "— tools, references, and community links",
-				"href": "https://nav.sayori.org/",
-				"external": true
-		}
+				"num": "02",
+				"title": "Site intro",
+				"desc": "— a quick video tour of the desk",
+				"action": "intro"
+			}
 		],
 		"marginNote": "whatever comes to mind.",
 		"footerNotice": "Amiya_desi's solo creator workbench",
@@ -85,6 +84,18 @@
 			"Go for a walk if the weather is nice.",
 			"Don't forget breakfast."
 		]
+	},
+	"intro": {
+		"ariaLabel": "sayori.org site introduction",
+		"backLabel": "← Back",
+		"backAriaLabel": "Back to main page",
+		"kicker": "02 / Site intro",
+		"title": "Start With A Short Tour",
+		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, public tools and links, and why they live on the same desk.",
+		"videoTitle": "sayori.org site introduction - Bilibili",
+		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
+		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
+		"openLabel": "Open original video on Bilibili"
 	},
 	"profile": {
 		"ariaLabel": "About Amiya",
@@ -217,46 +228,32 @@
 		"ariaLabel": "Tools & Links",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "04 / Public services",
-		"title": "Public services",
-		"intro": "The home page keeps the direct entrances. Full status, operating boundaries, and small-scale plans live on the services page.",
+		"kicker": "05 / Tools & Links",
+		"title": "Tools & Links",
+		"intro": "Maintained public tools, project entries, and links: the resource shelf, GeoScore, whiteboard, and guestbook.",
 		"items": [
 			{
-				"index": "SERVICES",
-				"title": "Full service notes",
-				"desc": "Public runtime, self-hosting, invitation plans, and private infrastructure boundaries.",
-				"href": "/services/",
-				"external": false
-			},
-			{
-				"index": "GEO",
-				"title": "GeoScore",
-				"desc": "A public SEO / GEO audit tool for public domains, factual checks, evidence maps, and verifiable repair tasks.",
-				"href": "https://geo.sayori.org/"
-			},
-			{
-				"index": "TOOLS",
-				"title": "Asset workbench",
-				"desc": "Pixelizing and tile slicing run locally in the browser; source images stay on this device.",
-				"href": "/tools/",
-				"external": false
+				"index": "LINKS",
+				"title": "Resource Navigation",
+				"desc": "A searchable, categorized directory of tools, assets, and hubs I keep coming back to. More drawer than encyclopedia.",
+				"href": "https://nav.sayori.org/"
 			},
 			{
 				"index": "BOARD",
 				"title": "Amiya Whiteboard",
-				"desc": "A no-account browser whiteboard for quick sketches, explanations, and rough layouts.",
+				"desc": "A small browser whiteboard for sketches, rough diagrams, and messy ideas.",
 				"href": "https://board.sayori.org/"
 			},
 			{
-				"index": "NAV",
-				"title": "Resource directory",
-				"desc": "Tools, references, communities, and sites organized by category with local and external search.",
-				"href": "https://nav.sayori.org/"
+				"index": "GEO",
+				"title": "GeoScore",
+				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints.",
+				"href": "https://geo.sayori.org/"
 			},
 			{
 				"index": "NOTE",
-				"title": "Guestbook & feedback",
-				"desc": "Leave a note, reading response, or service feedback after wandering through.",
+				"title": "Guestbook",
+				"desc": "Leave a small note, hello, reading response, or feedback after wandering through.",
 				"href": "https://blog.sayori.org/guestbook/"
 			}
 		],
