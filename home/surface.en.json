@@ -56,12 +56,6 @@
 				"title": "Tools & Links",
 				"desc": "— tools, projects, and links",
 				"action": "services"
-			},
-			{
-				"num": "02",
-				"title": "Site intro",
-				"desc": "— a quick video tour of the desk",
-				"action": "intro"
 			}
 		],
 		"marginNote": "whatever comes to mind.",
