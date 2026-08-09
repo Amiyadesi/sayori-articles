@@ -2,8 +2,8 @@
 title: GmtkJam之后的总结
 published: 2026-07-27
 created: 2026-07-27
-updated: 2026-08-02
-lastEdited: 2026-08-02
+updated: 2026-08-09
+lastEdited: 2026-08-09
 updateCount: 1
 description: GMTK Jam 最后六小时，我砍掉做不完的谜题，交出了一个真正能玩完的小游戏
 image: ""
@@ -40,4 +40,4 @@ gtmk做完了，链接在这里，[Last Minute Echo by Amiya_desi](https://amiya
 其实当天的日记也总结了很多，感兴趣可以看看[[2026-07-26]]，这个基本就是我当时转变的时候，灵感爆发写下来的心路历程
 
 最后，小朋友们以后千万不要玩多了轮椅啊，保持独立思考，不要回答，不要回答，不要回答！
-{{但是评论的话是很欢迎的哦(*^_^*)}}
+{{黑幕:但是评论的话是很欢迎的哦(*^_^*)}}

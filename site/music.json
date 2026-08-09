@@ -5,10 +5,6 @@
   "regionAware": true,
   "shuffle": true,
   "defaultProvider": "auto",
-  "chksz": {
-    "enabled": true,
-    "level": "standard"
-  },
   "tracks": [
     {
       "id": 1,
