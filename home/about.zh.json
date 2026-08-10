@@ -53,25 +53,16 @@
 						]
 					},
 					{
-						"text": "TimeRuner：C# 动作平台跳跃，核心是 5 秒时间回溯，拿过 034GameJam 最佳时间题材游戏奖。",
-						"links": [
-							{
-								"label": "TimeRuner",
-								"href": "https://github.com/Amiyadesi/time-runner"
-							}
-						]
+						"text": "DelayTrace：我目前比较想继续维护的项目，先把它放在这里，后续会补上更完整的说明。"
 					},
 					{
-						"text": "EnhanceSaveSystem：Godot 存档插件，做的是可维护的存档工程：AES-GCM、gzip、原子写入和版本迁移。",
+						"text": "GeoScore：面向公开域名的 SEO / GEO 审计工具，提供证据地图、修复建议和可下载报告。",
 						"links": [
 							{
-								"label": "EnhanceSaveSystem",
-								"href": "https://github.com/Amiyadesi/enahnce_save_system"
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
 							}
 						]
-					},
-					{
-						"text": "sayori.org：你现在站着的这张书桌。域名的由来很简单——玩了 Blue Skies 的 Sayori 线之后一发不可收拾，想用我的方式记住她。"
 					}
 				]
 			},

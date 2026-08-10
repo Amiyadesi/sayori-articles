@@ -1,0 +1,21 @@
+{
+  "avatar": "avatar-sayori-optimized.jpg",
+  "name": "Amiya_desi",
+  "bio": "Amiya_desi here! This is my blog. If you catch me slacking, remind me to study.\nI want data to fit me well enough to help with the things I cannot figure out alone, so I keep writing them down.",
+  "typewriter": {
+    "enable": true,
+    "speed": 80
+  },
+  "links": [
+    { "name": "Home", "icon": "material-symbols:home-pin-outline", "url": "https://sayori.org/" },
+    { "name": "GitHub", "icon": "mdi:github", "url": "https://github.com/Amiyadesi" },
+    { "name": "Bilibili", "icon": "simple-icons:bilibili", "url": "https://space.bilibili.com/3546919890585725" },
+    { "name": "YouTube", "icon": "simple-icons:youtube", "url": "https://www.youtube.com/@Amiya_desi" },
+    { "name": "X", "icon": "simple-icons:x", "url": "https://x.com/KirstAdali78973" },
+    { "name": "Linux DO", "icon": "material-symbols:forum-outline", "image": "/assets/profile/linuxdo.svg", "url": "https://linux.do/u/Amiya_desi" },
+    { "name": "NodeLoc", "icon": "material-symbols:forum-outline", "url": "https://www.nodeloc.com/u/amiya_desi/summary" },
+    { "name": "RSS", "icon": "material-symbols:rss-feed", "url": "https://blog.sayori.org/rss.xml" },
+    { "name": "Ko-fi", "icon": "material-symbols:local-cafe", "url": "https://ko-fi.com/amiya_desi/tip" },
+    { "name": "Afdian", "icon": "material-symbols:favorite", "url": "https://ifdian.net/a/amiya_desi/plan" }
+  ]
+}
