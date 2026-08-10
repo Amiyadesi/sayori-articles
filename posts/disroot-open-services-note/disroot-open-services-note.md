@@ -2,8 +2,8 @@
 title: Disroot：一个很像互联网老理想的开源服务集合
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-08-09
-lastEdited: 2026-08-09
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 3
 description: 记录 Disroot 的邮箱、云盘、XMPP 与协作工具，也借它重新整理 sayori.org 适合长期维护的公共服务
 image: ""

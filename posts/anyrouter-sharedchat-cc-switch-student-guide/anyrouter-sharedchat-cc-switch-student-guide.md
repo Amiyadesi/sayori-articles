@@ -2,8 +2,8 @@
 title: "大学生怎么用 AnyRouter、SharedChat 和 cc-switch 管理 AI 额度"
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-08-09
-lastEdited: 2026-08-09
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 9
 description: "给大学生看的 AnyRouter 注册、SharedChat GPT 额度领取和 cc-switch 配置记录，配合我已经发到 B 站的视频看。"
 image: ""

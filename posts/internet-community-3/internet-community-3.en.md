@@ -2,8 +2,8 @@
 title: "Internet Community Log 3: All Kinds of Webmaster Communities and Organizations!"
 published: 2026-07-20
 created: 2026-07-20
-updated: 2026-08-06
-lastEdited: 2026-08-06
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: All kinds of webmaster communities and organizations! It doesn't hurt to join, so take a look if you're interested!
 image: ""

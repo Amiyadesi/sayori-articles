@@ -27,7 +27,7 @@ alias: ""
 然后在选择那里选择你下载好的ubuntu系统，确认你那个U盘没有什么重要文件后，直接开始然后一路过去就行了，其他的都选默认配置就好了，这下我们就有了一个装载着ubuntu server 26.04 LTS的U盘了
 
 ## 安装阶段
-在电脑打开前插上U盘，然后开机的时候，当出现**Lenovo**时，快速按下`F12`按键，如果单纯的按`F12`没用的话可以结合`Fn+F12`，连续按几次，就会进入**Boot Menu**，其中按方向键选择一个带有USB的选项，直接选择哪个就可以从U盘下载了，然后就进入了ubantu系统的安装流程！
+在电脑打开前插上U盘，然后开机的时候，当出现**Lenovo**时，快速按下`F12`按键，如果单纯的按`F12`没用的话可以结合`Fn+F12`，连续按几次，就会进入**Boot Menu**，其中按方向键选择一个带有USB的选项，直接选择哪个就可以从U盘下载了，然后就进入了ubuntu系统的安装流程！
 
 ![[Pasted image 20260809171132.png|800|center|美化后的选择图片1]]
 
@@ -64,10 +64,12 @@ alias: ""
 为了后面连接的方便，站长选择用tailscale组网
 
 ```
-sudo apt update && sudo apt full-upgrade -y 
-sudo apt install -y openssh-server 
-sudo systemctl enable --now ssh 
-curl -fsSL https://tailscale.com/install.sh | sh sudo tailscale up tailscale ip -4
+sudo apt update && sudo apt full-upgrade -y
+sudo apt install -y openssh-server
+sudo systemctl enable --now ssh
+curl -fsSL https://tailscale.com/install.sh | sh
+sudo tailscale up
+tailscale ip -4
 ```
 
 这些安装好后通常会给你一个tailscale的链接，在自己的主力机上登录自己的tailscale账户就可以方便的内网连接了！

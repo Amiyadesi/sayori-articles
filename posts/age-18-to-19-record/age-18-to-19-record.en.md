@@ -2,9 +2,9 @@
 title: Record of Age 18 to 19
 published: 2026-05-28
 created: 2026-05-28
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 3
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: A record of growth from age 18 to 19, including game development, studies, life, personality development, and self-observation.
 image: ""
 tags:

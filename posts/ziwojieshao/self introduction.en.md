@@ -2,9 +2,9 @@
 title: Another Self-Introduction (July 2026)
 published: 2026-07-13
 created: 2026-07-13
-updated: 2026-08-02
-lastEdited: 2026-08-02
-updateCount: 3
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: Time to reintroduce myself after a while. After all, a few months ago I didn't know about those communities, nor did I expect to build websites, make videos, or even actually fail a course.
 image: ""
 tags:

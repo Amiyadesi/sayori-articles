@@ -1,6 +1,10 @@
 ---
 title: Outcore Afterthought
 published: 2026-05-26
+created: 2026-05-26
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: A short afterthought on Outcore, documenting character impressions, structure, and gameplay layers.
 image: ""
 tags:
