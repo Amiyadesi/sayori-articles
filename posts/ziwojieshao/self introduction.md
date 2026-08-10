@@ -2,8 +2,8 @@
 title: 又来做一次自我介绍了（2026 年 7 月）
 published: 2026-07-13
 created: 2026-07-13
-updated: 2026-08-09
-lastEdited: 2026-08-09
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 3
 description: 隔一段时间重新介绍一次自己吧。毕竟几个月前的我还不知道那些社区，也没想到自己会去搭网站、做视频，甚至真的挂科
 image: ""

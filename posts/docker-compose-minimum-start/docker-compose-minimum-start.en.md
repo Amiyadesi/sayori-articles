@@ -2,9 +2,9 @@
 title: "Docker and Docker Compose Minimum Start: Understanding Those YML Files"
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-06-27
-lastEdited: 2026-06-27
-updateCount: 3
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: "A minimum start guide to Docker for those who just got a server: what containers are, how to read Compose files, how to start, stop, update, and delete them. No theory, just practical usage."
 image: ""
 tags:

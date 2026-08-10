@@ -2,8 +2,8 @@
 title: Riseup 的“激进服务器”列表：公益组织在提供什么，我能做什么
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-08-09
-lastEdited: 2026-08-09
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 3
 description: 认识 Riseup 整理的非商业技术组织与公共服务，也记录 sayori.org 现在能开放的网页审计和 API 能力
 image: ""

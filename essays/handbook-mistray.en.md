@@ -2,9 +2,9 @@
 title: Fan-made Animation Confusion
 published: 2026-07-07
 created: 2026-07-07
-updated: 2026-07-07
-lastEdited: 2026-07-07
-updateCount: 0
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: ""
 image: ""
 tags:

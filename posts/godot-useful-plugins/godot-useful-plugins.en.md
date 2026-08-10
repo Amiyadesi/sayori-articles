@@ -2,9 +2,9 @@
 title: Very Useful Godot Plugins
 published: 2026-07-03
 created: 2026-07-03
-updated: 2026-07-03
-lastEdited: 2026-07-03
-updateCount: 0
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: ""
 image: ""
 tags:

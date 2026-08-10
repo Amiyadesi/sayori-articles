@@ -2,9 +2,9 @@
 title: "Disroot: A Collection of Open-Source Services That Feels Like the Old Internet Ideal"
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-08-03
-lastEdited: 2026-08-03
-updateCount: 4
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: Documenting Disroot's email, cloud storage, XMPP, and collaboration tools, and using it as an opportunity to reorganize sayori.org's public services suitable for long-term maintenance.
 image: ""
 tags:

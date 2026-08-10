@@ -2,8 +2,8 @@
 title: 学生权益导航：教育邮箱别闲着
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-08-09
-lastEdited: 2026-08-09
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 7
 description: 我会先拿 GitHub、JetBrains 和 Zed，再按需要用 YX Flow、GLaDOS、阿里云和 Pages
 image: ""

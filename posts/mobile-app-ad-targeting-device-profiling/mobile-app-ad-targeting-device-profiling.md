@@ -2,8 +2,8 @@
 title: "（转载）继上一个帖子：你的手机，是怎么样被他们区分对待的？"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-08-09
-lastEdited: 2026-08-09
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: "经原作者授权转载，从快应用、广告 SDK、设备与安装应用画像等角度讨论手机用户如何被差异化投放，并整理常见广告处理方法"
 image: ""

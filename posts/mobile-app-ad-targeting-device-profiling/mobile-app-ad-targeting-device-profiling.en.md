@@ -2,9 +2,9 @@
 title: "(Repost) Following up on the last post: How is your phone treated differently by them?"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-07-23
-lastEdited: 2026-07-23
-updateCount: 0
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: "Reposted with permission from the original author. Discusses how mobile users are targeted differently, from the perspectives of quick apps, ad SDKs, and device/installed app profiling, and compiles common ad handling methods."
 image: ""
 tags:

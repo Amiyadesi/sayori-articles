@@ -2,9 +2,9 @@
 title: "How College Students Use AnyRouter, SharedChat, and cc-switch to Manage AI Quotas"
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-08-02
-lastEdited: 2026-08-02
-updateCount: 9
+updated: 2026-08-10
+lastEdited: 2026-08-10
+updateCount: 1
 description: "A guide for college students on AnyRouter registration, SharedChat GPT quota claiming, and cc-switch configuration, to be watched with my Bilibili video."
 image: ""
 tags:

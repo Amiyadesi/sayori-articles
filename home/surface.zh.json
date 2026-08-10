@@ -56,6 +56,12 @@
 				"title": "公开工具与入口",
 				"desc": "— 工具、项目和链接",
 				"action": "services"
+			},
+			{
+				"num": "02",
+				"title": "网站介绍",
+				"desc": "— 先用一支视频逛逛这里",
+				"action": "intro"
 			}
 		],
 		"marginNote": "想到啥写啥。",
