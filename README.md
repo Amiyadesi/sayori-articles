@@ -34,6 +34,10 @@ and Home deployment workflows. Both downstream workflows read this repository
 at `main`; they do not read the private vault. No cross-repository deployment
 token is required.
 
+Every published post and essay must have a sibling `.en.md` or `.en.mdx`
+translation. The public-content verifier checks this pair before a publish can
+pass.
+
 ## License
 
 Unless a file says otherwise, original text and structured content are available

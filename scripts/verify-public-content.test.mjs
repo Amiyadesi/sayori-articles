@@ -51,9 +51,14 @@ try {
 
 	const duplicateSlugPath = path.join(root, "posts", "bom-post.md");
 	write(duplicateSlugPath, "---\ntitle: Duplicate Slug\ndraft: false\n---\n");
+	write(path.join(root, "posts", "bom-post.en.md"), "---\ntitle: Duplicate Slug\ndraft: false\nlang: en\n---\n\nPublished.\n");
 	const duplicateSlug = run(scriptPath);
 	assert.equal(duplicateSlug.status, 1);
 	assert.match(duplicateSlug.stderr, /duplicate public slug bom-post/);
+	fs.rmSync(path.join(root, "posts", "bom-post.en.md"));
+	const missingTranslation = run(scriptPath);
+	assert.equal(missingTranslation.status, 1);
+	assert.match(missingTranslation.stderr, /missing English translation: posts\/bom-post\.md/);
 } finally {
 	fs.rmSync(tmpRoot, { recursive: true, force: true });
 }
@@ -108,6 +113,10 @@ function createValidFixture(root) {
 	write(
 		path.join(root, "posts", "bom-post", "bom-post.md"),
 		"\uFEFF---\ntitle: BOM Post\ndraft: false\n---\n\nPublished.\n",
+	);
+	write(
+		path.join(root, "posts", "bom-post", "bom-post.en.md"),
+		"---\ntitle: BOM Post\ndraft: false\nlang: en\n---\n\nPublished.\n",
 	);
 }
 

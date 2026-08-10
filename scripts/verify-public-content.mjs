@@ -105,9 +105,18 @@ for (const directory of ["posts", "essays"]) {
 		const content = fs.readFileSync(filePath, "utf8");
 		const metadata = frontmatter(content);
 		if (!metadata) violations.push(`content requires frontmatter: ${relative(filePath)}`);
-		if (!parseFrontmatter(metadata).title) violations.push(`content missing title: ${relative(filePath)}`);
+		const fields = parseFrontmatter(metadata);
+		if (!fields.title) violations.push(`content missing title: ${relative(filePath)}`);
 		if (/^(?:draft|private|unlisted)\s*:\s*true\s*$/im.test(metadata)) {
 			violations.push(`unpublished content: ${relative(filePath)}`);
+		}
+		if (!/\.en\.(?:md|mdx)$/i.test(filePath) && fields.lang?.toLowerCase() !== "en") {
+			const translationPath = filePath.replace(/\.(md|mdx)$/i, ".en.$1");
+			if (!fs.existsSync(translationPath)) {
+				violations.push(`missing English translation: ${relative(filePath)} -> ${relative(translationPath)}`);
+			} else if (!/^lang\s*:\s*en\s*$/im.test(frontmatter(fs.readFileSync(translationPath, "utf8")))) {
+				violations.push(`English translation missing lang: en: ${relative(translationPath)}`);
+			}
 		}
 		const slug = contentSlug(directory, filePath);
 		if (publicSlugs.has(slug)) {
