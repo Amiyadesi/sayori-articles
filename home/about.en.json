@@ -53,25 +53,16 @@
 						]
 					},
 					{
-						"text": "TimeRuner: a C# action platformer built around a 5-second time rewind, Best Time-Themed Game at 034GameJam.",
-						"links": [
-							{
-								"label": "TimeRuner",
-								"href": "https://github.com/Amiyadesi/time-runner"
-							}
-						]
+						"text": "DelayTrace: a project I currently want to keep working on. I am leaving it here first and will add a fuller description later."
 					},
 					{
-						"text": "EnhanceSaveSystem: a Godot save plugin about maintainable save engineering — AES-GCM, gzip, atomic writes and version migration.",
+						"text": "GeoScore: an SEO / GEO audit tool for public domains, with an evidence map, repair suggestions, and downloadable reports.",
 						"links": [
 							{
-								"label": "EnhanceSaveSystem",
-								"href": "https://github.com/Amiyadesi/enahnce_save_system"
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
 							}
 						]
-					},
-					{
-						"text": "sayori.org: the desk you're standing on. The domain has a simple origin — after playing Sayori's route in Blue Skies, I fell hard, and wanted to remember her in my own way."
 					}
 				]
 			},
