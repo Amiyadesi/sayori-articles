@@ -39,6 +39,12 @@
 				"href": "https://blog.sayori.org/"
 			},
 			{
+				"num": "02",
+				"title": "网站介绍",
+				"desc": "— 先用一支视频逛逛这里",
+				"action": "intro"
+			},
+			{
 				"num": "03",
 				"title": "Bilibili",
 				"desc": "— 视频、游戏和折腾记录",
@@ -85,7 +91,7 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "02 / 网站介绍",
 		"title": "先看一支介绍",
-		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、公开工具与入口，以及我为什么把它们放在同一张书桌上。",
+		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、Subaru Tap 等公开工具与入口，以及我为什么把它们放在同一张书桌上。",
 		"videoTitle": "sayori.org 网站介绍 - Bilibili",
 		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
 		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
@@ -224,8 +230,14 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "05 / 公开工具与入口",
 		"title": "公开工具与入口",
-		"intro": "这里放目前仍在维护的工具、项目和链接：资料抽屉、GeoScore、小白板与留言板。能给别人直接点开的，就摆在桌上。",
+		"intro": "这里放目前仍在维护的工具、项目和链接：Subaru Tap、资料抽屉、GeoScore、小白板与留言板。能给别人直接点开的，就摆在桌上。",
 		"items": [
+			{
+				"index": "TAP",
+				"title": "Subaru Tap",
+				"desc": "点击屏幕，用菜月昴原版惨叫和死亡回归特效打节奏。",
+				"href": "/tool/subarutap/"
+			},
 			{
 				"index": "LINKS",
 				"title": "资源导航",
