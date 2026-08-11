@@ -53,7 +53,13 @@
 						]
 					},
 					{
-						"text": "DelayTrace: a project I currently want to keep working on. I am leaving it here first and will add a fuller description later."
+						"text": "DelayTrace: a project I currently want to keep working on. I am leaving it here first and will add a fuller description later.",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://github.com/Amiyadesi/godot-hub-jam"
+							}
+						]
 					},
 					{
 						"text": "GeoScore: an SEO / GEO audit tool for public domains, with an evidence map, repair suggestions, and downloadable reports.",
