@@ -2,8 +2,8 @@
 title: Reflections on an Anime Club Event
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 1
 description: An immediate post-event record about enthusiasm, social anxiety, photography, collecting photos, and a fresh touch of human connection.
 image: ""

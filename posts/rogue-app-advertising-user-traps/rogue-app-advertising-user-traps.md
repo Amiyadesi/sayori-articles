@@ -2,8 +2,8 @@
 title: "（转载）业内人士,向佬友揭露一下流氓APP是怎么围剿猎杀用户的"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 1
 description: "经原作者授权转载，梳理流氓 App 在广告跳转、用户画像、权限绕过、风控规避和投诉截流中的常见套路"
 image: ""
