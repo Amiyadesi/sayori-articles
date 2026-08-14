@@ -2,8 +2,8 @@
 title: "Running ntfy on a 2C2G Student Server: Giving Myself a Notification Button"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 1
 description: Deploy ntfy push service with Docker on a student server, so backup scripts, monitoring, and scheduled tasks can all send notifications to your phone.
 image: ""

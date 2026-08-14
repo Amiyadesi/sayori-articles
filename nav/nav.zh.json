@@ -2,15 +2,14 @@
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
 		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，按创作、学习、AI、网络服务和站长工具分类整理。",
-		"updated": "2026-08-11",
-		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
+		"updated": "2026-07-30"
 	},
 	"categories": [
 		{
 			"id": "music",
 			"num": "01",
 			"name": "音乐与音效",
-			"icon": "Music2",
+			"icon": "🎵",
 			"desc": "BGM、音效、作曲工具",
 			"entries": [
 				{
@@ -141,7 +140,7 @@
 			"id": "game-assets",
 			"num": "02",
 			"name": "游戏素材与资源",
-			"icon": "Gamepad2",
+			"icon": "🎮",
 			"desc": "素材、插件、Shader、图标",
 			"entries": [
 				{
@@ -323,7 +322,7 @@
 			"id": "art",
 			"num": "03",
 			"name": "美术与动画",
-			"icon": "Palette",
+			"icon": "🎨",
 			"desc": "像素画、动画、设计灵感",
 			"entries": [
 				{
@@ -412,7 +411,7 @@
 			"id": "learn",
 			"num": "04",
 			"name": "学习与开发",
-			"icon": "GraduationCap",
+			"icon": "📚",
 			"desc": "课程、路线图、开发工具",
 			"entries": [
 				{
@@ -713,7 +712,7 @@
 			"id": "ai",
 			"num": "05",
 			"name": "AI 与效率",
-			"icon": "Sparkles",
+			"icon": "🤖",
 			"desc": "模型入口、Agent、提示词",
 			"entries": [
 				{
@@ -816,6 +815,14 @@
 				},
 				{
 					"category": "ai",
+					"name": "claude-desktop-app",
+					"url": "https://github.com/pretend1111/claude-desktop-app",
+					"desc": "Claude 桌面助手项目。",
+					"usage": "看实现方式或本地运行。",
+					"license": "需要 Claude API，注意密钥安全。"
+				},
+				{
+					"category": "ai",
 					"name": "free-llm-api-resources",
 					"url": "https://github.com/cheahjs/free-llm-api-resources",
 					"desc": "免费 LLM API 资源清单。",
@@ -846,6 +853,14 @@
 					"desc": "AI 工具导航。",
 					"usage": "按分类查。",
 					"license": "导航站，各工具条件不同。"
+				},
+				{
+					"category": "ai",
+					"name": "AIPlus",
+					"url": "https://aiplus.lra.cn/chat",
+					"desc": "AI 对话站。",
+					"usage": "登录或直接试用。",
+					"license": "稳定性、额度和隐私需自查。"
 				},
 				{
 					"category": "ai",
@@ -903,60 +918,6 @@
 					"desc": "AI 相关小工具集合。",
 					"usage": "",
 					"license": ""
-				},
-				{
-					"category": "ai",
-					"name": "SenseNova Token Plan",
-					"url": "https://www.sensenova.cn/token-plan",
-					"desc": "商汤官方免费模型与 Token 计划入口。",
-					"usage": "看当前模型、额度和申请条件，再到控制台创建 Key。",
-					"license": "官方入口；额度、地区和条款以页面为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "ai",
-					"name": "innilove New API",
-					"url": "https://api.innilove.xyz/keys",
-					"desc": "OpenAI 兼容 API 面板和 Key 管理入口。",
-					"usage": "注册后在 Key 页面创建令牌，并按后台模型列表配置。",
-					"license": "免费额度和稳定性会变化；不要放生产密钥。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "ai",
-					"name": "Yangmao AI",
-					"url": "https://yangmao.ai/zh/#ask",
-					"desc": "整理 AI 工具、模型和免费额度信息的入口。",
-					"usage": "用来发现服务，再回到官方页面核对。",
-					"license": "信息站，不等于 API 服务或官方背书。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "ai",
-					"name": "俏亮拆除公益 API 导航",
-					"url": "https://link.qiaoliangchaichu.top/",
-					"desc": "公益、免费和付费 API 入口导航。",
-					"usage": "先查看站点状态、注册条件和接口说明。",
-					"license": "聚合信息变化快，使用前自行核验。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "ai",
-					"name": "HCNSEC API 导航",
-					"url": "https://link.hcnsec.cn/",
-					"desc": "大模型 API 与公益入口的聚合导航。",
-					"usage": "适合做入口调研，不要直接投入生产流量。",
-					"license": "各服务的实名、邀请、额度和隐私条件不同。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "ai",
-					"name": "BaiPiao 免费资源大全",
-					"desc": "社区核实的免费 API、模型、VPS 和域名资源目录。",
-					"usage": "先看最后验证时间和投票，再进入具体资源的官方入口。",
-					"license": "目录不保证资源持续有效，API 和账号条款以原站为准。",
-					"url": "https://baipiao.org/free/",
-					"added": "2026-08-04"
 				}
 			]
 		},
@@ -964,7 +925,7 @@
 			"id": "tools",
 			"num": "06",
 			"name": "实用工具",
-			"icon": "BriefcaseBusiness",
+			"icon": "🧰",
 			"desc": "画图、图片处理、小工具",
 			"entries": [
 				{
@@ -1103,7 +1064,7 @@
 			"id": "nav-hubs",
 			"num": "07",
 			"name": "导航与合集",
-			"icon": "Compass",
+			"icon": "🧭",
 			"desc": "别人的资源导航站",
 			"entries": [
 				{
@@ -1182,8 +1143,8 @@
 					"category": "nav-hubs",
 					"name": "阿虚同学的储物间",
 					"url": "https://axutongxue.net/",
-					"desc": "老牌互联网资源导航：影视、电子书、磁力、软件、AI 工具，按编号分级，更新多年。",
-					"usage": "按编号分类找站，优先看推荐位。",
+					"desc": "老牌互联网资源导航：影视、电子书、磁力、软件、AI 工具，编号分类加 🥇🥈 分级，更新多年。",
+					"usage": "按编号分类找站，优先看带 🥇 的推荐位。",
 					"license": "各站条件不同，自行看目标站说明。",
 					"tier": "top",
 					"tags": [
@@ -1195,7 +1156,7 @@
 					"category": "nav-hubs",
 					"name": "奔跑中的奶酪",
 					"url": "https://www.runningcheese.com/a",
-					"desc": "奶酪的网上冲浪指南和 AI 指南：浏览器玩法、扩展清单、AI 工具评测，带编辑标记。",
+					"desc": "奶酪的网上冲浪指南和 AI 指南：浏览器玩法、扩展清单、AI 工具评测，带 👍 编辑标记。",
 					"usage": "当教程和工具评测读，收藏夹可以照着重构。",
 					"license": "文章和清单免费阅读，资源版权看原站。",
 					"tier": "top",
@@ -1203,23 +1164,6 @@
 						"导航",
 						"教程"
 					]
-				},
-				{
-					"category": "nav-hubs",
-					"name": "Web Directory",
-					"url": "https://webdirectory.vercel.app/",
-					"desc": "网站目录和资源导航。仅限外网访问。",
-					"usage": "外网环境打开后按目录查找网站。",
-					"license": "目标站点内容和访问条件以原站为准。"
-				},
-				{
-					"category": "nav-hubs",
-					"name": "Amiya的书桌资源导航",
-					"url": "https://nav.sayori.org/",
-					"desc": "本站维护的可搜索资源与工具导航。",
-					"usage": "按用途分类查找站点，也可从博客相关文章进入。",
-					"license": "本站只保证收录时做过基础访问检查。",
-					"added": "2026-08-03"
 				}
 			]
 		},
@@ -1227,7 +1171,7 @@
 			"id": "net-services",
 			"num": "08",
 			"name": "网络与服务",
-			"icon": "Globe2",
+			"icon": "🌐",
 			"desc": "邮箱、VPS、代理、监控、订阅",
 			"entries": [
 				{
@@ -1501,87 +1445,6 @@
 					"desc": "IP 欺诈风险评分。",
 					"usage": "",
 					"license": ""
-				},
-				{
-					"category": "net-services",
-					"name": "Riseup 激进服务器列表",
-					"url": "https://riseup.net/zh/security/resources/radical-servers",
-					"desc": "非商业、自治和隐私友好技术组织的公共服务目录。",
-					"usage": "按地区和服务类型寻找邮箱、协作、托管等组织。",
-					"license": "Riseup 明确说明不构成对名单中每个项目的背书。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "Disroot",
-					"url": "https://disroot.org/",
-					"desc": "由社区维护的邮箱、云盘、聊天和协作服务集合。",
-					"usage": "先看服务列表和注册要求，再选择需要的服务。",
-					"license": "非商业服务；配额、申请和可用性以官网为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "Framasoft",
-					"url": "https://framasoft.org/",
-					"desc": "推广自由软件、开放教育和去中心化工具的法国非营利组织。",
-					"usage": "浏览其公共工具和自由软件项目。",
-					"license": "各项目有自己的使用条款和限制。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "systemli",
-					"url": "https://www.systemli.org/",
-					"desc": "面向社会运动和政治活动者的隐私通信服务组织。",
-					"usage": "查看其邮箱、托管和通信服务说明。",
-					"license": "申请范围与数据政策以组织说明为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "NoLog.cz",
-					"url": "https://nolog.cz/",
-					"desc": "捷克活动者技术集体，提供隐私通信和协作服务。",
-					"usage": "查看 Matrix、文件和协作工具入口。",
-					"license": "服务状态与申请条件可能变化。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "GreenNet",
-					"url": "https://www.greennet.org.uk/",
-					"desc": "为和平、环境和人权组织提供网络服务与托管支持。",
-					"usage": "适合了解非营利组织的托管与技术支持模式。",
-					"license": "服务对象与资助方式以官网为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "Koumbit",
-					"url": "https://www.koumbit.org/",
-					"desc": "面向社区和社会正义项目的自由软件技术服务组织。",
-					"usage": "查看团结托管和社区技术支持项目。",
-					"license": "不保证面向所有个人开放。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "sayori.org 公共服务",
-					"url": "https://sayori.org/services/",
-					"desc": "Amiya的书桌提供的 GeoScore、博客、白板等公共服务入口。",
-					"usage": "查看服务范围、限制和反馈方式。",
-					"license": "个人维护、非商业、尽力而为，不保证长期可用。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "net-services",
-					"name": "Amiya 的白板",
-					"url": "https://board.sayori.org/",
-					"desc": "无需注册的轻量浏览器白板。",
-					"usage": "临时画图、整理草图或分享流程。",
-					"license": "重要内容请自行导出，不承诺长期保存。",
-					"added": "2026-08-03"
 				}
 			]
 		},
@@ -1589,7 +1452,7 @@
 			"id": "webmaster",
 			"num": "09",
 			"name": "站长工具",
-			"icon": "Wrench",
+			"icon": "🛠",
 			"desc": "域名、托管、评论、统计、自托管",
 			"entries": [
 				{
@@ -1668,7 +1531,7 @@
 				},
 				{
 					"category": "webmaster",
-					"name": "sindresorhus/awesome: Awesome lists about all kinds of interesting topics",
+					"name": "sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics",
 					"url": "https://github.com/sindresorhus/awesome#readme",
 					"desc": "awesome列表帖，github 400k star+",
 					"usage": "",
@@ -2165,69 +2028,6 @@
 					"desc": "自动 HTTPS 的 Web 服务器。",
 					"usage": "",
 					"license": ""
-				},
-				{
-					"category": "webmaster",
-					"name": "sayori.org",
-					"url": "https://sayori.org/",
-					"desc": "Amiya的书桌主站与项目入口。",
-					"usage": "查看站点介绍、项目链接和公共服务。",
-					"license": "站点内容与服务边界以页面说明为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
-					"name": "Amiya的书桌博客",
-					"url": "https://blog.sayori.org/",
-					"desc": "记录网站、工具、游戏开发和公共服务的个人博客。",
-					"usage": "阅读教程、项目记录和资源整理文章。",
-					"license": "文章中的外部服务请以原站说明为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
-					"name": "GeoScore",
-					"url": "https://geo.sayori.org/",
-					"desc": "SEO 与 GEO 事实审计工具，提供证据和修复报告。",
-					"usage": "输入公开网址运行审计，再按报告复验。",
-					"license": "不自动修改目标站点；结果是诊断建议。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
-					"name": "GeoScore 公开 API",
-					"url": "https://geo-api.sayori.org/",
-					"desc": "GeoScore 的公开审计 API 与机器可读接口。",
-					"usage": "先阅读 API 文档，再按额度和错误码调用。",
-					"license": "尽力而为服务，不保证持续可用或无延迟。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
-					"name": "GeoScore Docs",
-					"url": "https://geo.sayori.org/docs",
-					"desc": "GeoScore 的双语使用、BYOK、监控和 API 文档。",
-					"usage": "查看请求示例、错误码和隐私边界。",
-					"license": "公开文档不包含内部管理凭据。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
-					"name": "Search Gateway 源码",
-					"url": "https://github.com/Amiyadesi/search-gateway",
-					"desc": "可自部署的搜索网关与 MCP 接入项目。",
-					"usage": "按仓库说明自行部署和配置搜索提供商。",
-					"license": "线上 search.sayori.org 为私有实例，不提供匿名调用。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
-					"name": "博客 RSS",
-					"url": "https://blog.sayori.org/rss.xml",
-					"desc": "Amiya的书桌博客 RSS 订阅。",
-					"usage": "用 RSS 阅读器订阅新文章。",
-					"license": "文章发布状态以博客页面为准。",
-					"added": "2026-08-03"
 				}
 			]
 		},
@@ -2235,7 +2035,7 @@
 			"id": "community",
 			"num": "10",
 			"name": "社区与文章",
-			"icon": "MessageCircle",
+			"icon": "💬",
 			"desc": "论坛、社区、经验文章",
 			"entries": [
 				{
@@ -2287,41 +2087,6 @@
 					"desc": "自由的资源与折腾社区。",
 					"usage": "",
 					"license": ""
-				},
-				{
-					"category": "community",
-					"name": "Bangumi 番组计划",
-					"url": "https://bangumi.tv/",
-					"desc": "动画、书籍、音乐和游戏社区与目录。",
-					"usage": "记录和发现作品，查看条目、评论与讨论。",
-					"license": "内容与作品版权归各自权利人所有。"
-				},
-				{
-					"category": "community",
-					"name": "博客：免费 AI API 入口",
-					"url": "https://blog.sayori.org/posts/freeapi-glm-kimi-cc-switch/",
-					"desc": "整理免费 AI API、额度和导航入口的文章。",
-					"usage": "先读说明，再核对目标站的当前状态。",
-					"license": "文章记录会过期，服务条款以原站为准。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "community",
-					"name": "博客：Riseup 公益服务列表",
-					"url": "https://blog.sayori.org/posts/radical-servers-public-services/",
-					"desc": "介绍 Riseup 激进服务器目录和 sayori.org 公共服务。",
-					"usage": "从文章了解背景，再进入导航按服务查找。",
-					"license": "目录不等于官方背书。",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "community",
-					"name": "博客：Disroot 开源服务集合",
-					"url": "https://blog.sayori.org/posts/disroot-open-services-note/",
-					"desc": "记录 Disroot 的邮箱、云盘、XMPP 与协作工具。",
-					"usage": "适合先了解服务边界和注册要求。",
-					"license": "服务状态和配额以 Disroot 官网为准。",
-					"added": "2026-08-03"
 				}
 			]
 		}

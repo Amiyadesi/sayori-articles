@@ -1,8 +1,8 @@
 ---
 title: meta-note
 published: 2026-06-11
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 1
 created: 2026-06-11
 description: Since you're here, why not take a look?
