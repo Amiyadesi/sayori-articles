@@ -1,11 +1,27 @@
 {
-  "id": "2026-07-17-geoscore-search-gateway",
-  "updated": "2026-07-17",
-  "title": "Two small projects I just finished",
-  "content": "I have just wrapped up GeoScore 2.4.1 and Search Gateway 1.2.0. Both projects are open source, so feel free to try them and tell me when something is inaccurate, confusing, or simply unpleasant to use.\n\nThe Search Gateway article is already published. The GeoScore guide is still being edited by hand; until it is ready, the second button will take you straight to the GeoScore service.",
-  "closable": true,
-  "links": [
-    { "enable": true, "text": "Read the Search Gateway article", "url": "/posts/build-your-search-gateway/", "external": false },
-    { "enable": true, "text": "Try GeoScore", "url": "https://geo.sayori.org/", "external": true }
-  ]
+	"id": "2026-08-11-subarutap",
+	"updated": "2026-08-11",
+	"title": "Subaru Tap is ready",
+	"content": "If it sounds fun, come give it a try, meow.\n\nThere is a video too, if you would rather watch first.\n\nThe project repository is here.",
+	"closable": true,
+	"links": [
+		{
+			"enable": true,
+			"text": "Play Subaru Tap",
+			"url": "https://sayori.org/tools/subarutap/",
+			"external": true
+		},
+		{
+			"enable": true,
+			"text": "Watch the video",
+			"url": "https://www.bilibili.com/video/BV15TuB6sENQ/#reply117075573997703",
+			"external": true
+		},
+		{
+			"enable": true,
+			"text": "View on GitHub",
+			"url": "https://github.com/Amiyadesi/subarutap",
+			"external": true
+		}
+	]
 }

@@ -2,8 +2,8 @@
 title: "Internet Community Records 2: Bangumi, Doki Chinese Club, and South Plus"
 published: 2026-07-11
 created: 2026-07-11
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: From Bangumi's entries and discussions, to the Doki Chinese Club forum I first joined, and finally a quick mention of South Plus.
 image: ""

@@ -2,8 +2,8 @@
 title: Reflections After GMTK Jam
 published: 2026-07-27
 created: 2026-07-27
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: In the last six hours of GMTK Jam, I cut down the unfinished puzzles and submitted a small game that was actually playable.
 image: ""
