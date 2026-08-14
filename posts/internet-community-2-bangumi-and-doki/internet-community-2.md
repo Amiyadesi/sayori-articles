@@ -2,8 +2,8 @@
 title: 互联网社区记录 2：Bangumi 和 Doki Chinese Club 还有 South Plus
 published: 2026-07-11
 created: 2026-07-11
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 5
 description: 从 Bangumi 的条目和讨论，写到我最早加入的 Doki Chinese Club 论坛，最后再提一嘴South Plus
 image: ""
