@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "posts/sayori-diary/**"
+      - "friends/**"
+      - "spec/sayori-friends.md"
+      - "spec/sayori-friends.en.md"
       - ".github/workflows/deploy-sayori-diary.yml"
   workflow_dispatch:
 
