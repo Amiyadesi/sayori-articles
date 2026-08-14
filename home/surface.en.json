@@ -40,28 +40,29 @@
 			},
 			{
 				"num": "02",
-				"title": "Site intro",
-				"desc": "— take a short video tour",
-				"action": "intro"
-			},
-			{
-				"num": "03",
 				"title": "Bilibili",
 				"desc": "— videos, games, and build notes",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "04",
+				"num": "03",
 				"title": "About me",
 				"desc": "— a letter on the desk",
 				"href": "/about/"
 			},
 			{
-				"num": "05",
+				"num": "04",
 				"title": "Tools & Links",
-				"desc": "— tools, projects, and links",
+				"desc": "— tools and public entries",
 				"action": "services"
+			},
+			{
+				"num": "05",
+				"title": "Resource Links",
+				"desc": "— categorized tools, learning, and community links",
+				"href": "https://nav.sayori.org/",
+				"external": true
 			}
 		],
 		"marginNote": "whatever comes to mind.",
@@ -85,23 +86,11 @@
 			"Don't forget breakfast."
 		]
 	},
-	"intro": {
-		"ariaLabel": "sayori.org site introduction",
-		"backLabel": "← Back",
-		"backAriaLabel": "Back to main page",
-		"kicker": "02 / Site intro",
-		"title": "Start With A Short Tour",
-		"intro": "This Bilibili video walks through sayori.org: the blog, whiteboard, guestbook, Subaru Tap, public tools and links, and why they live on the same desk.",
-		"videoTitle": "sayori.org site introduction - Bilibili",
-		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
-		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
-		"openLabel": "Open original video on Bilibili"
-	},
 	"profile": {
 		"ariaLabel": "About Amiya",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "04 / Solo creator card",
+		"kicker": "03 / Solo creator card",
 		"name": "Amiya_desi",
 		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
 		"columns": [
@@ -228,9 +217,9 @@
 		"ariaLabel": "Tools & Links",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "05 / Tools & Links",
+		"kicker": "04 / Tools & Links",
 		"title": "Tools & Links",
-		"intro": "Maintained public tools, project entries, and links: Subaru Tap, the resource shelf, GeoScore, whiteboard, and guestbook.",
+		"intro": "Maintained public tools and entries: Subaru Tap, Sayori's Diary, GeoScore, the whiteboard, guestbook, and service notes.",
 		"items": [
 			{
 				"index": "TAP",
@@ -239,10 +228,16 @@
 				"href": "/tools/subarutap/"
 			},
 			{
-				"index": "LINKS",
-				"title": "Resource Navigation",
-				"desc": "A searchable, categorized directory of tools, assets, and hubs I keep coming back to. More drawer than encyclopedia.",
-				"href": "https://nav.sayori.org/"
+				"index": "SERVICES",
+				"title": "Public Services",
+				"desc": "Current public services, self-hosted source projects, planned work, and operating boundaries.",
+				"href": "https://sayori.org/services/"
+			},
+			{
+				"index": "DIARY",
+				"title": "Sayori's Diary",
+				"desc": "Public diary pages, poems, and small pieces of Sayori's ordinary days.",
+				"href": "https://diary.sayori.org/"
 			},
 			{
 				"index": "BOARD",

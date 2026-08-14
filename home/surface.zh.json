@@ -40,28 +40,29 @@
 			},
 			{
 				"num": "02",
-				"title": "网站介绍",
-				"desc": "— 先用一支视频逛逛这里",
-				"action": "intro"
-			},
-			{
-				"num": "03",
 				"title": "Bilibili",
 				"desc": "— 视频、游戏和折腾记录",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
-				"num": "04",
+				"num": "03",
 				"title": "关于我",
 				"desc": "— 放在桌上的一封信",
 				"href": "/about/"
 			},
 			{
-				"num": "05",
+				"num": "04",
 				"title": "公开工具与入口",
-				"desc": "— 工具、项目和链接",
+				"desc": "— 工具和公共入口",
 				"action": "services"
+			},
+			{
+				"num": "05",
+				"title": "资源链接",
+				"desc": "— 工具、资料和社区的分类导航",
+				"href": "https://nav.sayori.org/",
+				"external": true
 			}
 		],
 		"marginNote": "想到啥写啥。",
@@ -85,23 +86,11 @@
 			"不要忘记吃早饭。"
 		]
 	},
-	"intro": {
-		"ariaLabel": "sayori.org 网站介绍",
-		"backLabel": "← 返回",
-		"backAriaLabel": "返回主纸页",
-		"kicker": "02 / 网站介绍",
-		"title": "先看一支介绍",
-		"intro": "这支 B 站视频会快速带你走一遍 sayori.org：博客、白板、留言板、Subaru Tap 等公开工具与入口，以及我为什么把它们放在同一张书桌上。",
-		"videoTitle": "sayori.org 网站介绍 - Bilibili",
-		"videoUrl": "https://www.bilibili.com/video/BV1pNVz6JEpZ/",
-		"embedUrl": "https://player.bilibili.com/player.html?isOutside=true&bvid=BV1pNVz6JEpZ&p=1&autoplay=0",
-		"openLabel": "去 B 站打开原视频"
-	},
 	"profile": {
 		"ariaLabel": "关于 Amiya",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "04 / 超级个体名片",
+		"kicker": "03 / 超级个体名片",
 		"name": "Amiya_desi",
 		"intro": "Amiya_desi 是我长期经营的个人公开身份：围绕 Godot 游戏、个人网站、服务器折腾、Cloudflare 工作流、Obsidian 写作流和 AI 辅助开发做作品、工具、文章与复盘。这个入口负责把稳定可公开的东西放在一起：博客文章、GameJam 作品、GitHub 项目、GeoScore、小白板、留言板和公开联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
 		"columns": [
@@ -228,9 +217,9 @@
 		"ariaLabel": "公开工具与入口",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "05 / 公开工具与入口",
+		"kicker": "04 / 公开工具与入口",
 		"title": "公开工具与入口",
-		"intro": "这里放目前仍在维护的工具、项目和链接：Subaru Tap、资料抽屉、GeoScore、小白板与留言板。能给别人直接点开的，就摆在桌上。",
+		"intro": "这里放目前仍在维护的工具、项目和公开入口：Subaru Tap、Sayori 日记、GeoScore、小白板、留言板和服务说明。能给别人直接点开的，就摆在桌上。",
 		"items": [
 			{
 				"index": "TAP",
@@ -239,10 +228,16 @@
 				"href": "/tools/subarutap/"
 			},
 			{
-				"index": "LINKS",
-				"title": "资源导航",
-				"desc": "我反复回去用的工具、素材和导航站，可搜索、按分类整理。不是大全，更像自己的抽屉。",
-				"href": "https://nav.sayori.org/"
+				"index": "SERVICES",
+				"title": "公共服务",
+				"desc": "当前公开运行的服务、开源自部署项目、计划和使用边界。",
+				"href": "https://sayori.org/services/"
+			},
+			{
+				"index": "DIARY",
+				"title": "Sayori 的日记",
+				"desc": "Sayori 自己写下的公开日记、诗句和普通日子里的小片段。",
+				"href": "https://diary.sayori.org/"
 			},
 			{
 				"index": "BOARD",
