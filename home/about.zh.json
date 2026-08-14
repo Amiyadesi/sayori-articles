@@ -53,13 +53,7 @@
 						]
 					},
 					{
-						"text": "DelayTrace：我目前比较想继续维护的项目，先把它放在这里，后续会补上更完整的说明。",
-						"links": [
-							{
-								"label": "DelayTrace",
-								"href": "https://github.com/Amiyadesi/godot-hub-jam"
-							}
-						]
+						"text": "DelayTrace：我目前比较想继续维护的项目，先把它放在这里，后续会补上更完整的说明。"
 					},
 					{
 						"text": "GeoScore：面向公开域名的 SEO / GEO 审计工具，提供证据地图、修复建议和可下载报告。",

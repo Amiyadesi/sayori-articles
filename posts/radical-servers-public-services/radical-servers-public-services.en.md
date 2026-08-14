@@ -2,8 +2,8 @@
 title: "Riseup's 'Radical Servers' List: What Public Service Organizations Offer and What I Can Do"
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 1
 description: Getting to know the non-commercial tech organizations and public services curated by Riseup, and documenting the web audit and API capabilities currently offered by sayori.org
 image: ""

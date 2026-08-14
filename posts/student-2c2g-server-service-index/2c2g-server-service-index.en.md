@@ -2,8 +2,8 @@
 title: "What Can a 2C2G Student Server Run: Don't Overload the Little Machine Yet"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-08-10
-lastEdited: 2026-08-10
+updated: 2026-08-14
+lastEdited: 2026-08-14
 updateCount: 1
 description: "My real-world setup for a 2C2G Alibaba Cloud student server: Vaultwarden, ntfy, Gatus, Fast Note Sync, AstrBot, and a search gateway. Includes actual memory usage and a list of what not to run."
 image: ""
