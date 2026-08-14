@@ -2,8 +2,8 @@
 title: "Student Benefits Navigation: Don't Let Your Edu-Email Sit Idle"
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: I'll start with GitHub, JetBrains, and Zed, then use YX Flow, GLaDOS, Aliyun, and Pages as needed.
 image: ""

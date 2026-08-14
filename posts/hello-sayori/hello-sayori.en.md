@@ -2,8 +2,8 @@
 title: Hello Sayori
 published: 2026-05-21
 created: 2026-05-21
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: The first post, opening the door for this little personal blog.
 image: ""

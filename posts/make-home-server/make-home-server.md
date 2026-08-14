@@ -2,9 +2,9 @@
 title: win7老电脑爆改家里云记录
 published: 2026-08-09
 created: 2026-08-09
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-08-09
+lastEdited: 2026-08-09
+updateCount: 0
 description: 从零开始把家中win7老电脑改成linux服务器，看完你也可以上手
 image: ""
 tags:
@@ -22,12 +22,12 @@ alias: ""
 
 ## 准备阶段
 
-准备一个至少4GB的小U盘，用来制作Ubuntu系统安装盘。先从[Ubuntu Server官网](https://ubuntu.com/download/server)下载最新的稳定版，比如站长下载的就是26.04版本，然后下载[Rufus](https://rufus.ie/)制作启动盘。
-![[Pasted image 20260809163126.png|width=600|center|Rufus界面]]
-在Rufus中选择下载好的Ubuntu镜像。确认U盘里没有重要文件后开始写入，其他选项保持默认即可。完成后，我们就有了一个装载Ubuntu Server 26.04 LTS安装程序的U盘。
+一个至少4GB小U盘用来被刷成ubuntu系统盘，[https://ubuntu.com/download/server](https://ubuntu.com/download/server)，在官方链接下载最新的稳定版，比如站长下载的就是26.04版本，然后下载[https://rufus.ie/](https://rufus.ie/)，用来刷U盘
+![[Pasted image 20260809163126.png|width=600|center|refus界面]]
+然后在选择那里选择你下载好的ubuntu系统，确认你那个U盘没有什么重要文件后，直接开始然后一路过去就行了，其他的都选默认配置就好了，这下我们就有了一个装载着ubuntu server 26.04 LTS的U盘了
 
 ## 安装阶段
-开机前插上U盘。出现**Lenovo**标志时连续按几次`F12`；如果无效，可以尝试`Fn+F12`。进入**Boot Menu**后，用方向键选择带有USB的启动项，就能从U盘启动并进入Ubuntu安装流程。
+在电脑打开前插上U盘，然后开机的时候，当出现**Lenovo**时，快速按下`F12`按键，如果单纯的按`F12`没用的话可以结合`Fn+F12`，连续按几次，就会进入**Boot Menu**，其中按方向键选择一个带有USB的选项，直接选择哪个就可以从U盘下载了，然后就进入了ubuntu系统的安装流程！
 
 ![[Pasted image 20260809171132.png|800|center|美化后的选择图片1]]
 
@@ -45,21 +45,17 @@ alias: ""
 
 ![[Pasted image 20260810145100.png|800|center|美化后的选择图片4]]
 
-进入这个界面后，就可以设置服务器名称、用户名和密码了。Ubuntu Server安装器创建的是一个普通用户，并授予它`sudo`权限；Ubuntu默认锁定`root`账号，因此这里不需要把用户名填成`root`。我使用的是`amiya`，后续通过`ssh amiya@服务器地址`登录，需要管理员权限时再执行`sudo`。
-
-请记住这里设置的主机名、用户名和密码。忘记密码也不一定需要重新刷机，但恢复过程会麻烦很多。
+进入这个界面后就可以开始给你的服务器配置密码和账户了，按照惯例来说，账户都起名`root`，当然你有自己的想法也行，比如我就叫`amiya`，然后配置好主机名和用户名和密码，这些东西记得都要记住哦，要不然到时候连接也登录不上自己的服务器，只能重新刷机了（
 
 然后中间会有一个让你选择是否是ubuntu pro的，直接跳过就行了，正常人基本用不到hh
 
 ![[Pasted image 20260810145401.png|800|center|美化后的选择图片5]]
 
-然后**重点**来了，首先OpenSSH是肯定要装的。其次，如果你有GitHub账户并且已经配置SSH公钥，可以直接输入GitHub用户名导入公钥。安装完成后，就能在同一局域网内通过IP和SSH密钥登录。
-
-确认公钥已经正确导入后，可以不勾选图中的`[ ] Allow password authentication over SSH`。这个选项控制是否允许使用密码进行SSH登录。
+然后**重点**来了，首先openssh是肯定要装的，其次就是如果你有github账户并且配置了ssh~~（站长记得还有一个平台也可以improt，不过站长忘记了）~~，你可以直接输入你的github用户名导入自己的ssh公钥，然后只需要在同一个局域网下（比如同一个Wifi）就可以直接通过ip和ssh密钥对连接了！就不需要勾选途中的第二个`[ ] Allow password authentication over SSH`选项了，这个选项的意思就是能够使用密码登录
 
 ![[Pasted image 20260810150230.png|800|center|美化后的选择图片6]]
 
-然后安装器会列出一些常见的服务器软件。如果确实需要，可以用空格键勾选；暂时没有需求就直接选择`Done`。
+然后就会让你挑选一些常见的服务器软件让你安装，如果你确实有需求就可以勾引选几个，用空格键勾选，没啥需要的就直接`Done`就完事了
 
 最后点击`Reboot Now`后，如果出现了**Please remove the installation medium, then press ENTER**就比较简单了，拔掉U盘再点击enter就可以正常启动了！如果没有出现这些，那就在黑屏后拔掉，否则你就要即刻轮回......
 
@@ -86,4 +82,4 @@ tailscale ip -4
 然后目前的fast note sync也成功迁移到家宽服务器上，让我的博客的数据同步的更快一些
 
 > [!NOTE]
-> 然后暂时也不知道搞什么了喵，不过有一个放在家里的国内家宽服务器还是挺有趣的喵。实测上行带宽约70 Mbps，2核4GB也能用。如果你看到这里了，欢迎给我一些如何利用好这个家宽小服务器的建议！
+> 然后暂时也不知道搞什么了喵，不过有一个放在家里的国内家宽服务器还是挺有趣的喵，测试的上行带宽70MPS差不多，2H4G也能用，如果你看到这里了，欢迎你给我一些怎么利用好这个家宽小服务器的建议！

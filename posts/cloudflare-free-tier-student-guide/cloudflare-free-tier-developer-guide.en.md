@@ -2,8 +2,8 @@
 title: "What Cloudflare's Free Tier Can Do for Developers: The Cyber Philanthropist's Free-for-All"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: "A rundown of genuinely useful things in Cloudflare's free tier: Pages, Workers, R2, Tunnel, Email Routing, DNS, Web Analytics, and when it's a better fit than a VPS."
 image: ""

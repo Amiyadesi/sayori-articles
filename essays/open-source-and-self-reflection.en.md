@@ -2,8 +2,8 @@
 title: Open Source Reflections and Self-Reflection
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-10
+lastEdited: 2026-08-10
 updateCount: 1
 description: A genuine snippet about open-source workflows, the urge to express, indie games, talent, and continuous learning.
 image: ""
