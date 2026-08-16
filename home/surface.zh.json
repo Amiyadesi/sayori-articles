@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya的书桌 · sayori.org",
-		"description": "Amiya的书桌是 Amiya_desi 的个人公开入口，收纳博客文章、Godot 游戏作品、服务器和 Cloudflare 折腾、Obsidian 写作流、公开小工具与联系方式。",
+		"description": "Amiya的书桌是独立软件开发者 Amiya_desi 的个人主页，展示 GeoScore Web 软件服务、Godot 游戏、开源工具、博客与联系方式。",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,7 +29,7 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "随手记几行",
+		"title": "Amiya_desi 的开发者书桌",
 		"entryAriaLabel": "入口",
 		"entries": [
 			{
@@ -48,13 +48,13 @@
 			{
 				"num": "03",
 				"title": "关于我",
-				"desc": "— 放在桌上的一封信",
+				"desc": "— 独立开发者与作品",
 				"href": "/about/"
 			},
 			{
 				"num": "04",
-				"title": "公开工具与入口",
-				"desc": "— 工具和公共入口",
+				"title": "软件与服务",
+				"desc": "— GeoScore、工具与开发计划",
 				"action": "services"
 			},
 			{
@@ -65,8 +65,8 @@
 				"external": true
 			}
 		],
-		"marginNote": "想到啥写啥。",
-		"footerNotice": "Amiya_desi 的超级个体工作台",
+		"marginNote": "独立软件开发者。",
+		"footerNotice": "Amiya_desi · 软件、游戏与公开作品",
 		"languageLink": {
 			"href": "../en/",
 			"label": "EN"
@@ -90,16 +90,16 @@
 		"ariaLabel": "关于 Amiya",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "03 / 超级个体名片",
+		"kicker": "03 / 独立开发者名片",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi 是我长期经营的个人公开身份：围绕 Godot 游戏、个人网站、服务器折腾、Cloudflare 工作流、Obsidian 写作流和 AI 辅助开发做作品、工具、文章与复盘。这个入口负责把稳定可公开的东西放在一起：博客文章、GameJam 作品、GitHub 项目、GeoScore、小白板、留言板和公开联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
+		"intro": "Amiya_desi 是我长期经营的公开身份，也是一名独立软件开发者。当前开发和维护 Web 软件服务、开源工具与 Godot 游戏；GeoScore 是正在运行的主要 SaaS 项目。这里汇总博客文章、GameJam 作品、GitHub 项目、公开工具与联系方式。AI 会用，但只把它当成调试、检索、重构和整理工作的放大器，不让它替代作品本身。",
 		"columns": [
 			{
 				"title": "公开方向",
 				"items": [
 					"游戏开发：Godot 4.x、GDScript、C#，能做 2D 玩法原型、状态机、事件总线、对象池、资源/存档系统和编辑器工具。",
 					"玩法表达：平台跳跃、时间回溯、输入缓冲/容错、关卡节奏、手感调参，以及偏 meta 的叙事和解谜原型。",
-					"独立发布面：个人网站、博客、Bilibili、GitHub、GameJam 作品和公开工具与入口，正在把作品集做成可持续增长的入口。",
+					"软件与 SaaS：开发和维护 GeoScore、浏览器工具、开源项目与尚未发行的软件，按真实进度公开功能和文档。",
 					"Web / 服务器：静态站、博客内容管线、Linux、Docker、Cloudflare Pages / Tunnel 和日常运维脚本。"
 				]
 			},
@@ -162,15 +162,15 @@
 			"items": [
 				{
 					"question": "sayori.org 是什么？",
-					"answer": "这是 Amiya_desi 的个人公开入口，用来整理博客、Godot 游戏作品、公开工具、服务器和 Cloudflare 笔记、Obsidian 写作流、GitHub、Bilibili 与联系方式。"
+					"answer": "这是独立软件开发者 Amiya_desi 的个人主页，用来展示 GeoScore、Godot 游戏、开源工具、博客、公开项目与联系方式。"
 				},
 				{
 					"question": "博客主要写什么？",
 					"answer": "blog.sayori.org 主要记录教程文章、服务器折腾、Godot 开发、AI 辅助开发复盘、资源索引、项目日志和一些日常回声。"
 				},
 				{
-					"question": "这里提供商业服务或本地业务吗？",
-					"answer": "不提供。这里是个人公开形象和作品入口，不发布虚假地址、电话、价格表、本地服务页或商业交付承诺。"
+					"question": "你目前开发什么产品？",
+					"answer": "目前以 GeoScore 这类 Web 软件服务为主，也开发 Godot 游戏、桌面与开发者工具和开源软件。GeoScore 当前免费开放，网站暂未提供付费订阅或结账；未来上线收费方案或软件销售时，会先公开价格、交付、退款和取消规则。"
 				},
 				{
 					"question": "可以从哪里联系或继续了解？",
@@ -182,6 +182,10 @@
 			"email": "me@sayori.org",
 			"linksAriaLabel": "公开入口",
 			"links": [
+				{
+					"label": "GeoScore",
+					"href": "https://geo.sayori.org/"
+				},
 				{
 					"label": "GitHub",
 					"href": "https://github.com/Amiyadesi"
@@ -214,12 +218,12 @@
 		}
 	},
 	"services": {
-		"ariaLabel": "公开工具与入口",
+		"ariaLabel": "软件与服务",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "04 / 公开工具与入口",
-		"title": "公开工具与入口",
-		"intro": "这里放目前仍在维护的工具、项目和公开入口：Subaru Tap、Sayori 日记、GeoScore、小白板、留言板和服务说明。能给别人直接点开的，就摆在桌上。",
+		"kicker": "04 / 软件与服务",
+		"title": "软件与服务",
+		"intro": "这里放 Amiya_desi 当前开发和维护的软件、项目与公开入口。主要 SaaS 是 GeoScore，目前免费开放且没有付费订阅或站内结账；其他游戏和软件按真实开发进度展示。",
 		"items": [
 			{
 				"index": "TAP",

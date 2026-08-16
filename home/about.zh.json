@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "关于我 · Amiya的书桌",
-		"description": "一封放在书桌上的长信：Amiya_desi 是谁，这个名字怎么来的，做过哪些游戏和网站，以及怎样看待 AI 与创作。",
+		"description": "独立软件开发者 Amiya_desi 的长期名片：GeoScore、Godot 游戏、开源工具、写作与创作记录。",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
@@ -16,7 +16,7 @@
 			{
 				"heading": "这个名字",
 				"paragraphs": [
-					"我是 Amiya_desi，19 岁，数字媒体技术专业的学生。现在主要用 Godot 做游戏，已经打完好几次 Game Jam，还在找那个真正想长期做下去的作品。",
+					"我是 Amiya_desi，19 岁，数字媒体技术专业的学生，也是一名独立软件开发者。现在开发和维护 Web 软件服务、开源工具与 Godot 游戏；GeoScore 是当前主要的 SaaS 项目，另有尚未发行的软件和游戏仍在开发。",
 					"这个名字没有什么厉害的来历。Amia 来自我以前很喜欢的角色 Akiyama Mizuki，desi 来自我耳朵不太好用，把他的口癖 desu 听错了。后来听说程序员的 username 只能用字母、数字和下划线，就在中间加了一个 _，误打误撞成了 snake_case：",
 					"不是什么正确的日语，但用了这么久，也就变成我了。"
 				],
@@ -56,11 +56,15 @@
 						"text": "DelayTrace：我目前比较想继续维护的项目，先把它放在这里，后续会补上更完整的说明。"
 					},
 					{
-						"text": "GeoScore：面向公开域名的 SEO / GEO 审计工具，提供证据地图、修复建议和可下载报告。",
+						"text": "GeoScore：当前主要的 Web 软件服务，面向公开域名提供 SEO / GEO 事实审计、证据地图、修复建议和可下载报告。",
 						"links": [
 							{
 								"label": "GeoScore",
 								"href": "https://geo.sayori.org/"
+							},
+							{
+								"label": "源码",
+								"href": "https://github.com/Amiyadesi/geoscore"
 							}
 						]
 					}
@@ -92,15 +96,15 @@
 		"items": [
 			{
 				"question": "sayori.org 是什么？",
-				"answer": "这是 Amiya_desi 的个人公开入口，用来整理博客、Godot 游戏作品、公开工具、服务器和 Cloudflare 笔记、Obsidian 写作流、GitHub、Bilibili 与联系方式。"
+				"answer": "这是独立软件开发者 Amiya_desi 的个人主页，用来展示 GeoScore、Godot 游戏、开源工具、博客、公开项目与联系方式。"
 			},
 			{
 				"question": "博客主要写什么？",
 				"answer": "blog.sayori.org 主要记录教程文章、服务器折腾、Godot 开发、AI 工具与学生资源、移动隐私、资源索引、项目日志和一些日常回声。"
 			},
 			{
-				"question": "这里提供商业服务或本地业务吗？",
-				"answer": "不提供。这里是个人公开形象和作品入口，不发布虚假地址、电话、价格表、本地服务页或商业交付承诺。"
+				"question": "你目前开发什么产品？",
+				"answer": "目前以 GeoScore 这类 Web 软件服务为主，也开发 Godot 游戏、桌面与开发者工具和开源软件。GeoScore 当前免费开放，网站暂未提供付费订阅或结账；未来上线收费方案或软件销售时，会先公开价格、交付、退款和取消规则。"
 			},
 			{
 				"question": "可以从哪里联系或继续了解？",
@@ -109,11 +113,15 @@
 		]
 	},
 	"contact": {
-		"title": "在哪找我",
+		"title": "项目与联系",
 		"email": "me@sayori.org",
 		"emailLabel": "点一下复制邮箱",
 		"linksAriaLabel": "公开入口",
 		"links": [
+			{
+				"label": "GeoScore",
+				"href": "https://geo.sayori.org/"
+			},
 			{
 				"label": "GitHub",
 				"href": "https://github.com/Amiyadesi"

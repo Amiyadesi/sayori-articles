@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya's Desk · sayori.org",
-		"description": "Amiya's Desk is Amiya_desi's personal public desk for blog posts, Godot game projects, homelab and Cloudflare notes, Obsidian workflows, public tools, and contact links.",
+		"description": "Amiya's Desk is the personal site of independent software developer Amiya_desi, featuring the GeoScore web service, Godot games, open-source tools, writing, and contact details.",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,7 +29,7 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "a few notes",
+		"title": "Amiya_desi's developer desk",
 		"entryAriaLabel": "Entries",
 		"entries": [
 			{
@@ -48,13 +48,13 @@
 			{
 				"num": "03",
 				"title": "About me",
-				"desc": "— a letter on the desk",
+				"desc": "— independent developer and projects",
 				"href": "/about/"
 			},
 			{
 				"num": "04",
-				"title": "Tools & Links",
-				"desc": "— tools and public entries",
+				"title": "Software & Services",
+				"desc": "— GeoScore, tools, and development plans",
 				"action": "services"
 			},
 			{
@@ -65,8 +65,8 @@
 				"external": true
 			}
 		],
-		"marginNote": "whatever comes to mind.",
-		"footerNotice": "Amiya_desi's solo creator workbench",
+		"marginNote": "Independent software developer.",
+		"footerNotice": "Amiya_desi · software, games, and public work",
 		"languageLink": {
 			"href": "../zh/",
 			"label": "中文"
@@ -90,16 +90,16 @@
 		"ariaLabel": "About Amiya",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "03 / Solo creator card",
+		"kicker": "03 / Independent developer card",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi is the public identity I keep for long-running personal work: Godot games, personal websites, homelab notes, Cloudflare workflows, Obsidian writing systems, AI-assisted development notes, tools, posts, and retrospectives. This entry keeps the stable public pieces together: blog posts, GameJam projects, GitHub repositories, GeoScore, a small whiteboard, a guestbook, and public contact links. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
+		"intro": "Amiya_desi is my long-running public identity, and I am an independent software developer. I build and maintain web software services, open-source tools, and Godot games; GeoScore is the main SaaS project currently online. This page keeps my writing, GameJam work, GitHub projects, public tools, and contact details together. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
 		"columns": [
 			{
 				"title": "Public Directions",
 				"items": [
 					"Game development: Godot 4.x, GDScript, and C# for 2D prototypes, state machines, event buses, object pools, resources/save systems, and editor tooling.",
 					"Gameplay expression: platformer movement, time rewind, input buffering/coyote time, level pacing, feel tuning, and meta-leaning narrative puzzle prototypes.",
-					"Publishing surface: personal site, blog, Bilibili, GitHub, GameJam projects, and public tools and links, slowly turning the portfolio into a growing doorway.",
+					"Software and SaaS: building and maintaining GeoScore, browser tools, open-source projects, and unreleased software, with features and documentation published at their real stage of development.",
 					"Web / homelab: static sites, blog content pipelines, Linux, Docker, Cloudflare Pages / Tunnel, and ops scripts."
 				]
 			},
@@ -162,15 +162,15 @@
 			"items": [
 				{
 					"question": "What is sayori.org?",
-					"answer": "It is Amiya_desi's personal public entry point for the blog, Godot game projects, public tools, homelab and Cloudflare notes, Obsidian workflows, GitHub, Bilibili, and contact links."
+					"answer": "It is the personal site of independent software developer Amiya_desi, presenting GeoScore, Godot games, open-source tools, writing, public projects, and contact details."
 				},
 				{
 					"question": "What does the blog cover?",
 					"answer": "blog.sayori.org covers tutorials, homelab notes, Godot development, AI-assisted development retrospectives, resource indexes, project logs, and some personal daily echoes."
 				},
 				{
-					"question": "Is this a commercial service or local business site?",
-					"answer": "No. This is a personal public identity and work entry. It does not publish fake addresses, phone numbers, price lists, local service pages, or commercial delivery promises."
+					"question": "What products are you developing?",
+					"answer": "My current focus is web software such as GeoScore, alongside Godot games, desktop and developer tools, and open-source software. GeoScore is currently free to use, and this site does not yet offer paid subscriptions or checkout. Prices, delivery, refund, and cancellation terms will be published before any paid plan or software sale launches."
 				},
 				{
 					"question": "How can I contact or learn more?",
@@ -182,6 +182,10 @@
 			"email": "me@sayori.org",
 			"linksAriaLabel": "Public links",
 			"links": [
+				{
+					"label": "GeoScore",
+					"href": "https://geo.sayori.org/"
+				},
 				{
 					"label": "GitHub",
 					"href": "https://github.com/Amiyadesi"
@@ -214,12 +218,12 @@
 		}
 	},
 	"services": {
-		"ariaLabel": "Tools & Links",
+		"ariaLabel": "Software & Services",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "04 / Tools & Links",
-		"title": "Tools & Links",
-		"intro": "Maintained public tools and entries: Subaru Tap, Sayori's Diary, GeoScore, the whiteboard, guestbook, and service notes.",
+		"kicker": "04 / Software & Services",
+		"title": "Software & Services",
+		"intro": "Software, projects, and public entries developed or maintained by Amiya_desi. GeoScore is the main SaaS project and is currently free, with no paid subscription or on-site checkout. Games and other software are shown at their actual development stage.",
 		"items": [
 			{
 				"index": "TAP",

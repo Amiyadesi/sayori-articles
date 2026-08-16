@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "About me · Amiya's Desk",
-		"description": "A long letter left on the desk: who Amiya_desi is, where the name came from, the games and sites he has built, and how he thinks about AI and creation.",
+		"description": "The long-term profile of independent software developer Amiya_desi: GeoScore, Godot games, open-source tools, writing, and creative work.",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
@@ -16,7 +16,7 @@
 			{
 				"heading": "The name",
 				"paragraphs": [
-					"I'm Amiya_desi, 19, a digital media technology student. I mostly build games with Godot these days, have finished a handful of Game Jams, and I'm still looking for the one project I want to keep growing for years.",
+					"I'm Amiya_desi, 19, a digital media technology student and an independent software developer. I build and maintain web software services, open-source tools, and Godot games. GeoScore is my main SaaS project today, while other unreleased software and games remain in development.",
 					"The name has no epic origin. Amia comes from Akiyama Mizuki, a character I used to love; desi comes from my bad hearing mishearing his catchphrase desu. When I learned programmer usernames only allow letters, digits and underscores, I joined the two with a _ — accidentally correct snake_case:",
 					"It's not proper Japanese at all, but after all this time, it has simply become me."
 				],
@@ -56,11 +56,15 @@
 						"text": "DelayTrace: a project I currently want to keep working on. I am leaving it here first and will add a fuller description later."
 					},
 					{
-						"text": "GeoScore: an SEO / GEO audit tool for public domains, with an evidence map, repair suggestions, and downloadable reports.",
+						"text": "GeoScore: my main web software service, providing factual SEO / GEO audits, evidence maps, repair suggestions, and downloadable reports for public domains.",
 						"links": [
 							{
 								"label": "GeoScore",
 								"href": "https://geo.sayori.org/"
+							},
+							{
+								"label": "Source",
+								"href": "https://github.com/Amiyadesi/geoscore"
 							}
 						]
 					}
@@ -92,15 +96,15 @@
 		"items": [
 			{
 				"question": "What is sayori.org?",
-				"answer": "It's Amiya_desi's personal public entry point: blog posts, Godot game projects, public tools, homelab and Cloudflare notes, Obsidian workflows, GitHub, Bilibili and contact links."
+				"answer": "It is the personal site of independent software developer Amiya_desi, presenting GeoScore, Godot games, open-source tools, writing, public projects, and contact details."
 			},
 			{
 				"question": "What does the blog cover?",
 				"answer": "blog.sayori.org mainly records tutorials, server tinkering, Godot development, AI tools and student resources, mobile privacy, resource indexes, project logs and everyday echoes."
 			},
 			{
-				"question": "Do you offer commercial or local services?",
-				"answer": "No. This is a personal public presence and portfolio entry — no fake addresses, phone numbers, price lists, local-service pages or commercial delivery promises."
+				"question": "What products are you developing?",
+				"answer": "My current focus is web software such as GeoScore, alongside Godot games, desktop and developer tools, and open-source software. GeoScore is currently free to use, and this site does not yet offer paid subscriptions or checkout. Prices, delivery, refund, and cancellation terms will be published before any paid plan or software sale launches."
 			},
 			{
 				"question": "How can I reach you or learn more?",
@@ -109,11 +113,15 @@
 		]
 	},
 	"contact": {
-		"title": "Where to find me",
+		"title": "Projects and contact",
 		"email": "me@sayori.org",
 		"emailLabel": "Click to copy the email",
 		"linksAriaLabel": "Public entries",
 		"links": [
+			{
+				"label": "GeoScore",
+				"href": "https://geo.sayori.org/"
+			},
 			{
 				"label": "GitHub",
 				"href": "https://github.com/Amiyadesi"
