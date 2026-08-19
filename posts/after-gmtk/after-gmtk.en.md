@@ -39,7 +39,7 @@ So, when sanity finally returned, I decisively chose the former between submitti
 Played with 'wheelchairs' too much, and Uncle GMTK totally wrecked me. At least in the end, I finally grasped the 'Reverse Sorcerer' technique and barely managed to survive and finish...
 Damn it, shouldn't I be the strongest?! To become the strongest, it seems I still have a long way to go... GMTK, I probably won't ever forget you in this lifetime...
 
-Actually, my diary from that day also summarized a lot. If you're interested, you can check out [[2026-07-26]]. That's basically the mental journey I wrote down during my moment of transformation, when inspiration struck.
+Actually, my diary from that day also summarized a lot. If you're interested, you can check out the 2026-07-26 entry. That's basically the mental journey I wrote down during my moment of transformation, when inspiration struck.
 
 Finally, kids, don't rely on 'wheelchairs' too much in the future! Maintain independent thought. Don't answer, don't answer, don't answer!
 {{But comments are very welcome (*^_^*)}}
