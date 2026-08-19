@@ -25,7 +25,7 @@ alias: ""
 ---
 
 # 互联网社区记录 1：Linux.do NodeLoc和NodeSeek
-我一开始接触社区，还是4月份的时候因为这种事件[[2026-04-06]]，然后接触了[Doki Chinese Club](https://forum.monika.love/)，不过这一篇，我也暂时不打算讲这个，讲这个的在这里[[internet-community-2|互联网社区记录 2：Bangumi 和 Doki Chinese Club 还有 South Plus]]，讲讲我目前有账号和收获资源比较多的两个社区吧
+我一开始接触社区，还是4月份的时候因为这种事件，后来接触了[Doki Chinese Club](https://forum.monika.love/)，不过这一篇，我也暂时不打算讲这个，讲这个的在这里[[internet-community-2|互联网社区记录 2：Bangumi 和 Doki Chinese Club 还有 South Plus]]，讲讲我目前有账号和收获资源比较多的两个社区吧
 Linux do和Nodeloc
 ## Linux.do
 
