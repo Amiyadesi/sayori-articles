@@ -8,6 +8,7 @@ updateCount: 4
 description: 用 Docker Compose 在学生服务器上部署 Vaultwarden，并把 HTTPS、关闭注册、备份、恢复演练这些真正重要的部分讲清楚。
 image: ""
 tags:
+  - 教程
   - Vaultwarden
   - Docker
   - 密码管理

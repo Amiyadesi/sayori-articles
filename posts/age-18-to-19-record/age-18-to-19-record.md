@@ -8,7 +8,8 @@ updateCount: 3
 description: 从18岁到19岁之间的成长记录，包括游戏开发、学习、生活、人格成长和自我观察
 image: ""
 tags:
-  - 成长记录
+  - 复盘
+  - 成长回顾
   - 独立游戏
 category: 个人记录
 draft: false

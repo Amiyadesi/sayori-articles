@@ -8,7 +8,8 @@ updateCount: 1
 description: 一段很长的自我故事介绍，关于减肥、运动、做游戏、踩坑，以及第一次真正把想法做出来。
 image: ""
 tags:
-  - 成长记录
+  - 叙事
+  - 成长回顾
   - 独立游戏
 category: 个人记录
 draft: false

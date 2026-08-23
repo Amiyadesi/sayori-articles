@@ -8,6 +8,7 @@ created: 2026-06-11
 description: 既然看到了，不进来看看吗？
 image: ""
 tags:
+  - 随笔
   - 独立博客
   - 游戏设计
 category: 个人记录

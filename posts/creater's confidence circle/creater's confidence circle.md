@@ -2,15 +2,16 @@
 title: 创作者的自信心循环——深陷其中的我们
 published: 2026-08-01
 created: 2026-08-01
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 1
 description: 创作者的自信心循环——深陷其中的我们————找寻救赎之道吧
 image: ""
 tags:
+  - 随笔
   - 心理学
   - 创作者
-category: 写作实验
+category: 个人记录
 draft: false
 alias: ""
 ---

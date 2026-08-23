@@ -2,12 +2,13 @@
 title: "免费 AI API 入口：商汤、innilove 和几个导航站"
 published: 2026-06-25
 created: 2026-06-25
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 7
 description: "整理几个还能找到免费 AI API 的入口，以及适合查公益站和免费额度的导航"
 image: ""
 tags:
+  - 资源整合
   - AI API
   - Claude Code
   - 免费资源

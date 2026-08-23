@@ -8,6 +8,7 @@ updateCount: 0
 description: ""
 image: ""
 tags:
+  - 教程
   - 搜索
   - 自托管
 category: 建站与自托管

@@ -2,18 +2,19 @@
 title: 在 2C2G 学生服务器上跑 ntfy：给自己一个通知按钮
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 2
 description: 用 Docker 在学生服务器上部署 ntfy 推送服务，让备份脚本、监控、定时任务都能往手机发通知。
 image: ""
 tags:
+  - 教程
   - ntfy
   - Docker
   - 推送通知
   - 服务器探索
   - 自托管
-category: 服务器探索
+category: 建站与自托管
 draft: false
 alias: ""
 ---

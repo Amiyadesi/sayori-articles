@@ -8,6 +8,7 @@ updateCount: 1
 description: 我让 AI 去搜索 Amiya_desi 这个名字，想看看公开互联网我目前的画像
 image: ""
 tags:
+  - 复盘
   - AI
   - 隐私
   - 数字足迹

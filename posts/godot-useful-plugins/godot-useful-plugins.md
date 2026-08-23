@@ -8,6 +8,7 @@ updateCount: 0
 description: ""
 image: ""
 tags:
+  - 资源整合
   - Godot
   - 插件
   - 开发工具

@@ -2,12 +2,13 @@
 title: 给刚搭好的博客配一个免费域名，再去站长社区露个脸
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 7
 description: 从 DNSHE 免费二级域名、Cloudflare DNS 到评论系统、开往、萌备、十年之约，给刚搭好的博客补上域名、互动和一点被看见的机会。
 image: ""
 tags:
+  - 叙事
   - 域名
   - Cloudflare
   - 独立博客
