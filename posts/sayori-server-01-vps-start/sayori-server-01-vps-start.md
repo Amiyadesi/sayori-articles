@@ -8,6 +8,7 @@ updateCount: 4
 description: 从阿里云学生代金券到 Ubuntu、SSH 密钥登录、非常规端口和基础防火墙，个人服务器的第一步。
 image: ""
 tags:
+  - 叙事
   - VPS
   - 阿里云
   - 自托管

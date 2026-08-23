@@ -8,6 +8,7 @@ updateCount: 2
 description: "整理阿里云学生 300 元代金券目前比较实用的几种用法：ECS、轻量应用服务器、无影灵豆、百炼大模型 API，以及下单前要看的坑。"
 image: ""
 tags:
+  - 教程
   - 阿里云
   - 学生资源
 category: 工具与资源

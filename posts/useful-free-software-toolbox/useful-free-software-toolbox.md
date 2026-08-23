@@ -8,6 +8,7 @@ updateCount: 3
 description: 网易 UU 远程、File Converter、LocalSend、Obsidian、OBS、Aseprite 和 Aseprite 自编译仓库的简短整理
 image: ""
 tags:
+  - 资源整合
   - 软件推荐
   - 效率工具
   - 创作工具

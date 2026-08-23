@@ -2,15 +2,16 @@
 title: My First Trip to Hong Kong — August Account-Opening Notes
 published: 2026-08-21
 created: 2026-08-16
-updated: 2026-08-21
-lastEdited: 2026-08-21
-updateCount: 1
+updated: 2026-08-23
+lastEdited: 2026-08-23
+updateCount: 2
 description: "Notes from my first Hong Kong trip: bank accounts, SIM cards, a Hong Kong iPhone, food, and sightseeing."
 image: ""
 tags:
+  - Narrative
   - Travel
-  - Growth Log
-category: Personal Notes
+  - Growth Retrospective
+category: Travel & Life
 draft: false
 alias: ""
 lang: en
@@ -127,6 +128,10 @@ I visited Victoria Harbour at night. It was extremely crowded with tour groups, 
 
 ![[6158cd4b33ffc81a7904a2bc2af8de70_720.jpg|center|caption=Victoria Harbour at night with colorful lights reflected on the water]]
 
+The harbour looked very different from above in daylight.
+
+![[IMG_20260818_173745.jpg|center|caption=Victoria Harbour and the Star Ferry piers seen from above, with junks and yachts crossing the water]]
+
 Brothers, join me in hunting Pac-Man ghosts (fog).
 
 ![[IMG_20260818_183314.jpg|center|caption=A pixel-mosaic Pac-Man ghost on a wall]]
@@ -134,8 +139,8 @@ Brothers, join me in hunting Pac-Man ghosts (fog).
 Two helicopter photos from the Star Ferry, although both helicopters came out looking like mosquitoes.
 
 :::
-![[IMG_20260818_174513.jpg|caption=A distant helicopter beneath a cloudy sky]]
-![[IMG_20260818_174459.jpg|caption=Another helicopter above the edge of a building]]
+![[IMG_20260818_174513.jpg|center|caption=A distant helicopter beneath a cloudy sky]]
+![[IMG_20260818_174459.jpg|center|caption=Another helicopter above the edge of a building]]
 :::
 
 Underage aliens 👽 must be accompanied by an adult alien:
@@ -145,6 +150,10 @@ Underage aliens 👽 must be accompanied by an adult alien:
 Bruce Lee: I want to fight ten!
 
 ![[IMG_20260817_173128.jpg|center|caption=The Bruce Lee statue near the Avenue of Stars]]
+
+The Hong Kong Film Awards statue was nearby.
+
+![[IMG_20260818_184448_edit_1042491983991441.jpg|center|caption=The Hong Kong Film Awards statue holding a glowing star on the Avenue of Stars]]
 
 Symmetry is always satisfying. I could not remove the lower-left corner without breaking the central mirror, though. Between perfect symmetry and keeping the whole scene, completeness won.
 
@@ -183,8 +192,8 @@ The heroine looks like the protagonist from Celeste. The pixel art is lovely (ha
 ![[IMG_20260820_115950.jpg|center|caption=A Hong Kong bus decorated with a pixel-art character]]
 
 :::
-![[IMG_20260820_115723.jpg|caption=A sesame pork-and-egg bun with one bite taken out]]
-![[IMG_20260820_121230.jpg|caption=Red Bean / 红豆 branding on the bakery wrapper]]
+![[IMG_20260820_115723.jpg|center|caption=A sesame pork-and-egg bun with one bite taken out]]
+![[IMG_20260820_121230.jpg|center|caption=Red Bean / 红豆 branding on the bakery wrapper]]
 :::
 
 Before leaving Hong Kong, I bought this pork-and-egg bun, and it was genuinely delicious. It was a small happy moment before departure and only cost 10 HKD—about half the price of a similar KFC breakfast on the mainland, with just as much food.

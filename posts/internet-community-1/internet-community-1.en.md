@@ -27,7 +27,7 @@ translationKey: posts/internet-community-1/internet-community-1
 ---
 
 # Internet Community Log 1: Linux.do NodeLoc and NodeSeek
-I first got into communities back in April because of this event, and then I came across [Doki Chinese Club](https://forum.monika.love/). But for this post, I'm not going to talk about that for now. Instead, I'll discuss two communities where I currently have accounts and get a lot of resources: Linux.do and NodeLoc.
+I first got into online communities after an event in April (2026-04-06), and then I came across [Doki Chinese Club](https://forum.monika.love/). But for this post, I'm not going to talk about that for now. Instead, I'll discuss two communities where I currently have accounts and get a lot of resources: Linux.do and NodeLoc.
 ## Linux.do
 
 Entry: [https://linux.do/](https://linux.do/) (Requires a VPN, but you can connect directly by changing DNS)

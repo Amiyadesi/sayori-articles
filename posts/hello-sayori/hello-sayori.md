@@ -8,6 +8,7 @@ updateCount: 1
 description: 第一篇文章，给这个小小的个人博客开门。
 image: ""
 tags:
+  - 叙事
   - 独立博客
 category: 个人记录
 draft: false

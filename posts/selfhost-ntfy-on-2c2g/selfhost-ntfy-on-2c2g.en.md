@@ -146,7 +146,7 @@ After confirming HTTPS access is working, open `https://ntfy.example.com` and lo
 The simplest way:
 
 ```bash
-curl -H "Authorization: Bearer your_token" \
+curl -H "Authorization: Bearer $NTFY_TOKEN" \
      -d "Server is still alive" \
      https://ntfy.example.com/test
 ```
@@ -156,7 +156,7 @@ Here, `/test` is the topic name. You can name it anything you like, such as `/ba
 You can also include a title and priority:
 
 ```bash
-curl -H "Authorization: Bearer your_token" \
+curl -H "Authorization: Bearer $NTFY_TOKEN" \
      -H "Title: Backup Complete" \
      -H "Priority: default" \
      -d "Vaultwarden backup successful, size 2.3MB" \

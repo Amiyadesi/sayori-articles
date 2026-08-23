@@ -8,6 +8,7 @@ updateCount: 3
 description: 用 2C2G 学生服务器试跑 Fast Note Sync Service，给 Obsidian 多端同步、备份、REST/MCP 接口留一条私有路线。
 image: ""
 tags:
+  - 叙事
   - Obsidian
   - Docker
   - 笔记同步

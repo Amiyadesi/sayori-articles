@@ -2,13 +2,14 @@
 title: 又来做一次自我介绍了（2026 年 7 月）
 published: 2026-07-13
 created: 2026-07-13
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 3
 description: 隔一段时间重新介绍一次自己吧。毕竟几个月前的我还不知道那些社区，也没想到自己会去搭网站、做视频，甚至真的挂科
 image: ""
 tags:
-  - 成长记录
+  - 叙事
+  - 成长回顾
   - 独立游戏
   - Godot
 category: 个人记录

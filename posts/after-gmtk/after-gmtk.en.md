@@ -2,8 +2,8 @@
 title: Reflections After GMTK Jam
 published: 2026-07-27
 created: 2026-07-27
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 1
 description: In the last six hours of GMTK Jam, I cut down the unfinished puzzles and submitted a small game that was actually playable.
 image: ""
@@ -39,7 +39,7 @@ So, when sanity finally returned, I decisively chose the former between submitti
 Played with 'wheelchairs' too much, and Uncle GMTK totally wrecked me. At least in the end, I finally grasped the 'Reverse Sorcerer' technique and barely managed to survive and finish...
 Damn it, shouldn't I be the strongest?! To become the strongest, it seems I still have a long way to go... GMTK, I probably won't ever forget you in this lifetime...
 
-Actually, my diary from that day also summarized a lot. If you're interested, you can check out the 2026-07-26 entry. That's basically the mental journey I wrote down during my moment of transformation, when inspiration struck.
+I also summarized a lot in my private diary on 2026-07-26. It captures the mental journey I wrote down when inspiration struck and my approach began to change.
 
 Finally, kids, don't rely on 'wheelchairs' too much in the future! Maintain independent thought. Don't answer, don't answer, don't answer!
 {{But comments are very welcome (*^_^*)}}

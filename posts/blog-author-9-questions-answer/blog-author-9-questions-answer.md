@@ -8,6 +8,7 @@ updateCount: 5
 description: 给 Another Dayu 博客作者 9 问留的一份答卷
 image: ""
 tags:
+  - 随笔
   - 独立博客
   - 写作
 category: 个人记录

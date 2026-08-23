@@ -8,6 +8,7 @@ updateCount: 1
 description: "经原作者授权转载，梳理流氓 App 在广告跳转、用户画像、权限绕过、风控规避和投诉截流中的常见套路"
 image: ""
 tags:
+  - 随笔
   - 网络安全
   - 隐私安全
   - Android

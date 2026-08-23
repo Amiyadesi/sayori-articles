@@ -8,6 +8,7 @@ updateCount: 4
 description: 给雅余独立博客自省问卷留的一份答卷，先自查一下我和这个博客的关系。
 image: ""
 tags:
+  - 复盘
   - 独立博客
   - 写作
 category: 个人记录

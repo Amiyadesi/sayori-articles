@@ -8,6 +8,7 @@ updateCount: 1
 description: 整理 Cloudflare 免费层里真的能用的东西：Pages、Workers、R2、Tunnel、Email Routing、DNS、Web Analytics，以及哪些场景下它比 VPS 更合适。
 image: ""
 tags:
+  - 教程
   - Cloudflare
   - 云服务
   - 免费资源
