@@ -2217,7 +2217,7 @@
 					"url": "https://github.com/Amiyadesi/search-gateway",
 					"desc": "Self-hostable search gateway and MCP integration project.",
 					"usage": "Deploy it yourself using the repository instructions.",
-					"license": "search.sayori.org is a private instance and has no anonymous access.",
+					"license": "gateway.sayori.org is a private instance and has no anonymous access.",
 					"added": "2026-08-03"
 				},
 				{

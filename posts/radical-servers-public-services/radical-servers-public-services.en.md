@@ -196,7 +196,7 @@ The message board and email are for receiving service issues and improvement sug
 
 [Search Gateway](https://github.com/Amiyadesi/search-gateway) remains open source, can be self-deployed, and offers compatible API and MCP access methods.
 
-However, `search.sayori.org` is the site owner's internal instance, requiring authentication, and does not provide anonymous calls, shared tokens, or public search quotas.
+However, `gateway.sayori.org` is the site owner's internal instance, requiring authentication, and does not provide anonymous calls, shared tokens, or public search quotas.
 
 The public GeoScore API and the internal Search Gateway must be explained separately.
 
