@@ -196,7 +196,7 @@ curl "https://geo-api.sayori.org/api/audit/example.com"
 
 [Search Gateway](https://github.com/Amiyadesi/search-gateway) 仍然开源，可以自行部署，也提供兼容 API 与 MCP 接入方式
 
-但 `search.sayori.org` 是站长内部实例，需要鉴权，不提供匿名调用、共享 Token 或公共搜索额度
+但 `gateway.sayori.org` 是站长内部实例，需要鉴权，不提供匿名调用、共享 Token 或公共搜索额度
 
 公开 GeoScore API 与内部 Search Gateway 必须分开说明
 
