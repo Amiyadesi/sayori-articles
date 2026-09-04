@@ -1298,6 +1298,72 @@
 					"license": "Free account tier available.",
 					"added": "2026-09-04",
 					"tier": "good"
+				},
+				{
+					"name": "Ollama",
+					"url": "https://ollama.com/",
+					"desc": "Run local models; good on a home server.",
+					"usage": "Install, then ollama run a small model.",
+					"license": "Tool is free; model licenses vary.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Open WebUI",
+					"url": "https://github.com/open-webui/open-webui",
+					"desc": "Local ChatGPT-style UI.",
+					"usage": "Pair it with Ollama or a compatible API.",
+					"license": "Open source and self-hostable.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "LM Studio",
+					"url": "https://lmstudio.ai/",
+					"desc": "Desktop local-model app if you do not want the CLI.",
+					"usage": "Download a GGUF and chat in the app.",
+					"license": "Free desktop app.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DeepSeek Platform",
+					"url": "https://platform.deepseek.com/",
+					"desc": "Official DeepSeek API.",
+					"usage": "Create a key and wire it into your tools.",
+					"license": "Official billing and terms.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "SiliconFlow",
+					"url": "https://cloud.siliconflow.cn/",
+					"desc": "China-friendly compatible API for open models.",
+					"usage": "Sign up and check the free quota list.",
+					"license": "Account required; quotas change.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ModelScope",
+					"url": "https://www.modelscope.cn/",
+					"desc": "China model hub with some free inference.",
+					"usage": "Search a model and try hosted inference.",
+					"license": "Aliyun / ModelScope account.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Kimi",
+					"url": "https://www.kimi.com/",
+					"desc": "Long-context chat for daily reading.",
+					"usage": "Drop in a long doc or README and ask.",
+					"license": "Free tier available.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Chatbox",
+					"url": "https://chatboxai.app/",
+					"desc": "Multi-provider desktop client next to Cherry Studio.",
+					"usage": "Point it at an OpenAI-compatible endpoint.",
+					"license": "Open-source client.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -1501,6 +1567,23 @@
 					"desc": "API client in the browser.",
 					"usage": "Use it instead of a heavy desktop client.",
 					"license": "Open source and self-hostable.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "IT-Tools",
+					"url": "https://it-tools.tech/",
+					"desc": "Hash, UUID, Cron, and encoding utilities; self-hostable.",
+					"usage": "Keep it as a pocket toolkit.",
+					"license": "Open source.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "regex101",
+					"url": "https://regex101.com/",
+					"desc": "Write and test regular expressions.",
+					"usage": "Pick a flavor and paste sample text.",
+					"license": "Free.",
 					"added": "2026-09-04"
 				}
 			]
