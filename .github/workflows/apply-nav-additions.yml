@@ -1,0 +1,39 @@
+name: Apply nav additions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [add-curated-nav-links-20260904]
+    paths:
+      - nav/additions.zh.json
+      - nav/additions.en.json
+      - scripts/apply-nav-additions.mjs
+      - .github/workflows/apply-nav-additions.yml
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Apply additions into nav JSON
+        run: node scripts/apply-nav-additions.mjs
+      - name: Commit merged nav files if changed
+        run: |
+          git config user.name "Amiya_desi"
+          git config user.email "me@sayori.org"
+          git add nav/nav.zh.json nav/nav.en.json
+          if git diff --cached --quiet; then
+            echo "No nav JSON changes"
+          else
+            git commit -m "Apply curated nav additions into nav.zh/en.json"
+            git push
+          fi

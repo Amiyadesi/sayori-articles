@@ -4,7 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const today = "2026-09-04";
+const today = new Date().toISOString().slice(0, 10);
 
 for (const lang of ["zh", "en"]) {
 	const navFile = path.join(root, "nav", `nav.${lang}.json`);
@@ -18,11 +18,13 @@ for (const lang of ["zh", "en"]) {
 	}
 	const cats = Object.fromEntries(nav.categories.map((cat) => [cat.id, cat]));
 	let added = 0;
-	for (const entry of adds) {
-		const cat = cats[entry.category];
-		if (!cat) throw new Error(`unknown category ${entry.category}`);
-		const key = String(entry.url || "").replace(/\/+$/, "").toLowerCase();
-		if (urls.has(key) || cat.entries.some((item) => item.name === entry.name)) continue;
+	for (const raw of adds) {
+		const cat = cats[raw.category];
+		if (!cat) throw new Error(`unknown category ${raw.category}`);
+		const key = String(raw.url || "").replace(/\/+$/, "").toLowerCase();
+		if (urls.has(key) || cat.entries.some((item) => item.name === raw.name)) continue;
+		const { category, ...entry } = raw;
+		if (!entry.added) entry.added = today;
 		cat.entries.push(entry);
 		urls.add(key);
 		added += 1;
