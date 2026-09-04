@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
 		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，按创作、学习、AI、网络服务和站长工具分类整理。",
-		"updated": "2026-09-01",
+		"updated": "2026-09-04",
 		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
 	},
 	"categories": [
@@ -134,6 +134,89 @@
 					"desc": "AI 音乐生成。",
 					"usage": "登录后用 prompt 生成 demo。",
 					"license": "有账号、额度、商用条款限制。"
+				},
+				{
+					"name": "DOVA-SYNDROME",
+					"url": "https://dova-s.jp/",
+					"desc": "日系免费 BGM 和音效库，游戏和映像常用。",
+					"usage": "按氛围搜索后看单曲授权再下载。",
+					"license": "站点许可 + 作者条件，商用前核对。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "魔王魂",
+					"url": "https://maou.audio/",
+					"desc": "大规模免费商用音乐素材，曲风覆盖广。",
+					"usage": "下载后按页脚要求署名。",
+					"license": "多为 CC BY，以当页为准。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "甘茶の音楽工房",
+					"url": "https://amachamusic.chagasi.com/",
+					"desc": "日式治愈和幻想向免费 BGM。",
+					"usage": "适合日常、城镇、视觉小说场景。",
+					"license": "免费使用，看站点说明。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ポケットサウンド",
+					"url": "https://pocket-se.info/",
+					"desc": "日系免费音效，UI 和日常 SE 好找。",
+					"usage": "按分类下载短音效。",
+					"license": "看各素材使用条件。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Mixkit Music",
+					"url": "https://mixkit.co/free-stock-music/",
+					"desc": "免费音乐和音效，授权页清楚。",
+					"usage": "先看 Free Stock Music，再看 SFX。",
+					"license": "免费可商用，保留来源说明。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Incompetech",
+					"url": "https://incompetech.com/music/royalty-free/",
+					"desc": "Kevin MacLeod 免版税音乐，老牌稳定源。",
+					"usage": "按风格筛选后按说明署名。",
+					"license": "CC BY 常见，看单曲页。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "BeepBox",
+					"url": "https://www.beepbox.co/",
+					"desc": "浏览器里写 8-bit 旋律和循环。",
+					"usage": "编完导出 wav 或分享链接。",
+					"license": "工具免费，作品版权归你。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Bosca Ceoil",
+					"url": "https://boscaceoil.net/",
+					"desc": "轻量作曲器，适合做游戏循环乐句。",
+					"usage": "做短 loop 后导出到引擎。",
+					"license": "工具免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "BBC Sound Effects",
+					"url": "https://sound-effects.bbcrewind.co.uk/",
+					"desc": "大量可再混的环境音和现场音效。",
+					"usage": "搜索环境词，核对再利用条款。",
+					"license": "BBC 再利用条款，商用需看清。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Zapsplat",
+					"url": "https://www.zapsplat.com/",
+					"desc": "注册后可下大量游戏向音效。",
+					"usage": "免费账号下载，注意每日额度。",
+					"license": "需账号；授权分免费和付费。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -316,6 +399,92 @@
 					"desc": "Godot GDExtension 学习参考。",
 					"usage": "跟文章配置 C/C++ 扩展开发环境。",
 					"license": "文章免费。"
+				},
+				{
+					"name": "itch.io 免费游戏素材",
+					"url": "https://itch.io/game-assets/free",
+					"desc": "独立作者免费素材总入口。",
+					"usage": "先筛 Free，再逐包看授权。",
+					"license": "授权各包不同。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Quaternius",
+					"url": "https://quaternius.com/",
+					"desc": "CC0 低模 3D，很多带动画。",
+					"usage": "按包下载 glTF/FBX。",
+					"license": "CC0，可商用。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "KayKit",
+					"url": "https://kaylousberg.itch.io/",
+					"desc": "风格统一的 CC0 3D 角色和场景包。",
+					"usage": "在 itch 页选免费包下载。",
+					"license": "多为 CC0。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Poly Haven",
+					"url": "https://polyhaven.com/",
+					"desc": "CC0 模型、PBR 贴图和 HDRI。",
+					"usage": "按类型筛 1K/2K 资源。",
+					"license": "全部 CC0。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "AmbientCG",
+					"url": "https://ambientcg.com/",
+					"desc": "CC0 PBR 贴图库，补 Poly Haven。",
+					"usage": "下 Diffuse/Normal/Roughness 套装。",
+					"license": "CC0。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Poly Pizza",
+					"url": "https://poly.pizza/",
+					"desc": "原 Google Poly 低模归档，好搜。",
+					"usage": "搜关键词后下 glTF。",
+					"license": "看单模型授权。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Awesome Godot",
+					"url": "https://github.com/godotengine/awesome-godot",
+					"desc": "官方维护的插件、教程和工具清单。",
+					"usage": "按主题跳到对应仓库。",
+					"license": "清单本身开源。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Godot 文档",
+					"url": "https://docs.godotengine.org/",
+					"desc": "Godot 官方文档入口。",
+					"usage": "先看 Getting started，再查类参考。",
+					"license": "免费公开。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Godot Recipes",
+					"url": "https://kidscancode.org/godot_recipes/4.x/",
+					"desc": "KidsCanCode 的 Godot 4 做法合集。",
+					"usage": "按角色、物理、UI 查现成做法。",
+					"license": "免费阅读。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Lucide Icons",
+					"url": "https://lucide.dev/",
+					"desc": "干净的开源图标，本站也在用。",
+					"usage": "搜名字复制 SVG。",
+					"license": "ISC 许可。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -405,6 +574,91 @@
 					"desc": "CSS loading 动效参考。",
 					"usage": "复制 CSS 后按项目风格改。",
 					"license": "看站内授权说明。"
+				},
+				{
+					"name": "Lospec 调色盘",
+					"url": "https://lospec.com/palette-list",
+					"desc": "像素画调色盘库，补已有入门文。",
+					"usage": "按色数筛选后复制 hex。",
+					"license": "调色盘授权看作者。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Piskel",
+					"url": "https://www.piskelapp.com/",
+					"desc": "浏览器像素画和帧动画。",
+					"usage": "画完导出 gif 或 sprite sheet。",
+					"license": "免费在线工具。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "LibreSprite",
+					"url": "https://libresprite.github.io/",
+					"desc": "Aseprite 的开源分支。",
+					"usage": "本地安装后画像素动画。",
+					"license": "开源免费。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Pixelorama",
+					"url": "https://orama-interactive.itch.io/pixelorama",
+					"desc": "用 Godot 写的像素动画编辑器。",
+					"usage": "从 itch 下桌面版。",
+					"license": "开源，看 itch 页授权。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Coolors",
+					"url": "https://coolors.co/",
+					"desc": "快速生成和导出配色。",
+					"usage": "空格刷新，锁定喜欢的色。",
+					"license": "免费够用。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Huemint",
+					"url": "https://huemint.com/",
+					"desc": "偏设计系统的配色生成。",
+					"usage": "选产品/海报模式再微调。",
+					"license": "免费在线。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Line of Action",
+					"url": "https://line-of-action.com/",
+					"desc": "速写和人体参考计时练习。",
+					"usage": "选 class 时长对着画。",
+					"license": "免费练习站。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Excalidraw",
+					"url": "https://excalidraw.com/",
+					"desc": "手绘风白板，适合画玩法草图。",
+					"usage": "画完导出 png 或保存链接。",
+					"license": "开源，可自托管。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Photopea",
+					"url": "https://www.photopea.com/",
+					"desc": "浏览器里的 PS，能开 PSD 和 sprite sheet。",
+					"usage": "直接打开本地图分层处理。",
+					"license": "免费增值。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Squoosh",
+					"url": "https://squoosh.app/",
+					"desc": "压图并导出 WebP/AVIF。",
+					"usage": "对比质量和体积后下载。",
+					"license": "Google 开源工具。",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -706,6 +960,75 @@
 					"desc": "ChatLab 的在线体验站。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Learn GDScript From Zero",
+					"url": "https://gdquest.github.io/learn-gdscript/",
+					"desc": "浏览器里从零学 GDScript。",
+					"usage": "按关卡做完再回引擎写项目。",
+					"license": "免费开源。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "GDQuest 教程库",
+					"url": "https://www.gdquest.com/tutorial/",
+					"desc": "Godot 4 结构清楚的免费教程。",
+					"usage": "按 2D/3D/着色器主题读。",
+					"license": "免费阅读。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "KidsCanCode",
+					"url": "https://www.youtube.com/@KidsCanCode",
+					"desc": "Godot 入门视频，文档也常推荐。",
+					"usage": "从 Godot 4 播放列表看起。",
+					"license": "YouTube 免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "The Book of Shaders",
+					"url": "https://thebookofshaders.com/",
+					"desc": "着色器入门书，补 IQ 和 Shadertoy。",
+					"usage": "一章一章改示例。",
+					"license": "免费在线书。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Shadertoy",
+					"url": "https://www.shadertoy.com/",
+					"desc": "在线写和看着色器的原站。",
+					"usage": "搜效果名后读代码。",
+					"license": "需账号才能保存。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Missing Semester",
+					"url": "https://missing.csail.mit.edu/",
+					"desc": "命令行、Git 和调试补课。",
+					"usage": "按讲次看完再动手。",
+					"license": "MIT 公开课。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "OSSU CS",
+					"url": "https://github.com/ossu/computer-science",
+					"desc": "英文计算机自学路线，和 csdiy 互补。",
+					"usage": "按学期选课，不必全做。",
+					"license": "开源课程清单。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "MDN Web Docs",
+					"url": "https://developer.mozilla.org/",
+					"desc": "前端和 Web API 文档。",
+					"usage": "搜标签或接口名。",
+					"license": "免费公开。",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -903,6 +1226,90 @@
 					"desc": "AI 相关小工具集合。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "OpenRouter",
+					"url": "https://openrouter.ai/",
+					"desc": "一个入口试用多家模型。",
+					"usage": "充值或走免费模型，再填到本地客户端。",
+					"license": "按量计费，看模型条款。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Hugging Face",
+					"url": "https://huggingface.co/",
+					"desc": "模型、数据集和 Spaces。",
+					"usage": "搜模型名看 Demo 和权重。",
+					"license": "账号免费层可用。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Ollama",
+					"url": "https://ollama.com/",
+					"desc": "本地跑大模型，家宽机好用。",
+					"usage": "安装后 ollama run 一个小模型。",
+					"license": "工具免费，模型看各自许可。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Open WebUI",
+					"url": "https://github.com/open-webui/open-webui",
+					"desc": "本地 ChatGPT 风格界面。",
+					"usage": "配合 Ollama 或兼容 API。",
+					"license": "开源可自托管。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "LM Studio",
+					"url": "https://lmstudio.ai/",
+					"desc": "不想碰命令行时的本地模型桌面端。",
+					"usage": "下载 GGUF 后在应用里聊。",
+					"license": "免费桌面应用。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DeepSeek 开放平台",
+					"url": "https://platform.deepseek.com/",
+					"desc": "DeepSeek 官方 API。",
+					"usage": "开 key 后接到自己的工具。",
+					"license": "官方计费和条款。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "硅基流动",
+					"url": "https://cloud.siliconflow.cn/",
+					"desc": "国内兼容接口，用来试开源模型。",
+					"usage": "注册后看免费额度和模型列表。",
+					"license": "需账号，额度会变。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ModelScope",
+					"url": "https://www.modelscope.cn/",
+					"desc": "国内模型与部分免费推理。",
+					"usage": "搜模型后看在线推理。",
+					"license": "需阿里云/魔搭账号。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Kimi",
+					"url": "https://www.kimi.com/",
+					"desc": "长文本日常问答。",
+					"usage": "丢长文档或仓库说明进去问。",
+					"license": "免费层可用。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Chatbox",
+					"url": "https://chatboxai.app/",
+					"desc": "多协议桌面客户端，和 Cherry Studio 互补。",
+					"usage": "填 OpenAI 兼容接口即可。",
+					"license": "开源客户端。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -1042,6 +1449,88 @@
 					"desc": "动漫壁纸站。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "IT-Tools",
+					"url": "https://it-tools.tech/",
+					"desc": "编码、哈希、UUID、Cron 等小工具合集，可自托管。",
+					"usage": "当开发口袋工具用。",
+					"license": "开源。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "regex101",
+					"url": "https://regex101.com/",
+					"desc": "在线写和测正则。",
+					"usage": "选语言后贴测试文本。",
+					"license": "免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "JSONCrack",
+					"url": "https://jsoncrack.com/",
+					"desc": "把 JSON 画成图。",
+					"usage": "粘大 JSON 看结构。",
+					"license": "免费在线。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Can I Use",
+					"url": "https://caniuse.com/",
+					"desc": "查浏览器特性支持。",
+					"usage": "搜 CSS/API 名。",
+					"license": "免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Carbon",
+					"url": "https://carbon.now.sh/",
+					"desc": "代码截图生成。",
+					"usage": "贴代码后调主题导出。",
+					"license": "免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "TinyPNG",
+					"url": "https://tinypng.com/",
+					"desc": "傻瓜式压 PNG/JPEG。",
+					"usage": "拖图上去下载。",
+					"license": "有免费额度。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ILovePDF",
+					"url": "https://www.ilovepdf.com/",
+					"desc": "浏览器里合并、拆分、转 PDF。",
+					"usage": "单次处理就够用。",
+					"license": "在线免费层。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Stirling PDF",
+					"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+					"desc": "可自托管的 PDF 工具箱。",
+					"usage": "家宽机 Docker 起一份。",
+					"license": "开源。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Remove.bg",
+					"url": "https://www.remove.bg/",
+					"desc": "快速挖图，适合出 sprite。",
+					"usage": "上传后下透明底。",
+					"license": "免费次数有限。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Hoppscotch",
+					"url": "https://hoppscotch.io/",
+					"desc": "浏览器里测 API。",
+					"usage": "替代沉重的本地客户端。",
+					"license": "开源，可自托管。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -1149,6 +1638,65 @@
 						"导航",
 						"教程"
 					]
+				},
+				{
+					"name": "学生权益导航",
+					"url": "https://nav.edumails.cn/",
+					"desc": "教育邮箱和学生优惠总览，站内文章也推荐过。",
+					"usage": "先领长期工具，再看短期额度。",
+					"license": "第三方整理，条目会过期。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "白嫖资源集合",
+					"url": "https://baipiao.org/free/",
+					"desc": "免费 API、域名和服务器线索合集。",
+					"usage": "当发现页，不要直接当 Base URL。",
+					"license": "来源杂，用前自查。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Yangmao AI",
+					"url": "https://yangmao.ai/zh/#ask",
+					"desc": "AI 工具和免费额度情报站。",
+					"usage": "搜平台名再回到官方页确认。",
+					"license": "导航站，不是 API 本身。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "HelloGitHub",
+					"url": "https://hellogithub.com/",
+					"desc": "每月开源项目推荐，学生向。",
+					"usage": "按语言翻月刊。",
+					"license": "免费阅读。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "阮一峰周刊",
+					"url": "https://www.ruanyifeng.com/weekly/",
+					"desc": "稳定的科技和工具周刊。",
+					"usage": "扫目录收藏要用的链接。",
+					"license": "免费阅读。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Product Hunt",
+					"url": "https://www.producthunt.com/",
+					"desc": "看独立开发者在发什么小产品。",
+					"usage": "按日期刷，记玩法而不是抄界面。",
+					"license": "免费浏览。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GitHub Student Pack",
+					"url": "https://education.github.com/pack",
+					"desc": "学生开发者工具包入口。",
+					"usage": "教育邮箱认证后到 Pack 页领。",
+					"license": "需学生认证。",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -1430,6 +1978,63 @@
 					"desc": "IP 欺诈风险评分。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Tailscale",
+					"url": "https://tailscale.com/",
+					"desc": "家宽组网，把旧电脑和云主机连成一张网。",
+					"usage": "各设备装客户端后用同一个账号。",
+					"license": "个人免费层通常够用。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Headscale",
+					"url": "https://github.com/juanfont/headscale",
+					"desc": "自建 Tailscale 控制服务器。",
+					"usage": "只在不想走官方协调时用。",
+					"license": "开源。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ZeroTier",
+					"url": "https://www.zerotier.com/",
+					"desc": "Tailscale 之外的组网备选。",
+					"usage": "建一个 Network 把设备拉进去。",
+					"license": "有免费层。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DuckDNS",
+					"url": "https://www.duckdns.org/",
+					"desc": "免费动态域名。",
+					"usage": "家宽 IP 变化时自动更新。",
+					"license": "免费，需账号。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Fly.io",
+					"url": "https://fly.io/",
+					"desc": "把小服务贴到边缘节点。",
+					"usage": "适合小 API 和演示站。",
+					"license": "有免费额度。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Railway",
+					"url": "https://railway.app/",
+					"desc": "应用托管，学生和 hobby 向。",
+					"usage": "连 Git 仓库一键起服务。",
+					"license": "试用额度过期要看账单。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Cloudflare One 控制台",
+					"url": "https://one.dash.cloudflare.com/",
+					"desc": "Tunnel 和 Zero Trust 控制台，文档之外的操作入口。",
+					"usage": "建 Tunnel 把家宽服务暴露出去。",
+					"license": "需 Cloudflare 账号。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -2013,6 +2618,97 @@
 					"desc": "自动 HTTPS 的 Web 服务器。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Cloudflare Web Analytics",
+					"url": "https://www.cloudflare.com/web-analytics/",
+					"desc": "免 cookie 的站点统计，和 Umami 并列。",
+					"usage": "在 Cloudflare 站里打开 Web Analytics。",
+					"license": "免费层可用。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "PageSpeed Insights",
+					"url": "https://pagespeed.web.dev/",
+					"desc": "性能和 Core Web Vitals 体检。",
+					"usage": "贴网址看移动和桌面分。",
+					"license": "免费。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "SSL Labs",
+					"url": "https://www.ssllabs.com/ssltest/",
+					"desc": "证书和 TLS 配置体检。",
+					"usage": "输入域名看评级。",
+					"license": "免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Fontsource",
+					"url": "https://fontsource.org/",
+					"desc": "自托管 webfont，少依赖第三方 CDN。",
+					"usage": "按字体装 npm 包或下文件。",
+					"license": "字体许可各不同。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Iconify",
+					"url": "https://iconify.design/",
+					"desc": "多套图标一个查询入口。",
+					"usage": "搜名字复制 SVG 或组件。",
+					"license": "图标集许可各不同。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Eleventy",
+					"url": "https://www.11ty.dev/",
+					"desc": "和 Astro/Hugo/Zola 并列的静态站生成器。",
+					"usage": "适合内容站和文档站。",
+					"license": "开源。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Coolify",
+					"url": "https://coolify.io/",
+					"desc": "自托管的应用发布面板，像自己的 Vercel。",
+					"usage": "家宽或 VPS 上管多个站点。",
+					"license": "开源。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Homepage",
+					"url": "https://gethomepage.dev/",
+					"desc": "家宽服务仪表盘。",
+					"usage": "用 yaml 把常用服务摆在一页。",
+					"license": "开源。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Dockge",
+					"url": "https://dockge.kuma.pet/",
+					"desc": "轻量 Docker Compose 管理界面。",
+					"usage": "和 Portainer 二选一即可。",
+					"license": "开源。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Portainer",
+					"url": "https://www.portainer.io/",
+					"desc": "更完整的容器管理面板。",
+					"usage": "家宽 Docker 可视化操作用。",
+					"license": "社区版免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "crt.sh",
+					"url": "https://crt.sh/",
+					"desc": "查域名证书历史。",
+					"usage": "输入域名看签发记录。",
+					"license": "免费。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -2072,6 +2768,65 @@
 					"desc": "自由的资源与折腾社区。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "indienova",
+					"url": "https://indienova.com/",
+					"desc": "中文独立游戏社区，站内也曾链过单篇。",
+					"usage": "看开发日志和资源帖。",
+					"license": "需账号发帖。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Godot Forum",
+					"url": "https://forum.godotengine.org/",
+					"desc": "Godot 官方论坛，搜报错首选。",
+					"usage": "先搜错误信息再发帖。",
+					"license": "需账号。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "r/godot",
+					"url": "https://www.reddit.com/r/godot/",
+					"desc": "英文 Godot 社区，问答密度高。",
+					"usage": "看周报和 Showcase。",
+					"license": "需 Reddit 账号互动。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "itch.io",
+					"url": "https://itch.io/",
+					"desc": "独立游戏发行、素材和 Jam 平台。",
+					"usage": "既可发布也可逛素材。",
+					"license": "作者自行定价和授权。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Ludum Dare",
+					"url": "https://ldjam.com/",
+					"desc": "国际老牌 Game Jam。",
+					"usage": "看赛季时间再决定报名。",
+					"license": "免费参加。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GMTK Game Jam",
+					"url": "https://itch.io/jam/gmtk",
+					"desc": "每年一次的大型独立游戏 Jam。",
+					"usage": "当年度日历事件关注。",
+					"license": "免费参加。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "机核 / BOOOM",
+					"url": "https://www.gcores.com/",
+					"desc": "国内游戏媒体，BOOOM 等学生向 Jam 常在这宣布。",
+					"usage": "搜 BOOOM 看当期征集。",
+					"license": "免费阅读。",
+					"added": "2026-09-04"
 				}
 			]
 		}
