@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Resource Navigation · Amiya's Desk",
 		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
-		"updated": "2026-08-04",
+		"updated": "2026-09-04",
 		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
 	},
 	"categories": [
@@ -134,6 +134,15 @@
 					"desc": "Curated music & sound resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "DOVA-SYNDROME",
+					"url": "https://dova-s.jp/",
+					"desc": "Japanese free BGM and SFX library for games and video.",
+					"usage": "Search by mood, then check each track's license.",
+					"license": "Site license plus per-author terms.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
