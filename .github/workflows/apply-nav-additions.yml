@@ -5,8 +5,7 @@ on:
   push:
     branches: [add-curated-nav-links-20260904]
     paths:
-      - nav/additions.zh.json
-      - nav/additions.en.json
+      - nav/additions*.json
       - scripts/apply-nav-additions.mjs
       - .github/workflows/apply-nav-additions.yml
 

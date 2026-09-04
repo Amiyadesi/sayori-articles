@@ -4,14 +4,28 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const navDir = path.join(root, "nav");
 const today = new Date().toISOString().slice(0, 10);
 
+function loadAdditions(lang) {
+	const files = fs.readdirSync(navDir)
+		.filter((name) => name === `additions.${lang}.json` || name.startsWith(`additions.${lang}.`))
+		.filter((name) => name.endsWith(".json"))
+		.sort();
+	const items = [];
+	for (const name of files) {
+		const parsed = JSON.parse(fs.readFileSync(path.join(navDir, name), "utf8"));
+		if (Array.isArray(parsed)) items.push(...parsed);
+	}
+	return items;
+}
+
 for (const lang of ["zh", "en"]) {
-	const navFile = path.join(root, "nav", `nav.${lang}.json`);
-	const addFile = path.join(root, "nav", `additions.${lang}.json`);
-	if (!fs.existsSync(navFile) || !fs.existsSync(addFile)) continue;
+	const navFile = path.join(navDir, `nav.${lang}.json`);
+	if (!fs.existsSync(navFile)) continue;
+	const adds = loadAdditions(lang);
+	if (!adds.length) continue;
 	const nav = JSON.parse(fs.readFileSync(navFile, "utf8"));
-	const adds = JSON.parse(fs.readFileSync(addFile, "utf8"));
 	const urls = new Set();
 	for (const cat of nav.categories) {
 		for (const entry of cat.entries) urls.add(String(entry.url || "").replace(/\/+$/, "").toLowerCase());
@@ -31,5 +45,5 @@ for (const lang of ["zh", "en"]) {
 	}
 	if (nav.meta) nav.meta.updated = today;
 	fs.writeFileSync(navFile, `${JSON.stringify(nav, null, "\t")}\n`);
-	console.log(`[apply-nav-additions] ${lang}: added ${added}`);
+	console.log(`[apply-nav-additions] ${lang}: added ${added} from ${adds.length} candidates`);
 }
