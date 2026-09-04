@@ -2817,6 +2817,14 @@
 					"usage": "Subscribe with an RSS reader.",
 					"license": "Publication status follows the blog.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "crt.sh",
+					"url": "https://crt.sh/",
+					"desc": "Certificate transparency search.",
+					"usage": "Enter a domain and read issuance history.",
+					"license": "Free.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -2911,6 +2919,65 @@
 					"usage": "Review service boundaries and signup requirements.",
 					"license": "Disroot controls availability and quotas.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "indienova",
+					"url": "https://indienova.com/",
+					"desc": "Chinese indie-game community already cited on the blog.",
+					"usage": "Read devlogs and resource threads.",
+					"license": "Account needed to post.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Godot Forum",
+					"url": "https://forum.godotengine.org/",
+					"desc": "Official Godot forum; first stop for errors.",
+					"usage": "Search the error before posting.",
+					"license": "Account required.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "r/godot",
+					"url": "https://www.reddit.com/r/godot/",
+					"desc": "English Godot community with dense Q&A.",
+					"usage": "Read the weekly thread and showcases.",
+					"license": "Reddit account for replies.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "itch.io",
+					"url": "https://itch.io/",
+					"desc": "Indie publishing, assets, and jams.",
+					"usage": "Ship a build or browse assets.",
+					"license": "Pricing and licenses are per author.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Ludum Dare",
+					"url": "https://ldjam.com/",
+					"desc": "Long-running international game jam.",
+					"usage": "Check the season dates before joining.",
+					"license": "Free to enter.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GMTK Game Jam",
+					"url": "https://itch.io/jam/gmtk",
+					"desc": "Large annual indie jam.",
+					"usage": "Treat it as a yearly calendar event.",
+					"license": "Free to enter.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Gcores / BOOOM",
+					"url": "https://www.gcores.com/",
+					"desc": "Chinese game media that often hosts student jams such as BOOOM.",
+					"usage": "Search BOOOM for the current call.",
+					"license": "Free to read.",
+					"added": "2026-09-04"
 				}
 			]
 		}
