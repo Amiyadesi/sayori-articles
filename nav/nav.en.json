@@ -143,6 +143,80 @@
 					"license": "Site license plus per-author terms.",
 					"added": "2026-09-04",
 					"tier": "good"
+				},
+				{
+					"name": "Maou Damashii",
+					"url": "https://maou.audio/",
+					"desc": "Large free music library that is commonly usable commercially.",
+					"usage": "Download and credit as the page asks.",
+					"license": "Usually CC BY; check the page.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Amacha Music Studio",
+					"url": "https://amachamusic.chagasi.com/",
+					"desc": "Soft Japanese free BGM for towns and visual-novel scenes.",
+					"usage": "Pick a mood pack and keep the credit line.",
+					"license": "Free with site terms.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Pocket Sound",
+					"url": "https://pocket-se.info/",
+					"desc": "Japanese free sound effects for UI and everyday actions.",
+					"usage": "Browse by category and download shorts.",
+					"license": "Check each effect's terms.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Mixkit Music",
+					"url": "https://mixkit.co/free-stock-music/",
+					"desc": "Free music and SFX with a clear license page.",
+					"usage": "Start with Free Stock Music, then SFX.",
+					"license": "Free for commercial use; keep attribution notes.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Incompetech",
+					"url": "https://incompetech.com/music/royalty-free/",
+					"desc": "Kevin MacLeod royalty-free music, a long-standing source.",
+					"usage": "Filter by genre and credit as requested.",
+					"license": "Usually CC BY.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "BeepBox",
+					"url": "https://www.beepbox.co/",
+					"desc": "Write 8-bit loops in the browser.",
+					"usage": "Compose, then export WAV or share the link.",
+					"license": "Tool is free; you own the music.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Bosca Ceoil",
+					"url": "https://boscaceoil.net/",
+					"desc": "Tiny composer that is good for game loops.",
+					"usage": "Write a short loop and export it into the engine.",
+					"license": "Free tool.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "BBC Sound Effects",
+					"url": "https://sound-effects.bbcrewind.co.uk/",
+					"desc": "Large archive of remixeable ambience and field recordings.",
+					"usage": "Search by environment and read the reuse terms.",
+					"license": "BBC reuse terms; check commercial use.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Zapsplat",
+					"url": "https://www.zapsplat.com/",
+					"desc": "Large game-oriented SFX library after signup.",
+					"usage": "Use a free account and watch the daily quota.",
+					"license": "Account required; free and paid licenses.",
+					"added": "2026-09-04"
 				}
 			]
 		},
