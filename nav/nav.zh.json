@@ -1244,6 +1244,72 @@
 					"license": "账号免费层可用。",
 					"added": "2026-09-04",
 					"tier": "good"
+				},
+				{
+					"name": "Ollama",
+					"url": "https://ollama.com/",
+					"desc": "本地跑大模型，家宽机好用。",
+					"usage": "安装后 ollama run 一个小模型。",
+					"license": "工具免费，模型看各自许可。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Open WebUI",
+					"url": "https://github.com/open-webui/open-webui",
+					"desc": "本地 ChatGPT 风格界面。",
+					"usage": "配合 Ollama 或兼容 API。",
+					"license": "开源可自托管。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "LM Studio",
+					"url": "https://lmstudio.ai/",
+					"desc": "不想碰命令行时的本地模型桌面端。",
+					"usage": "下载 GGUF 后在应用里聊。",
+					"license": "免费桌面应用。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DeepSeek 开放平台",
+					"url": "https://platform.deepseek.com/",
+					"desc": "DeepSeek 官方 API。",
+					"usage": "开 key 后接到自己的工具。",
+					"license": "官方计费和条款。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "硅基流动",
+					"url": "https://cloud.siliconflow.cn/",
+					"desc": "国内兼容接口，用来试开源模型。",
+					"usage": "注册后看免费额度和模型列表。",
+					"license": "需账号，额度会变。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ModelScope",
+					"url": "https://www.modelscope.cn/",
+					"desc": "国内模型与部分免费推理。",
+					"usage": "搜模型后看在线推理。",
+					"license": "需阿里云/魔搭账号。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Kimi",
+					"url": "https://www.kimi.com/",
+					"desc": "长文本日常问答。",
+					"usage": "丢长文档或仓库说明进去问。",
+					"license": "免费层可用。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Chatbox",
+					"url": "https://chatboxai.app/",
+					"desc": "多协议桌面客户端，和 Cherry Studio 互补。",
+					"usage": "填 OpenAI 兼容接口即可。",
+					"license": "开源客户端。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -1383,6 +1449,23 @@
 					"desc": "动漫壁纸站。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "IT-Tools",
+					"url": "https://it-tools.tech/",
+					"desc": "编码、哈希、UUID、Cron 等小工具合集，可自托管。",
+					"usage": "当开发口袋工具用。",
+					"license": "开源。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "regex101",
+					"url": "https://regex101.com/",
+					"desc": "在线写和测正则。",
+					"usage": "选语言后贴测试文本。",
+					"license": "免费。",
+					"added": "2026-09-04"
 				}
 			]
 		},
