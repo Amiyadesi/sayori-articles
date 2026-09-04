@@ -1655,6 +1655,48 @@
 					"usage": "当发现页，不要直接当 Base URL。",
 					"license": "来源杂，用前自查。",
 					"added": "2026-09-04"
+				},
+				{
+					"name": "Yangmao AI",
+					"url": "https://yangmao.ai/zh/#ask",
+					"desc": "AI 工具和免费额度情报站。",
+					"usage": "搜平台名再回到官方页确认。",
+					"license": "导航站，不是 API 本身。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "HelloGitHub",
+					"url": "https://hellogithub.com/",
+					"desc": "每月开源项目推荐，学生向。",
+					"usage": "按语言翻月刊。",
+					"license": "免费阅读。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "阮一峰周刊",
+					"url": "https://www.ruanyifeng.com/weekly/",
+					"desc": "稳定的科技和工具周刊。",
+					"usage": "扫目录收藏要用的链接。",
+					"license": "免费阅读。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Product Hunt",
+					"url": "https://www.producthunt.com/",
+					"desc": "看独立开发者在发什么小产品。",
+					"usage": "按日期刷，记玩法而不是抄界面。",
+					"license": "免费浏览。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GitHub Student Pack",
+					"url": "https://education.github.com/pack",
+					"desc": "学生开发者工具包入口。",
+					"usage": "教育邮箱认证后到 Pack 页领。",
+					"license": "需学生认证。",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -1936,6 +1978,47 @@
 					"desc": "IP 欺诈风险评分。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Tailscale",
+					"url": "https://tailscale.com/",
+					"desc": "家宽组网，把旧电脑和云主机连成一张网。",
+					"usage": "各设备装客户端后用同一个账号。",
+					"license": "个人免费层通常够用。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Headscale",
+					"url": "https://github.com/juanfont/headscale",
+					"desc": "自建 Tailscale 控制服务器。",
+					"usage": "只在不想走官方协调时用。",
+					"license": "开源。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ZeroTier",
+					"url": "https://www.zerotier.com/",
+					"desc": "Tailscale 之外的组网备选。",
+					"usage": "建一个 Network 把设备拉进去。",
+					"license": "有免费层。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DuckDNS",
+					"url": "https://www.duckdns.org/",
+					"desc": "免费动态域名。",
+					"usage": "家宽 IP 变化时自动更新。",
+					"license": "免费，需账号。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Fly.io",
+					"url": "https://fly.io/",
+					"desc": "把小服务贴到边缘节点。",
+					"usage": "适合小 API 和演示站。",
+					"license": "有免费额度。",
+					"added": "2026-09-04"
 				}
 			]
 		},

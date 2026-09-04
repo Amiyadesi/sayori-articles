@@ -1727,6 +1727,31 @@
 					"license": "Free to read.",
 					"added": "2026-09-04",
 					"tier": "good"
+				},
+				{
+					"name": "Ruanyifeng Weekly",
+					"url": "https://www.ruanyifeng.com/weekly/",
+					"desc": "Steady weekly tech and tool roundup.",
+					"usage": "Skim the TOC and keep useful links.",
+					"license": "Free to read.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Product Hunt",
+					"url": "https://www.producthunt.com/",
+					"desc": "See what indie makers are shipping.",
+					"usage": "Skim by day; steal ideas, not chrome.",
+					"license": "Free to browse.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GitHub Student Pack",
+					"url": "https://education.github.com/pack",
+					"desc": "Student developer pack entry point.",
+					"usage": "Verify with an edu mailbox, then claim on the Pack page.",
+					"license": "Student verification required.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -2089,6 +2114,63 @@
 					"usage": "Sketch, outline, or share a quick diagram.",
 					"license": "Export important work yourself; long-term storage is not promised.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "Tailscale",
+					"url": "https://tailscale.com/",
+					"desc": "Mesh your home box and cloud hosts.",
+					"usage": "Install the client on each device with one account.",
+					"license": "Personal free tier is usually enough.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Headscale",
+					"url": "https://github.com/juanfont/headscale",
+					"desc": "Self-hosted Tailscale control server.",
+					"usage": "Use it only if you do not want the official coordinator.",
+					"license": "Open source.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ZeroTier",
+					"url": "https://www.zerotier.com/",
+					"desc": "Networking alternative to Tailscale.",
+					"usage": "Create a network and pull devices in.",
+					"license": "Has a free tier.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DuckDNS",
+					"url": "https://www.duckdns.org/",
+					"desc": "Free dynamic DNS.",
+					"usage": "Update it when the home IP changes.",
+					"license": "Free with an account.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Fly.io",
+					"url": "https://fly.io/",
+					"desc": "Run small apps near the edge.",
+					"usage": "Good for tiny APIs and demos.",
+					"license": "Has a free allowance.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Railway",
+					"url": "https://railway.app/",
+					"desc": "App hosting for students and hobby projects.",
+					"usage": "Connect a Git repo and ship.",
+					"license": "Watch the bill when the trial ends.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Cloudflare One Dashboard",
+					"url": "https://one.dash.cloudflare.com/",
+					"desc": "Tunnel and Zero Trust console, not just the docs.",
+					"usage": "Create a tunnel for a home service.",
+					"license": "Cloudflare account required.",
+					"added": "2026-09-04"
 				}
 			]
 		},
