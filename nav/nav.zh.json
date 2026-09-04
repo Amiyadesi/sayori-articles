@@ -574,6 +574,91 @@
 					"desc": "CSS loading 动效参考。",
 					"usage": "复制 CSS 后按项目风格改。",
 					"license": "看站内授权说明。"
+				},
+				{
+					"name": "Lospec 调色盘",
+					"url": "https://lospec.com/palette-list",
+					"desc": "像素画调色盘库，补已有入门文。",
+					"usage": "按色数筛选后复制 hex。",
+					"license": "调色盘授权看作者。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Piskel",
+					"url": "https://www.piskelapp.com/",
+					"desc": "浏览器像素画和帧动画。",
+					"usage": "画完导出 gif 或 sprite sheet。",
+					"license": "免费在线工具。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "LibreSprite",
+					"url": "https://libresprite.github.io/",
+					"desc": "Aseprite 的开源分支。",
+					"usage": "本地安装后画像素动画。",
+					"license": "开源免费。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Pixelorama",
+					"url": "https://orama-interactive.itch.io/pixelorama",
+					"desc": "用 Godot 写的像素动画编辑器。",
+					"usage": "从 itch 下桌面版。",
+					"license": "开源，看 itch 页授权。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Coolors",
+					"url": "https://coolors.co/",
+					"desc": "快速生成和导出配色。",
+					"usage": "空格刷新，锁定喜欢的色。",
+					"license": "免费够用。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Huemint",
+					"url": "https://huemint.com/",
+					"desc": "偏设计系统的配色生成。",
+					"usage": "选产品/海报模式再微调。",
+					"license": "免费在线。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Line of Action",
+					"url": "https://line-of-action.com/",
+					"desc": "速写和人体参考计时练习。",
+					"usage": "选 class 时长对着画。",
+					"license": "免费练习站。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Excalidraw",
+					"url": "https://excalidraw.com/",
+					"desc": "手绘风白板，适合画玩法草图。",
+					"usage": "画完导出 png 或保存链接。",
+					"license": "开源，可自托管。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Photopea",
+					"url": "https://www.photopea.com/",
+					"desc": "浏览器里的 PS，能开 PSD 和 sprite sheet。",
+					"usage": "直接打开本地图分层处理。",
+					"license": "免费增值。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Squoosh",
+					"url": "https://squoosh.app/",
+					"desc": "压图并导出 WebP/AVIF。",
+					"usage": "对比质量和体积后下载。",
+					"license": "Google 开源工具。",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
