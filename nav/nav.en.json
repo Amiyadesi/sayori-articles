@@ -960,6 +960,75 @@
 					"desc": "Curated learning & development resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Learn GDScript From Zero",
+					"url": "https://gdquest.github.io/learn-gdscript/",
+					"desc": "Learn GDScript from zero in the browser.",
+					"usage": "Finish the levels, then write a real project.",
+					"license": "Free and open source.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "GDQuest Tutorials",
+					"url": "https://www.gdquest.com/tutorial/",
+					"desc": "Clear free Godot 4 tutorials.",
+					"usage": "Read by 2D, 3D, or shader topic.",
+					"license": "Free to read.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "KidsCanCode",
+					"url": "https://www.youtube.com/@KidsCanCode",
+					"desc": "Godot intro videos often recommended by the docs.",
+					"usage": "Start with the Godot 4 playlist.",
+					"license": "Free on YouTube.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "The Book of Shaders",
+					"url": "https://thebookofshaders.com/",
+					"desc": "Shader primer that pairs with IQ and Shadertoy.",
+					"usage": "Edit the examples chapter by chapter.",
+					"license": "Free online book.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Shadertoy",
+					"url": "https://www.shadertoy.com/",
+					"desc": "The original site for writing and browsing shaders.",
+					"usage": "Search an effect and read the code.",
+					"license": "Account needed to save.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Missing Semester",
+					"url": "https://missing.csail.mit.edu/",
+					"desc": "The missing semester of CLI, Git, and debugging.",
+					"usage": "Watch a lecture, then practice.",
+					"license": "MIT public course.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "OSSU CS",
+					"url": "https://github.com/ossu/computer-science",
+					"desc": "English self-taught CS path next to csdiy.",
+					"usage": "Pick courses by term; you do not need all of them.",
+					"license": "Open course list.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "MDN Web Docs",
+					"url": "https://developer.mozilla.org/",
+					"desc": "Front-end and Web API documentation.",
+					"usage": "Search a tag or API name.",
+					"license": "Public and free.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -1211,6 +1280,24 @@
 					"license": "The directory does not guarantee ongoing availability; original API and account terms apply.",
 					"url": "https://baipiao.org/free/",
 					"added": "2026-08-04"
+				},
+				{
+					"name": "OpenRouter",
+					"url": "https://openrouter.ai/",
+					"desc": "One endpoint for many models.",
+					"usage": "Use free models or top up, then point a local client at it.",
+					"license": "Usage-based; check model terms.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Hugging Face",
+					"url": "https://huggingface.co/",
+					"desc": "Models, datasets, and Spaces.",
+					"usage": "Search a model, then open the demo or weights.",
+					"license": "Free account tier available.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
