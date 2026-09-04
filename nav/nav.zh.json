@@ -2685,6 +2685,30 @@
 					"usage": "用 yaml 把常用服务摆在一页。",
 					"license": "开源。",
 					"added": "2026-09-04"
+				},
+				{
+					"name": "Dockge",
+					"url": "https://dockge.kuma.pet/",
+					"desc": "轻量 Docker Compose 管理界面。",
+					"usage": "和 Portainer 二选一即可。",
+					"license": "开源。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Portainer",
+					"url": "https://www.portainer.io/",
+					"desc": "更完整的容器管理面板。",
+					"usage": "家宽 Docker 可视化操作用。",
+					"license": "社区版免费。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "crt.sh",
+					"url": "https://crt.sh/",
+					"desc": "查域名证书历史。",
+					"usage": "输入域名看签发记录。",
+					"license": "免费。",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -2744,6 +2768,65 @@
 					"desc": "自由的资源与折腾社区。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "indienova",
+					"url": "https://indienova.com/",
+					"desc": "中文独立游戏社区，站内也曾链过单篇。",
+					"usage": "看开发日志和资源帖。",
+					"license": "需账号发帖。",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Godot Forum",
+					"url": "https://forum.godotengine.org/",
+					"desc": "Godot 官方论坛，搜报错首选。",
+					"usage": "先搜错误信息再发帖。",
+					"license": "需账号。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "r/godot",
+					"url": "https://www.reddit.com/r/godot/",
+					"desc": "英文 Godot 社区，问答密度高。",
+					"usage": "看周报和 Showcase。",
+					"license": "需 Reddit 账号互动。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "itch.io",
+					"url": "https://itch.io/",
+					"desc": "独立游戏发行、素材和 Jam 平台。",
+					"usage": "既可发布也可逛素材。",
+					"license": "作者自行定价和授权。",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Ludum Dare",
+					"url": "https://ldjam.com/",
+					"desc": "国际老牌 Game Jam。",
+					"usage": "看赛季时间再决定报名。",
+					"license": "免费参加。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GMTK Game Jam",
+					"url": "https://itch.io/jam/gmtk",
+					"desc": "每年一次的大型独立游戏 Jam。",
+					"usage": "当年度日历事件关注。",
+					"license": "免费参加。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "机核 / BOOOM",
+					"url": "https://www.gcores.com/",
+					"desc": "国内游戏媒体，BOOOM 等学生向 Jam 常在这宣布。",
+					"usage": "搜 BOOOM 看当期征集。",
+					"license": "免费阅读。",
+					"added": "2026-09-04"
 				}
 			]
 		}
