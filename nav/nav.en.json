@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Resource Navigation · Amiya's Desk",
 		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
-		"updated": "2026-08-04",
+		"updated": "2026-09-04",
 		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
 	},
 	"categories": [
@@ -134,6 +134,89 @@
 					"desc": "Curated music & sound resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "DOVA-SYNDROME",
+					"url": "https://dova-s.jp/",
+					"desc": "Japanese free BGM and SFX library for games and video.",
+					"usage": "Search by mood, then check each track's license.",
+					"license": "Site license plus per-author terms.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Maou Damashii",
+					"url": "https://maou.audio/",
+					"desc": "Large free music library that is commonly usable commercially.",
+					"usage": "Download and credit as the page asks.",
+					"license": "Usually CC BY; check the page.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Amacha Music Studio",
+					"url": "https://amachamusic.chagasi.com/",
+					"desc": "Soft Japanese free BGM for towns and visual-novel scenes.",
+					"usage": "Pick a mood pack and keep the credit line.",
+					"license": "Free with site terms.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Pocket Sound",
+					"url": "https://pocket-se.info/",
+					"desc": "Japanese free sound effects for UI and everyday actions.",
+					"usage": "Browse by category and download shorts.",
+					"license": "Check each effect's terms.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Mixkit Music",
+					"url": "https://mixkit.co/free-stock-music/",
+					"desc": "Free music and SFX with a clear license page.",
+					"usage": "Start with Free Stock Music, then SFX.",
+					"license": "Free for commercial use; keep attribution notes.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Incompetech",
+					"url": "https://incompetech.com/music/royalty-free/",
+					"desc": "Kevin MacLeod royalty-free music, a long-standing source.",
+					"usage": "Filter by genre and credit as requested.",
+					"license": "Usually CC BY.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "BeepBox",
+					"url": "https://www.beepbox.co/",
+					"desc": "Write 8-bit loops in the browser.",
+					"usage": "Compose, then export WAV or share the link.",
+					"license": "Tool is free; you own the music.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Bosca Ceoil",
+					"url": "https://boscaceoil.net/",
+					"desc": "Tiny composer that is good for game loops.",
+					"usage": "Write a short loop and export it into the engine.",
+					"license": "Free tool.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "BBC Sound Effects",
+					"url": "https://sound-effects.bbcrewind.co.uk/",
+					"desc": "Large archive of remixeable ambience and field recordings.",
+					"usage": "Search by environment and read the reuse terms.",
+					"license": "BBC reuse terms; check commercial use.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Zapsplat",
+					"url": "https://www.zapsplat.com/",
+					"desc": "Large game-oriented SFX library after signup.",
+					"usage": "Use a free account and watch the daily quota.",
+					"license": "Account required; free and paid licenses.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -316,6 +399,92 @@
 					"desc": "Curated game assets & resources resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "itch.io Free Game Assets",
+					"url": "https://itch.io/game-assets/free",
+					"desc": "Index of free asset packs from indie authors.",
+					"usage": "Filter to Free, then read each pack license.",
+					"license": "Licenses vary by pack.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Quaternius",
+					"url": "https://quaternius.com/",
+					"desc": "CC0 low-poly 3D packs, many with animation.",
+					"usage": "Download glTF or FBX packs.",
+					"license": "CC0, commercial use ok.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "KayKit",
+					"url": "https://kaylousberg.itch.io/",
+					"desc": "Consistent CC0 3D characters and environments.",
+					"usage": "Grab the free packs on itch.",
+					"license": "Mostly CC0.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Poly Haven",
+					"url": "https://polyhaven.com/",
+					"desc": "CC0 models, PBR textures, and HDRIs.",
+					"usage": "Filter by type and start with 1K or 2K.",
+					"license": "All CC0.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "AmbientCG",
+					"url": "https://ambientcg.com/",
+					"desc": "CC0 PBR texture library next to Poly Haven.",
+					"usage": "Download the map set you need.",
+					"license": "CC0.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Poly Pizza",
+					"url": "https://poly.pizza/",
+					"desc": "Archive of the old Google Poly low-poly catalog.",
+					"usage": "Search and download glTF.",
+					"license": "Check each model license.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Awesome Godot",
+					"url": "https://github.com/godotengine/awesome-godot",
+					"desc": "Official-ish list of plugins, tutorials, and tools.",
+					"usage": "Jump from topics to the repos you need.",
+					"license": "The list is open source.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Godot Docs",
+					"url": "https://docs.godotengine.org/",
+					"desc": "Official Godot documentation.",
+					"usage": "Start with Getting started, then the class ref.",
+					"license": "Public and free.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Godot Recipes",
+					"url": "https://kidscancode.org/godot_recipes/4.x/",
+					"desc": "KidsCanCode recipes for Godot 4.",
+					"usage": "Look up movement, physics, and UI patterns.",
+					"license": "Free to read.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Lucide Icons",
+					"url": "https://lucide.dev/",
+					"desc": "Clean open-source icons; this site uses them too.",
+					"usage": "Search a name and copy the SVG.",
+					"license": "ISC license.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -405,6 +574,91 @@
 					"desc": "Curated art & animation resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Lospec Palettes",
+					"url": "https://lospec.com/palette-list",
+					"desc": "Palette library that pairs with the existing intro article.",
+					"usage": "Filter by color count and copy hex values.",
+					"license": "Palette licenses vary.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Piskel",
+					"url": "https://www.piskelapp.com/",
+					"desc": "Browser pixel editor with frame animation.",
+					"usage": "Export a GIF or sprite sheet.",
+					"license": "Free web tool.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "LibreSprite",
+					"url": "https://libresprite.github.io/",
+					"desc": "Open-source Aseprite fork.",
+					"usage": "Install locally for pixel animation.",
+					"license": "Free and open source.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Pixelorama",
+					"url": "https://orama-interactive.itch.io/pixelorama",
+					"desc": "Pixel animation editor written in Godot.",
+					"usage": "Get the desktop build from itch.",
+					"license": "Open source; see the itch page.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Coolors",
+					"url": "https://coolors.co/",
+					"desc": "Fast palette generator.",
+					"usage": "Hit space and lock the colors you like.",
+					"license": "Free tier is enough.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Huemint",
+					"url": "https://huemint.com/",
+					"desc": "Palette generator aimed at design systems.",
+					"usage": "Pick a product or poster mode, then tweak.",
+					"license": "Free online.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Line of Action",
+					"url": "https://line-of-action.com/",
+					"desc": "Timed figure and gesture practice.",
+					"usage": "Pick a class length and draw from the refs.",
+					"license": "Free practice site.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Excalidraw",
+					"url": "https://excalidraw.com/",
+					"desc": "Hand-drawn whiteboard for design sketches.",
+					"usage": "Export PNG or keep a share link.",
+					"license": "Open source; self-hostable.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Photopea",
+					"url": "https://www.photopea.com/",
+					"desc": "Photoshop-like editor in the browser.",
+					"usage": "Open local PSD or sprite sheets.",
+					"license": "Freemium.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Squoosh",
+					"url": "https://squoosh.app/",
+					"desc": "Compress images to WebP or AVIF.",
+					"usage": "Compare quality vs size, then download.",
+					"license": "Open-source Google tool.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -706,6 +960,75 @@
 					"desc": "Curated learning & development resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "Learn GDScript From Zero",
+					"url": "https://gdquest.github.io/learn-gdscript/",
+					"desc": "Learn GDScript from zero in the browser.",
+					"usage": "Finish the levels, then write a real project.",
+					"license": "Free and open source.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "GDQuest Tutorials",
+					"url": "https://www.gdquest.com/tutorial/",
+					"desc": "Clear free Godot 4 tutorials.",
+					"usage": "Read by 2D, 3D, or shader topic.",
+					"license": "Free to read.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "KidsCanCode",
+					"url": "https://www.youtube.com/@KidsCanCode",
+					"desc": "Godot intro videos often recommended by the docs.",
+					"usage": "Start with the Godot 4 playlist.",
+					"license": "Free on YouTube.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "The Book of Shaders",
+					"url": "https://thebookofshaders.com/",
+					"desc": "Shader primer that pairs with IQ and Shadertoy.",
+					"usage": "Edit the examples chapter by chapter.",
+					"license": "Free online book.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Shadertoy",
+					"url": "https://www.shadertoy.com/",
+					"desc": "The original site for writing and browsing shaders.",
+					"usage": "Search an effect and read the code.",
+					"license": "Account needed to save.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Missing Semester",
+					"url": "https://missing.csail.mit.edu/",
+					"desc": "The missing semester of CLI, Git, and debugging.",
+					"usage": "Watch a lecture, then practice.",
+					"license": "MIT public course.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "OSSU CS",
+					"url": "https://github.com/ossu/computer-science",
+					"desc": "English self-taught CS path next to csdiy.",
+					"usage": "Pick courses by term; you do not need all of them.",
+					"license": "Open course list.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "MDN Web Docs",
+					"url": "https://developer.mozilla.org/",
+					"desc": "Front-end and Web API documentation.",
+					"usage": "Search a tag or API name.",
+					"license": "Public and free.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -957,6 +1280,90 @@
 					"license": "The directory does not guarantee ongoing availability; original API and account terms apply.",
 					"url": "https://baipiao.org/free/",
 					"added": "2026-08-04"
+				},
+				{
+					"name": "OpenRouter",
+					"url": "https://openrouter.ai/",
+					"desc": "One endpoint for many models.",
+					"usage": "Use free models or top up, then point a local client at it.",
+					"license": "Usage-based; check model terms.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Hugging Face",
+					"url": "https://huggingface.co/",
+					"desc": "Models, datasets, and Spaces.",
+					"usage": "Search a model, then open the demo or weights.",
+					"license": "Free account tier available.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Ollama",
+					"url": "https://ollama.com/",
+					"desc": "Run local models; good on a home server.",
+					"usage": "Install, then ollama run a small model.",
+					"license": "Tool is free; model licenses vary.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Open WebUI",
+					"url": "https://github.com/open-webui/open-webui",
+					"desc": "Local ChatGPT-style UI.",
+					"usage": "Pair it with Ollama or a compatible API.",
+					"license": "Open source and self-hostable.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "LM Studio",
+					"url": "https://lmstudio.ai/",
+					"desc": "Desktop local-model app if you do not want the CLI.",
+					"usage": "Download a GGUF and chat in the app.",
+					"license": "Free desktop app.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DeepSeek Platform",
+					"url": "https://platform.deepseek.com/",
+					"desc": "Official DeepSeek API.",
+					"usage": "Create a key and wire it into your tools.",
+					"license": "Official billing and terms.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "SiliconFlow",
+					"url": "https://cloud.siliconflow.cn/",
+					"desc": "China-friendly compatible API for open models.",
+					"usage": "Sign up and check the free quota list.",
+					"license": "Account required; quotas change.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ModelScope",
+					"url": "https://www.modelscope.cn/",
+					"desc": "China model hub with some free inference.",
+					"usage": "Search a model and try hosted inference.",
+					"license": "Aliyun / ModelScope account.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Kimi",
+					"url": "https://www.kimi.com/",
+					"desc": "Long-context chat for daily reading.",
+					"usage": "Drop in a long doc or README and ask.",
+					"license": "Free tier available.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Chatbox",
+					"url": "https://chatboxai.app/",
+					"desc": "Multi-provider desktop client next to Cherry Studio.",
+					"usage": "Point it at an OpenAI-compatible endpoint.",
+					"license": "Open-source client.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -1096,6 +1503,88 @@
 					"desc": "Curated practical tools resource.",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"name": "JSONCrack",
+					"url": "https://jsoncrack.com/",
+					"desc": "Visualize JSON as a graph.",
+					"usage": "Paste a large payload and inspect the shape.",
+					"license": "Free online.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Can I Use",
+					"url": "https://caniuse.com/",
+					"desc": "Browser support tables.",
+					"usage": "Search a CSS or API name.",
+					"license": "Free.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Carbon",
+					"url": "https://carbon.now.sh/",
+					"desc": "Pretty code screenshots.",
+					"usage": "Paste code, pick a theme, export.",
+					"license": "Free.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "TinyPNG",
+					"url": "https://tinypng.com/",
+					"desc": "Simple PNG/JPEG compression.",
+					"usage": "Drop images and download.",
+					"license": "Free quota.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ILovePDF",
+					"url": "https://www.ilovepdf.com/",
+					"desc": "Merge, split, and convert PDFs in the browser.",
+					"usage": "Fine for one-off jobs.",
+					"license": "Free web tier.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Stirling PDF",
+					"url": "https://github.com/Stirling-Tools/Stirling-PDF",
+					"desc": "Self-hosted PDF toolbox.",
+					"usage": "Run it with Docker on a home box.",
+					"license": "Open source.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Remove.bg",
+					"url": "https://www.remove.bg/",
+					"desc": "Quick background removal for sprites.",
+					"usage": "Upload and download a transparent cutout.",
+					"license": "Limited free uses.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Hoppscotch",
+					"url": "https://hoppscotch.io/",
+					"desc": "API client in the browser.",
+					"usage": "Use it instead of a heavy desktop client.",
+					"license": "Open source and self-hostable.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "IT-Tools",
+					"url": "https://it-tools.tech/",
+					"desc": "Hash, UUID, Cron, and encoding utilities; self-hostable.",
+					"usage": "Keep it as a pocket toolkit.",
+					"license": "Open source.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "regex101",
+					"url": "https://regex101.com/",
+					"desc": "Write and test regular expressions.",
+					"usage": "Pick a flavor and paste sample text.",
+					"license": "Free.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -1220,6 +1709,49 @@
 					"usage": "Browse by purpose or follow related articles from the blog.",
 					"license": "Links are checked when added only.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "Student Benefits Nav",
+					"url": "https://nav.edumails.cn/",
+					"desc": "Overview of edu-mail perks; already mentioned on the blog.",
+					"usage": "Claim long-lived tools first, then short quotas.",
+					"license": "Third-party list; entries go stale.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "HelloGitHub",
+					"url": "https://hellogithub.com/",
+					"desc": "Monthly open-source picks, student-friendly.",
+					"usage": "Browse the monthly issue by language.",
+					"license": "Free to read.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Ruanyifeng Weekly",
+					"url": "https://www.ruanyifeng.com/weekly/",
+					"desc": "Steady weekly tech and tool roundup.",
+					"usage": "Skim the TOC and keep useful links.",
+					"license": "Free to read.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Product Hunt",
+					"url": "https://www.producthunt.com/",
+					"desc": "See what indie makers are shipping.",
+					"usage": "Skim by day; steal ideas, not chrome.",
+					"license": "Free to browse.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GitHub Student Pack",
+					"url": "https://education.github.com/pack",
+					"desc": "Student developer pack entry point.",
+					"usage": "Verify with an edu mailbox, then claim on the Pack page.",
+					"license": "Student verification required.",
+					"added": "2026-09-04",
+					"tier": "good"
 				}
 			]
 		},
@@ -1582,6 +2114,63 @@
 					"usage": "Sketch, outline, or share a quick diagram.",
 					"license": "Export important work yourself; long-term storage is not promised.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "Tailscale",
+					"url": "https://tailscale.com/",
+					"desc": "Mesh your home box and cloud hosts.",
+					"usage": "Install the client on each device with one account.",
+					"license": "Personal free tier is usually enough.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Headscale",
+					"url": "https://github.com/juanfont/headscale",
+					"desc": "Self-hosted Tailscale control server.",
+					"usage": "Use it only if you do not want the official coordinator.",
+					"license": "Open source.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "ZeroTier",
+					"url": "https://www.zerotier.com/",
+					"desc": "Networking alternative to Tailscale.",
+					"usage": "Create a network and pull devices in.",
+					"license": "Has a free tier.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "DuckDNS",
+					"url": "https://www.duckdns.org/",
+					"desc": "Free dynamic DNS.",
+					"usage": "Update it when the home IP changes.",
+					"license": "Free with an account.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Fly.io",
+					"url": "https://fly.io/",
+					"desc": "Run small apps near the edge.",
+					"usage": "Good for tiny APIs and demos.",
+					"license": "Has a free allowance.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Railway",
+					"url": "https://railway.app/",
+					"desc": "App hosting for students and hobby projects.",
+					"usage": "Connect a Git repo and ship.",
+					"license": "Watch the bill when the trial ends.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Cloudflare One Dashboard",
+					"url": "https://one.dash.cloudflare.com/",
+					"desc": "Tunnel and Zero Trust console, not just the docs.",
+					"usage": "Create a tunnel for a home service.",
+					"license": "Cloudflare account required.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -2228,6 +2817,97 @@
 					"usage": "Subscribe with an RSS reader.",
 					"license": "Publication status follows the blog.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "crt.sh",
+					"url": "https://crt.sh/",
+					"desc": "Certificate transparency search.",
+					"usage": "Enter a domain and read issuance history.",
+					"license": "Free.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Cloudflare Web Analytics",
+					"url": "https://www.cloudflare.com/web-analytics/",
+					"desc": "Cookie-light analytics next to Umami.",
+					"usage": "Turn it on in the Cloudflare site settings.",
+					"license": "Free tier available.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "PageSpeed Insights",
+					"url": "https://pagespeed.web.dev/",
+					"desc": "Performance and Core Web Vitals lab.",
+					"usage": "Paste a URL for mobile and desktop scores.",
+					"license": "Free.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "SSL Labs",
+					"url": "https://www.ssllabs.com/ssltest/",
+					"desc": "Certificate and TLS configuration test.",
+					"usage": "Enter a hostname and read the grade.",
+					"license": "Free.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Fontsource",
+					"url": "https://fontsource.org/",
+					"desc": "Self-host webfonts instead of a third-party CDN.",
+					"usage": "Install the npm package or download files.",
+					"license": "Font licenses vary.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Iconify",
+					"url": "https://iconify.design/",
+					"desc": "One search box across many icon sets.",
+					"usage": "Search a name and copy SVG or a component.",
+					"license": "Icon-set licenses vary.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Eleventy",
+					"url": "https://www.11ty.dev/",
+					"desc": "Static site generator alongside Astro, Hugo, and Zola.",
+					"usage": "Good for content and docs sites.",
+					"license": "Open source.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Coolify",
+					"url": "https://coolify.io/",
+					"desc": "Self-hosted PaaS that feels like your own Vercel.",
+					"usage": "Run several sites from a home box or VPS.",
+					"license": "Open source.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Homepage",
+					"url": "https://gethomepage.dev/",
+					"desc": "Dashboard for home-lab services.",
+					"usage": "Lay out services with a YAML file.",
+					"license": "Open source.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Dockge",
+					"url": "https://dockge.kuma.pet/",
+					"desc": "Light Docker Compose UI.",
+					"usage": "Pick this or Portainer, not both.",
+					"license": "Open source.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Portainer",
+					"url": "https://www.portainer.io/",
+					"desc": "Fuller container management UI.",
+					"usage": "Use it when you want a visual Docker console.",
+					"license": "Community edition is free.",
+					"added": "2026-09-04"
 				}
 			]
 		},
@@ -2322,6 +3002,65 @@
 					"usage": "Review service boundaries and signup requirements.",
 					"license": "Disroot controls availability and quotas.",
 					"added": "2026-08-03"
+				},
+				{
+					"name": "indienova",
+					"url": "https://indienova.com/",
+					"desc": "Chinese indie-game community already cited on the blog.",
+					"usage": "Read devlogs and resource threads.",
+					"license": "Account needed to post.",
+					"added": "2026-09-04",
+					"tier": "good"
+				},
+				{
+					"name": "Godot Forum",
+					"url": "https://forum.godotengine.org/",
+					"desc": "Official Godot forum; first stop for errors.",
+					"usage": "Search the error before posting.",
+					"license": "Account required.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "r/godot",
+					"url": "https://www.reddit.com/r/godot/",
+					"desc": "English Godot community with dense Q&A.",
+					"usage": "Read the weekly thread and showcases.",
+					"license": "Reddit account for replies.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "itch.io",
+					"url": "https://itch.io/",
+					"desc": "Indie publishing, assets, and jams.",
+					"usage": "Ship a build or browse assets.",
+					"license": "Pricing and licenses are per author.",
+					"added": "2026-09-04",
+					"tier": "top"
+				},
+				{
+					"name": "Ludum Dare",
+					"url": "https://ldjam.com/",
+					"desc": "Long-running international game jam.",
+					"usage": "Check the season dates before joining.",
+					"license": "Free to enter.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GMTK Game Jam",
+					"url": "https://itch.io/jam/gmtk",
+					"desc": "Large annual indie jam.",
+					"usage": "Treat it as a yearly calendar event.",
+					"license": "Free to enter.",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "Gcores / BOOOM",
+					"url": "https://www.gcores.com/",
+					"desc": "Chinese game media that often hosts student jams such as BOOOM.",
+					"usage": "Search BOOOM for the current call.",
+					"license": "Free to read.",
+					"added": "2026-09-04"
 				}
 			]
 		}
