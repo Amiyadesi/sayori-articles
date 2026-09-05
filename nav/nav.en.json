@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Resource Navigation · Amiya's Desk",
 		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
-		"updated": "2026-09-04",
+		"updated": "2026-09-05",
 		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
 	},
 	"categories": [
@@ -1764,14 +1764,6 @@
 			"entries": [
 				{
 					"category": "net-services",
-					"name": "ChatGPT 正版订阅教程",
-					"url": "https://ucnh8s3rdzjl.feishu.cn/wiki/HDDEw9cUOiigO0kTlUUcwsYXnbh",
-					"desc": "Curated networks & services resource.",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "net-services",
 					"name": "Apple Account",
 					"url": "https://account.apple.com/",
 					"desc": "Curated networks & services resource.",
@@ -3002,6 +2994,60 @@
 					"usage": "Review service boundaries and signup requirements.",
 					"license": "Disroot controls availability and quotas.",
 					"added": "2026-08-03"
+				},
+				{
+					"category": "community",
+					"name": "Blog: Webmaster Resource Toolbox",
+					"url": "https://blog.sayori.org/posts/webmaster-resource-toolbox/",
+					"desc": "External resources for domains, hosting, comments, monitoring, self-hosting, Cloudflare, analytics, and blog frameworks.",
+					"usage": "Browse by category, then verify pricing, terms, and availability.",
+					"license": "The article can age; check each service's official site.",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "Blog: My Creative Resources Index",
+					"url": "https://blog.sayori.org/posts/resource-index/",
+					"desc": "A public index of game development, assets, art, music, AI, and learning resources.",
+					"usage": "Use it as a search entry point; verify licenses before downloading.",
+					"license": "Asset licenses are defined by each original site.",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "Blog: Useful Free Software Toolbox",
+					"url": "https://blog.sayori.org/posts/useful-free-software-toolbox/",
+					"desc": "A practical list of free tools for remote control, conversion, file transfer, notes, recording, and pixel art.",
+					"usage": "Choose by workflow; check permissions and download sources first.",
+					"license": "Third-party software terms apply.",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "Blog: Useful Browser Extensions Toolbox",
+					"url": "https://blog.sayori.org/posts/useful-browser-extensions-toolbox/",
+					"desc": "A practical list of scripts, translation, password, speed-control, site-discovery, and privacy extensions.",
+					"usage": "Check permissions, publisher, and data flow before installing.",
+					"license": "Extension permissions and service terms apply.",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "Blog: Cloudflare Free Tier Guide",
+					"url": "https://blog.sayori.org/posts/cloudflare-free-tier-student-guide/cloudflare-free-tier-developer-guide/",
+					"desc": "A guide to Pages, Workers, R2, Tunnel, DNS, email routing, and analytics in the free tier.",
+					"usage": "Choose services by quota and billing boundary.",
+					"license": "Limits and terms can change; check Cloudflare's official docs.",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "Blog: Build Your Own Search Gateway",
+					"url": "https://blog.sayori.org/posts/build-your-search-gateway/",
+					"desc": "A record of a self-hosted search gateway, MCP integration, and search/screenshot upstreams.",
+					"usage": "Read the architecture first, then adapt it to your own keys and quotas.",
+					"license": "Upstream service terms and quotas apply independently.",
+					"added": "2026-09-05"
 				},
 				{
 					"name": "indienova",

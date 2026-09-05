@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
 		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，按创作、学习、AI、网络服务和站长工具分类整理。",
-		"updated": "2026-09-04",
+		"updated": "2026-09-05",
 		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
 	},
 	"categories": [
@@ -1709,14 +1709,6 @@
 			"entries": [
 				{
 					"category": "net-services",
-					"name": "ChatGPT 正版订阅教程",
-					"url": "https://ucnh8s3rdzjl.feishu.cn/wiki/HDDEw9cUOiigO0kTlUUcwsYXnbh",
-					"desc": "ChatGPT 充值流程和注意事项。",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "net-services",
 					"name": "Apple Account",
 					"url": "https://account.apple.com/",
 					"desc": "苹果账号管理入口，改区、订阅都从这里。",
@@ -2768,6 +2760,87 @@
 					"desc": "自由的资源与折腾社区。",
 					"usage": "",
 					"license": ""
+				},
+				{
+					"category": "community",
+					"name": "博客：免费 AI API 清单",
+					"url": "https://blog.sayori.org/posts/freeapi-glm-kimi-cc-switch/",
+					"desc": "免费 AI API、额度和入口的整理文章。",
+					"usage": "先读说明，再逐个核对目标服务。",
+					"license": "文章会过时，具体服务条款以原站为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "博客：Riseup 公共服务清单",
+					"url": "https://blog.sayori.org/posts/radical-servers-public-services/",
+					"desc": "Riseup 目录和 sayori.org 公共服务的说明。",
+					"usage": "先看背景，再按服务入口浏览。",
+					"license": "目录不等于推荐，服务条款以原站为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "博客：Disroot 开放服务",
+					"url": "https://blog.sayori.org/posts/disroot-open-services-note/",
+					"desc": "Disroot 邮箱、云盘、XMPP 和协作工具的说明。",
+					"usage": "先核对服务边界和注册条件。",
+					"license": "可用性和额度由 Disroot 决定。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "个人站长外部资源清单",
+					"url": "https://blog.sayori.org/posts/webmaster-resource-toolbox/",
+					"desc": "域名、托管、评论、监控、自托管、Cloudflare、统计和博客框架资源清单。",
+					"usage": "按分类查找，再核对价格、条款和可用性。",
+					"license": "文章会过时，具体服务以官网为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "我的创作资源索引",
+					"url": "https://blog.sayori.org/posts/resource-index/",
+					"desc": "从收藏栏整理的游戏开发、素材、美术、音乐、AI 和学习资源索引。",
+					"usage": "当检索入口使用，下载前单独核对授权。",
+					"license": "素材授权以原站说明为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "免费好用软件清单",
+					"url": "https://blog.sayori.org/posts/useful-free-software-toolbox/",
+					"desc": "远程、转换、传文件、笔记、录屏和像素画软件整理。",
+					"usage": "按工作流挑工具，安装前看权限和下载源。",
+					"license": "第三方软件条款以原站为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "免费好用浏览器插件清单",
+					"url": "https://blog.sayori.org/posts/useful-browser-extensions-toolbox/",
+					"desc": "脚本、翻译、密码、倍速、查站和隐私插件整理。",
+					"usage": "安装前核对权限、开发者和数据去向。",
+					"license": "扩展权限和服务条款以各站为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "Cloudflare 免费层开发指南",
+					"url": "https://blog.sayori.org/posts/cloudflare-free-tier-student-guide/cloudflare-free-tier-developer-guide/",
+					"desc": "Pages、Workers、R2、Tunnel、DNS、邮件和统计免费层能力整理。",
+					"usage": "按额度和计费边界选择服务。",
+					"license": "额度和条款可能变化，以 Cloudflare 官网为准。",
+					"added": "2026-09-05"
+				},
+				{
+					"category": "community",
+					"name": "创建你自己的搜索网关",
+					"url": "https://blog.sayori.org/posts/build-your-search-gateway/",
+					"desc": "记录自建搜索网关、MCP 和搜索/截图上游的组成。",
+					"usage": "先看架构，再按自己的密钥和额度实现。",
+					"license": "上游服务条款和额度独立适用。",
+					"added": "2026-09-05"
 				},
 				{
 					"name": "indienova",
