@@ -915,14 +915,6 @@
 				},
 				{
 					"category": "learn",
-					"name": "CliHub",
-					"url": "https://github.com/weirens/clihub",
-					"desc": "CLI 工具发现和聚合。",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "learn",
 					"name": "Golutra",
 					"url": "https://github.com/golutra/golutra",
 					"desc": "终端 UI 工具集。",
@@ -1098,14 +1090,6 @@
 				},
 				{
 					"category": "ai",
-					"name": "ElevenLabs / 11labs",
-					"url": "https://11labs.us/",
-					"desc": "文本转语音。",
-					"usage": "输入文本，选声音生成。",
-					"license": "账号/额度/商用限制。"
-				},
-				{
-					"category": "ai",
 					"name": "Awesome ChatGPT Prompts",
 					"url": "https://github.com/f/prompts.chat",
 					"desc": "提示词集合。",
@@ -1136,15 +1120,6 @@
 					"desc": "AI Agent 角色库。",
 					"usage": "学习多 Agent 分工和提示词结构。",
 					"license": "开源仓库，看 License。"
-				},
-				{
-					"category": "ai",
-					"name": "free-llm-api-resources",
-					"url": "https://github.com/cheahjs/free-llm-api-resources",
-					"desc": "免费 LLM API 资源清单。",
-					"usage": "做调研，不要直接把生产流量压上去。",
-					"license": "免费资源不稳定，安全性和条款自查。",
-					"tier": "top"
 				},
 				{
 					"category": "ai",
@@ -1672,14 +1647,6 @@
 					"license": "免费阅读。",
 					"added": "2026-09-04",
 					"tier": "good"
-				},
-				{
-					"name": "阮一峰周刊",
-					"url": "https://www.ruanyifeng.com/weekly/",
-					"desc": "稳定的科技和工具周刊。",
-					"usage": "扫目录收藏要用的链接。",
-					"license": "免费阅读。",
-					"added": "2026-09-04"
 				},
 				{
 					"name": "Product Hunt",
