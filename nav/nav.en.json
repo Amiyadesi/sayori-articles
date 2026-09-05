@@ -915,14 +915,6 @@
 				},
 				{
 					"category": "learn",
-					"name": "CliHub",
-					"url": "https://github.com/weirens/clihub",
-					"desc": "Curated learning & development resource.",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "learn",
 					"name": "Golutra",
 					"url": "https://github.com/golutra/golutra",
 					"desc": "Curated learning & development resource.",
@@ -1098,14 +1090,6 @@
 				},
 				{
 					"category": "ai",
-					"name": "ElevenLabs / 11labs",
-					"url": "https://11labs.us/",
-					"desc": "Curated ai & productivity resource.",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "ai",
 					"name": "Awesome ChatGPT Prompts",
 					"url": "https://github.com/f/prompts.chat",
 					"desc": "Curated ai & productivity resource.",
@@ -1136,15 +1120,6 @@
 					"desc": "Curated ai & productivity resource.",
 					"usage": "",
 					"license": ""
-				},
-				{
-					"category": "ai",
-					"name": "free-llm-api-resources",
-					"url": "https://github.com/cheahjs/free-llm-api-resources",
-					"desc": "Curated ai & productivity resource.",
-					"usage": "",
-					"license": "",
-					"tier": "top"
 				},
 				{
 					"category": "ai",
@@ -1727,14 +1702,6 @@
 					"license": "Free to read.",
 					"added": "2026-09-04",
 					"tier": "good"
-				},
-				{
-					"name": "Ruanyifeng Weekly",
-					"url": "https://www.ruanyifeng.com/weekly/",
-					"desc": "Steady weekly tech and tool roundup.",
-					"usage": "Skim the TOC and keep useful links.",
-					"license": "Free to read.",
-					"added": "2026-09-04"
 				},
 				{
 					"name": "Product Hunt",
