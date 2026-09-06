@@ -2,16 +2,17 @@
 title: After Making SubaruTap, I Rethought What It Means to Be a Creator
 published: 2026-08-11
 created: 2026-08-11
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: After making SubaruTap, I started thinking again about what kind of creator I am, what creators need, and how to make better things.
 image: ""
 tags:
+  - Retrospective
   - Creator
-  - Growth Log
+  - Growth Reflection
   - Independent Blog
-category: Writing Experiment
+category: Personal Record
 draft: false
 alias: ""
 lang: en

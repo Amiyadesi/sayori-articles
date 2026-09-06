@@ -1,16 +1,17 @@
 ---
 title: meta-note
 published: 2026-06-11
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 3
 created: 2026-06-11
 description: Since you're here, why not take a look?
 image: ""
 tags:
-  - independent blog
-  - game design
-category: Personal Notes
+  - Essay
+  - Independent Blog
+  - Game Design
+category: Personal Record
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

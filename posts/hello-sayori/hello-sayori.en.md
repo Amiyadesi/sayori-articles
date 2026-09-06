@@ -2,14 +2,15 @@
 title: Hello Sayori
 published: 2026-05-21
 created: 2026-05-21
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: The first post, opening the door for this little personal blog.
 image: ""
 tags:
+  - Narrative
   - Independent Blog
-category: Personal Records
+category: Personal Record
 draft: false
 lang: en
 translationKey: posts/hello-sayori/hello-sayori

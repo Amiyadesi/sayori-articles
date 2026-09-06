@@ -2,16 +2,17 @@
 title: "Building Your Own Blog from Scratch: GitHub, Cloudflare Pages, Mizuki, and Obsidian"
 published: 2026-06-19
 created: 2026-06-19
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 5
 description: Starting from registering GitHub and Cloudflare, writing articles with my Obsidian blog template, and then publishing to Cloudflare Pages using GitHub Actions.
 image: ""
 tags:
+  - Tutorial
   - Astro
   - Cloudflare
   - Obsidian
-category: Website Building & Self-Hosting
+category: Website & Self-Hosting
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

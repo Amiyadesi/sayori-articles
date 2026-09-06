@@ -2,16 +2,17 @@
 title: "(Repost) Following up on the last post: How is your phone treated differently by them?"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: "Reposted with permission from the original author. Discusses how mobile users are targeted differently, from the perspectives of quick apps, ad SDKs, and device/installed app profiling, and compiles common ad handling methods."
 image: ""
 tags:
+  - Essay
   - Cybersecurity
-  - Privacy Security
+  - Privacy & Security
   - Ad Tracking
-category: Internet & Community
+category: Internet & Communities
 draft: false
 author: "我爱吃糖醋排骨（aichitangcupaigu）"
 licenseName: "Reposted with author's permission"

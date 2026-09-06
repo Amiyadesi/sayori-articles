@@ -2,16 +2,17 @@
 title: Another Self-Introduction (July 2026)
 published: 2026-07-13
 created: 2026-07-13
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: Time to reintroduce myself after a while. After all, a few months ago I didn't know about those communities, nor did I expect to build websites, make videos, or even actually fail a course.
 image: ""
 tags:
-  - Growth Log
+  - Narrative
+  - Growth Reflection
   - Indie Game
   - Godot
-category: Personal Log
+category: Personal Record
 draft: false
 alias: ""
 lang: en

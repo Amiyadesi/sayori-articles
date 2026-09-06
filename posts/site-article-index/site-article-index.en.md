@@ -2,14 +2,15 @@
 title: Site Article Index
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 3
 description: A curated list of articles on this site related to website building, servers, AI resources, communities, and creative tools.
 image: ""
 tags:
+  - Resource Curation
   - Site Navigation
-  - Indie Blog
+  - Independent Blog
 category: Tools & Resources
 draft: false
 lang: en

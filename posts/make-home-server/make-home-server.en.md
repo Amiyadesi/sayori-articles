@@ -2,15 +2,15 @@
 title: Turning an Old Windows 7 PC into a Home Cloud Server
 published: 2026-08-09
 created: 2026-08-09
-updated: 2026-08-09
-lastEdited: 2026-08-09
-updateCount: 0
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: Starting from scratch, I turned an old Windows 7 computer into a Linux server. After reading this, you can get started too.
 image: ""
 tags:
+  - Narrative
   - Server Exploration
-  - Tutorial
-category: Server Exploration
+category: Website & Self-Hosting
 draft: false
 alias: ""
 lang: en

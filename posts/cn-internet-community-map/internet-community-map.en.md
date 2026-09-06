@@ -2,12 +2,13 @@
 title: I Made a Small Forum List Repository
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 8
 description: I've organized my previously scattered notes on internet communities into a wiki-style small forum list repository and a standalone site. PRs are welcome!
 image: ""
 tags:
+  - Resource Curation
   - Chinese Communities
   - Forums
   - Open Source
