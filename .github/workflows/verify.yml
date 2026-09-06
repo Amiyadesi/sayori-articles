@@ -29,3 +29,66 @@ jobs:
         env:
           CONTENT_DIR: ${{ github.workspace }}
         run: node scripts/sync-content.js
+
+  dispatch-blog:
+    name: Trigger Sayori Blog deploy
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout content history
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Detect Blog content changes
+        id: changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
+            changed_files="$(git ls-tree -r --name-only "$GITHUB_SHA")"
+          else
+            changed_files="$(git diff --name-only "${{ github.event.before }}" "$GITHUB_SHA")"
+          fi
+
+          blog_changed=false
+          while IFS= read -r path; do
+            case "$path" in
+              posts/sayori-diary/*|.github/workflows/deploy-sayori-diary.yml)
+                ;;
+              posts/*|essays/*|spec/*|site/*|assets/*|anime/*|friends/*|images/*|albums/*)
+                blog_changed=true
+                ;;
+            esac
+          done <<< "$changed_files"
+          echo "blog=$blog_changed" >> "$GITHUB_OUTPUT"
+
+      - name: Require blog dispatch token
+        if: steps.changes.outputs.blog == 'true'
+        shell: bash
+        env:
+          BLOG_REPO_DISPATCH_TOKEN: ${{ secrets.BLOG_REPO_DISPATCH_TOKEN }}
+        run: |
+          if [[ -z "${BLOG_REPO_DISPATCH_TOKEN}" ]]; then
+            echo "::error::Missing GitHub Actions secret: BLOG_REPO_DISPATCH_TOKEN"
+            exit 1
+          fi
+
+      - name: Notify Sayori Blog repository
+        if: steps.changes.outputs.blog == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.BLOG_REPO_DISPATCH_TOKEN }}
+          script: |
+            await github.rest.repos.createDispatchEvent({
+              owner: "Amiyadesi",
+              repo: "sayori-blog",
+              event_type: "blog-content-updated",
+              client_payload: {
+                content_repository: context.repo.repo,
+                content_sha: context.sha,
+                workflow_run: `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              },
+            });
+            core.info("Dispatched blog-content-updated to Amiyadesi/sayori-blog");
