@@ -2,9 +2,9 @@
 title: 让 AI 开盒我自己：一次很荒诞的隐私实验
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: 我让 AI 去搜索 Amiya_desi 这个名字，想看看公开互联网我目前的画像
 image: ""
 tags:

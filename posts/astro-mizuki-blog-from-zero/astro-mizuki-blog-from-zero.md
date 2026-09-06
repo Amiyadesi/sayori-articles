@@ -2,9 +2,9 @@
 title: 从零搭一个自己的博客：GitHub、Cloudflare Pages、Mizuki 和 Obsidian
 published: 2026-06-19
 created: 2026-06-19
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 4
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 5
 description: 从注册 GitHub 和 Cloudflare 开始，用我的 Obsidian 博客模板写文章，再用 GitHub Actions 发布到 Cloudflare Pages。
 image: ""
 tags:

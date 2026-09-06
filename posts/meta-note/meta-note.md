@@ -1,9 +1,9 @@
 ---
 title: meta-note
 published: 2026-06-11
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 2
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 3
 created: 2026-06-11
 description: 既然看到了，不进来看看吗？
 image: ""

@@ -2,9 +2,9 @@
 title: "Internet Community Log 1: Linux.do NodeLoc and NodeSeek, mjj and AI related"
 published: 2026-06-21
 created: 2026-06-21
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: "The first log of Chinese internet communities, focusing only on Linux.do and NodeLoc: what they're good for, and what newcomers should know before joining."
 image: ""
 tags:

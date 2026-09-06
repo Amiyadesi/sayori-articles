@@ -2,9 +2,9 @@
 title: Riseup 的“激进服务器”列表：公益组织在提供什么，我能做什么
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-08-15
-lastEdited: 2026-08-15
-updateCount: 3
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: 认识 Riseup 整理的非商业技术组织与公共服务，也记录 sayori.org 现在能开放的网页审计和 API 能力
 image: ""
 tags:
@@ -196,7 +196,7 @@ curl "https://geo-api.sayori.org/api/audit/example.com"
 
 [Search Gateway](https://github.com/Amiyadesi/search-gateway) 仍然开源，可以自行部署，也提供兼容 API 与 MCP 接入方式
 
-但 `gateway.sayori.org` 是站长内部实例，需要鉴权，不提供匿名调用、共享 Token 或公共搜索额度
+但 `search.sayori.org` 是站长内部实例，需要鉴权，不提供匿名调用、共享 Token 或公共搜索额度
 
 公开 GeoScore API 与内部 Search Gateway 必须分开说明
 
