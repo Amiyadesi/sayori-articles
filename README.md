@@ -28,11 +28,12 @@ above, and then commits to `main`. Adds, edits, and removals in that allowlist
 are all synchronized. Do not add `.obsidian`, logs, drafts, backups, machine
 configuration, or server files to this repository.
 
-Pushing to `main` validates the public-content boundary but does not deploy the
-sites automatically. After reviewing the published diff, manually run the Blog
-and Home deployment workflows. Both downstream workflows read this repository
-at `main`; they do not read the private vault. No cross-repository deployment
-token is required.
+Pushing to `main` validates the public-content boundary, then dispatches the
+Blog deployment when Blog content changes. `posts/sayori-diary/**` remains
+isolated: it only deploys through `deploy-sayori-diary.yml` to
+`diary.sayori.org`. The Blog workflow reads this repository at `main`; it does
+not read the private vault. Configure the `BLOG_REPO_DISPATCH_TOKEN` Actions
+secret in this repository for the cross-repository Blog dispatch.
 
 Every published post and essay must have a sibling `.en.md` or `.en.mdx`
 translation. The public-content verifier checks this pair before a publish can

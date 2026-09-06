@@ -14,9 +14,11 @@ const workflowSource = fs.readFileSync(
 );
 
 assert.match(workflowSource, /Validate the real Blog content sync contract/);
-assert.doesNotMatch(workflowSource, /CONTENT_DEPLOY_TOKEN/);
-assert.doesNotMatch(workflowSource, /createDispatchEvent/);
-assert.doesNotMatch(workflowSource, /content-updated/);
+assert.match(workflowSource, /BLOG_REPO_DISPATCH_TOKEN/);
+assert.match(workflowSource, /createDispatchEvent/);
+assert.match(workflowSource, /blog-content-updated/);
+assert.match(workflowSource, /posts\/sayori-diary\/\*/);
+assert.doesNotMatch(workflowSource, /sayori-home/);
 assert.doesNotMatch(workflowSource, /(?:ghp_|github_pat_)[A-Za-z0-9_]+/);
 
 const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), "public-content-verify-"));
