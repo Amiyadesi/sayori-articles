@@ -2,9 +2,9 @@
 title: 18到19岁记录
 published: 2026-05-28
 created: 2026-05-28
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 3
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: 从18岁到19岁之间的成长记录，包括游戏开发、学习、生活、人格成长和自我观察
 image: ""
 tags:

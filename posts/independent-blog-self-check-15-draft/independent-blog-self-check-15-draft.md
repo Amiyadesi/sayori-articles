@@ -2,9 +2,9 @@
 title: 独立博客自省问卷 15 题答卷
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 4
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 5
 description: 给雅余独立博客自省问卷留的一份答卷，先自查一下我和这个博客的关系。
 image: ""
 tags:

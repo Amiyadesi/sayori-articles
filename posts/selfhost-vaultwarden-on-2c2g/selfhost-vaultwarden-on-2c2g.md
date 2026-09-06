@@ -2,9 +2,9 @@
 title: 在 2C2G 学生服务器上搭 Vaultwarden：密码库先别裸奔
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-06-25
-lastEdited: 2026-06-25
-updateCount: 4
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 5
 description: 用 Docker Compose 在学生服务器上部署 Vaultwarden，并把 HTTPS、关闭注册、备份、恢复演练这些真正重要的部分讲清楚。
 image: ""
 tags:

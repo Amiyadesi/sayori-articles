@@ -2,9 +2,9 @@
 title: 免费好用软件清单：远程、转换、传文件、笔记、录屏和像素画
 published: 2026-07-01
 created: 2026-07-01
-updated: 2026-07-03
-lastEdited: 2026-07-03
-updateCount: 3
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: 网易 UU 远程、File Converter、LocalSend、Obsidian、OBS、Aseprite 和 Aseprite 自编译仓库的简短整理
 image: ""
 tags:

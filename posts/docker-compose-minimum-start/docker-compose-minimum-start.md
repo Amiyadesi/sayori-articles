@@ -2,9 +2,9 @@
 title: "Docker 和 Docker Compose 最小入门：看懂那些 yml 文件"
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-06-27
-lastEdited: 2026-06-27
-updateCount: 3
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: "给刚拿到服务器的人写的 Docker 最小入门：容器是什么、Compose 文件怎么读、怎么启动停止更新删除，不讲原理只讲能用。"
 image: ""
 tags:

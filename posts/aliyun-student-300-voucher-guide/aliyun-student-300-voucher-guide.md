@@ -2,9 +2,9 @@
 title: "阿里云学生 300 元代金券能买什么：一份先别浪费的使用指南"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 2
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 3
 description: "整理阿里云学生 300 元代金券目前比较实用的几种用法：ECS、轻量应用服务器、无影灵豆、百炼大模型 API，以及下单前要看的坑。"
 image: ""
 tags:

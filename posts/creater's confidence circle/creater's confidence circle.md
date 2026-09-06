@@ -2,9 +2,9 @@
 title: 创作者的自信心循环——深陷其中的我们
 published: 2026-08-01
 created: 2026-08-01
-updated: 2026-08-15
-lastEdited: 2026-08-15
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: 创作者的自信心循环——深陷其中的我们————找寻救赎之道吧
 image: ""
 tags:

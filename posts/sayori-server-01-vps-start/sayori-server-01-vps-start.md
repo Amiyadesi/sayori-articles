@@ -2,9 +2,9 @@
 title: 我本来只是想让机器人 24 小时在线，结果买了一台云服务器
 published: 2026-05-25
 created: 2026-05-25
-updated: 2026-06-24
-lastEdited: 2026-06-24
-updateCount: 4
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 5
 description: 从阿里云学生代金券到 Ubuntu、SSH 密钥登录、非常规端口和基础防火墙，个人服务器的第一步。
 image: ""
 tags:

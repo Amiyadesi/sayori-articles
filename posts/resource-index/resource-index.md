@@ -2,9 +2,9 @@
 title: 我的创作资源索引
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-06-24
-lastEdited: 2026-07-02
-updateCount: 3
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: 从两个浏览器收藏栏整理出来的公开资源索引，偏游戏开发、素材、美术、音乐、AI 和学习。
 image: ""
 tags:
