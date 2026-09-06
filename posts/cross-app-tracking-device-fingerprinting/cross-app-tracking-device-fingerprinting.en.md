@@ -2,16 +2,17 @@
 title: "(Repost) Why do other apps immediately know what you just searched for? (Including iOS)"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: "Reposted with original author's permission. Using Loupe to demonstrate what mobile apps can read from your device, photo album, and local network, and how ad SDKs piece together device fingerprints."
 image: ""
 tags:
+  - Essay
   - Privacy & Security
   - Device Fingerprinting
   - iOS
-category: Internet & Community
+category: Internet & Communities
 draft: false
 author: "I love sweet and sour pork ribs (aichitangcupaigu)"
 licenseName: "Reposted with author's permission"

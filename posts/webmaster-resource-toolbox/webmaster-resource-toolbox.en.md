@@ -2,15 +2,16 @@
 title: Webmaster Resource Toolbox
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 6
 description: External resource entry points for domains, hosting, comments, monitoring, self-hosting, Cloudflare, analytics, webmaster communities, and blog frameworks.
 image: ""
 tags:
+  - Resource Curation
   - Webmaster Tools
   - Independent Blog
-  - Self-hosting
+  - 自托管
 category: Tools & Resources
 draft: false
 lang: en

@@ -2,13 +2,14 @@
 title: "Before 18: From Running and Fitness to Making My First Game"
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: A long self-introduction story about losing weight, exercising, making games, hitting pitfalls, and finally bringing an idea to life for the first time.
 image: ""
 tags:
-  - Growth Record
+  - Narrative
+  - Growth Reflection
   - Indie Game
 category: Personal Record
 draft: false

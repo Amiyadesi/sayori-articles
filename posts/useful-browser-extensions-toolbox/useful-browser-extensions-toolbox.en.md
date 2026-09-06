@@ -2,12 +2,13 @@
 title: "List of Free and Useful Browser Extensions: Scripts, Translation, Passwords, Speed Control, Site Discovery, and Privacy"
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 3
 description: A brief compilation of Tampermonkey scripts, Immersive Translate, Bitwarden, Global Speed, SimilarSites, AI assistant extensions, and privacy extensions.
 image: ""
 tags:
+  - Resource Curation
   - Browser Extensions
   - Productivity Tools
   - Privacy

@@ -2,15 +2,16 @@
 title: Build Your Own Search Gateway – My Search Gateway Upstreams
 published: 2026-07-05
 created: 2026-07-05
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-09-06
+lastEdited: 2026-09-06
 updateCount: 1
 description: ""
 image: ""
 tags:
-  - Search
-  - Self-hosting
-category: Website Building & Self-hosting
+  - Tutorial
+  - 搜索
+  - 自托管
+category: Website & Self-Hosting
 draft: false
 alias: ""
 lang: en

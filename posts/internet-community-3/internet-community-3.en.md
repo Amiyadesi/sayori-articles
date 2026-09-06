@@ -2,15 +2,16 @@
 title: "Internet Community Log 3: All Kinds of Webmaster Communities and Organizations!"
 published: 2026-07-20
 created: 2026-07-20
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: All kinds of webmaster communities and organizations! It doesn't hurt to join, so take a look if you're interested!
 image: ""
 tags:
+  - Narrative
   - Chinese Communities
-  - Creators
-  - Indie Blogging
+  - Creator
+  - Independent Blog
 category: Internet & Communities
 draft: false
 alias: ""

@@ -2,17 +2,17 @@
 title: "Riseup's 'Radical Servers' List: What Public Service Organizations Offer and What I Can Do"
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: Getting to know the non-commercial tech organizations and public services curated by Riseup, and documenting the web audit and API capabilities currently offered by sayori.org
 image: ""
 tags:
+  - Resource Curation
   - Public Service Organizations
   - Public Services
   - Open Source Services
   - Privacy
-  - Resource Integration
 category: Tools & Resources
 draft: false
 alias: ""
@@ -196,7 +196,7 @@ The message board and email are for receiving service issues and improvement sug
 
 [Search Gateway](https://github.com/Amiyadesi/search-gateway) remains open source, can be self-deployed, and offers compatible API and MCP access methods.
 
-However, `gateway.sayori.org` is the site owner's internal instance, requiring authentication, and does not provide anonymous calls, shared tokens, or public search quotas.
+However, `search.sayori.org` is the site owner's internal instance, requiring authentication, and does not provide anonymous calls, shared tokens, or public search quotas.
 
 The public GeoScore API and the internal Search Gateway must be explained separately.
 

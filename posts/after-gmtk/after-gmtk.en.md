@@ -8,8 +8,9 @@ updateCount: 2
 description: In the last six hours of GMTK Jam, I cut down the unfinished puzzles and submitted a small game that was actually playable.
 image: ""
 tags:
+  - Retrospective
   - Game Development
-  - Growth Log
+  - Growth Reflection
   - game-jam
 category: Game Development
 draft: false

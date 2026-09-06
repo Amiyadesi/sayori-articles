@@ -2,15 +2,16 @@
 title: The Creator's Confidence Cycle – Trapped Within It
 published: 2026-08-01
 created: 2026-08-01
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 2
 description: The Creator's Confidence Cycle – Trapped Within It — Let's find a way out!
 image: ""
 tags:
+  - Essay
   - Psychology
   - Creator
-category: Writing Experiment
+category: Personal Record
 draft: false
 alias: ""
 lang: en

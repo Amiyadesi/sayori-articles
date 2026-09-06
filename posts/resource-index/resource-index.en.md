@@ -2,12 +2,13 @@
 title: My Creative Resources Index
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-09-06
+lastEdited: 2026-09-06
+updateCount: 4
 description: A public resource index compiled from two browser bookmark bars, focusing on game development, assets, art, music, AI, and learning.
 image: ""
 tags:
+  - Resource Curation
   - Creative Resources
   - Game Development
   - Learning Resources
