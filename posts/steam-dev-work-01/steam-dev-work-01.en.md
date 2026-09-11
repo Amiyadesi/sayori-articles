@@ -26,7 +26,7 @@ If you plan to work with a publisher, you may not need to register yourself. The
 
 The process itself is not complicated, but there is a lot of information that is easy to miss. One wrong detail can send you back through the review process again and again.
 
-Today I am combining my own registration experience into one guide covering preparation, tax forms, the mysterious parts of review, and payout options.
+Today, based on my own registration experience, I will share the preparation, tax forms, review quirks, and payout options.
 
 ## 1. Checklist: $100, an ID, and a Steam Account
 
@@ -45,19 +45,19 @@ The entry point is [https://partner.steamgames.com](https://partner.steamgames.c
 
 ## 3. Tax Forms: How to Reduce the Rate from 30% to 10%
 
-This is the most important step for saving money. The key details when filling out the W-8BEN tax form are:
+This is the most important step for saving money. When filling out the W-8BEN tax form, pay attention to the following:
 
 1. **Tax status:** Select that you are not a US tax resident.
 2. **Foreign TIN:** Select that you have a foreign TIN. For an individual developer in China, the TIN is your 18-digit national ID number, so enter it directly; you do not need to apply for another number.
-3. **Tax treaty benefits:** Carefully find and select the benefits under the US-China tax treaty.
+3. **Tax treaty benefits:** Select the benefits under the US-China tax treaty.
 
-If you get these details right, Steam can reduce the withholding rate from the default 30% to 10%.
+Doing the above correctly reduces Steam's withholding rate from the default 30% to 10%.
 
 ### My Tax Information Was Rejected Several Times
 
 Even though the steps above sound clear, I had a rough time with them. This “Your tax information is invalid” email shows how frustrating it can be.
 
-![[Screenshot_20260911_090317_com.tencent.androidqqmail.jpg|width=760|align=center|caption=The “tax information is invalid” notice I received from Steamworks]]
+![[Screenshot_20260911_090317_com.tencent.androidqqmail.jpg|width=460|align=center|caption=The “tax information is invalid” notice I received from Steamworks]]
 
 Steam's tax review is outsourced to a third-party company, Lilaham / TaxIdentity. Sometimes they do not explain exactly what is wrong. After my information was rejected, I did not know what to fix, so I could only submit it again and again.
 
@@ -71,7 +71,7 @@ Many tutorials say that you need a utility bill with your address, but that is n
 
 I did not have a bill showing my address, so I went to an Industrial and Commercial Bank of China branch, withdrew RMB 100, and asked the teller to print a withdrawal receipt with the bank's official service stamp.
 
-![[IMG_20260504_124358_edit_5024691644024.jpg|width=760|align=center|caption=A stamped withdrawal receipt printed at an ICBC counter]]
+![[IMG_20260504_124358_edit_5024691644024.jpg|width=460|align=center|caption=A stamped withdrawal receipt printed at an ICBC counter]]
 
 The receipt only showed my name, card number, and transaction record; it did not include an address. I uploaded it together with my ID card. Even though it was rejected several times, it eventually passed.
 
@@ -108,3 +108,7 @@ If you decide to use WorldFirst, you can register through my referral link:
 Registering as a Steam developer is mainly a test of patience and attention to detail. The financial and tax steps look complicated, but once you remember the key points—use a romanized name, enter your ID number as the TIN, reduce the withholding rate to 10%, and keep trying with a stamped bank receipt—you can get through the process.
 
 I hope your game sells well and you can bring those dollars home smoothly!
+
+# Coming Next
+
+Store pages, app IDs, rating requirements, developer accounts, and the community? Once I get to building those, I will write another post about them, haha.
