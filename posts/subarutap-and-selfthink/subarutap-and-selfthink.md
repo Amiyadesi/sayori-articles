@@ -2,8 +2,8 @@
 title: 做完SubaruTap后，我重新思考了我作为内容创作者这件事
 published: 2026-08-11
 created: 2026-08-11
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: 做完subarutap后，我不禁思考创作者是什么，创作者应该具备什么，怎么更好的创作
 image: ""

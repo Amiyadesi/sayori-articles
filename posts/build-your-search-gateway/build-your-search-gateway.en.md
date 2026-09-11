@@ -2,9 +2,9 @@
 title: Build Your Own Search Gateway – My Search Gateway Upstreams
 published: 2026-07-05
 created: 2026-07-05
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 1
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: ""
 image: ""
 tags:

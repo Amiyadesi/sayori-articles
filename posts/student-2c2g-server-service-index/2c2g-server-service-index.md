@@ -2,8 +2,8 @@
 title: "2C2G 学生服务器能跑什么：先别把小机器塞爆"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 4
 description: "站长的 2C2G 阿里云轻量服务器实战配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索网关。包含真实内存占用和不推荐列表。"
 image: ""

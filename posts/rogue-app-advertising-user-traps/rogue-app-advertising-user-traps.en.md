@@ -2,8 +2,8 @@
 title: "(Repost) An Insider Reveals How Rogue Apps Trap and Hunt Users"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: "Reposted with original author's permission, detailing common rogue app tactics in ad redirects, user profiling, permission bypasses, risk control evasion, and complaint interception."
 image: ""

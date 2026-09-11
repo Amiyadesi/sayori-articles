@@ -2,9 +2,9 @@
 title: Get a Free Domain for Your New Blog, Then Show Up in Webmaster Communities
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 8
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: From DNSHE free subdomains and Cloudflare DNS to comment systems, Travellings, Moe ICP, and Forever Blog, giving your freshly set up blog a domain, interaction, and a little chance to be seen.
 image: ""
 tags:

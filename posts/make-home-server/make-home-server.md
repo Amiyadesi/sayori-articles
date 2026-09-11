@@ -2,8 +2,8 @@
 title: win7老电脑爆改家里云记录
 published: 2026-08-09
 created: 2026-08-09
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: 从零开始把家中win7老电脑改成linux服务器，看完你也可以上手
 image: ""

@@ -2,8 +2,8 @@
 title: 18 岁前记录：从跑步、健身到第一次做游戏
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: 一段很长的自我故事介绍，关于减肥、运动、做游戏、踩坑，以及第一次真正把想法做出来。
 image: ""

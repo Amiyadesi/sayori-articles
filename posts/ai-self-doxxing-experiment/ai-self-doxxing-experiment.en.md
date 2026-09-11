@@ -2,8 +2,8 @@
 title: "Letting AI Dox Myself: A Rather Absurd Privacy Experiment"
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: I asked AI to search for the name Amiya_desi, curious to see my current public internet persona.
 image: ""

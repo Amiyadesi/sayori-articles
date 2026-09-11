@@ -2,9 +2,9 @@
 title: "Steam Developer Registration Pitfalls: My Real Notes from Tax Forms to Getting Paid"
 published: 2026-09-10
 created: 2026-09-10
-updated: 2026-09-10
-lastEdited: 2026-09-10
-updateCount: 0
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 1
 description: "A practical record of registering as a Steam developer, filling out tax forms, passing verification, and choosing a payout method."
 image: ""
 tags:

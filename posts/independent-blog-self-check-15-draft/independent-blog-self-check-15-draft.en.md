@@ -2,9 +2,9 @@
 title: My Answers to the 15 Self-Reflection Questions for Independent Blogs
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 5
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: My answers to Ya Yu's 15 self-reflection questions for independent blogs, a self-check on my relationship with this blog.
 image: ""
 tags:

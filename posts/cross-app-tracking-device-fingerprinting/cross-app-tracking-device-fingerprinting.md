@@ -2,8 +2,8 @@
 title: "（转载）为什么你刚搜的东西，其他App转头就知道了？（包括IOS系统）"
 published: 2026-07-23
 created: 2026-07-23
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: "经原作者授权转载，借 Loupe 展示移动 App 能读取的设备、相册和局域网信息，以及广告 SDK 如何拼接设备指纹"
 image: ""

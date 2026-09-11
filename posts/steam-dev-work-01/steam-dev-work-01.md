@@ -1,11 +1,11 @@
 ---
-title: steam-dev-work-01
+title: Steam 国区开发者注册避坑指南
 published: 2026-09-10
 created: 2026-09-10
-updated: 2026-09-10
-lastEdited: 2026-09-10
-updateCount: 0
-description: Steam注册开发者全流程和注意事项，看这篇就够了！
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 1
+description: Steam注册中国开发者全流程和注意事项，看这篇就够了！
 image: ""
 tags:
   - 创作者
@@ -14,7 +14,7 @@ category: 游戏开发
 draft: false
 alias: ""
 ---
-# Steam 开发者注册避坑指南：从税务表填写到收款方案，我的真实记录
+# Steam 中国开发者注册避坑指南：从税务表填写到收款方案，我的真实记录
 
 很多独立开发者想把自己的游戏搬上 Steam，却在第一步“注册开发者”就被卡住了，因为要填写一堆东西和折腾其他的，所以就可能想着以后再来做吧
 

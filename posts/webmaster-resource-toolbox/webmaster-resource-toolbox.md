@@ -2,8 +2,8 @@
 title: 个人站长外部资源清单
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 6
 description: 域名、托管、评论、监控、自托管、Cloudflare、统计、站长社区和博客框架的外部资源入口
 image: ""

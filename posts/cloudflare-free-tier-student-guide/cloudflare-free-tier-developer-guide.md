@@ -2,8 +2,8 @@
 title: Cloudflare 免费层能帮开发者做什么：不花钱的赛博大善人全家桶
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: 整理 Cloudflare 免费层里真的能用的东西：Pages、Workers、R2、Tunnel、Email Routing、DNS、Web Analytics，以及哪些场景下它比 VPS 更合适。
 image: ""
