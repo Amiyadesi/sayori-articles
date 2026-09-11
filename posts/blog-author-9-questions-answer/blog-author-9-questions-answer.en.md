@@ -2,9 +2,9 @@
 title: "Blog Author 9 Questions: My Answers"
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 6
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: My answers to Another Dayu's 9 questions for blog authors.
 image: ""
 tags:

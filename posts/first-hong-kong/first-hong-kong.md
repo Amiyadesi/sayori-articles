@@ -2,8 +2,8 @@
 title: 记录第一次去香港——8 月份开卡记录
 published: 2026-08-21
 created: 2026-08-16
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 1
 description: 第一次去香港的开户、电话卡、港版 iPhone、景点和吃饭记录。
 image: ""

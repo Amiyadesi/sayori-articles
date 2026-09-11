@@ -2,8 +2,8 @@
 title: 我做了一个小型论坛列表仓库
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 8
 description: 把之前零散记录的互联网社区，整理成一个 wiki 式的小型论坛列表仓库和独立站，也欢迎大家一起提交 PR。
 image: ""

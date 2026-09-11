@@ -2,8 +2,8 @@
 title: 创建你自己的搜索网关——我的搜索网关上游们
 published: 2026-07-05
 created: 2026-07-05
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 1
 description: ""
 image: ""

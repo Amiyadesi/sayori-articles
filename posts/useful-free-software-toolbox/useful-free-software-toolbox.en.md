@@ -2,9 +2,9 @@
 title: "Useful Free Software Toolbox: Remote, Convert, Transfer Files, Notes, Screen Recording, and Pixel Art"
 published: 2026-07-01
 created: 2026-07-01
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 4
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: A brief compilation of NetEase UU Remote, File Converter, LocalSend, Obsidian, OBS, Aseprite, and an Aseprite self-compilation repository.
 image: ""
 tags:

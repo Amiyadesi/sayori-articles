@@ -2,9 +2,9 @@
 title: I just wanted my bot online 24/7, then I bought a cloud server
 published: 2026-05-25
 created: 2026-05-25
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 5
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: From Alibaba Cloud student coupons to Ubuntu, SSH key login, non-standard ports, and basic firewalls – the first steps to a personal server.
 image: ""
 tags:

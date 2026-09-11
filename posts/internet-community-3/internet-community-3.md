@@ -2,8 +2,8 @@
 title: 互联网社区记录 3：各种站长社区和组织！
 published: 2026-07-20
 created: 2026-07-20
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: 各种站长社区和组织！反正加入了也不会吃亏，想加入的可以看看！
 image: ""

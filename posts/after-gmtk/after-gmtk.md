@@ -2,8 +2,8 @@
 title: GmtkJam之后的总结
 published: 2026-07-27
 created: 2026-07-27
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: GMTK Jam 最后六小时，我砍掉做不完的谜题，交出了一个真正能玩完的小游戏
 image: ""

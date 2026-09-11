@@ -2,9 +2,9 @@
 title: "Tinkering with Fast Note Sync on a Student Server: A Private Sync Layer for Obsidian"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 4
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: Running Fast Note Sync Service on a 2C2G student server, carving out a private route for Obsidian multi-device sync, backup, and REST/MCP interfaces.
 image: ""
 tags:

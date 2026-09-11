@@ -2,8 +2,8 @@
 title: The Creator's Confidence Cycle – Trapped Within It
 published: 2026-08-01
 created: 2026-08-01
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 2
 description: The Creator's Confidence Cycle – Trapped Within It — Let's find a way out!
 image: ""

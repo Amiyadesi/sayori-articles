@@ -2,9 +2,9 @@
 title: "Setting up Vaultwarden on a 2C2G Student Server: Don't Let Your Password Vault Run Naked"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 5
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: "Deploying Vaultwarden with Docker Compose on a student server, and clearly explaining the truly important parts: HTTPS, disabling registration, backup, and recovery drills."
 image: ""
 tags:

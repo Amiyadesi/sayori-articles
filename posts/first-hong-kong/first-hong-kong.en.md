@@ -2,8 +2,8 @@
 title: My First Trip to Hong Kong — A Record of Opening Accounts in August
 published: 2026-08-21
 created: 2026-08-16
-updated: 2026-09-06
-lastEdited: 2026-09-06
+updated: 2026-09-11
+lastEdited: 2026-09-11
 updateCount: 1
 description: A record of opening bank accounts, getting phone service, setting up a Hong Kong iPhone, visiting sights, and eating in Hong Kong for the first time.
 image: ""

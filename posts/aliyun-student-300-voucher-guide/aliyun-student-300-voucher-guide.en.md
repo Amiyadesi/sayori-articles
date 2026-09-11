@@ -2,9 +2,9 @@
 title: "What can you buy with Alibaba Cloud's 300 RMB student voucher: A guide to using it before you waste it"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 3
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: "A compilation of the most practical ways to use Alibaba Cloud's 300 RMB student voucher: ECS, Lightweight Application Server, Wuying Lingdou, Bailian Large Model API, and pitfalls to watch out for before ordering."
 image: ""
 tags:

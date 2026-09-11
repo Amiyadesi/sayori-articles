@@ -2,9 +2,9 @@
 title: "GeoScore 2.4.5: A Tool for Webmasters to Figure Out What Their Site is Really Missing"
 published: 2026-07-16
 created: 2026-07-16
-updated: 2026-09-06
-lastEdited: 2026-09-06
-updateCount: 4
+updated: 2026-09-11
+lastEdited: 2026-09-11
+updateCount: 2
 description: Using site profiles, real crawl evidence, and repair reports to understand what a website truly lacks.
 image: ""
 tags:
