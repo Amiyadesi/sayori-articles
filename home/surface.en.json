@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya's Desk · sayori.org",
-		"description": "Amiya's Desk is the personal site of independent software developer Amiya_desi, featuring the GeoScore web service, Godot games, open-source tools, writing, and contact details.",
+		"title": "Amiya’s Desk | Indie Games, Web Tools, and Creative Notes",
+		"description": "Amiya_desi’s personal site for Godot indie games, web tools, open-source projects, creative notes, and public links",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,26 +29,26 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi's developer desk",
+		"title": "Amiya_desi’s creator desk",
 		"entryAriaLabel": "Entries",
 		"entries": [
 			{
 				"num": "01",
 				"title": "Blog",
-				"desc": "— posts, notes, and rambles",
+				"desc": "— articles, build notes, and retrospectives",
 				"href": "https://blog.sayori.org/"
 			},
 			{
 				"num": "02",
 				"title": "Bilibili",
-				"desc": "— videos, games, and build notes",
+				"desc": "— videos, games, and tinkering notes",
 				"href": "https://space.bilibili.com/3546919890585725",
 				"external": true
 			},
 			{
 				"num": "03",
 				"title": "About me",
-				"desc": "— independent developer and projects",
+				"desc": "— independent developer, projects, and direction",
 				"href": "/about/"
 			},
 			{
@@ -60,13 +60,13 @@
 			{
 				"num": "05",
 				"title": "Resource Links",
-				"desc": "— categorized tools, learning, and community links",
+				"desc": "— categorized tools, references, and communities",
 				"href": "https://nav.sayori.org/",
 				"external": true
 			}
 		],
-		"marginNote": "Independent software developer.",
-		"footerNotice": "Amiya_desi · software, games, and public work",
+		"marginNote": "Independent developer making games, websites, and tools",
+		"footerNotice": "Amiya_desi · indie games, web tools, and public work",
 		"languageLink": {
 			"href": "../zh/",
 			"label": "中文"
@@ -76,73 +76,86 @@
 		"foldAriaLabel": "Flip page",
 		"heartAriaLabel": "Click for hearts",
 		"stickyQuotes": [
-			"Cheer up today!",
-			"Remember to drink water.",
-			"You're here~",
-			"This is a safe place.",
-			"It's okay to rest sometimes.",
-			"Someone is reading this paper.",
-			"Go for a walk if the weather is nice.",
-			"Don't forget breakfast."
+			"Cheer up today",
+			"Remember to drink water",
+			"You’re here~",
+			"This is a safe place",
+			"It’s okay to rest sometimes",
+			"Someone is reading this paper",
+			"Go for a walk if the weather is nice",
+			"Don’t forget breakfast"
 		]
 	},
 	"profile": {
 		"ariaLabel": "About Amiya",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "03 / Independent developer card",
+		"kicker": "03 / independent developer card",
 		"name": "Amiya_desi",
-		"intro": "Amiya_desi is my long-running public identity, and I am an independent software developer. I build and maintain web software services, open-source tools, and Godot games; GeoScore is the main SaaS project currently online. This page keeps my writing, GameJam work, GitHub projects, public tools, and contact details together. I use AI for debugging, retrieval, refactoring, docs, and retrospectives, but treat it as an amplifier rather than a substitute for the work itself.",
+		"intro": "I’m Amiya_desi, an independent developer focused on indie games; I mainly use Godot and also build websites, tools, and public project notes",
 		"columns": [
 			{
-				"title": "Public Directions",
+				"title": "Creative practice",
 				"items": [
-					"Game development: Godot 4.x, GDScript, and C# for 2D prototypes, state machines, event buses, object pools, resources/save systems, and editor tooling.",
-					"Gameplay expression: platformer movement, time rewind, input buffering/coyote time, level pacing, feel tuning, and meta-leaning narrative puzzle prototypes.",
-					"Software and SaaS: building and maintaining GeoScore, browser tools, open-source projects, and unreleased software, with features and documentation published at their real stage of development.",
-					"Web / homelab: static sites, blog content pipelines, Linux, Docker, Cloudflare Pages / Tunnel, and ops scripts."
+					"Indie game development: Godot, GDScript, C#, time mechanics, multi-window interaction, narrative, and puzzle prototypes",
+					"Websites and tools: personal sites, GeoScore, browser tools, public code, and content workflows",
+					"Self-hosting: Docker, VPS, Cloudflare, static sites, and blog content pipelines"
 				]
 			},
 			{
-				"title": "Project Notes",
+				"title": "Representative projects",
 				"items": [
 					{
-						"text": "WakeUpAtTheBorder: Godot 2D narrative platformer about a border-crossing premise, 2nd place in GodotHub 3rd Dev Contest.",
+						"text": "DelayTrace: a Godot game about time delay, recorded actions, and replay, one of my more satisfying recent Jam results",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker: a puzzle experiment with time rewind, replayed actions, and links to echoes of the past",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
 						"links": [
 							{
 								"label": "WakeUpAtTheBorder",
-								"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
 							}
 						]
 					},
 					{
-						"text": "TimeRuner: C# action platformer built around 5-second rewind and compact level pacing, 034GameJam best time-themed game.",
+						"text": "Mio’s Window Wanderer: a multi-window narrative prototype I helped make",
 						"links": [
 							{
-								"label": "TimeRuner",
-								"href": "https://github.com/Amiyadesi/time-runner"
+								"label": "Mio’s Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					},
 					{
-						"text": "EnhanceSaveSystem: Godot save plugin focused on maintainable save engineering: AES-GCM, gzip, atomic writes, and migrations.",
+						"text": "GeoScore: a public-web SEO / GEO audit tool",
 						"links": [
 							{
-								"label": "EnhanceSaveSystem",
-								"href": "https://github.com/Amiyadesi/enahnce_save_system"
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
 							}
 						]
 					},
 					{
-						"text": "Mio's Windowanderer / Masquerade of Girls: multi-window puzzle and text-puzzle GameJam work.",
+						"text": "Enhanced Save System: a modular Godot save plugin with GDScript and C# implementations",
 						"links": [
 							{
-								"label": "Mio's Windowanderer",
-								"href": "https://github.com/Amiyadesi/ThatGameJam"
-							},
-							{
-								"label": "Masquerade of Girls",
-								"href": "https://github.com/Amiyadesi/ggj"
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					}
@@ -151,30 +164,30 @@
 		],
 		"learning": [
 			"Godot games and plugin development",
-			"Servers / Cloudflare / Docker",
-			"Obsidian writing and content pipelines",
-			"Boundaries and retrospectives for AI-assisted development",
-			"Story, drawing, and music fundamentals",
+			"Time mechanics and multi-window interaction",
+			"Website and tool development",
+			"Servers, self-hosting, and Cloudflare",
+			"n8n, AI-assisted development, and content pipelines",
 			"Personal brand and project publishing"
 		],
 		"faq": {
-			"title": "Common Questions",
+			"title": "Common questions",
 			"items": [
 				{
-					"question": "What is sayori.org?",
-					"answer": "It is the personal site of independent software developer Amiya_desi, presenting GeoScore, Godot games, open-source tools, writing, public projects, and contact details."
+					"question": "What is sayori.org",
+					"answer": "It is the personal site of independent developer Amiya_desi, presenting Godot games, websites and tools, open-source projects, writing, and public links"
 				},
 				{
-					"question": "What does the blog cover?",
-					"answer": "blog.sayori.org covers tutorials, homelab notes, Godot development, AI-assisted development retrospectives, resource indexes, project logs, and some personal daily echoes."
+					"question": "What does the blog cover",
+					"answer": "blog.sayori.org records Godot development, websites and self-hosting, AI workflows, tools and resources, project retrospectives, and creative learning"
 				},
 				{
-					"question": "What products are you developing?",
-					"answer": "My current focus is web software such as GeoScore, alongside Godot games, desktop and developer tools, and open-source software. GeoScore is currently free to use, and this site does not yet offer paid subscriptions or checkout. Prices, delivery, refund, and cancellation terms will be published before any paid plan or software sale launches."
+					"question": "What is your current main goal",
+					"answer": "My main goal is to complete and publish my first Steam game; other experiments, web tools, and articles will continue with real project and learning progress"
 				},
 				{
-					"question": "How can I contact or learn more?",
-					"answer": "Use me@sayori.org, or continue through the public links on this page: GitHub, Blog, Bilibili, Linux.do, GeoScore, the whiteboard, and the guestbook."
+					"question": "How can I contact or learn more",
+					"answer": "Use me@sayori.org, or continue to GitHub, the blog, itch.io, Bilibili, YouTube, and the guestbook"
 				}
 			]
 		},
@@ -183,16 +196,16 @@
 			"linksAriaLabel": "Public links",
 			"links": [
 				{
-					"label": "GeoScore",
-					"href": "https://geo.sayori.org/"
-				},
-				{
 					"label": "GitHub",
 					"href": "https://github.com/Amiyadesi"
 				},
 				{
 					"label": "Blog",
 					"href": "https://blog.sayori.org/"
+				},
+				{
+					"label": "itch.io",
+					"href": "https://amiya-desi.itch.io/"
 				},
 				{
 					"label": "Bilibili",
@@ -213,6 +226,10 @@
 				{
 					"label": "NodeLoc",
 					"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+				},
+				{
+					"label": "Guestbook",
+					"href": "https://blog.sayori.org/guestbook/"
 				}
 			]
 		}
@@ -223,45 +240,45 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "04 / Software & Services",
 		"title": "Software & Services",
-		"intro": "Software, projects, and public entries developed or maintained by Amiya_desi. GeoScore is the main SaaS project and is currently free, with no paid subscription or on-site checkout. Games and other software are shown at their actual development stage.",
+		"intro": "Software, projects, and public entries developed or maintained by Amiya_desi. GeoScore is the main SaaS project and is currently free, with no paid subscription or on-site checkout. Games and other software are shown at their actual development stage",
 		"items": [
 			{
 				"index": "TAP",
 				"title": "Subaru Tap",
-				"desc": "Tap the screen to play Subaru's original cries with death-return effects in rhythm.",
+				"desc": "Tap the screen to play Subaru's original cries with death-return effects in rhythm",
 				"href": "/tools/subarutap/"
 			},
 			{
 				"index": "SERVICES",
 				"title": "Public Services",
-				"desc": "Current public services, self-hosted source projects, planned work, and operating boundaries.",
+				"desc": "Current public services, self-hosted source projects, planned work, and operating boundaries",
 				"href": "https://sayori.org/services/"
 			},
 			{
 				"index": "DIARY",
 				"title": "Sayori's Diary",
-				"desc": "Public diary pages, poems, and small pieces of Sayori's ordinary days.",
+				"desc": "Public diary pages, poems, and small pieces of Sayori's ordinary days",
 				"href": "https://diary.sayori.org/"
 			},
 			{
 				"index": "BOARD",
 				"title": "Amiya Whiteboard",
-				"desc": "A small browser whiteboard for sketches, rough diagrams, and messy ideas.",
+				"desc": "A small browser whiteboard for sketches, rough diagrams, and messy ideas",
 				"href": "https://board.sayori.org/"
 			},
 			{
 				"index": "GEO",
 				"title": "GeoScore",
-				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints.",
+				"desc": "A public SEO / GEO audit tool for public domains, structured data, page signals, and content hints",
 				"href": "https://geo.sayori.org/"
 			},
 			{
 				"index": "NOTE",
 				"title": "Guestbook",
-				"desc": "Leave a small note, hello, reading response, or feedback after wandering through.",
+				"desc": "Leave a small note, hello, reading response, or feedback after wandering through",
 				"href": "https://blog.sayori.org/guestbook/"
 			}
 		],
-		"footnote": "Other entries stay private until they are actually worth showing."
+		"footnote": "Other entries stay private until they are actually worth showing"
 	}
 }

@@ -1,41 +1,42 @@
 {
 	"meta": {
-		"title": "关于我 · Amiya的书桌",
-		"description": "独立软件开发者 Amiya_desi 的长期名片：GeoScore、Godot 游戏、开源工具、写作与创作记录。",
+		"title": "关于Amiya_desi｜独立开发者与创作者",
+		"description": "认识独立开发者Amiya_desi：以Godot游戏为创作主线，也制作网站与工具，查看项目、实践方向、获奖作品和交流入口",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "关于 Amiya_desi",
 		"backLabel": "← 回到书桌",
 		"backHref": "/",
-		"kicker": "03 / 放在桌上的信",
-		"dateStamp": "2026 年夏 · 长期名片",
+		"kicker": "03 / 独立开发者名片",
+		"dateStamp": "长期名片",
 		"title": "你好，我是 Amiya_desi",
-		"intro": "这不是简历，也不是随时刷新的状态栏。它更像一封隔几个月才会重写一次的信：写给路过这张书桌、想稍微多认识我一点的你。",
+		"intro": "我是 Amiya_desi，一名以独立游戏为创作主线的开发者，也是一名学生；我主要使用 Godot 制作游戏，喜欢探索时间机制、多窗口交互和叙事体验；我也会制作网站、工具，并分享开发与学习中的经验",
 		"sections": [
 			{
-				"heading": "这个名字",
+				"heading": "我的创作与实践",
 				"paragraphs": [
-					"我是 Amiya_desi，19 岁，数字媒体技术专业的学生，也是一名独立软件开发者。现在开发和维护 Web 软件服务、开源工具与 Godot 游戏；GeoScore 是当前主要的 SaaS 项目，另有尚未发行的软件和游戏仍在开发。",
-					"这个名字没有什么厉害的来历。Amia 来自我以前很喜欢的角色 Akiyama Mizuki，desi 来自我耳朵不太好用，把他的口癖 desu 听错了。后来听说程序员的 username 只能用字母、数字和下划线，就在中间加了一个 _，误打误撞成了 snake_case：",
-					"不是什么正确的日语，但用了这么久，也就变成我了。"
-				],
-				"code": "Amia + desu + snake_case = Amiya_desi"
-			},
-			{
-				"heading": "一个坑接一个坑",
-				"paragraphs": [
-					"16 岁那年，我在一次爬楼梯之后突然决定减肥。没有完整计划，也没有人天天监督，就是控制饮食、跑步、爬楼梯，从几圈到 3 公里、5 公里，后来还跑过 10 公里，半年瘦了 50 斤。过程谈不上科学，但它给了我第一份可以迁移的自我证据：原来我真的可以把一件事坚持下去。",
-					"后来我就是拿这段经历说服自己开始做游戏的。小时候因为 Undertale 想过做独立游戏，初中只敢在本子上写设定；17 岁终于开始学 Python、装 Godot，从跟做小游戏一路跑进了 Game Jam。",
-					"到现在打过 6 次 Jam。有些作品还行，有些很失败，但底线是：都做完并交上去了。这之后就是一个坑接一个坑——为了做游戏开始用 AI，为了找资料混进各种社区，在社区里接触服务器和域名，搭好网站后又开始写文章、整理资源，最近还做起了视频。上一个坑还没填完，眼睛已经瞄到旁边那个好像也挺有意思。"
+					"独立游戏开发：主要使用 Godot 和 GDScript，也有 C# 项目实践；通过小游戏、Game Jam 和持续开发的项目，练习机制设计、程序实现与迭代",
+					"网站与工具：制作个人站、GeoScore 等 Web 工具，尝试把自己遇到的问题变成可以使用、可以分享的东西",
+					"建站与自托管：使用 Docker、VPS 和 Cloudflare 等工具部署、维护个人服务，并整理配置经验与问题",
+					"内容与工作流：写文章、做视频、整理资源，也用 n8n 等工具辅助内容整理与分发，希望让更多时间留给创作和交流"
 				]
 			},
 			{
-				"heading": "做过的一些东西",
-				"intro": "比较愿意拿出来讲的几个：",
+				"heading": "项目与阶段成果",
+				"intro": "这些项目记录了我在不同阶段的尝试，状态以各项目页面为准",
 				"items": [
 					{
-						"text": "TimeRewindLinker：用 AI 和自己的脑子把最后 11 关磨完的解谜游戏，是我少数愿意重新打开看看的作品。",
+						"text": "DelayTrace：围绕时间延迟、行动记录与回放展开的 Godot 小游戏，是我近期比较满意的一次 Jam 创作，已有公开可运行版本",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker：通过时间回溯、动作回放，以及玩家与过去回声之间的连接线解谜的游戏实验，项目页提供下载",
 						"links": [
 							{
 								"label": "TimeRewindLinker",
@@ -44,19 +45,29 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder：Godot 2D 横版叙事游戏，边境题材，拿过 GodotHub 第三届开发大赛二等奖。",
+						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖，详情见项目页与主办方获奖名单",
 						"links": [
 							{
-								"label": "WakeUpAtTheBorder",
-								"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+								"label": "梦醒边界",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "主办方获奖名单",
+								"href": "https://legacy.godothub.com/festival/winners.html"
 							}
 						]
 					},
 					{
-						"text": "DelayTrace：我目前比较想继续维护的项目，先把它放在这里，后续会补上更完整的说明。"
+						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型，探索窗口导航与对话体验；合作作者与当前状态见项目页",
+						"links": [
+							{
+								"label": "Mio’s Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
+							}
+						]
 					},
 					{
-						"text": "GeoScore：当前主要的 Web 软件服务，面向公开域名提供 SEO / GEO 事实审计、证据地图、修复建议和可下载报告。",
+						"text": "GeoScore：面向公开网页的 SEO / GEO 检查工具，将页面证据整理为检查结果与改进建议",
 						"links": [
 							{
 								"label": "GeoScore",
@@ -67,48 +78,111 @@
 								"href": "https://github.com/Amiyadesi/geoscore"
 							}
 						]
+					},
+					{
+						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现；功能与使用方式见代码仓库",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
+							}
+						]
 					}
 				]
 			},
 			{
-				"heading": "关于 AI",
+				"heading": "当前方向",
 				"paragraphs": [
-					"AI 在我的工作流里出现得越来越多：写代码、查资料、整理东西、试角色设定和动画关键帧。它有时候很好用，能抽出不错的想法；有时候能把项目改得一团糟。",
-					"我不想把自己介绍成一个 AI 工具号。AI 是我现在会用的一种工具——放大器，不是作者。真正的作品仍然要能回答：这是你亲手做过、踩过坑、能解释清楚的东西吗？"
+					"我目前的主要目标是完成并发布自己的第一款 Steam 游戏",
+					"我希望把小型实验中的经验带进一个更完整的作品，也继续练习亲手实现、调试和判断；网站、工具与内容分享会围绕真实的兴趣和项目继续推进"
 				]
 			},
 			{
-				"heading": "信的结尾",
+				"heading": "找到我与交流",
 				"paragraphs": [
-					"现在的我喜欢 Sayori、初音、25 时、Undertale、Re:0，还是很想做一个真正属于自己的 meta 游戏。那些虚拟的世界总能打动我，所以我也想创造一个能打动别人的世界。",
-					"我以前让 AI 写过一句话，现在还是很喜欢：「我期待数据能拟合出我，帮我解决那些我一个人想不明白的东西。」",
-					"所以我会继续写、继续做，也继续把这些乱七八糟的东西留在互联网上。过几个月，这封信也许会再重写一次——到时候的我，应该会多出新的羁绊和技术力吧。"
+					"我的常用创作署名是 Amiya_desi，GitHub 账号是 Amiyadesi"
+				],
+				"items": [
+					{
+						"text": "个人博客：教程、开发记录、学习笔记与复盘",
+						"links": [
+							{
+								"label": "个人博客",
+								"href": "https://blog.sayori.org/"
+							}
+						]
+					},
+					{
+						"text": "GitHub：公开代码与开源项目",
+						"links": [
+							{
+								"label": "GitHub",
+								"href": "https://github.com/Amiyadesi"
+							}
+						]
+					},
+					{
+						"text": "itch.io：小游戏、Jam 作品与玩法实验",
+						"links": [
+							{
+								"label": "itch.io",
+								"href": "https://amiya-desi.itch.io/"
+							}
+						]
+					},
+					{
+						"text": "Bilibili：视频、游戏和折腾记录",
+						"links": [
+							{
+								"label": "Bilibili",
+								"href": "https://space.bilibili.com/3546919890585725"
+							}
+						]
+					},
+					{
+						"text": "留言板：建议、问题或简单打个招呼",
+						"links": [
+							{
+								"label": "留言板",
+								"href": "https://blog.sayori.org/guestbook/"
+							}
+						]
+					},
+					{
+						"text": "支持创作：支持持续开发与项目维护",
+						"links": [
+							{
+								"label": "支持创作",
+								"href": "https://blog.sayori.org/sponsor/"
+							}
+						]
+					}
 				]
 			}
 		],
 		"signature": {
 			"line": "—— Amiya_desi，写于书桌前",
-			"ps": "P.S. 如果信里的什么让你有共鸣，欢迎到留言板塞张小纸条。"
+			"ps": "P.S. 如果信里的什么让你有共鸣，欢迎到留言板塞张小纸条"
 		}
 	},
 	"faq": {
-		"title": "顺手回答几个常见问题",
+		"title": "常见问题",
 		"items": [
 			{
-				"question": "sayori.org 是什么？",
-				"answer": "这是独立软件开发者 Amiya_desi 的个人主页，用来展示 GeoScore、Godot 游戏、开源工具、博客、公开项目与联系方式。"
+				"question": "sayori.org 是什么",
+				"answer": "这是独立软件开发者 Amiya_desi 的个人主站，用来展示 Godot 游戏、网站工具、开源项目、博客和公开账号"
 			},
 			{
-				"question": "博客主要写什么？",
-				"answer": "blog.sayori.org 主要记录教程文章、服务器折腾、Godot 开发、AI 工具与学生资源、移动隐私、资源索引、项目日志和一些日常回声。"
+				"question": "博客主要写什么",
+				"answer": "blog.sayori.org 记录 Godot 游戏开发、建站与自托管、AI 工作流、工具资源、项目复盘和创作学习过程"
 			},
 			{
-				"question": "你目前开发什么产品？",
-				"answer": "目前以 GeoScore 这类 Web 软件服务为主，也开发 Godot 游戏、桌面与开发者工具和开源软件。GeoScore 当前免费开放，网站暂未提供付费订阅或结账；未来上线收费方案或软件销售时，会先公开价格、交付、退款和取消规则。"
+				"question": "你现在最重要的目标是什么",
+				"answer": "当前最重要的目标是完成并发布自己的第一款 Steam 游戏；其他游戏实验、网站工具和文章会随着实际项目与学习进度继续积累"
 			},
 			{
-				"question": "可以从哪里联系或继续了解？",
-				"answer": "可以通过 me@sayori.org 联系，也可以从这里进入 GitHub、博客、Bilibili、itch.io、YouTube、Linux.do 和留言板。"
+				"question": "可以从哪里联系或继续了解",
+				"answer": "可以通过 me@sayori.org 联系，也可以从这里进入 GitHub、博客、itch.io、Bilibili 和留言板"
 			}
 		]
 	},
@@ -118,10 +192,6 @@
 		"emailLabel": "点一下复制邮箱",
 		"linksAriaLabel": "公开入口",
 		"links": [
-			{
-				"label": "GeoScore",
-				"href": "https://geo.sayori.org/"
-			},
 			{
 				"label": "GitHub",
 				"href": "https://github.com/Amiyadesi"
@@ -153,6 +223,14 @@
 			{
 				"label": "NodeLoc",
 				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+			},
+			{
+				"label": "留言板",
+				"href": "https://blog.sayori.org/guestbook/"
+			},
+			{
+				"label": "支持创作",
+				"href": "https://blog.sayori.org/sponsor/"
 			}
 		]
 	}
