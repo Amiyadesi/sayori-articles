@@ -1,41 +1,42 @@
 {
 	"meta": {
-		"title": "About me · Amiya's Desk",
-		"description": "The long-term profile of independent software developer Amiya_desi: GeoScore, Godot games, open-source tools, writing, and creative work.",
+		"title": "About Amiya_desi | Independent Developer and Creator",
+		"description": "Meet Amiya_desi, an independent developer focused on Godot games who also builds websites and tools, with projects, practice notes, selected results, and public links",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "About Amiya_desi",
 		"backLabel": "← Back to the desk",
 		"backHref": "/",
-		"kicker": "03 / a letter on the desk",
-		"dateStamp": "Summer 2026 · long-term card",
-		"title": "Hi, I'm Amiya_desi",
-		"intro": "This is not a resume, and not a live status feed. It is closer to a letter I rewrite every few months — for you, who happened to pass by this desk and want to know me a little better.",
+		"kicker": "03 / independent developer card",
+		"dateStamp": "Long-term profile",
+		"title": "Hi, I’m Amiya_desi",
+		"intro": "I’m Amiya_desi, an independent developer and student focused on indie games; I use Godot to explore time mechanics, multi-window interaction, and narrative experiences; I also build websites and tools and share what I learn",
 		"sections": [
 			{
-				"heading": "The name",
+				"heading": "Creative practice",
 				"paragraphs": [
-					"I'm Amiya_desi, 19, a digital media technology student and an independent software developer. I build and maintain web software services, open-source tools, and Godot games. GeoScore is my main SaaS project today, while other unreleased software and games remain in development.",
-					"The name has no epic origin. Amia comes from Akiyama Mizuki, a character I used to love; desi comes from my bad hearing mishearing his catchphrase desu. When I learned programmer usernames only allow letters, digits and underscores, I joined the two with a _ — accidentally correct snake_case:",
-					"It's not proper Japanese at all, but after all this time, it has simply become me."
-				],
-				"code": "Amia + desu + snake_case = Amiya_desi"
-			},
-			{
-				"heading": "One rabbit hole after another",
-				"paragraphs": [
-					"At 16, after climbing a flight of stairs, I suddenly decided to lose weight. No master plan, no supervision — just diet control, running and stair climbing, from a few laps to 3 km, 5 km, eventually 10 km. About 25 kg lighter in half a year. The process wasn't scientific, but it gave me my first transferable piece of self-evidence: I really can stick with something.",
-					"That experience is what I later used to convince myself to start making games. Undertale made me dream of indie games as a kid; in middle school I only dared to write settings in notebooks. At 17 I finally learned Python, installed Godot, followed tutorial projects, and stumbled into my first Game Jam.",
-					"Six jams so far. Some entries turned out fine, some failed hard — but the bottom line holds: every one of them got finished and submitted. After that it was one rabbit hole after another: AI for game dev, communities for resources, servers and domains from those communities, then articles and resource lists once the site was up, and lately even videos. The previous hole isn't filled yet, and my eyes are already on the next interesting one."
+					"Indie game development: mainly Godot and GDScript, with C# project experience; small games, Game Jams, and longer projects are my way to practice mechanics, implementation, and iteration",
+					"Websites and tools: personal sites, GeoScore, and browser tools that turn real problems into things people can use and share",
+					"Self-hosting: Docker, VPS, and Cloudflare for deploying and maintaining personal services, with the configuration lessons kept public",
+					"Content and workflows: articles, videos, resources, and n8n-assisted organization and distribution so more time can stay with making and talking"
 				]
 			},
 			{
-				"heading": "Things I've made",
-				"intro": "A few I'm willing to put on the table:",
+				"heading": "Projects and milestones",
+				"intro": "These projects show different stages of my practice, with current status kept on each project page",
 				"items": [
 					{
-						"text": "TimeRewindLinker: a puzzle game whose last 11 levels were ground out by AI plus my own brain — one of the few works I'll willingly reopen.",
+						"text": "DelayTrace: a Godot game about time delay, recorded actions, and replay, one of my more satisfying recent Jam results with a playable public build",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker: a puzzle experiment built around rewinding time, replayed actions, and links between a player and echoes of the past",
 						"links": [
 							{
 								"label": "TimeRewindLinker",
@@ -44,71 +45,144 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder: a Godot 2D side-scrolling narrative game about a border, second prize at the 3rd GodotHub dev contest.",
+						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
 						"links": [
 							{
 								"label": "WakeUpAtTheBorder",
-								"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "winner list",
+								"href": "https://legacy.godothub.com/festival/winners.html"
 							}
 						]
 					},
 					{
-						"text": "DelayTrace: a project I currently want to keep working on. I am leaving it here first and will add a fuller description later."
+						"text": "Mio’s Window Wanderer: a multi-window narrative prototype I helped make, exploring window navigation and dialogue",
+						"links": [
+							{
+								"label": "Mio’s Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
+							}
+						]
 					},
 					{
-						"text": "GeoScore: my main web software service, providing factual SEO / GEO audits, evidence maps, repair suggestions, and downloadable reports for public domains.",
+						"text": "GeoScore: a public-web SEO / GEO audit tool that turns page evidence into checks and improvement suggestions",
 						"links": [
 							{
 								"label": "GeoScore",
 								"href": "https://geo.sayori.org/"
 							},
 							{
-								"label": "Source",
+								"label": "source",
 								"href": "https://github.com/Amiyadesi/geoscore"
+							}
+						]
+					},
+					{
+						"text": "Enhanced Save System: a modular Godot save plugin with GDScript and C# implementations",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					}
 				]
 			},
 			{
-				"heading": "About AI",
+				"heading": "Current direction",
 				"paragraphs": [
-					"AI shows up in more and more of my workflow: writing code, digging up references, organizing notes, prototyping character setups and animation keyframes. Sometimes it's genuinely useful and rolls great ideas; sometimes it wrecks a project beyond recognition.",
-					"I don't want to introduce myself as an AI-tools account. AI is a tool I use — an amplifier, not the author. Real work still has to answer: did you build this with your own hands, trip over the pits yourself, and can you explain how it works?"
+					"My main goal is to complete and publish my first Steam game",
+					"I want to bring lessons from small experiments into a more complete work while continuing to practice implementation, debugging, and judgement; websites, tools, and public notes will keep following real interests and projects"
 				]
 			},
 			{
-				"heading": "Closing the letter",
+				"heading": "Find me and stay in touch",
 				"paragraphs": [
-					"These days I love Sayori, Miku, 25-ji, Undertale and Re:0, and I still want to make a meta game that is truly my own. Those virtual worlds keep moving me — so I want to build a world that can move someone else.",
-					"I once asked AI to write a sentence for me, and I still like it: “I hope the data can fit me, and help me solve the things I can't figure out alone.”",
-					"So I'll keep writing, keep making, and keep leaving all this messy stuff on the internet. In a few months this letter will probably be rewritten — by then there should be new bonds, and a bit more skill."
+					"My usual creator name is Amiya_desi, and my GitHub account is Amiyadesi"
+				],
+				"items": [
+					{
+						"text": "Blog: tutorials, development notes, learning notes, and retrospectives",
+						"links": [
+							{
+								"label": "Blog",
+								"href": "https://blog.sayori.org/"
+							}
+						]
+					},
+					{
+						"text": "GitHub: public code and open-source projects",
+						"links": [
+							{
+								"label": "GitHub",
+								"href": "https://github.com/Amiyadesi"
+							}
+						]
+					},
+					{
+						"text": "itch.io: small games, Jam work, and gameplay experiments",
+						"links": [
+							{
+								"label": "itch.io",
+								"href": "https://amiya-desi.itch.io/"
+							}
+						]
+					},
+					{
+						"text": "Bilibili: videos, games, and tinkering notes",
+						"links": [
+							{
+								"label": "Bilibili",
+								"href": "https://space.bilibili.com/3546919890585725"
+							}
+						]
+					},
+					{
+						"text": "Guestbook: suggestions, questions, or a simple hello",
+						"links": [
+							{
+								"label": "Guestbook",
+								"href": "https://blog.sayori.org/guestbook/"
+							}
+						]
+					},
+					{
+						"text": "Support: help keep development and maintenance going",
+						"links": [
+							{
+								"label": "Support",
+								"href": "https://blog.sayori.org/sponsor/"
+							}
+						]
+					}
 				]
 			}
 		],
 		"signature": {
 			"line": "— Amiya_desi, written at the desk",
-			"ps": "P.S. If anything in this letter resonates, feel free to leave a small note on the guestbook."
+			"ps": "P.S. If anything in this letter resonates, feel free to leave a small note on the guestbook"
 		}
 	},
 	"faq": {
-		"title": "A few common questions",
+		"title": "Common questions",
 		"items": [
 			{
-				"question": "What is sayori.org?",
-				"answer": "It is the personal site of independent software developer Amiya_desi, presenting GeoScore, Godot games, open-source tools, writing, public projects, and contact details."
+				"question": "What is sayori.org",
+				"answer": "It is the personal site of independent developer Amiya_desi, presenting Godot games, websites and tools, open-source projects, writing, and public links"
 			},
 			{
-				"question": "What does the blog cover?",
-				"answer": "blog.sayori.org mainly records tutorials, server tinkering, Godot development, AI tools and student resources, mobile privacy, resource indexes, project logs and everyday echoes."
+				"question": "What does the blog cover",
+				"answer": "blog.sayori.org records Godot development, websites and self-hosting, AI workflows, tools and resources, project retrospectives, and creative learning"
 			},
 			{
-				"question": "What products are you developing?",
-				"answer": "My current focus is web software such as GeoScore, alongside Godot games, desktop and developer tools, and open-source software. GeoScore is currently free to use, and this site does not yet offer paid subscriptions or checkout. Prices, delivery, refund, and cancellation terms will be published before any paid plan or software sale launches."
+				"question": "What is your current main goal",
+				"answer": "My main goal is to complete and publish my first Steam game; other experiments, web tools, and articles will continue with real project and learning progress"
 			},
 			{
-				"question": "How can I reach you or learn more?",
-				"answer": "Email me@sayori.org, or continue from here to GitHub, the blog, Bilibili, itch.io, YouTube, Linux.do and the guestbook."
+				"question": "How can I contact you or learn more",
+				"answer": "Use me@sayori.org, or continue to GitHub, the blog, itch.io, Bilibili, and the guestbook"
 			}
 		]
 	},
@@ -116,12 +190,8 @@
 		"title": "Projects and contact",
 		"email": "me@sayori.org",
 		"emailLabel": "Click to copy the email",
-		"linksAriaLabel": "Public entries",
+		"linksAriaLabel": "Public links",
 		"links": [
-			{
-				"label": "GeoScore",
-				"href": "https://geo.sayori.org/"
-			},
 			{
 				"label": "GitHub",
 				"href": "https://github.com/Amiyadesi"
@@ -153,6 +223,14 @@
 			{
 				"label": "NodeLoc",
 				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+			},
+			{
+				"label": "Guestbook",
+				"href": "https://blog.sayori.org/guestbook/"
+			},
+			{
+				"label": "Support",
+				"href": "https://blog.sayori.org/sponsor/"
 			}
 		]
 	}
