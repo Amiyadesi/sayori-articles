@@ -110,13 +110,17 @@ for (const directory of ["posts", "essays"]) {
 		if (/^(?:draft|private|unlisted)\s*:\s*true\s*$/im.test(metadata)) {
 			violations.push(`unpublished content: ${relative(filePath)}`);
 		}
-		if (!/\.en\.(?:md|mdx)$/i.test(filePath) && fields.lang?.toLowerCase() !== "en") {
+		const isEnglish = /\.en\.(?:md|mdx)$/i.test(filePath) || fields.lang?.toLowerCase() === "en";
+		const isTraditional = /\.zh-hant\.(?:md|mdx)$/i.test(filePath) || fields.lang?.toLowerCase() === "zh-hant";
+		if (!isEnglish && !isTraditional) {
 			const translationPath = filePath.replace(/\.(md|mdx)$/i, ".en.$1");
 			if (!fs.existsSync(translationPath)) {
 				violations.push(`missing English translation: ${relative(filePath)} -> ${relative(translationPath)}`);
 			} else if (!/^lang\s*:\s*en\s*$/im.test(frontmatter(fs.readFileSync(translationPath, "utf8")))) {
 				violations.push(`English translation missing lang: en: ${relative(translationPath)}`);
 			}
+			const traditionalPath = filePath.replace(/\.(md|mdx)$/i, ".zh-hant.$1");
+			if (fs.existsSync(traditionalPath)) validateTraditionalTranslation(filePath, traditionalPath, fields);
 		}
 		const slug = contentSlug(directory, filePath);
 		if (publicSlugs.has(slug)) {
@@ -275,6 +279,39 @@ function contentSlug(directory, filePath) {
 	if (segments.at(-1)?.toLowerCase() === "index") segments.pop();
 	if (segments.length > 1 && segments.at(-1)?.toLowerCase() === segments.at(-2)?.toLowerCase()) segments.pop();
 	return segments.join("/").toLowerCase();
+}
+
+function validateTraditionalTranslation(sourcePath, translationPath, sourceFields) {
+	const source = fs.readFileSync(sourcePath, "utf8");
+	const translation = fs.readFileSync(translationPath, "utf8");
+	const fields = parseFrontmatter(frontmatter(translation));
+	if (fields.lang?.toLowerCase() !== "zh-hant") {
+		violations.push(`Traditional Chinese translation missing lang: zh-Hant: ${relative(translationPath)}`);
+	}
+	if (sourceFields.translationKey && fields.translationKey !== sourceFields.translationKey) {
+		violations.push(`Traditional Chinese translationKey mismatch: ${relative(translationPath)}`);
+	}
+	if (JSON.stringify(markdownStructure(source)) !== JSON.stringify(markdownStructure(translation))) {
+		violations.push(`Traditional Chinese Markdown structure mismatch: ${relative(translationPath)}`);
+	}
+	if (JSON.stringify(protectedMarkdown(source)) !== JSON.stringify(protectedMarkdown(translation))) {
+		violations.push(`Traditional Chinese protected content changed: ${relative(translationPath)}`);
+	}
+}
+
+function markdownStructure(content) {
+	return content
+		.split(/\r?\n/)
+		.map((line) => line.match(/^\s*(?:#{1,6}|[-*+] |\d+\. |>)/)?.[0] ?? "")
+		.filter(Boolean);
+}
+
+function protectedMarkdown(content) {
+	return [
+		...(content.match(/```[\s\S]*?```|~~~[\s\S]*?~~~/g) ?? []),
+		...(content.match(/`[^`\r\n]+`/g) ?? []),
+		...(content.match(/https?:\/\/[^\s)\]>]+/g) ?? []),
+	];
 }
 
 function walk(directory) {
