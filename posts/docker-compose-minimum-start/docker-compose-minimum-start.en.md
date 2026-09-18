@@ -10,7 +10,7 @@ image: ""
 tags:
   - Tutorial
   - Docker
-  - 新手入门
+  - Beginner Guide
 category: Website & Self-Hosting
 draft: false
 aiSummary:

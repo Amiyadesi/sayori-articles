@@ -11,7 +11,7 @@ tags:
   - Resource Curation
   - Webmaster Tools
   - Independent Blog
-  - 自托管
+  - Self-Hosting
 category: Tools & Resources
 draft: false
 lang: en

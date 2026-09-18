@@ -54,11 +54,6 @@
 			"url": "https://blog.sayori.org/rss.xml"
 		},
 		{
-			"name": "Ko-fi",
-			"icon": "material-symbols:local-cafe",
-			"url": "https://blog.sayori.org/sponsor/"
-		},
-		{
 			"name": "爱发电",
 			"icon": "material-symbols:favorite",
 			"url": "https://blog.sayori.org/sponsor/"

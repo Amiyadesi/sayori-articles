@@ -13,7 +13,7 @@ tags:
   - Docker
   - Push Notifications
   - Server Exploration
-  - 自托管
+  - Self-Hosting
 category: Website & Self-Hosting
 draft: false
 alias: ""

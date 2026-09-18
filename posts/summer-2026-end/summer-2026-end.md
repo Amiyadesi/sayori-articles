@@ -7,8 +7,12 @@ lastEdited: 2026-09-06
 updateCount: 1
 description: 暑假结束了，我变强了，为什么反而做不出游戏了？
 image: ""
-tags: []
-category: ""
+tags:
+  - 叙事
+  - 游戏开发
+  - 成长回顾
+  - 独立游戏
+category: 个人记录
 draft: false
 alias: ""
 ---

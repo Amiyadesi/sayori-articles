@@ -9,8 +9,8 @@ description: ""
 image: ""
 tags:
   - Tutorial
-  - 搜索
-  - 自托管
+  - Search
+  - Self-Hosting
 category: Website & Self-Hosting
 draft: false
 alias: ""

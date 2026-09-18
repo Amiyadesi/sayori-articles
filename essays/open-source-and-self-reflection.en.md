@@ -10,7 +10,7 @@ image: ""
 tags:
   - Musings
   - Open Source
-  - Indie Games
+  - Indie Game
 category: Everyday Echoes
 draft: false
 lang: en

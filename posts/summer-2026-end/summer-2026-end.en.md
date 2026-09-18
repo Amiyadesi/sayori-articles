@@ -7,8 +7,12 @@ lastEdited: 2026-09-06
 updateCount: 1
 description: "Summer vacation is over. I became stronger, so why can I no longer make games?"
 image: ""
-tags: []
-category: ""
+tags:
+  - Narrative
+  - Game Development
+  - Growth Reflection
+  - Indie Game
+category: Personal Record
 draft: false
 alias: ""
 lang: en

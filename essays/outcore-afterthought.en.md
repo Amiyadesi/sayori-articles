@@ -11,7 +11,7 @@ tags:
   - Game Afterthought
   - Outcore
   - Musings
-category: Other
+category: Everyday Echoes
 draft: false
 lang: en
 translationKey: essays/outcore-afterthought
