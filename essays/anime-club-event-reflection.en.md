@@ -11,7 +11,7 @@ tags:
   - Essay
   - Anime Club
   - Campus
-category: Daily Echoes
+category: Everyday Echoes
 draft: false
 lang: en
 translationKey: essays/anime-club-event-reflection

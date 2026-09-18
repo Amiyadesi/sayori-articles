@@ -11,7 +11,7 @@ tags:
   - Narrative
   - VPS
   - Alibaba Cloud
-  - 自托管
+  - Self-Hosting
 category: Website & Self-Hosting
 draft: false
 lang: en

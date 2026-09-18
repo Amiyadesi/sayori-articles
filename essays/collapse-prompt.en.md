@@ -10,7 +10,7 @@ image: ""
 tags:
   - Essay
   - Indie Game
-category: Daily Echoes
+category: Everyday Echoes
 draft: false
 lang: en
 translationKey: essays/collapse-prompt

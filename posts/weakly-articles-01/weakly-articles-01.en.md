@@ -10,7 +10,7 @@ image: ""
 tags:
   - Reading Notes
   - Article Recommendations
-category: Internet and Communities
+category: Internet & Communities
 draft: false
 alias: ""
 lang: en

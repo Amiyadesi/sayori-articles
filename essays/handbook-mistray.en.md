@@ -8,8 +8,7 @@ updateCount: 1
 description: ""
 image: ""
 tags:
-    - Essays
-    - Daily Echoes
+    - Musings
 category: Everyday Echoes
 draft: false
 alias: ""

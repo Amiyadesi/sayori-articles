@@ -9,7 +9,7 @@ description: About to survive the damn finals week, a summary of the past, thoug
 image: ""
 tags:
   - Indie Game
-  - Growth Record
+  - Growth Reflection
 category: Game Development
 draft: false
 alias: re0game-dev-life

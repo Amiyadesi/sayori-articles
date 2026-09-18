@@ -5,9 +5,9 @@ created: 2026-08-15T22:00:00+08:00
 updated: 2026-08-15T22:00:00+08:00
 draft: false
 description: "Have you ever felt like the whole world is telling you, \"You should be happier!\"?  Social media, friends' posts, even bi"
-category: 日记
+category: Diary
 tags:
-  - 日记
+  - Diary
   - Sayori
 lang: en
 author: Sayori

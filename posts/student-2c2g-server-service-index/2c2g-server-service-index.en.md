@@ -11,7 +11,7 @@ tags:
   - Resource Curation
   - Student Server
   - Docker
-  - 自托管
+  - Self-Hosting
 category: Website & Self-Hosting
 draft: false
 alias: ""
