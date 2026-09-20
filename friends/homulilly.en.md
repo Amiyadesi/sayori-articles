@@ -5,7 +5,7 @@ siteurl: https://homulilly.com
 imgurl: https://homulilly.com/images/avatar.jpg
 desc: Beyond the circle, there are still unfulfilled wishes.
 feedurl: https://homulilly.com/atom.xml
-tags: [Personal Blog, Friend Link]
+tags: [Friend Links]
 visible: true
 lang: en
 translationKey: friends/homulilly
