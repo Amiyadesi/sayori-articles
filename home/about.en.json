@@ -1,33 +1,33 @@
 {
 	"meta": {
-		"title": "About Amiya_desi | Independent Developer and Creator",
-		"description": "Meet Amiya_desi, an independent developer focused on Godot games who also builds websites and tools, with projects, practice notes, selected results, and public links",
+		"title": "About Amiya_desi | Indie Developer & Creator",
+		"description": "Meet Amiya_desi, an indie developer focused on Godot games who also builds websites and tools. Explore projects, experiments, milestones, and public links.",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "About Amiya_desi",
 		"backLabel": "← Back to the desk",
 		"backHref": "/",
-		"kicker": "03 / independent developer card",
-		"dateStamp": "Long-term profile",
+		"kicker": "03 / indie developer profile",
+		"dateStamp": "A longer introduction",
 		"title": "Hi, I’m Amiya_desi",
-		"intro": "I’m Amiya_desi, an independent developer and student focused on indie games; I use Godot to explore time mechanics, multi-window interaction, and narrative experiences; I also build websites and tools and share what I learn",
+		"intro": "I’m Amiya_desi, an indie developer and student who focuses on games. I use Godot to explore time-based mechanics, multi-window interactions, and narrative experiences. I also build websites and tools, and share what I learn along the way.",
 		"sections": [
 			{
 				"heading": "Creative practice",
 				"paragraphs": [
-					"Indie game development: mainly Godot and GDScript, with C# project experience; small games, Game Jams, and longer projects are my way to practice mechanics, implementation, and iteration",
-					"Websites and tools: personal sites, GeoScore, and browser tools that turn real problems into things people can use and share",
-					"Self-hosting: Docker, VPS, and Cloudflare for deploying and maintaining personal services, with the configuration lessons kept public",
-					"Content and workflows: articles, videos, resources, and n8n-assisted organization and distribution so more time can stay with making and talking"
+					"Indie game development: I mainly use Godot and GDScript, with some C# experience. Small games, game jams, and longer projects help me practice mechanics, implementation, and iteration.",
+					"Websites and tools: I build personal sites, GeoScore, and browser tools—turning real problems into things people can use and share.",
+					"Self-hosting: I use Docker, VPSs, and Cloudflare to deploy and maintain personal services, and keep the lessons public.",
+					"Content and workflows: I write articles, make videos, curate resources, and use tools like n8n to organize and share them—leaving more time for making things and talking with people."
 				]
 			},
 			{
 				"heading": "Projects and milestones",
-				"intro": "These projects show different stages of my practice, with current status kept on each project page",
+				"intro": "These projects represent different stages of my work. Each project page has the latest status.",
 				"items": [
 					{
-						"text": "DelayTrace: a Godot game about time delay, recorded actions, and replay, one of my more satisfying recent Jam results with a playable public build",
+						"text": "DelayTrace: A Godot game about time delay, recorded actions, and replay. It was one of my favorite recent game-jam projects and has a playable public build.",
 						"links": [
 							{
 								"label": "DelayTrace",
@@ -36,7 +36,7 @@
 						]
 					},
 					{
-						"text": "TimeRewindLinker: a puzzle experiment built around rewinding time, replayed actions, and links between a player and echoes of the past",
+						"text": "TimeRewindLinker: A puzzle experiment built around rewinding time, replaying actions, and connecting the player with echoes of the past.",
 						"links": [
 							{
 								"label": "TimeRewindLinker",
@@ -45,7 +45,7 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
+						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub’s third Jam; see the project page and winner list for details.",
 						"links": [
 							{
 								"label": "WakeUpAtTheBorder",
@@ -58,7 +58,7 @@
 						]
 					},
 					{
-						"text": "Mio’s Window Wanderer: a multi-window narrative prototype I helped make, exploring window navigation and dialogue",
+						"text": "Mio’s Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
 						"links": [
 							{
 								"label": "Mio’s Window Wanderer",
@@ -67,7 +67,7 @@
 						]
 					},
 					{
-						"text": "GeoScore: a public-web SEO / GEO audit tool that turns page evidence into checks and improvement suggestions",
+						"text": "GeoScore: A public-web SEO/GEO audit tool that turns page evidence into checks and practical improvement suggestions.",
 						"links": [
 							{
 								"label": "GeoScore",
@@ -80,7 +80,7 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System: a modular Godot save plugin with GDScript and C# implementations",
+						"text": "Enhanced Save System: A modular Godot save plugin with GDScript and C# implementations.",
 						"links": [
 							{
 								"label": "Enhanced Save System",
@@ -93,18 +93,18 @@
 			{
 				"heading": "Current direction",
 				"paragraphs": [
-					"My main goal is to complete and publish my first Steam game",
-					"I want to bring lessons from small experiments into a more complete work while continuing to practice implementation, debugging, and judgement; websites, tools, and public notes will keep following real interests and projects"
+					"My main goal is to finish and publish my first Steam game.",
+					"I want to carry what I learn from small experiments into a more complete project while continuing to practice implementation, debugging, and judgment. Websites, tools, and public notes will follow the real projects and interests that come with that work."
 				]
 			},
 			{
 				"heading": "Find me and stay in touch",
 				"paragraphs": [
-					"My usual creator name is Amiya_desi, and my GitHub account is Amiyadesi"
+					"I usually go by Amiya_desi, and my GitHub username is Amiyadesi."
 				],
 				"items": [
 					{
-						"text": "Blog: tutorials, development notes, learning notes, and retrospectives",
+						"text": "Blog: development notes, learning notes, tutorials, and retrospectives.",
 						"links": [
 							{
 								"label": "Blog",
@@ -122,7 +122,7 @@
 						]
 					},
 					{
-						"text": "itch.io: small games, Jam work, and gameplay experiments",
+						"text": "itch.io: small games, game-jam projects, and gameplay experiments.",
 						"links": [
 							{
 								"label": "itch.io",
@@ -131,7 +131,7 @@
 						]
 					},
 					{
-						"text": "Bilibili: videos, games, and tinkering notes",
+						"text": "Bilibili: videos, game projects, and tinkering notes.",
 						"links": [
 							{
 								"label": "Bilibili",
@@ -140,7 +140,7 @@
 						]
 					},
 					{
-						"text": "Guestbook: suggestions, questions, or a simple hello",
+						"text": "Guestbook: suggestions, questions, or just a hello.",
 						"links": [
 							{
 								"label": "Guestbook",
@@ -149,7 +149,7 @@
 						]
 					},
 					{
-						"text": "Support: help keep development and maintenance going",
+						"text": "Support: help keep development and maintenance going.",
 						"links": [
 							{
 								"label": "Support",
@@ -161,8 +161,8 @@
 			}
 		],
 		"signature": {
-			"line": "— Amiya_desi, written at the desk",
-			"ps": "P.S. If anything in this letter resonates, feel free to leave a small note on the guestbook"
+			"line": "— Amiya_desi, written at my desk",
+			"ps": "P.S. If anything in this letter resonates with you, feel free to leave a note in the guestbook."
 		}
 	},
 	"faq": {
@@ -170,26 +170,26 @@
 		"items": [
 			{
 				"question": "What is sayori.org",
-				"answer": "It is the personal site of independent developer Amiya_desi, presenting Godot games, websites and tools, open-source projects, writing, and public links"
+				"answer": "It’s the personal site of indie developer Amiya_desi, featuring Godot games, websites and tools, open-source projects, writing, and public links."
 			},
 			{
 				"question": "What does the blog cover",
-				"answer": "blog.sayori.org records Godot development, websites and self-hosting, AI workflows, tools and resources, project retrospectives, and creative learning"
+				"answer": "blog.sayori.org covers Godot development, websites and self-hosting, AI workflows, tools and resources, project retrospectives, and creative learning."
 			},
 			{
 				"question": "What is your current main goal",
-				"answer": "My main goal is to complete and publish my first Steam game; other experiments, web tools, and articles will continue with real project and learning progress"
+				"answer": "My main goal is to finish and publish my first Steam game. Other experiments, web tools, and articles will grow alongside real projects and learning."
 			},
 			{
 				"question": "How can I contact you or learn more",
-				"answer": "Use me@sayori.org, or continue to GitHub, the blog, itch.io, Bilibili, and the guestbook"
+				"answer": "Use me@sayori.org, or visit GitHub, the blog, itch.io, Bilibili, or the guestbook."
 			}
 		]
 	},
 	"contact": {
-		"title": "Projects and contact",
+		"title": "Projects & contact",
 		"email": "me@sayori.org",
-		"emailLabel": "Click to copy the email",
+		"emailLabel": "Click to copy",
 		"linksAriaLabel": "Public links",
 		"links": [
 			{
