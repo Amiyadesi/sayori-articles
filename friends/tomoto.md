@@ -4,7 +4,7 @@ title: Tomoto 的精神小屋
 siteurl: https://daydreammadman.cn
 imgurl: https://daydreammadman.cn/avatar.png
 desc: 欢迎来到我和我视角下的世界
-tags: [个人博客, 友链]
+tags: [友链]
 visible: true
 posts:
   - title: 记一次爆仓体验

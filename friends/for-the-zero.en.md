@@ -7,8 +7,6 @@ desc: Wanting to be someone cute, interesting, awesome, happy, kind, ... someone
 lang: en
 translationKey: friends/for-the-zero
 feedurl: https://ftz.is-a.dev/rss.xml
-tags:
-  - Personal Blog
-  - Friends' Links
+tags: [Friend Links]
 visible: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Friends
+title: Friend Links
 lang: en
 translationKey: spec/friends
 ---
@@ -11,19 +11,19 @@ If you'd like to exchange friend links, you can publicly leave these details in 
 If your site or avatar is inaccessible for an extended period, the friend link will be hidden first; you can leave a message again once it's restored, and I'll re-display it.
 
 ```txt
-名称：Amiya的书桌
-地址：https://blog.sayori.org/
-简介：Amiya_desi's blog, where a real person who wants to share things will be recorded. Welcome!
-图标：https://blog.sayori.org/assets/profile/avatar-sayori.jpg
+Name: Amiya's Desk
+URL: https://blog.sayori.org/
+Description: Amiya_desi's blog, where a real person who wants to share things is recorded. Welcome!
+Icon: https://blog.sayori.org/assets/profile/avatar-sayori.jpg
 ```
 
 You can also link to the navigation site:
 
 ```txt
-名称：Amiya的导航站
-地址：https://sayori.org/
-简介：Amiya_desi's navigation site, a compilation he made, with a DDLC easter egg inside, hehe.
-图标：https://blog.sayori.org/assets/home/amiya-desk.webp
+Name: Amiya's Navigation Site
+URL: https://sayori.org/
+Description: Amiya_desi's hand-curated navigation site, with a DDLC easter egg inside, hehe.
+Icon: https://blog.sayori.org/assets/home/amiya-desk.webp
 ```
 
 ## Travel Portal

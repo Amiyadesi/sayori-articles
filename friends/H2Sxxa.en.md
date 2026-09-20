@@ -5,9 +5,6 @@ siteurl: https://h2sxxa.github.io/
 imgurl: https://avatars.githubusercontent.com/u/88923783?v=4
 desc: Just Developing for Fun.
 feedurl: https://h2sxxa.github.io/rss.xml
-tags:
-  - Personal Blog
-  - Friend Link
+tags: [Friend Links]
 visible: true
 ---
-

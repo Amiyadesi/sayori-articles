@@ -5,11 +5,8 @@ siteurl: https://xiaoxi.ac.cn
 imgurl: https://img.xiaoxi.ac.cn/logo.png
 desc: Taking care of my little garden.
 feedurl: ""
-tags:
-  - Personal Blog
-  - Friend Link
+tags: [Friend Links]
 visible: true
 lang: en
 translationKey: friends/xiaoxi
 ---
-

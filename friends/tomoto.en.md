@@ -4,7 +4,7 @@ title: Tomoto's Mental Retreat
 siteurl: https://daydreammadman.cn
 imgurl: https://daydreammadman.cn/avatar.png
 desc: Welcome to my world, as I see it.
-tags: [Personal Blog, Friend Link]
+tags: [Friend Links]
 visible: true
 lang: en
 translationKey: friends/tomoto

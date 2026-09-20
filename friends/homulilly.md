@@ -5,7 +5,7 @@ siteurl: https://homulilly.com
 imgurl: https://homulilly.com/images/avatar.jpg
 desc: 圆环之外，仍有未尽之愿。
 feedurl: https://homulilly.com/atom.xml
-tags: [个人博客, 友链]
+tags: [友链]
 visible: true
 posts:
   - title: Homulilly
