@@ -4,6 +4,11 @@
       "preset": "Home"
     },
     {
+      "name": "羊毛 / Deals",
+      "url": "/deals/",
+      "icon": "material-symbols:redeem"
+    },
+    {
       "preset": "Archive"
     },
     {
@@ -45,11 +50,6 @@
           "name": "资源索引",
           "url": "/posts/resource-index/",
           "icon": "material-symbols:bookmarks"
-        },
-        {
-          "name": "羊毛 / Deals",
-          "url": "/deals/",
-          "icon": "material-symbols:redeem"
         },
         {
           "name": "赞助",

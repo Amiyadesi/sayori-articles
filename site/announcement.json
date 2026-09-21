@@ -1,27 +1,33 @@
 {
-  "id": "2026-08-22-agentrouter-subarutap-hong-kong",
-  "updated": "2026-08-22",
-  "title": "最近的三个更新",
-  "content": "最近有三件事想和你分享：AgentRouter 的 AFF 注册入口已经整理好，SubaruTap 已经可以体验，香港旅行的记录也写完并发布了。\n\n欢迎从下面的链接开始：可以通过 AFF 注册 AgentRouter、试玩 SubaruTap，或者阅读这次香港旅行的记录。",
+  "id": "2026-09-21-deals-weekly-game-dev",
+  "updated": "2026-09-21",
+  "title": "最近的更新",
+  "content": "最近有几件事想和你分享：羊毛文章已经单独整理到一个页面，我也开始尝试周更文章和制作游戏开发视频了。\n\n欢迎从下面的链接开始：浏览羊毛专区，阅读周更文章，或者去 Bilibili 和 YouTube 看游戏开发视频。",
   "closable": true,
   "links": [
     {
       "enable": true,
-      "text": "通过 AFF 注册 AgentRouter",
-      "url": "https://agentrouter.org/register?aff=a572",
-      "external": true
-    },
-    {
-      "enable": true,
-      "text": "试玩 SubaruTap",
-      "url": "https://sayori.org/tools/subarutap/",
-      "external": true
-    },
-    {
-      "enable": true,
-      "text": "阅读香港旅行记录",
-      "url": "/posts/first-hong-kong/",
+      "text": "浏览羊毛专区",
+      "url": "/deals/",
       "external": false
+    },
+    {
+      "enable": true,
+      "text": "阅读周更文章",
+      "url": "/posts/weakly-articles-01/",
+      "external": false
+    },
+    {
+      "enable": true,
+      "text": "观看 Bilibili 游戏开发视频",
+      "url": "https://www.bilibili.com/video/BV1czeh62EeG",
+      "external": true
+    },
+    {
+      "enable": true,
+      "text": "观看 YouTube 游戏开发视频",
+      "url": "https://youtu.be/9tKfUfVxHS8",
+      "external": true
     }
   ]
 }
