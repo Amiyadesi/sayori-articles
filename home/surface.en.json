@@ -63,6 +63,13 @@
 				"desc": "— categorized tools, references, and communities",
 				"href": "https://nav.sayori.org/",
 				"external": true
+			},
+			{
+				"num": "06",
+				"title": "XY-Amiya Studio",
+				"desc": "— studio works and collaboration",
+				"href": "https://studio.sayori.org/",
+				"external": true
 			}
 		],
 		"marginNote": "Independent developer making games, websites, and tools",
