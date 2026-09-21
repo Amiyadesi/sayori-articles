@@ -13,6 +13,7 @@ tags:
   - Cloud Services
   - Free Resources
 category: Website & Self-Hosting
+section: deals
 draft: false
 alias: ""
 lang: en

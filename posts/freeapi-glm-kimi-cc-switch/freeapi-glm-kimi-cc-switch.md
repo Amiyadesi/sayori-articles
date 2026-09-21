@@ -13,6 +13,7 @@ tags:
   - Claude Code
   - 免费资源
 category: AI 与工作流
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

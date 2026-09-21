@@ -13,6 +13,7 @@ tags:
   - AI Quota
   - Student Resources
 category: AI & Workflow
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

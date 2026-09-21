@@ -12,6 +12,7 @@ tags:
   - Alibaba Cloud
   - Student Resources
 category: Tools & Resources
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

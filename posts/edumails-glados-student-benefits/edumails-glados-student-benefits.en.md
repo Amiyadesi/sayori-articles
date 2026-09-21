@@ -13,6 +13,7 @@ tags:
   - Student Resources
   - GitHub
 category: Tools & Resources
+section: deals
 draft: false
 lang: en
 translationKey: posts/edumails-glados-student-benefits/edumails-glados-student-benefits

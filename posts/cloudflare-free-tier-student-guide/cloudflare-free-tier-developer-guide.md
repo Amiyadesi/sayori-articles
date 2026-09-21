@@ -13,6 +13,7 @@ tags:
   - 云服务
   - 免费资源
 category: 建站与自托管
+section: deals
 draft: false
 alias: ""
 ---
@@ -239,4 +240,3 @@ VPS 内网服务公网访问 → Cloudflare Tunnel
 awesome-cloudflare：[https://github.com/zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
 
 这个仓库整理了 Cloudflare 生态里各种工具和用法，14k+ star。如果你想知道「别人拿 Cloudflare 做了什么」，从这里开始
-

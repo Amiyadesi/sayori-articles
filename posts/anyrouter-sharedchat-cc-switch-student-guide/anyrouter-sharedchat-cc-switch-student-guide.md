@@ -13,6 +13,7 @@ tags:
   - AI 额度
   - 学生资源
 category: AI 与工作流
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

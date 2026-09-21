@@ -13,6 +13,7 @@ tags:
   - 学生资源
   - GitHub
 category: 工具与资源
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"
