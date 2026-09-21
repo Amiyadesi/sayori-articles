@@ -13,6 +13,7 @@ tags:
   - Claude Code
   - Free Resources
 category: AI & Workflow
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-08-04"

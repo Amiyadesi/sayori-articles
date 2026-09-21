@@ -47,6 +47,11 @@
           "icon": "material-symbols:bookmarks"
         },
         {
+          "name": "羊毛 / Deals",
+          "url": "/deals/",
+          "icon": "material-symbols:redeem"
+        },
+        {
           "name": "赞助",
           "url": "/sponsor/",
           "icon": "material-symbols:favorite"

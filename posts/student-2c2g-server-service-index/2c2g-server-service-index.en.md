@@ -13,6 +13,7 @@ tags:
   - Docker
   - Self-Hosting
 category: Website & Self-Hosting
+section: deals
 draft: false
 alias: ""
 lang: en

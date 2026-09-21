@@ -12,6 +12,7 @@ tags:
   - 阿里云
   - 学生资源
 category: 工具与资源
+section: deals
 draft: false
 aiSummary:
   generatedAt: "2026-07-11"

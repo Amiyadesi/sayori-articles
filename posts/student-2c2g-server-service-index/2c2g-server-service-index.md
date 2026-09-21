@@ -13,6 +13,7 @@ tags:
   - Docker
   - 自托管
 category: 建站与自托管
+section: deals
 draft: false
 alias: ""
 ---
