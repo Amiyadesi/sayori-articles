@@ -63,6 +63,13 @@
 				"desc": "— 工具、资料与社区导航",
 				"href": "https://nav.sayori.org/",
 				"external": true
+			},
+			{
+				"num": "06",
+				"title": "XY-Amiya Studio",
+				"desc": "— 工作室作品与合作入口",
+				"href": "https://studio.sayori.org/",
+				"external": true
 			}
 		],
 		"marginNote": "独立开发者，做游戏，也制作网站和工具",
