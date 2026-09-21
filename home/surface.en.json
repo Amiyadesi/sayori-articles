@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya’s Desk | Indie Games, Web Tools, and Creative Notes",
-		"description": "Amiya_desi’s personal site for Godot indie games, web tools, open-source projects, creative notes, and public links",
+		"title": "Amiya's Desk | Indie Games, Web Tools, and Creative Notes",
+		"description": "Amiya_desi's personal site for Godot indie games, web tools, open-source projects, creative notes, and public links",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,7 +29,7 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi’s creator desk",
+		"title": "Amiya_desi's creator desk",
 		"entryAriaLabel": "Entries",
 		"entries": [
 			{
@@ -78,12 +78,12 @@
 		"stickyQuotes": [
 			"Cheer up today",
 			"Remember to drink water",
-			"You’re here~",
+			"You're here~",
 			"This is a safe place",
-			"It’s okay to rest sometimes",
+			"It's okay to rest sometimes",
 			"Someone is reading this paper",
 			"Go for a walk if the weather is nice",
-			"Don’t forget breakfast"
+			"Don't forget breakfast"
 		]
 	},
 	"profile": {
@@ -92,7 +92,7 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "03 / independent developer card",
 		"name": "Amiya_desi",
-		"intro": "I’m Amiya_desi, an independent developer focused on indie games; I mainly use Godot and also build websites, tools, and public project notes",
+		"intro": "I'm Amiya_desi, an independent developer focused on indie games; I mainly use Godot and also build websites, tools, and public project notes",
 		"columns": [
 			{
 				"title": "Creative practice",
@@ -133,10 +133,10 @@
 						]
 					},
 					{
-						"text": "Mio’s Window Wanderer: a multi-window narrative prototype I helped make",
+						"text": "Mio's Window Wanderer: a multi-window narrative prototype I helped make",
 						"links": [
 							{
-								"label": "Mio’s Window Wanderer",
+								"label": "Mio's Window Wanderer",
 								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]

@@ -10,8 +10,8 @@
 		"backHref": "/",
 		"kicker": "03 / indie developer profile",
 		"dateStamp": "A longer introduction",
-		"title": "Hi, I’m Amiya_desi",
-		"intro": "I’m Amiya_desi, an indie developer and student who focuses on games. I use Godot to explore time-based mechanics, multi-window interactions, and narrative experiences. I also build websites and tools, and share what I learn along the way.",
+		"title": "Hi, I'm Amiya_desi",
+		"intro": "I'm Amiya_desi, an indie developer and student who focuses on games. I use Godot to explore time-based mechanics, multi-window interactions, and narrative experiences. I also build websites and tools, and share what I learn along the way.",
 		"sections": [
 			{
 				"heading": "Creative practice",
@@ -45,7 +45,7 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub’s third Jam; see the project page and winner list for details.",
+						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub's third Jam; see the project page and winner list for details.",
 						"links": [
 							{
 								"label": "WakeUpAtTheBorder",
@@ -58,10 +58,10 @@
 						]
 					},
 					{
-						"text": "Mio’s Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
+						"text": "Mio's Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
 						"links": [
 							{
-								"label": "Mio’s Window Wanderer",
+								"label": "Mio's Window Wanderer",
 								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
@@ -170,7 +170,7 @@
 		"items": [
 			{
 				"question": "What is sayori.org",
-				"answer": "It’s the personal site of indie developer Amiya_desi, featuring Godot games, websites and tools, open-source projects, writing, and public links."
+				"answer": "It's the personal site of indie developer Amiya_desi, featuring Godot games, websites and tools, open-source projects, writing, and public links."
 			},
 			{
 				"question": "What does the blog cover",
