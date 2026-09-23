@@ -1,23 +1,23 @@
 {
 	"meta": {
-		"title": "About Amiya_desi | Indie Developer & Creator",
-		"description": "Meet Amiya_desi, an indie developer focused on Godot games who also builds websites and tools. Explore projects, experiments, milestones, and public links.",
+		"title": "About Amiya_desi | Godot Indie Game Developer",
+		"description": "Meet Godot indie developer Amiya_desi: time mechanics, multi-window interaction, and narrative puzzles. See Wake Up at the Border and other public work.",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "About Amiya_desi",
 		"backLabel": "← Back to the desk",
 		"backHref": "/",
-		"kicker": "03 / indie developer profile",
+		"kicker": "09 / indie game developer card",
 		"dateStamp": "A longer introduction",
 		"title": "Hi, I'm Amiya_desi",
-		"intro": "I'm Amiya_desi, an indie developer and student who focuses on games. I use Godot to explore time-based mechanics, multi-window interactions, and narrative experiences. I also build websites and tools, and share what I learn along the way.",
+		"intro": "I'm Amiya_desi, a Godot indie game developer and student. I explore time mechanics, multi-window interaction, and narrative puzzles, and I also build websites and tools while sharing what I learn.",
 		"sections": [
 			{
 				"heading": "Creative practice",
 				"paragraphs": [
 					"Indie game development: I mainly use Godot and GDScript, with some C# experience. Small games, game jams, and longer projects help me practice mechanics, implementation, and iteration.",
-					"Websites and tools: I build personal sites, GeoScore, and browser tools—turning real problems into things people can use and share.",
+					"Websites and tools: I build personal sites and browser tools. Public utilities like GeoScore are optional side tools—not the main line.",
 					"Self-hosting: I use Docker, VPSs, and Cloudflare to deploy and maintain personal services, and keep the lessons public.",
 					"Content and workflows: I write articles, make videos, curate resources, and use tools like n8n to organize and share them—leaving more time for making things and talking with people."
 				]
@@ -26,6 +26,19 @@
 				"heading": "Projects and milestones",
 				"intro": "These projects represent different stages of my work. Each project page has the latest status.",
 				"items": [
+					{
+						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub's third Jam; see the project page and winner list for details.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "winner list",
+								"href": "https://legacy.godothub.com/festival/winners.html"
+							}
+						]
+					},
 					{
 						"text": "DelayTrace: A Godot game about time delay, recorded actions, and replay. It was one of my favorite recent game-jam projects and has a playable public build.",
 						"links": [
@@ -45,29 +58,16 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub's third Jam; see the project page and winner list for details.",
+						"text": "Enhanced Save System: A modular Godot save plugin with GDScript and C# implementations.",
 						"links": [
 							{
-								"label": "WakeUpAtTheBorder",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							},
-							{
-								"label": "winner list",
-								"href": "https://legacy.godothub.com/festival/winners.html"
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					},
 					{
-						"text": "Mio's Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
-						"links": [
-							{
-								"label": "Mio's Window Wanderer",
-								"href": "https://amiya-desi.itch.io/thatgamejam"
-							}
-						]
-					},
-					{
-						"text": "GeoScore: A public-web SEO/GEO audit tool that turns page evidence into checks and practical improvement suggestions.",
+						"text": "GeoScore: A public-web SEO/GEO side tool with a free quota; fuller reports can use a one-time Site Pass.",
 						"links": [
 							{
 								"label": "GeoScore",
@@ -80,11 +80,11 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System: A modular Godot save plugin with GDScript and C# implementations.",
+						"text": "Mio's Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
 						"links": [
 							{
-								"label": "Enhanced Save System",
-								"href": "https://github.com/Amiyadesi/enhance_save_system"
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					}
@@ -170,7 +170,7 @@
 		"items": [
 			{
 				"question": "What is sayori.org",
-				"answer": "It's the personal site of indie developer Amiya_desi, featuring Godot games, websites and tools, open-source projects, writing, and public links."
+				"answer": "It's the personal site of Godot indie game developer Amiya_desi, featuring games, development notes, optional public tools, and contact links."
 			},
 			{
 				"question": "What does the blog cover",
