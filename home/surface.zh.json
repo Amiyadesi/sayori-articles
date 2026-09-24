@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya_desi｜Godot独立游戏开发者",
-		"description": "Godot独立游戏开发者。做时间机制、多窗口交互与叙事解谜。试玩《梦醒边界》，或阅读开发日志。",
+		"title": "Amiya_desi｜独立游戏、网站工具与创作记录",
+		"description": "Amiya_desi的个人主站。试玩 DelayTrace，或阅读开发日志；也有网站工具与公开项目。",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,14 +29,14 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi · Godot独立游戏开发者",
+		"title": "Amiya_desi 的创作者书桌",
 		"entryAriaLabel": "入口",
 		"entries": [
 			{
 				"num": "01",
-				"title": "试玩《梦醒边界》",
-				"desc": "— GodotHub命题Jam二等奖",
-				"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+				"title": "试玩 DelayTrace",
+				"desc": "— 时间延迟与行动回放",
+				"href": "https://amiya-desi.itch.io/delaytrace",
 				"external": true
 			},
 			{
@@ -47,16 +47,16 @@
 			},
 			{
 				"num": "03",
-				"title": "梦醒边界",
-				"desc": "— 叙事解谜·Jam赛道二等奖",
-				"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+				"title": "DelayTrace",
+				"desc": "— 时间延迟与行动回放",
+				"href": "https://amiya-desi.itch.io/delaytrace",
 				"external": true
 			},
 			{
 				"num": "04",
-				"title": "DelayTrace",
-				"desc": "— 时间延迟与行动回放",
-				"href": "https://amiya-desi.itch.io/delaytrace",
+				"title": "梦醒边界",
+				"desc": "— 叙事解谜·Jam赛道二等奖",
+				"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
 				"external": true
 			},
 			{
@@ -93,8 +93,8 @@
 				"href": "/about/"
 			}
 		],
-		"marginNote": "时间机制 · 多窗口交互 · 叙事解谜",
-		"footerNotice": "Amiya_desi · Godot独立游戏开发者",
+		"marginNote": "DelayTrace · 时间机制 · 创作工作台",
+		"footerNotice": "Amiya_desi · 独立游戏、网站工具与创作记录",
 		"languageLink": {
 			"href": "/?lang=en",
 			"label": "EN"
@@ -120,7 +120,7 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "03 / 独立开发者名片",
 		"name": "Amiya_desi",
-		"intro": "我是 Amiya_desi，Godot 独立游戏开发者；主要做时间机制、多窗口交互与叙事解谜，也维护网站与小工具",
+		"intro": "我是 Amiya_desi，以独立游戏为创作主线，也维护网站与小工具；近期代表作是 DelayTrace，围绕时间延迟与行动回放",
 		"columns": [
 			{
 				"title": "创作与实践",
@@ -134,20 +134,20 @@
 				"title": "代表项目",
 				"items": [
 					{
-						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖",
-						"links": [
-							{
-								"label": "梦醒边界",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							}
-						]
-					},
-					{
 						"text": "DelayTrace：围绕时间延迟、行动记录与回放展开的 Godot 小游戏，是我近期比较满意的一次 Jam 创作",
 						"links": [
 							{
 								"label": "DelayTrace",
 								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖",
+						"links": [
+							{
+								"label": "梦醒边界",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
 							}
 						]
 					},
@@ -203,7 +203,7 @@
 			"items": [
 				{
 					"question": "sayori.org 是什么",
-					"answer": "这是 Godot 独立游戏开发者 Amiya_desi 的个人主站，用来展示游戏、开发日志、开源插件、网站工具和公开账号"
+					"answer": "这是 Amiya_desi 的个人主站，用来展示游戏（如 DelayTrace）、开发日志、开源插件、网站工具和公开账号"
 				},
 				{
 					"question": "博客主要写什么",
@@ -211,7 +211,7 @@
 				},
 				{
 					"question": "你现在最重要的目标是什么",
-					"answer": "当前最重要的目标是完成并发布自己的第一款 Steam 游戏；其他游戏实验、网站工具和文章会随着实际项目与学习进度继续积累"
+					"answer": "这是 Amiya_desi 的个人主站，用来展示游戏实验、网站工具、开源项目、博客和公开账号；当前重点作品是 DelayTrace"
 				},
 				{
 					"question": "可以从哪里联系或继续了解",
@@ -268,7 +268,7 @@
 		"backAriaLabel": "返回主纸页",
 		"kicker": "07 / 工具与服务",
 		"title": "软件与服务",
-		"intro": "这里放网站工具与公开服务。GeoScore 是主要 SaaS，目前免费开放，没有付费订阅或站内结账；游戏作品请从主页入口试玩",
+		"intro": "这里放网站工具与公开服务。GeoScore 是旁路公开工具，目前免费开放，没有付费订阅或站内结账；游戏作品请从主页入口试玩",
 		"items": [
 			{
 				"index": "TAP",

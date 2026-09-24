@@ -1,17 +1,17 @@
 {
 	"meta": {
-		"title": "关于Amiya_desi｜Godot独立游戏开发者",
-		"description": "认识Godot独立游戏开发者Amiya_desi：时间机制、多窗口交互与叙事解谜；查看梦醒边界等作品、实践方向和交流入口",
+		"title": "关于Amiya_desi｜独立开发者与创作者",
+		"description": "认识独立开发者Amiya_desi：DelayTrace 等 Godot 作品、网站工具与创作记录；查看实践方向和交流入口",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "关于 Amiya_desi",
 		"backLabel": "← 回到书桌",
 		"backHref": "/",
-		"kicker": "09 / 独立游戏开发者名片",
+		"kicker": "09 / 独立开发者名片",
 		"dateStamp": "长期名片",
 		"title": "你好，我是 Amiya_desi",
-		"intro": "我是 Amiya_desi，一名以独立游戏为创作主线的 Godot 开发者，也是一名学生；我喜欢探索时间机制、多窗口交互和叙事解谜，也会制作网站、工具，并分享开发与学习中的经验",
+		"intro": "我是 Amiya_desi，一名以独立游戏为创作主线的开发者，也是一名学生；近期代表作是 DelayTrace。我喜欢探索时间机制、多窗口交互和叙事解谜，也会制作网站、工具，并分享开发与学习中的经验",
 		"sections": [
 			{
 				"heading": "我的创作与实践",
@@ -27,6 +27,15 @@
 				"intro": "这些项目记录了我在不同阶段的尝试，状态以各项目页面为准",
 				"items": [
 					{
+						"text": "DelayTrace：围绕时间延迟、行动记录与回放展开的 Godot 小游戏，是我近期比较满意的一次 Jam 创作，已有公开可运行版本",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
 						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖，详情见项目页与主办方获奖名单",
 						"links": [
 							{
@@ -36,15 +45,6 @@
 							{
 								"label": "主办方获奖名单",
 								"href": "https://legacy.godothub.com/festival/winners.html"
-							}
-						]
-					},
-					{
-						"text": "DelayTrace：围绕时间延迟、行动记录与回放展开的 Godot 小游戏，是我近期比较满意的一次 Jam 创作，已有公开可运行版本",
-						"links": [
-							{
-								"label": "DelayTrace",
-								"href": "https://amiya-desi.itch.io/delaytrace"
 							}
 						]
 					},
@@ -170,7 +170,7 @@
 		"items": [
 			{
 				"question": "sayori.org 是什么",
-				"answer": "这是 Godot 独立游戏开发者 Amiya_desi 的个人主站，用来展示游戏作品、开发记录、公开工具和联系方式"
+				"answer": "这是 Amiya_desi 的个人主站，用来展示游戏作品（如 DelayTrace）、开发记录、公开工具和联系方式"
 			},
 			{
 				"question": "博客主要写什么",

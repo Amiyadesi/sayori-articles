@@ -1,17 +1,17 @@
 {
 	"meta": {
-		"title": "About Amiya_desi | Godot Indie Game Developer",
-		"description": "Meet Godot indie developer Amiya_desi: time mechanics, multi-window interaction, and narrative puzzles. See Wake Up at the Border and other public work.",
+		"title": "About Amiya_desi | Indie Developer & Creator",
+		"description": "Meet indie developer Amiya_desi: DelayTrace and other Godot work, web tools, and notes. See direction and contact links.",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "About Amiya_desi",
 		"backLabel": "← Back to the desk",
 		"backHref": "/",
-		"kicker": "09 / indie game developer card",
+		"kicker": "09 / indie developer card",
 		"dateStamp": "A longer introduction",
 		"title": "Hi, I'm Amiya_desi",
-		"intro": "I'm Amiya_desi, a Godot indie game developer and student. I explore time mechanics, multi-window interaction, and narrative puzzles, and I also build websites and tools while sharing what I learn.",
+		"intro": "I'm Amiya_desi, an indie developer and student with games as my main creative line. A recent highlight is DelayTrace. I explore time mechanics, multi-window interaction, and narrative puzzles, and I also build websites and tools while sharing what I learn.",
 		"sections": [
 			{
 				"heading": "Creative practice",
@@ -27,6 +27,15 @@
 				"intro": "These projects represent different stages of my work. Each project page has the latest status.",
 				"items": [
 					{
+						"text": "DelayTrace: A Godot game about time delay, recorded actions, and replay. It was one of my favorite recent game-jam projects and has a playable public build.",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
 						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub's third Jam; see the project page and winner list for details.",
 						"links": [
 							{
@@ -36,15 +45,6 @@
 							{
 								"label": "winner list",
 								"href": "https://legacy.godothub.com/festival/winners.html"
-							}
-						]
-					},
-					{
-						"text": "DelayTrace: A Godot game about time delay, recorded actions, and replay. It was one of my favorite recent game-jam projects and has a playable public build.",
-						"links": [
-							{
-								"label": "DelayTrace",
-								"href": "https://amiya-desi.itch.io/delaytrace"
 							}
 						]
 					},
@@ -170,7 +170,7 @@
 		"items": [
 			{
 				"question": "What is sayori.org",
-				"answer": "It's the personal site of Godot indie game developer Amiya_desi, featuring games, development notes, optional public tools, and contact links."
+				"answer": "It's the personal site of Amiya_desi, featuring games such as DelayTrace, development notes, optional public tools, and contact links."
 			},
 			{
 				"question": "What does the blog cover",

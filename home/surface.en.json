@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya_desi | Godot Indie Game Developer",
-		"description": "Godot indie developer making time mechanics, multi-window play, and narrative puzzles. Try Wake Up at the Border, or read the blog.",
+		"title": "Amiya_desi | Indie Games, Web Tools & Notes",
+		"description": "Amiya_desi's personal site. Try DelayTrace, or read the blog; also web tools and public projects.",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,14 +29,14 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi · Godot indie game developer",
+		"title": "Amiya_desi's creator desk",
 		"entryAriaLabel": "Entries",
 		"entries": [
 			{
 				"num": "01",
-				"title": "Play Wake Up at the Border",
-				"desc": "— 2nd place, GodotHub themed Jam",
-				"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+				"title": "Play DelayTrace",
+				"desc": "— time delay and action replay",
+				"href": "https://amiya-desi.itch.io/delaytrace",
 				"external": true
 			},
 			{
@@ -47,16 +47,16 @@
 			},
 			{
 				"num": "03",
-				"title": "Wake Up at the Border",
-				"desc": "— narrative puzzle · Jam award",
-				"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+				"title": "DelayTrace",
+				"desc": "— time delay and action replay",
+				"href": "https://amiya-desi.itch.io/delaytrace",
 				"external": true
 			},
 			{
 				"num": "04",
-				"title": "DelayTrace",
-				"desc": "— time delay and action replay",
-				"href": "https://amiya-desi.itch.io/delaytrace",
+				"title": "Wake Up at the Border",
+				"desc": "— narrative puzzle · Jam award",
+				"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
 				"external": true
 			},
 			{
@@ -93,8 +93,8 @@
 				"href": "/about/"
 			}
 		],
-		"marginNote": "Time mechanics · multi-window play · narrative puzzles",
-		"footerNotice": "Amiya_desi · Godot indie game developer",
+		"marginNote": "DelayTrace · time mechanics · maker desk",
+		"footerNotice": "Amiya_desi · indie games, web tools & notes",
 		"languageLink": {
 			"href": "/?lang=zh",
 			"label": "中文"
@@ -120,7 +120,7 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "03 / independent developer card",
 		"name": "Amiya_desi",
-		"intro": "I'm Amiya_desi, a Godot indie game developer focused on time mechanics, multi-window interaction, and narrative puzzles; I also maintain websites and small tools",
+		"intro": "I'm Amiya_desi. Indie games are my main creative line; I also maintain websites and small tools. A recent highlight is DelayTrace, about time delay and action replay",
 		"columns": [
 			{
 				"title": "Creative practice",
@@ -134,20 +134,20 @@
 				"title": "Representative projects",
 				"items": [
 					{
-						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
-						"links": [
-							{
-								"label": "WakeUpAtTheBorder",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							}
-						]
-					},
-					{
 						"text": "DelayTrace: a Godot game about time delay, recorded actions, and replay, one of my more satisfying recent Jam results",
 						"links": [
 							{
 								"label": "DelayTrace",
 								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
 							}
 						]
 					},
@@ -203,7 +203,7 @@
 			"items": [
 				{
 					"question": "What is sayori.org",
-					"answer": "This is the personal site of Godot indie game developer Amiya_desi, presenting games, development notes, open-source plugins, web tools, and public links"
+					"answer": "This is Amiya_desi's personal site, presenting games such as DelayTrace, development notes, open-source plugins, web tools, and public links"
 				},
 				{
 					"question": "What does the blog cover",
@@ -211,7 +211,7 @@
 				},
 				{
 					"question": "What is your current main goal",
-					"answer": "My main goal is to complete and publish my first Steam game; other experiments, web tools, and articles will continue with real project and learning progress"
+					"answer": "This is Amiya_desi's personal site for game experiments, web tools, open-source projects, writing, and public links. The featured work right now is DelayTrace"
 				},
 				{
 					"question": "How can I contact or learn more",
@@ -268,7 +268,7 @@
 		"backAriaLabel": "Back to main page",
 		"kicker": "07 / Tools & Services",
 		"title": "Software & Services",
-		"intro": "Web tools and public services. GeoScore is the main SaaS project and is currently free, with no paid subscription or on-site checkout. Games are linked from the home page",
+		"intro": "Web tools and public services. GeoScore is a side public tool and is currently free, with no paid subscription or on-site checkout. Games are linked from the home page",
 		"items": [
 			{
 				"index": "TAP",
