@@ -1,23 +1,23 @@
 {
 	"meta": {
 		"title": "关于Amiya_desi｜独立开发者与创作者",
-		"description": "认识独立开发者Amiya_desi：以Godot游戏为创作主线，也制作网站与工具，查看项目、实践方向、获奖作品和交流入口",
+		"description": "认识独立开发者Amiya_desi：DelayTrace 等 Godot 作品、网站工具与创作记录；查看实践方向和交流入口",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "关于 Amiya_desi",
 		"backLabel": "← 回到书桌",
 		"backHref": "/",
-		"kicker": "03 / 独立开发者名片",
+		"kicker": "09 / 独立开发者名片",
 		"dateStamp": "长期名片",
 		"title": "你好，我是 Amiya_desi",
-		"intro": "我是 Amiya_desi，一名以独立游戏为创作主线的开发者，也是一名学生；我主要使用 Godot 制作游戏，喜欢探索时间机制、多窗口交互和叙事体验；我也会制作网站、工具，并分享开发与学习中的经验",
+		"intro": "我是 Amiya_desi，一名以独立游戏为创作主线的开发者，也是一名学生；近期代表作是 DelayTrace。我喜欢探索时间机制、多窗口交互和叙事解谜，也会制作网站、工具，并分享开发与学习中的经验",
 		"sections": [
 			{
 				"heading": "我的创作与实践",
 				"paragraphs": [
 					"独立游戏开发：主要使用 Godot 和 GDScript，也有 C# 项目实践；通过小游戏、Game Jam 和持续开发的项目，练习机制设计、程序实现与迭代",
-					"网站与工具：制作个人站、GeoScore 等 Web 工具，尝试把自己遇到的问题变成可以使用、可以分享的东西",
+					"网站与工具：制作个人站与浏览器工具；GeoScore 等公开工具属于旁路能力，可按需使用，不代表主业方向",
 					"建站与自托管：使用 Docker、VPS 和 Cloudflare 等工具部署、维护个人服务，并整理配置经验与问题",
 					"内容与工作流：写文章、做视频、整理资源，也用 n8n 等工具辅助内容整理与分发，希望让更多时间留给创作和交流"
 				]
@@ -36,15 +36,6 @@
 						]
 					},
 					{
-						"text": "TimeRewindLinker：通过时间回溯、动作回放，以及玩家与过去回声之间的连接线解谜的游戏实验，项目页提供下载",
-						"links": [
-							{
-								"label": "TimeRewindLinker",
-								"href": "https://amiya-desi.itch.io/time-rewind-linker"
-							}
-						]
-					},
-					{
 						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖，详情见项目页与主办方获奖名单",
 						"links": [
 							{
@@ -58,16 +49,25 @@
 						]
 					},
 					{
-						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型，探索窗口导航与对话体验；合作作者与当前状态见项目页",
+						"text": "TimeRewindLinker：通过时间回溯、动作回放，以及玩家与过去回声之间的连接线解谜的游戏实验，项目页提供下载",
 						"links": [
 							{
-								"label": "Mio’s Window Wanderer",
-								"href": "https://amiya-desi.itch.io/thatgamejam"
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
 							}
 						]
 					},
 					{
-						"text": "GeoScore：面向公开网页的 SEO / GEO 检查工具，将页面证据整理为检查结果与改进建议",
+						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现；功能与使用方式见代码仓库",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
+							}
+						]
+					},
+					{
+						"text": "GeoScore：面向公开网页的 SEO / GEO 旁路工具，有免费额度；完整报告等能力可走一次性 Site Pass",
 						"links": [
 							{
 								"label": "GeoScore",
@@ -80,11 +80,11 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现；功能与使用方式见代码仓库",
+						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型，探索窗口导航与对话体验；合作作者与当前状态见项目页",
 						"links": [
 							{
-								"label": "Enhanced Save System",
-								"href": "https://github.com/Amiyadesi/enhance_save_system"
+								"label": "Mio’s Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					}
@@ -170,7 +170,7 @@
 		"items": [
 			{
 				"question": "sayori.org 是什么",
-				"answer": "这是独立软件开发者 Amiya_desi 的个人主站，用来展示 Godot 游戏、网站工具、开源项目、博客和公开账号"
+				"answer": "这是 Amiya_desi 的个人主站，用来展示游戏作品（如 DelayTrace）、开发记录、公开工具和联系方式"
 			},
 			{
 				"question": "博客主要写什么",
