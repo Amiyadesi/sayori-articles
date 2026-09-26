@@ -1,0 +1,17 @@
+{
+	"meta": {
+		"title": "關於 Amiya_desi｜Godot 獨立遊戲開發者",
+		"description": "認識以 Godot 獨立遊戲為主線的 Amiya_desi：偏愛時間機制、多視窗互動與敘事解謎，正在開發第一款 Steam 遊戲。"
+	},
+	"letter": {
+		"kicker": "03 / 獨立遊戲開發者名片",
+		"title": "你好，我是 Amiya_desi",
+		"intro": "我是 Amiya_desi，一名以獨立遊戲為創作主線的開發者，也是一名學生；我主要用 Godot 探索時間機制、多視窗互動與敘事解謎，也會製作網站和工具，記錄真實的開發過程。"
+	},
+	"faq": {
+		"title": "常見問題"
+	},
+	"contact": {
+		"title": "作品與聯絡"
+	}
+}

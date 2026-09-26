@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya's Desk | Indie Games, Web Tools, and Creative Notes",
-		"description": "Amiya_desi's personal site for Godot indie games, web tools, open-source projects, creative notes, and public links",
+		"title": "Amiya_desi — Godot Indie Game Developer",
+		"description": "I make Godot indie games about time mechanics, multi-window play, and narrative puzzles. Play my GodotHub Jam runner-up and follow the devlogs.",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,8 +29,8 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi's creator desk",
-		"entryAriaLabel": "Entries",
+		"title": "Amiya_desi · Godot Indie Game Developer",
+		"entryAriaLabel": "More from Amiya",
 		"entries": [
 			{
 				"num": "01",
@@ -72,8 +72,8 @@
 				"external": true
 			}
 		],
-		"marginNote": "Independent developer making games, websites, and tools",
-		"footerNotice": "Amiya_desi · indie games, web tools, and public work",
+		"marginNote": "Time mechanics, multi-window play, and narrative puzzles",
+		"footerNotice": "Amiya_desi · Godot indie game developer",
 		"languageLink": {
 			"href": "../zh/",
 			"label": "中文"
@@ -91,7 +91,51 @@
 			"Someone is reading this paper",
 			"Go for a walk if the weather is nice",
 			"Don't forget breakfast"
-		]
+		],
+		"hero": {
+			"eyebrow": "Indie game developer · Godot",
+			"tagline": "I make Godot indie games about time, multi-window play, and stories you uncover by solving puzzles.",
+			"primaryCta": {
+				"label": "Play Wake Up at the Border",
+				"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+			},
+			"secondaryCta": {
+				"label": "Read the devlogs",
+				"href": "https://blog.sayori.org/"
+			}
+		},
+		"projects": {
+			"title": "Games & tools",
+			"intro": "From an award-winning Jam game to experiments with time, echoes, and tools.",
+			"items": [
+				{
+					"title": "Wake Up at the Border",
+					"description": "A Jam-winning mix of narrative puzzles, dialogue, and combat.",
+					"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+					"badge": "2nd place, themed track · GodotHub Jam #3"
+				},
+				{
+					"title": "DelayTrace",
+					"description": "Record a run, then solve puzzles alongside its delayed echo.",
+					"href": "https://amiya-desi.itch.io/delaytrace"
+				},
+				{
+					"title": "TimeRewindLinker",
+					"description": "Rewind old moves and connect their echoes to crack puzzles.",
+					"href": "https://amiya-desi.itch.io/time-rewind-linker"
+				},
+				{
+					"title": "Enhanced Save System",
+					"description": "A Godot save plugin with GDScript and C# implementations.",
+					"href": "https://github.com/Amiyadesi/enhance_save_system"
+				},
+				{
+					"title": "GeoScore",
+					"description": "Checks SEO/GEO signals and points to fixes you can verify.",
+					"href": "https://geo.sayori.org/"
+				}
+			]
+		}
 	},
 	"profile": {
 		"ariaLabel": "About Amiya",
@@ -113,6 +157,15 @@
 				"title": "Representative projects",
 				"items": [
 					{
+						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							}
+						]
+					},
+					{
 						"text": "DelayTrace: a Godot game about time delay, recorded actions, and replay, one of my more satisfying recent Jam results",
 						"links": [
 							{
@@ -131,20 +184,11 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder: a Godot game mixing puzzles, dialogue, and combat, awarded second prize in the third GodotHub themed Jam track",
+						"text": "Enhanced Save System: a modular Godot save plugin with GDScript and C# implementations",
 						"links": [
 							{
-								"label": "WakeUpAtTheBorder",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							}
-						]
-					},
-					{
-						"text": "Mio's Window Wanderer: a multi-window narrative prototype I helped make",
-						"links": [
-							{
-								"label": "Mio's Window Wanderer",
-								"href": "https://amiya-desi.itch.io/thatgamejam"
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					},
@@ -158,11 +202,11 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System: a modular Godot save plugin with GDScript and C# implementations",
+						"text": "Mio's Window Wanderer: a multi-window narrative prototype I helped make",
 						"links": [
 							{
-								"label": "Enhanced Save System",
-								"href": "https://github.com/Amiyadesi/enhance_save_system"
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					}

@@ -1,0 +1,59 @@
+{
+	"meta": {
+		"title": "Amiya_desi｜Godot 獨立遊戲開發者",
+		"description": "Amiya_desi 使用 Godot 製作獨立遊戲，專注時間機制、多視窗互動與敘事解謎。試玩獲 GodotHub 第三屆命題 Jam 賽道二等獎的《夢醒邊界》，閱讀開發記錄。"
+	},
+	"surface": {
+		"title": "Amiya_desi · Godot 獨立遊戲開發者",
+		"marginNote": "製作時間機制、多視窗互動與敘事解謎遊戲",
+		"footerNotice": "Amiya_desi · Godot 獨立遊戲開發者",
+		"entryAriaLabel": "Amiya 的其他入口",
+		"foldHint": "翻翻看？",
+		"foldAriaLabel": "翻頁",
+		"heartAriaLabel": "點擊心跳",
+		"hero": {
+			"eyebrow": "獨立遊戲開發者 · Godot",
+			"tagline": "我用 Godot 製作獨立遊戲，常把時間機制、多視窗互動和敘事謎題擰在一起。",
+			"primaryCta": {
+				"label": "試玩《夢醒邊界》",
+				"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+			},
+			"secondaryCta": {
+				"label": "看開發記錄",
+				"href": "https://blog.sayori.org/"
+			}
+		},
+		"projects": {
+			"title": "遊戲與工具",
+			"intro": "從一場獲獎 Jam 開始，接著看看我對時間、回聲和工具做過的實驗。",
+			"items": [
+				{
+					"title": "夢醒邊界",
+					"description": "解謎、對話與戰鬥交織的 Jam 獲獎作品",
+					"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+					"badge": "GodotHub 第三屆命題 Jam 賽道二等獎"
+				},
+				{
+					"title": "DelayTrace",
+					"description": "記錄行動，讓延遲的自己接著解謎",
+					"href": "https://amiya-desi.itch.io/delaytrace"
+				},
+				{
+					"title": "TimeRewindLinker",
+					"description": "回放舊動作，用時間連線解謎",
+					"href": "https://amiya-desi.itch.io/time-rewind-linker"
+				},
+				{
+					"title": "Enhanced Save System",
+					"description": "GDScript 與 C# 雙實作的 Godot 存檔外掛",
+					"href": "https://github.com/Amiyadesi/enhance_save_system"
+				},
+				{
+					"title": "GeoScore",
+					"description": "檢查 SEO / GEO 訊號，定位可修問題",
+					"href": "https://geo.sayori.org/"
+				}
+			]
+		}
+	}
+}
