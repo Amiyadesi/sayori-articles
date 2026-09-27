@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "About Amiya_desi | Indie Developer & Creator",
-		"description": "Meet Amiya_desi, an indie developer focused on Godot games who also builds websites and tools. Explore projects, experiments, milestones, and public links.",
+		"title": "About Amiya_desi — Godot Indie Game Developer",
+		"description": "Meet Amiya_desi, a Godot indie developer drawn to time mechanics, multi-window play, and narrative puzzles — now working toward a first Steam game.",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
@@ -27,6 +27,19 @@
 				"intro": "These projects represent different stages of my work. Each project page has the latest status.",
 				"items": [
 					{
+						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub's third Jam; see the project page and winner list for details.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "winner list",
+								"href": "https://legacy.godothub.com/festival/winners.html"
+							}
+						]
+					},
+					{
 						"text": "DelayTrace: A Godot game about time delay, recorded actions, and replay. It was one of my favorite recent game-jam projects and has a playable public build.",
 						"links": [
 							{
@@ -45,24 +58,11 @@
 						]
 					},
 					{
-						"text": "WakeUpAtTheBorder: A Godot game combining puzzles, dialogue, and combat. It won second place in the themed track of GodotHub's third Jam; see the project page and winner list for details.",
+						"text": "Enhanced Save System: A modular Godot save plugin with GDScript and C# implementations.",
 						"links": [
 							{
-								"label": "WakeUpAtTheBorder",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							},
-							{
-								"label": "winner list",
-								"href": "https://legacy.godothub.com/festival/winners.html"
-							}
-						]
-					},
-					{
-						"text": "Mio's Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
-						"links": [
-							{
-								"label": "Mio's Window Wanderer",
-								"href": "https://amiya-desi.itch.io/thatgamejam"
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					},
@@ -80,11 +80,11 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System: A modular Godot save plugin with GDScript and C# implementations.",
+						"text": "Mio's Window Wanderer: A multi-window narrative prototype I helped create, exploring window navigation and dialogue.",
 						"links": [
 							{
-								"label": "Enhanced Save System",
-								"href": "https://github.com/Amiyadesi/enhance_save_system"
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					}

@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "关于Amiya_desi｜独立开发者与创作者",
-		"description": "认识独立开发者Amiya_desi：以Godot游戏为创作主线，也制作网站与工具，查看项目、实践方向、获奖作品和交流入口",
+		"title": "关于 Amiya_desi｜Godot 独立游戏开发者",
+		"description": "认识以 Godot 独立游戏为主线的 Amiya_desi：偏爱时间机制、多窗口互动和叙事解谜，正在开发第一款 Steam 游戏。",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
@@ -27,6 +27,19 @@
 				"intro": "这些项目记录了我在不同阶段的尝试，状态以各项目页面为准",
 				"items": [
 					{
+						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖，详情见项目页与主办方获奖名单",
+						"links": [
+							{
+								"label": "梦醒边界",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "主办方获奖名单",
+								"href": "https://legacy.godothub.com/festival/winners.html"
+							}
+						]
+					},
+					{
 						"text": "DelayTrace：围绕时间延迟、行动记录与回放展开的 Godot 小游戏，是我近期比较满意的一次 Jam 创作，已有公开可运行版本",
 						"links": [
 							{
@@ -45,24 +58,11 @@
 						]
 					},
 					{
-						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖，详情见项目页与主办方获奖名单",
+						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现；功能与使用方式见代码仓库",
 						"links": [
 							{
-								"label": "梦醒边界",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							},
-							{
-								"label": "主办方获奖名单",
-								"href": "https://legacy.godothub.com/festival/winners.html"
-							}
-						]
-					},
-					{
-						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型，探索窗口导航与对话体验；合作作者与当前状态见项目页",
-						"links": [
-							{
-								"label": "Mio’s Window Wanderer",
-								"href": "https://amiya-desi.itch.io/thatgamejam"
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					},
@@ -80,11 +80,11 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现；功能与使用方式见代码仓库",
+						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型，探索窗口导航与对话体验；合作作者与当前状态见项目页",
 						"links": [
 							{
-								"label": "Enhanced Save System",
-								"href": "https://github.com/Amiyadesi/enhance_save_system"
+								"label": "Mio’s Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					}

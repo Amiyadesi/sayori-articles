@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya_desi｜独立游戏、网站工具与创作记录",
-		"description": "Amiya_desi的个人主站，汇集Godot独立游戏、网站工具、开源项目与创作记录；了解我的作品、开发方向、博客和公开账号",
+		"title": "Amiya_desi｜Godot 独立游戏开发者",
+		"description": "Amiya_desi 用 Godot 开发独立游戏，专注时间机制、多窗口互动与叙事解谜。试玩获 GodotHub 第三届命题 Jam 赛道二等奖的《梦醒边界》，查看开发记录。",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,7 +29,7 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi 的创作者书桌",
+		"title": "Amiya_desi · Godot 独立游戏开发者",
 		"entryAriaLabel": "入口",
 		"entries": [
 			{
@@ -72,8 +72,8 @@
 				"external": true
 			}
 		],
-		"marginNote": "独立开发者，做游戏，也制作网站和工具",
-		"footerNotice": "Amiya_desi · 独立游戏、网站工具与创作记录",
+		"marginNote": "做时间机制、多窗口互动与叙事解谜游戏",
+		"footerNotice": "Amiya_desi · Godot 独立游戏开发者",
 		"languageLink": {
 			"href": "../en/",
 			"label": "EN"
@@ -91,7 +91,51 @@
 			"有人在看着这张纸呢",
 			"天气好的话出去走走吧",
 			"不要忘记吃早饭"
-		]
+		],
+		"hero": {
+			"eyebrow": "独立游戏开发者 · Godot",
+			"tagline": "我用 Godot 做独立游戏，常把时间机制、多窗口互动和叙事谜题拧在一起。",
+			"primaryCta": {
+				"label": "试玩《梦醒边界》",
+				"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+			},
+			"secondaryCta": {
+				"label": "看开发记录",
+				"href": "https://blog.sayori.org/"
+			}
+		},
+		"projects": {
+			"title": "游戏与工具",
+			"intro": "从一场获奖 Jam 开始，接着看看我对时间、回声和工具做过的实验。",
+			"items": [
+				{
+					"title": "梦醒边界",
+					"description": "解谜、对话与战斗交织的 Jam 获奖作品",
+					"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
+					"badge": "GodotHub 第三届命题 Jam 赛道二等奖"
+				},
+				{
+					"title": "DelayTrace",
+					"description": "记录行动，让延迟的自己接着解谜",
+					"href": "https://amiya-desi.itch.io/delaytrace"
+				},
+				{
+					"title": "TimeRewindLinker",
+					"description": "回放旧动作，用时间连线解谜",
+					"href": "https://amiya-desi.itch.io/time-rewind-linker"
+				},
+				{
+					"title": "Enhanced Save System",
+					"description": "GDScript 与 C# 双实现的 Godot 存档插件",
+					"href": "https://github.com/Amiyadesi/enhance_save_system"
+				},
+				{
+					"title": "GeoScore",
+					"description": "检查 SEO / GEO 信号，定位可修问题",
+					"href": "https://geo.sayori.org/"
+				}
+			]
+		}
 	},
 	"profile": {
 		"ariaLabel": "关于 Amiya",
@@ -113,6 +157,15 @@
 				"title": "代表项目",
 				"items": [
 					{
+						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖",
+						"links": [
+							{
+								"label": "梦醒边界",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							}
+						]
+					},
+					{
 						"text": "DelayTrace：围绕时间延迟、行动记录与回放展开的 Godot 小游戏，是我近期比较满意的一次 Jam 创作",
 						"links": [
 							{
@@ -131,20 +184,11 @@
 						]
 					},
 					{
-						"text": "梦醒边界：融合解谜、对话与战斗的 Godot 游戏，获 GodotHub 第三届开发大赛命题 Jam 赛道二等奖",
+						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现",
 						"links": [
 							{
-								"label": "梦醒边界",
-								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-							}
-						]
-					},
-					{
-						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型",
-						"links": [
-							{
-								"label": "Mio’s Window Wanderer",
-								"href": "https://amiya-desi.itch.io/thatgamejam"
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
 							}
 						]
 					},
@@ -158,11 +202,11 @@
 						]
 					},
 					{
-						"text": "Enhanced Save System：Godot 模块化存档插件，提供 GDScript 与 C# 实现",
+						"text": "Mio’s Window Wanderer：我参与制作的多窗口叙事原型",
 						"links": [
 							{
-								"label": "Enhanced Save System",
-								"href": "https://github.com/Amiyadesi/enhance_save_system"
+								"label": "Mio’s Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
 							}
 						]
 					}
