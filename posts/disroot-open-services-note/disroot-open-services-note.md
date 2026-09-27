@@ -23,6 +23,8 @@ aiSummary:
     - "从服务边界出发重新整理 sayori.org 的公共入口"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/disroot-open-services-note/disroot-open-services-note
 ---
 
 > [!NOTE]

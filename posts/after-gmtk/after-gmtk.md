@@ -15,6 +15,8 @@ tags:
 category: 游戏开发
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/after-gmtk/after-gmtk
 ---
 
 # 做完了，却高兴不起来

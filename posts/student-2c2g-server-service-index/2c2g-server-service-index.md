@@ -16,6 +16,8 @@ category: 建站与自托管
 section: deals
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-index
 ---
 
 如果你跟站长一样，把阿里云学生 300 元券换成了一台 2C2G 服务器，恭喜。

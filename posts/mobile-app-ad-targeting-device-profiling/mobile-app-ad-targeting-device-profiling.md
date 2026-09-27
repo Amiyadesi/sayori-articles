@@ -17,6 +17,8 @@ draft: false
 author: "我爱吃糖醋排骨（aichitangcupaigu）"
 licenseName: "作者授权转载"
 alias: ""
+lang: zh-Hans
+translationKey: posts/mobile-app-ad-targeting-device-profiling/mobile-app-ad-targeting-device-profiling
 ---
 <details class="repost-source">
 <summary>原文与授权</summary>

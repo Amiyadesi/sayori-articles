@@ -23,6 +23,8 @@ aiSummary:
 alias: ""
 sourceLink: https://yayu.net/4626.html
 
+lang: zh-Hans
+translationKey: posts/independent-blog-self-check-15-draft/independent-blog-self-check-15-draft
 ---
 
 这篇是给雅余那份独立博客自省问卷留的答卷

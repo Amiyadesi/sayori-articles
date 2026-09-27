@@ -14,6 +14,8 @@ tags:
 category: 游戏开发
 draft: false
 alias: re0game-dev-life
+lang: zh-Hans
+translationKey: posts/re0：game-dev-life/re0：game-dev-life
 ---
 # 开头
 > 阅前注意

@@ -23,6 +23,8 @@ aiSummary:
     - "通过 GitHub Actions 自动构建和发布"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/astro-mizuki-blog-from-zero/astro-mizuki-blog-from-zero
 ---
 
 # 从零搭一个自己的博客：GitHub、Cloudflare Pages、Mizuki 和 Obsidian

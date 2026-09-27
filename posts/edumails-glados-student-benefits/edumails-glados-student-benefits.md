@@ -24,6 +24,8 @@ aiSummary:
     - "阿里云和 Cloudflare Pages 适合继续练服务器和网站"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/edumails-glados-student-benefits/edumails-glados-student-benefits
 ---
 
 教育邮箱别只拿来收学校通知

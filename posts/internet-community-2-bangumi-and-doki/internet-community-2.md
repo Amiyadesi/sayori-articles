@@ -15,6 +15,8 @@ tags:
 category: 互联网与社区
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/internet-community-2-bangumi-and-doki/internet-community-2
 ---
 
 

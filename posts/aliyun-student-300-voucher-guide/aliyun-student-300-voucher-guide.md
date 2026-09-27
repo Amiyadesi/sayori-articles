@@ -23,6 +23,8 @@ aiSummary:
     - "付款前先看结算页抵扣和按量费用预警"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/aliyun-student-300-voucher-guide/aliyun-student-300-voucher-guide
 ---
 
 > [!NOTE]

@@ -22,6 +22,8 @@ aiSummary:
     - "覆盖启动、停止、更新和删除这些常用操作"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/docker-compose-minimum-start/docker-compose-minimum-start
 ---
 
 如果你看我的其他文章，会发现几乎每个自托管服务都是用 Docker 跑的

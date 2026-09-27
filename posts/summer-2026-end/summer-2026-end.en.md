@@ -16,6 +16,7 @@ category: Personal Record
 draft: false
 alias: ""
 lang: en
+translationKey: posts/summer-2026-end/summer-2026-end
 ---
 
 # I Became Stronger, So Why Can I No Longer Make Games?

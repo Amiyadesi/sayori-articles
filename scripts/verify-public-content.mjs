@@ -310,7 +310,7 @@ function protectedMarkdown(content) {
 	return [
 		...(content.match(/```[\s\S]*?```|~~~[\s\S]*?~~~/g) ?? []),
 		...(content.match(/`[^`\r\n]+`/g) ?? []),
-		...(content.match(/https?:\/\/[^\s)\]>]+/g) ?? []),
+		...(content.match(/https?:\/\/[^\s)\]>'"`(]+/g) ?? []),
 	];
 }
 

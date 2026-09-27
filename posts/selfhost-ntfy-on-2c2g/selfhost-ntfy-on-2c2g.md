@@ -17,6 +17,8 @@ tags:
 category: 建站与自托管
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/selfhost-ntfy-on-2c2g/selfhost-ntfy-on-2c2g
 ---
 
 ntfy 是我服务器上最不起眼但最有用的服务之一

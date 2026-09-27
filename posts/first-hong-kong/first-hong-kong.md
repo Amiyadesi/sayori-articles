@@ -14,6 +14,8 @@ tags:
 category: 旅行与生活
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/first-hong-kong/first-hong-kong
 ---
 
 ![[IMG_20260817_211929.jpg|center|caption=夜色中的蓝色“Hong Kong / 香港”道路指示牌]]

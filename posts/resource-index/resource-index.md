@@ -22,6 +22,8 @@ aiSummary:
     - "偏游戏开发、素材、美术、音乐、AI 和学习"
     - "把它当检索入口，具体授权和质量仍要自己确认"
 
+lang: zh-Hans
+translationKey: posts/resource-index/resource-index
 ---
 
 这篇是从 Chrome / Edge 两份收藏栏导出的公开版资源索引，主打外部创作资源和工具库

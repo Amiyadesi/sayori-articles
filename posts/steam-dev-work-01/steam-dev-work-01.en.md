@@ -14,6 +14,7 @@ category: Game Development
 draft: false
 alias: ""
 lang: en
+translationKey: posts/steam-dev-work-01/steam-dev-work-01
 ---
 
 # Steam Developer Registration Pitfalls: My Real Notes from Tax Forms to Getting Paid

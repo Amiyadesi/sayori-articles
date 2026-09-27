@@ -22,6 +22,8 @@ aiSummary:
     - "从学生券、Ubuntu 到 SSH 密钥登录的起步过程"
     - "换端口和配防火墙，先把最基础的安全边界搭好"
 
+lang: zh-Hans
+translationKey: posts/sayori-server-01-vps-start/sayori-server-01-vps-start
 ---
 
 # 开头
