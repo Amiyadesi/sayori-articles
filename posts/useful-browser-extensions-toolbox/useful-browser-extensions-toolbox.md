@@ -23,6 +23,8 @@ aiSummary:
     - "安装前先看权限范围和数据去向"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/useful-browser-extensions-toolbox/useful-browser-extensions-toolbox
 ---
 
 这篇只放浏览器插件和脚本入口

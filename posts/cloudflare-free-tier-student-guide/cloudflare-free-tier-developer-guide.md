@@ -16,6 +16,8 @@ category: 建站与自托管
 section: deals
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/cloudflare-free-tier-student-guide/cloudflare-free-tier-developer-guide
 ---
 
 Cloudflare 在开发者圈子里被叫「赛博大善人」不是没原因的。

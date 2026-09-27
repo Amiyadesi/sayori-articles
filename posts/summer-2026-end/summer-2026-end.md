@@ -15,6 +15,8 @@ tags:
 category: 个人记录
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/summer-2026-end/summer-2026-end
 ---
 
 # 我变强了，为什么反而做不出游戏了？

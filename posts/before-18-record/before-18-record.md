@@ -21,6 +21,8 @@ aiSummary:
     - "记录第一次做游戏时的兴奋和踩坑"
     - "回看想法第一次真正落地的过程"
 
+lang: zh-Hans
+translationKey: posts/before-18-record/before-18-record
 ---
 
 ## 开头：这个故事从哪里开始

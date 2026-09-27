@@ -23,6 +23,8 @@ aiSummary:
     - 说明各自适合看什么内容和参与方式
     - 新人进社区前先把规则和氛围看明白
 alias: ""
+lang: zh-Hans
+translationKey: posts/internet-community-1/internet-community-1
 ---
 
 # 互联网社区记录 1：Linux.do NodeLoc和NodeSeek

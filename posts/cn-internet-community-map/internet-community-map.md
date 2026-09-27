@@ -15,6 +15,8 @@ tags:
 category: 互联网与社区
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/cn-internet-community-map/internet-community-map
 ---
 
 # 我做了一个小型论坛列表仓库

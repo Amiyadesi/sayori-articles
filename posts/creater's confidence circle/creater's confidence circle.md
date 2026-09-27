@@ -14,6 +14,8 @@ tags:
 category: 个人记录
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/creater's confidence circle/creater's confidence circle
 ---
 
 # 什么是自信心循环

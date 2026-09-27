@@ -22,6 +22,8 @@ aiSummary:
     - "适合从这里继续找对应的长文"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/site-article-index/site-article-index
 ---
 
 这篇只放本站文章

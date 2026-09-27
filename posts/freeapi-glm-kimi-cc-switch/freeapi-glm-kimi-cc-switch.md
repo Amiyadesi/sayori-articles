@@ -24,6 +24,8 @@ aiSummary:
     - "免费入口变化快，调用前先看额度和稳定性"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/freeapi-glm-kimi-cc-switch/freeapi-glm-kimi-cc-switch
 ---
 
 现在先放这几个

@@ -23,6 +23,8 @@ aiSummary:
     - "优先选能真正放进日常工作流的工具"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
 ---
 
 这篇只放软件本身

@@ -21,6 +21,8 @@ aiSummary:
     - "记录对人格成长和自我观察的持续整理"
     - "不是成就清单，也保留了迷茫和调整"
 
+lang: zh-Hans
+translationKey: posts/age-18-to-19-record/age-18-to-19-record
 ---
 > 我期待数据能拟合出我，帮我解决那些我一个人想不明白的东西，所以我要把这些都记录下来
 

@@ -23,6 +23,8 @@ aiSummary:
     - "顺带保留 REST 和 MCP 接口的折腾空间"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/fast-note-sync-on-student-server/fast-note-sync-on-student-server
 ---
 
 我现在写博客和项目笔记都在 Obsidian 里，但是obsidian一开始都是在电脑上写的，然后电脑里已经写了一堆后才发现手机写不了，于是就去找同步服务了

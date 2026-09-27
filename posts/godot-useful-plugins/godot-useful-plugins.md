@@ -15,6 +15,8 @@ tags:
 category: 游戏开发
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/godot-useful-plugins/godot-useful-plugins
 ---
 
 # 开头

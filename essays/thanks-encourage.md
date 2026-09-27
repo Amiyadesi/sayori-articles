@@ -15,6 +15,8 @@ tags:
 category: 日常回声
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: essays/thanks-encourage
 ---
 # 开头
 闲来无事，收集收集我目前收获的一些反馈吧......

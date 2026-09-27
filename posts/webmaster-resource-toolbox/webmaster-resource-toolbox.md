@@ -23,6 +23,8 @@ aiSummary:
     - "每个服务的价格、条款和可用性都要自己复核"
 alias: blog-resource-toolbox
 
+lang: zh-Hans
+translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
 ---
 
 这篇只放外部资源链接

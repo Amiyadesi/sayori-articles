@@ -20,6 +20,8 @@ aiSummary:
     - "给之后的项目、笔记和日常留一个起点"
     - "先和路过这里的人打个招呼"
 
+lang: zh-Hans
+translationKey: posts/hello-sayori/hello-sayori
 ---
 
 Ohayo Sayori！

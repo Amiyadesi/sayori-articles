@@ -13,6 +13,8 @@ tags:
 category: 游戏开发
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/steam-dev-work-01/steam-dev-work-01
 ---
 # Steam 中国开发者注册避坑指南：从税务表填写到收款方案，我的真实记录
 

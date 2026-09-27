@@ -14,6 +14,8 @@ tags:
 category: 建站与自托管
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/build-your-search-gateway/build-your-search-gateway
 ---
 
 # 开头

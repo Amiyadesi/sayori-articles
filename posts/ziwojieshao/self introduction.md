@@ -15,6 +15,8 @@ tags:
 category: 个人记录
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/ziwojieshao/self introduction
 ---
 
 <!--

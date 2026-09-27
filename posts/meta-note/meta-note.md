@@ -22,6 +22,8 @@ aiSummary:
     - "不用急着解释，先随便看看"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/meta-note/meta-note
 ---
 
 Hello！正在看着这段文字的你，你好啊！

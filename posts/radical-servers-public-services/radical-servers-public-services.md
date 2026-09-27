@@ -16,6 +16,8 @@ tags:
 category: 工具与资源
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/radical-servers-public-services/radical-servers-public-services
 ---
 
 我最近在 Riseup 的安全资源里翻到一页很长的名单

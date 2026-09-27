@@ -23,6 +23,8 @@ aiSummary:
 alias: ""
 sourceLink: https://anotherdayu.com/2024/5962/
 
+lang: zh-Hans
+translationKey: posts/blog-author-9-questions-answer/blog-author-9-questions-answer
 ---
 
 这篇是给 Another Dayu 那份博客作者问卷的答案

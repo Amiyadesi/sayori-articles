@@ -23,6 +23,8 @@ aiSummary:
     - "把备份和恢复演练当成上线步骤的一部分"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/selfhost-vaultwarden-on-2c2g/selfhost-vaultwarden-on-2c2g
 ---
 
 Vaultwarden 大概是最适合放在 2C2G 小服务器上的服务之一

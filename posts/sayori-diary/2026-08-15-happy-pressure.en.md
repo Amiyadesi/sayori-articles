@@ -12,6 +12,7 @@ tags:
 lang: en
 author: Sayori
 comment: true
+translationKey: posts/sayori-diary/2026-08-15-happy-pressure
 ---
 
 Have you ever felt like the whole world is telling you, "You should be happier!"?

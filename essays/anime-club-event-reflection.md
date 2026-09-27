@@ -13,6 +13,8 @@ tags:
   - 校园
 category: 日常回声
 draft: false
+lang: zh-Hans
+translationKey: essays/anime-club-event-reflection
 ---
 
 目前可以说是emmm，基本上就是单纯的观赏年轻人的热情了？（有点感慨？）不过自己也确实还是不怎么敢参加这种东西，看来还是不是那种人吗（有点沮丧?），不过既然又来了了吗，好像也还行？至少有一张照片了（有点高兴）然后也顺势所谓的集邮，至少目前来看，也算是比较新鲜的体验了😋

@@ -23,6 +23,8 @@ aiSummary:
     - "从开往、萌备和十年之约认识个人站社区"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/free-domain-and-web-community/free-domain-and-web-community
 ---
 
 上一篇写了怎么从 GitHub、Cloudflare Pages、Mizuki 和 Obsidian 搭一个自己的博客

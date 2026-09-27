@@ -16,6 +16,8 @@ tags:
 category: 建站与自托管
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/geoscore-2-4-guide/geoscore-2-4-guide
 ---
 
 # GeoScore 2.4.5：一个站长用来查自己网站到底缺什么的工具

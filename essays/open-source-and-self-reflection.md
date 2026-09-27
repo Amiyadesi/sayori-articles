@@ -13,6 +13,8 @@ tags:
   - 独立游戏
 category: 日常回声
 draft: false
+lang: zh-Hans
+translationKey: essays/open-source-and-self-reflection
 ---
 
 关于看到了大佬分享的gemini gem 工作流，确实很强，而且人家也是热衷于开源并且做出了成果，我虽然声称也想要开源，不过我吗....估计也有成果，那个懒得维护交给AI的网站？或许我可以尝试写写文章在5月1日左右......

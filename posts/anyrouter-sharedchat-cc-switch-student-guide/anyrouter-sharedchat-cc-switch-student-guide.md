@@ -24,6 +24,8 @@ aiSummary:
     - "配合视频把注册、领额度和配置过程走一遍"
 alias: ""
 
+lang: zh-Hans
+translationKey: posts/anyrouter-sharedchat-cc-switch-student-guide/anyrouter-sharedchat-cc-switch-student-guide
 ---
 
 这篇是给视频补一个文字版
