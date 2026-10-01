@@ -91,51 +91,7 @@
 			"Someone is reading this paper",
 			"Go for a walk if the weather is nice",
 			"Don't forget breakfast"
-		],
-		"hero": {
-			"eyebrow": "Indie game developer · Godot",
-			"tagline": "I make Godot indie games about time, multi-window play, and stories you uncover by solving puzzles.",
-			"primaryCta": {
-				"label": "Play Wake Up at the Border",
-				"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
-			},
-			"secondaryCta": {
-				"label": "Read the devlogs",
-				"href": "https://blog.sayori.org/"
-			}
-		},
-		"projects": {
-			"title": "Games & tools",
-			"intro": "From an award-winning Jam game to experiments with time, echoes, and tools.",
-			"items": [
-				{
-					"title": "Wake Up at the Border",
-					"description": "A Jam-winning mix of narrative puzzles, dialogue, and combat.",
-					"href": "https://amiya-desi.itch.io/wake-up-at-the-border",
-					"badge": "2nd place, themed track · GodotHub Jam #3"
-				},
-				{
-					"title": "DelayTrace",
-					"description": "Record a run, then solve puzzles alongside its delayed echo.",
-					"href": "https://amiya-desi.itch.io/delaytrace"
-				},
-				{
-					"title": "TimeRewindLinker",
-					"description": "Rewind old moves and connect their echoes to crack puzzles.",
-					"href": "https://amiya-desi.itch.io/time-rewind-linker"
-				},
-				{
-					"title": "Enhanced Save System",
-					"description": "A Godot save plugin with GDScript and C# implementations.",
-					"href": "https://github.com/Amiyadesi/enhance_save_system"
-				},
-				{
-					"title": "GeoScore",
-					"description": "Checks SEO/GEO signals and points to fixes you can verify.",
-					"href": "https://geo.sayori.org/"
-				}
-			]
-		}
+		]
 	},
 	"profile": {
 		"ariaLabel": "About Amiya",
