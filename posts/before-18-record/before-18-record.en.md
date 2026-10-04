@@ -41,7 +41,7 @@ Back then, I was basically chubby from childhood, never thought about changing, 
 
 ## The Day I Turned 16, I Decided to Lose Weight
 
-Then the turning point came one afternoon when I was sixteen. Maybe it was the exhaustion from climbing stairs that sparked the thought, but I decided to lose weight.
+Then the turning point came one afternoon when I was sixteen. Maybe it was the exhaustion from climbing stairs that sparked the thought, but I decided to lose weight. ^af4158
 
 It's strange, but in my first year of high school, I was given insulting nicknames, but I didn't really care at the time. Sometimes I'd even play along with my own jokes to fit in. I did have a few small outbursts, but they didn't really help, and all of that disappeared when we chose our majors and re-grouped in the second year.
 
