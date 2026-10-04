@@ -13,6 +13,8 @@ tags:
 category: 个人记录
 draft: false
 alias: ""
+lang: zh-Hans
+translationKey: posts/from-90-to-66.7/from-90-to-66.7
 ---
 # 一场初中的演讲
 
