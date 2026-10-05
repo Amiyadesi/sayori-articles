@@ -34,4 +34,4 @@ Anyway, I'm getting sidetracked. In short, Amiya_desi's little site has official
 
 Future plans:
 
-- Organize valuable Obsidian notes into articles.
+- Organize valuable Obsidian notes into articles

@@ -30,7 +30,7 @@ The difference is pretty clear. There used to be a pile of little decorative car
 
 The More menu still has lots of my earlier experiments. By the time this post goes live, though, LDC Shop and the webmaster toolkit should be gone, and Guestbook, Friends, Travellings, and Support should all be up in the top navigation.
 
-One new thing is this little Settings page, where you can turn on two optional features. Your choices stay in your browser through localStorage, so the next visit keeps the settings you picked before. Maybe I'll put some more menus here someday, haha.
+One new thing is this little Settings page, where you can turn on two optional features. Your choices stay in your browser through localStorage, so the next visit keeps the settings you picked before. Maybe I'll add a few Easter eggs here someday, haha.
 
 ![[Pasted image 20261005173259.png]]
 
