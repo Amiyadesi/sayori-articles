@@ -34,4 +34,4 @@ Ohayo Sayori！
 
 后续计划：
 
-- 把有价值的 Obsidian 笔记整理成文章。
+- 把有价值的 Obsidian 笔记整理成文章

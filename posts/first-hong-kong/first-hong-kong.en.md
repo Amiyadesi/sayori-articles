@@ -120,7 +120,9 @@ From now on, I will mainly use the Hong Kong iPhone for external services and th
 
 CSL failed to register WhatsApp, but the 3HK eSIM worked. Later I also registered one with my `+86` number. A WhatsApp app can hold at most two numbers at once, and I no longer feel like testing whether the problem was CSL or something else.
 
-A few days after registering WhatsApp, I received a risk-control notice. It was solvable by following customer service's instructions. At first they asked me to use a verification code, but for some reason the code did not work, so I had to scan a QR code. It finally verified successfully.
+~~A few days after registering WhatsApp, I received a risk-control notice. It was solvable by following customer service's instructions. At first they asked me to use a verification code, but for some reason the code did not work, so I had to scan a QR code. It finally verified successfully.~~
+
+It later turned out to be a scam. They were trying to link my WhatsApp account to their computer, sending all sorts of domains and tricking me into letting them log in remotely. Luckily, my accounts were brand-new and had no contacts... Still got scammed pretty badly, though...
 
 # Travel, Food, and Sights
 
@@ -189,11 +191,11 @@ The beef tendon and brisket rice was also pretty good. I think I ate at this res
 
 The heroine looks like the protagonist from *Celeste*. The pixel art was really good (happy).
 
-![[IMG_20260820_115950.jpg|center|caption=A Hong Kong street bus painted with a pixel-art character]]
+![[IMG_20260820_115950 1.jpg|center|caption=A Hong Kong street bus painted with a pixel-art character]]
 
 :::
-![[IMG_20260820_115723.jpg|center|caption=The sesame pork-and-egg bun I bought before leaving Hong Kong, already bitten once]]
-![[IMG_20260820_121230.jpg|center|caption=The words “Red Bean / 红豆” on a red-bean bakery package]]
+![[IMG_20260820_115723 1.jpg|center|caption=The sesame pork-and-egg bun I bought before leaving Hong Kong, already bitten once]]
+![[IMG_20260820_121230 1.jpg|center|caption=The words “Red Bean / 红豆” on a red-bean bakery package]]
 :::
 
 Before leaving Hong Kong, I bought a pork-and-egg bun. It was genuinely delicious. This was a small bit of happiness before leaving, and it was cheap too: 10 HKD, about half the price of a KFC breakfast in mainland China, with just as much food.
