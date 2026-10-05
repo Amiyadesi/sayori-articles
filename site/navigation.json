@@ -1,72 +1,57 @@
 {
   "links": [
     {
-      "preset": "Home"
-    },
-    {
-      "name": "羊毛 / Deals",
-      "url": "/deals/",
-      "icon": "material-symbols:redeem"
+      "name": "文章",
+      "url": "/"
     },
     {
       "preset": "Archive"
     },
     {
-      "preset": "Anime"
+      "preset": "About"
     },
     {
-      "preset": "Timeline"
-    },
-    {
-      "name": "随笔",
-      "url": "/essays/",
-      "icon": "material-symbols:ink-pen"
+      "name": "留言",
+      "url": "/guestbook/"
     },
     {
       "preset": "Friends"
     },
     {
-      "name": "留言",
-      "url": "/guestbook/",
-      "icon": "material-symbols:chat"
+      "name": "开往",
+      "url": "https://www.travellings.cn/go.html",
+      "external": true
+    },
+    {
+      "name": "赞助",
+      "url": "/sponsor/"
     },
     {
       "name": "更多",
       "url": "#",
-      "icon": "material-symbols:dashboard",
       "children": [
         {
-          "name": "关于",
-          "url": "/about/",
-          "icon": "material-symbols:person"
+          "preset": "Anime"
         },
         {
-          "name": "开往",
-          "url": "https://www.travellings.cn/go.html",
-          "external": true,
-          "icon": "material-symbols:train"
+          "preset": "Timeline"
+        },
+        {
+          "name": "随笔",
+          "url": "/essays/"
         },
         {
           "name": "资源索引",
-          "url": "/posts/resource-index/",
-          "icon": "material-symbols:bookmarks"
-        },
-        {
-          "name": "赞助",
-          "url": "/sponsor/",
-          "icon": "material-symbols:favorite"
+          "url": "/posts/resource-index/"
         },
         {
           "name": "主入口",
           "url": "https://sayori.org/",
-          "external": true,
-          "icon": "material-symbols:home-pin"
+          "external": true
         },
         {
-          "name": "LDC 商店",
-          "url": "https://ldc.sayori.org/",
-          "external": true,
-          "icon": "material-symbols:storefront"
+          "name": "设置",
+          "url": "/settings/"
         }
       ]
     }
