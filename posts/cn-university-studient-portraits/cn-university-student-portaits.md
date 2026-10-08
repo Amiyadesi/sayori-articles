@@ -12,7 +12,7 @@ tags:
   - 大学生活
 category: 个人记录
 draft: false
-alias: ""
+alias: cn-university-student-portraits
 lang: zh-Hans
 translationKey: posts/cn-university-studient-portraits/cn-university-student-portaits
 ---
