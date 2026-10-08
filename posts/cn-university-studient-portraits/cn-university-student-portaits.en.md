@@ -12,7 +12,7 @@ tags:
   - University Life
 category: Personal Notes
 draft: false
-alias: ""
+alias: cn-university-student-portraits
 lang: en
 translationKey: posts/cn-university-studient-portraits/cn-university-student-portaits
 ---
