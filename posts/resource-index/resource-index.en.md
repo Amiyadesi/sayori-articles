@@ -2,9 +2,9 @@
 title: My Creative Resources Index
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-14
+lastEdited: 2026-10-14
+updateCount: 3
 description: A public resource index compiled from two browser bookmark bars, focusing on game development, assets, art, music, AI, and learning.
 image: ""
 tags:
@@ -25,6 +25,9 @@ aiSummary:
     - "Treat it as a search entry point; specific licenses and quality still need to be verified by yourself"
 
 ---
+
+> **No longer maintained.** This resource index is kept as an archive and will not be updated. For new resources and ongoing updates, visit the [resource navigation site](https://nav.sayori.org/).
+
 This is an exported public resource index from my Chrome / Edge bookmarks, mainly featuring external creative resources and tool libraries.
 
 Organization rules:

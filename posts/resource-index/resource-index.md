@@ -2,9 +2,9 @@
 title: 我的创作资源索引
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-14
+lastEdited: 2026-10-14
+updateCount: 5
 description: 从两个浏览器收藏栏整理出来的公开资源索引，偏游戏开发、素材、美术、音乐、AI 和学习。
 image: ""
 tags:
@@ -25,6 +25,8 @@ aiSummary:
 lang: zh-Hans
 translationKey: posts/resource-index/resource-index
 ---
+
+> **已停止维护**：这篇资源索引已不再更新，仅作为存档保留。新资源和后续更新主要整理在 [资源导航站](https://nav.sayori.org/)，请到那里查看。
 
 这篇是从 Chrome / Edge 两份收藏栏导出的公开版资源索引，主打外部创作资源和工具库
 
