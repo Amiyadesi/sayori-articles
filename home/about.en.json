@@ -194,42 +194,87 @@
 		"links": [
 			{
 				"label": "GitHub",
+				"handle": "Amiyadesi",
 				"href": "https://github.com/Amiyadesi"
 			},
 			{
 				"label": "Blog",
+				"handle": "blog.sayori.org",
 				"href": "https://blog.sayori.org/"
 			},
 			{
 				"label": "itch.io",
+				"handle": "amiya-desi",
 				"href": "https://amiya-desi.itch.io/"
 			},
 			{
 				"label": "Bilibili",
+				"handle": "3546919890585725",
 				"href": "https://space.bilibili.com/3546919890585725"
 			},
 			{
 				"label": "YouTube",
+				"handle": "@Amiya_desi",
 				"href": "https://www.youtube.com/@Amiya_desi"
 			},
 			{
 				"label": "X",
-				"href": "https://x.com/KirstAdali78973"
+				"handle": "@amiyadesiwa",
+				"href": "https://x.com/amiyadesiwa"
 			},
 			{
 				"label": "Linux.do",
+				"handle": "Amiya_desi",
 				"href": "https://linux.do/u/Amiya_desi"
 			},
 			{
+				"label": "Bangumi",
+				"handle": "amiya_desi",
+				"href": "https://bangumi.tv/user/amiya_desi"
+			},
+			{
+				"label": "Reddit",
+				"handle": "u/Amiya_desi",
+				"href": "https://www.reddit.com/user/Amiya_desi/"
+			},
+			{
+				"label": "Facebook",
+				"handle": "Profile",
+				"href": "https://www.facebook.com/share/14uDD8r6f4x/?mibextid=wwXIfr"
+			},
+			{
+				"label": "Discord community",
+				"handle": "amiya_desi",
+				"href": "https://discord.gg/AkWYHWne"
+			},
+			{
+				"label": "Telegram",
+				"handle": "@Amiya_desi",
+				"href": "https://t.me/Amiya_desi"
+			},
+			{
+				"label": "RSS",
+				"handle": "Subscribe to articles",
+				"href": "https://blog.sayori.org/rss.xml"
+			},
+			{
+				"label": "QQ community",
+				"handle": "1067973207",
+				"href": "https://blog.sayori.org/about/"
+			},
+			{
 				"label": "NodeLoc",
+				"handle": "amiya_desi",
 				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
 			},
 			{
 				"label": "Guestbook",
+				"handle": "Write a note",
 				"href": "https://blog.sayori.org/guestbook/"
 			},
 			{
 				"label": "Support",
+				"handle": "Support my work",
 				"href": "https://blog.sayori.org/sponsor/"
 			}
 		]

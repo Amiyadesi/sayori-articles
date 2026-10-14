@@ -40,10 +40,9 @@
 			},
 			{
 				"num": "02",
-				"title": "Bilibili",
-				"desc": "— videos, games, and tinkering notes",
-				"href": "https://space.bilibili.com/3546919890585725",
-				"external": true
+				"title": "Social links",
+				"desc": "— videos, projects, and my accounts",
+				"href": "/social/"
 			},
 			{
 				"num": "03",
@@ -224,7 +223,7 @@
 				},
 				{
 					"label": "X",
-					"href": "https://x.com/KirstAdali78973"
+					"href": "https://x.com/amiyadesiwa"
 				},
 				{
 					"label": "Linux.do",

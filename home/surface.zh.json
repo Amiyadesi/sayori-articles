@@ -40,10 +40,9 @@
 			},
 			{
 				"num": "02",
-				"title": "Bilibili",
-				"desc": "— 视频、游戏和折腾记录",
-				"href": "https://space.bilibili.com/3546919890585725",
-				"external": true
+				"title": "社交账号",
+				"desc": "— 视频、作品和各平台账号",
+				"href": "/social/"
 			},
 			{
 				"num": "03",
@@ -224,7 +223,7 @@
 				},
 				{
 					"label": "X",
-					"href": "https://x.com/KirstAdali78973"
+					"href": "https://x.com/amiyadesiwa"
 				},
 				{
 					"label": "Linux.do",
