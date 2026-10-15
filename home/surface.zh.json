@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya_desi｜Godot 独立游戏开发者",
-		"description": "Amiya_desi 用 Godot 开发独立游戏，专注时间机制、多窗口互动与叙事解谜。试玩获 GodotHub 第三届命题 Jam 赛道二等奖的《梦醒边界》，查看开发记录。",
+		"title": "Amiya_desi｜个人主页",
+		"description": "Amiya_desi 的个人主页，整理作品、项目记录与公开入口。",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,7 +29,7 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi · Godot 独立游戏开发者",
+		"title": "Amiya_desi",
 		"entryAriaLabel": "入口",
 		"entries": [
 			{
@@ -47,7 +47,7 @@
 			{
 				"num": "03",
 				"title": "关于我",
-				"desc": "— 独立开发者、作品与方向",
+				"desc": "— 个人介绍、作品与公开记录",
 				"href": "/about/"
 			},
 			{
@@ -71,8 +71,8 @@
 				"external": true
 			}
 		],
-		"marginNote": "做时间机制、多窗口互动与叙事解谜游戏",
-		"footerNotice": "Amiya_desi · Godot 独立游戏开发者",
+		"marginNote": "作品、项目与日常记录",
+		"footerNotice": "Amiya_desi",
 		"languageLink": {
 			"href": "../en/",
 			"label": "EN"
@@ -96,14 +96,14 @@
 		"ariaLabel": "关于 Amiya",
 		"backLabel": "← 返回",
 		"backAriaLabel": "返回主纸页",
-		"kicker": "03 / 独立开发者名片",
+		"kicker": "03 / 关于 Amiya_desi",
 		"name": "Amiya_desi",
-		"intro": "我是 Amiya_desi，一名以独立游戏为创作主线的开发者；我主要使用 Godot 制作游戏，也制作网站、工具并分享实践",
+		"intro": "我是 Amiya_desi，这里整理作品、项目记录和一些公开内容。",
 		"columns": [
 			{
 				"title": "创作与实践",
 				"items": [
-					"独立游戏开发：Godot、GDScript、C#、时间机制、多窗口交互、叙事与解谜原型",
+					"项目实践：游戏、网站、工具与实验性作品",
 					"网站与工具：个人主站、GeoScore、浏览器工具、公开代码与内容工作流",
 					"建站与自托管：Docker、VPS、Cloudflare、静态站和博客内容管线"
 				]
@@ -169,8 +169,8 @@
 			}
 		],
 		"learning": [
-			"Godot 游戏与插件开发",
-			"时间机制与多窗口交互",
+			"游戏与软件开发",
+			"项目设计与原型实践",
 			"网站与工具开发",
 			"服务器、自托管与 Cloudflare",
 			"n8n、AI 辅助开发与内容管线",
@@ -181,15 +181,15 @@
 			"items": [
 				{
 					"question": "sayori.org 是什么",
-					"answer": "这是独立软件开发者 Amiya_desi 的个人主站，用来展示 Godot 游戏、网站工具、开源项目、博客和公开账号"
+					"answer": "这是 Amiya_desi 的个人主页，用来整理作品、项目记录、文章和公开入口"
 				},
 				{
 					"question": "博客主要写什么",
-					"answer": "blog.sayori.org 记录 Godot 游戏开发、建站与自托管、AI 工作流、工具资源、项目复盘和创作学习过程"
+					"answer": "blog.sayori.org 记录项目实践、网站与工具、工作流程和学习笔记"
 				},
 				{
-					"question": "你现在最重要的目标是什么",
-					"answer": "当前最重要的目标是完成并发布自己的第一款 Steam 游戏；其他游戏实验、网站工具和文章会随着实际项目与学习进度继续积累"
+					"question": "这里会更新什么",
+					"answer": "作品、项目和公开记录会根据实际进展持续更新"
 				},
 				{
 					"question": "可以从哪里联系或继续了解",

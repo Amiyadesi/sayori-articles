@@ -1,7 +1,7 @@
 {
 	"meta": {
-		"title": "Amiya_desi — Godot Indie Game Developer",
-		"description": "I make Godot indie games about time mechanics, multi-window play, and narrative puzzles. Play my GodotHub Jam runner-up and follow the devlogs.",
+		"title": "Amiya_desi | Personal site",
+		"description": "Amiya_desi's personal site for projects, selected work, and public notes.",
 		"themeColor": "#a8d4e6"
 	},
 	"music": {
@@ -29,7 +29,7 @@
 		"guestbookPath": "/guestbook/"
 	},
 	"surface": {
-		"title": "Amiya_desi · Godot Indie Game Developer",
+		"title": "Amiya_desi",
 		"entryAriaLabel": "More from Amiya",
 		"entries": [
 			{
@@ -47,7 +47,7 @@
 			{
 				"num": "03",
 				"title": "About me",
-				"desc": "— independent developer, projects, and direction",
+				"desc": "— profile, work, and public notes",
 				"href": "/about/"
 			},
 			{
@@ -71,8 +71,8 @@
 				"external": true
 			}
 		],
-		"marginNote": "Time mechanics, multi-window play, and narrative puzzles",
-		"footerNotice": "Amiya_desi · Godot indie game developer",
+		"marginNote": "Projects, work, and everyday notes",
+		"footerNotice": "Amiya_desi",
 		"languageLink": {
 			"href": "../zh/",
 			"label": "中文"
@@ -96,14 +96,14 @@
 		"ariaLabel": "About Amiya",
 		"backLabel": "← Back",
 		"backAriaLabel": "Back to main page",
-		"kicker": "03 / independent developer card",
+		"kicker": "03 / About Amiya_desi",
 		"name": "Amiya_desi",
-		"intro": "I'm Amiya_desi, an independent developer focused on indie games; I mainly use Godot and also build websites, tools, and public project notes",
+		"intro": "I'm Amiya_desi. This site gathers my projects, work, and public notes.",
 		"columns": [
 			{
 				"title": "Creative practice",
 				"items": [
-					"Indie game development: Godot, GDScript, C#, time mechanics, multi-window interaction, narrative, and puzzle prototypes",
+					"Projects: games, websites, tools, and small experiments",
 					"Websites and tools: personal sites, GeoScore, browser tools, public code, and content workflows",
 					"Self-hosting: Docker, VPS, Cloudflare, static sites, and blog content pipelines"
 				]
@@ -169,8 +169,8 @@
 			}
 		],
 		"learning": [
-			"Godot games and plugin development",
-			"Time mechanics and multi-window interaction",
+			"Games and software projects",
+			"Project design and prototyping",
 			"Website and tool development",
 			"Servers, self-hosting, and Cloudflare",
 			"n8n, AI-assisted development, and content pipelines",
@@ -181,15 +181,15 @@
 			"items": [
 				{
 					"question": "What is sayori.org",
-					"answer": "It is the personal site of independent developer Amiya_desi, presenting Godot games, websites and tools, open-source projects, writing, and public links"
+					"answer": "Amiya_desi’s personal site, bringing together work, project notes, writing, and public links."
 				},
 				{
 					"question": "What does the blog cover",
-					"answer": "blog.sayori.org records Godot development, websites and self-hosting, AI workflows, tools and resources, project retrospectives, and creative learning"
+					"answer": "The blog gathers project notes, websites and tools, workflows, and lessons from making things."
 				},
 				{
-					"question": "What is your current main goal",
-					"answer": "My main goal is to complete and publish my first Steam game; other experiments, web tools, and articles will continue with real project and learning progress"
+					"question": "What can I find here",
+					"answer": "Projects, work, and public notes are added as they develop."
 				},
 				{
 					"question": "How can I contact or learn more",

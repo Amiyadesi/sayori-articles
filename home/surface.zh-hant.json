@@ -1,12 +1,12 @@
 {
 	"meta": {
-		"title": "Amiya_desi｜Godot 獨立遊戲開發者",
-		"description": "Amiya_desi 使用 Godot 製作獨立遊戲，專注時間機制、多視窗互動與敘事解謎。試玩獲 GodotHub 第三屆命題 Jam 賽道二等獎的《夢醒邊界》，閱讀開發記錄。"
+		"title": "Amiya_desi｜個人首頁",
+		"description": "Amiya_desi 的個人首頁，整理作品、專案記錄與公開入口。"
 	},
 	"surface": {
-		"title": "Amiya_desi · Godot 獨立遊戲開發者",
-		"marginNote": "製作時間機制、多視窗互動與敘事解謎遊戲",
-		"footerNotice": "Amiya_desi · Godot 獨立遊戲開發者",
+		"title": "Amiya_desi",
+		"marginNote": "作品、專案與日常記錄",
+		"footerNotice": "Amiya_desi",
 		"entryAriaLabel": "Amiya 的其他入口",
 		"foldHint": "翻翻看？",
 		"foldAriaLabel": "翻頁",
