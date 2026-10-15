@@ -1,22 +1,22 @@
 {
 	"meta": {
-		"title": "About Amiya_desi — Godot Indie Game Developer",
-		"description": "Meet Amiya_desi, a Godot indie developer drawn to time mechanics, multi-window play, and narrative puzzles — now working toward a first Steam game.",
+		"title": "About Amiya_desi",
+		"description": "Amiya_desi’s personal introduction, selected work, and project notes.",
 		"themeColor": "#a8d4e6"
 	},
 	"letter": {
 		"ariaLabel": "About Amiya_desi",
 		"backLabel": "← Back to the desk",
 		"backHref": "/",
-		"kicker": "03 / indie developer profile",
+		"kicker": "About Amiya_desi",
 		"dateStamp": "A longer introduction",
 		"title": "Hi, I'm Amiya_desi",
-		"intro": "I'm Amiya_desi, an indie developer and student who focuses on games. I use Godot to explore time-based mechanics, multi-window interactions, and narrative experiences. I also build websites and tools, and share what I learn along the way.",
+		"intro": "I'm Amiya_desi. This page gathers projects, work, notes from the process, and useful public links.",
 		"sections": [
 			{
 				"heading": "Creative practice",
 				"paragraphs": [
-					"Indie game development: I mainly use Godot and GDScript, with some C# experience. Small games, game jams, and longer projects help me practice mechanics, implementation, and iteration.",
+					"Games: From small experiments and game jams to longer projects, I document how ideas take shape in playable builds.",
 					"Websites and tools: I build personal sites, GeoScore, and browser tools—turning real problems into things people can use and share.",
 					"Self-hosting: I use Docker, VPSs, and Cloudflare to deploy and maintain personal services, and keep the lessons public.",
 					"Content and workflows: I write articles, make videos, curate resources, and use tools like n8n to organize and share them—leaving more time for making things and talking with people."
@@ -91,10 +91,9 @@
 				]
 			},
 			{
-				"heading": "Current direction",
+				"heading": "Updates",
 				"paragraphs": [
-					"My main goal is to finish and publish my first Steam game.",
-					"I want to carry what I learn from small experiments into a more complete project while continuing to practice implementation, debugging, and judgment. Websites, tools, and public notes will follow the real projects and interests that come with that work."
+					"Projects, work, and related notes are added as they develop."
 				]
 			},
 			{
@@ -170,15 +169,15 @@
 		"items": [
 			{
 				"question": "What is sayori.org",
-				"answer": "It's the personal site of indie developer Amiya_desi, featuring Godot games, websites and tools, open-source projects, writing, and public links."
+				"answer": "Amiya_desi’s personal site, bringing together work, project notes, writing, and public links."
 			},
 			{
 				"question": "What does the blog cover",
 				"answer": "blog.sayori.org covers Godot development, websites and self-hosting, AI workflows, tools and resources, project retrospectives, and creative learning."
 			},
 			{
-				"question": "What is your current main goal",
-				"answer": "My main goal is to finish and publish my first Steam game. Other experiments, web tools, and articles will grow alongside real projects and learning."
+				"question": "What can I find here",
+				"answer": "Projects, work, and related notes are added as they develop."
 			},
 			{
 				"question": "How can I contact you or learn more",
