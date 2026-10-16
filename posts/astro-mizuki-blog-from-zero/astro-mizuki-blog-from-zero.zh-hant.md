@@ -1,390 +1,266 @@
 ---
-title: 從零搭一個自己的博客：GitHub、Cloudflare Pages、Mizuki 和 Obsidian
+title: "從零搭一個簡潔博客：GitHub、Cloudflare Pages 和可選的 Obsidian"
 published: 2026-06-19
 created: 2026-06-19
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 5
-description: 從註冊 GitHub 和 Cloudflare 開始，用我的 Obsidian 博客模板寫文章，再用 GitHub Actions 發佈到 Cloudflare Pages。
+updated: 2026-10-16
+lastEdited: 2026-10-16
+updateCount: 6
+description: "使用 Sayori Lite 完整模板，通過 Cloudflare Pages 連接 GitHub 搭建簡潔博客。按文件夾寫 Markdown 即可發佈，Obsidian 和 Token 發佈均為可選。"
 image: ""
 tags:
-  - 教程
+  - 實操教程
+  - 建站與Cloudflare
   - Astro
-  - Cloudflare
   - Obsidian
-category: 建站與自託管
+category: 教程教學
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "從 GitHub 和 Cloudflare Pages 開始搭建博客"
-    - "用 Mizuki 模板和 Obsidian 管理文章源文件"
-    - "通過 GitHub Actions 自動構建和發佈"
 alias: ""
-
 lang: zh-Hant
 translationKey: posts/astro-mizuki-blog-from-zero/astro-mizuki-blog-from-zero
 ---
 
-# 從零搭一個自己的博客：GitHub、Cloudflare Pages、Mizuki 和 Obsidian
+# 從零搭一個簡潔博客：GitHub、Cloudflare Pages 和可選的 Obsidian
 
-> [!NOTE]
-> 現在是 AI 時代，Node.js、Git、pnpm 這些環境如果裝不明白，完全可以讓AI幫你裝好，下載一個opencode或者trae的免費AI就能實現了，以及包括拉取github倉庫和配置之類的，不過呢，這樣的話就沒有意思了，雖然站長本人也是這麼做的，但是既然自己要出教程的話，還是出一個能手操的吧
-> 
-> 說個有意思的，站長在寫這個的時候，才知道原來要安裝pnpm，之前都是直接讓codex幫我部署好了說是，不過這也挺好的，通過寫文章什麼的，深入的瞭解AI幫我搞出來的東西啊！
+這篇教程終於也該收拾一下了。之前的版本圍繞 Mizuki、Obsidian 和一套本地同步腳本來寫，後來我的博客已經改成了現在的簡潔樣子，教程卻還停在原地。照著舊步驟做，需要補主題、改目錄，還得處理插件和部署配置，實在不適合作為第一篇建站教程。
 
+所以這次我把它整理成了一個可以直接使用的完整模板，叫 **Sayori Lite · 我的書桌**。保留現在博客的暖紙色、橄欖綠鏈接和少量珊瑚色，首頁直接列文章，正文留出舒服的閱讀空間。
 
+這次先把網站搭起來，再考慮自己喜歡用什麼工具寫。只用 GitHub 網頁也能發佈；Obsidian 是我推薦的寫作方式，但不是必裝的東西。
 
-做完以後，你會有：
+> 本文按 2026 年 10 月 16 日的模板和官方文檔重寫。舊文章地址與模板倉庫地址保留，舊版截圖和 PowerShell 插件步驟不再適用。
 
-```text
-GitHub 仓库
-Cloudflare Pages 项目
-Obsidian 写作目录
-Astro/Mizuki 博客
-GitHub Actions 自动部署
-```
+## 先準備兩個賬號
 
-最後打開的地址大概長這樣：
+需要 [GitHub](https://github.com/signup) 和 [Cloudflare](https://dash.cloudflare.com/sign-up)。GitHub 存放網站程序和文章，Cloudflare Pages 負責構建、託管網站，並提供一個 `pages.dev` 地址。初步站點不需要服務器，也不需要先買域名。
+
+默認路線是：
 
 ```text
-https://你的项目名.pages.dev
+在 GitHub 创建自己的模板仓库
+    ↓
+Cloudflare Pages 连接这个仓库
+    ↓
+写 Markdown，提交到 main
+    ↓
+Cloudflare 自动构建并更新网站
 ```
 
-![[Pasted image 20260620202027.png]]
+**這條路線不用 Cloudflare API Token。** 寫文章並不需要額外配置發佈密鑰；只有想改成 GitHub Actions 上傳時，才需要後文的 Token。
 
-## 先註冊Github和Cloudflare
+## 用模板創建自己的倉庫
 
-如果你沒有這兩個賬號，那麼還是最好註冊了好，github和cloudflare，可都是兩個著名的賽博大善人啊！而且github的賬號一般你註冊的越早越好，能享受很多福利呢！
+模板仍然在這個地址，名字暫時沒有改，舊鏈接也能繼續用：
 
-先註冊 GitHub：
+[Sayori Lite 模板倉庫](https://github.com/Amiyadesi/astro-mizuki-blog-from-zero)
 
-[Sign up for GitHub · GitHub](https://github.com/signup?return_to=%2F&source=login)
+打開後點擊 **Use this template → Create a new repository**，Owner 選擇自己的賬號，倉庫名例如 `my-blog`。不要把作者的倉庫地址直接當成自己的發佈目標。
 
-GitHub 用來放博客倉庫，還可以用Action來實現提交後自動上傳的工作流
-
-如果註冊不了，可以嘗試切換節點，切換無痕瀏覽器，以及切換手機註冊，就比如站長最後就是在手機上註冊的QAQ~~*前面就是我的步奏了哈哈
-
-再註冊 Cloudflare：
-
-[https://dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up)
-
-這個註冊就比較方便了，站長拿隨便註冊的outlook郵箱都可以註冊，當真是cf大善人
-
-Cloudflare Pages 用來託管博客。它會把構建好的靜態文件放到 Cloudflare 的網絡上，然後給你一個 `pages.dev` 域名
-
-[https://github.com/zhuima/awesome-cloudflarE](https://github.com/zhuima/awesome-cloudflarE)，這裏還有一份github上14kstar的cf利用指北，推薦各位也可以收藏起來哦
-
-
-## 安裝本地工具
-
-這幾個工具都從官網下：
-
-- Node.js：[https://nodejs.org/](https://nodejs.org/)
-- pnpm：[https://pnpm.io/installation](https://pnpm.io/installation)
-- Git：[https://git-scm.com/downloads](https://git-scm.com/downloads)
-- Obsidian：[https://obsidian.md/download](https://obsidian.md/download)
-
-裝完以後，打開終端檢查：
-
-```bash
-node -v
-git -v
-pnpm -v
-```
-
-如果 `pnpm -v` 沒有結果，可以用 Corepack 開一下：
-
-```bash
-corepack enable
-corepack prepare pnpm@latest --activate
-```
-
-Windows 用戶建議先用 PowerShell。macOS 和 Linux 用戶用系統自帶終端就行
-
-## 新建 GitHub 倉庫
-
-打開 GitHub，點 New repository。
-
-倉庫名可以寫：
-
-```text
-my-blog
-```
-
-建好以後，把倉庫 clone 到本地：
-
-```bash
-git clone https://github.com/你的用户名/my-blog.git
-cd my-blog
-```
-
-![[Pasted image 20260621115726.png]]
-
-![[Pasted image 20260621115948.png]]
-
-## 放入我的 Obsidian 博客模板
-
-我這裏不是直接用 Mizuki 官方內容倉庫
-
-官方內容倉庫可以看這個：
-
-[https://github.com/matsuzaka-yuki/Mizuki-Content](https://github.com/matsuzaka-yuki/Mizuki-Content)
-
-但我平時是用 Obsidian 寫文章，所以我整理了一個自己的模板。這個模板把寫作源放在 `articles/`，再由腳本同步到 Mizuki 需要的目錄
-
-現在模板裏也保留了普通文章和隨筆兩種寫法。普通文章放在 `articles/posts/<slug>/<slug>.md`，會生成獨立頁面；比較短的記錄可以放在 `articles/essays/<slug>.md`，發佈後會彙總到隨筆頁裏。
-
-模板倉庫：
-
-[https://github.com/Amiyadesi/astro-mizuki-blog-from-zero](https://github.com/Amiyadesi/astro-mizuki-blog-from-zero)
-
-如果你直接使用這個模板，最後目錄應該像這樣：
+這次倉庫已經包含完整的 Astro 網站，不用另外下載 Mizuki，也不用連接我的文章倉庫。大致目錄如下：
 
 ```text
 my-blog/
   articles/
     posts/
-    friends/
+      hello-mizuki/
+        index.md
+        desk.svg
     spec/
-    site/
-    assets/
-  blog/
-    package.json
-    src/
-    scripts/
-  .github/
-    workflows/
-      deploy-cloudflare-pages.yml
+      about.md
+      friends.md
+    templates/
+      blog-post.md
+  public/
+    avatar.svg
+    favicon.svg
+  src/
+  site.config.mjs
+  package.json
+  pnpm-lock.yaml
+  .github/workflows/deploy-cloudflare-pages.yml
 ```
 
-這裏先記住一句話：
+`articles/` 是寫作目錄，`src/` 是網站程序。文章直接參與構建，沒有另一個需要手動同步的 `blog/` 目錄。
+
+## 讓 Cloudflare 連接 GitHub
+
+進入 Cloudflare 的 **Workers & Pages**，創建應用，選擇 **Pages**，再選擇導入現有 Git 倉庫。授權 Cloudflare 訪問自己剛創建的倉庫，能只授權這一個就只選這一個。
+
+如果看到的是讓你填寫 `wrangler deploy` 的 Workers 配置，請回到 Pages 入口。這份模板構建成普通靜態文件，不需要部署 Worker 或數據庫。
+
+構建設置填這些：
+
+| 設置 | 填寫內容 |
+| --- | --- |
+| Production branch | `main` |
+| Framework preset | `Astro` |
+| Root directory | 留空，使用倉庫根目錄 |
+| Build command | `pnpm run build` |
+| Build output directory | `dist` |
+| 環境變量 `NODE_VERSION` | `22` |
+| 環境變量 `PNPM_VERSION` | `11.0.8` |
+| 環境變量 `SITE_URL` | `https://你的项目名.pages.dev` |
+
+項目名會決定最初的 `pages.dev` 地址。保存並部署，等構建完成後打開 Cloudflare 顯示的網址。
+
+Pages 會按鎖文件安裝依賴。如果環境沒有正確提供 pnpm，模板 README 還給了包含固定版本 pnpm 安裝步驟的備用構建命令，先看日誌再改，不需要換一整個部署方案。
+
+`SITE_URL` 要填站點正式地址，因為 RSS、站點地圖和 canonical 都會用它。以後綁定自己的域名，要把這裡一起改掉再重新部署；不要填 GitHub 倉庫地址或後臺地址。
+
+## 改成自己的書桌
+
+在 GitHub 打開 `site.config.mjs`，點編輯，把站名、作者和簡介換成自己的。頭像文件放在 `public/`，配置裡寫對應的站內路徑。
+
+```js
+export default {
+  title: "我的书桌",
+  author: "你的名字",
+  description: "记录日常，也写一点认真整理过的东西。",
+  url: "",
+  lang: "zh-CN",
+  avatar: "/avatar.svg",
+  note: "慢慢写，慢慢读。",
+};
+```
+
+已經設置了 Cloudflare 的 `SITE_URL` 時，配置裡的 `url` 可以留空，環境變量優先。
+
+關於頁改 `articles/spec/about.md`，友鏈頁改 `articles/spec/friends.md`。友鏈直接寫 Markdown 鏈接和介紹就好，不需要再維護一個生成腳本。
+
+模板有歸檔、文章目錄、圖片放大、深淺主題、Pagefind 搜索、RSS 和站點地圖。正文使用系統字體，默認沒有音樂、寵物、評論後臺或統計服務。它先解決一個最基本的問題：讓自己的文章能舒服地被讀到。
+
+## 不裝本地工具，也能發第一篇
+
+在 GitHub 倉庫點 **Add file → Create new file**，文件名輸入：
 
 ```text
-articles/ 是你写东西的地方
-blog/ 是网站程序本体
+articles/posts/my-first-post/index.md
 ```
 
-以後不要去 `blog/src/content/posts` 手寫文章。那個目錄是同步產物
-
-## 用 Obsidian 打開 articles
-
-打開 Obsidian，選擇：
-
-```text
-打开本地文件夹
-```
-
-然後選：
-
-```text
-my-blog/articles
-```
-
-![[Pasted image 20260620204835.png]]
-
-這個目錄以後就是你的博客後臺
-
-常用位置先記這幾個：
-
-```text
-articles/posts/             文章
-articles/friends/           友链卡片
-articles/spec/about.md      关于页
-articles/spec/friends.md    友链页正文和申请说明
-articles/site/profile.json  头像、昵称、简介、社交链接
-articles/site/navigation.json 导航栏
-articles/site/banner.json   首页 Banner 和文案
-articles/assets/            头像、Banner、音乐、友链头像等素材
-```
-
-如果你嫌這些 JSON 不好改，可以直接在 Obsidian 搜索site-config-hub
-
-這裏把關於頁、友鏈頁、站點 JSON、素材目錄都集中放好了，改起來會順手一點
-
-## 本地插件啓動
-
-安裝完成後，在 Obsidian 設置中打開第三方插件頁面並啓用模板自帶的插件
-
-![[Pasted image 20260621211602.png]]
-
-啓動第三方插件，勾選默認存在的這個
-![[Pasted image 20260621200606.png]]
-
-然後左側邊欄就多了兩個東西
-
- `本地预览博客` 按鈕和 `一键推送按钮`
-![[Pasted image 20260621141446.png]]
-
-`本地预览博客`底層會自動做這幾件事：
-
-```text
-同步 articles -> blog 内容
-如果 blog 依赖还没装好，自动安装依赖
-本地 build 博客
-启动本地预览服务
-```
-
-所以第一次點本地預覽按鈕時，如果 `blog/node_modules` 還不存在，它會先在後臺補齊依賴，時間會久一點；後面再點就會快很多。
-
-它看起來是一個按鈕，但背後還是在調用本機的 Node、pnpm、Git 這些工具。區別是正常使用時不用你自己進命令行處理安裝、同步、構建和推送。
-
-啓動成功後，會自動給你跳轉到本地預覽地址，並且變成開啓態
-
-```text
-Blog: http://127.0.0.1:4173/
-```
-
-這個按鈕是開關：
-
-```text
-第一次点：启动预览并自动打开浏览器
-第二次点：停止预览服务
-```
-
-另外一個就是點擊後自動提交和上傳了
-
-## 寫第一篇文章
-
-在post下面新建一個文件夾放一個文章需要的東西，然後再新建一個文章，插入模板
-![[Pasted image 20260621202714.png]]
-![[Pasted image 20260621202726.png]]
-![[Pasted image 20260621203145.png]]
-
-然後就可以愉快的開始編寫了，常見 Markdown 和部分 Obsidian 語法支持解析都支持解析哦！
-
-默認模板裏 `draft: true` 是草稿。如果準備發佈，就改成 `draft: false`；如果這篇只是短記錄，不想單獨作爲一篇文章出現，可以把它作爲單個 Markdown 文件放進 `articles/essays/`。
-
-如果想放兩張或幾張並排的照片，也不用手寫 HTML，可以這樣寫：
+斜槓會幫你創建目錄。正文可以先用下面這份：
 
 ```md
-:::photo-grid
-![[left.png|左边照片说明]]
-![[right.png|右边照片说明]]
-:::
+---
+title: 我的第一篇文章
+description: 今天终于有了自己的博客。
+published: 2026-10-16
+updated: 2026-10-16
+draft: false
+category: 日常
+tags: [生活]
+---
+
+这里是第一段正文。不用重复写一级标题，页面会自动显示上面的 title。
+
+## 想记下的一件事
+
+这里继续写。
 ```
 
-圖片下面的說明會取 `|` 後面的文字，普通 Markdown 圖片也支持相同佈局：
+日期按自己實際寫作的時間改。寫完點 **Commit changes**，提交到 `main`。Cloudflare 檢測到提交後會自動構建，成功後就能在首頁看見文章。
+
+這裡的規則很簡單：每篇文章一個文件夾，名字用小寫英文、數字和連字符，正文統一叫 `index.md`。`my-first-post` 決定公開地址 `/posts/my-first-post/`；以後改標題不會改地址，改文件夾名則會。
+
+`draft: true` 是草稿，只有改成 `false` 才會生成頁面。發佈日期在未來的文章也會暫時排除，到了日期還需要再觸發一次構建，模板沒有附帶定時發佈服務。
+
+還有一點要記住：**公開倉庫裡的草稿原文也是公開的。** 草稿開關只控制網站輸出，不能拿來存私密筆記。
+
+## 圖片就放在文章旁邊
+
+把圖片上傳到同一篇文章的文件夾裡，然後這樣引用：
 
 ```md
-![说明](photo.png)
+![窗边的书桌](./desk.webp)
 ```
 
-電腦上會並排，手機上會自動變成一列。
+本地圖片由 Astro 處理，正文默認居中並限制顯示尺寸，點擊或者用鍵盤激活可以放大。不需要先申請圖床，也不用配置我的 R2 或 CDN。
 
-還有一種黑塊提示，適合放答案、劇透或者不想一眼看到的內容：
+儘量使用標準 Markdown。模板沒有複製我個人站裡的 Obsidian 雙鏈、塊嵌入、黑幕和相冊分組解析；舊文章遷移時，把這些寫法改成普通鏈接、引用和圖片。模板自帶的 Obsidian 設置也會優先生成標準 Markdown 圖片鏈接。
 
-```md
-这里有一个 {{spoiler:被遮住的内容|鼠标移上去会看到提示}}。
+## 推薦用 Obsidian，但不綁住它
+
+如果你平時就喜歡 Markdown，編輯器隨便選。想用 Obsidian 的話，可以這樣做：
+
+1. 安裝 Git，把自己新建的倉庫克隆到本地。也可以用 GitHub Desktop 登錄自己的賬號後克隆。
+2. 在 Obsidian 選擇“打開文件夾作為倉庫”，打開整個 `my-blog` 根目錄，不要只打開 `articles/`。
+3. 模板已經準備好核心 Templates 設置，模板目錄是 `articles/templates`。
+4. 在 `articles/posts/文章名/` 創建 `index.md`，運行“插入模板”，選擇 `blog-post`。
+5. 寫好後改標題、日期和 `draft`，提交併推送到 GitHub。
+
+倉庫根目錄作為 Obsidian 倉庫，是為了讓 Git 插件直接找到同一層的 Git 倉庫。附件默認放在當前文章旁邊；文件叫 `index.md` 沒關係，文章標題由屬性裡的 `title` 決定。
+
+想在 Obsidian 裡提交，可以從社區插件市場安裝作者為 **Vinzent** 的 **Git** 插件，插件 ID 是 `obsidian-git`。我沒有再往模板裡塞一個需要執行 PowerShell 的自制發佈插件。
+
+關於登錄，我更建議複用系統 Git 的認證。Windows 安裝 Git for Windows 時啟用 Git Credential Manager，第一次在倉庫目錄執行 `git push`，按瀏覽器提示登錄自己的 GitHub。完成後，桌面版 Obsidian Git 就可以使用系統 Git 已有的憑據，不用為這個模板自己註冊 OAuth App。
+
+GitHub Desktop 本身也是一種方便的瀏覽器登錄和提交方式，但它的登錄不代表 Obsidian Git 已經登錄。要用插件，仍先確認終端裡的 Git 能正常推送。macOS、Linux 和手機版的認證條件不同，按插件官方認證文檔配置，不把桌面經驗直接套過去。
+
+插件和登錄信息都由使用者自己安裝、授權。Cloudflare Token 不應該放進 Obsidian 配置，GitHub 的密碼、訪問令牌也不要寫進文章或提交到倉庫。
+
+## 想在本地看效果
+
+網頁編輯可以先用起來。需要實時預覽時，再安裝 Node.js 22.12 以上版本，然後在自己的倉庫根目錄運行：
+
+```sh
+npm install --global pnpm@11.0.8
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-發佈到博客後，鼠標移上去或者鍵盤選中時會顯示正文和提示；手機上點一下也能展開。
-## 同步和構建
+打開終端顯示的地址，默認是 `http://localhost:4321`。改 Markdown 後會自動刷新。
 
-點擊圖片中的按鈕就好了，前提是你前面已經配置了github的secret，這一套模板是自帶action的
-![[Pasted image 20260621203335.png]]
+搜索索引在構建時生成，想檢查搜索就運行：
 
-這個按鈕會把文章、配置和同步後的博客內容提交到 GitHub 並推送。推送成功後，不是你本機直接部署，而是 GitHub Actions 接着構建博客，再發布到 Cloudflare Pages。
-
-而關於怎麼配置，就在下面！
-
-## 創建 Cloudflare API Token
-
-打開 Cloudflare 的 API Token 頁面：
-
-[https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
-
-創建一個 Token，權限這樣就夠了
-
-![[Pasted image 20260621204437.png]]
-
-
-你需要保存三樣東西：
-
-```text
-CLOUDFLARE_ACCOUNT_ID
-CLOUDFLARE_API_TOKEN
-CLOUDFLARE_PROJECT_NAME
+```sh
+pnpm run build
+pnpm preview
 ```
 
-`CLOUDFLARE_ACCOUNT_ID` 在 Workers & Pages的右下角能看到，上面的圖裏就有（笑）
+這次打開預覽命令顯示的地址。普通寫作時不用每改一段就完整構建一次。
 
-`CLOUDFLARE_API_TOKEN` 只會完整顯示一次，複製後就趕快填寫到Github Secrets裏吧
+## 可選：用 Token 交給 GitHub Actions 發佈
 
-`CLOUDFLARE_PROJECT_NAME`就是Action 會按這個名字自動創建 Pages 項目
+如果你希望在 GitHub 的檢查全部通過後才上傳網站，可以選擇這條路線。默認 Git 集成已經夠用，不需要為了寫文章再配一次。
 
-## 配置 GitHub Secrets
+先準備一個已經存在的 Pages 項目。原來連接 GitHub 的項目，要在 Cloudflare 的 Build 和 Branch control 中關閉生產、預覽分支自動部署，避免同一次提交發布兩遍。也可以新建 Direct Upload 項目，但這種項目不能直接切換成 Git 集成。
 
-回到 GitHub 倉庫頁面。
+創建 Cloudflare 自定義 API Token，權限只選目標賬戶的 **Account → Cloudflare Pages → Edit**。不需要 Global API Key，也不需要順手加上 DNS、R2、數據庫等權限。
 
-進入：
+然後進入 GitHub 倉庫的 **Settings → Secrets and variables → Actions**，填寫：
 
-```text
-Settings -> Secrets and variables -> Actions -> New repository secret
-```
+| 類型 | 名稱 | 內容 |
+| --- | --- | --- |
+| Secret | `CLOUDFLARE_API_TOKEN` | 剛創建的 Pages Token |
+| Secret | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare 賬戶 ID |
+| Variable | `CLOUDFLARE_PROJECT_NAME` | 已存在的 Pages 項目名 |
+| Variable | `SITE_URL` | 正式站點完整地址 |
+| Variable | `CF_PAGES_DEPLOY` | `true` |
 
-![[Pasted image 20260621205455.png]]
-![[Pasted image 20260621205519.png]]
+模板裡的 `.github/workflows/deploy-cloudflare-pages.yml` 默認只檢查。只有設置了 `CF_PAGES_DEPLOY`，才會把通過檢查的同一份構建產物上傳到指定項目。它不會自行創建 Pages 項目或其他資源。
 
-添加這三個：
+以後仍然是在文章文件夾裡寫 Markdown、提交到 `main`，區別只是最後由 Actions 上傳。Token 放在 GitHub Secrets，不能直接填進工作流文件。
 
-```text
-CLOUDFLARE_ACCOUNT_ID
-CLOUDFLARE_API_TOKEN
-CLOUDFLARE_PROJECT_NAME
-```
+## 以後想改哪裡
 
-名字和值對應
+| 想改的東西 | 文件位置 |
+| --- | --- |
+| 站名、作者、簡介、便箋 | `site.config.mjs` |
+| 文章、圖片 | `articles/posts/文章名/` |
+| 關於頁、友鏈頁 | `articles/spec/` |
+| 新文章模板 | `articles/templates/blog-post.md` |
+| 頭像、瀏覽器圖標 | `public/` |
+| 配色、字號和間距 | `src/styles/global.css` |
+| 導航、頁腳 | `src/layouts/Base.astro` |
 
-## 確認 GitHub Actions 工作流
+這份模板默認是一個簡中文章站，不要求每篇文章同時提供三種語言。它和我自己博客的三語發佈系統是獨立的，先把寫作和發佈做簡單。以後有明確需要，再一點點加上評論或其他功能就好。
 
-模板裏已經有這個文件：
+我還是覺得，博客最重要的是裡面留下了什麼。把站搭好只是開頭，後面願意繼續寫，才是它慢慢變成自己地方的過程。
 
-```text
-.github/workflows/deploy-cloudflare-pages.yml
-```
+## 參考與說明
 
-它做的事情大概是：
+- [Sayori Lite 的完整配置和遷移說明](https://github.com/Amiyadesi/astro-mizuki-blog-from-zero#readme)
+- [Cloudflare Pages Git 集成](https://developers.cloudflare.com/pages/configuration/git-integration/)
+- [Cloudflare 的 Astro 部署指南](https://developers.cloudflare.com/pages/framework-guides/deploy-an-astro-site/)
+- [通過 CI 使用 Direct Upload](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/)
+- [Obsidian Git 認證文檔](https://github.com/Vinzent03/obsidian-git/blob/master/docs/Authentication.md)
 
-```text
-拉取仓库
-安装 Node 和 pnpm
-进入 blog/
-安装依赖
-构建 Astro/Mizuki
-用 Wrangler 把 dist 上传到 Cloudflare Pages
-```
-當然最好推薦在提交前，先啓動本地預覽看看吧
-
-## 提交併發佈
-
-推送後，打開 GitHub 倉庫的 Actions 頁面
-
-如果看到綠色勾，說明部署成功
-
-如果失敗，點進去看日誌。常見問題就幾個：
-
-```text
-Secrets 名字拼错
-Cloudflare Token 权限不够
-PROJECT_NAME 填错
-blog/ 构建失败
-pnpm-lock.yaml 和依赖不一致
-```
-
-## 打開 pages.dev
-
-部署成功後，打開：
-
-```text
-https://你的项目名.pages.dev
-```
-
-能看到頁面，就說明第一篇結束
-
-到這裏你已經有一個能寫、能預覽、能自動部署的博客
-
-## 這一篇先停在這裏
-
-下一篇講解一些域名，評論系統和其他的一些站長相關的互聯網上的小東西和服務還有對應的社區！
+模板代碼、示例文章和自帶 SVG 使用 MIT 許可。舊版教程沒有要求你重建現有博客；已經按舊方案定製過的網站，請先備份，再按 README 的遷移說明搬文章。
