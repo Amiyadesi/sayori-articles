@@ -1,385 +1,266 @@
 ---
-title: "Building Your Own Blog from Scratch: GitHub, Cloudflare Pages, Mizuki, and Obsidian"
+title: "Build a Simple Blog from Scratch: GitHub, Cloudflare Pages, and Optional Obsidian"
 published: 2026-06-19
 created: 2026-06-19
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
-description: Starting from registering GitHub and Cloudflare, writing articles with my Obsidian blog template, and then publishing to Cloudflare Pages using GitHub Actions.
+updated: 2026-10-16
+lastEdited: 2026-10-16
+updateCount: 6
+description: "Deploy the complete Sayori Lite template through Cloudflare Pages and GitHub. Publish folder-based Markdown articles, with optional Obsidian and token-based Actions deployment."
 image: ""
 tags:
   - Tutorial
+  - Website & Cloudflare
   - Astro
-  - Cloudflare
   - Obsidian
-category: Website & Self-Hosting
+category: Tutorials & Guides
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Start building a blog with GitHub and Cloudflare Pages"
-    - "Manage article source files with the Mizuki template and Obsidian"
-    - "Automate building and publishing via GitHub Actions"
 alias: ""
 lang: en
 translationKey: posts/astro-mizuki-blog-from-zero/astro-mizuki-blog-from-zero
 ---
 
-# Building Your Own Blog from Scratch: GitHub, Cloudflare Pages, Mizuki, and Obsidian
+# Build a Simple Blog from Scratch: GitHub, Cloudflare Pages, and Optional Obsidian
 
-> [!NOTE]
-> It's the AI era now. If you can't figure out how to install environments like Node.js, Git, or pnpm, you can totally let AI help you. Just download a free AI like opencode or trae, and it can even handle pulling GitHub repositories and configurations. But then, what's the fun in that? Even though I, the site owner, did it that way, since I'm writing a tutorial, I should probably make one that you can do by hand.
->
-> Here's a funny thing: I only found out I needed to install pnpm when I was writing this. Before, I just let Codex deploy everything for me. But hey, it's pretty good! Writing articles like this helps me deeply understand the stuff AI helped me set up!
+This tutorial needed a cleanup of its own. The old version revolved around Mizuki, Obsidian, and a local sync script. My blog has since moved to a much simpler layout, while the instructions stayed behind. Following them meant finding another theme, moving files around, and configuring a plugin before you could publish anything.
 
-Once you're done, you'll have:
+I have now turned the starter into a complete, deployable template called **Sayori Lite · My Desk**. It follows the current blog's warm paper background, olive links, and small coral accents. The home page lists articles; the article page leaves room to read.
 
-```text
-GitHub 仓库
-Cloudflare Pages 项目
-Obsidian 写作目录
-Astro/Mizuki 博客
-GitHub Actions 自动部署
-```
+The idea is to get a site online first, then choose how you want to write. GitHub's web editor is enough. I recommend Obsidian, but it is optional.
 
-The final address you open will look something like this:
+> Rewritten against the template and official documentation on October 16, 2026. The article and repository URLs stay the same. The old screenshots and PowerShell plugin instructions no longer apply.
+
+## Start with two accounts
+
+You need [GitHub](https://github.com/signup) and [Cloudflare](https://dash.cloudflare.com/sign-up). GitHub stores the website and articles. Cloudflare Pages builds and hosts the site and provides a `pages.dev` address. You do not need a server or a purchased domain to get started.
+
+The default workflow is:
 
 ```text
-https://你的项目名.pages.dev
+Create your own repository from the template
+    ↓
+Connect that repository to Cloudflare Pages
+    ↓
+Write Markdown and commit to main
+    ↓
+Cloudflare builds and updates the site
 ```
 
-![[Pasted image 20260620202027.png]]
+**This route needs no Cloudflare API Token.** A token is only needed if you choose the optional GitHub Actions upload workflow later in this article.
 
-## First, Register for GitHub and Cloudflare
+## Create your repository from the template
 
-If you don't have these two accounts, it's best to register for them. GitHub and Cloudflare are both famous cyber philanthropists! And generally, the earlier you register for a GitHub account, the more benefits you can enjoy!
+The template keeps its original repository address so existing links continue to work:
 
-First, register for GitHub:
+[Sayori Lite template repository](https://github.com/Amiyadesi/astro-mizuki-blog-from-zero)
 
-[Sign up for GitHub · GitHub](https://github.com/signup?return_to=%2F&source=login)
+Click **Use this template → Create a new repository**, choose your own account as Owner, and name the repository something like `my-blog`. Your new repository, rather than mine, will be your publishing destination.
 
-GitHub is used to host your blog repository and can also use Actions to implement an automatic upload workflow after commits.
-
-If you can't register, try switching nodes, using an incognito browser, or registering on your phone. For example, I ended up registering on my phone QAQ~~*those were my steps, haha.
-
-Next, register for Cloudflare:
-
-[https://dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up)
-
-This registration is quite easy. I, the site owner, could register with a random Outlook email. Truly a CF philanthropist.
-
-Cloudflare Pages is used to host your blog. It will put the built static files on Cloudflare's network and give you a `pages.dev` domain.
-
-[https://github.com/zhuima/awesome-cloudflarE](https://github.com/zhuima/awesome-cloudflarE), here's also a CF usage guide with 14k stars on GitHub, I recommend everyone save it!
-
-## Install Local Tools
-
-Download these tools from their official websites:
-
-- Node.js: [https://nodejs.org/](https://nodejs.org/)
-- pnpm: [https://pnpm.io/installation](https://pnpm.io/installation)
-- Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-- Obsidian: [https://obsidian.md/download](https://obsidian.md/download)
-
-After installation, open your terminal and check:
-
-```bash
-node -v
-git -v
-pnpm -v
-```
-
-If `pnpm -v` yields no results, you can enable it with Corepack:
-
-```bash
-corepack enable
-corepack prepare pnpm@latest --activate
-```
-
-Windows users are advised to use PowerShell first. macOS and Linux users can just use the system's built-in terminal.
-
-## Create a New GitHub Repository
-
-Open GitHub, click New repository.
-
-For the repository name, you can write:
-
-```text
-my-blog
-```
-
-After creating it, clone the repository to your local machine:
-
-```bash
-git clone https://github.com/你的用户名/my-blog.git
-cd my-blog
-```
-
-![[Pasted image 20260621115726.png]]
-
-![[Pasted image 20260621115948.png]]
-
-## Add My Obsidian Blog Template
-
-I'm not directly using the official Mizuki content repository here.
-
-You can see the official content repository here:
-
-[https://github.com/matsuzaka-yuki/Mizuki-Content](https://github.com/matsuzaka-yuki/Mizuki-Content)
-
-But I usually write articles using Obsidian, so I've put together my own template. This template places the writing source in `articles/`, and then a script syncs it to the directory Mizuki needs.
-
-The template now also retains two writing styles: regular articles and essays. Regular articles are placed in `articles/posts/<slug>/<slug>.md` and will generate independent pages; shorter notes can be placed in `articles/essays/<slug>.md`, and after publishing, they will be aggregated on the essays page.
-
-Template repository:
-
-[https://github.com/Amiyadesi/astro-mizuki-blog-from-zero](https://github.com/Amiyadesi/astro-mizuki-blog-from-zero)
-
-If you use this template directly, the final directory should look like this:
+The repository now contains the complete Astro website. You do not need to download Mizuki separately or connect to my content repository.
 
 ```text
 my-blog/
   articles/
     posts/
-    friends/
+      hello-mizuki/
+        index.md
+        desk.svg
     spec/
-    site/
-    assets/
-  blog/
-    package.json
-    src/
-    scripts/
-  .github/
-    workflows/
-      deploy-cloudflare-pages.yml
+      about.md
+      friends.md
+    templates/
+      blog-post.md
+  public/
+    avatar.svg
+    favicon.svg
+  src/
+  site.config.mjs
+  package.json
+  pnpm-lock.yaml
+  .github/workflows/deploy-cloudflare-pages.yml
 ```
 
-Remember this one thing first:
+Write in `articles/`. The website code lives in `src/`. Articles are read directly during the build; there is no separate `blog/` directory to sync.
+
+## Connect Cloudflare to GitHub
+
+In Cloudflare, open **Workers & Pages**, create an application, choose **Pages**, and import an existing Git repository. Authorize access to the repository you just created. Grant access to that repository only where possible.
+
+If the screen asks for a Workers command such as `wrangler deploy`, go back to the Pages entry. This template produces static files and requires no Worker or database.
+
+Use these build settings:
+
+| Setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Framework preset | `Astro` |
+| Root directory | Leave empty; use the repository root |
+| Build command | `pnpm run build` |
+| Build output directory | `dist` |
+| Environment variable `NODE_VERSION` | `22` |
+| Environment variable `PNPM_VERSION` | `11.0.8` |
+| Environment variable `SITE_URL` | `https://YOUR-PROJECT.pages.dev` |
+
+The project name determines the initial `pages.dev` address. Save and deploy, then open the address Cloudflare provides when the build finishes.
+
+Pages installs dependencies using the lockfile. If pnpm is unavailable in the build environment, the template README includes an alternative build command that explicitly installs and invokes its pinned version. Read the build log before changing the deployment setup.
+
+Set `SITE_URL` to the public production address. RSS, the sitemap, and canonical links all use it. If you later add a custom domain, update this value and redeploy. It should not point to GitHub or an administration page.
+
+## Make the desk your own
+
+Edit `site.config.mjs` on GitHub and change the title, author, and introduction. Put your avatar in `public/` and use its site-relative path in the configuration.
+
+```js
+export default {
+  title: "My Desk",
+  author: "Your name",
+  description: "Notes from everyday life and things worth keeping.",
+  url: "",
+  lang: "en",
+  avatar: "/avatar.svg",
+  note: "Take your time.",
+};
+```
+
+The Cloudflare `SITE_URL` variable takes precedence, so `url` can stay empty when that variable is configured. The template's interface starts in Chinese; navigation and shared labels can be edited in `src/layouts/Base.astro` and the small scripts under `src/scripts/`. Changing `lang` declares the document language; it does not translate the interface automatically.
+
+Edit `articles/spec/about.md` for the about page and `articles/spec/friends.md` for friend links. Ordinary Markdown links and descriptions are enough; there is no generated friend database to maintain.
+
+The template includes an archive, a table of contents, image enlargement, light and dark themes, Pagefind search, RSS, and a sitemap. It uses system fonts and ships without music, pets, a comment backend, or analytics. Its first job is to make articles pleasant to read.
+
+## Publish without installing local tools
+
+In your GitHub repository, choose **Add file → Create new file** and enter:
 
 ```text
-articles/ 是你写东西的地方
-blog/ 是网站程序本体
+articles/posts/my-first-post/index.md
 ```
 
-In the future, don't manually write articles in `blog/src/content/posts`. That directory is a synced output.
-
-## Open 'articles' with Obsidian
-
-Open Obsidian, select:
-
-```text
-打开本地文件夹
-```
-
-Then choose:
-
-```text
-my-blog/articles
-```
-
-![[Pasted image 20260620204835.png]]
-
-This directory will be your blog's backend from now on.
-
-Remember these common locations first:
-
-```text
-articles/posts/             文章
-articles/friends/           友链卡片
-articles/spec/about.md      关于页
-articles/spec/friends.md    友链页正文和申请说明
-articles/site/profile.json  头像、昵称、简介、社交链接
-articles/site/navigation.json 导航栏
-articles/site/banner.json   首页 Banner 和文案
-articles/assets/            头像、Banner、音乐、友链头像等素材
-```
-
-If you find these JSON files hard to modify, you can directly search for 'site-config-hub' in Obsidian.
-
-Here, the About page, Friends page, site JSON, and asset directory are all centrally located, making them easier to modify.
-
-## Local Plugin Startup
-
-After installation, open the third-party plugins page in Obsidian settings and enable the plugins included with the template.
-
-![[Pasted image 20260621211602.png]]
-
-Enable third-party plugins, check the one that exists by default.
-![[Pasted image 20260621200606.png]]
-
-Then two new items will appear in the left sidebar.
-
-`本地预览博客` button and `一键推送按钮`
-![[Pasted image 20260621141446.png]]
-
-`本地预览博客` automatically does these things under the hood:
-
-```text
-同步 articles -> blog 内容
-如果 blog 依赖还没装好，自动安装依赖
-本地 build 博客
-启动本地预览服务
-```
-
-So, the first time you click the local preview button, if `blog/node_modules` doesn't exist yet, it will first complete the dependencies in the background, which will take a bit longer; subsequent clicks will be much faster.
-
-It looks like a button, but behind it, it's still calling local tools like Node, pnpm, and Git. The difference is that during normal use, you don't have to go into the command line yourself to handle installation, syncing, building, and pushing.
-
-After successful startup, it will automatically redirect you to the local preview address and switch to an active state.
-
-```text
-Blog: http://127.0.0.1:4173/
-```
-
-This button is a toggle:
-
-```text
-第一次点：启动预览并自动打开浏览器
-第二次点：停止预览服务
-```
-
-The other one is automatic commit and upload after clicking.
-
-## Write Your First Article
-
-Create a new folder under 'post' to put everything an article needs, then create a new article and insert the template.
-![[Pasted image 20260621202714.png]]
-![[Pasted image 20260621202726.png]]
-![[Pasted image 20260621203145.png]]
-
-Then you can happily start writing! Common Markdown and some Obsidian syntax are all supported for parsing!
-
-In the default template, `draft: true` is a draft. If you're ready to publish, change it to `draft: false`; if this is just a short note and you don't want it to appear as a standalone article, you can put it as a single Markdown file into `articles/essays/`.
-
-If you want to place two or more photos side-by-side, you don't need to write HTML by hand; you can write it like this:
+The slashes create the folders. Start with this content:
 
 ```md
-:::photo-grid
-![[left.png|左边照片说明]]
-![[right.png|右边照片说明]]
-:::
+---
+title: My first article
+description: I finally have a blog of my own.
+published: 2026-10-16
+updated: 2026-10-16
+draft: false
+category: Everyday life
+tags: [life]
+---
+
+Start the article here. The page displays the title from the metadata, so there is no need to repeat it as a heading.
+
+## Something worth remembering
+
+Keep writing here.
 ```
 
-The description below the image will take the text after `|`. Regular Markdown images also support the same layout:
+Use your actual publication date. Choose **Commit changes** and commit to `main`. Cloudflare detects the commit, builds the site, and updates it. The article will appear on the home page after a successful deployment.
+
+Each article has its own folder, using lowercase English letters, numbers, and hyphens. Its Markdown file is always named `index.md`. The folder `my-first-post` produces `/posts/my-first-post/`. Changing the title keeps that address; renaming the folder changes it.
+
+`draft: true` keeps an article out of the generated site. Set it to `false` to publish. Future-dated articles are also excluded until a build runs after their publication date. The template does not include a scheduled publishing service.
+
+**Draft source files in a public repository are still public.** The draft flag only controls website output; it is not a way to store private notes.
+
+## Keep images beside the article
+
+Upload an image to the article folder and reference it with standard Markdown:
 
 ```md
-![说明](photo.png)
+![A desk beside the window](./desk.webp)
 ```
 
-They will appear side-by-side on a computer and automatically stack into a single column on a phone.
+Astro processes local images. The article layout centers them and limits their display size; click an image or activate it with the keyboard to enlarge it. You do not need an image-hosting account or access to my R2 bucket or CDN.
 
-There's also a black block hint, suitable for answers, spoilers, or content you don't want to see at first glance:
+Use standard Markdown where possible. This starter does not include my personal site's Obsidian wikilinks, block transclusions, spoiler syntax, or photo-grid parser. Convert those to ordinary links, quotations, and images when migrating. The included Obsidian settings favor standard Markdown image links.
 
-```md
-这里有一个 {{被遮住的内容|鼠标移上去会看到提示}}。
+## Obsidian is recommended, not required
+
+Any Markdown editor works. To use Obsidian:
+
+1. Install Git and clone your own new repository. GitHub Desktop can also sign in to your account and clone it.
+2. In Obsidian, open the entire `my-blog` repository root as a vault, rather than only `articles/`.
+3. The included core Templates configuration uses `articles/templates`.
+4. Create `index.md` inside `articles/posts/your-article/`, run Insert template, and choose `blog-post`.
+5. Fill in the title, dates, and content, change `draft` when ready, then commit and push.
+
+Opening the repository root lets the Git plugin find the Git repository at the same level. Attachments stay beside each article. The file can be called `index.md` because the `title` property controls the displayed title.
+
+For commits inside Obsidian, install the community **Git** plugin by **Vinzent**, whose plugin ID is `obsidian-git`. The starter no longer bundles a custom plugin that invokes PowerShell.
+
+For authentication, reuse system Git. On Windows, enable Git Credential Manager when installing Git for Windows. Run `git push` from the repository and follow its browser sign-in for your own GitHub account. Once system Git can push, the desktop Obsidian Git plugin can use those credentials. There is no need to register a custom OAuth App for this template.
+
+GitHub Desktop is another convenient browser sign-in and publishing option, but its login does not automatically authenticate Obsidian Git. If you use the plugin, first confirm that terminal Git can push successfully. macOS, Linux, and mobile authentication have different requirements; follow the plugin's official authentication guide.
+
+Install and authorize the plugin yourself. Do not put a Cloudflare Token in Obsidian settings or commit GitHub credentials to the repository.
+
+## Preview locally when you want to
+
+You can start with browser editing. For live previews, install Node.js 22.12 or later and run these commands from your repository root:
+
+```sh
+npm install --global pnpm@11.0.8
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-After publishing to the blog, hovering over it with the mouse or selecting it with the keyboard will reveal the main text and hint; tapping on a phone will also expand it.
-## Sync and Build
+Open the address printed in the terminal, normally `http://localhost:4321`. Markdown edits update automatically.
 
-Just click the button in the image, assuming you've already configured GitHub secrets. This template comes with actions built-in.
-![[Pasted image 20260621203335.png]]
+Search indexes are generated during a build. To check search, run:
 
-This button will commit and push your articles, configurations, and synced blog content to GitHub. After a successful push, it's not your local machine directly deploying, but GitHub Actions that then builds the blog and publishes it to Cloudflare Pages.
-
-And how to configure it is right below!
-
-## Create a Cloudflare API Token
-
-Open Cloudflare's API Token page:
-
-[https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)
-
-Create a Token; these permissions are sufficient.
-
-![[Pasted image 20260621204437.png]]
-
-You need to save three things:
-
-```text
-CLOUDFLARE_ACCOUNT_ID
-CLOUDFLARE_API_TOKEN
-CLOUDFLARE_PROJECT_NAME
+```sh
+pnpm run build
+pnpm preview
 ```
 
-`CLOUDFLARE_ACCOUNT_ID` can be seen in the bottom right corner of Workers & Pages, it's in the image above (lol).
+Open the preview command's address. Ordinary writing does not require a full build after every paragraph.
 
-`CLOUDFLARE_API_TOKEN` will only be fully displayed once. Copy it and quickly fill it into GitHub Secrets.
+## Optional: publish with GitHub Actions and a token
 
-`CLOUDFLARE_PROJECT_NAME` is the name the Action will use to automatically create the Pages project.
+Choose this route if you want GitHub's checks to finish before the website is uploaded. The default Git integration is already sufficient for publishing articles.
 
-## Configure GitHub Secrets
+First prepare an existing Pages project. For a Git-integrated project, disable automatic production and preview deployments under Cloudflare's Build and Branch control settings so the same commit does not deploy twice. You can instead create a Direct Upload project, but that project cannot be switched directly to Git integration later.
 
-Go back to your GitHub repository page.
+Create a Cloudflare custom API Token with **Account → Cloudflare Pages → Edit** for the intended account. It does not need the Global API Key or DNS, R2, or database permissions.
 
-Go to:
+In the GitHub repository, open **Settings → Secrets and variables → Actions** and configure:
 
-```text
-Settings -> Secrets and variables -> Actions -> New repository secret
-```
+| Type | Name | Value |
+| --- | --- | --- |
+| Secret | `CLOUDFLARE_API_TOKEN` | Your Pages API Token |
+| Secret | `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare account ID |
+| Variable | `CLOUDFLARE_PROJECT_NAME` | The existing Pages project name |
+| Variable | `SITE_URL` | The full production site address |
+| Variable | `CF_PAGES_DEPLOY` | `true` |
 
-![[Pasted image 20260621205455.png]]
-![[Pasted image 20260621205519.png]]
+The included `.github/workflows/deploy-cloudflare-pages.yml` runs checks by default. Setting `CF_PAGES_DEPLOY` enables uploading the same verified build artifact to your existing project. It does not create Pages projects or other resources.
 
-Add these three:
+You still publish by committing Markdown to `main`; Actions performs the final upload. Keep the token in GitHub Secrets, never in the workflow file itself.
 
-```text
-CLOUDFLARE_ACCOUNT_ID
-CLOUDFLARE_API_TOKEN
-CLOUDFLARE_PROJECT_NAME
-```
+## Where to make changes later
 
-Names and values correspond.
+| What you want to change | File or folder |
+| --- | --- |
+| Site title, author, introduction, note | `site.config.mjs` |
+| Articles and their images | `articles/posts/your-article/` |
+| About and friends pages | `articles/spec/` |
+| New article template | `articles/templates/blog-post.md` |
+| Avatar and favicon | `public/` |
+| Colors, font sizes, spacing | `src/styles/global.css` |
+| Navigation and footer | `src/layouts/Base.astro` |
 
-## Confirm GitHub Actions Workflow
+The starter defaults to a single-language Chinese blog. It does not require three translations for every article and is independent of my production blog's multilingual publishing system. Start with writing and publishing; add comments or other features when you have a reason to.
 
-This file is already in the template:
+What matters most is what you leave in the blog. Getting a site online is only the beginning. Continuing to write is what gradually makes it your own place.
 
-```text
-.github/workflows/deploy-cloudflare-pages.yml
-```
+## References and migration
 
-What it does is roughly:
+- [Sayori Lite configuration and migration notes](https://github.com/Amiyadesi/astro-mizuki-blog-from-zero#readme)
+- [Cloudflare Pages Git integration](https://developers.cloudflare.com/pages/configuration/git-integration/)
+- [Cloudflare's Astro deployment guide](https://developers.cloudflare.com/pages/framework-guides/deploy-an-astro-site/)
+- [Direct Upload with continuous integration](https://developers.cloudflare.com/pages/how-to/use-direct-upload-with-continuous-integration/)
+- [Obsidian Git authentication](https://github.com/Vinzent03/obsidian-git/blob/master/docs/Authentication.md)
 
-```text
-拉取仓库
-安装 Node 和 pnpm
-进入 blog/
-安装依赖
-构建 Astro/Mizuki
-用 Wrangler 把 dist 上传到 Cloudflare Pages
-```
-Of course, it's best to start a local preview and check before committing.
-
-## Commit and Publish
-
-After pushing, open your GitHub repository's Actions page.
-
-If you see a green checkmark, it means deployment was successful.
-
-If it fails, click in to see the logs. There are only a few common issues:
-
-```text
-Secrets 名字拼错
-Cloudflare Token 权限不够
-PROJECT_NAME 填错
-blog/ 构建失败
-pnpm-lock.yaml 和依赖不一致
-```
-
-## Open pages.dev
-
-After successful deployment, open:
-
-```text
-https://你的项目名.pages.dev
-```
-
-If you can see the page, it means the first part is done.
-
-By this point, you have a blog that you can write on, preview, and automatically deploy.
-
-## Let's Stop Here for This Part
-
-The next part will cover domains, comment systems, and other small internet-related things, services, and communities relevant to site owners!
+The template code, sample posts, and included SVG assets use the MIT license. Existing customized blogs do not need to be rebuilt. Back up your content first and follow the README migration notes when moving from the old starter.
