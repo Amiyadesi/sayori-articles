@@ -22,7 +22,7 @@ Azure is near the top of my student benefits list: $100 a year, no credit card, 
 
 I'd start in Japan with Ubuntu, get SSH working, then put something useful on it. This post takes you as far as a running server; application deployment can come next
 
-The benefits and prices below were checked on October 16, 2026. Pick either the portal or CLI method
+The benefits and prices below were checked on October 17, 2026. Pick either the portal or CLI method
 
 The step-by-step images follow Microsoft's interface, with identifying details replaced
 
@@ -82,16 +82,30 @@ Check **Subscriptions → Azure for Students → Free services** before creating
 
 ## I'd choose Japan first
 
-Try regions in this order:
+Start by checking where your subscription can deploy. In the [Azure portal](https://portal.azure.com/), search for **Policy**, open **Assignments**, and set the scope to your **Azure for Students** subscription
+
+Open **Allowed resource deployment regions**, then **Parameters**, and read **Allowed locations**. This usually lists the five regions assigned to your subscription
+
+Mine showed:
+
+```json
+["centralindia","indiasouthcentral","uaenorth","malaysiawest","japaneast"]
+```
+
+The list varies between accounts. Mine includes Japan East, so I chose `japaneast`
+
+For readers connecting from mainland China, my order is **Japan → Singapore → India → Hong Kong**. The US isn't a routine alternative here; work through the regions your policy allows
 
 | Region | CLI name | My choice |
 | --- | --- | --- |
-| Japan East | `japaneast` | First choice |
-| Japan West | `japanwest` | Try if Japan East is unavailable |
-| Southeast Asia | `southeastasia` | Singapore, an Asian alternative |
-| East US / West US 2 and others | `eastus` / `westus2` | Choose an allowed US region |
+| Japan | `japaneast` / `japanwest` | First choice, with Japan East preferred |
+| Singapore | `southeastasia` | Try if Japan is unavailable |
+| India | `centralindia` / `indiasouthcentral`, among others | Choose an Indian region listed in your policy |
+| Hong Kong | `eastasia` | Last choice; read the AI service restriction below |
 
-Check **Allowed resource deployment regions**, then the target region's sizes and quotas. A region appearing in a menu doesn't mean your student subscription can deploy there
+**Hong Kong is currently absent from the official supported-region lists for [ChatGPT](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) and [Claude](https://support.claude.com/en/articles/8461763-where-can-i-access-claude)**. For those services, choose Japan, Singapore, or India from your allowed regions
+
+After checking the allowed list, inspect sizes and quotas. A region appearing in the VM wizard doesn't mean your student subscription can deploy there
 
 For `RequestDisallowedByAzure`, read the region policy in the error. For unavailable sizes or exhausted regional capacity, try another allowed region. Changing zones alone won't bypass a region policy
 
@@ -285,7 +299,7 @@ Expect `Premium_LRS`, 64 GiB, and P6. Use the printed public address with the SS
 Send this paragraph to an assistant that can use your local terminal. Complete Microsoft sign-in and verification codes yourself
 
 ```text
-Use PowerShell 7 to install Azure CLI and sign me into Azure for Students. Check quotas and free services, prefer Japan with Singapore or the US as alternatives, and show costs for my confirmation. Then create one B2ats_v2 VM with Ubuntu 24.04 LTS x64 Gen2, a 64 GiB P6 Premium_LRS disk, dual-stack networking, public IPv4 and IPv6, SSH key authentication, and TCP 22. Verify SSH and give me the addresses, connection command, and resource list
+Use PowerShell 7 to install Azure CLI and sign me into Azure for Students. Check allowed regions, quotas, and free services; try Japan, Singapore, India, then Hong Kong, and show costs for my confirmation. Then create one B2ats_v2 VM with Ubuntu 24.04 LTS x64 Gen2, a 64 GiB P6 Premium_LRS disk, dual-stack networking, public IPv4 and IPv6, SSH key authentication, and TCP 22. Verify SSH and give me the addresses, connection command, and resource list
 ```
 
 For IPv6 only, change the public address plan to “Standard public IPv6 with dual-stack private networking.” With a chat-only AI, ask it for PowerShell commands to run yourself
@@ -313,9 +327,9 @@ A Docker Registry `401 Unauthorized` usually means the service is reachable and 
 
 ## How much monthly bandwidth
 
-**Internet inbound traffic is free; the first 100 GB outbound each month is free**. These estimates use Microsoft's default global network routing: $0.12/GB beyond the allowance in Japan and Singapore, $0.087/GB in the US
+**Internet inbound traffic is free; the first 100 GB outbound each month is free**. These estimates use Microsoft's default global network routing: $0.12/GB beyond the allowance in Japan, Singapore, India, and Hong Kong
 
-A Standard public IPv4 in Japan costs $0.005/hour. At 730 hours/month that's about **$3.65/month**, or $43.80/year. Public IPv6 has no address fee
+A Standard public IPv4 in these regions costs $0.005/hour. At 730 hours/month that's about **$3.65/month**, or $43.80/year. Public IPv6 has no address fee
 
 ![Microsoft public IP pricing: Standard static IPv4 at $0.005/hour](azure-students-assets/ipv4-pricing.webp)
 
@@ -323,12 +337,8 @@ Spread the $100 across 12 months and you have about $8.33/month. If VM compute a
 
 | Region and public addresses | Address fee/month | Extra outbound covered by credit/month | Including the free 100 GB |
 | --- | --- | --- | --- |
-| Japan, one IPv4, optionally IPv6 too | About $3.65 | About 39 GB | **About 139 GB/month** |
-| Japan, public IPv6 only | $0 | About 69 GB | **About 169 GB/month** |
-| Singapore, one IPv4 | About $3.65 | About 39 GB | **About 139 GB/month** |
-| Singapore, public IPv6 only | $0 | About 69 GB | **About 169 GB/month** |
-| US, one IPv4 | About $3.65 | About 54 GB | **About 154 GB/month** |
-| US, public IPv6 only | $0 | About 96 GB | **About 196 GB/month** |
+| Japan / Singapore / India / Hong Kong, one IPv4, optionally IPv6 too | About $3.65 | About 39 GB | **About 139 GB/month** |
+| Japan / Singapore / India / Hong Kong, public IPv6 only | $0 | About 69 GB | **About 169 GB/month** |
 
 The formula is simple:
 
@@ -361,6 +371,7 @@ Stopping the VM alone leaves disks and reserved static IPv4 addresses in place. 
 - [Azure for Students eligibility and credit terms](https://azure.microsoft.com/en-us/pricing/offers/ms-azr-0170p/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
 - [Azure free services](https://azure.microsoft.com/en-us/pricing/free-services/)
+- [Microsoft Q&A: find the five allowed deployment regions](https://learn.microsoft.com/en-us/answers/questions/5924508/requestdisallowedbyazure-allowed-resource-deployme)
 - [Microsoft community explanation of two free 64 GiB P6 disks](https://learn.microsoft.com/en-us/answers/questions/5556769/which-storage-type-is-free-12months-in-free-tier)
 - [Public IP pricing](https://azure.microsoft.com/en-us/pricing/details/ip-addresses/)
 - [Official Japan public IP retail pricing API](https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20%27Virtual%20Network%27%20and%20armRegionName%20eq%20%27japaneast%27)
