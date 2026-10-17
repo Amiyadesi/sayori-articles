@@ -4,7 +4,7 @@ published: 2026-06-22
 created: 2026-06-22
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 3
+updateCount: 4
 description: 整理 Cloudflare 免费层里真的能用的东西：Pages、Workers、R2、Tunnel、Email Routing、DNS、Web Analytics，以及哪些场景下它比 VPS 更合适。
 image: ""
 tags:
@@ -244,3 +244,4 @@ awesome-cloudflare：[https://github.com/zhuima/awesome-cloudflare](https://gith
 
 这个仓库整理了 Cloudflare 生态里各种工具和用法，14k+ star。如果你想知道「别人拿 Cloudflare 做了什么」，从这里开始
 
+更多外部工具收在 [[webmaster-resource-toolbox|站长资源清单]]，网站上线后可以配合 [[geoscore-2-4-guide|GeoScore]] 看看抓取和页面信息是否齐全

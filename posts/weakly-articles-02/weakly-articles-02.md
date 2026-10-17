@@ -2,9 +2,9 @@
 title: 每周互联网文章阅读2——Own the Slice
 published: 2026-09-27
 created: 2026-09-27
-updated: 2026-09-27
-lastEdited: 2026-09-27
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: Own the Slice——AI时代下我们编码应该掌握的方法论？
 image: ""
 tags:
@@ -97,3 +97,9 @@ AI 仍然可以帮助实现其中的数据库、UI、API 和测试，但这些�
 有点像这篇文章里说的那样：
 
 “写出来”，并不等于“完成”
+
+## 继续读
+
+这个系列的起点在 [[weakly-articles-01|第一篇互联网文章阅读]]，而这次读到的范围和完成问题，我在 [[after-gmtk|GMTK Jam]] 里确实吃过亏
+
+后来做 [[subarutap-and-selfthink|SubaruTap]] 时，总算又完成了一个小闭环，这几篇连起来也是我怎么一点点重新理解创作的过程

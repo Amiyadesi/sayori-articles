@@ -2,9 +2,9 @@
 title: Steam 國區開發者註冊避坑指南
 published: 2026-09-10
 created: 2026-09-10
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 1
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 2
 description: Steam註冊中國開發者全流程和注意事項，看這篇就夠了！
 image: ""
 tags:
@@ -114,3 +114,9 @@ Steam 的稅務審覈是外包給第三方公司（Lilaham / TaxIdentity）的�
 # 下回預告
 
 商店頁面，軟件編號，分級要求，開發者賬戶和社區？等我到時候到了搭建這些的時候，就會再出一個了哈哈
+
+## 繼續讀
+
+用 Godot 做遊戲的話，可以配合 [[godot-useful-plugins|常用插件清單]] 裡的 GodotSteam 一起看，開發中的踩坑放在 [[after-gmtk|GMTK Jam 復盤]] 裡
+
+從一個小作品做到發佈是什麼感覺，我在 [[subarutap-and-selfthink|SubaruTap 的開發和創作反思]] 裡也寫過一些

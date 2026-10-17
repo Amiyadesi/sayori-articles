@@ -4,7 +4,7 @@ published: 2026-07-02
 created: 2026-07-02
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 4
+updateCount: 5
 description: Complete directory of public articles on this blog organized by three major categories — Personal Records, Subjective Thoughts, and Tutorials & Guides — and their reading series.
 image: ""
 tags:
@@ -158,6 +158,4 @@ This page is the master directory of public articles on this site, organized int
 | 01 | [Build Your Own Search Gateway — My Upstream Providers](../build-your-search-gateway/) | Self-hosted multi-upstream AI search gateway |
 | 02 | [GeoScore 2.4.5: A Tool for Webmasters to Check What Their Site Is Missing](../geoscore-2-4-guide/) | Site profiling, live crawl evidence, and SEO / GEO repair reports |
 | 03 | [Steamworks Onboarding Guide for Mainland China Developers](../steam-dev-work-01/) | Steam partner registration, tax forms, banking, and review pitfalls |
-| 04 | [(Repost) Why Do Other Apps Immediately Know What You Just Searched? (Including iOS)](../cross-app-tracking-device-fingerprinting/) | Mobile app permissions, device fingerprinting, and ad SDK tracking |
-| 05 | [(Repost) Follow-Up: How Your Phone Gets Profiled and Treated Differently](../mobile-app-ad-targeting-device-profiling/) | Quick apps, ad profiling, and mobile anti-tracking measures |
-| 06 | [(Repost) An Insider Reveals How Rogue Apps Ambush and Trap Users](../rogue-app-advertising-user-traps/) | Ad hijacking, permission bypasses, and anti-review tricks in rogue apps |
+| 04 | [Mobile Ads and Privacy — Three Original Articles](../cross-app-tracking-device-fingerprinting/) | Original articles on ad tactics, mobile profiling, and device fingerprints |

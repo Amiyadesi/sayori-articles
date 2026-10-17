@@ -2,9 +2,9 @@
 title: "Steam Developer Registration Pitfalls: My Real Notes from Tax Forms to Getting Paid"
 published: 2026-09-10
 created: 2026-09-10
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 1
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 2
 description: "A practical record of registering as a Steam developer, filling out tax forms, passing verification, and choosing a payout method."
 image: ""
 tags:
@@ -113,3 +113,9 @@ I hope your game sells well and you can bring those dollars home smoothly!
 # Coming Next
 
 Store pages, app IDs, rating requirements, developer accounts, and the community? Once I get to building those, I will write another post about them, haha.
+
+## Read next
+
+For Godot development, see GodotSteam in my [[godot-useful-plugins|plugin list]]. The [[after-gmtk|GMTK Jam postmortem]] covers some of the development mistakes
+
+For what it feels like to finish and release a small project, see my [[subarutap-and-selfthink|SubaruTap development notes and reflections]]

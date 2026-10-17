@@ -2,9 +2,9 @@
 title: "Weekly Internet Article Reading 2: Own the Slice"
 published: 2026-09-27
 created: 2026-09-27
-updated: 2026-09-27
-lastEdited: 2026-09-27
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: "Own the Slice: What methodology should we master for coding in the AI era?"
 image: ""
 tags:
@@ -97,3 +97,9 @@ Sharing has never been a simple thing... Overcoming the psychological barrier of
 Sort of like what the article says:
 
 "Writing it out" does not equal "completion."
+
+## Read next
+
+The series starts with my [[weakly-articles-01|first internet reading notes]]. The scope and completion problems here felt familiar after [[after-gmtk|GMTK Jam]]
+
+I later finished another small project, [[subarutap-and-selfthink|SubaruTap]]. Together these posts trace how I've been rethinking the way I make things

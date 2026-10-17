@@ -2,9 +2,9 @@
 title: 博客風格轉變記錄
 published: 2026-10-05
 created: 2026-10-05
-updated: 2026-10-05
-lastEdited: 2026-10-05
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: 我終於換掉了繁雜的風格，改成了我的博客
 image: ""
 tags:
@@ -38,3 +38,9 @@ translationKey: posts/blog-style-change/blog-style-change
 ![[Pasted image 20261005173542.png]]
 
 不過目前似乎左邊有些空曠emmm，有沒有能給我提一些建議放什麼的呢？
+
+## 繼續讀
+
+想搭一個類似的簡潔博客，我把起步版本整理成了 [[astro-mizuki-blog-from-zero|從零建站教程和模板]]，也在 [[blog-author-9-questions-answer|博客作者 9 問]] 裡聊過自己為什麼寫這些東西
+
+網站做完後，抓取和頁面信息這些問題可以配合 [[geoscore-2-4-guide|GeoScore]] 一起檢查

@@ -2,9 +2,9 @@
 title: win7老电脑爆改家里云记录
 published: 2026-08-09
 created: 2026-08-09
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 从零开始把家中win7老电脑改成linux服务器，看完你也可以上手
 image: ""
 tags:
@@ -89,3 +89,9 @@ tailscale ip -4
 
 > [!NOTE]
 > 然后暂时也不知道搞什么了喵，不过有一个放在家里的国内家宽服务器还是挺有趣的喵。实测上行带宽约70 Mbps，2核4GB也能用。如果你看到这里了，欢迎给我一些如何利用好这个家宽小服务器的建议！
+
+## 继续读
+
+机器装好后，可以接着看 [[docker-compose-minimum-start|Docker 最小入门]]，再从 [[2c2g-server-service-index|小服务器服务清单]] 里挑一个自己用得上的服务
+
+我后来把笔记同步也迁到了家里，过程放在 [[fast-note-sync-on-student-server|Fast Note Sync]]，需要给服务配域名和 HTTPS 的话就看 [[cloudflare-free-tier-developer-guide|Cloudflare]]

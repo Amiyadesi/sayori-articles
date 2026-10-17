@@ -2,9 +2,9 @@
 title: "A New Series: Weekly Internet Reading — Dead Before It Even Starts?"
 published: 2026-09-11
 created: 2026-09-11
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: A tiny new series on the blog! Hopefully this will keep me writing for a long time.
 image: ""
 tags:
@@ -75,3 +75,9 @@ While writing this article, I was interrupted by a notification reminding me to 
 I also discovered that this kind of article is not especially easy to write. Maybe I should switch to reading one chapter from a substantial book instead. I could return to *The Art of Game Design*... or review *Level Up! The Guide to Great Video Game Design*? Let's do that! Still, recommending articles like these is interesting too, so I will keep it as an occasional side branch.
 
 Oh, and if anyone wants to send me something they wrote, you can simply send me the URL! I would love to read all the different things you have been thinking about.
+
+## Read next
+
+The reading project continues in [[weakly-articles-02|part two: Own the Slice]], about managing scope and actually finishing things in the AI era
+
+My [[after-gmtk|GMTK Jam postmortem]] records some of the mistakes that made those ideas feel familiar

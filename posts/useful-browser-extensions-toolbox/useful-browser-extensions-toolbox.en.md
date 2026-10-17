@@ -2,9 +2,9 @@
 title: "List of Free and Useful Browser Extensions: Scripts, Translation, Passwords, Speed Control, Site Discovery, and Privacy"
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 4
 description: A brief compilation of Tampermonkey scripts, Immersive Translate, Bitwarden, Global Speed, SimilarSites, AI assistant extensions, and privacy extensions.
 image: ""
 tags:
@@ -46,7 +46,7 @@ Tampermonkey scripts, famous as they are, probably need no introduction. They're
 
 # ~~Immersive Translate~~ — Peiduwa 🐸
 ![[Pasted image 20260718200848.png|width=560|align=center|caption=Peiduwa Extension]]
-You can find it in the extension store. It's really comfortable for bilingual translation, and the built-in free features are pretty good. If you have higher demands, you can top up some DeepSeek and use DeepSeek v4 Flash for translation, which should last a long time. Or you can look for some public DeepSeek sites, like the ones mentioned in my article [[freeapi-glm-kimi-cc-switch|Some Current Free APIs]].
+You can find it in the extension store. It's really comfortable for bilingual translation, and the built-in free features are pretty good. If you have higher demands, you can top up some DeepSeek and use DeepSeek v4 Flash for translation, which should last a long time. Or you can look for some public DeepSeek sites, like the ones mentioned in my article [[anyrouter-sharedchat-cc-switch-student-guide|AI credits and cc-switch]].
 
 I recently tried Peiduwa and realized translation could be this fast! Immersive Translate, who are you? I don't know you. Don't disturb me and Peiduwa living our lives.
 
@@ -86,3 +86,9 @@ Similar to the one above, this is the Gemini version, also supporting many featu
 
 # End
 That's all for now. If I find other useful extensions in the future, I'll update them here. It would be my honor if this helped you (≧∇≦)/
+
+## Read next
+
+To use your own password server, see [[selfhost-vaultwarden-on-2c2g|self-hosting Vaultwarden]]. For AI provider setup, continue with [[anyrouter-sharedchat-cc-switch-student-guide|AI credits and cc-switch]]
+
+For the mechanisms behind ad and privacy tools, browse the three original articles in my [[cross-app-tracking-device-fingerprinting|mobile ads and privacy reading index]]

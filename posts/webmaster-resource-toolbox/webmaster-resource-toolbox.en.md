@@ -2,9 +2,9 @@
 title: Webmaster Resource Toolbox
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 7
 description: External resource entry points for domains, hosting, comments, monitoring, self-hosting, Cloudflare, analytics, webmaster communities, and blog frameworks.
 image: ""
 tags:
@@ -178,3 +178,9 @@ I'm mainly using Astro right now, so I'm more familiar with it in this area.
 - [Caddy](https://caddyserver.com/)
 
 Don't expose your admin panel directly to the public internet, and don't actually rely on memory for passwords.
+
+## Read next
+
+Put these resources to work with the [[astro-mizuki-blog-from-zero|blog setup guide]], then [[free-domain-and-web-community|connect a domain]] and explore [[cloudflare-free-tier-developer-guide|Cloudflare]]
+
+Once the site is online, use [[geoscore-2-4-guide|GeoScore]] to check crawling, indexing, and page information

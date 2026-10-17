@@ -2,9 +2,9 @@
 title: win7老電腦爆改家裏雲記錄
 published: 2026-08-09
 created: 2026-08-09
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 從零開始把家中win7老電腦改成linux服務器，看完你也可以上手
 image: ""
 tags:
@@ -89,3 +89,9 @@ tailscale ip -4
 
 > [!NOTE]
 > 然後暫時也不知道搞什麼了喵，不過有一個放在家裏的國內家寬服務器還是挺有趣的喵。實測上行帶寬約70 Mbps，2核4GB也能用。如果你看到這裏了，歡迎給我一些如何利用好這個家寬小服務器的建議！
+
+## 繼續讀
+
+機器裝好後，可以接著看 [[docker-compose-minimum-start|Docker 最小入門]]，再從 [[2c2g-server-service-index|小服務器服務清單]] 裡挑一個自己用得上的服務
+
+我後來把筆記同步也遷到了家裡，過程放在 [[fast-note-sync-on-student-server|Fast Note Sync]]，需要給服務配域名和 HTTPS 的話就看 [[cloudflare-free-tier-developer-guide|Cloudflare]]

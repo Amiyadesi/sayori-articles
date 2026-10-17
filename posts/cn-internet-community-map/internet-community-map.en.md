@@ -2,9 +2,9 @@
 title: I Made a Small Forum List Repository
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 9
 description: I've organized my previously scattered notes on internet communities into a wiki-style small forum list repository and a standalone site. PRs are welcome!
 image: ""
 tags:
@@ -143,3 +143,9 @@ I now want to make this a public directory that can be continuously updated, rat
 If you find a forum I haven't listed, or an entry that's clearly written by an outsider, feel free to submit a PR directly to the repository:
 
 [https://github.com/Amiyadesi/small-forums-list](https://github.com/Amiyadesi/small-forums-list)
+
+## Read next
+
+For my own experiences, start with [[internet-community-1|Linux.do, NodeLoc, and NodeSeek]], then continue with the [[internet-community-2|interest-community notes]]
+
+Blogging has its own post: [[internet-community-3|blogging communities and organizations]]. Browse it alongside the map

@@ -4,7 +4,7 @@ published: 2026-06-18
 created: 2026-06-18
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 11
+updateCount: 12
 description: "A guide for college students on official AI quotas, AnyRouter registration, SharedChat GPT quota claiming, and cc-switch configuration, to be watched with my Bilibili video."
 image: ""
 tags:
@@ -190,3 +190,5 @@ For more issues, you can check this out:
 ## Read next
 
 Other official offers are in the [[edumails-glados-student-benefits|student benefits hub]]. To put your project online, continue with [[azure-students-100-credit-guide|an Azure VM in Japan]] or the [[aliyun-student-300-voucher-guide|Aliyun student voucher]]. For a static site, follow the [[astro-mizuki-blog-from-zero|Cloudflare Pages blog guide]]
+
+After connecting a model, explore [[build-your-search-gateway|Search Gateway]] for search. My [[useful-browser-extensions-toolbox|browser extension list]] covers reading, translation, and API tools

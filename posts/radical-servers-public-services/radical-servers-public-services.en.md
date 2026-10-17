@@ -2,9 +2,9 @@
 title: "Riseup's 'Radical Servers' List: What Public Service Organizations Offer and What I Can Do"
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: Getting to know the non-commercial tech organizations and public services curated by Riseup, and documenting the web audit and API capabilities currently offered by sayori.org
 image: ""
 tags:
@@ -211,3 +211,9 @@ For my own site, I will first ensure the stability of the GeoScore web version, 
 If I later add website health check mutual aid, static site launch assistance, or a small quota for search evidence, these will also be handled by invitation, limited quotas, and manual processing.
 
 I strive to do my utmost to help others.
+
+## Read next
+
+One of my starting points was [[disroot-open-services-note|Disroot]], with its email, collaboration tools, and community services
+
+My own projects have separate notes: try [[geoscore-2-4-guide|GeoScore]] for website audits, or read [[build-your-search-gateway|Search Gateway]] for the parts behind a self-hosted search workflow

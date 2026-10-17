@@ -3,9 +3,9 @@ translationKey: posts/blog-style-change/blog-style-change
 title: A record of changing my blog style
 published: 2026-10-05
 created: 2026-10-05
-updated: 2026-10-05
-lastEdited: 2026-10-05
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: I finally replaced the cluttered style with a blog that feels like mine
 image: ""
 tags:
@@ -38,3 +38,9 @@ Anyway, the new style really is much more comfortable to read.
 ![[Pasted image 20261005173542.png]]
 
 The left side does look a little empty right now, hmm... Does anyone have suggestions for what I could put there?
+
+## Read next
+
+For a blog with a similar feel, I've put together a [[astro-mizuki-blog-from-zero|setup guide and starter template]]. I talk about why I write in the [[blog-author-9-questions-answer|blog author questionnaire]]
+
+Once the site is built, [[geoscore-2-4-guide|GeoScore]] can help check crawling and page information

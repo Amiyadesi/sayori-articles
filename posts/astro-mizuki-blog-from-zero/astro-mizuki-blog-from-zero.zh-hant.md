@@ -4,7 +4,7 @@ published: 2026-06-19
 created: 2026-06-19
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 7
+updateCount: 8
 description: "使用 Sayori Lite 完整模板，通過 Cloudflare Pages 連接 GitHub 搭建簡潔博客。按文件夾寫 Markdown 即可發佈，Obsidian 和 Token 發佈均為可選"
 image: ""
 tags:
@@ -243,3 +243,5 @@ pnpm preview
 ## 繼續讀
 
 站點上線後，先配一個 [[free-domain-and-web-community|免費域名]]；想了解 DNS、圖片存儲和服務入口，接著看 [[cloudflare-free-tier-developer-guide|Cloudflare 免費層]]；想在手機和電腦間同步寫作，看看 [[fast-note-sync-on-student-server|Fast Note Sync]]
+
+這套簡潔風格的取捨放在 [[blog-style-change|博客改版記錄]]，站點上線後想檢查抓取和頁面信息，可以接著看 [[geoscore-2-4-guide|GeoScore 網站體檢]]

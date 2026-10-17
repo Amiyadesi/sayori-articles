@@ -2,8 +2,8 @@
 title: Very Useful Godot Plugins
 published: 2026-07-03
 created: 2026-07-03
-updated: 2026-09-11
-lastEdited: 2026-09-11
+updated: 2026-10-17
+lastEdited: 2026-10-17
 updateCount: 2
 description: ""
 image: ""
@@ -46,3 +46,9 @@ Tooting my own horn (kidding!), this is a save plugin I developed myself, combin
 
 # Finally
 With Unity's continuous mysterious operations, Godot has become increasingly popular in recent years, and I think it's well-deserved. This open-source engine also shines even brighter in today's AI era because its compatibility with AI is very high. In short, if you like open-source freedom, or just want to try a new engine, Godot is definitely a great choice. And if you want to create some works, then reasonably leveraging the power of plugins is only natural!
+
+## Read next
+
+Beyond plugins, here's my [[re0：game-dev-life|game-development restart]] and the [[after-gmtk|GMTK Jam postmortem]] where I finally cut the scope down
+
+For publishing on Steam, there's more after GodotSteam: accounts, tax forms, and payments. See the [[steam-dev-work-01|Steam developer registration guide]]

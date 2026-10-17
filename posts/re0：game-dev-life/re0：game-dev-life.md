@@ -2,9 +2,9 @@
 title: 再次启程，从零开始的游戏开发生活
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-07-02
-lastEdited: 2026-07-02
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: 即将熬过该死的期末周，对于过去的总结，未来的思考，汇聚成一篇文章
 image: ""
 tags:
@@ -82,3 +82,9 @@ flowchart LR
 
 # 总结
 我写了什么奇怪的东西......我感觉我还要练一练我的写文章技术了哈哈，不过就先这样了，因为对于我这种意识流来说，如果意识不到东西了，那就说明真的没啥能写的了，总之，我会继续变强，学会更多，也期待能够结识更多有趣的人，帮助他人！
+
+## 继续读
+
+重新开始时整理的工具放在 [[godot-useful-plugins|Godot 插件清单]]，后来实际参加 Jam 的经历写成了 [[after-gmtk|GMTK Jam 复盘]]
+
+再往后，我做完了一个小小的网页作品，也在 [[subarutap-and-selfthink|SubaruTap 开发记录]] 里重新想了一遍自己想做什么样的创作者

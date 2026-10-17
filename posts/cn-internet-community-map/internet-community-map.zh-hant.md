@@ -2,9 +2,9 @@
 title: 我做了一個小型論壇列表倉庫
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 8
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 9
 description: 把之前零散記錄的互聯網社區，整理成一個 wiki 式的小型論壇列表倉庫和獨立站，也歡迎大家一起提交 PR。
 image: ""
 tags:
@@ -143,3 +143,9 @@ docs/categories.md
 如果你發現有我沒寫到的論壇，或者某個條目寫得很外行，歡迎直接去倉庫提 PR：
 
 [https://github.com/Amiyadesi/small-forums-list](https://github.com/Amiyadesi/small-forums-list)
+
+## 繼續讀
+
+想先看看我自己逛社區的經歷，可以從 [[internet-community-1|Linux.do、NodeLoc 和 NodeSeek]] 開始，再接著看 [[internet-community-2|興趣社區篇]]
+
+獨立博客相關的入口單獨整理在 [[internet-community-3|站長社區和組織]]，和地圖一起慢慢逛就好了

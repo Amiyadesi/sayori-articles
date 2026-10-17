@@ -2,9 +2,9 @@
 title: 互联网社区记录 2：Bangumi 和 Doki Chinese Club 还有 South Plus
 published: 2026-07-11
 created: 2026-07-11
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 6
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 7
 description: 从 Bangumi 的条目和讨论，写到我最早加入的 Doki Chinese Club 论坛，最后再提一嘴South Plus
 image: ""
 tags:
@@ -101,3 +101,9 @@ r18资源比较多，[社区论坛任务 南+ South Plus - powered by Pu!mdHd](h
 
 # 总结
 这些都是各种兴趣社区因为一种共同的爱好而聚集在一起的呢，所以社区氛围只要你能对的上电波还是很舒适的，而且相比于上一篇中提到的社区能够更放心大胆的水呢，好了，接下来迎面向我们走来的是[[internet-community-3|互联网社区记录 3：各种站长社区和组织！]]
+
+## 继续读
+
+前一篇是 [[internet-community-1|Linux.do、NodeLoc 和 NodeSeek]]，下一篇继续逛 [[internet-community-3|站长社区和组织]]
+
+想找更多不同方向的小社区，可以去 [[internet-community-map|论坛地图]] 挑自己感兴趣的分类

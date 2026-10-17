@@ -4,7 +4,7 @@ published: 2026-07-02
 created: 2026-07-02
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 4
+updateCount: 5
 description: 按「個人記錄」「主觀思考」「教程教學」三大類與站內系列整理全部公開文章，方便按主題和閱讀順序查找
 image: ""
 tags:
@@ -159,6 +159,4 @@ translationKey: posts/site-article-index/site-article-index
 | 01 | [創建你自己的搜索網關——我的搜索網關上游們](../build-your-search-gateway/) | 自建多上游 AI 搜索網關 |
 | 02 | [GeoScore 2.4.5：一個站長用來查自己網站到底缺什麼的工具](../geoscore-2-4-guide/) | 站點畫像、真實抓取證據與 SEO / GEO 修復報告 |
 | 03 | [Steam 國區開發者註冊避坑指南](../steam-dev-work-01/) | Steamworks 國區入駐、稅務、銀行卡與審核避坑全流程 |
-| 04 | [（轉載）為什麼你剛搜的東西，其他App轉頭就知道了？（包括IOS系統）](../cross-app-tracking-device-fingerprinting/) | 移動 App 權限、設備指紋與廣告 SDK 追蹤機制科普 |
-| 05 | [（轉載）繼上一個帖子：你的手機，是怎麼樣被他們區分對待的？](../mobile-app-ad-targeting-device-profiling/) | 快應用、廣告畫像與手機防追蹤實操 |
-| 06 | [（轉載）業內人士,向佬友揭露一下流氓APP是怎麼圍剿獵殺用戶的](../rogue-app-advertising-user-traps/) | 流氓 App 廣告跳轉、權限繞過與風控規避套路拆解 |
+| 04 | [手機廣告與隱私：三篇原帖閱讀索引](../cross-app-tracking-device-fingerprinting/) | 廣告套路、手機用戶畫像與設備指紋的原帖入口 |

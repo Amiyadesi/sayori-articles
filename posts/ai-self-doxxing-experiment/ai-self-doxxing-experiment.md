@@ -2,9 +2,9 @@
 title: 让 AI 开盒我自己：一次很荒诞的隐私实验
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 我让 AI 去搜索 Amiya_desi 这个名字，想看看公开互联网我目前的画像
 image: ""
 tags:
@@ -98,3 +98,7 @@ Claude也新开一个free，用sonnet4.6 max+thinking好好搜搜
 # 总结
 
 可以看出claude的webserach能力不如gpt（笑），听说grok搜的更强，不过我懒的注册，如果你看到了这里并且恰好有supergrok，想去搜搜我也行（笑）
+
+## 继续读
+
+这次试的是公开信息能拼出什么，设备里的信息又是另一回事。我把相关的三篇原帖放进了 [[cross-app-tracking-device-fingerprinting|手机广告与隐私阅读索引]]，两种画像对照着看也挺有意思

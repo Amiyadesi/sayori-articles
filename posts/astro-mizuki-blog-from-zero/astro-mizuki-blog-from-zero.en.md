@@ -4,7 +4,7 @@ published: 2026-06-19
 created: 2026-06-19
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 7
+updateCount: 8
 description: "Deploy the complete Sayori Lite template through Cloudflare Pages and GitHub. Publish folder-based Markdown articles, with optional Obsidian and token-based Actions deployment."
 image: ""
 tags:
@@ -241,3 +241,5 @@ I still think a blog's content matters most. That's why I chose this simple temp
 ## Read next
 
 Once the site is online, connect a [[free-domain-and-web-community|free domain]]. Continue with [[cloudflare-free-tier-developer-guide|Cloudflare's free tier]] for DNS, image storage, and service access. For writing across your phone and computer, see [[fast-note-sync-on-student-server|Fast Note Sync]]
+
+The choices behind this style are in my [[blog-style-change|redesign notes]]. Once the site is online, see [[geoscore-2-4-guide|GeoScore]] for crawling and page-information checks

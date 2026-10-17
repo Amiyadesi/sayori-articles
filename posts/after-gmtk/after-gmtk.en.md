@@ -2,9 +2,9 @@
 title: Reflections After GMTK Jam
 published: 2026-07-27
 created: 2026-07-27
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: In the last six hours of GMTK Jam, I cut down the unfinished puzzles and submitted a small game that was actually playable.
 image: ""
 tags:
@@ -44,3 +44,9 @@ I also summarized a lot in my private diary on 2026-07-26. It captures the menta
 
 Finally, kids, don't rely on 'wheelchairs' too much in the future! Maintain independent thought. Don't answer, don't answer, don't answer!
 {{But comments are very welcome (*^_^*)}}
+
+## Read next
+
+For what led up to this, read my [[re0：game-dev-life|game-development restart]]. A later small project became the [[subarutap-and-selfthink|SubaruTap development notes]]
+
+Reading [[weakly-articles-02|Own the Slice]] later brought back quite a few lessons about scope and depending on AI

@@ -2,9 +2,9 @@
 title: 互联网社区记录 1： Linux.do  NodeLoc 和NodeSeek，mjj和AI相关
 published: 2026-06-21
 created: 2026-06-21
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 17
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 18
 description: 第一篇中文互联网社区记录，先只讲 Linux.do 和 NodeLoc：它们适合看什么，新人进去前要注意什么。
 image: ""
 tags:
@@ -88,3 +88,9 @@ Nodeloc也有那种类似社区积分的东西，叫做电池，每天右上角�
 
 ### 注册方式
 [如何获得NodeSeek论坛邀请码](https://www.nodeseek.com/post-16700-1)，帖子在这里，按照帖子的介绍尝试获取邀请码就好了，或者也可以等站长攒到1K鸡腿生成一个，不过还是算了，这个估计任重而道远了（雾）
+
+## 继续读
+
+这一组记录接着是 [[internet-community-2|兴趣社区篇]]，后来又整理成了 [[internet-community-map|小型论坛地图]]，可以按自己的兴趣慢慢逛
+
+如果是被服务器讨论勾起了兴趣，我自己折腾的起点放在 [[sayori-server-01-vps-start|第一台 VPS 的记录]] 里

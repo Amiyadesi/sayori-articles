@@ -2,9 +2,9 @@
 title: 再次啓程，從零開始的遊戲開發生活
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-07-02
-lastEdited: 2026-07-02
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: 即將熬過該死的期末周，對於過去的總結，未來的思考，匯聚成一篇文章
 image: ""
 tags:
@@ -82,3 +82,9 @@ flowchart LR
 
 # 總結
 我寫了什麼奇怪的東西......我感覺我還要練一練我的寫文章技術了哈哈，不過就先這樣了，因爲對於我這種意識流來說，如果意識不到東西了，那就說明真的沒啥能寫的了，總之，我會繼續變強，學會更多，也期待能夠結識更多有趣的人，幫助他人！
+
+## 繼續讀
+
+重新開始時整理的工具放在 [[godot-useful-plugins|Godot 插件清單]]，後來實際參加 Jam 的經歷寫成了 [[after-gmtk|GMTK Jam 復盤]]
+
+再往後，我做完了一個小小的網頁作品，也在 [[subarutap-and-selfthink|SubaruTap 開發記錄]] 裡重新想了一遍自己想做什麼樣的創作者

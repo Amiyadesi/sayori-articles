@@ -2,9 +2,9 @@
 title: 互聯網社區記錄 3：各種站長社區和組織！
 published: 2026-07-20
 created: 2026-07-20
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 各種站長社區和組織！反正加入了也不會喫虧，想加入的可以看看！
 image: ""
 tags:
@@ -58,3 +58,9 @@ translationKey: posts/internet-community-3/internet-community-3
 
 # 結尾
 這種組織真的是超級多啊（笑），畢竟確實大部分組織的功能復刻起來都比較簡單，基本上最複雜的是審查環節說是，以後如果站長又找到了哪些組織，並且想要加入的話，應該也會記錄在這上面吧hh
+
+## 繼續讀
+
+這一篇接著 [[internet-community-2|興趣社區篇]]，更多論壇也放進了 [[internet-community-map|論壇地圖]]，以後可以繼續往裡面補
+
+如果逛完也想有一個自己的小站，可以從 [[astro-mizuki-blog-from-zero|從零搭博客]] 開始，再看 [[free-domain-and-web-community|域名和站長社區入門]]

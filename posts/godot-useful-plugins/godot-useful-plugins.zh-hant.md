@@ -2,9 +2,9 @@
 title: 很有用的Godot插件
 published: 2026-07-03
 created: 2026-07-03
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 1
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 2
 description: ""
 image: ""
 tags:
@@ -46,3 +46,9 @@ translationKey: posts/godot-useful-plugins/godot-useful-plugins
 
 # 最後
 隨着unity的不斷神祕操作，導致Godot在近幾年變得愈發大衆，我覺得也是值得的；這個開源引擎再當今的AI時代也是更加出彩，因爲它和AI的相性非常的高；總之如果你喜歡開源自由，或者就是想要嘗試一個新的引擎，Godot肯定是一個很好的選擇；而如果你想要用來做一些作品的話，那麼合理的藉助插件的力量也是理所應當的！
+
+## 繼續讀
+
+插件之外，我自己的開發過程放在 [[re0：game-dev-life|再次啟程，從零開始的遊戲開發生活]]，還有一次最後關頭才收住範圍的 [[after-gmtk|GMTK Jam 復盤]]
+
+如果已經準備把作品發到 Steam，GodotSteam 後面還要接上賬號和收款這些事，我寫在了 [[steam-dev-work-01|Steam 開發者註冊指南]] 裡

@@ -4,7 +4,7 @@ published: 2026-06-18
 created: 2026-06-18
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 11
+updateCount: 12
 description: "給大學生看的官方 AI 額度、AnyRouter 註冊、SharedChat 額度領取和 cc-switch 配置記錄，配合我已經發到 B 站的視頻看"
 image: ""
 tags:
@@ -191,3 +191,5 @@ SharedChat
 ## 繼續讀
 
 其他官方權益放在 [[edumails-glados-student-benefits|學生權益總表]]，想把寫好的項目放到線上，可以繼續看 [[azure-students-100-credit-guide|Azure 日本服務器]]、[[aliyun-student-300-voucher-guide|阿里雲學生券]]，靜態網頁則直接用 [[astro-mizuki-blog-from-zero|Cloudflare Pages 建站]]
+
+模型接好以後，搜索這部分我單獨做成了 [[build-your-search-gateway|Search Gateway]]；瀏覽器裡輔助閱讀、翻譯和管理接口的工具放在 [[useful-browser-extensions-toolbox|插件清單]] 裡

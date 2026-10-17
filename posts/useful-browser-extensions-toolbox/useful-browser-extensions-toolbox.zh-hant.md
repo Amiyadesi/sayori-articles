@@ -2,9 +2,9 @@
 title: 免費好用瀏覽器插件清單：腳本、翻譯、密碼、倍速、查站和隱私
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 3
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 4
 description: 油猴腳本、沉浸式翻譯、Bitwarden、Global Speed、SimilarSites、AI 輔助插件和隱私插件的簡短整理
 image: ""
 tags:
@@ -47,7 +47,7 @@ translationKey: posts/useful-browser-extensions-toolbox/useful-browser-extension
 
 # ~~沉浸式翻譯~~——陪讀蛙🐸
 ![[Pasted image 20260718200848.png|width=560|align=center|caption=陪读蛙插件]]
-可以在插件商店找到，用於做雙語翻譯之類的很舒服，自帶的免費也不錯，如果要求比較高的話可以充值一些deepseek用deepseek v4 flash來翻譯也能支持很久了，或者就去找一些有deepseek的公益站之類的，比如我的這篇文章裏就有[[freeapi-glm-kimi-cc-switch|一些目前的免费API]]
+可以在插件商店找到，用於做雙語翻譯之類的很舒服，自帶的免費也不錯，如果要求比較高的話可以充值一些deepseek用deepseek v4 flash來翻譯也能支持很久了，或者就去找一些有deepseek的公益站之類的，比如我的這篇文章裏就有[[anyrouter-sharedchat-cc-switch-student-guide|AI 額度與 cc-switch]]
 
 最近嘗試了陪讀蛙，才發現原來翻譯可以這麼快啊！沉浸式翻譯你是誰，我不認識，不要打擾我和陪讀蛙過日子了
 
@@ -87,3 +87,9 @@ translationKey: posts/useful-browser-extensions-toolbox/useful-browser-extension
 
 # End
 目前暫時先介紹這麼多，以後如果我有其他的好用的插件，應該也會同步更新在這裏，如果有幫到你，非常榮幸(≧∇≦)/
+
+## 繼續讀
+
+Bitwarden 想連自己的密碼庫，可以接著看 [[selfhost-vaultwarden-on-2c2g|自建 Vaultwarden]]；AI 工具的接口和供應商配置放在 [[anyrouter-sharedchat-cc-switch-student-guide|AI 額度與 cc-switch]] 裡
+
+廣告和隱私插件背後到底在處理什麼，可以接著看 [[cross-app-tracking-device-fingerprinting|手機廣告與隱私閱讀索引]] 裡的三篇原帖，和插件一起對照著理解

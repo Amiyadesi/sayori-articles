@@ -2,9 +2,9 @@
 title: "GeoScore 2.4.5: A Tool for Webmasters to Figure Out What Their Site is Really Missing"
 published: 2026-07-16
 created: 2026-07-16
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: Using site profiles, real crawl evidence, and repair reports to understand what a website truly lacks.
 image: ""
 tags:
@@ -266,3 +266,9 @@ It's even less likely to confirm out of thin air that a certain consumer AI prod
 For me, these boundaries actually make the report more useful.
 
 An auditing tool should clearly state what it knows and what it doesn't, leaving the rest for the site maintainer to verify.
+
+## Read next
+
+To build your own site, start with the [[astro-mizuki-blog-from-zero|simple blog template]]. See [[cloudflare-free-tier-developer-guide|Cloudflare's free tier]] for domains, hosting, and image storage
+
+I'm also working on the experience of actually reading a post. The choices behind that are in my [[blog-style-change|blog redesign notes]]

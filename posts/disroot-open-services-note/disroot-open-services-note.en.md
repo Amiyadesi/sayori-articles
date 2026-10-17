@@ -2,9 +2,9 @@
 title: "Disroot: A Collection of Open-Source Services That Feels Like the Old Internet Ideal"
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: Documenting Disroot's email, cloud storage, XMPP, and collaboration tools, and using it as an opportunity to reorganize sayori.org's public services suitable for long-term maintenance.
 image: ""
 tags:
@@ -103,3 +103,9 @@ Instead of continuously piling on new services, I'd rather first try a few very 
 None of these will start as anonymous public platforms; instead, they'll begin with invitations, quotas, and manual processing. If there's no demand, they'll stop; if maintenance costs exceed my capacity, they'll also stop.
 
 I'm now more inclined to call say
+
+## Read next
+
+Continue exploring with [[radical-servers-public-services|the tech organizations and public services listed by Riseup]]
+
+To host something yourself, browse the [[2c2g-server-service-index|small-server service list]]. I've also written about [[selfhost-vaultwarden-on-2c2g|self-hosting Vaultwarden]]

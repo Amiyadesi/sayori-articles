@@ -2,9 +2,9 @@
 title: 做完SubaruTap后，我重新思考了我作为内容创作者这件事
 published: 2026-08-11
 created: 2026-08-11
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 做完subarutap后，我不禁思考创作者是什么，创作者应该具备什么，怎么更好的创作
 image: ""
 tags:
@@ -112,3 +112,8 @@ translationKey: posts/subarutap-and-selfthink/subarutap-and-selfthink
 
 - [斋藤直葵的视频](https://www.bilibili.com/video/BV1oCKQ6xEmx/)，虽然是讲画画的，不过也能学到很多呢，这算是一个非常优质的up主了，推荐关注哦
 
+## 继续读
+
+这次能把小作品做完，也可以和前面的 [[after-gmtk|GMTK Jam 复盘]] 对照着看；后来读 [[weakly-articles-02|Own the Slice]]，又让我重新想了一遍怎么控制范围和完成作品
+
+如果下一步是把游戏放上 Steam，账号、税务和收款的过程放在 [[steam-dev-work-01|Steam 开发者注册指南]] 里

@@ -2,9 +2,9 @@
 title: "Useful Free Software Toolbox: Remote, Convert, Transfer Files, Notes, Screen Recording, and Pixel Art"
 published: 2026-07-01
 created: 2026-07-01
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: A brief compilation of NetEase UU Remote, File Converter, LocalSend, Obsidian, OBS, Aseprite, and an Aseprite self-compilation repository.
 image: ""
 tags:
@@ -74,3 +74,9 @@ Official website [https://www.aseprite.org/](https://www.aseprite.org/)
 Great for drawing pixel art and making pixel animations, and it's a common recommendation.
 
 The official installer is paid. If you mind, you can compile it yourself, for example, using this repository: [a1393323447/aseprite-builder](https://github.com/a1393323447/aseprite-builder)
+
+## Read next
+
+Sync your Obsidian notes across devices with [[fast-note-sync-on-student-server|Fast Note Sync]], then follow the [[astro-mizuki-blog-from-zero|blog setup guide]] to publish them
+
+If you also use Aseprite for game art, my [[godot-useful-plugins|Godot plugin list]] is another step toward turning those assets into something playable

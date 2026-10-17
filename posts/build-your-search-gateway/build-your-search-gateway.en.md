@@ -2,8 +2,8 @@
 title: Build Your Own Search Gateway – My Search Gateway Upstreams
 published: 2026-07-05
 created: 2026-07-05
-updated: 2026-09-11
-lastEdited: 2026-09-11
+updated: 2026-10-17
+lastEdited: 2026-10-17
 updateCount: 2
 description: ""
 image: ""
@@ -144,3 +144,9 @@ All keys are stored on the server; local access is only via MCP calls.
 General questions go through 'auto', specialized questions explicitly name the upstream, and failures trigger a fallback to another source.
 
 This way, if one upstream goes down, it won't affect the entire AI search workflow.
+
+## Read next
+
+For model access and provider switching in local AI tools, see [[anyrouter-sharedchat-cc-switch-student-guide|AI credits and cc-switch]]. The search gateway extends that workflow
+
+Start with [[docker-compose-minimum-start|Docker basics]] for the server side. My [[make-home-server|home-server build]] shows the old computer I use to host services
