@@ -4,7 +4,7 @@ published: 2026-06-22
 created: 2026-06-22
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 5
+updateCount: 6
 description: "My real-world setup for a 2C2G Alibaba Cloud student server: Vaultwarden, ntfy, Gatus, Fast Note Sync, AstrBot, and a search gateway. Includes actual memory usage and a list of what not to run."
 image: ""
 tags:
@@ -395,3 +395,9 @@ It won't let you:
 But that's enough.
 
 A server isn't "set it and forget it." It forces you to take backups, security, and monitoring seriously. Which is actually a good thing.
+
+## Read next
+
+Alongside cloud VMs, I've also [[make-home-server|turned an old PC into a home server]]. This list can help you choose services for that machine too
+
+To add search to your AI tools, read [[build-your-search-gateway|the parts and workflow behind my search gateway]]

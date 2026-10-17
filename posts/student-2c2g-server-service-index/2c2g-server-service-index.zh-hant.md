@@ -4,7 +4,7 @@ published: 2026-06-22
 created: 2026-06-22
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 5
+updateCount: 6
 description: "站長的 2C2G 阿里雲輕量服務器實戰配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索網關。包含真實內存佔用和不推薦列表"
 image: ""
 tags:
@@ -397,3 +397,9 @@ Swap:          2.0Gi       987Mi       1.0Gi
 但這就夠了
 
 服務器不是配置完就結束，它會逼著你認真對待備份、安全、監控。這其實是好事
+
+## 繼續讀
+
+雲服務器之外，我也折騰過 [[make-home-server|把舊電腦改成家裡雲]]，同樣可以拿這份清單挑服務
+
+想把 AI 工具接上自己的搜索能力，可以看看 [[build-your-search-gateway|搜索網關的組成和工作流]]，繼續往自己真正需要的方向折騰就好

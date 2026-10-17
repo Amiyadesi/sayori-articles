@@ -2,9 +2,9 @@
 title: "Internet Community Log 3: All Kinds of Webmaster Communities and Organizations!"
 published: 2026-07-20
 created: 2026-07-20
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: All kinds of webmaster communities and organizations! It doesn't hurt to join, so take a look if you're interested!
 image: ""
 tags:
@@ -58,3 +58,9 @@ And these three seem to have a mutual registration system, which is pretty inter
 
 # In Conclusion
 There are really so many of these organizations (lol). After all, the features of most of them are pretty simple to replicate. The most complex part is probably the review process. If I find any more organizations in the future and decide to join, I'll probably document them here too, haha.
+
+## Read next
+
+This follows the [[internet-community-2|interest-community notes]]. More forums are collected in the [[internet-community-map|forum map]]
+
+To make a place of your own, start with the [[astro-mizuki-blog-from-zero|blog setup guide]], then continue with [[free-domain-and-web-community|domains and blogging communities]]

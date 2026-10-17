@@ -4,7 +4,7 @@ published: 2026-06-22
 created: 2026-06-22
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 5
+updateCount: 6
 description: "站长的 2C2G 阿里云轻量服务器实战配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索网关。包含真实内存占用和不推荐列表"
 image: ""
 tags:
@@ -395,3 +395,9 @@ Swap:          2.0Gi       987Mi       1.0Gi
 但这就够了
 
 服务器不是配置完就结束，它会逼着你认真对待备份、安全、监控。这其实是好事
+
+## 继续读
+
+云服务器之外，我也折腾过 [[make-home-server|把旧电脑改成家里云]]，同样可以拿这份清单挑服务
+
+想把 AI 工具接上自己的搜索能力，可以看看 [[build-your-search-gateway|搜索网关的组成和工作流]]，继续往自己真正需要的方向折腾就好

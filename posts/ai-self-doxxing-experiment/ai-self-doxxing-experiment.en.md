@@ -2,9 +2,9 @@
 title: "Letting AI Dox Myself: A Rather Absurd Privacy Experiment"
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: I asked AI to search for the name Amiya_desi, curious to see my current public internet persona.
 image: ""
 tags:
@@ -96,3 +96,7 @@ Public articles on the blog include: a longer self-story (about weight loss, exe
 # Summary
 
 It's clear Claude's web search capabilities aren't as good as GPT's (lol). I heard Grok searches even better, but I'm too lazy to sign up. If you're reading this and happen to have supergrok, feel free to search for me too (lol).
+
+## Read next
+
+This experiment used public information. My [[cross-app-tracking-device-fingerprinting|mobile ads and privacy reading index]] links three articles on device data and profiling. It's interesting to compare the two kinds of profile

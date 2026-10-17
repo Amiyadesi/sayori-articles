@@ -2,9 +2,9 @@
 title: "Starting Anew: Game Dev Life from Zero"
 published: 2026-07-02
 created: 2026-07-02
-updated: 2026-07-02
-lastEdited: 2026-07-02
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: About to survive the damn finals week, a summary of the past, thoughts on the future, all in one article.
 image: ""
 tags:
@@ -81,3 +81,9 @@ Listening to 'Stay Alive,' I also feel gently lifted... Music, ah, 25-ji, DDLC, 
 
 # Conclusion
 What strange things did I write...? I feel like I need to practice my writing skills, haha. But for now, this is it. Because for someone like me, who writes in a stream of consciousness, if I can't 'stream' anything, it means there's really nothing left to write. Anyway, I will continue to get stronger, learn more, and look forward to meeting more interesting people and helping others!
+
+## Read next
+
+I collected my tools in the [[godot-useful-plugins|Godot plugin list]]. The later [[after-gmtk|GMTK Jam postmortem]] shows what happened when I put them to use
+
+After that came a small web project and another look at the creator I want to become: [[subarutap-and-selfthink|the SubaruTap development notes]]

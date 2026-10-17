@@ -2,9 +2,9 @@
 title: Disroot：一个很像互联网老理想的开源服务集合
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 记录 Disroot 的邮箱、云盘、XMPP 与协作工具，也借它重新整理 sayori.org 适合长期维护的公共服务
 image: ""
 tags:
@@ -103,3 +103,8 @@ translationKey: posts/disroot-open-services-note/disroot-open-services-note
 我现在更愿意把 sayori.org 称为个人维护、非商业、尽力而为的公共数字服务，而不是公益组织，因为我也没有这个精力就是了
 
 
+## 继续读
+
+同一条线还可以看看 [[radical-servers-public-services|Riseup 整理的技术组织与公共服务]]，能发现不少有趣的小组织
+
+想把其中一些服务放到自己的机器上，可以先看 [[2c2g-server-service-index|小服务器服务清单]]，密码库这部分我另外写了 [[selfhost-vaultwarden-on-2c2g|Vaultwarden 自建记录]]

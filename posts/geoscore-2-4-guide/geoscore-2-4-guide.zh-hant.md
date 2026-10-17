@@ -2,9 +2,9 @@
 title: GeoScore 2.4.5：一個站長用來查自己網站到底缺什麼的工具
 published: 2026-07-16
 created: 2026-07-16
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 用站點畫像、真實抓取證據與修復報告，搞清楚一個網站真正缺的東西
 image: ""
 tags:
@@ -266,3 +266,9 @@ GeoScore 不是無限深度爬蟲，五頁樣本不能代表每一個 URL
 對我來說，這些邊界反而讓報告更能用
 
 一個審計工具應該把知道什麼、不知道什麼說清楚，剩下的事情再交給站點維護者去驗證
+
+## 繼續讀
+
+還沒建站的話，可以從 [[astro-mizuki-blog-from-zero|簡潔博客模板]] 開始，域名、託管和圖片存儲這些放在 [[cloudflare-free-tier-developer-guide|Cloudflare 免費層]] 裡
+
+除了抓取和索引，我也在調整真正讀文章時的體驗，取捨過程寫在 [[blog-style-change|博客風格改版記錄]] 裡

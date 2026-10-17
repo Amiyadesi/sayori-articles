@@ -2,9 +2,9 @@
 title: "Internet Community Log 1: Linux.do NodeLoc and NodeSeek, mjj and AI related"
 published: 2026-06-21
 created: 2026-06-21
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 18
 description: "The first log of Chinese internet communities, focusing only on Linux.do and NodeLoc: what they're good for, and what newcomers should know before joining."
 image: ""
 tags:
@@ -87,3 +87,9 @@ If you want to discuss server-related topics or get some intelligence, you can t
 
 ### Registration Method
 [How to get a NodeSeek forum invitation code](https://www.nodeseek.com/post-16700-1). The thread is here. Follow the instructions in the post to try and get an invitation code, or you can wait for the admin to accumulate 1K 'chicken legs' to generate one, but let's not count on it, that's probably a long road ahead (kidding).
+
+## Read next
+
+Continue with the [[internet-community-2|interest-community notes]]. I later collected more places in the [[internet-community-map|small-forum map]]
+
+If the server discussions make you want to try hosting something, here's [[sayori-server-01-vps-start|how I started with my first VPS]]

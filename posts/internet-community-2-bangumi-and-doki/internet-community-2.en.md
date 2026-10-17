@@ -2,9 +2,9 @@
 title: "Internet Community Records 2: Bangumi, Doki Chinese Club, and South Plus"
 published: 2026-07-11
 created: 2026-07-11
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 7
 description: From Bangumi's entries and discussions, to the Doki Chinese Club forum I first joined, and finally a quick mention of South Plus.
 image: ""
 tags:
@@ -95,3 +95,9 @@ There are also some net-earning sections for cloud drives here. If you're doing 
 > - **Adult-oriented / NSFW Community**: The content scale is quite large, making it a typical "porn site" forum.
 > - **Resource-driven**: Users primarily share, seek, and discuss adult content.
 > - It has a certain reputation within the adult/underground circles of the Chinese internet but is a niche and content-sensitive community.
+
+## Read next
+
+The previous post covers [[internet-community-1|Linux.do, NodeLoc, and NodeSeek]]. Next are [[internet-community-3|blogging communities and organizations]]
+
+For more small communities, browse the categories in my [[internet-community-map|forum map]]

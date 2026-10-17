@@ -2,9 +2,9 @@
 title: 我做了一个小型论坛列表仓库
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 8
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 9
 description: 把之前零散记录的互联网社区，整理成一个 wiki 式的小型论坛列表仓库和独立站，也欢迎大家一起提交 PR。
 image: ""
 tags:
@@ -143,3 +143,9 @@ docs/categories.md
 如果你发现有我没写到的论坛，或者某个条目写得很外行，欢迎直接去仓库提 PR：
 
 [https://github.com/Amiyadesi/small-forums-list](https://github.com/Amiyadesi/small-forums-list)
+
+## 继续读
+
+想先看看我自己逛社区的经历，可以从 [[internet-community-1|Linux.do、NodeLoc 和 NodeSeek]] 开始，再接着看 [[internet-community-2|兴趣社区篇]]
+
+独立博客相关的入口单独整理在 [[internet-community-3|站长社区和组织]]，和地图一起慢慢逛就好了

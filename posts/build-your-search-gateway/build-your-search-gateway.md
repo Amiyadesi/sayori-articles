@@ -2,9 +2,9 @@
 title: 创建你自己的搜索网关——我的搜索网关上游们
 published: 2026-07-05
 created: 2026-07-05
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 1
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 2
 description: ""
 image: ""
 tags:
@@ -144,3 +144,9 @@ flowchart TD
 普通问题走 auto，专业问题点名上游，失败就按 fallback 换源
 
 这样一个上游挂了，不会影响整个 AI 搜索工作流
+
+## 继续读
+
+本地 AI 工具怎么接模型和切换供应商，放在 [[anyrouter-sharedchat-cc-switch-student-guide|AI 额度与 cc-switch]] 里，搜索网关可以接着这条工作流继续搭
+
+服务端还不熟的话，先看 [[docker-compose-minimum-start|Docker 最小入门]]；想用家里的旧电脑承载这些服务，可以看看我的 [[make-home-server|家里云改造记录]]

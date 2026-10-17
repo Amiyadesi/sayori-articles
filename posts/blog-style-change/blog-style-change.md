@@ -3,9 +3,9 @@ translationKey: posts/blog-style-change/blog-style-change
 title: 博客风格转变记录
 published: 2026-10-05
 created: 2026-10-05
-updated: 2026-10-05
-lastEdited: 2026-10-05
-updateCount: 0
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 1
 description: 我终于换掉了繁杂的风格，改成了我的博客
 image: ""
 tags:
@@ -37,3 +37,9 @@ alias: ""
 ![[Pasted image 20261005173542.png]]
 
 不过目前似乎左边有些空旷emmm，有没有能给我提一些建议放什么的呢？
+
+## 继续读
+
+想搭一个类似的简洁博客，我把起步版本整理成了 [[astro-mizuki-blog-from-zero|从零建站教程和模板]]，也在 [[blog-author-9-questions-answer|博客作者 9 问]] 里聊过自己为什么写这些东西
+
+网站做完后，抓取和页面信息这些问题可以配合 [[geoscore-2-4-guide|GeoScore]] 一起检查

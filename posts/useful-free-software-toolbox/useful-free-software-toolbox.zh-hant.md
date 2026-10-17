@@ -2,9 +2,9 @@
 title: 免費好用軟件清單：遠程、轉換、傳文件、筆記、錄屏和像素畫
 published: 2026-07-01
 created: 2026-07-01
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 網易 UU 遠程、File Converter、LocalSend、Obsidian、OBS、Aseprite 和 Aseprite 自編譯倉庫的簡短整理
 image: ""
 tags:
@@ -74,3 +74,9 @@ translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
 畫像素畫和做像素動畫很好用，也是很多人默認會提的一款
 
 官方安裝包是付費的，介意的話可以自己編譯，比如用這個倉庫[a1393323447/aseprite-builder](https://github.com/a1393323447/aseprite-builder)
+
+## 繼續讀
+
+Obsidian 寫好的筆記可以用 [[fast-note-sync-on-student-server|Fast Note Sync]] 跨端同步，想公開成文章就接著看 [[astro-mizuki-blog-from-zero|從零搭博客]]
+
+如果你和我一樣也在用 Aseprite 畫遊戲素材，可以順便看看 [[godot-useful-plugins|我常用的 Godot 插件]]，繼續把素材做成能玩的東西

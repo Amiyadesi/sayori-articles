@@ -4,7 +4,7 @@ published: 2026-07-02
 created: 2026-07-02
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 4
+updateCount: 5
 description: 按「个人记录」「主观思考」「教程教学」三大类与站内系列整理全部公开文章，方便按主题和阅读顺序查找
 image: ""
 tags:
@@ -157,6 +157,4 @@ alias: ""
 | 01 | [创建你自己的搜索网关——我的搜索网关上游们](../build-your-search-gateway/) | 自建多上游 AI 搜索网关 |
 | 02 | [GeoScore 2.4.5：一个站长用来查自己网站到底缺什么的工具](../geoscore-2-4-guide/) | 站点画像、真实抓取证据与 SEO / GEO 修复报告 |
 | 03 | [Steam 国区开发者注册避坑指南](../steam-dev-work-01/) | Steamworks 国区入驻、税务、银行卡与审核避坑全流程 |
-| 04 | [（转载）为什么你刚搜的东西，其他App转头就知道了？（包括IOS系统）](../cross-app-tracking-device-fingerprinting/) | 移动 App 权限、设备指纹与广告 SDK 追踪机制科普 |
-| 05 | [（转载）继上一个帖子：你的手机，是怎么样被他们区分对待的？](../mobile-app-ad-targeting-device-profiling/) | 快应用、广告画像与手机防追踪实操 |
-| 06 | [（转载）业内人士,向佬友揭露一下流氓APP是怎么围剿猎杀用户的](../rogue-app-advertising-user-traps/) | 流氓 App 广告跳转、权限绕过与风控规避套路拆解 |
+| 04 | [手机广告与隐私：三篇原帖阅读索引](../cross-app-tracking-device-fingerprinting/) | 广告套路、手机用户画像与设备指纹的原帖入口 |

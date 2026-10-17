@@ -2,9 +2,9 @@
 title: Turning an Old Windows 7 PC into a Home Cloud Server
 published: 2026-08-09
 created: 2026-08-09
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 1
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: Starting from scratch, I turned an old Windows 7 computer into a Linux server. After reading this, you can get started too.
 image: ""
 tags:
@@ -83,3 +83,9 @@ I also successfully moved Fast Note Sync to the home server, which should make s
 
 > [!NOTE]
 > I still do not know what to build next, nya. But having a small server on a domestic home connection is pretty fun. The tested upload bandwidth is around 70 Mbps, and a 2-core, 4 GB machine is usable too. If you made it this far, feel free to suggest ways I could put this little home server to better use!
+
+## Read next
+
+Once the machine is ready, start with [[docker-compose-minimum-start|Docker basics]] and pick something useful from the [[2c2g-server-service-index|small-server service list]]
+
+I later moved note syncing home too: see [[fast-note-sync-on-student-server|Fast Note Sync]]. For a domain and HTTPS, continue with [[cloudflare-free-tier-developer-guide|Cloudflare]]

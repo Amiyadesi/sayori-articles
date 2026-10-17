@@ -2,9 +2,9 @@
 title: 免费好用软件清单：远程、转换、传文件、笔记、录屏和像素画
 published: 2026-07-01
 created: 2026-07-01
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 网易 UU 远程、File Converter、LocalSend、Obsidian、OBS、Aseprite 和 Aseprite 自编译仓库的简短整理
 image: ""
 tags:
@@ -74,3 +74,9 @@ translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
 画像素画和做像素动画很好用，也是很多人默认会提的一款
 
 官方安装包是付费的，介意的话可以自己编译，比如用这个仓库[a1393323447/aseprite-builder](https://github.com/a1393323447/aseprite-builder)
+
+## 继续读
+
+Obsidian 写好的笔记可以用 [[fast-note-sync-on-student-server|Fast Note Sync]] 跨端同步，想公开成文章就接着看 [[astro-mizuki-blog-from-zero|从零搭博客]]
+
+如果你和我一样也在用 Aseprite 画游戏素材，可以顺便看看 [[godot-useful-plugins|我常用的 Godot 插件]]，继续把素材做成能玩的东西

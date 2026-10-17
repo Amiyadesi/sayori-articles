@@ -2,9 +2,9 @@
 title: 個人站長外部資源清單
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 6
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 7
 description: 域名、託管、評論、監控、自託管、Cloudflare、統計、站長社區和博客框架的外部資源入口
 image: ""
 tags:
@@ -178,3 +178,9 @@ Cloudflare 這種東西最好直接看官方文檔，不然社區帖子很容易
 - [Caddy](https://caddyserver.com/)
 
 別把面板直接裸在公網，也別真靠記憶記密碼
+
+## 繼續讀
+
+想把這些資源用起來，可以按 [[astro-mizuki-blog-from-zero|從零建站]] → [[free-domain-and-web-community|配域名]] → [[cloudflare-free-tier-developer-guide|Cloudflare]] 的順序走一遍
+
+網站上線後，再用 [[geoscore-2-4-guide|GeoScore]] 看看抓取、索引和頁面信息還有哪裡需要補

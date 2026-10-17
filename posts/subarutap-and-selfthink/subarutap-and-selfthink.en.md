@@ -2,9 +2,9 @@
 title: After Making SubaruTap, I Rethought What It Means to Be a Creator
 published: 2026-08-11
 created: 2026-08-11
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: After making SubaruTap, I started thinking again about what kind of creator I am, what creators need, and how to make better things.
 image: ""
 tags:
@@ -115,3 +115,9 @@ I think creators have a responsibility to guide others.
 Here are a few videos I like that fit this topic. I am leaving them here as extra material, and I might add more later.
 
 - [A video by Naoki Saito](https://www.bilibili.com/video/BV1oCKQ6xEmx/). It is about drawing, but there is still a lot to learn from it. A very good creator; worth following.
+
+## Read next
+
+Compare this small finished project with my [[after-gmtk|GMTK Jam postmortem]]. Reading [[weakly-articles-02|Own the Slice]] later gave me another way to think about scope and finishing
+
+If your next step is Steam, the [[steam-dev-work-01|developer registration guide]] covers accounts, tax forms, and payments

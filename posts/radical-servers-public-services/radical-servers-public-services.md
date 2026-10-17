@@ -2,9 +2,9 @@
 title: Riseup 的“激进服务器”列表：公益组织在提供什么，我能做什么
 published: 2026-07-19
 created: 2026-07-19
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 认识 Riseup 整理的非商业技术组织与公共服务，也记录 sayori.org 现在能开放的网页审计和 API 能力
 image: ""
 tags:
@@ -213,3 +213,9 @@ curl "https://geo-api.sayori.org/api/audit/example.com"
 如果以后增加网站体检互助、静态站上线协助或少量搜索证据额度，也会先邀请、限额和人工处理
 
 争取能够尽自己最大的力去帮助他人
+
+## 继续读
+
+我接触这些组织的一条入口是 [[disroot-open-services-note|Disroot]]，邮箱、协作工具和社区服务放在那篇一起看
+
+自己在做的项目也有单独记录：[[geoscore-2-4-guide|GeoScore 网站体检]] 可以直接使用，[[build-your-search-gateway|Search Gateway]] 则写了自建搜索的组成和工作流

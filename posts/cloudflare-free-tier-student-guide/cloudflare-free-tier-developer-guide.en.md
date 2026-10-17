@@ -4,7 +4,7 @@ published: 2026-06-22
 created: 2026-06-22
 updated: 2026-10-17
 lastEdited: 2026-10-17
-updateCount: 3
+updateCount: 4
 description: "A rundown of genuinely useful things in Cloudflare's free tier: Pages, Workers, R2, Tunnel, Email Routing, DNS, Web Analytics, and when it's a better fit than a VPS."
 image: ""
 tags:
@@ -245,3 +245,5 @@ For a machine, compare [[azure-students-100-credit-guide|Azure in Japan]] and th
 awesome-cloudflare: [https://github.com/zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
 
 This repo compiles various tools and uses within the Cloudflare ecosystem, with 14k+ stars. If you want to know "what others are doing with Cloudflare," start here.
+
+More external tools are in the [[webmaster-resource-toolbox|webmaster resource list]]. Once the site is online, [[geoscore-2-4-guide|GeoScore]] can check its crawling and page information

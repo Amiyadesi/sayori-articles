@@ -2,9 +2,9 @@
 title: 独立博客自省问卷 15 题答卷
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 5
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: 给雅余独立博客自省问卷留的一份答卷，先自查一下我和这个博客的关系。
 image: ""
 tags:
@@ -117,3 +117,9 @@ translationKey: posts/independent-blog-self-check-15-draft/independent-blog-self
 # 后记
 
 让AI帮我把这个有趣的问题扒拉下来让我回答，没想到原问卷是选择题啊！？晕死我了
+
+## 继续读
+
+另一份 [[blog-author-9-questions-answer|博客作者 9 问]] 更像是自我介绍，后来怎么调整这个站的阅读体验，写在 [[blog-style-change|博客改版记录]] 里
+
+关于持续做东西这件事，我在 [[subarutap-and-selfthink|做完 SubaruTap 后的思考]] 里还展开聊过一次

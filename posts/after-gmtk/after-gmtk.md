@@ -2,9 +2,9 @@
 title: GmtkJam之后的总结
 published: 2026-07-27
 created: 2026-07-27
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: GMTK Jam 最后六小时，我砍掉做不完的谜题，交出了一个真正能玩完的小游戏
 image: ""
 tags:
@@ -44,3 +44,9 @@ gtmk做完了，链接在这里，[Last Minute Echo by Amiya_desi](https://amiya
 
 最后，小朋友们以后千万不要玩多了轮椅啊，保持独立思考，不要回答，不要回答，不要回答！
 {{黑幕:但是评论的话是很欢迎的哦(*^_^*)}}
+
+## 继续读
+
+想看这之前我是怎么重新开始的，可以回到 [[re0：game-dev-life|从零开始的游戏开发生活]]，后来的小作品则放在 [[subarutap-and-selfthink|SubaruTap 开发记录]] 里
+
+这次吃过的范围失控和 AI 依赖的亏，后来读 [[weakly-articles-02|Own the Slice]] 时又对上了不少，放在一起看还挺有感触的

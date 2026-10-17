@@ -2,9 +2,9 @@
 title: 博客作者 9 問答卷
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 6
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 7
 description: 給 Another Dayu 博客作者 9 問留的一份答卷
 image: ""
 tags:
@@ -98,3 +98,9 @@ Cloudflare Pages 本身不花錢，GitHub 也不花錢，而這個sayori.org的�
 寫到最後，這篇問卷也就回答完了，我的博客又多了一篇，可以展示的，比較真實的文章；而提出問題的你，也又收穫了一份嶄新的答卷；雙贏啊嘿嘿！
 
 也感謝看到這裏的你了！如果你對我感興趣，歡迎來認識我，可以在各個平臺上向我私信或者嘗試直接加我的主流社交媒體賬號哦！
+
+## 繼續讀
+
+後來我又填了一份 [[independent-blog-self-check-15-draft|獨立博客自省問卷]]，有些問題換個時候再回答，想法也會不一樣
+
+這些想法在 [[blog-style-change|博客改版]] 時也變成了具體取捨；如果你也想開始寫，我把起步過程整理成了 [[astro-mizuki-blog-from-zero|從零搭博客]]

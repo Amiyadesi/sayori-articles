@@ -2,9 +2,9 @@
 title: My Answers to the 15 Self-Reflection Questions for Independent Blogs
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: My answers to Ya Yu's 15 self-reflection questions for independent blogs, a self-check on my relationship with this blog.
 image: ""
 tags:
@@ -117,3 +117,9 @@ I've become better at expressing myself and writing tutorial articles, I guess? 
 # Postscript
 
 I had AI help me pull out these interesting questions to answer, and then I found out the original questionnaire was multiple-choice!? I'm dead.
+
+## Read next
+
+The [[blog-author-9-questions-answer|blog author questionnaire]] is more of a self-introduction. My [[blog-style-change|redesign notes]] cover how I changed the reading experience
+
+For more on continuing to make things, see my [[subarutap-and-selfthink|reflections after making SubaruTap]]

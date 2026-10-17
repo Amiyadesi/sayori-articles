@@ -2,9 +2,9 @@
 title: 互联网社区记录 3：各种站长社区和组织！
 published: 2026-07-20
 created: 2026-07-20
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 各种站长社区和组织！反正加入了也不会吃亏，想加入的可以看看！
 image: ""
 tags:
@@ -58,3 +58,9 @@ translationKey: posts/internet-community-3/internet-community-3
 
 # 结尾
 这种组织真的是超级多啊（笑），毕竟确实大部分组织的功能复刻起来都比较简单，基本上最复杂的是审查环节说是，以后如果站长又找到了哪些组织，并且想要加入的话，应该也会记录在这上面吧hh
+
+## 继续读
+
+这一篇接着 [[internet-community-2|兴趣社区篇]]，更多论坛也放进了 [[internet-community-map|论坛地图]]，以后可以继续往里面补
+
+如果逛完也想有一个自己的小站，可以从 [[astro-mizuki-blog-from-zero|从零搭博客]] 开始，再看 [[free-domain-and-web-community|域名和站长社区入门]]

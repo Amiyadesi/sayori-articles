@@ -2,9 +2,9 @@
 title: 創建你自己的搜索網關——我的搜索網關上游們
 published: 2026-07-05
 created: 2026-07-05
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 1
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 2
 description: ""
 image: ""
 tags:
@@ -144,3 +144,9 @@ flowchart TD
 普通問題走 auto，專業問題點名上游，失敗就按 fallback 換源
 
 這樣一個上游掛了，不會影響整個 AI 搜索工作流
+
+## 繼續讀
+
+本地 AI 工具怎麼接模型和切換供應商，放在 [[anyrouter-sharedchat-cc-switch-student-guide|AI 額度與 cc-switch]] 裡，搜索網關可以接著這條工作流繼續搭
+
+服務端還不熟的話，先看 [[docker-compose-minimum-start|Docker 最小入門]]；想用家裡的舊電腦承載這些服務，可以看看我的 [[make-home-server|家裡雲改造記錄]]

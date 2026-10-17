@@ -2,9 +2,9 @@
 title: "Blog Author 9 Questions: My Answers"
 published: 2026-06-12
 created: 2026-06-12
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 7
 description: My answers to Another Dayu's 9 questions for blog authors.
 image: ""
 tags:
@@ -98,3 +98,9 @@ After writing it all down, I realize there's so much to do. I really am a cunnin
 Finally, this questionnaire is answered. My blog has one more article, a relatively authentic one to showcase. And you, who posed the questions, have received a fresh set of answers. A win-win, hehe!
 
 Thanks to you for reading this far! If you're interested in me, feel free to get to know me. You can DM me on various platforms or try adding my main social media accounts!
+
+## Read next
+
+I later answered a [[independent-blog-self-check-15-draft|15-question blogging self-check]]. Revisiting similar questions at a different time brings different answers
+
+Some of those thoughts shaped the [[blog-style-change|blog redesign]]. To start writing on your own site, see the [[astro-mizuki-blog-from-zero|blog setup guide]]
