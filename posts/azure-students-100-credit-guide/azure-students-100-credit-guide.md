@@ -22,7 +22,7 @@ translationKey: posts/azure-students-100-credit-guide/azure-students-100-credit-
 
 我更推荐先开日本区，系统用 Ubuntu，先把 SSH 连通，再慢慢折腾自己想放的东西，这篇就写到服务器开好，不展开应用部署，感兴趣的可以自己去搜怎么搭建哦～
 
-下面按 2026 年 10 月 16 日的权益和价格整理，网页和 CLI 两种方法选一种做就行
+下面按 2026 年 10 月 17 日的权益和价格整理，网页和 CLI 两种方法选一种做就行
 
 步骤图参考正常的微软页面，改成了隐私的信息
 
@@ -82,16 +82,30 @@ translationKey: posts/azure-students-100-credit-guide/azure-students-100-credit-
 
 ## 区域我推荐日本
 
-优先顺序可以这样试：
+先查自己能开哪里，在 [Azure 门户](https://portal.azure.com/) 顶部搜索 **策略（Policy）**，进入后选左侧的 **分配（Assignments）**，范围选自己的 **Azure for Students** 订阅
+
+打开 **Allowed resource deployment regions**，进入 **参数（Parameters）**，看 **Allowed locations** 的值，通常就能看到这个订阅允许的五个区域
+
+比如我这里是：
+
+```json
+["centralindia","indiasouthcentral","uaenorth","malaysiawest","japaneast"]
+```
+
+这个列表每个人不一定一样，我这份里面有日本东部，所以直接选 `japaneast`
+
+从国内用，我推荐 **日本 → 新加坡 → 印度 → 香港**，美国就不列作常规备选了，在自己允许的地区里按这个顺序找
 
 | 地区 | CLI 名称 | 我的选择 |
 | --- | --- | --- |
-| Japan East | `japaneast` | 首选，日本东部 |
-| Japan West | `japanwest` | 日本东部开不出时再看 |
-| Southeast Asia | `southeastasia` | 新加坡，作为亚洲备选 |
-| East US / West US 2 等 | `eastus` / `westus2` | 从自己订阅允许的美国地区里选 |
+| 日本 | `japaneast` / `japanwest` | 首选，优先日本东部 |
+| 新加坡 | `southeastasia` | 日本开不出来时再看 |
+| 印度 | `centralindia` / `indiasouthcentral` 等 | 按自己策略里的印度区域选 |
+| 香港 | `eastasia` | 放在最后，留意下面的 AI 服务限制 |
 
-先看订阅策略中的 **Allowed resource deployment regions**，再看目标区域的规格和配额，区域出现在下拉框里，不代表这个学生订阅就能创建
+**香港目前不在 [ChatGPT 官方支持地区](https://help.openai.com/en/articles/7947663-chatgpt-supported-countries) 和 [Claude 官方支持地区](https://support.claude.com/en/articles/8461763-where-can-i-access-claude) 里**，想用这类 AI 服务就别把香港当作解锁地区，优先看日本、新加坡和印度
+
+确定地区在允许列表里，再看规格和配额，区域出现在创建页的下拉框里，不代表这个学生订阅就能创建
 
 遇到 `RequestDisallowedByAzure`，看错误里指出的地区策略；遇到规格不可用或区域容量不足，再换允许的区域，单纯换可用区不能绕过区域策略
 
@@ -285,7 +299,7 @@ az network public-ip list -g $group `
 用能操作本机终端的 AI 助手时，把这一段发过去，账号登录和验证码自己在微软页面完成
 
 ```text
-帮我用 PowerShell 7 安装 Azure CLI、登录 Azure for Students，检查配额和免费服务；地区优先日本，其次新加坡或美国，列出费用等我确认，再创建一台 B2ats_v2、Ubuntu 24.04 LTS x64 Gen2、64 GiB P6 Premium_LRS 的 VM，配好双栈网络、公网 IPv4 和 IPv6、SSH 公钥与 TCP 22，验证 SSH 后给出地址、连接命令和资源清单
+帮我用 PowerShell 7 安装 Azure CLI、登录 Azure for Students，检查允许地区、配额和免费服务；地区依次选日本、新加坡、印度、香港，列出费用等我确认，再创建一台 B2ats_v2、Ubuntu 24.04 LTS x64 Gen2、64 GiB P6 Premium_LRS 的 VM，配好双栈网络、公网 IPv4 和 IPv6、SSH 公钥与 TCP 22，验证 SSH 后给出地址、连接命令和资源清单
 ```
 
 想只用 IPv6，把公网方案改成「Standard 公网 IPv6，保留双栈私网」；用普通聊天 AI，就让它给出 PowerShell 命令，自己复制执行
@@ -313,9 +327,9 @@ Docker Registry 返回 `401 Unauthorized` 通常表示已经连到服务，只�
 
 ## 每月能用多少流量
 
-**Internet 入站免费，出站每月前 100 GB 免费**，下面按默认的 Microsoft 全球网络路由计算，日本和新加坡超出部分为 0.12 美元/GB，美国为 0.087 美元/GB
+**Internet 入站免费，出站每月前 100 GB 免费**，下面按默认的 Microsoft 全球网络路由计算，日本、新加坡、印度和香港超出部分均为 0.12 美元/GB
 
-日本的 Standard 公网 IPv4 是 0.005 美元/小时，按每月 730 小时算，一个地址约 **3.65 美元/月**，全年约 43.80 美元；公网 IPv6 没有地址费
+上述地区的 Standard 公网 IPv4 是 0.005 美元/小时，按每月 730 小时算，一个地址约 **3.65 美元/月**，全年约 43.80 美元；公网 IPv6 没有地址费
 
 ![微软公网 IP 定价表，Standard 静态 IPv4 为每小时 0.005 美元](azure-students-assets/ipv4-pricing.webp)
 
@@ -323,12 +337,8 @@ Docker Registry 返回 `401 Unauthorized` 通常表示已经连到服务，只�
 
 | 地区和公网配置 | 地址费/月 | 赠金可覆盖的额外出站/月 | 加上免费 100 GB 后 |
 | --- | --- | --- | --- |
-| 日本，一个 IPv4，可同时挂 IPv6 | 约 $3.65 | 约 39 GB | **约 139 GB/月** |
-| 日本，只有公网 IPv6 | $0 | 约 69 GB | **约 169 GB/月** |
-| 新加坡，一个 IPv4 | 约 $3.65 | 约 39 GB | **约 139 GB/月** |
-| 新加坡，只有公网 IPv6 | $0 | 约 69 GB | **约 169 GB/月** |
-| 美国，一个 IPv4 | 约 $3.65 | 约 54 GB | **约 154 GB/月** |
-| 美国，只有公网 IPv6 | $0 | 约 96 GB | **约 196 GB/月** |
+| 日本 / 新加坡 / 印度 / 香港，一个 IPv4，可同时挂 IPv6 | 约 $3.65 | 约 39 GB | **约 139 GB/月** |
+| 日本 / 新加坡 / 印度 / 香港，只有公网 IPv6 | $0 | 约 69 GB | **约 169 GB/月** |
 
 公式也很简单：
 
@@ -361,6 +371,7 @@ az group delete --name rg-student-jp
 - [Azure for Students 资格和额度条款](https://azure.microsoft.com/en-us/pricing/offers/ms-azr-0170p/)
 - [GitHub Student Developer Pack](https://education.github.com/pack)
 - [Azure 免费服务清单](https://azure.microsoft.com/en-us/pricing/free-services/)
+- [微软社区：查看学生订阅允许部署的五个区域](https://learn.microsoft.com/en-us/answers/questions/5924508/requestdisallowedbyazure-allowed-resource-deployme)
 - [微软社区对两块 64 GiB P6 免费盘的说明](https://learn.microsoft.com/en-us/answers/questions/5556769/which-storage-type-is-free-12months-in-free-tier)
 - [公网 IP 定价](https://azure.microsoft.com/en-us/pricing/details/ip-addresses/)
 - [日本区公网 IP 官方零售价格 API](https://prices.azure.com/api/retail/prices?$filter=serviceName%20eq%20%27Virtual%20Network%27%20and%20armRegionName%20eq%20%27japaneast%27)
