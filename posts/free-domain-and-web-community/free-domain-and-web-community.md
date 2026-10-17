@@ -2,32 +2,22 @@
 title: 给刚搭好的博客配一个免费域名，再去站长社区露个脸
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 8
-description: 从 DNSHE 免费二级域名、Cloudflare DNS 到评论系统、开往、萌备、十年之约，给刚搭好的博客补上域名、互动和一点被看见的机会。
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 9
+description: 从 DNSHE 免费二级域名、Cloudflare DNS 到评论系统、开往、萌备、十年之约，给刚搭好的博客补上域名、互动和一点被看见的机会
 image: ""
 tags:
-  - 叙事
-  - 域名
-  - Cloudflare
+  - 实操教程
+  - 建站与Cloudflare
   - 独立博客
-category: 建站与自托管
+  - 官方学生权益
+category: 教程教学
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "给博客补上 DNSHE 免费二级域名和 Cloudflare DNS"
-    - "接入评论系统，让读者能留下反馈"
-    - "从开往、萌备和十年之约认识个人站社区"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/free-domain-and-web-community/free-domain-and-web-community
 ---
 
-上一篇写了怎么从 GitHub、Cloudflare Pages、Mizuki 和 Obsidian 搭一个自己的博客
+上一篇 [[astro-mizuki-blog-from-zero|用 Sayori Lite 搭一个简洁博客]] 写了 GitHub、Cloudflare Pages 和可选的 Obsidian 写作流程
 
 搭完以后，默认地址大概长这样：
 
@@ -83,7 +73,18 @@ G4HPCNW7R4
 
 如果你只是临时试博客，不一定要追求永久，先拿一个能解析的域名，把流程跑通更重要
 
+## GitHub 学生包里的官方免费域名
+
+如果你有高校教育邮箱并通过了 [GitHub Student Developer Pack](https://education.github.com/pack) 认证，还可以顺手领官方提供的两项首年免费顶级域名权益：
+
+- **Namecheap**：提供一个 `.me` 顶级域名首年免费注册和一年 SSL 证书
+- **Name.com**：提供指定后缀中的免费首年域名，具体可选后缀与续费价格以结算页为准
+
+需要注意的是，学生包里的顶级域名只有首年免费，第二年续费恢复原价；不想绑卡或不想操心续费的话，继续用上面的 DNSHE 就很舒服
+
 ## 接到 Cloudflare
+
+DNS、Pages 和 Tunnel 的用途放在 [[cloudflare-free-tier-developer-guide|Cloudflare 免费层教程]]，这里先把域名连起来
 
 拿到域名后，下一步是接 Cloudflare
 
@@ -110,9 +111,9 @@ ntfy.example.cc.cd   -> ntfy
 status.example.cc.cd -> Gatus
 ```
 
-不要所有服务都塞在根域名下面。
+不要所有服务都塞在根域名下面
 
-域名像门牌号。门牌号清楚，后面搬家、迁移、反代、关服务都舒服一点。
+域名像门牌号。门牌号清楚，后面搬家、迁移、反代、关服务都舒服一点
 
 服务器服务可以看这篇总表：
 
@@ -254,7 +255,7 @@ Cloudflare Pages 也给：
 你的项目名.pages.dev
 ```
 
-这两个严格来说不是「你的域名」，但足够用来写博客和展示项目。等想好了再买正式域名也不迟。
+这两个严格来说不是「你的域名」，但足够用来写博客和展示项目。等想好了再买正式域名也不迟
 
 ## 给博客加评论系统
 
@@ -351,9 +352,9 @@ Artalk 是自建评论系统，需要跑一个后端服务。如果你已经有 
 
 几个轻量替代：
 
-- **Umami**：[https://umami.is/](https://umami.is/)，可以自建，也可以用官方免费版。界面干净，数据自己控制。
+- **Umami**：[https://umami.is/](https://umami.is/)，可以自建，也可以用官方免费版。界面干净，数据自己控制
 - **Cloudflare Web Analytics**：如果你已经在用 Cloudflare，它自带的 Web Analytics 免费而且不需要额外代码，直接在 Dashboard 里看就行
-- **Plausible**：[https://plausible.io/](https://plausible.io/)，付费为主但可以自建。
+- **Plausible**：[https://plausible.io/](https://plausible.io/)，付费为主但可以自建
 - **不装任何分析**：也行。个人博客不是商业网站，不看数据也能活
 
 我现在的建议是先用 Cloudflare Web Analytics（因为你大概率已经接了 Cloudflare），等哪天觉得不够用了再考虑 Umami

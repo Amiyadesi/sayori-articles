@@ -2,22 +2,19 @@
 title: Cloudflare 免费层能帮开发者做什么：不花钱的赛博大善人全家桶
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: 整理 Cloudflare 免费层里真的能用的东西：Pages、Workers、R2、Tunnel、Email Routing、DNS、Web Analytics，以及哪些场景下它比 VPS 更合适。
 image: ""
 tags:
-  - 教程
-  - Cloudflare
-  - 云服务
-  - 免费资源
-category: 建站与自托管
-section: deals
+  - 实操教程
+  - 建站与Cloudflare
+  - 官方学生权益
+  - VPS与自托管
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/cloudflare-free-tier-student-guide/cloudflare-free-tier-developer-guide
 ---
 
 Cloudflare 在开发者圈子里被叫「赛博大善人」不是没原因的。
@@ -55,7 +52,7 @@ Pages 让你把静态网站（HTML、CSS、JS，或者 Astro/Next.js/Hugo 等框
 
 如果你还没用过：
 
-[[astro-mizuki-blog-from-zero|从零开始搭建一个和站长一样的博客]]
+[[astro-mizuki-blog-from-zero|用 Sayori Lite 搭一个简洁博客]]
 
 ## Cloudflare Workers
 
@@ -126,7 +123,7 @@ Tunnel 让你把内网服务（比如你 VPS 上只监听 127.0.0.1 的 Vaultwar
 - 可以配合 Cloudflare Access 加一层身份认证
 - 源站 IP 不暴露
 
-我的 Vaultwarden、ntfy、Gatus、1Panel 面板都走 Tunnel
+我的 [[selfhost-vaultwarden-on-2c2g|Vaultwarden]]、[[selfhost-ntfy-on-2c2g|ntfy]]、Gatus、1Panel 面板都走 Tunnel，笔记同步的用法放在 [[fast-note-sync-on-student-server|Fast Note Sync 教程]]
 
 免费层没有 Tunnel 数量限制。你可以一条 Tunnel 跑多个子域名
 
@@ -135,6 +132,8 @@ Tunnel 让你把内网服务（比如你 VPS 上只监听 127.0.0.1 的 Vaultwar
 ## Cloudflare DNS
 
 把域名的 NS 改到 Cloudflare，就能用它的免费 DNS 托管
+
+域名还没选好，可以先看 [[free-domain-and-web-community|免费域名和学生包域名]]
 
 好处：
 
@@ -237,8 +236,11 @@ VPS 内网服务公网访问 → Cloudflare Tunnel
 
 2C2G 的学生服务器只负责跑必须持久运行的东西。其他能卸载到 Cloudflare 的，就不用服务器扛
 
+需要一台机器时，可以先看 [[azure-students-100-credit-guide|Azure 日本服务器]] 或 [[aliyun-student-300-voucher-guide|阿里云学生券]]，再按 [[docker-compose-minimum-start|Docker 入门]] 和 [[2c2g-server-service-index|服务清单]] 部署自己的应用
+
 ## 延伸阅读
 
 awesome-cloudflare：[https://github.com/zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
 
 这个仓库整理了 Cloudflare 生态里各种工具和用法，14k+ star。如果你想知道「别人拿 Cloudflare 做了什么」，从这里开始
+

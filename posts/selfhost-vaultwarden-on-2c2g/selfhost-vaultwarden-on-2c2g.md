@@ -2,29 +2,19 @@
 title: 在 2C2G 学生服务器上搭 Vaultwarden：密码库先别裸奔
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 5
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: 用 Docker Compose 在学生服务器上部署 Vaultwarden，并把 HTTPS、关闭注册、备份、恢复演练这些真正重要的部分讲清楚。
 image: ""
 tags:
-  - 教程
-  - Vaultwarden
+  - 实操教程
+  - VPS与自托管
   - Docker
-  - 密码管理
-category: 建站与自托管
+  - Vaultwarden
+category: 教程教学
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "用 Docker Compose 在学生服务器部署 Vaultwarden"
-    - "HTTPS 和关闭公开注册比装起来更重要"
-    - "把备份和恢复演练当成上线步骤的一部分"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/selfhost-vaultwarden-on-2c2g/selfhost-vaultwarden-on-2c2g
 ---
 
 Vaultwarden 大概是最适合放在 2C2G 小服务器上的服务之一
@@ -138,7 +128,7 @@ services:
 
 - `DOMAIN`：最后实际访问的 HTTPS 地址
 - `SIGNUPS_ALLOWED`：第一次注册时临时开，注册完就关
-- `INVITATIONS_ALLOWED`：个人自用直接关
+- `INVITATIONS_ALLOWED`：个人自用直接关，想邀请别人可以
 - `ENABLE_WEBSOCKET`：开着就行，客户端同步体验会正常一点
 
 ## 启动
@@ -230,11 +220,11 @@ vault.example.com
   -> Vaultwarden
 ```
 
-我自己更偏向这条路，因为源站更安静一点
+我自己用的是这个
 
-不过这里有个坑：不要给整个 Vaultwarden 套 Cloudflare Access 登录页
+然后一般来说：不要给整个 Vaultwarden 套 Cloudflare Access 登录页
 
-浏览器插件和手机客户端不一定吃得消这套东西
+浏览器插件和手机客户端就不方便了
 
 真要加额外保护，优先只保护 `/admin`
 
@@ -363,8 +353,10 @@ Vaultwarden 本身不吃多少资源，2C2G 跑它很轻松
 - 恢复
 - 更新
 
-如果你只是想找个服务截图发朋友圈，那这东西不适合
-
 如果你想认真开始自己的自托管路线，它反而很适合当第一个严肃服务
 
-因为密码库会逼着你把很多基础习惯都补齐
+密码库带来的便利性是难以想象的，折腾一个自己的密码库，也能很好的作为你的部署开头
+
+## 继续读
+
+密码库的域名和 HTTPS 可以配合 [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]，备份脚本的结果交给 [[selfhost-ntfy-on-2c2g|ntfy]] 发到手机，其他轻量服务放在 [[2c2g-server-service-index|小服务器服务清单]]

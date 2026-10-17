@@ -2,35 +2,34 @@
 title: "2C2G 学生服务器能跑什么：先别把小机器塞爆"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
-description: "站长的 2C2G 阿里云轻量服务器实战配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索网关。包含真实内存占用和不推荐列表。"
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
+description: "站长的 2C2G 阿里云轻量服务器实战配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索网关。包含真实内存占用和不推荐列表"
 image: ""
 tags:
-  - 资源整合
-  - 学生服务器
+  - 实操教程
+  - VPS与自托管
   - Docker
-  - 自托管
-category: 建站与自托管
-section: deals
+  - 学生服务器
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-index
 ---
 
-如果你跟站长一样，把阿里云学生 300 元券换成了一台 2C2G 服务器，恭喜。
+如果你跟站长一样，把阿里云学生 300 元券换成了一台 2C2G 服务器，恭喜
 
-你现在拥有了一台 24 小时在线的小机器。
+你现在拥有了一台 24 小时在线的小机器
 
-但它真的只是小机器。2 核 1.6GB 内存（实际可用 672MB 左右，开了 Swap），适合练手、挂轻量服务，不适合跑本地模型、Nextcloud、视频转码这类重活。
+还没开机，可以先看 [[aliyun-student-300-voucher-guide|阿里云学生券]] 或 [[azure-students-100-credit-guide|Azure 日本服务器]]，这篇负责开机之后的用途选择
 
-这篇是站长的真实配置记录。服务器已经跑了一个多月，目前 14 个容器，内存用了 765MB + 987MB Swap，磁盘用了 21GB / 40GB。
+但它真的只是小机器。2 核 1.6GB 内存（实际可用 672MB 左右，开了 Swap），适合练手、挂轻量服务，不适合跑本地模型、Nextcloud、视频转码这类重活
+
+这篇是站长的真实配置记录。服务器已经跑了一个多月，目前 14 个容器，内存用了 765MB + 987MB Swap，磁盘用了 21GB / 40GB
 
 ## 先做好基础配置
 
-服务先别急着装。
+服务先别急着装
 
 拿到服务器后，先把这几件事做了：
 
@@ -56,7 +55,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
   fast-note-sync/
 ```
 
-每个目录一个 `docker-compose.yml`，真实密钥放 `.env`，不要进公开仓库。
+每个目录一个 `docker-compose.yml`，真实密钥放 `.env`，不要进公开仓库
 
 ## 站长目前在跑的服务
 
@@ -88,7 +87,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 给自己发推送
 
-服务器上跑备份脚本、监控脚本、定时任务，失败了总要有人通知你。ntfy 就适合干这个。
+服务器上跑备份脚本、监控脚本、定时任务，失败了总要有人通知你。ntfy 就适合干这个
 
 **我用它做什么：**
 
@@ -108,11 +107,13 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 ---
 
+**详细教程：** [[selfhost-ntfy-on-2c2g|在 2C2G 学生服务器上跑 ntfy]]
+
 ### 📊 Gatus（状态页和健康检查）
 
 **用途：** 监控你的服务
 
-它可以定时检查你的博客、Vaultwarden、机器人面板、API 是否还活着。挂了就通过 ntfy 通知你。
+它可以定时检查你的博客、Vaultwarden、机器人面板、API 是否还活着。挂了就通过 ntfy 通知你
 
 **我监控的端点：**
 
@@ -136,7 +137,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 给 Obsidian 做私有同步
 
-如果你像我一样用 Obsidian 写博客、记项目、存草稿，这个服务会很诱人。它比 Obsidian Sync 便宜（0 元），比 Syncthing 省心（不用多端都在线）。
+如果你像我一样用 Obsidian 写博客、记项目、存草稿，这个服务会很诱人。它比 Obsidian Sync 便宜（0 元），比 Syncthing 省心（不用多端都在线）
 
 **关键注意：**
 
@@ -154,7 +155,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 24 小时在线的 QQ/Telegram/Discord 机器人
 
-放在远端服务器后，终于能实现 24 小时不停地跑机器人了。可以接入 Discord 和 Telegram，这两个地方基本没有风控。
+放在远端服务器后，终于能实现 24 小时不停地跑机器人了。可以接入 Discord 和 Telegram，这两个地方基本没有风控
 
 **QQ 接入注意：**
 
@@ -170,7 +171,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 自用 AI 搜索聚合网关
 
-整合了 Tavily、Brave Search、Firecrawl、Exa、Grok Search、SearXNG，用 FastAPI 搭的。给 Codex 和 Claude Code MCP 用，比单独调 API 方便。
+整合了 Tavily、Brave Search、Firecrawl、Exa、Grok Search、SearXNG，用 FastAPI 搭的。给 Codex 和 Claude Code MCP 用，比单独调 API 方便
 
 **关键注意：**
 
@@ -186,9 +187,9 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** AI 审核博客评论
 
-用公益 GPT 额度自动审核 Twikoo 评论，配合 ntfy 推送审核结果。可以在 ntfy 里通过发消息手动删除和恢复评论。
+用公益 GPT 额度自动审核 Twikoo 评论，配合 ntfy 推送审核结果。可以在 ntfy 里通过发消息手动删除和恢复评论
 
-再加上 Cloudflare Turnstile 人机验证，留下来的评论基本都是高质量的。
+再加上 Cloudflare Turnstile 人机验证，留下来的评论基本都是高质量的
 
 **内存占用：** ~40MB
 
@@ -219,7 +220,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** Web 界面管理 Docker 容器
 
-适合新手看容器状态，也适合临时排查问题。
+适合新手看容器状态，也适合临时排查问题
 
 **安全警告：**
 
@@ -323,9 +324,9 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 **替代方案：**
 
-- 用公益额度：AnyRouter、SharedChat
-- 用学生券：阿里云百炼
-- 详见：[大学生怎么用 AnyRouter、SharedChat 和 cc-switch 管理 AI 额度](/posts/anyrouter-sharedchat-cc-switch-student-guide/)
+- 用官方学生权益：GitHub Copilot Student、Google AI Studio 官方免费层
+- 用学生代金券抵扣：阿里云百炼官方大模型 API
+- 详见：[大学生怎么用官方 AI 额度与 cc-switch 管理开发环境](/posts/anyrouter-sharedchat-cc-switch-student-guide/)
 
 ---
 
@@ -347,12 +348,12 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 站长会这样安排：
 
-1. **基础配置**：SSH、安全组、Docker、费用预警
-2. **域名和 HTTPS**：免费域名 + Cloudflare DNS + Cloudflare Tunnel
-3. **核心服务**：Vaultwarden（密码库）+ ntfy（通知）+ Gatus（监控）
-4. **按需添加**：Fast Note Sync、机器人、其他工具
+1. **基础配置**：[[sayori-server-01-vps-start|SSH 和安全组]]、[[docker-compose-minimum-start|Docker 和 Compose]]、费用预警
+2. **域名和 HTTPS**：[[free-domain-and-web-community|免费域名]] + [[cloudflare-free-tier-developer-guide|Cloudflare DNS 和 Tunnel]]
+3. **核心服务**：[[selfhost-vaultwarden-on-2c2g|Vaultwarden 密码库]] + [[selfhost-ntfy-on-2c2g|ntfy 通知]] + Gatus 监控
+4. **按需添加**：[[fast-note-sync-on-student-server|Fast Note Sync]]、机器人、其他工具
 
-**不要一口气装 10 个服务。** 一个一个来，每个都跑稳了再加下一个。
+**不要一口气装 10 个服务。** 一个一个来，每个都跑稳了再加下一个
 
 ## 相关资源
 
@@ -369,15 +370,15 @@ Swap:          2.0Gi       987Mi       1.0Gi
 - Gatus：[https://gatus.io/](https://gatus.io/)
 - AstrBot：[https://github.com/Soulter/AstrBot](https://github.com/Soulter/AstrBot)
 
-`awesome-selfhosted` 适合找「还有什么能自建」。`awesome-cloudflare` 适合找「哪些东西可以不放在 VPS 上，而是放到 Cloudflare 上」。
+`awesome-selfhosted` 适合找「还有什么能自建」。`awesome-cloudflare` 适合找「哪些东西可以不放在 VPS 上，而是放到 Cloudflare 上」
 
-个人服务器不是所有东西都自己扛。能让 Cloudflare Pages、Workers、R2、Tunnel 做的，就别用 2GB 内存硬撑。
+个人服务器不是所有东西都自己扛。能让 Cloudflare Pages、Workers、R2、Tunnel 做的，就别用 2GB 内存硬撑
 
 ---
 
 ## 最后
 
-2C2G 的服务器最适合做「个人常用服务的起点」。
+2C2G 的服务器最适合做「个人常用服务的起点」
 
 它能让你：
 
@@ -391,6 +392,6 @@ Swap:          2.0Gi       987Mi       1.0Gi
 - 当生产服务器
 - 替代专业 NAS 或媒体服务器
 
-但这就够了。
+但这就够了
 
-服务器不是配置完就结束，它会逼着你认真对待备份、安全、监控。这其实是好事。
+服务器不是配置完就结束，它会逼着你认真对待备份、安全、监控。这其实是好事

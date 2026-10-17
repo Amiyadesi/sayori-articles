@@ -2,26 +2,19 @@
 title: "Docker 和 Docker Compose 最小入門：看懂那些 yml 文件"
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
-description: "給剛拿到服務器的人寫的 Docker 最小入門：容器是什麼、Compose 文件怎麼讀、怎麼啓動停止更新刪除，不講原理只講能用。"
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
+description: "給剛拿到服務器的人寫的 Docker 最小入門：容器是什麼、Compose 文件怎麼讀、怎麼啟動停止更新刪除，不講原理只講能用。"
 image: ""
 tags:
-  - 教程
+  - 實操教程
   - Docker
+  - VPS與自託管
   - 新手入門
-category: 建站與自託管
+category: 教程教學
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "用最少概念理解容器和 Docker Compose"
-    - "看懂 yml 裏服務、端口、卷和環境變量"
-    - "覆蓋啓動、停止、更新和刪除這些常用操作"
 alias: ""
-
 lang: zh-Hant
 translationKey: posts/docker-compose-minimum-start/docker-compose-minimum-start
 ---
@@ -30,13 +23,13 @@ translationKey: posts/docker-compose-minimum-start/docker-compose-minimum-start
 
 Vaultwarden、ntfy、Gatus、Fast Note Sync，全部都是一個 `docker-compose.yml` 文件搞定
 
-這篇講：拿到服務器以後，怎麼裝 Docker，怎麼看懂 compose 文件，怎麼啓動、停止、更新、刪除容器，夠你跑完前面所有服務就行
+這篇講：拿到服務器以後，怎麼裝 Docker，怎麼看懂 compose 文件，怎麼啟動、停止、更新、刪除容器，夠你跑完前面所有服務就行
 
 ## Docker 是什麼（一句話版）
 
-Docker 讓你用別人打包好的「鏡像」直接跑服務，不用自己在系統裏一個一個裝依賴
+Docker 讓你用別人打包好的「鏡像」直接跑服務，不用自己在系統裡一個一個裝依賴
 
-你不需要手動裝 Python、裝 Go、裝 Node、配環境變量、處理版本衝突。鏡像裏面全有了
+你不需要手動裝 Python、裝 Go、裝 Node、配環境變量、處理版本衝突。鏡像裡面全有了
 
 `docker-compose.yml` 就是一個配置文件，告訴 Docker：
 
@@ -44,7 +37,7 @@ Docker 讓你用別人打包好的「鏡像」直接跑服務，不用自己在�
 - 用什麼端口
 - 掛載哪些目錄
 - 設置哪些環境變量
-- 出錯了要不要自動重啓
+- 出錯了要不要自動重啟
 
 ## 安裝
 
@@ -69,7 +62,7 @@ docker compose version
 sudo usermod -aG docker $USER
 ```
 
-然後退出重新登錄。如果還是不行，重啓服務器
+然後退出重新登錄。如果還是不行，重啟服務器
 
 ## 第一個 compose 文件
 
@@ -93,7 +86,7 @@ services:
 | `whoami:` | 服務名，隨便起 |
 | `image: traefik/whoami` | 用這個鏡像 |
 | `container_name: whoami` | 容器叫 whoami |
-| `restart: unless-stopped` | 崩了自動重啓，除非你手動停 |
+| `restart: unless-stopped` | 崩了自動重啟，除非你手動停 |
 | `ports: - "127.0.0.1:8080:80"` | 本機 8080 端口映射到容器的 80 端口 |
 
 把這段保存成 `docker-compose.yml`（或者 `compose.yml`，兩個名字都行），然後在同目錄運行：
@@ -114,7 +107,7 @@ curl http://127.0.0.1:8080/
 
 ## 常用命令
 
-我把最常用的列在這裏：
+我把最常用的列在這裡：
 
 ```bash
 # 启动（后台）
@@ -165,7 +158,7 @@ services:
 | 字段 | 意思 |
 | --- | --- |
 | `environment:` | 環境變量，相當於配置項 |
-| `volumes: - ./vw-data:/data` | 把當前目錄下的 `vw-data` 文件夾掛載到容器裏的 `/data` |
+| `volumes: - ./vw-data:/data` | 把當前目錄下的 `vw-data` 文件夾掛載到容器裡的 `/data` |
 
 ### environment
 
@@ -179,7 +172,7 @@ services:
 
 volumes 是數據持久化的關鍵
 
-容器刪掉以後，容器內部的文件會消失。但 volumes 掛載的目錄在宿主機上，不會跟着容器一起消失，類似遊戲存檔一般的存在，每次啓動容器就是讀取存檔開始遊戲（笑）
+容器刪掉以後，容器內部的文件會消失。但 volumes 掛載的目錄在宿主機上，不會跟著容器一起消失，類似遊戲存檔一般的存在，每次啟動容器就是讀取存檔開始遊戲（笑）
 
 ```text
 ./vw-data:/data
@@ -187,9 +180,9 @@ volumes 是數據持久化的關鍵
   宿主机目录     容器内路径
 ```
 
-這意味着：
+這意味著：
 
-- 容器裏 `/data` 下的文件，實際上存在宿主機的 `./vw-data` 裏
+- 容器裡 `/data` 下的文件，實際上存在宿主機的 `./vw-data` 裡
 - 刪掉容器再重建，數據還在
 - 備份只需要備份宿主機的 `./vw-data`
 
@@ -201,7 +194,7 @@ volumes 是數據持久化的關鍵
   监听地址   宿主端口  容器端口
 ```
 
-`127.0.0.1` 意味着只有本機能訪問。外面連不進來
+`127.0.0.1` 意味著只有本機能訪問。外面連不進來
 
 如果你寫 `"0.0.0.0:8080:80"` 或者 `"8080:80"`，那就是公網也能直接訪問
 
@@ -209,7 +202,7 @@ volumes 是數據持久化的關鍵
 
 ## 用 .env 文件放敏感信息
 
-不要把密碼、Token、域名直接寫在 `docker-compose.yml` 裏然後推到 GitHub
+不要把密碼、Token、域名直接寫在 `docker-compose.yml` 裡然後推到 GitHub
 
 在同目錄下建一個 `.env` 文件：
 
@@ -218,7 +211,7 @@ VAULTWARDEN_DOMAIN=https://vault.example.com
 ADMIN_TOKEN=一个很长很复杂的随机字符串
 ```
 
-然後在 compose 裏引用：
+然後在 compose 裡引用：
 
 ```yaml
 environment:
@@ -226,7 +219,7 @@ environment:
   ADMIN_TOKEN: "${ADMIN_TOKEN}"
 ```
 
-`.env` 文件加到 `.gitignore` 裏，不要進倉庫
+`.env` 文件加到 `.gitignore` 裡，不要進倉庫
 
 ## 更新服務
 
@@ -314,7 +307,7 @@ docker system prune --volumes
     └── storage/
 ```
 
-每個服務一個目錄。進目錄就能 `docker compose up -d`。數據和配置都在自己目錄裏，備份也好做
+每個服務一個目錄。進目錄就能 `docker compose up -d`。數據和配置都在自己目錄裡，備份也好做
 
 ## 常見問題
 
@@ -332,18 +325,22 @@ docker system prune --volumes
 
 **compose v1 vs v2**
 
-老教程裏寫的 `docker-compose up`（帶橫槓）是 v1。現在用 `docker compose up`（空格）是 v2。新裝的系統都是 v2，如果你看到老教程帶橫槓，換成空格就行
+老教程裡寫的 `docker-compose up`（帶橫槓）是 v1。現在用 `docker compose up`（空格）是 v2。新裝的系統都是 v2，如果你看到老教程帶橫槓，換成空格就行
 
 ## 夠用了
 
-到這裏你已經能：
+到這裡你已經能：
 
 - 裝 Docker
 - 讀懂 compose 文件
-- 啓動、停止、更新、刪除服務
+- 啟動、停止、更新、刪除服務
 - 管理數據和配置
 - 清理磁盤
 
 後面每篇自託管服務的文章，都只需要給你一個 `docker-compose.yml`，你就能跑起來
 
 不用一開始就理解 Docker 的所有概念。先能用，用多了自然會想知道更多
+
+## 繼續讀
+
+先從 [[2c2g-server-service-index|小服務器服務清單]] 選用途，再挑 [[selfhost-ntfy-on-2c2g|ntfy 通知]]、[[selfhost-vaultwarden-on-2c2g|Vaultwarden 密碼庫]] 或 [[fast-note-sync-on-student-server|Obsidian 同步]] 跑起來，域名和入口接到 [[cloudflare-free-tier-developer-guide|Cloudflare]]

@@ -1,43 +1,46 @@
 ---
-title: "How College Students Use AnyRouter, SharedChat, and cc-switch to Manage AI Quotas"
+title: "How College Students Use Official AI Quotas, AnyRouter, SharedChat, and cc-switch to Manage AI Quotas"
 published: 2026-06-18
 created: 2026-06-18
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
-description: "A guide for college students on AnyRouter registration, SharedChat GPT quota claiming, and cc-switch configuration, to be watched with my Bilibili video."
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 11
+description: "A guide for college students on official AI quotas, AnyRouter registration, SharedChat GPT quota claiming, and cc-switch configuration, to be watched with my Bilibili video."
 image: ""
 tags:
   - Tutorial
+  - AI Workflow
   - Claude Code
-  - AI Quota
-  - Student Resources
-category: AI & Workflow
-section: deals
+  - Official Student Benefits
+category: Tutorials & Guides
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Outline student quota access for AnyRouter and SharedChat"
-    - "Use cc-switch to centrally manage configurations for tools like Claude Code"
-    - "Follow the video to go through the registration, quota claiming, and configuration process"
 alias: ""
 lang: en
 translationKey: posts/anyrouter-sharedchat-cc-switch-student-guide/anyrouter-sharedchat-cc-switch-student-guide
 ---
 
-This post is a text companion to the video.
+This post is a text companion to the video, expanded with official student AI quota channels.
 
 The video is here: [BV12JLX6PE53](https://www.bilibili.com/video/BV12JLX6PE53/)
 
 ## What Are These Things, Anyway?
 
-AnyRouter is a routing service for AI API / Claude Code. Simply put, it gives you a usable API endpoint and Key, which you then plug into tools that support Claude Code / Anthropic interfaces.
+Before configuring `cc-switch`, it helps to distinguish the available quota sources:
 
-SharedChat is another entry point, leaning towards GPT / Codex public welfare quotas. You can think of it as an additional source of Codex quotas.
+- **Official Student & Free-Tier Quotas**: Includes [Zed Education](https://zed.dev/education) (1-year Student plan with $10/month in AI Agent tokens and unlimited edit prediction), [Alibaba Cloud Model Studio](https://bailian.console.aliyun.com/) (eligible for the 300 RMB student voucher or new-user free tokens), [Google AI Studio](https://aistudio.google.com/) (official Gemini API free tier), and GitHub Copilot Student / GitHub Models from the [GitHub Student Developer Pack](https://education.github.com/pack).
+- **AnyRouter / AgentRouter**: Routing services for AI API / Claude Code that give you a usable API endpoint and Key to plug into tools supporting Claude Code / Anthropic interfaces.
+- **SharedChat**: An entry point leaning towards GPT / Codex public welfare quotas.
+- **cc-switch**: An open-source desktop configuration management tool at [farion1231/cc-switch](https://github.com/farion1231/cc-switch) that helps you switch provider configurations for Claude Code, Codex, and Gemini CLI.
 
-cc-switch is a desktop configuration management tool, with its GitHub repo at [farion1231/cc-switch](https://github.com/farion1231/cc-switch). Its purpose is to help you switch provider configurations for tools like Claude Code, Codex, and Gemini CLI.
+## Claiming Official Student Quotas
+
+If you want a stable primary channel first, start with these four official options (for the full student benefits directory, see [[edumails-glados-student-benefits|Official Student Benefits Guide]]):
+
+1. **Zed Education ($10/Month AI Quota)**: Applying at [Zed Education](https://zed.dev/education) grants a one-year Student plan with $10 per month in Agent tokens and unlimited edit prediction (Claude Opus not included). Your GitHub account must be at least 30 days old and your school email domain must be listed in [JetBrains/swot](https://github.com/JetBrains/swot).
+![[zed-student-success.png|width=420|align=center|caption=The Zed Student prompt shown after approval]]
+2. **Alibaba Cloud Model Studio Official API**: Claim the 300 RMB student voucher via the [Student Benefits Claim Link](https://university.aliyun.com/course/promotion25-activity?clubTaskBiz=subTask..12655012..10273..&userCode=gv5jbukv), then generate an API Key in the Model Studio console with Base URL `https://dashscope.aliyuncs.com/compatible-mode/v1`.
+3. **Google AI Studio Official Free Tier**: Sign in with a Google account to generate a Gemini API Key and call Gemini models within the daily free quota without a credit card.
+4. **GitHub Student Pack**: Verify your school email to activate GitHub Copilot Student.
 
 ## Registering for AnyRouter
 
@@ -103,21 +106,22 @@ After installation, open it. It will detect existing AI CLI tools on your machin
 
 ## Adding Providers in cc-switch
 
-Taking AnyRouter as an example:
+Taking AnyRouter or Alibaba Cloud Model Studio as an example:
 
 1. Open cc-switch
 2. Go to the provider settings for Claude Code or the corresponding tool.
 3. Create a custom provider.
-4. Enter the provider name, e.g., `AnyRouter`.
+4. Enter the provider name, e.g., `Aliyun-Bailian` or `AnyRouter`.
 5. Enter the API Key.
 6. Enter the Request Address / Base URL.
-7. Select the interface format, as prompted on the AnyRouter page.
+7. Select the interface format as prompted on the platform page.
 8. Save.
 9. Click Use / Switch.
 
-If you want to add SharedChat, create another provider and name it clearly:
+If you want to add multiple channels, create separate providers and name them clearly:
 
 ```text
+Bailian Official
 AnyRouter edu
 SharedChat
 ```
@@ -182,3 +186,7 @@ There's not much to do about this. After all, many people use it simultaneously,
 
 For more issues, you can check this out:
 [Clearing Obstacles for AnyRouter Usage!](https://linux.do/t/topic/1779614?U=AMIYA_DESI)
+
+## Read next
+
+Other official offers are in the [[edumails-glados-student-benefits|student benefits hub]]. To put your project online, continue with [[azure-students-100-credit-guide|an Azure VM in Japan]] or the [[aliyun-student-300-voucher-guide|Aliyun student voucher]]. For a static site, follow the [[astro-mizuki-blog-from-zero|Cloudflare Pages blog guide]]

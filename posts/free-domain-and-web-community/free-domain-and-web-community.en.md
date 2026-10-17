@@ -2,32 +2,24 @@
 title: Get a Free Domain for Your New Blog, Then Show Up in Webmaster Communities
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 9
 description: From DNSHE free subdomains and Cloudflare DNS to comment systems, Travellings, Moe ICP, and Forever Blog, giving your freshly set up blog a domain, interaction, and a little chance to be seen.
 image: ""
 tags:
-  - Narrative
-  - Domain
-  - Cloudflare
+  - Tutorial
+  - Website & Cloudflare
   - Independent Blog
-category: Website & Self-Hosting
+  - Official Student Benefits
+category: Tutorials & Guides
 draft: false
 lang: en
 translationKey: posts/free-domain-and-web-community/free-domain-and-web-community
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Add a DNSHE free subdomain and Cloudflare DNS to your blog"
-    - "Integrate a comment system to allow readers to leave feedback"
-    - "Discover personal website communities through Travellings, Moe ICP, and Forever Blog"
 alias: ""
-
 ---
 
-The last post covered how to set up your own blog using GitHub, Cloudflare Pages, Mizuki, and Obsidian.
+The previous post, [[astro-mizuki-blog-from-zero|build a simple blog with Sayori Lite]], covers GitHub, Cloudflare Pages, and an optional Obsidian writing workflow.
 
 After setting it up, the default address probably looks something like this:
 
@@ -83,7 +75,18 @@ G4HPCNW7R4
 
 If you're just testing a blog temporarily, you don't necessarily need to aim for permanence. It's more important to get a resolvable domain and get the process working.
 
+## Official First-Year Free Domains in GitHub Student Pack
+
+If you have a university email and have been verified for the [GitHub Student Developer Pack](https://education.github.com/pack), you can also claim the two official first-year free domain offers:
+
+- **Namecheap**: One `.me` top-level domain free for the first year plus a one-year SSL certificate.
+- **Name.com**: One free first-year domain from selected extensions; confirm eligible extensions and renewal rates on the checkout page.
+
+Keep in mind that student pack domains are only free for the first year and renew at standard rates afterward; if you don't want to worry about renewals, sticking with DNSHE above is very convenient.
+
 ## Connect to Cloudflare
+
+The [[cloudflare-free-tier-developer-guide|Cloudflare free-tier guide]] covers DNS, Pages, and Tunnel. Here we connect the domain first.
 
 After getting the domain, the next step is to connect it to Cloudflare.
 

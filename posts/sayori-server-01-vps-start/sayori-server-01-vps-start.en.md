@@ -2,28 +2,20 @@
 title: I just wanted my bot online 24/7, then I bought a cloud server
 published: 2026-05-25
 created: 2026-05-25
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: From Alibaba Cloud student coupons to Ubuntu, SSH key login, non-standard ports, and basic firewalls – the first steps to a personal server.
 image: ""
 tags:
-  - Narrative
-  - VPS
+  - Tutorial
+  - VPS & Self-Hosting
   - Alibaba Cloud
-  - Self-Hosting
-category: Website & Self-Hosting
+  - Official Student Benefits
+category: Tutorials & Guides
 draft: false
 lang: en
 translationKey: posts/sayori-server-01-vps-start/sayori-server-01-vps-start
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Bought my first cloud server just to keep a bot online 24/7"
-    - "Starting with student coupons, Ubuntu, and SSH key login"
-    - "Changing ports and configuring firewalls to set up basic security boundaries"
-
 ---
 
 # Introduction
@@ -293,3 +285,7 @@ That's all for this post. The server can now be stably connected via SSH, passwo
 The next post will cover how to use `scp` to move local configurations to the remote host.
 
 Which means, finally, moving the bot from "it runs on my computer" to "it runs on the server too."
+
+## Read next
+
+If you are still choosing a machine, compare the [[aliyun-student-300-voucher-guide|Aliyun student voucher]] and [[azure-students-100-credit-guide|Azure in Japan]]. Once connected, follow [[docker-compose-minimum-start|Docker basics]] → the [[2c2g-server-service-index|service guide]], then install something you will use

@@ -2,36 +2,28 @@
 title: 在學生服務器上折騰 Fast Note Sync：給 Obsidian 一個私有同步層
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 用 2C2G 學生服務器試跑 Fast Note Sync Service，給 Obsidian 多端同步、備份、REST/MCP 接口留一條私有路線。
 image: ""
 tags:
-  - 敘事
-  - Obsidian
+  - 實操教程
+  - VPS與自託管
   - Docker
-  - 筆記同步
-category: 建站與自託管
+  - Obsidian
+category: 教程教學
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "在 2C2G 學生服務器試跑 Fast Note Sync"
-    - "給 Obsidian 多端同步和備份留一條私有路線"
-    - "順帶保留 REST 和 MCP 接口的折騰空間"
 alias: ""
-
 lang: zh-Hant
 translationKey: posts/fast-note-sync-on-student-server/fast-note-sync-on-student-server
 ---
 
-我現在寫博客和項目筆記都在 Obsidian 裏，但是obsidian一開始都是在電腦上寫的，然後電腦裏已經寫了一堆後才發現手機寫不了，於是就去找同步服務了
+我現在寫博客和項目筆記都在 Obsidian 裡，但是obsidian一開始都是在電腦上寫的，然後電腦裡已經寫了一堆後才發現手機寫不了，於是就去找同步服務了
 
 官方 Obsidian Sync 當然省心，雖然你的錢包不會省心；Syncthing、Git、WebDAV 也都有各自的玩法，但是我感覺不方便
 
-直到最後我看到了Fast Note Sync 這個插件，也是在逛L站的時候在評論區裏看到的：它是一個 Obsidian 插件 + 自託管服務端，目標就是多端實時同步，還順手加了版本歷史、附件、Web 管理、REST API、MCP 這些東西，而我配置實戰幾天後，發現確實非常好用b(￣▽￣)d
+直到最後我看到了Fast Note Sync 這個插件，也是在逛L站的時候在評論區裡看到的：它是一個 Obsidian 插件 + 自託管服務端，目標就是多端實時同步，還順手加了版本歷史、附件、Web 管理、REST API、MCP 這些東西，而我配置實戰幾天後，發現確實非常好用b(￣▽￣)d
 
 插件：
 
@@ -58,11 +50,11 @@ Obsidian 插件頁：
 
 ## 部署服務端
 
-服務端倉庫在這裏：
+服務端倉庫在這裡：
 
 [https://github.com/haierkeys/fast-note-sync-service](https://github.com/haierkeys/fast-note-sync-service)
 
-它是 Go 寫的服務端，倉庫描述裏寫的是高性能、低延遲的筆記同步、在線管理和遠程 REST API 服務平臺
+它是 Go 寫的服務端，倉庫描述裡寫的是高性能、低延遲的筆記同步、在線管理和遠程 REST API 服務平臺
 
 我會先建目錄：
 
@@ -90,7 +82,7 @@ Fast Note Sync Service
 - 不直接把服務端口暴露到公網
 - 更新前備份數據目錄
 
-同步服務裏面是你的筆記，不該裸奔
+同步服務裡面是你的筆記，不該裸奔
 
 ## 接域名
 
@@ -113,7 +105,7 @@ notes.example.com
 
 如果你還沒有域名，可以先看：
 
-[[free-domain-and-web-community|给刚搭好的博客配一个免费域名，再去站长社区露个脸]]
+[[free-domain-and-web-community|給剛搭好的博客配一個免費域名，再去站長社區露個臉]]
 
 我不建議直接訪問：
 
@@ -125,12 +117,12 @@ http://服务器IP:<服务端口>
 
 ## 初始化賬號和插件
 
-服務端 README 裏寫的流程大概是：
+服務端 README 裡寫的流程大概是：
 
 1. 打開 Web 管理界面
 2. 首次訪問註冊賬號
 3. 在後臺複製 API 配置
-4. 到 Obsidian 插件設置裏粘貼配置
+4. 到 Obsidian 插件設置裡粘貼配置
 
 從 GitHub Releases 手動下載 `main.js`、`styles.css`、`manifest.json`，放進：
 
@@ -138,7 +130,7 @@ http://服务器IP:<服务端口>
 .obsidian/plugins/fast-note-sync/
 ```
 
-然後去插件頁面啓動，需要你在Web頁面創建並且複製token，然後在遠端配置裏面粘貼就好了，一般過一會就啓動了
+然後去插件頁面啟動，需要你在Web頁面創建並且複製token，然後在遠端配置裡面粘貼就好了，一般過一會就啟動了
 
 ## 備份比同步更重要
 
@@ -154,15 +146,15 @@ Fast Note Sync 本身支持歷史版本、回收站、備份、鏡像、Git 同�
 
 Fast Note Sync Service 現在還提供 REST API 和 MCP 支持
 
-這件事對我很有吸引力。因爲我的很多內容都在 Obsidian 裏，如果以後 AI 客戶端能通過受控接口讀寫筆記，那它就不只是同步工具，而是個人知識庫的入口
+這件事對我很有吸引力。因為我的很多內容都在 Obsidian 裡，如果以後 AI 客戶端能通過受控接口讀寫筆記，那它就不只是同步工具，而是個人知識庫的入口
 
 但這也是風險
 
-AI 能讀寫你的筆記，意味着權限邊界要更清楚：
+AI 能讀寫你的筆記，意味著權限邊界要更清楚：
 
 - 不要把 MCP 接口暴露到公網
 - 不要給不可信客戶端寫權限
-- 不要把私密日記、賬號信息、密鑰混在一個開放 Vault 裏
+- 不要把私密日記、賬號信息、密鑰混在一個開放 Vault 裡
 - 重要 Vault 先只讀，確認流程後再考慮寫入
 
 「能接 AI」不是立刻全開權限的理由
@@ -173,5 +165,6 @@ AI 能讀寫你的筆記，意味着權限邊界要更清楚：
 
 真正佔資源的是附件數量、同步頻率、還有你是不是把一整個幾十 GB 的素材庫塞進 Obsidian
 
+## 繼續讀
 
-
+筆記多端同步好了，想把其中的公開文章變成博客，可以看 [[astro-mizuki-blog-from-zero|簡潔博客模板]]；服務入口和 HTTPS 接著看 [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]，其他服務器用途回 [[2c2g-server-service-index|服務清單]]

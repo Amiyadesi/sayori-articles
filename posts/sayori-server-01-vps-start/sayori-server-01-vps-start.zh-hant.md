@@ -2,26 +2,18 @@
 title: 我本來只是想讓機器人 24 小時在線，結果買了一臺雲服務器
 published: 2026-05-25
 created: 2026-05-25
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 5
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: 從阿里雲學生代金券到 Ubuntu、SSH 密鑰登錄、非常規端口和基礎防火牆，個人服務器的第一步。
 image: ""
 tags:
-  - 敘事
-  - VPS
+  - 實操教程
+  - VPS與自託管
   - 阿里雲
-  - 自託管
-category: 建站與自託管
+  - 官方學生權益
+category: 教程教學
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "爲了讓機器人 24 小時在線買下第一臺雲服務器"
-    - "從學生券、Ubuntu 到 SSH 密鑰登錄的起步過程"
-    - "換端口和配防火牆，先把最基礎的安全邊界搭好"
-
 lang: zh-Hant
 translationKey: posts/sayori-server-01-vps-start/sayori-server-01-vps-start
 ---
@@ -30,11 +22,11 @@ translationKey: posts/sayori-server-01-vps-start/sayori-server-01-vps-start
 
 最開始沒想搞什麼服務器體系。只是想讓 QQ 機器人 24 小時在線
 
-本地跑當然也能跑。AstrBot 開着，NapCat 掛着，服務不關，網絡別斷，電腦當主機用
+本地跑當然也能跑。AstrBot 開著，NapCat 掛著，服務不關，網絡別斷，電腦當主機用
 
 ![[Pasted image 20260609215751.png]]
 
-所以我很自然地理解到了服務器這個東西：一臺 24 小時開着、放在別人機房裏的電腦
+所以我很自然地理解到了服務器這個東西：一臺 24 小時開著、放在別人機房裡的電腦
 
 然後由於站長是窮學生，所以當然是發動我的 AI 大軍幫我搜羅免費渠道了 )
 
@@ -54,7 +46,7 @@ translationKey: posts/sayori-server-01-vps-start/sayori-server-01-vps-start
 
 ## 第一次連上這臺機器
 
-買完服務器以後，真正的問題纔開始：我怎麼進去
+買完服務器以後，真正的問題才開始：我怎麼進去
 
 控制台會給一個公網 IP、root 用戶和初始密碼。最直接的辦法就是先用密碼連一次：
 
@@ -99,7 +91,7 @@ Get-Content "$env:USERPROFILE\.ssh\sayori_ed25519.pub"
 
 ## 把公鑰放進服務器
 
-保持剛纔那個密碼登錄的 SSH 窗口不要關，在服務器上準備 SSH 目錄：
+保持剛才那個密碼登錄的 SSH 窗口不要關，在服務器上準備 SSH 目錄：
 
 ```bash
 mkdir -p ~/.ssh
@@ -107,7 +99,7 @@ chmod 700 ~/.ssh
 nano ~/.ssh/authorized_keys
 ```
 
-把本地 `.pub` 裏的那一整行粘進去，保存
+把本地 `.pub` 裡的那一整行粘進去，保存
 
 然後改權限：
 
@@ -117,7 +109,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 這一步看起來很莫名其妙，但很重要。權限太鬆的話，SSH 會直接失效，然後直接不認這把鑰匙
 
-接着在本地寫一個 SSH alias。以後不用每次都輸一長串 IP、端口、私鑰路徑
+接著在本地寫一個 SSH alias。以後不用每次都輸一長串 IP、端口、私鑰路徑
 
 打開：
 
@@ -157,9 +149,9 @@ ssh sayori
 
 不要直接照抄我這個。自己挑一個 1024 到 65535 之間、不和其它服務衝突的端口
 
-然後先去阿里雲 ECS 的安全組裏放行這個端口。這個很重要
+然後先去阿里雲 ECS 的安全組裡放行這個端口。這個很重要
 
-服務器裏面的 UFW 是一層門，阿里雲安全組也是一層門。你只改服務器，不改安全組，新端口一樣進不來
+服務器裡面的 UFW 是一層門，阿里雲安全組也是一層門。你只改服務器，不改安全組，新端口一樣進不來
 
 安全組放行後，回到 SSH 窗口，寫一個自己的 SSH 配置片段：
 
@@ -176,7 +168,7 @@ PasswordAuthentication no
 PermitRootLogin prohibit-password
 ```
 
-這裏的 `PermitRootLogin prohibit-password` 意思是 root 還能用密鑰登錄，但不能用密碼登錄
+這裡的 `PermitRootLogin prohibit-password` 意思是 root 還能用密鑰登錄，但不能用密碼登錄
 
 更嚴謹的做法是新建普通用戶，再禁 root。只是我這篇先講最快可用的方式
 
@@ -188,7 +180,7 @@ sshd -t
 
 沒輸出就是好消息
 
-然後重啓 SSH 服務：
+然後重啟 SSH 服務：
 
 ```bash
 systemctl restart ssh
@@ -196,7 +188,7 @@ systemctl restart ssh
 
 現在不要關舊窗口
 
-把本地 `~/.ssh/config` 裏的端口也改掉：
+把本地 `~/.ssh/config` 裡的端口也改掉：
 
 ```text
 Host sayori
@@ -216,7 +208,7 @@ ssh sayori
 
 我會再測試一次舊密碼登錄是不是被關掉了，比如不用私鑰、手動連 IP
 
-如果它還讓你輸密碼並且能進，那就說明 `PasswordAuthentication no` 沒生效，別急着繼續，先把這個查清楚
+如果它還讓你輸密碼並且能進，那就說明 `PasswordAuthentication no` 沒生效，別急著繼續，先把這個查清楚
 
 ## 配防火牆
 
@@ -244,14 +236,14 @@ ufw allow 80/tcp
 ufw allow 443/tcp
 ```
 
-然後啓用：
+然後啟用：
 
 ```bash
 ufw enable
 ufw status verbose
 ```
 
-這裏我還是建議保留舊 SSH 窗口。新開終端再連一次：
+這裡我還是建議保留舊 SSH 窗口。新開終端再連一次：
 
 ```powershell
 ssh sayori
@@ -275,11 +267,11 @@ ufw status numbered
 
 能不用數據庫就不用，能用 SQLite 就先 SQLite，能放 Cloudflare Pages 就不放 VPS 上
 
-這臺機器後來不只跑了機器人，Vaultwarden、ntfy、Gatus、Portainer、AI Search Gateway 都從這裏長出來
+這臺機器後來不只跑了機器人，Vaultwarden、ntfy、Gatus、Portainer、AI Search Gateway 都從這裡長出來
 
-[https://awesome-selfhosted.net/](https://awesome-selfhosted.net/)，這裏有一個關於服務器如何利用非常好的awesome系列網站！
+[https://awesome-selfhosted.net/](https://awesome-selfhosted.net/)，這裡有一個關於服務器如何利用非常好的awesome系列網站！
 
-回頭看，個人服務器最有用的不是某個具體服務，而是逼着你理解網絡、部署、安全、備份這些東西
+回頭看，個人服務器最有用的不是某個具體服務，而是逼著你理解網絡、部署、安全、備份這些東西
 
 如果重來一次，我會更早建立幾個習慣：
 
@@ -288,8 +280,12 @@ ufw status numbered
 3. 能複製的命令都寫進文檔
 4. 每次部署完留一條驗證命令
 
-這篇先到這裏。服務器現在能用 SSH 穩定連上，密碼登錄關了，端口也換了，防火牆也有了最基礎的邊界
+這篇先到這裡。服務器現在能用 SSH 穩定連上，密碼登錄關了，端口也換了，防火牆也有了最基礎的邊界
 
-下一篇講怎麼用 `scp` 把本地配置搬到遠程主機裏
+下一篇講怎麼用 `scp` 把本地配置搬到遠程主機裡
 
 也就是終於要開始把機器人從「我電腦上能跑」搬到「服務器上也能跑」了
+
+## 繼續讀
+
+還沒選機器，可以先看 [[aliyun-student-300-voucher-guide|阿里雲學生券]] 或 [[azure-students-100-credit-guide|Azure 日本服務器]]；連上以後按 [[docker-compose-minimum-start|Docker 入門]] → [[2c2g-server-service-index|服務清單]] 往下走，挑一個自己會用的服務裝起來

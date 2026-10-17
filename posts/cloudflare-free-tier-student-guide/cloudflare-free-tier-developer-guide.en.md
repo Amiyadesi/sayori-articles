@@ -2,18 +2,17 @@
 title: "What Cloudflare's Free Tier Can Do for Developers: The Cyber Philanthropist's Free-for-All"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
 description: "A rundown of genuinely useful things in Cloudflare's free tier: Pages, Workers, R2, Tunnel, Email Routing, DNS, Web Analytics, and when it's a better fit than a VPS."
 image: ""
 tags:
   - Tutorial
-  - Cloudflare
-  - Cloud Services
-  - Free Resources
-category: Website & Self-Hosting
-section: deals
+  - Website & Cloudflare
+  - Official Student Benefits
+  - VPS & Self-Hosting
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en
@@ -55,7 +54,7 @@ My blog runs on Pages. After a push to the GitHub repo, GitHub Actions builds As
 
 If you haven't used it yet:
 
-[[astro-mizuki-blog-from-zero|Build a blog just like mine from scratch]]
+[[astro-mizuki-blog-from-zero|Build a simple blog with Sayori Lite]]
 
 ## Cloudflare Workers
 
@@ -126,7 +125,7 @@ Benefits:
 - Can be combined with Cloudflare Access for an extra layer of authentication
 - Origin IP is not exposed
 
-My Vaultwarden, ntfy, Gatus, and 1Panel dashboard all use Tunnel.
+My [[selfhost-vaultwarden-on-2c2g|Vaultwarden]], [[selfhost-ntfy-on-2c2g|ntfy]], Gatus, and 1Panel dashboard all use Tunnel. The note-sync setup is in the [[fast-note-sync-on-student-server|Fast Note Sync guide]].
 
 The free tier has no limit on the number of Tunnels. You can run multiple subdomains through a single Tunnel.
 
@@ -135,6 +134,8 @@ Installation involves running a `cloudflared` daemon on your VPS; it actively co
 ## Cloudflare DNS
 
 Change your domain's NS to Cloudflare, and you can use its free DNS hosting.
+
+If you still need a domain, start with [[free-domain-and-web-community|free domains and Student Pack domains]].
 
 Benefits:
 
@@ -236,6 +237,8 @@ Contact email → Email Routing
 ```
 
 My 2C2G student server only handles things that absolutely need to run persistently. Anything that can be offloaded to Cloudflare doesn't burden the server.
+
+For a machine, compare [[azure-students-100-credit-guide|Azure in Japan]] and the [[aliyun-student-300-voucher-guide|Aliyun student voucher]], then follow [[docker-compose-minimum-start|Docker basics]] and the [[2c2g-server-service-index|service guide]] to deploy your application.
 
 ## Further Reading
 

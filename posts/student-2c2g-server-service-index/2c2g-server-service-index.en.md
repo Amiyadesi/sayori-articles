@@ -2,18 +2,17 @@
 title: "What Can a 2C2G Student Server Run: Don't Overload the Little Machine Yet"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: "My real-world setup for a 2C2G Alibaba Cloud student server: Vaultwarden, ntfy, Gatus, Fast Note Sync, AstrBot, and a search gateway. Includes actual memory usage and a list of what not to run."
 image: ""
 tags:
-  - Resource Curation
-  - Student Server
+  - Tutorial
+  - VPS & Self-Hosting
   - Docker
-  - Self-Hosting
-category: Website & Self-Hosting
-section: deals
+  - Student Server
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en
@@ -27,6 +26,8 @@ You now own a little machine that's online 24/7.
 But it really is just a *little* machine. With 2 cores and 1.6GB RAM (about 672MB actually usable, with Swap enabled), it's great for practice and light services, but not for heavy tasks like local models, Nextcloud, or video transcoding.
 
 This post is my actual configuration log. The server has been running for over a month, currently with 14 containers, using 765MB RAM + 987MB Swap, and 21GB / 40GB disk space.
+
+If you still need a machine, compare the [[aliyun-student-300-voucher-guide|Aliyun student voucher]] and [[azure-students-100-credit-guide|Azure in Japan]]. This guide helps you choose a use once the server is running.
 
 ## First, Get the Basic Setup Done
 
@@ -105,6 +106,8 @@ When backup scripts, monitoring scripts, or scheduled tasks run on the server, s
 **Memory usage:** ~20MB
 
 ---
+
+**Detailed guide:** [[selfhost-ntfy-on-2c2g|Run ntfy on a 2C2G student server]]
 
 ### 📊 Gatus (Status Page and Health Checks)
 
@@ -321,9 +324,9 @@ These either hog memory, CPU, or storage; a 2C2G machine can't handle them:
 
 **Alternatives:**
 
-- Use public quotas: AnyRouter, SharedChat.
-- Use student coupons: Alibaba Cloud Bailian.
-- See also: [How College Students Can Manage AI Quotas with AnyRouter, SharedChat, and cc-switch](/posts/anyrouter-sharedchat-cc-switch-student-guide/)
+- Use official student benefits: GitHub Copilot Student, Google AI Studio official free tier.
+- Use student vouchers: Alibaba Cloud Bailian official API.
+- See also: [How College Students Can Manage Official AI Quotas and CLI Configs with cc-switch](/posts/anyrouter-sharedchat-cc-switch-student-guide/)
 
 ---
 
@@ -345,10 +348,10 @@ These either hog memory, CPU, or storage; a 2C2G machine can't handle them:
 
 I'd arrange it like this:
 
-1.  **Basic setup**: SSH, security groups, Docker, cost alerts.
-2.  **Domain and HTTPS**: Free domain + Cloudflare DNS + Cloudflare Tunnel.
-3.  **Core services**: Vaultwarden (password manager) + ntfy (notifications) + Gatus (monitoring).
-4.  **Add as needed**: Fast Note Sync, bots, other tools.
+1. **Basic setup**: [[sayori-server-01-vps-start|SSH and security groups]], [[docker-compose-minimum-start|Docker and Compose]], cost alerts.
+2. **Domain and HTTPS**: [[free-domain-and-web-community|A free domain]] + [[cloudflare-free-tier-developer-guide|Cloudflare DNS and Tunnel]].
+3. **Core services**: [[selfhost-vaultwarden-on-2c2g|Vaultwarden]] + [[selfhost-ntfy-on-2c2g|ntfy]] + Gatus.
+4. **Add as needed**: [[fast-note-sync-on-student-server|Fast Note Sync]], bots, other tools.
 
 Don't install 10 services all at once. Take them one by one; add the next only after each is running stably.
 

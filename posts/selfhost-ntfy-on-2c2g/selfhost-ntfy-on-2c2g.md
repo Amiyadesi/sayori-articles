@@ -2,30 +2,24 @@
 title: 在 2C2G 学生服务器上跑 ntfy：给自己一个通知按钮
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 3
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 4
 description: 用 Docker 在学生服务器上部署 ntfy 推送服务，让备份脚本、监控、定时任务都能往手机发通知。
 image: ""
 tags:
-  - 教程
-  - ntfy
+  - 实操教程
+  - VPS与自托管
   - Docker
   - 推送通知
-  - 服务器探索
-  - 自托管
-category: 建站与自托管
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/selfhost-ntfy-on-2c2g/selfhost-ntfy-on-2c2g
 ---
 
 ntfy 是我服务器上最不起眼但最有用的服务之一
 
-它做的事情很简单：你用一条 HTTP 请求往它发一句话，它就把这句话推送到你的手机
-
-没有复杂的配置界面，没有花哨的仪表盘。就是一个推送管道
+它做的事情很简单：你用一条 HTTP 请求往它发一句话，它就把这句话推送到你的手机，就是一个推送管道
 
 但这个管道的用途比你想象的多：
 
@@ -242,5 +236,10 @@ ntfy 非常轻
 
 非常适合。它可能是 2C2G 上性价比最高的服务之一
 
-装上以后，你会发现几乎所有脚本的最后一步都变成了「发个通知告诉我结果」。这比你每天 SSH 进去看日志舒服太多了
+装上以后，你会发现几乎所有脚本的最后一步都变成了「发个通知告诉我结果」，这比你每天 SSH 进去看日志舒服太多了
 
+而且ntfy还可以自定义那种小命令，比如站长就把自己博客的评论审核用ntfy发给自己，选择删除就/delete 评论ID，选择恢复就/recover 评论ID之类的
+
+## 继续读
+
+域名和 HTTPS 可以接着看 [[free-domain-and-web-community|域名教程]] 与 [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]；有了通知管道，[[selfhost-vaultwarden-on-2c2g|Vaultwarden]] 的备份结果也能推到手机，其他用途回 [[2c2g-server-service-index|服务清单]] 选

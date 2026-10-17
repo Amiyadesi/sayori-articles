@@ -2,28 +2,19 @@
 title: "Docker 和 Docker Compose 最小入门：看懂那些 yml 文件"
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: "给刚拿到服务器的人写的 Docker 最小入门：容器是什么、Compose 文件怎么读、怎么启动停止更新删除，不讲原理只讲能用。"
 image: ""
 tags:
-  - 教程
+  - 实操教程
   - Docker
+  - VPS与自托管
   - 新手入门
-category: 建站与自托管
+category: 教程教学
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "用最少概念理解容器和 Docker Compose"
-    - "看懂 yml 里服务、端口、卷和环境变量"
-    - "覆盖启动、停止、更新和删除这些常用操作"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/docker-compose-minimum-start/docker-compose-minimum-start
 ---
 
 如果你看我的其他文章，会发现几乎每个自托管服务都是用 Docker 跑的
@@ -347,3 +338,7 @@ docker system prune --volumes
 后面每篇自托管服务的文章，都只需要给你一个 `docker-compose.yml`，你就能跑起来
 
 不用一开始就理解 Docker 的所有概念。先能用，用多了自然会想知道更多
+
+## 继续读
+
+先从 [[2c2g-server-service-index|小服务器服务清单]] 选用途，再挑 [[selfhost-ntfy-on-2c2g|ntfy 通知]]、[[selfhost-vaultwarden-on-2c2g|Vaultwarden 密码库]] 或 [[fast-note-sync-on-student-server|Obsidian 同步]] 跑起来，域名和入口接到 [[cloudflare-free-tier-developer-guide|Cloudflare]]
