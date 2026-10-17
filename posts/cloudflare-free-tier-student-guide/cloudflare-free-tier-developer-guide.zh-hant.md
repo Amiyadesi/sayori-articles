@@ -2,25 +2,24 @@
 title: Cloudflare 免費層能幫開發者做什麼：不花錢的賽博大善人全家桶
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
-description: 整理 Cloudflare 免費層裏真的能用的東西：Pages、Workers、R2、Tunnel、Email Routing、DNS、Web Analytics，以及哪些場景下它比 VPS 更合適。
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 3
+description: 整理 Cloudflare 免費層裡真的能用的東西：Pages、Workers、R2、Tunnel、Email Routing、DNS、Web Analytics，以及哪些場景下它比 VPS 更合適。
 image: ""
 tags:
-  - 教程
-  - Cloudflare
-  - 雲服務
-  - 免費資源
-category: 建站與自託管
-section: deals
+  - 實操教程
+  - 建站與Cloudflare
+  - 官方學生權益
+  - VPS與自託管
+category: 教程教學
 draft: false
 alias: ""
 lang: zh-Hant
 translationKey: posts/cloudflare-free-tier-student-guide/cloudflare-free-tier-developer-guide
 ---
 
-Cloudflare 在開發者圈子裏被叫「賽博大善人」不是沒原因的。
+Cloudflare 在開發者圈子裡被叫「賽博大善人」不是沒原因的。
 
 它的免費層額度對於個人開發者來說，簡直就是營養過剩
 
@@ -55,7 +54,7 @@ Pages 讓你把靜態網站（HTML、CSS、JS，或者 Astro/Next.js/Hugo 等框
 
 如果你還沒用過：
 
-[[astro-mizuki-blog-from-zero|从零开始搭建一个和站长一样的博客]]
+[[astro-mizuki-blog-from-zero|用 Sayori Lite 搭一個簡潔博客]]
 
 ## Cloudflare Workers
 
@@ -95,12 +94,12 @@ R2 是對象存儲，兼容 S3 API
 
 適合幹什麼：
 
-- 博客圖片存儲（配合自定義域名就是一個圖牀）
+- 博客圖片存儲（配合自定義域名就是一個圖床）
 - 備份文件存放
 - 靜態資源託管
 - 小項目的文件上傳存儲
 
-爲什麼比 OSS 香：出站流量不收錢。阿里雲 OSS 的出站流量是要花錢的，R2 不收。對個人博客和小項目來說，這個差異很大
+為什麼比 OSS 香：出站流量不收錢。阿里雲 OSS 的出站流量是要花錢的，R2 不收。對個人博客和小項目來說，這個差異很大
 
 需要綁信用卡才能開通 R2，但免費層內不會扣費
 
@@ -126,7 +125,7 @@ Tunnel 讓你把內網服務（比如你 VPS 上只監聽 127.0.0.1 的 Vaultwar
 - 可以配合 Cloudflare Access 加一層身份認證
 - 源站 IP 不暴露
 
-我的 Vaultwarden、ntfy、Gatus、1Panel 面板都走 Tunnel
+我的 [[selfhost-vaultwarden-on-2c2g|Vaultwarden]]、[[selfhost-ntfy-on-2c2g|ntfy]]、Gatus、1Panel 面板都走 Tunnel，筆記同步的用法放在 [[fast-note-sync-on-student-server|Fast Note Sync 教程]]
 
 免費層沒有 Tunnel 數量限制。你可以一條 Tunnel 跑多個子域名
 
@@ -135,6 +134,8 @@ Tunnel 讓你把內網服務（比如你 VPS 上只監聽 127.0.0.1 的 Vaultwar
 ## Cloudflare DNS
 
 把域名的 NS 改到 Cloudflare，就能用它的免費 DNS 託管
+
+域名還沒選好，可以先看 [[free-domain-and-web-community|免費域名和學生包域名]]
 
 好處：
 
@@ -171,7 +172,7 @@ me@example.com -> 转发到 -> 你的Gmail/Outlook
 
 不需要安裝任何 JS 腳本，Cloudflare 就能給你看網站的基礎流量數據
 
-在 Dashboard 裏的 Web Analytics 就能開啓
+在 Dashboard 裡的 Web Analytics 就能開啟
 
 它比 Google Analytics 輕很多：
 
@@ -180,7 +181,7 @@ me@example.com -> 转发到 -> 你的Gmail/Outlook
 - 不需要額外加載 JS
 - 隱私友好
 
-對個人博客來說，看看每天有沒有人來、從哪裏來、看了哪些頁面，這個就夠了
+對個人博客來說，看看每天有沒有人來、從哪裡來、看了哪些頁面，這個就夠了
 
 如果你想要更詳細的分析（比如事件追蹤、漏斗、自定義維度），可以以後再看 Umami 或 Plausible。但起步階段，Cloudflare 自帶的就夠
 
@@ -237,8 +238,11 @@ VPS 内网服务公网访问 → Cloudflare Tunnel
 
 2C2G 的學生服務器只負責跑必須持久運行的東西。其他能卸載到 Cloudflare 的，就不用服務器扛
 
+需要一臺機器時，可以先看 [[azure-students-100-credit-guide|Azure 日本服務器]] 或 [[aliyun-student-300-voucher-guide|阿里雲學生券]]，再按 [[docker-compose-minimum-start|Docker 入門]] 和 [[2c2g-server-service-index|服務清單]] 部署自己的應用
+
 ## 延伸閱讀
 
 awesome-cloudflare：[https://github.com/zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare)
 
-這個倉庫整理了 Cloudflare 生態裏各種工具和用法，14k+ star。如果你想知道「別人拿 Cloudflare 做了什麼」，從這裏開始
+這個倉庫整理了 Cloudflare 生態裡各種工具和用法，14k+ star。如果你想知道「別人拿 Cloudflare 做了什麼」，從這裡開始
+

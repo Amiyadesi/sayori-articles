@@ -2,29 +2,19 @@
 title: 在学生服务器上折腾 Fast Note Sync：给 Obsidian 一个私有同步层
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: 用 2C2G 学生服务器试跑 Fast Note Sync Service，给 Obsidian 多端同步、备份、REST/MCP 接口留一条私有路线。
 image: ""
 tags:
-  - 叙事
-  - Obsidian
+  - 实操教程
+  - VPS与自托管
   - Docker
-  - 笔记同步
-category: 建站与自托管
+  - Obsidian
+category: 教程教学
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "在 2C2G 学生服务器试跑 Fast Note Sync"
-    - "给 Obsidian 多端同步和备份留一条私有路线"
-    - "顺带保留 REST 和 MCP 接口的折腾空间"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/fast-note-sync-on-student-server/fast-note-sync-on-student-server
 ---
 
 我现在写博客和项目笔记都在 Obsidian 里，但是obsidian一开始都是在电脑上写的，然后电脑里已经写了一堆后才发现手机写不了，于是就去找同步服务了
@@ -173,5 +163,6 @@ AI 能读写你的笔记，意味着权限边界要更清楚：
 
 真正占资源的是附件数量、同步频率、还有你是不是把一整个几十 GB 的素材库塞进 Obsidian
 
+## 继续读
 
-
+笔记多端同步好了，想把其中的公开文章变成博客，可以看 [[astro-mizuki-blog-from-zero|简洁博客模板]]；服务入口和 HTTPS 接着看 [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]，其他服务器用途回 [[2c2g-server-service-index|服务清单]]

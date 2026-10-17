@@ -2,35 +2,36 @@
 title: "2C2G 學生服務器能跑什麼：先別把小機器塞爆"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 4
-description: "站長的 2C2G 阿里雲輕量服務器實戰配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索網關。包含真實內存佔用和不推薦列表。"
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
+description: "站長的 2C2G 阿里雲輕量服務器實戰配置：Vaultwarden、ntfy、Gatus、Fast Note Sync、AstrBot 和搜索網關。包含真實內存佔用和不推薦列表"
 image: ""
 tags:
-  - 資源整合
-  - 學生服務器
+  - 實操教程
+  - VPS與自託管
   - Docker
-  - 自託管
-category: 建站與自託管
-section: deals
+  - 學生服務器
+category: 教程教學
 draft: false
 alias: ""
 lang: zh-Hant
 translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-index
 ---
 
-如果你跟站長一樣，把阿里雲學生 300 元券換成了一臺 2C2G 服務器，恭喜。
+如果你跟站長一樣，把阿里雲學生 300 元券換成了一臺 2C2G 服務器，恭喜
 
-你現在擁有了一臺 24 小時在線的小機器。
+你現在擁有了一臺 24 小時在線的小機器
 
-但它真的只是小機器。2 核 1.6GB 內存（實際可用 672MB 左右，開了 Swap），適合練手、掛輕量服務，不適合跑本地模型、Nextcloud、視頻轉碼這類重活。
+還沒開機，可以先看 [[aliyun-student-300-voucher-guide|阿里雲學生券]] 或 [[azure-students-100-credit-guide|Azure 日本服務器]]，這篇負責開機之後的用途選擇
 
-這篇是站長的真實配置記錄。服務器已經跑了一個多月，目前 14 個容器，內存用了 765MB + 987MB Swap，磁盤用了 21GB / 40GB。
+但它真的只是小機器。2 核 1.6GB 內存（實際可用 672MB 左右，開了 Swap），適合練手、掛輕量服務，不適合跑本地模型、Nextcloud、視頻轉碼這類重活
+
+這篇是站長的真實配置記錄。服務器已經跑了一個多月，目前 14 個容器，內存用了 765MB + 987MB Swap，磁盤用了 21GB / 40GB
 
 ## 先做好基礎配置
 
-服務先別急着裝。
+服務先別急著裝
 
 拿到服務器後，先把這幾件事做了：
 
@@ -56,7 +57,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
   fast-note-sync/
 ```
 
-每個目錄一個 `docker-compose.yml`，真實密鑰放 `.env`，不要進公開倉庫。
+每個目錄一個 `docker-compose.yml`，真實密鑰放 `.env`，不要進公開倉庫
 
 ## 站長目前在跑的服務
 
@@ -64,7 +65,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 個人密碼庫
 
-**爲什麼優先跑它：**
+**為什麼優先跑它：**
 
 - 密碼庫比博客、狀態頁、機器人都重要
 - 輕量，內存佔用低
@@ -80,7 +81,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **內存佔用：** ~50MB
 
-**詳細教程：** [[selfhost-vaultwarden-on-2c2g|在 2C2G 学生服务器上搭 Vaultwarden]]
+**詳細教程：** [[selfhost-vaultwarden-on-2c2g|在 2C2G 學生服務器上搭 Vaultwarden]]
 
 ---
 
@@ -88,13 +89,13 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 給自己發推送
 
-服務器上跑備份腳本、監控腳本、定時任務，失敗了總要有人通知你。ntfy 就適合幹這個。
+服務器上跑備份腳本、監控腳本、定時任務，失敗了總要有人通知你。ntfy 就適合幹這個
 
 **我用它做什麼：**
 
 - 備份成功/失敗通知
 - Gatus 健康檢查報警
-- 評論審覈結果推送
+- 評論審核結果推送
 - 手動觸發一些運維命令（通過 ntfy → 腳本聯動）
 
 **關鍵注意：**
@@ -108,11 +109,13 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 ---
 
+**詳細教程：** [[selfhost-ntfy-on-2c2g|在 2C2G 學生服務器上跑 ntfy]]
+
 ### 📊 Gatus（狀態頁和健康檢查）
 
 **用途：** 監控你的服務
 
-它可以定時檢查你的博客、Vaultwarden、機器人面板、API 是否還活着。掛了就通過 ntfy 通知你。
+它可以定時檢查你的博客、Vaultwarden、機器人面板、API 是否還活著。掛了就通過 ntfy 通知你
 
 **我監控的端點：**
 
@@ -136,7 +139,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 給 Obsidian 做私有同步
 
-如果你像我一樣用 Obsidian 寫博客、記項目、存草稿，這個服務會很誘人。它比 Obsidian Sync 便宜（0 元），比 Syncthing 省心（不用多端都在線）。
+如果你像我一樣用 Obsidian 寫博客、記項目、存草稿，這個服務會很誘人。它比 Obsidian Sync 便宜（0 元），比 Syncthing 省心（不用多端都在線）
 
 **關鍵注意：**
 
@@ -146,7 +149,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **內存佔用：** ~30MB
 
-**詳細教程：** [[fast-note-sync-on-student-server|在学生服务器上折腾 Fast Note Sync]]
+**詳細教程：** [[fast-note-sync-on-student-server|在學生服務器上折騰 Fast Note Sync]]
 
 ---
 
@@ -154,7 +157,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 24 小時在線的 QQ/Telegram/Discord 機器人
 
-放在遠端服務器後，終於能實現 24 小時不停地跑機器人了。可以接入 Discord 和 Telegram，這兩個地方基本沒有風控。
+放在遠端服務器後，終於能實現 24 小時不停地跑機器人了。可以接入 Discord 和 Telegram，這兩個地方基本沒有風控
 
 **QQ 接入注意：**
 
@@ -170,7 +173,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** 自用 AI 搜索聚合網關
 
-整合了 Tavily、Brave Search、Firecrawl、Exa、Grok Search、SearXNG，用 FastAPI 搭的。給 Codex 和 Claude Code MCP 用，比單獨調 API 方便。
+整合了 Tavily、Brave Search、Firecrawl、Exa、Grok Search、SearXNG，用 FastAPI 搭的。給 Codex 和 Claude Code MCP 用，比單獨調 API 方便
 
 **關鍵注意：**
 
@@ -182,13 +185,13 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 ---
 
-### 🛡️ Comment Moderation（評論審覈）
+### 🛡️ Comment Moderation（評論審核）
 
-**用途：** AI 審覈博客評論
+**用途：** AI 審核博客評論
 
-用公益 GPT 額度自動審覈 Twikoo 評論，配合 ntfy 推送審覈結果。可以在 ntfy 裏通過發消息手動刪除和恢復評論。
+用公益 GPT 額度自動審核 Twikoo 評論，配合 ntfy 推送審核結果。可以在 ntfy 裡通過發消息手動刪除和恢復評論
 
-再加上 Cloudflare Turnstile 人機驗證，留下來的評論基本都是高質量的。
+再加上 Cloudflare Turnstile 人機驗證，留下來的評論基本都是高質量的
 
 **內存佔用：** ~40MB
 
@@ -219,7 +222,7 @@ translationKey: posts/student-2c2g-server-service-index/2c2g-server-service-inde
 
 **用途：** Web 界面管理 Docker 容器
 
-適合新手看容器狀態，也適合臨時排查問題。
+適合新手看容器狀態，也適合臨時排查問題
 
 **安全警告：**
 
@@ -254,15 +257,15 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 ## 不推薦在 2C2G 上跑的服務
 
-這些要麼喫內存，要麼喫 CPU，要麼喫存儲，2C2G 撐不住：
+這些要麼吃內存，要麼吃 CPU，要麼吃存儲，2C2G 撐不住：
 
 ### ❌ Nextcloud / OwnCloud
 
-**爲什麼不推薦：**
+**為什麼不推薦：**
 
 - 內存佔用高（PHP-FPM + 數據庫 + Redis）
-- 文件上傳下載喫帶寬和 IO
-- 大文件預覽喫 CPU
+- 文件上傳下載吃帶寬和 IO
+- 大文件預覽吃 CPU
 - 同步衝突多
 
 **替代方案：**
@@ -274,10 +277,10 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 ### ❌ Plex / Jellyfin / Emby
 
-**爲什麼不推薦：**
+**為什麼不推薦：**
 
-- 視頻轉碼喫 CPU 和內存
-- 媒體庫掃描喫 IO
+- 視頻轉碼吃 CPU 和內存
+- 媒體庫掃描吃 IO
 - 40GB 磁盤放不了幾部電影
 
 **替代方案：**
@@ -289,7 +292,7 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 ### ❌ GitLab
 
-**爲什麼不推薦：**
+**為什麼不推薦：**
 
 - 內存佔用 4GB 起步
 - 2C2G 根本跑不動
@@ -303,9 +306,9 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 ### ❌ Mastodon / Misskey
 
-**爲什麼不推薦：**
+**為什麼不推薦：**
 
-- 聯邦宇宙服務器喫內存和數據庫
+- 聯邦宇宙服務器吃內存和數據庫
 - 媒體存儲佔用磁盤
 
 **替代方案：**
@@ -316,25 +319,25 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 ### ❌ 本地大模型（Ollama / LM Studio）
 
-**爲什麼不推薦：**
+**為什麼不推薦：**
 
 - 2C 跑推理慢到懷疑人生
 - 1.6GB 內存裝不下任何有用的模型
 
 **替代方案：**
 
-- 用公益額度：AnyRouter、SharedChat
-- 用學生券：阿里雲百鍊
-- 詳見：[大學生怎麼用 AnyRouter、SharedChat 和 cc-switch 管理 AI 額度](/posts/anyrouter-sharedchat-cc-switch-student-guide/)
+- 用官方學生權益：GitHub Copilot Student、Google AI Studio 官方免費層
+- 用學生代金券抵扣：阿里雲百鍊官方大模型 API
+- 詳見：[大學生怎麼用官方 AI 額度與 cc-switch 管理開發環境](/posts/anyrouter-sharedchat-cc-switch-student-guide/)
 
 ---
 
 ### ❌ WordPress（不是不能跑，是不建議）
 
-**爲什麼不太推薦：**
+**為什麼不太推薦：**
 
-- PHP + MySQL 喫內存
-- 插件裝多了更喫
+- PHP + MySQL 吃內存
+- 插件裝多了更吃
 - 靜態博客（Astro / Hugo）性能更好
 
 **如果一定要跑：**
@@ -347,12 +350,12 @@ Swap:          2.0Gi       987Mi       1.0Gi
 
 站長會這樣安排：
 
-1. **基礎配置**：SSH、安全組、Docker、費用預警
-2. **域名和 HTTPS**：免費域名 + Cloudflare DNS + Cloudflare Tunnel
-3. **核心服務**：Vaultwarden（密碼庫）+ ntfy（通知）+ Gatus（監控）
-4. **按需添加**：Fast Note Sync、機器人、其他工具
+1. **基礎配置**：[[sayori-server-01-vps-start|SSH 和安全組]]、[[docker-compose-minimum-start|Docker 和 Compose]]、費用預警
+2. **域名和 HTTPS**：[[free-domain-and-web-community|免費域名]] + [[cloudflare-free-tier-developer-guide|Cloudflare DNS 和 Tunnel]]
+3. **核心服務**：[[selfhost-vaultwarden-on-2c2g|Vaultwarden 密碼庫]] + [[selfhost-ntfy-on-2c2g|ntfy 通知]] + Gatus 監控
+4. **按需添加**：[[fast-note-sync-on-student-server|Fast Note Sync]]、機器人、其他工具
 
-**不要一口氣裝 10 個服務。** 一個一個來，每個都跑穩了再加下一個。
+**不要一口氣裝 10 個服務。** 一個一個來，每個都跑穩了再加下一個
 
 ## 相關資源
 
@@ -369,15 +372,15 @@ Swap:          2.0Gi       987Mi       1.0Gi
 - Gatus：[https://gatus.io/](https://gatus.io/)
 - AstrBot：[https://github.com/Soulter/AstrBot](https://github.com/Soulter/AstrBot)
 
-`awesome-selfhosted` 適合找「還有什麼能自建」。`awesome-cloudflare` 適合找「哪些東西可以不放在 VPS 上，而是放到 Cloudflare 上」。
+`awesome-selfhosted` 適合找「還有什麼能自建」。`awesome-cloudflare` 適合找「哪些東西可以不放在 VPS 上，而是放到 Cloudflare 上」
 
-個人服務器不是所有東西都自己扛。能讓 Cloudflare Pages、Workers、R2、Tunnel 做的，就別用 2GB 內存硬撐。
+個人服務器不是所有東西都自己扛。能讓 Cloudflare Pages、Workers、R2、Tunnel 做的，就別用 2GB 內存硬撐
 
 ---
 
 ## 最後
 
-2C2G 的服務器最適合做「個人常用服務的起點」。
+2C2G 的服務器最適合做「個人常用服務的起點」
 
 它能讓你：
 
@@ -391,6 +394,6 @@ Swap:          2.0Gi       987Mi       1.0Gi
 - 當生產服務器
 - 替代專業 NAS 或媒體服務器
 
-但這就夠了。
+但這就夠了
 
-服務器不是配置完就結束，它會逼着你認真對待備份、安全、監控。這其實是好事。
+服務器不是配置完就結束，它會逼著你認真對待備份、安全、監控。這其實是好事

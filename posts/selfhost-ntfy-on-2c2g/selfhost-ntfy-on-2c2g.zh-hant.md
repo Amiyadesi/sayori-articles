@@ -2,19 +2,17 @@
 title: 在 2C2G 學生服務器上跑 ntfy：給自己一個通知按鈕
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 3
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 4
 description: 用 Docker 在學生服務器上部署 ntfy 推送服務，讓備份腳本、監控、定時任務都能往手機發通知。
 image: ""
 tags:
-  - 教程
-  - ntfy
+  - 實操教程
+  - VPS與自託管
   - Docker
   - 推送通知
-  - 服務器探索
-  - 自託管
-category: 建站與自託管
+category: 教程教學
 draft: false
 alias: ""
 lang: zh-Hant
@@ -23,9 +21,7 @@ translationKey: posts/selfhost-ntfy-on-2c2g/selfhost-ntfy-on-2c2g
 
 ntfy 是我服務器上最不起眼但最有用的服務之一
 
-它做的事情很簡單：你用一條 HTTP 請求往它發一句話，它就把這句話推送到你的手機
-
-沒有複雜的配置界面，沒有花哨的儀表盤。就是一個推送管道
+它做的事情很簡單：你用一條 HTTP 請求往它發一句話，它就把這句話推送到你的手機，就是一個推送管道
 
 但這個管道的用途比你想像的多：
 
@@ -44,13 +40,13 @@ ntfy 是我服務器上最不起眼但最有用的服務之一
 
 [https://docs.ntfy.sh/](https://docs.ntfy.sh/)
 
-## 爲什麼自建
+## 為什麼自建
 
 ntfy 有官方公共服務器 `ntfy.sh`，不裝任何東西也能用
 
 但我還是選擇自建，原因是：
 
-- 公共服務器的 topic 是公開的。任何人知道你的 topic 名就能往裏面發東西
+- 公共服務器的 topic 是公開的。任何人知道你的 topic 名就能往裡面發東西
 - 自建可以加用戶認證
 - 自建可以控制留存和日誌
 - 學生服務器反正有空間，ntfy 很輕
@@ -94,7 +90,7 @@ services:
 - `NTFY_AUTH_DEFAULT_ACCESS: "deny-all"`：默認拒絕所有未認證請求。這樣只有你自己（帶 token 或賬號密碼）能發和收
 - `NTFY_BASE_URL`：填你最終要用的域名，比如我用的就是`ntfy.sayori.org`
 
-## 啓動
+## 啟動
 
 ```bash
 docker compose up -d
@@ -111,7 +107,7 @@ curl http://127.0.0.1:8090/
 
 ## 創建用戶
 
-因爲我們設了 `deny-all`，需要創建一個用戶給自己用：
+因為我們設了 `deny-all`，需要創建一個用戶給自己用：
 
 ```bash
 docker compose exec ntfy ntfy user add --role=admin 你的用户名
@@ -140,7 +136,7 @@ ntfy.example.com
   -> ntfy
 ```
 
-確認 HTTPS 能正常訪問後，打開 `https://ntfy.example.com`，用剛纔的賬號登錄 Web 界面
+確認 HTTPS 能正常訪問後，打開 `https://ntfy.example.com`，用剛才的賬號登錄 Web 界面
 
 ## 發第一條通知
 
@@ -152,7 +148,7 @@ curl -H "Authorization: Bearer 你的token" \
      https://ntfy.example.com/test
 ```
 
-這裏 `/test` 是 topic 名。你可以隨便起名，比如 `/backup`、`/alert`、`/server`
+這裡 `/test` 是 topic 名。你可以隨便起名，比如 `/backup`、`/alert`、`/server`
 
 也可以帶標題和優先級：
 
@@ -177,7 +173,7 @@ iOS：
 
 打開 App 後：
 
-1. 設置裏添加你的自建服務器地址
+1. 設置裡添加你的自建服務器地址
 2. 填賬號密碼或 token
 3. 訂閱你的 topic（比如 `backup`、`alert`）
 
@@ -217,9 +213,9 @@ some_command || curl -s -H "Authorization: Bearer $NTFY_TOKEN" \
 
 ## 和 Gatus 配合
 
-如果你跑了 Gatus 做健康檢查，可以在 Gatus 配置里加 ntfy 作爲告警通道
+如果你跑了 Gatus 做健康檢查，可以在 Gatus 配置里加 ntfy 作為告警通道
 
-Gatus 支持 ntfy 原生告警，配置裏寫服務器地址、topic 和 token 就行
+Gatus 支持 ntfy 原生告警，配置裡寫服務器地址、topic 和 token 就行
 
 這樣某個服務掛了，Gatus 會自動往 ntfy 發通知，你手機就會響
 
@@ -227,9 +223,9 @@ Gatus 支持 ntfy 原生告警，配置裏寫服務器地址、topic 和 token �
 
 ntfy 非常輕
 
-我服務器上跑着它，平時內存佔用大概 20-30MB。CPU 基本爲零。對 2C2G 來說完全不是負擔
+我服務器上跑著它，平時內存佔用大概 20-30MB。CPU 基本為零。對 2C2G 來說完全不是負擔
 
-它不需要數據庫。消息緩存在本地文件裏，默認保留一段時間後自動過期
+它不需要數據庫。消息緩存在本地文件裡，默認保留一段時間後自動過期
 
 ## 注意事項
 
@@ -242,5 +238,10 @@ ntfy 非常輕
 
 非常適合。它可能是 2C2G 上性價比最高的服務之一
 
-裝上以後，你會發現幾乎所有腳本的最後一步都變成了「發個通知告訴我結果」。這比你每天 SSH 進去看日誌舒服太多了
+裝上以後，你會發現幾乎所有腳本的最後一步都變成了「發個通知告訴我結果」，這比你每天 SSH 進去看日誌舒服太多了
 
+而且ntfy還可以自定義那種小命令，比如站長就把自己博客的評論審核用ntfy發給自己，選擇刪除就/delete 評論ID，選擇恢復就/recover 評論ID之類的
+
+## 繼續讀
+
+域名和 HTTPS 可以接著看 [[free-domain-and-web-community|域名教程]] 與 [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]；有了通知管道，[[selfhost-vaultwarden-on-2c2g|Vaultwarden]] 的備份結果也能推到手機，其他用途回 [[2c2g-server-service-index|服務清單]] 選

@@ -2,29 +2,21 @@
 title: "Tinkering with Fast Note Sync on a Student Server: A Private Sync Layer for Obsidian"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: Running Fast Note Sync Service on a 2C2G student server, carving out a private route for Obsidian multi-device sync, backup, and REST/MCP interfaces.
 image: ""
 tags:
-  - Narrative
-  - Obsidian
+  - Tutorial
+  - VPS & Self-Hosting
   - Docker
-  - Note Sync
-category: Website & Self-Hosting
+  - Obsidian
+category: Tutorials & Guides
 draft: false
 lang: en
 translationKey: posts/fast-note-sync-on-student-server/fast-note-sync-on-student-server
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Running Fast Note Sync on a 2C2G student server"
-    - "Carving out a private route for Obsidian multi-device sync and backup"
-    - "Also leaving room to tinker with REST and MCP interfaces"
 alias: ""
-
 ---
 
 I write all my blog posts and project notes in Obsidian now, but I started writing everything on my computer. After accumulating a bunch of stuff, I realized I couldn't write on my phone, so I went looking for a sync service.
@@ -170,3 +162,7 @@ If AI can read and write your notes, it means permission boundaries need to be c
 For normal personal use, it should be fine.
 
 What truly consumes resources are the number of attachments, sync frequency, and whether you're stuffing an entire multi-gigabyte asset library into Obsidian.
+
+## Read next
+
+Once your notes sync across devices, turn the public ones into a blog with the [[astro-mizuki-blog-from-zero|simple blog template]]. For a service entry and HTTPS, see [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]. Find other server uses in the [[2c2g-server-service-index|service guide]]

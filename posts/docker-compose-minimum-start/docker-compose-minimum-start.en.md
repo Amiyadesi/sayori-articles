@@ -2,24 +2,18 @@
 title: "Docker and Docker Compose Minimum Start: Understanding Those YML Files"
 published: 2026-06-23
 created: 2026-06-23
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 5
 description: "A minimum start guide to Docker for those who just got a server: what containers are, how to read Compose files, how to start, stop, update, and delete them. No theory, just practical usage."
 image: ""
 tags:
   - Tutorial
   - Docker
-  - Beginner Guide
-category: Website & Self-Hosting
+  - VPS & Self-Hosting
+  - Beginner Friendly
+category: Tutorials & Guides
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Understand containers and Docker Compose with minimal concepts"
-    - "Understand services, ports, volumes, and environment variables in yml"
-    - "Cover common operations like starting, stopping, updating, and deleting"
 alias: ""
 lang: en
 translationKey: posts/docker-compose-minimum-start/docker-compose-minimum-start
@@ -346,3 +340,7 @@ By now, you should be able to:
 For every self-hosted service article going forward, I'll just give you a `docker-compose.yml`, and you'll be able to get it running.
 
 No need to understand all Docker concepts from the start. Just get it working, and as you use it more, you'll naturally want to learn more.
+
+## Read next
+
+Choose a purpose from the [[2c2g-server-service-index|small-server service guide]], then try [[selfhost-ntfy-on-2c2g|ntfy notifications]], [[selfhost-vaultwarden-on-2c2g|Vaultwarden]], or [[fast-note-sync-on-student-server|Obsidian sync]]. Connect the domain and service entry through [[cloudflare-free-tier-developer-guide|Cloudflare]]

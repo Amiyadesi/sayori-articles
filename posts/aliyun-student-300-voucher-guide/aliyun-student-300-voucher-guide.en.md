@@ -2,25 +2,18 @@
 title: "What can you buy with Alibaba Cloud's 300 RMB student voucher: A guide to using it before you waste it"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 4
 description: "A compilation of the most practical ways to use Alibaba Cloud's 300 RMB student voucher: ECS, Lightweight Application Server, Wuying Lingdou, Bailian Large Model API, and pitfalls to watch out for before ordering."
 image: ""
 tags:
   - Tutorial
+  - Official Student Benefits
   - Alibaba Cloud
-  - Student Resources
-category: Tools & Resources
-section: deals
+  - VPS & Self-Hosting
+category: Tutorials & Guides
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Get a 300 RMB Alibaba Cloud voucher after student verification"
-    - "ECS, Lightweight, Wuying, and Bailian API all have different uses"
-    - "Before paying, check the deduction on the settlement page and usage-based cost warnings"
 alias: ""
 lang: en
 translationKey: posts/aliyun-student-300-voucher-guide/aliyun-student-300-voucher-guide
@@ -29,11 +22,9 @@ translationKey: posts/aliyun-student-300-voucher-guide/aliyun-student-300-vouche
 > [!NOTE]
 > This guide compiles methods verified as effective in June 2026. The scope of Alibaba Cloud vouchers can change, and the settlement page has the final say, so don't treat this as a permanent strategy. If you're reading this later, always confirm the deduction on the settlement page before placing an order.
 
-As everyone knows, Alibaba Cloud gives out 300 RMB vouchers to university students every year.
+Alibaba Cloud's university program issues a 300 RMB student voucher to verified students at Chinese universities.
 
-Sounds generous, right? But once you click into the console, you'll find this voucher isn't 300 RMB cash, nor can it be used for anything on the site. The official page states clearly: university students who pass student verification can claim a 300 RMB no-threshold coupon, valid for 1 year; it applies to some Alibaba Cloud public cloud products, with the actual deduction determined at the time of purchase.
-
-What's more, the scope of this voucher is constantly shrinking. What worked last year might not work this year. So, I'd advise you not to just leave it sitting after you claim it; figure out how to spend it as soon as possible.
+The official rules are clear: while your student verification remains valid, you can claim one 300 RMB voucher every 12 months, and linked accounts under the same identity cannot claim duplicates. Each voucher lasts 1 year from the date of issue, and unused balance expires without rolling over. It applies to eligible public cloud products on Alibaba Cloud China and generally cannot be stacked with promotional discounts or other coupons. Final eligibility is always determined by what appears on the checkout page.
 
 The entry point is here: [Student Benefits Claim Link](https://university.aliyun.com/course/promotion25-activity?clubTaskBiz=subTask..12655012..10273..&userCode=gv5jbukv)
 
@@ -41,10 +32,10 @@ The entry point is here: [Student Benefits Claim Link](https://university.aliyun
 
 The process is short:
 
-1. Have an Alibaba Cloud account (registered with Alipay or phone number works)
-2. Open the student benefits page
-3. Complete student verification (usually via CHSI or university email)
-4. Find the 'I am a student' entry and claim the 300 RMB deduction voucher
+1. Prepare a real-name verified Alibaba Cloud China account
+2. Open the Alibaba Cloud university student portal
+3. Complete student verification via CHSI or your university email
+4. Claim the 300 RMB student voucher in the benefits section
 
 Once verified, the voucher will appear in your coupon list. It's valid for one year, starting from the day you claim it.
 
@@ -100,7 +91,7 @@ Here are a few routes I've seen:
 
 **A. Get a 2C2G Lightweight server for 0 RMB for six months**
 
-Some in the forums confirmed you can get a 2C2G Lightweight server with 200M bandwidth for 0 RMB for six months. The advantage is unlimited traffic (fixed bandwidth), so no worries about exceeding CDT. The downside is it only lasts for six months.
+Some in the forums confirmed you can get a 2C2G Lightweight server with 200M bandwidth for 0 RMB for six months. The advantage is unlimited traffic with fixed bandwidth, so no worries about exceeding CDT. The downside is it only lasts for six months.
 
 **B. Cloud Xiaozhan 38 RMB flash sale + voucher for renewal**
 
@@ -238,10 +229,17 @@ Especially the last point. Official rules state that after a refund for an order
 
 If you ended up getting a 2C2G server like the site owner, you can continue with these posts:
 
-- [[2c2g-server-service-index]]
+- [[sayori-server-01-vps-start|SSH and basic setup for your first server]]
+- [[docker-compose-minimum-start|Docker and Compose basics]]
+- [[2c2g-server-service-index|The small-server service guide]]
+- [[selfhost-ntfy-on-2c2g|Send notifications to your phone with ntfy]]
 - [[selfhost-vaultwarden-on-2c2g|Setting up Vaultwarden on a 2C2G Student Server]]
 - [[fast-note-sync-on-student-server|Fiddling with Fast Note Sync on a Student Server]]
 
 The best way to use this voucher isn't to 'grab and go,' but to exchange it for a low-cost opportunity to practice.
 
 Servers, domains, Cloudflare, Docker, backups, monitoring – these things seem fragmented at first. But once you actually get a small service running, connect it to a domain, and then back it up, you'll find they all tie together.
+
+## Read next
+
+The [[azure-students-100-credit-guide|Azure student credit]] is another option for a VM in Japan. Find other developer and AI offers in the [[edumails-glados-student-benefits|student benefits hub]], then use [[cloudflare-free-tier-developer-guide|Cloudflare]] for domains and HTTPS

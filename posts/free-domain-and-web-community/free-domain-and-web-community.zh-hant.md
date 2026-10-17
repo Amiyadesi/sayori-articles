@@ -2,32 +2,24 @@
 title: 給剛搭好的博客配一個免費域名，再去站長社區露個臉
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 8
-description: 從 DNSHE 免費二級域名、Cloudflare DNS 到評論系統、開往、萌備、十年之約，給剛搭好的博客補上域名、互動和一點被看見的機會。
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 9
+description: 從 DNSHE 免費二級域名、Cloudflare DNS 到評論系統、開往、萌備、十年之約，給剛搭好的博客補上域名、互動和一點被看見的機會
 image: ""
 tags:
-  - 敘事
-  - 域名
-  - Cloudflare
+  - 實操教程
+  - 建站與Cloudflare
   - 獨立博客
-category: 建站與自託管
+  - 官方學生權益
+category: 教程教學
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "給博客補上 DNSHE 免費二級域名和 Cloudflare DNS"
-    - "接入評論系統，讓讀者能留下反饋"
-    - "從開往、萌備和十年之約認識個人站社區"
 alias: ""
-
 lang: zh-Hant
 translationKey: posts/free-domain-and-web-community/free-domain-and-web-community
 ---
 
-上一篇寫了怎麼從 GitHub、Cloudflare Pages、Mizuki 和 Obsidian 搭一個自己的博客
+上一篇 [[astro-mizuki-blog-from-zero|用 Sayori Lite 搭一個簡潔博客]] 寫了 GitHub、Cloudflare Pages 和可選的 Obsidian 寫作流程
 
 搭完以後，默認地址大概長這樣：
 
@@ -37,7 +29,7 @@ https://你的项目名.pages.dev
 
 能用，但總感覺還差一點
 
-博客有了，下一步很自然就是給它配一個像樣的域名，然後去一些站長社區露個臉。不是爲了立刻有多少流量，而是讓這個網站從「我電腦裏一個項目」變成「互聯網上一個有名字的小地方」
+博客有了，下一步很自然就是給它配一個像樣的域名，然後去一些站長社區露個臉。不是為了立刻有多少流量，而是讓這個網站從「我電腦裡一個項目」變成「互聯網上一個有名字的小地方」
 
 ## 免費域名先夠用
 
@@ -71,7 +63,7 @@ https://你的项目名.pages.dev
 
 DNSHE 有助力機制，可以互相助力獲得更長期的二級域名
 
-我先把幾個助力碼放這裏，後面如果有新的再補：
+我先把幾個助力碼放這裡，後面如果有新的再補：
 
 ```text
 VJC8UQYTPK
@@ -83,21 +75,32 @@ G4HPCNW7R4
 
 如果你只是臨時試博客，不一定要追求永久，先拿一個能解析的域名，把流程跑通更重要
 
+## GitHub 學生包裡的官方免費域名
+
+如果你有高校教育郵箱並通過了 [GitHub Student Developer Pack](https://education.github.com/pack) 認證，還可以順手領官方提供的兩項首年免費頂級域名權益：
+
+- **Namecheap**：提供一個 `.me` 頂級域名首年免費註冊和一年 SSL 證書
+- **Name.com**：提供指定後綴中的免費首年域名，具體可選後綴與續費價格以結算頁為準
+
+需要注意的是，學生包裡的頂級域名只有首年免費，第二年續費恢復原價；不想綁卡或不想操心續費的話，繼續用上面的 DNSHE 就很舒服
+
 ## 接到 Cloudflare
+
+DNS、Pages 和 Tunnel 的用途放在 [[cloudflare-free-tier-developer-guide|Cloudflare 免費層教程]]，這裡先把域名連起來
 
 拿到域名後，下一步是接 Cloudflare
 
 最常見的流程是：
 
-1. 在 Cloudflare 裏添加站點
+1. 在 Cloudflare 裡添加站點
 2. 按提示把域名的 NS 改到 Cloudflare
 3. 等 DNS 生效
-4. 到 Cloudflare Pages 項目裏添加自定義域名
+4. 到 Cloudflare Pages 項目裡添加自定義域名
 5. 按 Pages 給出的提示補 CNAME 或者讓 Cloudflare 自動配置
 
 如果你用的是免費二級域名，要先確認它支不支持改 NS。不能改 NS 的話，就只能在原平臺添加解析記錄，或者換一個更適合接 Cloudflare 的後綴
 
-這裏不要急，DNS 生效有時會等一會兒。先確保根域名和 `www` / 子域名到底要指向哪裏，別一邊改一邊忘了自己剛剛填過什麼
+這裡不要急，DNS 生效有時會等一會兒。先確保根域名和 `www` / 子域名到底要指向哪裡，別一邊改一邊忘了自己剛剛填過什麼
 
 ## 給自託管服務留子域名
 
@@ -110,13 +113,13 @@ ntfy.example.cc.cd   -> ntfy
 status.example.cc.cd -> Gatus
 ```
 
-不要所有服務都塞在根域名下面。
+不要所有服務都塞在根域名下面
 
-域名像門牌號。門牌號清楚，後面搬家、遷移、反代、關服務都舒服一點。
+域名像門牌號。門牌號清楚，後面搬家、遷移、反代、關服務都舒服一點
 
 服務器服務可以看這篇總表：
 
-[[2c2g-server-service-index|2C2G 学生服务器能跑什么：先别把小机器塞爆]]
+[[2c2g-server-service-index|2C2G 學生服務器能跑什麼：先別把小機器塞爆]]
 
 ## 免費域名和正式域名怎麼選
 
@@ -134,7 +137,7 @@ status.example.cc.cd -> Gatus
 
 - 長期維護的博客
 - 要做正式郵箱
-- 要把地址印在頭像、名片、視頻簡介裏
+- 要把地址印在頭像、名片、視頻簡介裡
 
 不是說免費域名低人一等。只是長期項目最怕「以後遷移很煩」
 
@@ -144,7 +147,7 @@ status.example.cc.cd -> Gatus
 
 域名配好後，可以去一些站長社區看看
 
-不是去硬打廣告，而是讓自己進入一個還有人在寫博客的環境裏。獨立博客最怕寫着寫着變成單機日記，偶爾看看別人怎麼寫、怎麼裝修、怎麼互鏈，會有動力很多
+不是去硬打廣告，而是讓自己進入一個還有人在寫博客的環境裡。獨立博客最怕寫著寫著變成單機日記，偶爾看看別人怎麼寫、怎麼裝修、怎麼互鏈，會有動力很多
 
 ## 開往 Travellings
 
@@ -174,7 +177,7 @@ status.example.cc.cd -> Gatus
 
 這個不是工信部備案，別誤會。它更像二次元/個人站之間的一種趣味標識和社區入口
 
-官網申請頁對內容有要求，比如非商業、非灰色、內容不是空殼、啓用 HTTPS、能長期訪問
+官網申請頁對內容有要求，比如非商業、非灰色、內容不是空殼、啟用 HTTPS、能長期訪問
 
 如果你的站點風格合適，可以申請一個萌備號放在頁腳。它沒有什麼實用剛需，但很有獨立站味道
 
@@ -188,7 +191,7 @@ status.example.cc.cd -> Gatus
 
 聽起來有點中二，但我挺喜歡這個說法
 
-不過這個需要一年的運行時間才能申請，所以還是先等待着吧，當然如果你的站點有一年的時間，那也確實可以去嘗試申請看看了哈哈
+不過這個需要一年的運行時間才能申請，所以還是先等待著吧，當然如果你的站點有一年的時間，那也確實可以去嘗試申請看看了哈哈
 
 ## 揪蟬
 
@@ -196,7 +199,7 @@ status.example.cc.cd -> Gatus
 
 [https://hi.jiuchan.org/docs](https://hi.jiuchan.org/docs)
 
-它是一個個人網站收錄和隨機訪問平臺，玩法上有點像把獨立站放進一個「隨機發現」入口裏
+它是一個個人網站收錄和隨機訪問平臺，玩法上有點像把獨立站放進一個「隨機發現」入口裡
 
 如果你的博客已經有幾篇能看的文章，也可以去看看它的收錄文檔。對新站來說，這類平臺的意義不是立刻帶來多少訪問量，而是讓別人有機會從一個站跳到另一個站，慢慢發現你
 
@@ -232,13 +235,13 @@ RSS URL
 
 # 其他免費域名途徑
 
-DNSHE 不是唯一的選擇。這裏再記幾個我看到過的：
+DNSHE 不是唯一的選擇。這裡再記幾個我看到過的：
 
 [ 可託管CF現有開放可註冊免費域名集合](https://www.nodeloc.com/t/topic/70964?u=amiya_desi)
 
 [https://domain.stackryze.com/](https://domain.stackryze.com/)友情提示，可以註冊四個域名，目前可以託管CF的只有，.in,.cc這兩個域名
 
-nodeloc的一個小寶藏貼，裏面匯聚了挺多的
+nodeloc的一個小寶藏貼，裡面匯聚了挺多的
 
 ### GitHub Pages 自帶域名
 
@@ -254,11 +257,11 @@ Cloudflare Pages 也給：
 你的项目名.pages.dev
 ```
 
-這兩個嚴格來說不是「你的域名」，但足夠用來寫博客和展示項目。等想好了再買正式域名也不遲。
+這兩個嚴格來說不是「你的域名」，但足夠用來寫博客和展示項目。等想好了再買正式域名也不遲
 
 ## 給博客加評論系統
 
-上一篇說了要講評論系統，這裏補上
+上一篇說了要講評論系統，這裡補上
 
 博客沒有評論區也能活，但如果你寫的是教程、經驗、踩坑記錄，偶爾能收到一條「這個幫到我了」或者「第三步我遇到了不一樣的問題」，也能夠促進交流和你的學習，以及留下評論區的話就可以更方便的收到反饋了，相比於郵箱聯繫之類的
 
@@ -278,13 +281,13 @@ Twikoo 是中文獨立博客圈用得比較多的評論系統。支持匿名評�
 
 - 中文生態，文檔友好
 - 部署成本可以做到零
-- 管理後臺能審覈、刪除、回覆
+- 管理後臺能審核、刪除、回覆
 - 支持郵件和微信通知
 
 缺點：
 
 - 你要選一個數據庫後端（MongoDB Atlas 免費版、或者 Vercel KV、或者自建）
-- 如果用第三方免費數據庫，數據不完全在自己手裏
+- 如果用第三方免費數據庫，數據不完全在自己手裡
 
 ### Giscus
 
@@ -292,11 +295,11 @@ Twikoo 是中文獨立博客圈用得比較多的評論系統。支持匿名評�
 
 GitHub：[https://github.com/giscus/giscus](https://github.com/giscus/giscus)
 
-Giscus 用 GitHub Discussions 作爲評論後端。訪客用 GitHub 賬號登錄後才能評論
+Giscus 用 GitHub Discussions 作為評論後端。訪客用 GitHub 賬號登錄後才能評論
 
 優點：
 
-- 數據存在你自己的 GitHub 倉庫裏
+- 數據存在你自己的 GitHub 倉庫裡
 - 不需要額外部署
 - 適合技術博客，讀者大概率有 GitHub 賬號
 - Markdown 格式、代碼高亮天然支持
@@ -304,7 +307,7 @@ Giscus 用 GitHub Discussions 作爲評論後端。訪客用 GitHub 賬號登錄
 缺點：
 
 - 必須 GitHub 登錄
-- 非技術讀者可能不願意爲了留言註冊 GitHub
+- 非技術讀者可能不願意為了留言註冊 GitHub
 - 評論和你的倉庫綁死，換倉庫要遷移
 
 ### Artalk
@@ -333,7 +336,7 @@ Artalk 是自建評論系統，需要跑一個後端服務。如果你已經有 
 
 如果你已經有服務器，而且讀者不全是程序員，可以看看 Artalk
 
-如果你暫時不想折騰評論，也完全沒問題。先把文章寫好，等有讀者了再加也來得及。評論系統不是博客的核心，內容纔是
+如果你暫時不想折騰評論，也完全沒問題。先把文章寫好，等有讀者了再加也來得及。評論系統不是博客的核心，內容才是
 
 ## 還有哪些地方可以放鏈接
 
@@ -351,21 +354,21 @@ Artalk 是自建評論系統，需要跑一個後端服務。如果你已經有 
 
 幾個輕量替代：
 
-- **Umami**：[https://umami.is/](https://umami.is/)，可以自建，也可以用官方免費版。界面乾淨，數據自己控制。
-- **Cloudflare Web Analytics**：如果你已經在用 Cloudflare，它自帶的 Web Analytics 免費而且不需要額外代碼，直接在 Dashboard 裏看就行
-- **Plausible**：[https://plausible.io/](https://plausible.io/)，付費爲主但可以自建。
+- **Umami**：[https://umami.is/](https://umami.is/)，可以自建，也可以用官方免費版。界面乾淨，數據自己控制
+- **Cloudflare Web Analytics**：如果你已經在用 Cloudflare，它自帶的 Web Analytics 免費而且不需要額外代碼，直接在 Dashboard 裡看就行
+- **Plausible**：[https://plausible.io/](https://plausible.io/)，付費為主但可以自建
 - **不裝任何分析**：也行。個人博客不是商業網站，不看數據也能活
 
-我現在的建議是先用 Cloudflare Web Analytics（因爲你大概率已經接了 Cloudflare），等哪天覺得不夠用了再考慮 Umami
+我現在的建議是先用 Cloudflare Web Analytics（因為你大概率已經接了 Cloudflare），等哪天覺得不夠用了再考慮 Umami
 
-不要每天盯着數字看。寫東西比看數據有用
+不要每天盯著數字看。寫東西比看數據有用
 
 ## 最後
 
-剛搭好的博客先別急着追求完美
+剛搭好的博客先別急著追求完美
 
 免費域名能用就先用，Cloudflare 能解析就先跑，社區能加入就慢慢申請，評論系統以後再加也不遲
 
 真正重要的是繼續寫
 
-域名、備案號、友鏈、開往按鈕、評論框，這些都是讓博客更像一個「站」的小裝飾。文章纔是它站得住的原因
+域名、備案號、友鏈、開往按鈕、評論框，這些都是讓博客更像一個「站」的小裝飾。文章才是它站得住的原因

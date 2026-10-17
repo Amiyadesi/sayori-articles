@@ -2,19 +2,17 @@
 title: "Running ntfy on a 2C2G Student Server: Giving Myself a Notification Button"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 4
 description: Deploy ntfy push service with Docker on a student server, so backup scripts, monitoring, and scheduled tasks can all send notifications to your phone.
 image: ""
 tags:
   - Tutorial
-  - ntfy
+  - VPS & Self-Hosting
   - Docker
   - Push Notifications
-  - Server Exploration
-  - Self-Hosting
-category: Website & Self-Hosting
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en
@@ -243,3 +241,7 @@ It doesn't require a database. Messages are cached in local files and automatica
 Absolutely. It might be one of the most cost-effective services for a 2C2G server.
 
 Once installed, you'll find that almost every script's final step becomes "send me a notification with the result." This is much more comfortable than SSHing in to check logs every day.
+
+## Read next
+
+For domains and HTTPS, follow the [[free-domain-and-web-community|domain guide]] and [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]. Your [[selfhost-vaultwarden-on-2c2g|Vaultwarden]] backup script can send its result to your phone too. Find other uses in the [[2c2g-server-service-index|service guide]]

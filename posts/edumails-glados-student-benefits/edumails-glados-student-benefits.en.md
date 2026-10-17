@@ -1,54 +1,53 @@
 ---
-title: "Student Benefits Navigation: Don't Let Your Edu-Email Sit Idle"
+title: "Official Student Benefits Guide: GitHub Student Pack, JetBrains, Azure, and Aliyun"
 published: 2026-06-27
 created: 2026-06-27
-updated: 2026-10-13
-lastEdited: 2026-10-13
-updateCount: 9
-description: Azure yearly renewal, Aliyun vouchers, Heroku monthly credit, MongoDB, Codespaces, and Camber — with eligibility and billing limits.
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 10
+description: "Official student benefits for university emails: GitHub Student Developer Pack, JetBrains, Zed, Azure $100 annual credit, Aliyun 300 RMB voucher, Heroku, MongoDB, Codespaces, and Camber."
 image: ""
 tags:
-  - Resource Curation
+  - Tutorial
+  - Official Student Benefits
   - Edu Email
-  - Student Resources
   - GitHub
-category: Tools & Resources
-section: deals
+  - Cloud Services
+category: Tutorials & Guides
 draft: false
 lang: en
 translationKey: posts/edumails-glados-student-benefits/edumails-glados-student-benefits
-aiSummary:
-  generatedAt: "2026-10-13"
-  model: "codex-local"
-  items:
-    - "Compare Azure annual renewal, Aliyun vouchers, and Heroku monthly credit."
-    - "MongoDB, Codespaces, and Camber have different expiry and usage limits."
-    - "Check eligibility, payment methods, and overages before redeeming."
 alias: ""
-
 ---
 
 Don't just use your edu-email for school notifications.
 
-My own order is simple: first apply for long-term useful stuff like GitHub and JetBrains, then look into AI, networking, and servers.
+My own order is simple: first apply for long-term official developer tools like GitHub and JetBrains, then look into cloud credits, databases, and development environments.
 
-You can also browse [this community overview](https://nav.edumails.cn). This article combines my earlier redemption notes with newly checked official offers.
+You can also browse [this community overview](https://nav.edumails.cn). This article combines my earlier application records with benefits added from official pages.
 
 First published June 27, 2026; expanded October 13, 2026. Offers may change after that date. Check official terms and your account before applying.
 
-The Zed, YX Flow, and GLaDOS notes below preserve earlier observations. They do not guarantee the same offer is available today.
+The Zed and GLaDOS notes below preserve earlier records; current plans may differ.
+
+This page serves as the main hub for student resources on this blog, bringing together all benefits you can apply for with a university email. For hands-on setup guides on specific categories, see the dedicated posts below:
+
+- **AI Quotas & Config Management**: [[anyrouter-sharedchat-cc-switch-student-guide|How College Students Use Official AI Quotas, AnyRouter, SharedChat, and cc-switch to Manage AI Quotas]]
+- **Azure in Japan**: [[azure-students-100-credit-guide|Claim $100 and create a Japan VPS with the portal or PowerShell]]
+- **Aliyun 300 RMB Student Voucher**: [[aliyun-student-300-voucher-guide|What You Can Buy with Alibaba Cloud's 300 RMB Student Voucher]]
+- **Cloudflare Free Tier**: [[cloudflare-free-tier-developer-guide|What Cloudflare's Free Tier Can Do for Developers]]
+- **Free Domains & Student Pack Domains**: [[free-domain-and-web-community|Get a Free Domain for Your New Blog, Then Show Up in Webmaster Communities]]
 
 ## Grab Developer Tools First
 
 [GitHub Student Developer Pack](https://education.github.com/pack) comes first.
 
-Once verified, you get GitHub Pro and a bunch of partner benefits. Just log into your Pack page to see them.
+Once verified, you get GitHub Pro and a wide range of partner benefits that can only be redeemed through the GitHub Student Pack. Just log into your Pack page to see them.
 
 [JetBrains Student License](https://www.jetbrains.com/community/education/#students) If you want to try out JetBrains' products, you can also use your edu-email to register.
 
-[Zed Education](https://zed.dev/education) I also applied for this and got a one-year Student plan, with $10 in Agent tokens, plus unlimited edit prediction.
+[Zed Education](https://zed.dev/education) I also applied for this and got a one-year Student plan, with $10 per month in Agent tokens, plus unlimited edit prediction.
 
-![[zed-student-success.png|width=420|align=center|caption=The Student prompt I saw after my application was approved]]
 
 It's not the full Pro version; Claude Opus is not included.
 
@@ -56,16 +55,16 @@ For Zed, there are two conditions: your GitHub account must be older than 30 day
 
 ## Credits, Vouchers, and Monthly Quotas Are Different
 
-I checked the official pages for these additions on October 13, 2026. This is a source-based update, not a claim that I have personally redeemed every offer.
+I checked the official pages for these additions on October 13, 2026. While Azure and Aliyun can be applied for directly via school email or CHSI verification, **Heroku, MongoDB, Codespaces, and Camber must all be claimed through the GitHub Student Developer Pack**.
 
-| Offer | Benefit | Validity or renewal | Check first |
-| --- | --- | --- | --- |
-| Azure for Students | $100 in Azure service credit | 12 months; eligible students can renew yearly | Age 18+, eligible full-time higher education; no credit card |
-| [Aliyun student offer](https://university.aliyun.com/) | RMB 300 student voucher | One per 12 months while verified; each lasts 1 year | Selected products only; check checkout |
-| Heroku | $13 in monthly platform credit | 24 months; unused monthly credit expires | Valid credit or debit card required; overages charged |
-| MongoDB Atlas | $50 Atlas credit plus certification benefits | Redeem code within 90 days; check applied-credit expiry | Credit card or PayPal required; not $200 cash |
-| GitHub Codespaces | Pro allowance: 180 core-hours and 20 GB-month storage monthly | Resets monthly; check student benefit status | About 90 hours on 2 cores; storage counted separately |
-| Camber Student | Monthly 40 CPU hours, 5 GPU hours, 50 GB storage, 50 agent messages | Pack lists access while enrolled; check account cycles | No promise of a particular GPU or machine size |
+| Offer | Redemption Path | Benefit | Validity or renewal | Check first |
+| --- | --- | --- | --- | --- |
+| Azure for Students | Direct via school email | $100 in Azure service credit | 12 months; eligible students can renew yearly | Age 18+, eligible full-time higher education; no credit card |
+| [Aliyun student offer](https://university.aliyun.com/course/promotion25-activity?clubTaskBiz=subTask..12655012..10273..&userCode=gv5jbukv) | CHSI / school email | RMB 300 student voucher | One per 12 months while verified; each lasts 1 year | Selected products only; check checkout |
+| Heroku | GitHub Student Pack only | $13 in monthly platform credit | 24 months; unused monthly credit expires | Valid credit or debit card required; overages charged |
+| MongoDB Atlas | GitHub Student Pack only | $50 Atlas credit plus certification benefits | Redeem code within 90 days; check applied-credit expiry | Credit card or PayPal required; not $200 cash |
+| GitHub Codespaces | GitHub Student Pack only | Pro allowance: 180 core-hours and 20 GB-month storage monthly | Resets monthly; check student benefit status | About 90 hours on 2 cores; storage counted separately |
+| Camber Student | GitHub Student Pack only | Monthly 40 CPU hours, 5 GPU hours, 50 GB storage, 50 agent messages | Pack lists access while enrolled; check account cycles | No promise of a particular GPU or machine size |
 
 These are service benefits, not withdrawable money. Annual renewal does not mean an automatic lifetime credit.
 
@@ -83,7 +82,13 @@ A small API, coursework, or deployment exercise is a sensible starting point. Re
 
 The student subscription is disabled when its credit runs out. Upgrading to pay-as-you-go changes the billing rules.
 
-### Heroku: $13 Monthly, Not $312 to Spend at Once
+The [[azure-students-100-credit-guide|Azure student server guide]] covers claiming the benefit, free sizes, and creating a VM in Japan with either the portal or PowerShell.
+
+## GitHub Student Developer Pack Exclusive Benefits
+
+The cloud services, development environments, domains, and courses below are bundled inside the [GitHub Student Developer Pack](https://education.github.com/pack) and can only be redeemed after passing GitHub student verification:
+
+### 1. Heroku: $13 Monthly, Not $312 to Spend at Once
 
 [Heroku's student page and FAQ](https://www.heroku.com/github-students) require GitHub Student Developer Pack approval and age 18+.
 
@@ -93,7 +98,7 @@ It covers Heroku's own dynos, Postgres, and Key-Value Store, but not paid third-
 
 A valid credit or debit card is required. Usage beyond the monthly credit is charged to it, so do not leave an app running without checking billing.
 
-### MongoDB: $50 Database Credit, Certification Separate
+### 2. MongoDB: $50 Database Credit, Certification Separate
 
 [MongoDB's student page](https://www.mongodb.com/students) uses GitHub student verification. The $50 is Atlas database credit, not a general-purpose server allowance.
 
@@ -105,45 +110,35 @@ Atlas credit redemption requires a valid credit card or PayPal account. Apply th
 
 Check Billing for the applied credit's expiry and scope. For small exercises, see whether an Atlas free cluster is enough before upgrading.
 
-### Codespaces and Camber: Usage-Based Environments
+### 3. Codespaces and Camber: Usage-Based Environments
 
 [Codespaces billing documentation](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) lists 180 core-hours and 20 GB-month of monthly storage for Pro. The student Pack provides Pro-level access.
 
-180 core-hours is not 180 hours on every machine. A 2-core environment consumes 2 core-hours per hour, allowing about 90 hours; 4 cores allow about 45.
+180 core-hours is not 180 hours on every machine. A 2-core environment consumes 2 core-hours per hour, allowing about 90 hours; 4 cores allow about 45; 8 cores allow about 22.5.
 
-Stopping an environment stops compute usage, but retained environments still use storage. Without a payment method, quota exhaustion blocks usage; with one, check budgets and overage settings.
+Stopping an environment stops compute usage, but retained environments still use storage. Push your code and delete unused Codespaces to avoid storage charges. Without a payment method, quota exhaustion blocks usage; with one, check budgets and overage settings.
 
 [Camber's student benefit](https://education.github.com/pack#cambercloud) focuses on data analysis and AI experiments. Pack lists monthly 40 CPU hours, 5 GPU hours, 50 GB storage, and 50 agent messages.
 
 It is not a permanently free GPU of a guaranteed model. Check [Camber's documentation](https://docs.cambercloud.com/) and your account for supported sizes, quota accounting, and overages.
 
-## More Than Developer Tools
-
-[The current GitHub Student Developer Pack list](https://education.github.com/pack) also includes domains, courses, and tools. These offers were checked on October 13, 2026, not personally redeemed by me.
+### 4. AI, Domains, and Learning Tools in the GitHub Pack
 
 - GitHub Copilot Student: unlimited code completions plus limited chat, agent usage, and GitHub AI Credits; models use auto selection, not unlimited access to every premium model.
-- JetBrains: a free student subscription, renewable yearly subject to student verification.
 - Namecheap: first-year registration of one .me domain and a one-year SSL certificate; renewal is not permanently free.
 - Name.com: a free domain from selected extensions including .app and .dev; check eligible names, terms, and renewal prices.
 - Educative: 6 months of access to 70+ selected practical courses, not permanent access to the whole catalog.
 - Boot.dev: 3 months of its complete interactive membership for backend and DevOps study.
 - 1Password: 1 year of individual membership; check renewal arrangements before redeeming.
 
-Do not activate every timed membership just because its advertised value looks large. Claim it when you have a project or course ready.
+### 5. Combining These Student Credits for a Real Project
 
-## YX Flow's Actual Free Quota
+Do not activate every timed membership at once just because its advertised value looks large. Pick a small project you can finish, then claim only the benefits you actually need:
 
-[YX Flow Registration Link](https://chatgpt.yxflow.xyz/pastel#/register?i=vOBIZ)
-
-This is a shared AI web client project.
-
-After registering with my `.edu.cn` email, the backend only gave me two new user trials.
-
-As of July 11, 2026, the page shows ChatGPT Max with 40 uses/3 hours, and Grok Plus with 10 uses/hour, both expiring at 23:11 on the same day.
-
-![[yxflow-new-user-trial.png|width=760|align=center|caption=Two free trials actually displayed in the backend after new account registration]]
-
-If you want to use the API to connect your own tools, you can check out [[freeapi-glm-kimi-cc-switch|Free AI API Entry Points and Navigation]].
+- **Frontend / Blog**: Follow the [[astro-mizuki-blog-from-zero|simple blog guide]] to Cloudflare Pages, then connect a [[free-domain-and-web-community|free domain]].
+- **Temporary Dev Environment**: Use GitHub Codespaces on a 2-core machine when switching devices, and stop or delete it after pushing.
+- **Lightweight Backend / Database**: Start with a MongoDB Atlas free cluster or the $50 credit, paired with Azure (no credit card required) or Heroku (staying under $13/month).
+- **24/7 Self-Hosted Services**: Create a server with the [[aliyun-student-300-voucher-guide|Aliyun voucher]] or [[azure-students-100-credit-guide|Azure student credit]], then choose a use from the [[2c2g-server-service-index|small-server service guide]].
 
 ## Networking and Servers
 
@@ -167,13 +162,3 @@ If you want to buy ECS, Light Application Server, Baolian API, or Wuying, add th
 My actual pitfalls and several optional directions are written in [[aliyun-student-300-voucher-guide|What You Can Buy with Aliyun Student's 300 RMB Voucher]].
 
 If your website is just for course projects, documentation, or portfolios, start with [GitHub Pages](https://pages.github.com/) or [Cloudflare Pages](https://pages.cloudflare.com/). Only touch servers when those aren't enough.
-
-## My Pre-Redemption Checklist
-
-- Confirm real enrollment, age, school, and region requirements; a school email alone does not unlock every offer.
-- Check whether the benefit is annually renewable, one-time, or monthly, and record its expiry.
-- Check payment requirements and whether a budget actually stops spending rather than only sending alerts.
-- Check automatic renewal and the renewal price for domains, courses, and memberships.
-- Plan how to export data and back up projects before benefits expire.
-
-The new Azure, Heroku, MongoDB, Codespaces, Camber, and Aliyun details link to official sources. Earlier personal notes describe only what happened at the time.

@@ -2,28 +2,18 @@
 title: 我本来只是想让机器人 24 小时在线，结果买了一台云服务器
 published: 2026-05-25
 created: 2026-05-25
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 5
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: 从阿里云学生代金券到 Ubuntu、SSH 密钥登录、非常规端口和基础防火墙，个人服务器的第一步。
 image: ""
 tags:
-  - 叙事
-  - VPS
+  - 实操教程
+  - VPS与自托管
   - 阿里云
-  - 自托管
-category: 建站与自托管
+  - 官方学生权益
+category: 教程教学
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "为了让机器人 24 小时在线买下第一台云服务器"
-    - "从学生券、Ubuntu 到 SSH 密钥登录的起步过程"
-    - "换端口和配防火墙，先把最基础的安全边界搭好"
-
-lang: zh-Hans
-translationKey: posts/sayori-server-01-vps-start/sayori-server-01-vps-start
 ---
 
 # 开头
@@ -293,3 +283,7 @@ ufw status numbered
 下一篇讲怎么用 `scp` 把本地配置搬到远程主机里
 
 也就是终于要开始把机器人从「我电脑上能跑」搬到「服务器上也能跑」了
+
+## 继续读
+
+还没选机器，可以先看 [[aliyun-student-300-voucher-guide|阿里云学生券]] 或 [[azure-students-100-credit-guide|Azure 日本服务器]]；连上以后按 [[docker-compose-minimum-start|Docker 入门]] → [[2c2g-server-service-index|服务清单]] 往下走，挑一个自己会用的服务装起来

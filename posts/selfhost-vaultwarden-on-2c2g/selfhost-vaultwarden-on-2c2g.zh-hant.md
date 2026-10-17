@@ -2,27 +2,19 @@
 title: 在 2C2G 學生服務器上搭 Vaultwarden：密碼庫先別裸奔
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 5
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: 用 Docker Compose 在學生服務器上部署 Vaultwarden，並把 HTTPS、關閉註冊、備份、恢復演練這些真正重要的部分講清楚。
 image: ""
 tags:
-  - 教程
-  - Vaultwarden
+  - 實操教程
+  - VPS與自託管
   - Docker
-  - 密碼管理
-category: 建站與自託管
+  - Vaultwarden
+category: 教程教學
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "用 Docker Compose 在學生服務器部署 Vaultwarden"
-    - "HTTPS 和關閉公開註冊比裝起來更重要"
-    - "把備份和恢復演練當成上線步驟的一部分"
 alias: ""
-
 lang: zh-Hant
 translationKey: posts/selfhost-vaultwarden-on-2c2g/selfhost-vaultwarden-on-2c2g
 ---
@@ -35,7 +27,7 @@ Vaultwarden 大概是最適合放在 2C2G 小服務器上的服務之一
 
 博客壞了還能重建，密碼庫要是出事，丟的是賬號、2FA、面板密碼，甚至你後面所有服務器的入口
 
-所以這篇不打算講什麼花裏胡哨的玩法，就講一套夠用的思路：
+所以這篇不打算講什麼花裡胡哨的玩法，就講一套夠用的思路：
 
 1. 用 Docker Compose 跑起來
 2. 只通過 HTTPS 暴露出去
@@ -55,7 +47,7 @@ Compose 文檔：
 我覺得適合這些人：
 
 - 已經有一臺自己的小服務器
-- 想把密碼數據握在自己手裏
+- 想把密碼數據握在自己手裡
 - 願意處理 HTTPS、備份、更新這些髒活
 
 如果你只想省心，那 Bitwarden 官方託管、1Password、Apple 密碼管理器這些都很好
@@ -69,13 +61,13 @@ Vaultwarden 的優勢不是零維護，而是更輕，更自由，也更適合�
 - Docker 和 Docker Compose
 - 基本的 SSH、反代、防火牆常識
 
-如果你還沒裝 Docker，可以先看 [[docker-compose-minimum-start|Docker 和 Docker Compose 最小入门：看懂那些 yml 文件]]
+如果你還沒裝 Docker，可以先看 [[docker-compose-minimum-start|Docker 和 Docker Compose 最小入門：看懂那些 yml 文件]]
 
-如果你還沒配域名，可以先看 [[free-domain-and-web-community|给刚搭好的博客配一个免费域名，再去站长社区露个脸]]
+如果你還沒配域名，可以先看 [[free-domain-and-web-community|給剛搭好的博客配一個免費域名，再去站長社區露個臉]]
 
 ## 創建目錄
 
-我這裏還是放在 `/srv/stacks`
+我這裡還是放在 `/srv/stacks`
 
 ```bash
 sudo mkdir -p /srv/stacks/vaultwarden
@@ -92,7 +84,7 @@ mkdir -p vw-data
   vw-data/
 ```
 
-後面數據庫、附件這些東西都在 `vw-data` 裏
+後面數據庫、附件這些東西都在 `vw-data` 裡
 
 ## 先寫 compose
 
@@ -116,7 +108,7 @@ services:
 
 把 `vault.example.com` 換成你自己的域名
 
-這裏最重要的是這一行：
+這裡最重要的是這一行：
 
 ```text
 127.0.0.1:8080:80
@@ -138,10 +130,10 @@ services:
 
 - `DOMAIN`：最後實際訪問的 HTTPS 地址
 - `SIGNUPS_ALLOWED`：第一次註冊時臨時開，註冊完就關
-- `INVITATIONS_ALLOWED`：個人自用直接關
-- `ENABLE_WEBSOCKET`：開着就行，客戶端同步體驗會正常一點
+- `INVITATIONS_ALLOWED`：個人自用直接關，想邀請別人可以
+- `ENABLE_WEBSOCKET`：開著就行，客戶端同步體驗會正常一點
 
-## 啓動
+## 啟動
 
 ```bash
 docker compose up -d
@@ -154,9 +146,9 @@ docker compose logs -f vaultwarden
 curl -I http://127.0.0.1:8080/
 ```
 
-能返回狀態碼，說明容器活着
+能返回狀態碼，說明容器活著
 
-但這還不算搭完，因爲真正重要的是 HTTPS
+但這還不算搭完，因為真正重要的是 HTTPS
 
 ## 反代和 HTTPS
 
@@ -230,11 +222,11 @@ vault.example.com
   -> Vaultwarden
 ```
 
-我自己更偏向這條路，因爲源站更安靜一點
+我自己用的是這個
 
-不過這裏有個坑：不要給整個 Vaultwarden 套 Cloudflare Access 登錄頁
+然後一般來說：不要給整個 Vaultwarden 套 Cloudflare Access 登錄頁
 
-瀏覽器插件和手機客戶端不一定喫得消這套東西
+瀏覽器插件和手機客戶端就不方便了
 
 真要加額外保護，優先只保護 `/admin`
 
@@ -248,7 +240,7 @@ vault.example.com
 SIGNUPS_ALLOWED: "false"
 ```
 
-然後重啓：
+然後重啟：
 
 ```bash
 docker compose up -d
@@ -265,13 +257,13 @@ docker compose up -d
 
 還有一個很現實的事：
 
-別把服務器 SSH 密鑰、面板密碼、各種 root 級憑據亂扔進一個沒想清楚備份策略的密碼庫裏
+別把服務器 SSH 密鑰、面板密碼、各種 root 級憑據亂扔進一個沒想清楚備份策略的密碼庫裡
 
 先搭起來，再慢慢遷
 
 ## 備份
 
-Vaultwarden 最重要的數據就在這裏：
+Vaultwarden 最重要的數據就在這裡：
 
 ```text
 /srv/stacks/vaultwarden/vw-data
@@ -302,7 +294,7 @@ scp your-server:/srv/stacks/vaultwarden/backups/vaultwarden-20260625-030000.tar.
 
 只會備份，不會恢復，其實挺危險的
 
-你至少得偶爾檢查一下備份包裏面有沒有東西：
+你至少得偶爾檢查一下備份包裡面有沒有東西：
 
 ```bash
 tar -tzf backups/vaultwarden-20260625-030000.tar.gz | sed -n '1,30p'
@@ -353,7 +345,7 @@ docker compose logs --tail=100 vaultwarden
 
 很適合
 
-Vaultwarden 本身不喫多少資源，2C2G 跑它很輕鬆
+Vaultwarden 本身不吃多少資源，2C2G 跑它很輕鬆
 
 真正的成本不在 CPU 和內存，在維護習慣：
 
@@ -363,8 +355,10 @@ Vaultwarden 本身不喫多少資源，2C2G 跑它很輕鬆
 - 恢復
 - 更新
 
-如果你只是想找個服務截圖發朋友圈，那這東西不適合
-
 如果你想認真開始自己的自託管路線，它反而很適合當第一個嚴肅服務
 
-因爲密碼庫會逼着你把很多基礎習慣都補齊
+密碼庫帶來的便利性是難以想像的，折騰一個自己的密碼庫，也能很好的作為你的部署開頭
+
+## 繼續讀
+
+密碼庫的域名和 HTTPS 可以配合 [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]]，備份腳本的結果交給 [[selfhost-ntfy-on-2c2g|ntfy]] 發到手機，其他輕量服務放在 [[2c2g-server-service-index|小服務器服務清單]]

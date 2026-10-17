@@ -2,25 +2,18 @@
 title: "Setting up Vaultwarden on a 2C2G Student Server: Don't Let Your Password Vault Run Naked"
 published: 2026-06-22
 created: 2026-06-22
-updated: 2026-09-11
-lastEdited: 2026-09-11
-updateCount: 2
+updated: 2026-10-17
+lastEdited: 2026-10-17
+updateCount: 6
 description: "Deploying Vaultwarden with Docker Compose on a student server, and clearly explaining the truly important parts: HTTPS, disabling registration, backup, and recovery drills."
 image: ""
 tags:
   - Tutorial
-  - Vaultwarden
+  - VPS & Self-Hosting
   - Docker
-  - Password Management
-category: Website & Self-Hosting
+  - Vaultwarden
+category: Tutorials & Guides
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Deploying Vaultwarden with Docker Compose on a student server"
-    - "HTTPS and disabling public registration are more important than just getting it installed"
-    - "Treat backup and recovery drills as part of the go-live process"
 alias: ""
 lang: en
 translationKey: posts/selfhost-vaultwarden-on-2c2g/selfhost-vaultwarden-on-2c2g
@@ -367,3 +360,7 @@ If you just want a service to screenshot and post on social media, then this isn
 If you want to seriously start your self-hosting journey, it's actually very suitable as your first serious service.
 
 Because a password vault will force you to complete many fundamental habits.
+
+## Read next
+
+Use [[cloudflare-free-tier-developer-guide|Cloudflare Tunnel]] for the vault's domain and HTTPS, and [[selfhost-ntfy-on-2c2g|ntfy]] to send backup results to your phone. Other lightweight services are in the [[2c2g-server-service-index|small-server service guide]]
