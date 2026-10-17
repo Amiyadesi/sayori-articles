@@ -1,4 +1,5 @@
 ---
+translationKey: posts/blog-style-change/blog-style-change
 title: 博客風格轉變記錄
 published: 2026-10-05
 created: 2026-10-05
@@ -8,13 +9,13 @@ updateCount: 1
 description: 我終於換掉了繁雜的風格，改成了我的博客
 image: ""
 tags:
-  - 個人博客
-  - 風格
-category: 建站與自託管
+  - 2026秋
+  - 獨立博客
+  - 成長回顧
+category: 個人記錄
 draft: false
 alias: ""
 lang: zh-Hant
-translationKey: posts/blog-style-change/blog-style-change
 ---
 # 起因
 在自己的Q群裡面，和其他的佬聊到了自己的博客，被吐槽加載的有些慢，然後站長辯解說是博客不就是用來閱讀的嗎...於是就想到了之前一直在用mizuki確實有些繁雜了，所以就打算風格大改一下，改成現在這種更利於閱讀的簡潔體了

@@ -8,22 +8,12 @@ updateCount: 3
 description: 我让 AI 去搜索 Amiya_desi 这个名字，想看看公开互联网我目前的画像
 image: ""
 tags:
-  - 复盘
-  - AI
-  - 隐私
+  - 2026春
+  - AI与隐私
   - 数字足迹
+  - 自我观察
 category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "让 AI 搜索 Amiya_desi 的公开互联网痕迹"
-    - "观察模型如何把项目、兴趣和身份拼成画像"
-    - "借这次实验反思公开表达和隐私边界"
-
-lang: zh-Hans
-translationKey: posts/ai-self-doxxing-experiment/ai-self-doxxing-experiment
 ---
 # kaito
 在互联网混迹一年了，看看AI眼中的我嘻嘻，先开一个日抛plus试试水，这个回答还真的是有gpt的特色啊

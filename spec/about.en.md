@@ -23,32 +23,20 @@ Group ID: `1067973207`
 
 ![Amiya_desi's Cozy Corner QQ Group QR Code](/assets/about/qq-group-qrcode.jpg)
 
-It will mainly be divided into these categories.
+Articles on this blog are organized into three major categories, each paired with tags for specific tech stacks, reflection themes, or time periods, and grouped into reading series:
 
-1.  `Website Building & Self-Hosting`
+1.  `Tutorials & Guides`
 
-    VPS, Cloudflare, Docker, Vaultwarden, ntfy, AI Search Gateway, LDC Shop. This section records things related to websites, servers, and self-hosting.
+    Covers the "Student's Digital Base" blog and 2C2G self-hosting series, official student benefits and dev environment setup, Godot and Steam publishing guides, plus Search Gateway, GeoScore, and productivity toolboxes.
 
-2.  `Game Development`
+2.  `Subjective Thoughts`
 
-    Godot, indie projects, Jam retrospectives, art practice, gameplay constraints, and project phase summaries. This section will record things related to my game development.
+    Covers self-analysis on rationality and sensibility, reflections on the creator mindset, observations on Chinese internet communities and university life, and weekly internet article readings.
 
-3.  `AI & Workflow`
+3.  `Personal Records`
 
-    AI API, Claude Code, Obsidian, and content workflows. Documenting how these tools truly integrate into daily creation.
+    Chronicles growth milestones from before 18, age 18–19, and Summer/Autumn 2026, alongside Game Jam retrospectives, travel logs, and blog evolution notes.
 
-4.  `Tools & Resources`
-
-    A memorial to my previous GitHub resource sharing site, and a new home for it here. I'll be regularly updating the curated websites from my bookmarks. The public resource index is at: [My Creative Resource Index](/posts/resource-index/)
-
-5.  `Internet & Community`
-
-    Observations and records of forums, indie blogs, and Chinese communities.
-
-6.  `Personal Records`
-
-    Some life, mood, interest, and periodic retrospectives. I'll keep a genuine human tone, but won't just dump raw diary entries as source material.
-
-If you're visiting for the first time, you might want to start with `Website Building & Self-Hosting`. That thread is pretty much where this blog began; I originally just wanted to set up an always-online Sayori Bot, and then things spiraled, leading me to explore the internet more deeply and start building this blog.
+If you're visiting for the first time, start with the [[site-article-index|Site Article & Series Index]], where all articles are arranged by category and recommended reading order.
 
 The main navigation is at [sayori.org](https://sayori.org/)

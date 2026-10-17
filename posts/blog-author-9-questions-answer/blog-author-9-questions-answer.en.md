@@ -7,24 +7,13 @@ lastEdited: 2026-10-17
 updateCount: 7
 description: My answers to Another Dayu's 9 questions for blog authors.
 image: ""
-tags:
-  - Essay
-  - Independent Blog
-  - Writing
-category: Personal Record
+tags: ["Creator Mindset","Independent Blog","Writing","Summer 2026"]
+category: Subjective Thoughts
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Answering Another Dayu's nine questions for blog authors"
-    - "Discussing the origin of this blog, writing habits, and trade-offs"
-    - "Leaving a more detailed self-introduction than a typical bio"
 alias: ""
 sourceLink: https://anotherdayu.com/2024/5962/
 lang: en
 translationKey: posts/blog-author-9-questions-answer/blog-author-9-questions-answer
-
 ---
 
 This post is my answer to Another Dayu's blog author questionnaire.

@@ -7,24 +7,12 @@ lastEdited: 2026-10-17
 updateCount: 5
 description: A brief compilation of NetEase UU Remote, File Converter, LocalSend, Obsidian, OBS, Aseprite, and an Aseprite self-compilation repository.
 image: ""
-tags:
-  - Resource Curation
-  - Software Recommendation
-  - Productivity Tools
-  - Creative Tools
-category: Tools & Resources
+tags: ["Summer 2026","Tool Notes","Productivity Toolbox","Game Development"]
+category: Personal Records
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "A collection of commonly used free software, from remote control to pixel art."
-    - "Includes file conversion, transfer, note-taking, screen recording, and Aseprite."
-    - "Prioritizes tools that can truly integrate into daily workflows."
 alias: ""
 lang: en
 translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
-
 ---
 
 This post only lists the software itself.

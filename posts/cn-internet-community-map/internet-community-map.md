@@ -8,15 +8,13 @@ updateCount: 9
 description: 把之前零散记录的互联网社区，整理成一个 wiki 式的小型论坛列表仓库和独立站，也欢迎大家一起提交 PR。
 image: ""
 tags:
-  - 资源整合
-  - 中文社区
-  - 论坛
+  - 2026夏
+  - 社区记录
   - 开源
-category: 互联网与社区
+  - 论坛
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/cn-internet-community-map/internet-community-map
 ---
 
 # 我做了一个小型论坛列表仓库

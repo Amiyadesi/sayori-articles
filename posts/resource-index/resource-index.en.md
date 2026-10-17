@@ -4,26 +4,14 @@ published: 2026-05-26
 created: 2026-05-26
 updated: 2026-10-14
 lastEdited: 2026-10-14
-updateCount: 3
+updateCount: 5
 description: A public resource index compiled from two browser bookmark bars, focusing on game development, assets, art, music, AI, and learning.
 image: ""
-tags:
-  - Resource Curation
-  - Creative Resources
-  - Game Development
-  - Learning Resources
-category: Tools & Resources
+tags: ["Spring 2026","Tool Notes","Game Development","Productivity Toolbox"]
+category: Personal Records
 draft: false
 lang: en
 translationKey: posts/resource-index/resource-index
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Organized two browser bookmark folders into a public resource index"
-    - "Focuses on game development, assets, art, music, AI, and learning"
-    - "Treat it as a search entry point; specific licenses and quality still need to be verified by yourself"
-
 ---
 
 > **No longer maintained.** This resource index is kept as an archive and will not be updated. For new resources and ongoing updates, visit the [resource navigation site](https://nav.sayori.org/).
@@ -42,7 +30,7 @@ Organization rules:
 
 - [[site-article-index|Site Article Index]] — Main entry point for site articles
 - [[webmaster-resource-toolbox|External Resources for Personal Webmasters]] — External links for domains, hosting, monitoring, comments, blogrolls, and webmaster communities
-- [[freeapi-glm-kimi-cc-switch|Free AI API Entry Points]] — Large model APIs students can call for free or low cost
+- [[anyrouter-sharedchat-cc-switch-student-guide|How College Students Can Manage Official AI Quotas and CLI Configs with cc-switch]] — Official AI quotas and cc-switch configuration
 - [[aliyun-student-300-voucher-guide|What You Can Buy with an Alibaba Cloud Student 300 Yuan Voucher]] — ECS, Lightweight, Wuying, Bailian, ACA Certification
 - [[cloudflare-free-tier-developer-guide|What You Can Do with Cloudflare's Free Tier]] — Pages, Workers, R2, Tunnel, Email Routing
 - [[2c2g-server-service-index|What Can a 2C2G Student Server Run]] — List of self-hosted services

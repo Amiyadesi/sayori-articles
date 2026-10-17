@@ -8,14 +8,13 @@ updateCount: 2
 description: 创作者的自信心循环——深陷其中的我们————找寻救赎之道吧
 image: ""
 tags:
-  - 随笔
-  - 心理学
-  - 创作者
-category: 个人记录
+  - 创作者心态
+  - 自我剖析
+  - 独立游戏
+  - 2026夏
+category: 主观思考
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/creater's confidence circle/creater's confidence circle
 ---
 
 # 什么是自信心循环

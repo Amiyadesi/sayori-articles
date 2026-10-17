@@ -8,9 +8,11 @@ updateCount: 0
 description: 我们总是用自己的完整属性面板，去比较别人露出来的一项数值。一次健身房里的偶遇，让我突然看见了大学里的众生相
 image: ""
 tags:
-  - 个人思考
-  - 大学生活
-category: 个人记录
+  - 大学观察
+  - 自我剖析
+  - 理性与感性
+  - 2026秋
+category: 主观思考
 draft: false
 alias: cn-university-student-portraits
 lang: zh-Hans

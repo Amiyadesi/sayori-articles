@@ -2,15 +2,13 @@
 title: "Collapse Prompt: I Still Want to Make Games"
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-06-24
+lastEdited: 2026-06-24
 updateCount: 1
 description: A very direct emotional record about a project being ruined by AI, self-doubt, and ultimately still wanting to make games.
 image: ""
-tags:
-  - Essay
-  - Indie Game
-category: Everyday Echoes
+tags: ["Essay","Spring 2026","Indie Game","Creator Mindset"]
+category: Subjective Thoughts
 draft: false
 lang: en
 translationKey: essays/collapse-prompt

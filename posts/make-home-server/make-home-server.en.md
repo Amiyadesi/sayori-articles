@@ -7,10 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 3
 description: Starting from scratch, I turned an old Windows 7 computer into a Linux server. After reading this, you can get started too.
 image: ""
-tags:
-  - Narrative
-  - Server Exploration
-category: Website & Self-Hosting
+tags: ["Tutorial","VPS & Self-Hosting","Docker","Home Server"]
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en

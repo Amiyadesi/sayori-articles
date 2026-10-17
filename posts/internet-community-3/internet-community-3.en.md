@@ -7,12 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 3
 description: All kinds of webmaster communities and organizations! It doesn't hurt to join, so take a look if you're interested!
 image: ""
-tags:
-  - Narrative
-  - Chinese Communities
-  - Creator
-  - Independent Blog
-category: Internet & Communities
+tags: ["Summer 2026","Community Notes","Independent Blog"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

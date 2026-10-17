@@ -2937,10 +2937,10 @@
 				},
 				{
 					"category": "community",
-					"name": "Blog: Free AI API entries",
-					"url": "https://blog.sayori.org/posts/freeapi-glm-kimi-cc-switch/",
-					"desc": "A guide to free AI API entries, quotas, and directories.",
-					"usage": "Read the notes, then verify each destination.",
+					"name": "Blog: Official AI Quotas & cc-switch",
+					"url": "https://blog.sayori.org/posts/anyrouter-sharedchat-cc-switch-student-guide/",
+					"desc": "A guide to official student AI quotas and managing CLI configs with cc-switch.",
+					"usage": "Read the guide and apply for the official student benefits.",
 					"license": "The article can age; the original service terms apply.",
 					"added": "2026-08-03"
 				},

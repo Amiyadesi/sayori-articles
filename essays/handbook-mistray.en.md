@@ -2,14 +2,13 @@
 title: Fan-made Animation Confusion
 published: 2026-07-07
 created: 2026-07-07
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-07-07
+lastEdited: 2026-07-07
+updateCount: 0
 description: ""
 image: ""
-tags:
-    - Musings
-category: Everyday Echoes
+tags: ["Essay","Summer 2026","Creator Mindset"]
+category: Subjective Thoughts
 draft: false
 alias: ""
 lang: en

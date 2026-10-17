@@ -8,21 +8,11 @@ updateCount: 4
 description: 从18岁到19岁之间的成长记录，包括游戏开发、学习、生活、人格成长和自我观察
 image: ""
 tags:
-  - 复盘
+  - 18-19岁
   - 成长回顾
   - 独立游戏
 category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "18 到 19 岁间的游戏开发、学习和生活变化"
-    - "记录对人格成长和自我观察的持续整理"
-    - "不是成就清单，也保留了迷茫和调整"
-
-lang: zh-Hans
-translationKey: posts/age-18-to-19-record/age-18-to-19-record
 ---
 > 我期待数据能拟合出我，帮我解决那些我一个人想不明白的东西，所以我要把这些都记录下来
 

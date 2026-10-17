@@ -1,4 +1,4 @@
-﻿---
+---
 title: 參加動漫社活動有感
 published: 2026-05-26
 created: 2026-05-26
@@ -9,9 +9,9 @@ description: 一段活動後的即時記錄，關於熱情、社恐、拍照、�
 image: ""
 tags:
   - 隨筆
-  - 動漫社
-  - 校園
-category: 日常回聲
+  - 2026春
+  - 校園生活
+category: 個人記錄
 draft: false
 lang: zh-Hant
 translationKey: essays/anime-club-event-reflection

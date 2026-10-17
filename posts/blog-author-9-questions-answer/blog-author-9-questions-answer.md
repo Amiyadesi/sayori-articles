@@ -8,23 +8,14 @@ updateCount: 7
 description: 给 Another Dayu 博客作者 9 问留的一份答卷
 image: ""
 tags:
-  - 随笔
+  - 创作者心态
   - 独立博客
   - 写作
-category: 个人记录
+  - 2026夏
+category: 主观思考
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "回答 Another Dayu 的博客作者九问"
-    - "聊这个博客的来历、写作习惯和取舍"
-    - "留下一份比简介更具体的自我介绍"
 alias: ""
 sourceLink: https://anotherdayu.com/2024/5962/
-
-lang: zh-Hans
-translationKey: posts/blog-author-9-questions-answer/blog-author-9-questions-answer
 ---
 
 这篇是给 Another Dayu 那份博客作者问卷的答案

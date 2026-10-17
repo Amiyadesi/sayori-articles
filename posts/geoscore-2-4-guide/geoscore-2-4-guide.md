@@ -8,16 +8,13 @@ updateCount: 5
 description: 用站点画像、真实抓取证据与修复报告，搞清楚一个网站真正缺的东西
 image: ""
 tags:
-  - 教程
-  - SEO
+  - 实操教程
+  - 建站与Cloudflare
   - GEO
-  - 开源工具
-  - 网站优化
-category: 建站与自托管
+  - 开源
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/geoscore-2-4-guide/geoscore-2-4-guide
 ---
 
 # GeoScore 2.4.5：一个站长用来查自己网站到底缺什么的工具

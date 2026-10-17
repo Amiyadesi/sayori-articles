@@ -8,14 +8,12 @@ updateCount: 1
 description: 第一次去香港的开户、电话卡、港版 iPhone、景点和吃饭记录。
 image: ""
 tags:
-  - 叙事
-  - 旅游
+  - 2026夏
+  - 旅行生活
   - 成长回顾
-category: 旅行与生活
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/first-hong-kong/first-hong-kong
 ---
 
 ![[IMG_20260817_211929.jpg|center|caption=夜色中的蓝色“Hong Kong / 香港”道路指示牌]]

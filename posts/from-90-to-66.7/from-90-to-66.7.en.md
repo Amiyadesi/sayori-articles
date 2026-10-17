@@ -7,10 +7,8 @@ lastEdited: 2026-10-04
 updateCount: 0
 description: How someone who once believed he was more than 90% rational gradually learned, through growing up, game development, AI companionship, and self-observation, to accept emotion, subjectivity, and things that cannot be quantified
 image: ""
-tags:
-  - Growth Reflection
-  - Growth Record
-category: Personal Record
+tags: ["Rationality & Sensibility","Self-Analysis","Growth Reflection","Autumn 2026"]
+category: Subjective Thoughts
 draft: false
 alias: ""
 lang: en

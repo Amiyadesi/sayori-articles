@@ -8,22 +8,12 @@ created: 2026-06-11
 description: 既然看到了，不进来看看吗？
 image: ""
 tags:
-  - 随笔
+  - 2026夏
   - 独立博客
   - 游戏设计
 category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "一则藏在博客里的轻量元笔记"
-    - "写给偶然点进来的人"
-    - "不用急着解释，先随便看看"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/meta-note/meta-note
 ---
 
 Hello！正在看着这段文字的你，你好啊！

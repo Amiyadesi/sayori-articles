@@ -9,14 +9,12 @@ description: 在这里记录一下，从开发到现在收获的真实反馈，�
 image: ""
 tags:
   - 随笔
-  - 感谢
-  - 游戏开发
-  - 反馈记录
-category: 日常回声
+  - 2026夏
+  - 独立游戏
+  - 成长回顾
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: essays/thanks-encourage
 ---
 # 开头
 闲来无事，收集收集我目前收获的一些反馈吧......

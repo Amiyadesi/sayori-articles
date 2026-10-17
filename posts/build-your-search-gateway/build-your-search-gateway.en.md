@@ -7,11 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 2
 description: ""
 image: ""
-tags:
-  - Tutorial
-  - Search
-  - Self-Hosting
-category: Website & Self-Hosting
+tags: ["Tutorial","AI Workflow","VPS & Self-Hosting","Search"]
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en

@@ -7,21 +7,11 @@ lastEdited: 2026-09-11
 updateCount: 2
 description: The first post, opening the door for this little personal blog.
 image: ""
-tags:
-  - Narrative
-  - Independent Blog
-category: Personal Record
+tags: ["Spring 2026","Independent Blog","Growth Reflection"]
+category: Personal Records
 draft: false
 lang: en
 translationKey: posts/hello-sayori/hello-sayori
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "The first opening post for this personal blog."
-    - "Setting a starting point for future projects, notes, and daily life."
-    - "Saying hello to anyone passing by."
-
 ---
 
 Ohayo Sayori！

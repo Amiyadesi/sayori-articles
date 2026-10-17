@@ -8,13 +8,13 @@ updateCount: 2
 description: Steam注册中国开发者全流程和注意事项，看这篇就够了！
 image: ""
 tags:
-  - 创作者
-  - 教程
-category: 游戏开发
+  - 实操教程
+  - 避坑指南
+  - 游戏开发
+  - Steam
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/steam-dev-work-01/steam-dev-work-01
 ---
 # Steam 中国开发者注册避坑指南：从税务表填写到收款方案，我的真实记录
 

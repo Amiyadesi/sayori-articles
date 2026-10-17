@@ -7,23 +7,11 @@ lastEdited: 2026-10-17
 updateCount: 3
 description: I asked AI to search for the name Amiya_desi, curious to see my current public internet persona.
 image: ""
-tags:
-  - Retrospective
-  - AI
-  - Privacy
-  - Digital Footprint
-category: Personal Record
+tags: ["Spring 2026","AI & Privacy","Digital Footprint","Self-Observation"]
+category: Personal Records
 draft: false
 lang: en
 translationKey: posts/ai-self-doxxing-experiment/ai-self-doxxing-experiment
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Had AI search for Amiya_desi's public internet traces"
-    - "Observed how the model pieced together projects, interests, and identity into a persona"
-    - "Used this experiment to reflect on public expression and privacy boundaries"
-
 ---
 # kaito
 Been hanging around the internet for a year now, let's see what AI thinks of me, hehe. Started with a daily-use plus to test the waters, and this answer really does have that GPT flavor.

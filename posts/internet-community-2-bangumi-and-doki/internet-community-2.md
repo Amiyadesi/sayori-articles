@@ -8,15 +8,13 @@ updateCount: 7
 description: 从 Bangumi 的条目和讨论，写到我最早加入的 Doki Chinese Club 论坛，最后再提一嘴South Plus
 image: ""
 tags:
-  - 叙事
+  - 2026夏
+  - 社区记录
   - Bangumi
   - Doki Chinese Club
-  - 中文社区
-category: 互联网与社区
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/internet-community-2-bangumi-and-doki/internet-community-2
 ---
 
 

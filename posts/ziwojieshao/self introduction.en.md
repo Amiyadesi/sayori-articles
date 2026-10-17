@@ -4,15 +4,11 @@ published: 2026-07-13
 created: 2026-07-13
 updated: 2026-09-11
 lastEdited: 2026-09-11
-updateCount: 2
+updateCount: 4
 description: Time to reintroduce myself after a while. After all, a few months ago I didn't know about those communities, nor did I expect to build websites, make videos, or even actually fail a course.
 image: ""
-tags:
-  - Narrative
-  - Growth Reflection
-  - Indie Game
-  - Godot
-category: Personal Record
+tags: ["Summer 2026","Growth Reflection","Indie Game","Godot"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

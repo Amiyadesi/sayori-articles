@@ -8,15 +8,13 @@ updateCount: 1
 description: 暑假结束了，我变强了，为什么反而做不出游戏了？
 image: ""
 tags:
-  - 叙事
-  - 游戏开发
-  - 成长回顾
+  - 2026夏
+  - 18-19岁
   - 独立游戏
+  - 成长回顾
 category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/summer-2026-end/summer-2026-end
 ---
 
 # 我变强了，为什么反而做不出游戏了？

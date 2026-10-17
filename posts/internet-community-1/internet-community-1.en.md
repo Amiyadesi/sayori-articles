@@ -7,21 +7,9 @@ lastEdited: 2026-10-17
 updateCount: 18
 description: "The first log of Chinese internet communities, focusing only on Linux.do and NodeLoc: what they're good for, and what newcomers should know before joining."
 image: ""
-tags:
-  - Narrative
-  - Linux.do
-  - NodeLoc
-  - Chinese Communities
-  - NodeSeek
-category: Internet & Communities
+tags: ["Summer 2026","Community Notes","Linux.do","NodeLoc"]
+category: Personal Records
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: codex-local
-  items:
-    - Logging Chinese internet communities starting with Linux.do and NodeLoc
-    - Explaining what content each is suitable for and how to participate
-    - Newcomers should understand the rules and atmosphere before joining the community
 alias: ""
 lang: en
 translationKey: posts/internet-community-1/internet-community-1

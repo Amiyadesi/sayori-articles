@@ -8,15 +8,13 @@ updateCount: 4
 description: 隔一段时间重新介绍一次自己吧。毕竟几个月前的我还不知道那些社区，也没想到自己会去搭网站、做视频，甚至真的挂科
 image: ""
 tags:
-  - 叙事
+  - 2026夏
   - 成长回顾
   - 独立游戏
   - Godot
 category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/ziwojieshao/self introduction
 ---
 
 <!--

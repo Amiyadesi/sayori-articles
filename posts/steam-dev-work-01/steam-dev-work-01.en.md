@@ -7,10 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 2
 description: "A practical record of registering as a Steam developer, filling out tax forms, passing verification, and choosing a payout method."
 image: ""
-tags:
-  - Creator
-  - Tutorial
-category: Game Development
+tags: ["Tutorial","Pitfall Guide","Game Development","Steam"]
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en

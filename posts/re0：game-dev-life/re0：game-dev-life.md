@@ -8,14 +8,12 @@ updateCount: 1
 description: 即将熬过该死的期末周，对于过去的总结，未来的思考，汇聚成一篇文章
 image: ""
 tags:
-  - 叙事
+  - 2026夏
   - 独立游戏
   - 成长回顾
-category: 游戏开发
+category: 个人记录
 draft: false
 alias: re0game-dev-life
-lang: zh-Hans
-translationKey: posts/re0：game-dev-life/re0：game-dev-life
 ---
 # 开头
 > 阅前注意

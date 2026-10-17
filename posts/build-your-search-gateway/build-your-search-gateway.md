@@ -8,14 +8,13 @@ updateCount: 2
 description: ""
 image: ""
 tags:
-  - 教程
+  - 实操教程
+  - AI工作流
+  - VPS与自托管
   - 搜索
-  - 自托管
-category: 建站与自托管
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/build-your-search-gateway/build-your-search-gateway
 ---
 
 # 开头

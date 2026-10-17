@@ -8,22 +8,12 @@ updateCount: 5
 description: 从两个浏览器收藏栏整理出来的公开资源索引，偏游戏开发、素材、美术、音乐、AI 和学习。
 image: ""
 tags:
-  - 资源整合
-  - 创作资源
+  - 2026春
+  - 工具记录
   - 游戏开发
-  - 学习资源
-category: 工具与资源
+  - 效率工具箱
+category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "把两个浏览器收藏夹整理成公开资源索引"
-    - "偏游戏开发、素材、美术、音乐、AI 和学习"
-    - "把它当检索入口，具体授权和质量仍要自己确认"
-
-lang: zh-Hans
-translationKey: posts/resource-index/resource-index
 ---
 
 > **已停止维护**：这篇资源索引已不再更新，仅作为存档保留。新资源和后续更新主要整理在 [资源导航站](https://nav.sayori.org/)，请到那里查看。
@@ -42,7 +32,7 @@ translationKey: posts/resource-index/resource-index
 
 - [[site-article-index|本站文章索引]] — 站内文章总入口
 - [[webmaster-resource-toolbox|个人站长外部资源清单]] — 域名、托管、监控、评论、友链、站长社区外部链接
-- [[freeapi-glm-kimi-cc-switch|免费 AI API 入口]] — 学生能免费或低成本调用的大模型 API
+- [[anyrouter-sharedchat-cc-switch-student-guide|大学生怎么用官方 AI 额度与 cc-switch 管理开发环境]] — 官方 AI 额度申请与 cc-switch 配置
 - [[aliyun-student-300-voucher-guide|阿里云学生 300 元代金券能买什么]] — ECS、轻量、无影、百炼、ACA 认证
 - [[cloudflare-free-tier-developer-guide|Cloudflare 免费层能做什么]] — Pages、Workers、R2、Tunnel、Email Routing
 - [[2c2g-server-service-index|2C2G 学生服务器能跑什么]] — 自托管服务清单

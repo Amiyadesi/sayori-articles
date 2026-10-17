@@ -7,12 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 3
 description: In the last six hours of GMTK Jam, I cut down the unfinished puzzles and submitted a small game that was actually playable.
 image: ""
-tags:
-  - Retrospective
-  - Game Development
-  - Growth Reflection
-  - game-jam
-category: Game Development
+tags: ["Summer 2026","Game Jam","Game Development","Growth Reflection"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

@@ -8,21 +8,11 @@ updateCount: 2
 description: 一段很长的自我故事介绍，关于减肥、运动、做游戏、踩坑，以及第一次真正把想法做出来。
 image: ""
 tags:
-  - 叙事
+  - 18岁前
   - 成长回顾
   - 独立游戏
 category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "从减肥、跑步和健身开始讲起"
-    - "记录第一次做游戏时的兴奋和踩坑"
-    - "回看想法第一次真正落地的过程"
-
-lang: zh-Hans
-translationKey: posts/before-18-record/before-18-record
 ---
 
 ## 开头：这个故事从哪里开始

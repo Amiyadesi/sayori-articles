@@ -8,15 +8,13 @@ updateCount: 3
 description: 做完subarutap后，我不禁思考创作者是什么，创作者应该具备什么，怎么更好的创作
 image: ""
 tags:
-  - 复盘
-  - 创作者
-  - 成长回顾
+  - 创作者心态
+  - 自我剖析
   - 独立博客
-category: 个人记录
+  - 2026夏
+category: 主观思考
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/subarutap-and-selfthink/subarutap-and-selfthink
 ---
 
 > [!前言]

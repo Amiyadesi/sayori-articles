@@ -8,10 +8,11 @@ updateCount: 2
 description: ""
 image: ""
 tags:
-  - 教程
+  - 實操教程
+  - AI工作流
+  - VPS與自託管
   - 搜索
-  - 自託管
-category: 建站與自託管
+category: 教程教學
 draft: false
 alias: ""
 lang: zh-Hant
@@ -20,15 +21,15 @@ translationKey: posts/build-your-search-gateway/build-your-search-gateway
 
 # 開頭
 
-站長最近在自己的服務器上面搭建了一個自己的自定義mcp用來聚合搜索上游和截圖上游，實現自己的自定義搜索網關，在這裏寫一下網關的構成和工作流，是運行在服務器上的FastAPI項目
+站長最近在自己的服務器上面搭建了一個自己的自定義mcp用來聚合搜索上游和截圖上游，實現自己的自定義搜索網關，在這裡寫一下網關的構成和工作流，是運行在服務器上的FastAPI項目
 
 # 搜索上游
 
 ## Exa
 
-[https://exa.ai/pricing](https://exa.ai/pricing)，可以在這裏看到免費額度有每個月1000次，並且綁卡後還有每個月7美元的試用金，以及註冊完成任務後還有二十美金的額度，搜索質量基本最好
+[https://exa.ai/pricing](https://exa.ai/pricing)，可以在這裡看到免費額度有每個月1000次，並且綁卡後還有每個月7美元的試用金，以及註冊完成任務後還有二十美金的額度，搜索質量基本最好
 
-它適合技術、論文、開源項目這種語義搜索，質量高，但是額度要省着用
+它適合技術、論文、開源項目這種語義搜索，質量高，但是額度要省著用
 
 ## Brave
 
@@ -80,11 +81,11 @@ GrokSearch 項目入口：[GuDaStudio/GrokSearch: Integrate Grok's powerful real
 我的搜索fallback順序基本就是auto 先按問題類型選源，技術類走 Exa，實時類走 Tavily 或 Grok，普通網頁走 Brave，然後按 brave -> tavily -> exa -> searxng 兜底
 # 截圖上游
 
-[免費開發者服務之截圖API](https://github.com/xzulab/free-for-dev-zh#%E6%88%AA%E5%9B%BE-api)，站長就是把裏面的全部註冊了一遍就基本不缺了，然後站長聽從AI的fallback順序基本就是snapapi -> apiflash -> microlink -> screenshotlayer -> phantomjscloud -> screenshotbase -> screenshotscout -> screenshotmachine -> thumbnailws -> hqapi
+[免費開發者服務之截圖API](https://github.com/xzulab/free-for-dev-zh#%E6%88%AA%E5%9B%BE-api)，站長就是把裡面的全部註冊了一遍就基本不缺了，然後站長聽從AI的fallback順序基本就是snapapi -> apiflash -> microlink -> screenshotlayer -> phantomjscloud -> screenshotbase -> screenshotscout -> screenshotmachine -> thumbnailws -> hqapi
 
 # 比價上游
 
-Tickerr 入口：[https://tickerr.ai/mcp-server](https://tickerr.ai/mcp-server)，這個可以用來獲取目前的各種AI服務相關的最新價格，不過我不會接入到我自己的網關裏面，這種需要的時候連一下就好了
+Tickerr 入口：[https://tickerr.ai/mcp-server](https://tickerr.ai/mcp-server)，這個可以用來獲取目前的各種AI服務相關的最新價格，不過我不會接入到我自己的網關裡面，這種需要的時候連一下就好了
 
 # 我的工作流
 

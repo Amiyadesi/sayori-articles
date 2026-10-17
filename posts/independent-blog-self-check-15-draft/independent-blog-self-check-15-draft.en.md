@@ -7,24 +7,13 @@ lastEdited: 2026-10-17
 updateCount: 6
 description: My answers to Ya Yu's 15 self-reflection questions for independent blogs, a self-check on my relationship with this blog.
 image: ""
-tags:
-  - Retrospective
-  - Independent Blog
-  - Writing
-category: Personal Record
+tags: ["Creator Mindset","Independent Blog","Self-Analysis","Summer 2026"]
+category: Subjective Thoughts
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Answering Ya Yu's fifteen self-reflection questions for independent blogs"
-    - "Reconfirming my relationship with this blog"
-    - "Not turning personal writing into a display page that only chases metrics"
 alias: ""
 sourceLink: https://yayu.net/4626.html
 lang: en
 translationKey: posts/independent-blog-self-check-15-draft/independent-blog-self-check-15-draft
-
 ---
 
 This post is my answer to Ya Yu's self-reflection questionnaire for independent blogs.

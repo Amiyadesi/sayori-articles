@@ -5,14 +5,13 @@ created: 2026-07-20
 updated: 2026-10-17
 lastEdited: 2026-10-17
 updateCount: 3
-description: 各種站長社區和組織！反正加入了也不會喫虧，想加入的可以看看！
+description: 各種站長社區和組織！反正加入了也不會吃虧，想加入的可以看看！
 image: ""
 tags:
-  - 敘事
-  - 中文社區
-  - 創作者
+  - 2026夏
+  - 社區記錄
   - 獨立博客
-category: 互聯網與社區
+category: 個人記錄
 draft: false
 alias: ""
 lang: zh-Hant
@@ -23,7 +22,7 @@ translationKey: posts/internet-community-3/internet-community-3
 
 # 虛擬備案類
 ## 萌備
-[https://icp.gov.moe/join.php](https://icp.gov.moe/join.php)，支持.org備案，背後還有一整套萌社區，能夠給社區成員提供萌盤這樣的儲存和分享的福利，成爲成員後提供的萌盤高達有2TB，還可以根據自己的需要去申請更大的空間或者熱存儲，是站長第一個加入的虛擬備案
+[https://icp.gov.moe/join.php](https://icp.gov.moe/join.php)，支持.org備案，背後還有一整套萌社區，能夠給社區成員提供萌盤這樣的儲存和分享的福利，成為成員後提供的萌盤高達有2TB，還可以根據自己的需要去申請更大的空間或者熱存儲，是站長第一個加入的虛擬備案
 ![[Pasted image 20260806155317.png]]
 
 ## 茶備
@@ -37,10 +36,10 @@ translationKey: posts/internet-community-3/internet-community-3
 
 # 博客類
 ## 開往
-[https://www.travellings.cn/docs/join.html](https://www.travellings.cn/docs/join.html)，博客友情鏈接接力，加入需求在這裏，需要給自己的網站加一個開往的小跳轉圖標，是站長第一個加入的這種接力組織，同時站長觀察也發現這個確實比較大衆
+[https://www.travellings.cn/docs/join.html](https://www.travellings.cn/docs/join.html)，博客友情鏈接接力，加入需求在這裡，需要給自己的網站加一個開往的小跳轉圖標，是站長第一個加入的這種接力組織，同時站長觀察也發現這個確實比較大眾
 
 ## 十年之約
-[https://www.foreverblog.cn/](https://www.foreverblog.cn/)，也算是一個比較出名的博客組織了，加入要求還比較嚴格，需要建站滿一年纔行，所以目前站長遺憾不能加入，也有一個類似於上面開往的叫穿梭的東西
+[https://www.foreverblog.cn/](https://www.foreverblog.cn/)，也算是一個比較出名的博客組織了，加入要求還比較嚴格，需要建站滿一年才行，所以目前站長遺憾不能加入，也有一個類似於上面開往的叫穿梭的東西
 
 ## 中文獨立博客列表
 [如何提交](https://github.com/timqian/chinese-independent-blogs/blob/master/README.md#%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4)，就是一個github列表倉庫，能夠通過提交pr的方式加入你的獨立博客，能夠水一個貢獻了20kstar+的項目的履歷了（雖然不知道有什麼用hh）
@@ -51,7 +50,7 @@ translationKey: posts/internet-community-3/internet-community-3
 ## 其他的組織
 [https://www.boyouquan.com/home](https://www.boyouquan.com/home)，博友圈，和十年之約一樣需要一年資歷才能加入，也有類似於開往的穿梭功能
 [https://hi.jiuchan.org/docs](https://hi.jiuchan.org/docs)，揪蟬，類似開往的一個項目，叫春秋禪
-[https://bf.zzxworld.com/](https://bf.zzxworld.com/)，BlogFinder，這個帶來的流量還挺多的，站長在後臺umami統計裏面這個能佔比一部分
+[https://bf.zzxworld.com/](https://bf.zzxworld.com/)，BlogFinder，這個帶來的流量還挺多的，站長在後臺umami統計裡面這個能佔比一部分
 [https://bo.ke/](https://bo.ke/)，需要用github或者google賬戶登錄，需要加入TXT簽名驗證
 [https://blogscn.fun/](https://blogscn.fun/)，~~筆趣閣~~筆墨跡，有一個比較有意思的功能星圖，能夠根據地理位置訪問博客，然後也有類似開往的穿梭功能
 [https://blogtalk.org/](https://blogtalk.org/)，也是一個頂級的.org結尾的博客公益組織，甚至是站長在寫這一篇的時候看到的（笑），這種東西真的超級多吧

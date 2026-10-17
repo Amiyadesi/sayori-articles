@@ -8,28 +8,20 @@ updateCount: 5
 description: 網易 UU 遠程、File Converter、LocalSend、Obsidian、OBS、Aseprite 和 Aseprite 自編譯倉庫的簡短整理
 image: ""
 tags:
-  - 資源整合
-  - 軟件推薦
-  - 效率工具
-  - 創作工具
-category: 工具與資源
+  - 2026夏
+  - 工具記錄
+  - 效率工具箱
+  - 遊戲開發
+category: 個人記錄
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "從遠程控制到像素畫的一組常用免費軟件"
-    - "包括文件轉換、傳輸、筆記、錄屏和 Aseprite"
-    - "優先選能真正放進日常工作流的工具"
 alias: ""
-
 lang: zh-Hant
 translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
 ---
 
 這篇只放軟件本身
 
-瀏覽器插件看 [[useful-browser-extensions-toolbox|免费好用浏览器插件清单]]
+瀏覽器插件看 [[useful-browser-extensions-toolbox|免費好用瀏覽器插件清單]]
 
 站內相關文章看 [[site-article-index|本站文章索引]]
 
@@ -59,7 +51,7 @@ translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
 
 本地筆記軟件，筆記就是普通 Markdown 文件，這點我一直挺喜歡
 
-我現在很多文章也是先在 Obsidian 裏寫，再慢慢整理到博客
+我現在很多文章也是先在 Obsidian 裡寫，再慢慢整理到博客
 
 # OBS
 官網 [https://obsproject.com/](https://obsproject.com/)

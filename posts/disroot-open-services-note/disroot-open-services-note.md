@@ -8,23 +8,13 @@ updateCount: 5
 description: 记录 Disroot 的邮箱、云盘、XMPP 与协作工具，也借它重新整理 sayori.org 适合长期维护的公共服务
 image: ""
 tags:
-  - 资源整合
+  - 2026夏
+  - 社区记录
   - 开源服务
-  - 隐私
   - Fediverse
-category: 工具与资源
+category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-19"
-  model: "codex-local"
-  items:
-    - "认识带有公益和开源气质的 Disroot"
-    - "邮箱、云盘、XMPP 和协作工具是主要入口"
-    - "从服务边界出发重新整理 sayori.org 的公共入口"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/disroot-open-services-note/disroot-open-services-note
 ---
 
 > [!NOTE]

@@ -7,10 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 1
 description: A tiny new series on the blog! Hopefully this will keep me writing for a long time.
 image: ""
-tags:
-  - Reading Notes
-  - Article Recommendations
-category: Internet & Communities
+tags: ["Reading Reflections","Weekly Reading","Creator Mindset","Autumn 2026"]
+category: Subjective Thoughts
 draft: false
 alias: ""
 lang: en

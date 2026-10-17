@@ -7,12 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 9
 description: I've organized my previously scattered notes on internet communities into a wiki-style small forum list repository and a standalone site. PRs are welcome!
 image: ""
-tags:
-  - Resource Curation
-  - Chinese Communities
-  - Forums
-  - Open Source
-category: Internet & Communities
+tags: ["Summer 2026","Community Notes","Open Source","Forums"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

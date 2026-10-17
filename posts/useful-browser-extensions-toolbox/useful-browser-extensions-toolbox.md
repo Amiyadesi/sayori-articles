@@ -8,23 +8,13 @@ updateCount: 4
 description: 油猴脚本、沉浸式翻译、Bitwarden、Global Speed、SimilarSites、AI 辅助插件和隐私插件的简短整理
 image: ""
 tags:
-  - 资源整合
+  - 2026夏
+  - 工具记录
   - 浏览器扩展
-  - 效率工具
-  - 隐私
-category: 工具与资源
+  - 效率工具箱
+category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "整理脚本、翻译、密码、倍速和查站插件"
-    - "也收录 AI 辅助和隐私相关扩展"
-    - "安装前先看权限范围和数据去向"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/useful-browser-extensions-toolbox/useful-browser-extensions-toolbox
 ---
 
 这篇只放浏览器插件和脚本入口
@@ -47,7 +37,7 @@ translationKey: posts/useful-browser-extensions-toolbox/useful-browser-extension
 
 # ~~沉浸式翻译~~——陪读蛙🐸
 ![[Pasted image 20260718200848.png|width=560|align=center|caption=陪读蛙插件]]
-可以在插件商店找到，用于做双语翻译之类的很舒服，自带的免费也不错，如果要求比较高的话可以充值一些deepseek用deepseek v4 flash来翻译也能支持很久了，或者就去找一些有deepseek的公益站之类的，比如我的这篇文章里就有[[anyrouter-sharedchat-cc-switch-student-guide|AI 额度与 cc-switch]]
+可以在插件商店找到，用于做双语翻译之类的很舒服，自带的免费渠道就不错。如果要求比较高，可以充值 DeepSeek 官方 API，或者用[[anyrouter-sharedchat-cc-switch-student-guide|官方学生 AI 额度]]接入大模型接口来翻译，能够稳定用很久
 
 最近尝试了陪读蛙，才发现原来翻译可以这么快啊！沉浸式翻译你是谁，我不认识，不要打扰我和陪读蛙过日子了
 

@@ -3,27 +3,16 @@ title: meta-note
 published: 2026-06-11
 updated: 2026-09-11
 lastEdited: 2026-09-11
-updateCount: 2
+updateCount: 3
 created: 2026-06-11
 description: Since you're here, why not take a look?
 image: ""
-tags:
-  - Essay
-  - Independent Blog
-  - Game Design
-category: Personal Record
+tags: ["Summer 2026","Independent Blog","Game Design"]
+category: Personal Records
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "A light meta-note hidden in the blog"
-    - "Written for those who stumbled upon it"
-    - "No need to explain, just take a casual look first"
 alias: ""
 lang: en
 translationKey: posts/meta-note/meta-note
-
 ---
 
 Hello! You, who are reading this right now, hello there!
