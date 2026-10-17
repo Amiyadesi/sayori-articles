@@ -8,13 +8,13 @@ updateCount: 3
 description: 从零开始把家中win7老电脑改成linux服务器，看完你也可以上手
 image: ""
 tags:
-  - 叙事
-  - 服务器探索
-category: 建站与自托管
+  - 实操教程
+  - VPS与自托管
+  - Docker
+  - 家里云
+category: 教程教学
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/make-home-server/make-home-server
 ---
 # 起因
 暑假回来的时候和家里人交流的时候，发现家中其实有一台老旧不打算用的win7电脑，于是正好想着配置一个家里云，在和AI详细一步一步学习和指导下，终于成功配置，并且加入自己的tailscale组网成功，特此记录一下

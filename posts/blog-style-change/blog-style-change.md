@@ -9,9 +9,10 @@ updateCount: 1
 description: 我终于换掉了繁杂的风格，改成了我的博客
 image: ""
 tags:
-  - 个人博客
-  - 风格
-category: 建站与自托管
+  - 2026秋
+  - 独立博客
+  - 成长回顾
+category: 个人记录
 draft: false
 alias: ""
 ---

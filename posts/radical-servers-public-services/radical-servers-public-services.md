@@ -8,16 +8,13 @@ updateCount: 5
 description: 认识 Riseup 整理的非商业技术组织与公共服务，也记录 sayori.org 现在能开放的网页审计和 API 能力
 image: ""
 tags:
-  - 资源整合
-  - 公益组织
-  - 公共服务
+  - 2026夏
+  - 社区记录
   - 开源服务
-  - 隐私
-category: 工具与资源
+  - 隐私安全
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/radical-servers-public-services/radical-servers-public-services
 ---
 
 我最近在 Riseup 的安全资源里翻到一页很长的名单

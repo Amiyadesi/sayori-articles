@@ -8,23 +8,13 @@ updateCount: 5
 description: 网易 UU 远程、File Converter、LocalSend、Obsidian、OBS、Aseprite 和 Aseprite 自编译仓库的简短整理
 image: ""
 tags:
-  - 资源整合
-  - 软件推荐
-  - 效率工具
-  - 创作工具
-category: 工具与资源
+  - 2026夏
+  - 工具记录
+  - 效率工具箱
+  - 游戏开发
+category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "从远程控制到像素画的一组常用免费软件"
-    - "包括文件转换、传输、笔记、录屏和 Aseprite"
-    - "优先选能真正放进日常工作流的工具"
 alias: ""
-
-lang: zh-Hans
-translationKey: posts/useful-free-software-toolbox/useful-free-software-toolbox
 ---
 
 这篇只放软件本身

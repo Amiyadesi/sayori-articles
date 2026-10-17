@@ -7,12 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 2
 description: ""
 image: ""
-tags:
-  - Resource Curation
-  - Godot
-  - Plugins
-  - Development Tools
-category: Game Development
+tags: ["Summer 2026","Tool Notes","Godot","Game Development"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

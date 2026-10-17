@@ -2,16 +2,13 @@
 title: Outcore Afterthought
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 1
 description: A short afterthought on Outcore, documenting character impressions, structure, and gameplay layers.
 image: ""
-tags:
-  - Game Afterthought
-  - Outcore
-  - Musings
-category: Everyday Echoes
+tags: ["Essay","Spring 2026","Game Design","Outcore"]
+category: Subjective Thoughts
 draft: false
 lang: en
 translationKey: essays/outcore-afterthought

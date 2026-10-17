@@ -8,20 +8,12 @@ updateCount: 3
 description: 我讓 AI 去搜索 Amiya_desi 這個名字，想看看公開互聯網我目前的畫像
 image: ""
 tags:
-  - 復盤
-  - AI
-  - 隱私
+  - 2026春
+  - AI與隱私
   - 數字足跡
+  - 自我觀察
 category: 個人記錄
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "讓 AI 搜索 Amiya_desi 的公開互聯網痕跡"
-    - "觀察模型如何把項目、興趣和身份拼成畫像"
-    - "借這次實驗反思公開表達和隱私邊界"
-
 lang: zh-Hant
 translationKey: posts/ai-self-doxxing-experiment/ai-self-doxxing-experiment
 ---
@@ -33,7 +25,7 @@ translationKey: posts/ai-self-doxxing-experiment/ai-self-doxxing-experiment
 ### 能拼出來的人物畫像
 
 **1. 核心身份：Godot 獨立遊戲學習者/創作者。**<br>
-多個平臺的自我介紹和項目列表都圍繞 Godot、Game Jam、GDScript、C#、AI 輔助開發展開；LINUX DO 資料把“用 Godot 開發遊戲、夢想成爲獨立遊戲 Master”作爲主要標籤，GitHub 與 itch.io 也能看到 GDScript/Game Jam/小遊戲項目痕跡。
+多個平臺的自我介紹和項目列表都圍繞 Godot、Game Jam、GDScript、C#、AI 輔助開發展開；LINUX DO 資料把“用 Godot 開發遊戲、夢想成為獨立遊戲 Master”作為主要標籤，GitHub 與 itch.io 也能看到 GDScript/Game Jam/小遊戲項目痕跡。
 
 **2. 創作審美明顯偏向 DDLC、Sayori、meta game、二次元/同人文化。**<br>
 sayori.org 明確寫有 DDLC tribute；LINUX DO 個人資料提到想做一款很棒的 meta game；itch.io 上還有 MikuBirthdayGame，B站也有像素動畫和新遊戲相關內容。
@@ -48,16 +40,16 @@ sayori.org 明確寫有 DDLC tribute；LINUX DO 個人資料提到想做一款�
 博客標籤與文章顯示他在折騰個人服務器、QQ 機器人、Vaultwarden、ntfy、Gatus、Portainer、AI Search Gateway 等輕量服務；文章中也總結了 SSH、防火牆、輕量部署、備份/文檔化習慣。
 
 **6. 自我表達欲強，也有較強自我觀察。**<br>
-博客分類裏“日常回聲”有 56 篇，標籤包括“真實記錄”“自我觀察”“自我懷疑”“情緒記錄”“隱私”“互聯網痕跡”等；他還專門寫過“讓 AI 開盒我自己”的隱私實驗，討論長期網名是否會變成第二張身份證，以及 AI 整理公開痕跡的邊界。
+博客分類裡“日常回聲”有 56 篇，標籤包括“真實記錄”“自我觀察”“自我懷疑”“情緒記錄”“隱私”“互聯網痕跡”等；他還專門寫過“讓 AI 開盒我自己”的隱私實驗，討論長期網名是否會變成第二張身份證，以及 AI 整理公開痕跡的邊界。
 
 **7. 對 AI 的態度是實用但警惕。**<br>
-他經常使用 AI 輔助開發和服務器配置，但在博客復盤裏也提到早期“純 AI 編寫”導致項目腳本和邏輯變亂，後來意識到 AI 開發要做好存檔、約束和版本控制。 這說明他的 AI 使用不是純玩票，而是經歷過真實項目失敗後形成了更謹慎的工作流。
+他經常使用 AI 輔助開發和服務器配置，但在博客復盤裡也提到早期“純 AI 編寫”導致項目腳本和邏輯變亂，後來意識到 AI 開發要做好存檔、約束和版本控制。 這說明他的 AI 使用不是純玩票，而是經歷過真實項目失敗後形成了更謹慎的工作流。
 
 ### 性格/風格推斷：謹慎版
 
 從公開文本看，Amiya_desi 的外顯風格大概是：**熱情高、表達欲強、容易被作品和角色打動；行動力不低，但計劃穩定性可能一般；對自我成長很敏感，既會驕傲於進步，也容易和“大佬”比較後焦慮。** 這個判斷來自他在 LINUX DO 對學習焦慮的自述，以及博客中大量成長記錄、自我懷疑、項目復盤類內容。
 
-他更像“創作者型技術學生”而不是純程序員：做遊戲是主軸，但爲了把遊戲做出來，會順手學美術、音樂、服務器、部署、AI 工具、開源工作流和內容表達。這個畫像由他的美術學習文章、遊戲開發復盤、GitHub/itch.io 項目和個人服務器文章共同支撐。
+他更像“創作者型技術學生”而不是純程序員：做遊戲是主軸，但為了把遊戲做出來，會順手學美術、音樂、服務器、部署、AI 工具、開源工作流和內容表達。這個畫像由他的美術學習文章、遊戲開發復盤、GitHub/itch.io 項目和個人服務器文章共同支撐。
 
 
 ## Claude
@@ -68,7 +60,7 @@ Claude也新開一個free，用sonnet4.6 max+thinking好好搜搜
 
 #### 已確認的平臺存在
 
-**1. itch.io — 遊戲主頁** `amiya-desi.itch.io`，目前公開的作品是 《Fists of Fury(change)》，一款用 Godot 製作的格鬥遊戲原型，界面和說明全爲中文，支持瀏覽器直接運行，並提供安卓 APK 下載。 這個作品是基於 GadGaming 的教程改編而來，但加入了自己的設計——子彈時間機制、可選的吸血開關、隱藏的"超級玩家"成就條件，以及安卓適配。遊戲描述口吻輕鬆，邀請朋友對比分數。
+**1. itch.io — 遊戲主頁** `amiya-desi.itch.io`，目前公開的作品是 《Fists of Fury(change)》，一款用 Godot 製作的格鬥遊戲原型，界面和說明全為中文，支持瀏覽器直接運行，並提供安卓 APK 下載。 這個作品是基於 GadGaming 的教程改編而來，但加入了自己的設計——子彈時間機制、可選的吸血開關、隱藏的"超級玩家"成就條件，以及安卓適配。遊戲描述口吻輕鬆，邀請朋友對比分數。
 
 **2. 個人博客 — blog.sayori.org** 博客名叫"Amiya的書桌 - 筆記、項目和一點日常折騰"，標籤體系覆蓋：成長記錄、動漫社、獨立遊戲、情緒記錄、日記、隨筆、像素畫、校園、學習計劃、遊戲玩後感，以及技術側的 AI、Godot、Docker、Cloudflare、VPS、AstrBot、NapCat、SSH、Vaultwarden 等。
 
@@ -76,7 +68,7 @@ Claude也新開一個free，用sonnet4.6 max+thinking好好搜搜
 
 **3. LINUX DO 社區** 在 linux.do 有賬號 Amiya_desi，最近出現在技術討論帖中。LINUX DO 是一個偏精英化、重質量的中文技術論壇，入門有一定門檻。
 
-**4. Doki Chinese Club（多奇中文俱樂部）** 在 DDLC 粉絲中文論壇發過一篇關於紗世裏同人 mod《Blue Sky》的帖子，語氣投入，講了打隱藏結局的過程，以及對這個角色的情感。
+**4. Doki Chinese Club（多奇中文俱樂部）** 在 DDLC 粉絲中文論壇發過一篇關於紗世裡同人 mod《Blue Sky》的帖子，語氣投入，講了打隱藏結局的過程，以及對這個角色的情感。
 
 ---
 
@@ -88,7 +80,7 @@ Claude也新開一個free，用sonnet4.6 max+thinking好好搜搜
 
 **興趣圈層**：對 meta 遊戲（DDLC）有深度共鳴，遊戲選擇和博客主題都顯示出對"真實感"和"角色內在"的敏感，有動漫社活動和校園生活痕跡。
 
-**一個有趣的細節**：你已經在博客裏記錄了"主動搜索自己的網絡印跡"這件事本身——所以這次問我，算是一次外部驗證，想看看 AI 能拼出來多少，和你自己知道的相比有沒有偏差。
+**一個有趣的細節**：你已經在博客裡記錄了"主動搜索自己的網絡印跡"這件事本身——所以這次問我，算是一次外部驗證，想看看 AI 能拼出來多少，和你自己知道的相比有沒有偏差。
 
 ---
 
@@ -97,7 +89,7 @@ Claude也新開一個free，用sonnet4.6 max+thinking好好搜搜
 
 # 總結
 
-可以看出claude的webserach能力不如gpt（笑），聽說grok搜的更強，不過我懶的註冊，如果你看到了這裏並且恰好有supergrok，想去搜搜我也行（笑）
+可以看出claude的webserach能力不如gpt（笑），聽說grok搜的更強，不過我懶的註冊，如果你看到了這裡並且恰好有supergrok，想去搜搜我也行（笑）
 
 ## 繼續讀
 

@@ -7,11 +7,8 @@ lastEdited: 2026-09-11
 updateCount: 1
 description: A record of opening bank accounts, getting phone service, setting up a Hong Kong iPhone, visiting sights, and eating in Hong Kong for the first time.
 image: ""
-tags:
-  - Narrative
-  - Travel
-  - Growth Reflection
-category: Travel & Life
+tags: ["Summer 2026","Travel & Life","Growth Reflection"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

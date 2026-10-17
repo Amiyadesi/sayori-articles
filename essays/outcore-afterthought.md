@@ -4,13 +4,12 @@ published: 2026-05-26
 description: 一段关于 Outcore 的简短玩后感，记录角色印象、结构和玩法分层。
 image: ""
 tags:
-  - 游戏玩后感
-  - Outcore
   - 随笔
-category: 日常回声
+  - 2026春
+  - 游戏设计
+  - Outcore
+category: 主观思考
 draft: false
-lang: zh-Hans
-translationKey: essays/outcore-afterthought
 ---
 
 Lumi，奥米利亚，教程队长，纸片娘，冒牌袜(好像叫这个来着)，袜子先生，男频主角和他的爱人还有经典金手指，三个小时的流程塑造了印象鲜明的这么多角色，太强了

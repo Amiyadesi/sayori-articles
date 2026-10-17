@@ -1,12 +1,11 @@
 {
-  "id": "2026-08-22-agentrouter-subarutap-hong-kong",
-  "updated": "2026-08-22",
-  "title": "Three recent updates",
-  "content": "I have three things to share recently: the AgentRouter AFF registration link is ready, SubaruTap is available to try, and my Hong Kong travel record has been published.\n\nUse the links below to register for AgentRouter through the AFF link, try SubaruTap, or read the Hong Kong travel record.",
+  "id": "2026-10-16-series-overhaul",
+  "updated": "2026-10-16",
+  "title": "Article Categories & Series Overhaul",
+  "content": "Articles on this blog are now organized into three core categories: Personal Records, Subjective Thoughts, and Tutorials & Guides, each with its own reading series.\n\nUse the links below to browse the site article index or read my recent essays.",
   "closable": true,
   "links": [
-    { "enable": true, "text": "Register for AgentRouter via AFF", "url": "https://agentrouter.org/register?aff=a572", "external": true },
-    { "enable": true, "text": "Try SubaruTap", "url": "https://sayori.org/tools/subarutap/", "external": true },
-    { "enable": true, "text": "Read the Hong Kong travel record", "url": "/en/posts/first-hong-kong/", "external": false }
+    { "enable": true, "text": "Browse Site Article Index", "url": "/en/posts/site-article-index/", "external": false },
+    { "enable": true, "text": "From 90%+ to 66.7%", "url": "/en/posts/from-90-to-66.7/", "external": false }
   ]
 }

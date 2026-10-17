@@ -2,16 +2,13 @@
 title: Open Source Reflections and Self-Reflection
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 1
 description: A genuine snippet about open-source workflows, the urge to express, indie games, talent, and continuous learning.
 image: ""
-tags:
-  - Musings
-  - Open Source
-  - Indie Game
-category: Everyday Echoes
+tags: ["Essay","Spring 2026","Open Source","Indie Game"]
+category: Subjective Thoughts
 draft: false
 lang: en
 translationKey: essays/open-source-and-self-reflection

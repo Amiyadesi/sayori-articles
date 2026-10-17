@@ -8,15 +8,13 @@ updateCount: 3
 description: GMTK Jam 最后六小时，我砍掉做不完的谜题，交出了一个真正能玩完的小游戏
 image: ""
 tags:
-  - 复盘
+  - 2026夏
+  - Game Jam
   - 游戏开发
   - 成长回顾
-  - game-jam
-category: 游戏开发
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/after-gmtk/after-gmtk
 ---
 
 # 做完了，却高兴不起来

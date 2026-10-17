@@ -7,11 +7,8 @@ lastEdited: 2026-09-11
 updateCount: 2
 description: The Creator's Confidence Cycle – Trapped Within It — Let's find a way out!
 image: ""
-tags:
-  - Essay
-  - Psychology
-  - Creator
-category: Personal Record
+tags: ["Creator Mindset","Self-Analysis","Indie Game","Summer 2026"]
+category: Subjective Thoughts
 draft: false
 alias: ""
 lang: en

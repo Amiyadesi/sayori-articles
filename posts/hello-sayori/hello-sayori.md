@@ -8,20 +8,11 @@ updateCount: 2
 description: 第一篇文章，给这个小小的个人博客开门。
 image: ""
 tags:
-  - 叙事
+  - 2026春
   - 独立博客
+  - 成长回顾
 category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "这个个人博客的第一篇开门帖"
-    - "给之后的项目、笔记和日常留一个起点"
-    - "先和路过这里的人打个招呼"
-
-lang: zh-Hans
-translationKey: posts/hello-sayori/hello-sayori
 ---
 
 Ohayo Sayori！

@@ -7,12 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 3
 description: After making SubaruTap, I started thinking again about what kind of creator I am, what creators need, and how to make better things.
 image: ""
-tags:
-  - Retrospective
-  - Creator
-  - Growth Reflection
-  - Independent Blog
-category: Personal Record
+tags: ["Creator Mindset","Self-Analysis","Independent Blog","Summer 2026"]
+category: Subjective Thoughts
 draft: false
 alias: ""
 lang: en

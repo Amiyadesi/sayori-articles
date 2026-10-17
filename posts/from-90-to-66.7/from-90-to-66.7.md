@@ -8,9 +8,11 @@ updateCount: 0
 description: 一个曾经坚信自己有 90% 以上理性的人，如何在成长、游戏开发、AI 陪伴与自我观察中，逐渐学会接受感性、主观与那些无法被量化的东西
 image: ""
 tags:
+  - 理性与感性
+  - 自我剖析
   - 成长回顾
-  - 成长记录
-category: 个人记录
+  - 2026秋
+category: 主观思考
 draft: false
 alias: ""
 lang: zh-Hans

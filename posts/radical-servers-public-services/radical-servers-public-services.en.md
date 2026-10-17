@@ -7,13 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 5
 description: Getting to know the non-commercial tech organizations and public services curated by Riseup, and documenting the web audit and API capabilities currently offered by sayori.org
 image: ""
-tags:
-  - Resource Curation
-  - Public Service Organizations
-  - Public Services
-  - Open Source Services
-  - Privacy
-category: Tools & Resources
+tags: ["Summer 2026","Community Notes","Open Source Services","Privacy & Security"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

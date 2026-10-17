@@ -8,23 +8,14 @@ updateCount: 6
 description: 给雅余独立博客自省问卷留的一份答卷，先自查一下我和这个博客的关系。
 image: ""
 tags:
-  - 复盘
+  - 创作者心态
   - 独立博客
-  - 写作
-category: 个人记录
+  - 自我剖析
+  - 2026夏
+category: 主观思考
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "回答雅余独立博客自省问卷的十五个问题"
-    - "重新确认自己和这个博客到底是什么关系"
-    - "不把个人写作做成只追指标的展示页"
 alias: ""
 sourceLink: https://yayu.net/4626.html
-
-lang: zh-Hans
-translationKey: posts/independent-blog-self-check-15-draft/independent-blog-self-check-15-draft
 ---
 
 这篇是给雅余那份独立博客自省问卷留的答卷

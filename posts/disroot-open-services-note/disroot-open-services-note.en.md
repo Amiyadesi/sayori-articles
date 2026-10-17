@@ -7,24 +7,12 @@ lastEdited: 2026-10-17
 updateCount: 5
 description: Documenting Disroot's email, cloud storage, XMPP, and collaboration tools, and using it as an opportunity to reorganize sayori.org's public services suitable for long-term maintenance.
 image: ""
-tags:
-  - Resource Curation
-  - Open Source Services
-  - Privacy
-  - Fediverse
-category: Tools & Resources
+tags: ["Summer 2026","Community Notes","Open Source Services","Fediverse"]
+category: Personal Records
 draft: false
-aiSummary:
-  generatedAt: "2026-07-19"
-  model: "codex-local"
-  items:
-    - "Getting to know Disroot, with its public-benefit and open-source spirit"
-    - "Email, cloud storage, XMPP, and collaboration tools are the main entry points"
-    - "Reorganizing sayori.org's public entry points based on service boundaries"
 alias: ""
 lang: en
 translationKey: posts/disroot-open-services-note/disroot-open-services-note
-
 ---
 
 > [!NOTE]

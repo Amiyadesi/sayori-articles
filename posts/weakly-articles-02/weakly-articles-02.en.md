@@ -7,10 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 1
 description: "Own the Slice: What methodology should we master for coding in the AI era?"
 image: ""
-tags:
-  - Reading Notes
-  - Article Sharing
-category: Internet & Community
+tags: ["Reading Reflections","Weekly Reading","AI Workflow","Autumn 2026"]
+category: Subjective Thoughts
 draft: false
 alias: ""
 lang: en

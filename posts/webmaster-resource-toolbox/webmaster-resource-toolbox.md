@@ -8,23 +8,13 @@ updateCount: 7
 description: 域名、托管、评论、监控、自托管、Cloudflare、统计、站长社区和博客框架的外部资源入口
 image: ""
 tags:
-  - 资源整合
-  - 站长工具
+  - 2026夏
+  - 工具记录
   - 独立博客
-  - 自托管
-category: 工具与资源
+  - 建站与Cloudflare
+category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "域名、托管、评论、监控和自托管资源的外部清单"
-    - "也覆盖 Cloudflare、统计和个人站社区"
-    - "每个服务的价格、条款和可用性都要自己复核"
 alias: blog-resource-toolbox
-
-lang: zh-Hans
-translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
 ---
 
 这篇只放外部资源链接

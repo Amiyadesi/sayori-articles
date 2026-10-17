@@ -1,18 +1,14 @@
 ---
 title: Thanks for the Encouragement
 published: 2026-06-11
-updated: 2026-08-14
-lastEdited: 2026-08-14
-updateCount: 1
+updated: 2026-06-24
+lastEdited: 2026-06-24
+updateCount: 2
 created: 2026-06-11
 description: Just wanted to jot down some of the real feedback I've received since I started developing. Thanks for being here.
 image: ""
-tags:
-  - Musings
-  - Gratitude
-  - Game Development
-  - Feedback Log
-category: Everyday Echoes
+tags: ["Essay","Summer 2026","Indie Game","Growth Reflection"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

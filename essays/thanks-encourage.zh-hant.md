@@ -1,18 +1,18 @@
-﻿---
+---
 title: 感謝鼓勵
 published: 2026-06-11
 updated: 2026-06-24
 lastEdited: 2026-06-24
 updateCount: 2
 created: 2026-06-11
-description: 在這裏記錄一下，從開發到現在收穫的真實反饋，感謝有你們
+description: 在這裡記錄一下，從開發到現在收穫的真實反饋，感謝有你們
 image: ""
 tags:
   - 隨筆
-  - 感謝
-  - 遊戲開發
-  - 反饋記錄
-category: 日常回聲
+  - 2026夏
+  - 獨立遊戲
+  - 成長回顧
+category: 個人記錄
 draft: false
 alias: ""
 lang: zh-Hant
@@ -21,7 +21,7 @@ translationKey: essays/thanks-encourage
 # 開頭
 閒來無事，收集收集我目前收穫的一些反饋吧......
 
-[時序鏈接 - 遊戲評價 - TapTap](https://www.taptap.cn/app/834133/review?os=pc)，真是沒有想到，明明只是心灰意冷後上傳的，但是卻也收到了真實的反饋，看樣子適當的放出還是必要的，爲了做出更好的遊戲！
+[時序鏈接 - 遊戲評價 - TapTap](https://www.taptap.cn/app/834133/review?os=pc)，真是沒有想到，明明只是心灰意冷後上傳的，但是卻也收到了真實的反饋，看樣子適當的放出還是必要的，為了做出更好的遊戲！
 
 [Mio’s Window Wanderer by Amiya_desi, LaoZhaoofGod, kazeyoxing, owo23333 for thatgamejam #01 🩵 - itch.io](https://itch.io/jam/thatgamejam01/rate/4134738)，這個也差不多了哈哈，也是想到了感覺很有趣的玩法，也做出了一點，但是最後還是不有趣的一個遊戲唉......突然發現我還挺擅長做這種遊戲的說是？
 

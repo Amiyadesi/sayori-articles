@@ -7,10 +7,8 @@ lastEdited: 2026-09-30
 updateCount: 0
 description: "We compare our full stat sheets with the one number other people reveal. A chance encounter at the gym made me notice the many different lives unfolding across campus."
 image: ""
-tags:
-  - Personal Reflection
-  - University Life
-category: Personal Notes
+tags: ["University Observation","Self-Analysis","Rationality & Sensibility","Autumn 2026"]
+category: Subjective Thoughts
 draft: false
 alias: cn-university-student-portraits
 lang: en

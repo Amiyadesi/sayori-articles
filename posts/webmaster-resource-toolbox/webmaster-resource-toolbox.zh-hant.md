@@ -8,21 +8,13 @@ updateCount: 7
 description: 域名、託管、評論、監控、自託管、Cloudflare、統計、站長社區和博客框架的外部資源入口
 image: ""
 tags:
-  - 資源整合
-  - 站長工具
+  - 2026夏
+  - 工具記錄
   - 獨立博客
-  - 自託管
-category: 工具與資源
+  - 建站與Cloudflare
+category: 個人記錄
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "域名、託管、評論、監控和自託管資源的外部清單"
-    - "也覆蓋 Cloudflare、統計和個人站社區"
-    - "每個服務的價格、條款和可用性都要自己複覈"
 alias: blog-resource-toolbox
-
 lang: zh-Hant
 translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
 ---
@@ -31,7 +23,7 @@ translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
 
 本站文章怎麼讀，看 [[site-article-index|本站文章索引]]
 
-常用本地軟件看 [[useful-free-software-toolbox|免费好用软件清单]]
+常用本地軟件看 [[useful-free-software-toolbox|免費好用軟件清單]]
 
 規則和免費額度可能會變，註冊前看一遍官網說明
 
@@ -43,7 +35,7 @@ translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
 ## 免費域名和臨時入口
 
 - [DNSHE](https://my.dnshe.com/)：免費二級域名，適合先練 DNS
-- [eu.org](https://nic.eu.org/)：經典免費域名，但審覈經常比較慢
+- [eu.org](https://nic.eu.org/)：經典免費域名，但審核經常比較慢
 - [us.kg](https://nic.us.kg/)：也挺常見，註冊前先看現在規則
 - [pp.ua](https://nic.ua/)：老牌免費域名入口之一
 - [GitHub Pages](https://pages.github.com/)：會給你一個 `github.io`
@@ -62,7 +54,7 @@ translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
 ## 靜態託管
 
 - [Cloudflare Pages](https://pages.cloudflare.com/)：我自己現在就在用
-- [Vercel](https://vercel.com/)：前端項目很多人都放這裏
+- [Vercel](https://vercel.com/)：前端項目很多人都放這裡
 - [Netlify](https://www.netlify.com/)
 - [GitHub Pages](https://pages.github.com/)
 - [Render](https://render.com/)
@@ -125,7 +117,7 @@ Cloudflare 這種東西最好直接看官方文檔，不然社區帖子很容易
 - [GitHub Releases](https://github.com/)
 - [jsDelivr](https://www.jsdelivr.com/)
 
-圖牀、小文件和備份這些場景，這裏經常會用到
+圖床、小文件和備份這些場景，這裡經常會用到
 
 ## 數據統計
 
@@ -134,7 +126,7 @@ Cloudflare 這種東西最好直接看官方文檔，不然社區帖子很容易
 - [Plausible](https://plausible.io/)
 - [GoatCounter](https://www.goatcounter.com/)
 
-我自己現在比較喜歡 Umami 這種，界面看着乾淨
+我自己現在比較喜歡 Umami 這種，界面看著乾淨
 
 ## 站長社區和目錄
 
@@ -173,7 +165,7 @@ Cloudflare 這種東西最好直接看官方文檔，不然社區帖子很容易
 
 - [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
 - [Bitwarden](https://bitwarden.com/)
-- Cloudflare Access：Cloudflare 後臺裏開
+- Cloudflare Access：Cloudflare 後臺裡開
 - [Let's Encrypt](https://letsencrypt.org/)
 - [Caddy](https://caddyserver.com/)
 

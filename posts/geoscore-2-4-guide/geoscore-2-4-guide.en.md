@@ -7,13 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 5
 description: Using site profiles, real crawl evidence, and repair reports to understand what a website truly lacks.
 image: ""
-tags:
-  - Tutorial
-  - SEO
-  - GEO
-  - Open Source Tool
-  - Website Optimization
-category: Website & Self-Hosting
+tags: ["Tutorial","Website & Cloudflare","GEO","Open Source"]
+category: Tutorials & Guides
 draft: false
 alias: ""
 lang: en

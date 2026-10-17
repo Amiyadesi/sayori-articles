@@ -1,5 +1,5 @@
 ---
-title: win7老電腦爆改家裏雲記錄
+title: win7老電腦爆改家裡雲記錄
 published: 2026-08-09
 created: 2026-08-09
 updated: 2026-10-17
@@ -8,36 +8,38 @@ updateCount: 3
 description: 從零開始把家中win7老電腦改成linux服務器，看完你也可以上手
 image: ""
 tags:
-  - 敘事
-  - 服務器探索
-category: 建站與自託管
+  - 實操教程
+  - VPS與自託管
+  - Docker
+  - 家裡雲
+category: 教程教學
 draft: false
 alias: ""
 lang: zh-Hant
 translationKey: posts/make-home-server/make-home-server
 ---
 # 起因
-暑假回來的時候和家裏人交流的時候，發現家中其實有一臺老舊不打算用的win7電腦，於是正好想着配置一個家裏雲，在和AI詳細一步一步學習和指導下，終於成功配置，並且加入自己的tailscale組網成功，特此記錄一下
+暑假回來的時候和家裡人交流的時候，發現家中其實有一臺老舊不打算用的win7電腦，於是正好想著配置一個家裡雲，在和AI詳細一步一步學習和指導下，終於成功配置，並且加入自己的tailscale組網成功，特此記錄一下
 ![[25ee964400599b3dac2bca3473cd1508.png|width=800|center|amiyadesi的homeserver组网成功]]
 
 # 完整記錄
 
 ## 準備階段
 
-準備一個至少4GB的小U盤，用來製作Ubuntu系統安裝盤。先從[Ubuntu Server官網](https://ubuntu.com/download/server)下載最新的穩定版，比如站長下載的就是26.04版本，然後下載[Rufus](https://rufus.ie/)製作啓動盤。
+準備一個至少4GB的小U盤，用來製作Ubuntu系統安裝盤。先從[Ubuntu Server官網](https://ubuntu.com/download/server)下載最新的穩定版，比如站長下載的就是26.04版本，然後下載[Rufus](https://rufus.ie/)製作啟動盤。
 ![[Pasted image 20260809163126.png|width=600|center|Rufus界面]]
-在Rufus中選擇下載好的Ubuntu鏡像。確認U盤裏沒有重要文件後開始寫入，其他選項保持默認即可。完成後，我們就有了一個裝載Ubuntu Server 26.04 LTS安裝程序的U盤。
+在Rufus中選擇下載好的Ubuntu鏡像。確認U盤裡沒有重要文件後開始寫入，其他選項保持默認即可。完成後，我們就有了一個裝載Ubuntu Server 26.04 LTS安裝程序的U盤。
 
 ## 安裝階段
-開機前插上U盤。出現**Lenovo**標誌時連續按幾次`F12`；如果無效，可以嘗試`Fn+F12`。進入**Boot Menu**後，用方向鍵選擇帶有USB的啓動項，就能從U盤啓動並進入Ubuntu安裝流程。
+開機前插上U盤。出現**Lenovo**標誌時連續按幾次`F12`；如果無效，可以嘗試`Fn+F12`。進入**Boot Menu**後，用方向鍵選擇帶有USB的啟動項，就能從U盤啟動並進入Ubuntu安裝流程。
 
 ![[Pasted image 20260809171132.png|800|center|美化后的选择图片1]]
 
-前面的選擇直接按照默認選擇就行了，然後當站長選擇到這裏的時候，AI推薦最好勾上第三個，幫你自動尋找第三方驅動，減少沒有聲音和連不上wifi的問題
+前面的選擇直接按照默認選擇就行了，然後當站長選擇到這裡的時候，AI推薦最好勾上第三個，幫你自動尋找第三方驅動，減少沒有聲音和連不上wifi的問題
 
 ![[Pasted image 20260810134432.png|800|center|美化后的选择图片2]]
 
-然後到達這個頁面的時候，如果家裏有無線Wifi的話，用方向鍵移動到第二個`wlp3s0`，然後Enter點擊後繼續選擇`Edit Wifi`，填入家裏的Wifi名稱和Wifi密碼就好了，這樣方便後面配置好後是直接有網的狀態
+然後到達這個頁面的時候，如果家裡有無線Wifi的話，用方向鍵移動到第二個`wlp3s0`，然後Enter點擊後繼續選擇`Edit Wifi`，填入家裡的Wifi名稱和Wifi密碼就好了，這樣方便後面配置好後是直接有網的狀態
 
 然後接下來就是一個讓你填入代理配置的頁面，如果沒有需求的話就可以直接跳過
 
@@ -47,9 +49,9 @@ translationKey: posts/make-home-server/make-home-server
 
 ![[Pasted image 20260810145100.png|800|center|美化后的选择图片4]]
 
-進入這個界面後，就可以設置服務器名稱、用戶名和密碼了。Ubuntu Server安裝器創建的是一個普通用戶，並授予它`sudo`權限；Ubuntu默認鎖定`root`賬號，因此這裏不需要把用戶名填成`root`。我使用的是`amiya`，後續通過`ssh amiya@服务器地址`登錄，需要管理員權限時再執行`sudo`。
+進入這個界面後，就可以設置服務器名稱、用戶名和密碼了。Ubuntu Server安裝器創建的是一個普通用戶，並授予它`sudo`權限；Ubuntu默認鎖定`root`賬號，因此這裡不需要把用戶名填成`root`。我使用的是`amiya`，後續通過`ssh amiya@服务器地址`登錄，需要管理員權限時再執行`sudo`。
 
-請記住這裏設置的主機名、用戶名和密碼。忘記密碼也不一定需要重新刷機，但恢復過程會麻煩很多。
+請記住這裡設置的主機名、用戶名和密碼。忘記密碼也不一定需要重新刷機，但恢復過程會麻煩很多。
 
 然後中間會有一個讓你選擇是否是ubuntu pro的，直接跳過就行了，正常人基本用不到hh
 
@@ -63,11 +65,11 @@ translationKey: posts/make-home-server/make-home-server
 
 然後安裝器會列出一些常見的服務器軟件。如果確實需要，可以用空格鍵勾選；暫時沒有需求就直接選擇`Done`。
 
-最後點擊`Reboot Now`後，如果出現了**Please remove the installation medium, then press ENTER**就比較簡單了，拔掉U盤再點擊enter就可以正常啓動了！如果沒有出現這些，那就在黑屏後拔掉，否則你就要即刻輪迴......
+最後點擊`Reboot Now`後，如果出現了**Please remove the installation medium, then press ENTER**就比較簡單了，拔掉U盤再點擊enter就可以正常啟動了！如果沒有出現這些，那就在黑屏後拔掉，否則你就要即刻輪迴......
 
 ## 初始配置
 
-爲了後面連接的方便，站長選擇用tailscale組網
+為了後面連接的方便，站長選擇用tailscale組網
 
 ```
 sudo apt update && sudo apt full-upgrade -y
@@ -88,7 +90,7 @@ tailscale ip -4
 然後目前的fast note sync也成功遷移到家寬服務器上，讓我的博客的數據同步的更快一些
 
 > [!NOTE]
-> 然後暫時也不知道搞什麼了喵，不過有一個放在家裏的國內家寬服務器還是挺有趣的喵。實測上行帶寬約70 Mbps，2核4GB也能用。如果你看到這裏了，歡迎給我一些如何利用好這個家寬小服務器的建議！
+> 然後暫時也不知道搞什麼了喵，不過有一個放在家裡的國內家寬服務器還是挺有趣的喵。實測上行帶寬約70 Mbps，2核4GB也能用。如果你看到這裡了，歡迎給我一些如何利用好這個家寬小服務器的建議！
 
 ## 繼續讀
 

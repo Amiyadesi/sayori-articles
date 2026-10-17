@@ -2730,10 +2730,10 @@
 				},
 				{
 					"category": "community",
-					"name": "博客：免费 AI API 清单",
-					"url": "https://blog.sayori.org/posts/freeapi-glm-kimi-cc-switch/",
-					"desc": "免费 AI API、额度和入口的整理文章。",
-					"usage": "先读说明，再逐个核对目标服务。",
+					"name": "博客：官方学生 AI 额度与 cc-switch",
+					"url": "https://blog.sayori.org/posts/anyrouter-sharedchat-cc-switch-student-guide/",
+					"desc": "官方学生 AI 额度申请与 cc-switch 开发环境配置教程。",
+					"usage": "阅读教程，申请对应的官方学生权益。",
 					"license": "文章会过时，具体服务条款以原站为准。",
 					"added": "2026-09-05"
 				},

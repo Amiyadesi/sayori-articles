@@ -8,15 +8,12 @@ updateCount: 3
 description: 各种站长社区和组织！反正加入了也不会吃亏，想加入的可以看看！
 image: ""
 tags:
-  - 叙事
-  - 中文社区
-  - 创作者
+  - 2026夏
+  - 社区记录
   - 独立博客
-category: 互联网与社区
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/internet-community-3/internet-community-3
 ---
 上一篇写到了国内的一些二次元兴趣社区（雾），这一篇正好最近站长发现了一堆这种站长组织和社区，所以写一个文章来总结总结
 ![[Pasted image 20260806154510.png|width=1000|align=center|caption=仙之人兮列入麻]]

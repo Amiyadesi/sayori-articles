@@ -1,33 +1,21 @@
 {
-  "id": "2026-09-21-deals-weekly-game-dev",
-  "updated": "2026-09-21",
-  "title": "最近的更新",
-  "content": "最近有几件事想和你分享：羊毛文章已经单独整理到一个页面，我也开始尝试周更文章和制作游戏开发视频了。\n\n欢迎从下面的链接开始：浏览羊毛专区，阅读周更文章，或者去 Bilibili 和 YouTube 看游戏开发视频。",
+  "id": "2026-10-16-series-overhaul",
+  "updated": "2026-10-16",
+  "title": "站点文章分类与系列整理",
+  "content": "最近把站内文章按「个人记录」「主观思考」「教程教学」三大类重新整理了，每个大类下面都规划了对应的阅读系列\n\n欢迎从下面的入口浏览本站文章与系列索引，或者阅读最近的新文章",
   "closable": true,
   "links": [
     {
       "enable": true,
-      "text": "浏览羊毛专区",
-      "url": "/deals/",
+      "text": "浏览本站文章与系列索引",
+      "url": "/posts/site-article-index/",
       "external": false
     },
     {
       "enable": true,
-      "text": "阅读周更文章",
-      "url": "/posts/weakly-articles-01/",
+      "text": "从 90%+ 到 66.7%",
+      "url": "/posts/from-90-to-66.7/",
       "external": false
-    },
-    {
-      "enable": true,
-      "text": "观看 Bilibili 游戏开发视频",
-      "url": "https://www.bilibili.com/video/BV1czeh62EeG",
-      "external": true
-    },
-    {
-      "enable": true,
-      "text": "观看 YouTube 游戏开发视频",
-      "url": "https://youtu.be/9tKfUfVxHS8",
-      "external": true
     }
   ]
 }

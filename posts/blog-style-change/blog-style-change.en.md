@@ -8,10 +8,8 @@ lastEdited: 2026-10-17
 updateCount: 1
 description: I finally replaced the cluttered style with a blog that feels like mine
 image: ""
-tags:
-  - Personal Blog
-  - Style
-category: Website Building & Self-Hosting
+tags: ["Autumn 2026","Independent Blog","Growth Reflection"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

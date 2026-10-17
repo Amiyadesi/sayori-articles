@@ -8,15 +8,13 @@ updateCount: 2
 description: ""
 image: ""
 tags:
-  - 资源整合
+  - 2026夏
+  - 工具记录
   - Godot
-  - 插件
-  - 开发工具
-category: 游戏开发
+  - 游戏开发
+category: 个人记录
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/godot-useful-plugins/godot-useful-plugins
 ---
 
 # 开头

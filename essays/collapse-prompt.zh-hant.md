@@ -1,4 +1,4 @@
-﻿---
+---
 title: 崩潰提示詞：我還是要做遊戲
 published: 2026-05-26
 created: 2026-05-26
@@ -9,8 +9,10 @@ description: 一段很直接的情緒記錄，關於項目被 AI 改壞、懷疑
 image: ""
 tags:
   - 隨筆
+  - 2026春
   - 獨立遊戲
-category: 日常回聲
+  - 創作者心態
+category: 主觀思考
 draft: false
 lang: zh-Hant
 translationKey: essays/collapse-prompt

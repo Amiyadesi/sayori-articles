@@ -7,20 +7,9 @@ lastEdited: 2026-10-17
 updateCount: 4
 description: A brief compilation of Tampermonkey scripts, Immersive Translate, Bitwarden, Global Speed, SimilarSites, AI assistant extensions, and privacy extensions.
 image: ""
-tags:
-  - Resource Curation
-  - Browser Extensions
-  - Productivity Tools
-  - Privacy
-category: Tools & Resources
+tags: ["Summer 2026","Tool Notes","Browser Extensions","Productivity Toolbox"]
+category: Personal Records
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Organizes script, translation, password, speed control, and site discovery extensions."
-    - "Also includes AI assistant and privacy-related extensions."
-    - "Check permission scope and data usage before installing."
 alias: ""
 lang: en
 translationKey: posts/useful-browser-extensions-toolbox/useful-browser-extensions-toolbox
@@ -46,7 +35,7 @@ Tampermonkey scripts, famous as they are, probably need no introduction. They're
 
 # ~~Immersive Translate~~ — Peiduwa 🐸
 ![[Pasted image 20260718200848.png|width=560|align=center|caption=Peiduwa Extension]]
-You can find it in the extension store. It's really comfortable for bilingual translation, and the built-in free features are pretty good. If you have higher demands, you can top up some DeepSeek and use DeepSeek v4 Flash for translation, which should last a long time. Or you can look for some public DeepSeek sites, like the ones mentioned in my article [[anyrouter-sharedchat-cc-switch-student-guide|AI credits and cc-switch]].
+You can find it in the extension store. It's really comfortable for bilingual translation, and the built-in free features are pretty good. If you have higher demands, you can top up the official DeepSeek API or connect an official student AI quota as described in [[anyrouter-sharedchat-cc-switch-student-guide|Official Student AI Quotas and cc-switch]].
 
 I recently tried Peiduwa and realized translation could be this fast! Immersive Translate, who are you? I don't know you. Don't disturb me and Peiduwa living our lives.
 

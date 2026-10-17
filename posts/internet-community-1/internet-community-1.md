@@ -8,23 +8,13 @@ updateCount: 18
 description: 第一篇中文互联网社区记录，先只讲 Linux.do 和 NodeLoc：它们适合看什么，新人进去前要注意什么。
 image: ""
 tags:
-  - 叙事
+  - 2026夏
+  - 社区记录
   - Linux.do
   - NodeLoc
-  - 中文社区
-  - NodeSeek
-category: 互联网与社区
+category: 个人记录
 draft: false
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: codex-local
-  items:
-    - 从 Linux.do 和 NodeLoc 开始记录中文互联网社区
-    - 说明各自适合看什么内容和参与方式
-    - 新人进社区前先把规则和氛围看明白
 alias: ""
-lang: zh-Hans
-translationKey: posts/internet-community-1/internet-community-1
 ---
 
 # 互联网社区记录 1：Linux.do NodeLoc和NodeSeek

@@ -7,22 +7,11 @@ lastEdited: 2026-09-11
 updateCount: 2
 description: A long self-introduction story about losing weight, exercising, making games, hitting pitfalls, and finally bringing an idea to life for the first time.
 image: ""
-tags:
-  - Narrative
-  - Growth Reflection
-  - Indie Game
-category: Personal Record
+tags: ["Before 18","Growth Reflection","Indie Game"]
+category: Personal Records
 draft: false
 lang: en
 translationKey: posts/before-18-record/before-18-record
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Starting with weight loss, running, and fitness"
-    - "Documenting the excitement and pitfalls of making a game for the first time"
-    - "Looking back at the process of an idea truly coming to fruition for the first time"
-
 ---
 
 ## Beginning: Where This Story Starts

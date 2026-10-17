@@ -8,10 +8,10 @@ updateCount: 1
 description: 第一次去香港的開戶、電話卡、港版 iPhone、景點和吃飯記錄。
 image: ""
 tags:
-  - 敘事
-  - 旅遊
+  - 2026夏
+  - 旅行生活
   - 成長回顧
-category: 旅行與生活
+category: 個人記錄
 draft: false
 alias: ""
 lang: zh-Hant

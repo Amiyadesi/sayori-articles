@@ -7,24 +7,12 @@ lastEdited: 2026-10-17
 updateCount: 7
 description: External resource entry points for domains, hosting, comments, monitoring, self-hosting, Cloudflare, analytics, webmaster communities, and blog frameworks.
 image: ""
-tags:
-  - Resource Curation
-  - Webmaster Tools
-  - Independent Blog
-  - Self-Hosting
-category: Tools & Resources
+tags: ["Summer 2026","Tool Notes","Independent Blog","Website & Cloudflare"]
+category: Personal Records
 draft: false
 lang: en
 translationKey: posts/webmaster-resource-toolbox/webmaster-resource-toolbox
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "External list of resources for domains, hosting, comments, monitoring, and self-hosting."
-    - "Also covers Cloudflare, analytics, and personal site communities."
-    - "Always double-check pricing, terms, and availability for each service yourself."
 alias: blog-resource-toolbox
-
 ---
 
 This post only lists external resource links.

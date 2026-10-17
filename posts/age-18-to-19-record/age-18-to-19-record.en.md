@@ -4,25 +4,14 @@ published: 2026-05-28
 created: 2026-05-28
 updated: 2026-09-11
 lastEdited: 2026-09-11
-updateCount: 2
+updateCount: 4
 description: A record of growth from age 18 to 19, including game development, studies, life, personality development, and self-observation.
 image: ""
-tags:
-  - Retrospective
-  - Growth Reflection
-  - Indie Game
-category: Personal Record
+tags: ["Age 18-19","Growth Reflection","Indie Game"]
+category: Personal Records
 draft: false
 lang: en
 translationKey: posts/age-18-to-19-record/age-18-to-19-record
-aiSummary:
-  generatedAt: "2026-07-11"
-  model: "codex-local"
-  items:
-    - "Changes in game development, studies, and life between ages 18 and 19"
-    - "Ongoing organization of records on personality development and self-observation"
-    - "Not a list of achievements; also includes confusion and adjustments"
-
 ---
 > I hope data can model me, help me solve things I can't figure out on my own, so I'm recording all of this.
 

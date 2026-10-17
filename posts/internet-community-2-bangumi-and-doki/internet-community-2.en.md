@@ -7,12 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 7
 description: From Bangumi's entries and discussions, to the Doki Chinese Club forum I first joined, and finally a quick mention of South Plus.
 image: ""
-tags:
-  - Narrative
-  - Bangumi
-  - Doki Chinese Club
-  - Chinese Communities
-category: Internet & Communities
+tags: ["Summer 2026","Community Notes","Bangumi","Doki Chinese Club"]
+category: Personal Records
 draft: false
 alias: ""
 lang: en

@@ -8,15 +8,14 @@ updateCount: 1
 description: Own the Slice——AI时代下我们编码应该掌握的方法论？
 image: ""
 tags:
-  - 读后感
-  - 文章分享
-category: 互联网与社区
+  - 阅读思考
+  - 周更阅读
+  - AI工作流
+  - 2026秋
+category: 主观思考
 draft: false
 alias: ""
-lang: zh-Hans
-translationKey: posts/weakly-articles-02/weakly-articles-02
 ---
-
 [原文链接](https://www.kentlangley.com/blog/own-the-slice/)
 
 # 解读

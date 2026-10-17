@@ -2,19 +2,18 @@
 title: 开源思考和自身思考
 published: 2026-05-26
 created: 2026-05-26
-updated: 2026-08-14
-lastEdited: 2026-08-14
+updated: 2026-08-15
+lastEdited: 2026-08-15
 updateCount: 1
 description: 一段关于开源工作流、表达欲、独立游戏、天赋和继续学习的真实碎片。
 image: ""
 tags:
   - 随笔
+  - 2026春
   - 开源
   - 独立游戏
-category: 日常回声
+category: 主观思考
 draft: false
-lang: zh-Hans
-translationKey: essays/open-source-and-self-reflection
 ---
 
 关于看到了大佬分享的gemini gem 工作流，确实很强，而且人家也是热衷于开源并且做出了成果，我虽然声称也想要开源，不过我吗....估计也有成果，那个懒得维护交给AI的网站？或许我可以尝试写写文章在5月1日左右......

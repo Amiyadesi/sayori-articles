@@ -7,10 +7,8 @@ lastEdited: 2026-10-17
 updateCount: 1
 description: About to survive the damn finals week, a summary of the past, thoughts on the future, all in one article.
 image: ""
-tags:
-  - Indie Game
-  - Growth Reflection
-category: Game Development
+tags: ["Summer 2026","Indie Game","Growth Reflection"]
+category: Personal Records
 draft: false
 alias: re0game-dev-life
 lang: en
