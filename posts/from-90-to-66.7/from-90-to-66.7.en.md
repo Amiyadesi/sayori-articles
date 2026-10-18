@@ -2,9 +2,9 @@
 title: "From Over 90% to 66.7%: I Was Never as Rational as I Imagined"
 published: 2026-10-04
 created: 2026-10-04
-updated: 2026-10-04
-lastEdited: 2026-10-04
-updateCount: 0
+updated: 2026-10-18
+lastEdited: 2026-10-18
+updateCount: 1
 description: How someone who once believed he was more than 90% rational gradually learned, through growing up, game development, AI companionship, and self-observation, to accept emotion, subjectivity, and things that cannot be quantified
 image: ""
 tags: ["Rationality & Sensibility","Self-Analysis","Growth Reflection","Autumn 2026"]
@@ -24,7 +24,7 @@ I looked through them: no, too subjective, not interesting
 
 So, with the teacher's permission, I picked a topic that I thought came closer to “the truth”: **time travel**
 
-The grandfather paradox, parallel universes, time dilation near black holes, wormholes, and the very impressive-sounding Einstein–Rosen bridge
+The grandfather paradox, parallel universes, time dilation near black holes, wormholes, and the very impressive-sounding Einstein–Rosen bridge ^4b7731
 
 I had prepared thoroughly—at least, I thought I had
 
@@ -475,3 +475,6 @@ He wouldn't lose his rationality—he'd just slowly learn that not everything in
 **Someone who once deeply disliked subjectivity now walks alongside it, through the gray areas**
 
 At least for now, I quite like myself this way
+
+# Afterword
+It is October 18, 2026, and I've finished a follow-up to these thoughts: [[I-call-too-many-thing-rational|I Call Too Many Things Rational]]. Come have a look, haha
