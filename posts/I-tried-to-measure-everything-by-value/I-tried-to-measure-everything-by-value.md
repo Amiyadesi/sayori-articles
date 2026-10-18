@@ -13,6 +13,8 @@ tags:
 category: 主观思考
 draft: false
 alias: ""
+lang: zh-CN
+translationKey: posts/I-tried-to-measure-everything-by-value/I-tried-to-measure-everything-by-value
 ---
 # 起因
 今天早上做了一个噩梦

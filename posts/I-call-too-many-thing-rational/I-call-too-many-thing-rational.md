@@ -14,6 +14,8 @@ tags:
 category: 主观思考
 draft: false
 alias: ""
+lang: zh-CN
+translationKey: posts/I-call-too-many-thing-rational/I-call-too-many-thing-rational
 ---
 # 起因
 
