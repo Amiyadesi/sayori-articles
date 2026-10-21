@@ -50,6 +50,10 @@
           "external": true
         },
         {
+          "name": "课表",
+          "url": "/timetable/"
+        },
+        {
           "name": "设置",
           "url": "/settings/"
         }
