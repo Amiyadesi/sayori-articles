@@ -50,6 +50,10 @@
           "external": true
         },
         {
+          "name": "Timetable",
+          "url": "/timetable/"
+        },
+        {
           "name": "Settings",
           "url": "/settings/"
         }
