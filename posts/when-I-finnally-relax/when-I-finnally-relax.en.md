@@ -18,7 +18,7 @@ translationKey: posts/when-I-finnally-relax/when-I-finnally-relax
 
 > [!NOTE] Music recommendations
 > I finally know the name of the pure music I heard recently. It’s called "Chasing Mercury". It’s quite romantic. The music also has a sense of absurdity and sadness. Anyway, I think it’s very suitable for this article haha
-::music-track{title="追逐水星" artist="像素小猫" netease="3444832640" link="https://music.163.com/#/song?id=3444832640"}
+::music-track{title="追逐水星" artist="辛辛君" netease="2029922465" link="https://music.163.com/#/song?id=2029922465"}
 
 ---
 
