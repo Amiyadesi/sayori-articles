@@ -18,7 +18,7 @@ translationKey: posts/when-I-finnally-relax/when-I-finnally-relax
 
 > [!NOTE] 音樂推薦
 > 最近聽到的純音樂，終於知道名字了，叫《追逐水星》，還挺浪漫的，音樂也很有一種荒誕和憂傷的感覺，反正我覺得很適合這個文章哈哈
-::music-track{title="追逐水星" artist="辛辛君" netease="2029922465" link="https://music.163.com/#/song?id=2029922465"}
+::music-track{title="追逐水星" artist="像素小猫" netease="3444832640" link="https://music.163.com/#/song?id=3444832640"}
 
 ---
 
