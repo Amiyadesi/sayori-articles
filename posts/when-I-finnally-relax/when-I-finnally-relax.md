@@ -18,7 +18,7 @@ alias: ""
 
 > [!NOTE] 音乐推荐
 > 最近听到的纯音乐，终于知道名字了，叫《追逐水星》，还挺浪漫的，音乐也很有一种荒诞和忧伤的感觉，反正我觉得很适合这个文章哈哈
-::music-track{title="追逐水星" artist="像素小猫" netease="3444832640" link="https://music.163.com/#/song?id=3444832640"}
+::music-track{title="追逐水星" artist="辛辛君" netease="2029922465" link="https://music.163.com/#/song?id=2029922465"}
 
 ---
 
