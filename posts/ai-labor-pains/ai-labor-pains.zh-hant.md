@@ -20,7 +20,7 @@ translationKey: posts/ai-labor-pains/ai-labor-pains
 
 > 如果AI連**好玩**都能理解並且製作出來，那做遊戲是真的沒有意思了
 > 所以現在的AI還做不出好玩的遊戲，挺值得慶幸啊......
-> {播放紙皇冠和小木劍}
+::music-track{title="紙皇冠與小木劍" artist="銀河小魚" netease="3343165734" link="https://music.163.com/#/song?id=3343165734"}
 # 起因
 
 AI 陣痛，還真是最近幾年老生常談的話題
