@@ -20,7 +20,7 @@ translationKey: posts/ai-labor-pains/ai-labor-pains
 
 > If AI can understand and create something **fun**, then making games really will become meaningless
 > So the fact that today's AI still can't make fun games is actually worth being grateful for......
-> {Play Paper Crown and Wooden Sword}
+::music-track{title="纸皇冠与小木剑" artist="银河小鱼" netease="3343165734" link="https://music.163.com/#/song?id=3343165734"}
 # The Beginning
 
 AI growing pains. It really has become one of those topics people have talked about endlessly over the past few years
