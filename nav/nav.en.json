@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Resource Navigation · Amiya's Desk",
 		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
-		"updated": "2026-09-05",
+		"updated": "2026-11-05",
 		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
 	},
 	"categories": [
@@ -393,14 +393,6 @@
 					"license": ""
 				},
 				{
-					"category": "game-assets",
-					"name": "Godot C/C++ 扩展调试文章",
-					"url": "https://godot.atomgit.com/explore/journalism/detail/401311954326654976",
-					"desc": "Curated game assets & resources resource.",
-					"usage": "",
-					"license": ""
-				},
-				{
 					"name": "itch.io Free Game Assets",
 					"url": "https://itch.io/game-assets/free",
 					"desc": "Index of free asset packs from indie authors.",
@@ -485,6 +477,22 @@
 					"usage": "Search a name and copy the SVG.",
 					"license": "ISC license.",
 					"added": "2026-09-04"
+				},
+				{
+					"name": "Mixamo",
+					"url": "https://www.mixamo.com/",
+					"desc": "3D characters, auto-rigging, and motion-captured animations.",
+					"usage": "Upload a character or pick one, then export the animation.",
+					"license": "Use under the current Adobe/Mixamo terms.",
+					"added": "2026-11-05"
+				},
+				{
+					"name": "Sketchfab",
+					"url": "https://sketchfab.com/",
+					"desc": "Browse, showcase, and download 3D models online.",
+					"usage": "Check each model license and download format first.",
+					"license": "Licenses vary by model; verify them one by one.",
+					"added": "2026-11-05"
 				}
 			]
 		},
@@ -1021,6 +1029,22 @@
 					"license": "Public and free.",
 					"added": "2026-09-04",
 					"tier": "good"
+				},
+				{
+					"name": "The Odin Project",
+					"url": "https://www.theodinproject.com/",
+					"desc": "Project-based web development curriculum from basics to full stack.",
+					"usage": "Follow a path through HTML/CSS/JavaScript, then build.",
+					"license": "Free public course.",
+					"added": "2026-11-05"
+				},
+				{
+					"name": "Full Stack Open",
+					"url": "https://fullstackopen.com/en/",
+					"desc": "University of Helsinki course on modern JavaScript full-stack development.",
+					"usage": "Start at Part 0 and work through the exercises.",
+					"license": "CC BY-NC-SA 3.0; commercial use is restricted.",
+					"added": "2026-11-05"
 				}
 			]
 		},
@@ -1560,6 +1584,14 @@
 					"usage": "Pick a flavor and paste sample text.",
 					"license": "Free.",
 					"added": "2026-09-04"
+				},
+				{
+					"name": "CyberChef",
+					"url": "https://gchq.github.io/CyberChef/",
+					"desc": "Browser-based encoding, decoding, hashing, and data-processing toolbox.",
+					"usage": "Drop data into a recipe; avoid pasting sensitive data on shared devices.",
+					"license": "Open source, Apache-2.0.",
+					"added": "2026-11-05"
 				}
 			]
 		},
@@ -2356,14 +2388,6 @@
 				},
 				{
 					"category": "webmaster",
-					"name": "Cusdis",
-					"url": "https://cusdis.com/",
-					"desc": "Curated webmaster tools resource.",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "webmaster",
 					"name": "Gatus",
 					"url": "https://gatus.io/",
 					"desc": "Curated webmaster tools resource.",
@@ -2743,15 +2767,6 @@
 				},
 				{
 					"category": "webmaster",
-					"name": "GeoScore Public API",
-					"url": "https://geo-api.sayori.org/",
-					"desc": "Public GeoScore audit API and machine-readable endpoints.",
-					"usage": "Read the API documentation before calling it.",
-					"license": "Best-effort service; uptime and latency are not guaranteed.",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "webmaster",
 					"name": "GeoScore Docs",
 					"url": "https://geo.sayori.org/docs",
 					"desc": "Bilingual docs for GeoScore, BYOK, monitoring, and API usage.",
@@ -2867,6 +2882,30 @@
 					"usage": "Use it when you want a visual Docker console.",
 					"license": "Community edition is free.",
 					"added": "2026-09-04"
+				},
+				{
+					"name": "WebPageTest",
+					"url": "https://www.webpagetest.org/",
+					"desc": "Test web performance across locations, devices, and network conditions.",
+					"usage": "Run a mobile test first, then inspect the waterfall and Core Web Vitals.",
+					"license": "Hosted service; see the open-source project separately.",
+					"added": "2026-11-05"
+				},
+				{
+					"name": "Wappalyzer",
+					"url": "https://www.wappalyzer.com/",
+					"desc": "Identify the CMS, frameworks, analytics, and infrastructure behind a site.",
+					"usage": "Treat the result as a lead, not a complete asset inventory.",
+					"license": "Features and quotas follow the site terms.",
+					"added": "2026-11-05"
+				},
+				{
+					"name": "Lighthouse",
+					"url": "https://developer.chrome.com/docs/lighthouse/overview",
+					"desc": "Chrome tooling for performance, accessibility, and SEO audits.",
+					"usage": "Run an audit from DevTools or the CLI.",
+					"license": "Open-source tool; free documentation.",
+					"added": "2026-11-05"
 				}
 			]
 		},
@@ -3056,14 +3095,6 @@
 					"url": "https://ldjam.com/",
 					"desc": "Long-running international game jam.",
 					"usage": "Check the season dates before joining.",
-					"license": "Free to enter.",
-					"added": "2026-09-04"
-				},
-				{
-					"name": "GMTK Game Jam",
-					"url": "https://itch.io/jam/gmtk",
-					"desc": "Large annual indie jam.",
-					"usage": "Treat it as a yearly calendar event.",
 					"license": "Free to enter.",
 					"added": "2026-09-04"
 				},
