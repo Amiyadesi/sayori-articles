@@ -1,5 +1,4 @@
 ---
-translationKey: posts/ziwojieshao/self introduction
 title: 又来做一次自我介绍了（2026 年 11 月）
 published: 2026-07-13
 created: 2026-07-13

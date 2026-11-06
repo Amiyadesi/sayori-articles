@@ -1,5 +1,4 @@
 ---
-translationKey: posts/beginner-fitness-02/beginner-fitness-02
 title: 新手锻炼教学——有氧运动
 published: 2026-11-06
 created: 2026-11-06

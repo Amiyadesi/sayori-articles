@@ -1,5 +1,4 @@
 ---
-translationKey: posts/beginner-fitness-01/beginner-fitness-01
 title: 新手锻炼教学——起步和概念
 published: 2026-11-06
 created: 2026-11-06

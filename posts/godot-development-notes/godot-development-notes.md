@@ -1,5 +1,4 @@
 ---
-translationKey: posts/godot-development-notes/godot-development-notes
 title: 个人Godot使用技巧和习惯
 published: 2026-11-06
 created: 2026-10-19
