@@ -281,3 +281,5 @@ Finally, I hope this article can make you a little interested in exercise
 You don't have to lose weight, and you don't have to build any particular physique
 
 Finding a kind of exercise you enjoy and are willing to keep doing long-term is already a very good start
+
+Next up: [[beginner-fitness-02|A beginner's guide to exercise — aerobic exercise]]
