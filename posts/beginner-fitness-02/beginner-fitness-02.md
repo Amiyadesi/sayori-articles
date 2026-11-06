@@ -370,3 +370,5 @@ alias: ""
 - [美国心脏协会：热身和放松](https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down)
     
 - [Cochrane：拉伸与运动后肌肉酸痛](https://www.cochrane.org/evidence/CD004577_stretching-prevent-or-reduce-muscle-soreness-after-exercise)
+
+下一篇：[[beginner-fitness-03|新手锻炼教学——无氧和力量]]

@@ -372,3 +372,5 @@ lang: zh-Hant
 - [美國心臟協會：熱身和放鬆](https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down)
     
 - [Cochrane：拉伸與運動後肌肉痠痛](https://www.cochrane.org/evidence/CD004577_stretching-prevent-or-reduce-muscle-soreness-after-exercise)
+
+下一篇：[[beginner-fitness-03|新手鍛鍊教學——無氧和力量]]

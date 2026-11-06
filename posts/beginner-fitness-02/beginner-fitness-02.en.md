@@ -370,3 +370,5 @@ From push-ups and squats to the various machines in the gym — let's look at ho
 - [American Heart Association: warm-up and cool-down](https://www.heart.org/en/healthy-living/exercise-and-physical-activity/fitness-basics/warm-up-cool-down)
     
 - [Cochrane: stretching and post-exercise muscle soreness](https://www.cochrane.org/evidence/CD004577_stretching-prevent-or-reduce-muscle-soreness-after-exercise)
+
+Next up: [[beginner-fitness-03|A beginner's guide to exercise — anaerobic training and strength]]
