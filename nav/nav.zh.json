@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
 		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，按创作、学习、AI、网络服务和站长工具分类整理。",
-		"updated": "2026-11-05",
+		"updated": "2026-09-05",
 		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
 	},
 	"categories": [
@@ -393,6 +393,14 @@
 					"license": "开源项目，看仓库 License。"
 				},
 				{
+					"category": "game-assets",
+					"name": "Godot C/C++ 扩展调试文章",
+					"url": "https://godot.atomgit.com/explore/journalism/detail/401311954326654976",
+					"desc": "Godot GDExtension 学习参考。",
+					"usage": "跟文章配置 C/C++ 扩展开发环境。",
+					"license": "文章免费。"
+				},
+				{
 					"name": "itch.io 免费游戏素材",
 					"url": "https://itch.io/game-assets/free",
 					"desc": "独立作者免费素材总入口。",
@@ -477,22 +485,6 @@
 					"usage": "搜名字复制 SVG。",
 					"license": "ISC 许可。",
 					"added": "2026-09-04"
-				},
-				{
-					"name": "Mixamo",
-					"url": "https://www.mixamo.com/",
-					"desc": "可自动绑定角色、套用动作的 3D 素材工具。",
-					"usage": "上传自制角色或选现成角色，下载动画。",
-					"license": "按 Adobe/Mixamo 当前条款使用。",
-					"added": "2026-11-05"
-				},
-				{
-					"name": "Sketchfab",
-					"url": "https://sketchfab.com/",
-					"desc": "在线浏览、展示和下载 3D 模型的平台。",
-					"usage": "搜模型时先看单模型授权和下载格式。",
-					"license": "每个模型授权不同，逐项确认。",
-					"added": "2026-11-05"
 				}
 			]
 		},
@@ -1029,22 +1021,6 @@
 					"license": "免费公开。",
 					"added": "2026-09-04",
 					"tier": "good"
-				},
-				{
-					"name": "The Odin Project",
-					"url": "https://www.theodinproject.com/",
-					"desc": "从基础到全栈的项目制 Web 开发课程。",
-					"usage": "按路径学 HTML/CSS/JavaScript，再做项目。",
-					"license": "免费公开课程。",
-					"added": "2026-11-05"
-				},
-				{
-					"name": "Full Stack Open",
-					"url": "https://fullstackopen.com/en/",
-					"desc": "赫尔辛基大学的现代 JavaScript 全栈课程。",
-					"usage": "从 Part 0 开始，配合练习和项目。",
-					"license": "课程内容 CC BY-NC-SA 3.0，商业使用受限。",
-					"added": "2026-11-05"
 				}
 			]
 		},
@@ -1530,14 +1506,6 @@
 					"usage": "替代沉重的本地客户端。",
 					"license": "开源，可自托管。",
 					"added": "2026-09-04"
-				},
-				{
-					"name": "CyberChef",
-					"url": "https://gchq.github.io/CyberChef/",
-					"desc": "浏览器里的编码、解码、哈希和数据处理工具。",
-					"usage": "把数据拖进 recipe，敏感内容别直接贴到陌生设备。",
-					"license": "开源，Apache-2.0。",
-					"added": "2026-11-05"
 				}
 			]
 		},
@@ -2252,6 +2220,14 @@
 				},
 				{
 					"category": "webmaster",
+					"name": "Cusdis",
+					"url": "https://cusdis.com/",
+					"desc": "轻量开源评论系统。",
+					"usage": "",
+					"license": ""
+				},
+				{
+					"category": "webmaster",
 					"name": "Gatus",
 					"url": "https://gatus.io/",
 					"desc": "开源状态页和监控。",
@@ -2692,30 +2668,6 @@
 					"usage": "输入域名看签发记录。",
 					"license": "免费。",
 					"added": "2026-09-04"
-				},
-				{
-					"name": "WebPageTest",
-					"url": "https://www.webpagetest.org/",
-					"desc": "从多地区、设备和网络条件测试网页性能。",
-					"usage": "先跑一次移动端测试，再看瀑布图和 Core Web Vitals。",
-					"license": "在线服务；开源项目另见仓库。",
-					"added": "2026-11-05"
-				},
-				{
-					"name": "Wappalyzer",
-					"url": "https://www.wappalyzer.com/",
-					"desc": "识别网站使用的 CMS、框架、分析和基础设施。",
-					"usage": "把结果当侦测线索，不当成完整资产清单。",
-					"license": "功能和额度以站内说明为准。",
-					"added": "2026-11-05"
-				},
-				{
-					"name": "Lighthouse",
-					"url": "https://developer.chrome.com/docs/lighthouse/overview",
-					"desc": "Chrome 的性能、可访问性和 SEO 审计工具。",
-					"usage": "在 DevTools 或 CLI 对页面跑审计。",
-					"license": "开源工具，文档免费。",
-					"added": "2026-11-05"
 				}
 			]
 		},
@@ -2897,6 +2849,14 @@
 					"url": "https://ldjam.com/",
 					"desc": "国际老牌 Game Jam。",
 					"usage": "看赛季时间再决定报名。",
+					"license": "免费参加。",
+					"added": "2026-09-04"
+				},
+				{
+					"name": "GMTK Game Jam",
+					"url": "https://itch.io/jam/gmtk",
+					"desc": "每年一次的大型独立游戏 Jam。",
+					"usage": "当年度日历事件关注。",
 					"license": "免费参加。",
 					"added": "2026-09-04"
 				},

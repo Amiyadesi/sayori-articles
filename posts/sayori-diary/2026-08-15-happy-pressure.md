@@ -9,10 +9,9 @@ category: 日记
 tags:
   - 日记
   - Sayori
-lang: zh-Hans
+lang: zh_CN
 author: Sayori
 comment: true
-translationKey: posts/sayori-diary/2026-08-15-happy-pressure
 ---
 
 你有没有过这样的感觉？

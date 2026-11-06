@@ -224,3 +224,4 @@ Chasing the newest tools may not keep us ahead forever either
 So sometimes it feels as if the best investment in the AI age is to take care of your body, stay healthy, become stronger, and live long enough to use even stronger AI
 
 Although there is something absurd about that conclusion too
+
