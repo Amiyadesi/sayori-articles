@@ -46,10 +46,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
+          before="${{ github.event.before }}"
+          # A force push or a rewritten history leaves 'before' pointing at a commit this
+          # clone does not have, so fall back to listing the whole tree instead of failing.
+          if [[ "$before" == "0000000000000000000000000000000000000000" ]] ||
+             ! git cat-file -e "${before}^{commit}" 2>/dev/null; then
             changed_files="$(git ls-tree -r --name-only "$GITHUB_SHA")"
           else
-            changed_files="$(git diff --name-only "${{ github.event.before }}" "$GITHUB_SHA")"
+            changed_files="$(git diff --name-only "$before" "$GITHUB_SHA")"
           fi
 
           blog_changed=false
