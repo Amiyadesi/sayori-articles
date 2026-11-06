@@ -7,8 +7,9 @@ lastEdited: 2026-10-24
 updateCount: 0
 description: 当我终于休息下来，发现为了休息，已经付出了太多......
 image: ""
-tags: []
-category: ""
+tags:
+  - 个人思考
+category: 个人记录
 draft: false
 lang: zh-Hans
 translationKey: posts/when-I-finnally-relax/when-I-finnally-relax

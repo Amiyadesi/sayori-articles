@@ -7,8 +7,9 @@ lastEdited: 2026-10-24
 updateCount: 0
 description: 當我終於休息下來，發現為了休息，已經付出了太多......
 image: ""
-tags: []
-category: ""
+tags:
+  - 個人思考
+category: 個人記錄
 draft: false
 alias: ""
 lang: zh-Hant
