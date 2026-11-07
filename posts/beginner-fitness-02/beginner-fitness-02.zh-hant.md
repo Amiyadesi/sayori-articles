@@ -373,4 +373,4 @@ lang: zh-Hant
     
 - [Cochrane：拉伸與運動後肌肉痠痛](https://www.cochrane.org/evidence/CD004577_stretching-prevent-or-reduce-muscle-soreness-after-exercise)
 
-下一篇：[[beginner-fitness-03|新手鍛鍊教學——無氧和力量]]
+下一篇：[[posts/beginner-fitness-03/beginner-fitness-03|新手鍛鍊教學——無氧和力量]]

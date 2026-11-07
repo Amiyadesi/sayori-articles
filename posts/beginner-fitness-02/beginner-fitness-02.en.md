@@ -371,4 +371,4 @@ From push-ups and squats to the various machines in the gym — let's look at ho
     
 - [Cochrane: stretching and post-exercise muscle soreness](https://www.cochrane.org/evidence/CD004577_stretching-prevent-or-reduce-muscle-soreness-after-exercise)
 
-Next up: [[beginner-fitness-03|A beginner's guide to exercise — anaerobic training and strength]]
+Next up: [[posts/beginner-fitness-03/beginner-fitness-03|A beginner's guide to exercise — anaerobic training and strength]]
