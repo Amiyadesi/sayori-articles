@@ -371,4 +371,4 @@ alias: ""
     
 - [Cochrane：拉伸与运动后肌肉酸痛](https://www.cochrane.org/evidence/CD004577_stretching-prevent-or-reduce-muscle-soreness-after-exercise)
 
-下一篇：[[posts/beginner-fitness-03/beginner-fitness-03|新手锻炼教学——无氧和力量]]
+下一篇：[[beginner-fitness-03|新手锻炼教学——无氧和力量]]
