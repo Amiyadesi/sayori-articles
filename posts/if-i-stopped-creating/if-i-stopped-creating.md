@@ -6,7 +6,7 @@ updated: 2026-11-20
 lastEdited: 2026-11-20
 updateCount: 0
 description: "在六级、期末考试和游戏开发之间，我开始怀疑：为什么曾经让我快乐的创作，也逐渐变成了一场必须证明自己的考试？这是一次关于大学生活、创作焦虑与自由的真实思考"
-image: "./cover.webp"
+image: "/images/posts/if-i-stopped-creating/cover.webp"
 tags:
   - 独立游戏
   - 创作

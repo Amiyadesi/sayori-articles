@@ -6,7 +6,7 @@ updated: 2026-11-20
 lastEdited: 2026-11-20
 updateCount: 0
 description: "夾在六級考試、期末考和遊戲開發之間，我開始想：曾經讓我快樂的創作，怎麼也變成了一場非得證明自己的考試？一篇關於大學生活、創作焦慮與自由的隨筆"
-image: "./cover.webp"
+image: "/images/posts/if-i-stopped-creating/cover.webp"
 tags:
   - 獨立遊戲
   - 創作

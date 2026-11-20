@@ -6,7 +6,7 @@ updated: 2026-11-20
 lastEdited: 2026-11-20
 updateCount: 0
 description: "Between English exams, finals, and making my first Steam game, I started wondering when the thing I loved had become another test I had to pass."
-image: "./cover.webp"
+image: "/images/posts/if-i-stopped-creating/cover.webp"
 tags:
   - Indie games
   - Creativity
