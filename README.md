@@ -39,6 +39,12 @@ Every published post and essay must have a sibling `.en.md` or `.en.mdx`
 translation. The public-content verifier checks this pair before a publish can
 pass.
 
+Additional blog translations use sibling suffixes `.ja`, `.fr`, `.ko`, `.es`,
+`.de`, and `.pt-br` before `.md` or `.mdx`. Keep the Simplified Chinese original,
+publication metadata and shared `translationKey`. `lang` uses `pt-BR` for
+Brazilian Portuguese. Missing translations are omitted from those editions;
+the build does not present the Chinese original as a translated page.
+
 ## License
 
 Unless a file says otherwise, original text and structured content are available

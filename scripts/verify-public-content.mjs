@@ -8,6 +8,7 @@ const violations = [];
 const warnings = [];
 const CREDENTIAL_PATTERN = /(?:\bsk-[a-z0-9_-]{16,}\b|\bAIza[0-9A-Za-z_-]{20,}\b|-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----)/i;
 const TEXT_EXTENSIONS = new Set([".css", ".html", ".js", ".json", ".md", ".mdx", ".svg", ".toml", ".ts", ".txt", ".yaml", ".yml"]);
+const additionalLocaleSuffix = /\.(ja|fr|ko|es|de|pt-br)(?=\.(?:md|mdx)$)/i;
 
 for (const name of [".obsidian", ".env"]) {
 	if (fs.existsSync(path.join(root, name))) {
@@ -112,7 +113,19 @@ for (const directory of ["posts", "essays"]) {
 		}
 		const isEnglish = /\.en\.(?:md|mdx)$/i.test(filePath) || fields.lang?.toLowerCase() === "en";
 		const isTraditional = /\.zh-hant\.(?:md|mdx)$/i.test(filePath) || fields.lang?.toLowerCase() === "zh-hant";
-		if (!isEnglish && !isTraditional) {
+		const additionalLocale = filePath.match(additionalLocaleSuffix)?.[1];
+		if (additionalLocale) {
+			const originalPath = filePath.replace(additionalLocaleSuffix, "");
+			const original = fs.existsSync(originalPath) ? parseFrontmatter(frontmatter(fs.readFileSync(originalPath, "utf8"))) : null;
+			const expectedKey = original?.translationKey || relative(originalPath).replace(/\.(md|mdx)$/i, "");
+			if (!original || fields.lang?.toLowerCase() !== additionalLocale || fields.translationKey !== expectedKey) {
+				violations.push(`additional translation requires the original, matching lang and translationKey: ${relative(filePath)}`);
+			}
+			if (filePath.includes(`${path.sep}sayori-diary${path.sep}`) || original?.encrypted === "true") {
+				violations.push(`additional translation must be a public blog article: ${relative(filePath)}`);
+			}
+		}
+		if (!isEnglish && !isTraditional && !additionalLocale) {
 			const translationPath = filePath.replace(/\.(md|mdx)$/i, ".en.$1");
 			if (!fs.existsSync(translationPath)) {
 				violations.push(`missing English translation: ${relative(filePath)} -> ${relative(translationPath)}`);
