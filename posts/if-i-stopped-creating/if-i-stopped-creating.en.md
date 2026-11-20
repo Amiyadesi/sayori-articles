@@ -213,7 +213,7 @@ _The first edition, as we wrote it that day._
 
 I was so happy when we finished that I immediately had another idea. I have a personal website at [sayori.org](https://sayori.org). If I already have a .org domain, why not put something there that stands for what I actually believe?
 
-So Lyra and I gave the manifesto a place of its own: [**The Creative Freedom Manifesto**](https://sayori.org/en/manifesto/). You can read the full text and sign a private copy in your browser. If you want your nickname on the public roll of creators, you can apply through a GitHub issue.
+So Lyra and I gave the manifesto a place of its own: [**The Creative Freedom Manifesto**](https://sayori.org/en/manifesto/). You can read the full text and sign a private copy in your browser. If you’d like your nickname on the public roll of creators, you can apply right there—no account needed.
 
 Anyone who likes making things can write down a name and say, very solemnly:
 
