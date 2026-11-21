@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "资源导航 · Amiya的书桌",
 		"description": "Amiya_desi 反复回去用的工具、素材、学习资料、AI 入口、站长工具和资源导航，按创作、学习、AI、网络服务和站长工具分类整理。",
-		"updated": "2026-11-20",
+		"updated": "2026-11-21",
 		"disclaimer": "本站只保证链接在收录时做过基础访问检查，不保证目标站点持续运营、内容安全、服务质量或长期可访问性。这里仅收集和整理资源与工具网站，使用前请自行判断来源、授权和风险。"
 	},
 	"categories": [
@@ -543,14 +543,6 @@
 					"desc": "像素图处理工具。",
 					"usage": "上传图像做像素化/处理。",
 					"license": "浏览器工具。"
-				},
-				{
-					"category": "art",
-					"name": "PixelGif",
-					"url": "https://pixelgif.cn/#/saint11/12-",
-					"desc": "像素动画参考。",
-					"usage": "看逐帧动画案例。",
-					"license": "参考学习为主。"
 				},
 				{
 					"category": "art",

@@ -2,7 +2,7 @@
 	"meta": {
 		"title": "Resource Navigation · Amiya's Desk",
 		"description": "Amiya_desi's hand-curated resource navigation for tools, game assets, learning, AI, networking, and webmaster work. Suitable as a browser homepage.",
-		"updated": "2026-11-20",
+		"updated": "2026-11-21",
 		"disclaimer": "Links are checked when added, but availability, safety, service quality, and long-term operation are not guaranteed. This site only collects and organizes resource and tool websites. Check each destination before use."
 	},
 	"categories": [
@@ -540,14 +540,6 @@
 					"category": "art",
 					"name": "PerfectPixel Processor",
 					"url": "https://theamusing.github.io/perfectPixel_webdemo/",
-					"desc": "Curated art & animation resource.",
-					"usage": "",
-					"license": ""
-				},
-				{
-					"category": "art",
-					"name": "PixelGif",
-					"url": "https://pixelgif.cn/#/saint11/12-",
 					"desc": "Curated art & animation resource.",
 					"usage": "",
 					"license": ""
@@ -1242,15 +1234,6 @@
 					"desc": "Official SenseNova free-model and token plan entry.",
 					"usage": "Check current models and quotas before creating a key.",
 					"license": "Official entry; quota and regional terms apply.",
-					"added": "2026-08-03"
-				},
-				{
-					"category": "ai",
-					"name": "innilove New API",
-					"url": "https://api.innilove.xyz/keys",
-					"desc": "OpenAI-compatible API panel and key management entry.",
-					"usage": "Create a key after registration and follow the model list.",
-					"license": "Free quotas and uptime change; do not use for production secrets.",
 					"added": "2026-08-03"
 				},
 				{
