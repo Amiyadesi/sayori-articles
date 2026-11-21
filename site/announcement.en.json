@@ -6,6 +6,6 @@
   "closable": true,
   "links": [
     { "enable": true, "text": "Browse Site Article Index", "url": "/en/posts/site-article-index/", "external": false },
-    { "enable": true, "text": "From 90%+ to 66.7%", "url": "/en/posts/from-90-to-66.7/", "external": false }
+    { "enable": true, "text": "From 90%+ to 66.7%", "url": "/en/posts/from-90-to-667/", "external": false }
   ]
 }
