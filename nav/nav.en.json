@@ -546,6 +546,23 @@
 				},
 				{
 					"category": "art",
+					"name": "PixelGif",
+					"url": "http://pixelgif.cn/",
+					"desc": "Pixel animation references (unencrypted HTTP).",
+					"usage": "Browse frame-by-frame animation examples.",
+					"license": "For study and reference."
+				},
+				{
+					"category": "art",
+					"name": "PixelFX",
+					"url": "https://github.com/patch-gg/pixelfx",
+					"desc": "Open-source pixel effects and animations, including fire, explosions, and magic.",
+					"usage": "Preview effects in the gallery or export sprite sheets for Godot and other game engines.",
+					"license": "MIT for code and effects; excludes the gallery font.",
+					"added": "2026-11-21"
+				},
+				{
+					"category": "art",
 					"name": "Pixel Art Run Animation Tutorial",
 					"url": "https://www.youtube.com/watch?v=LPBvrdJ_1a8&list=PLBarSI1L3htlNR8oYQyKJ-1wBfSlocsCB&index=8",
 					"desc": "Curated art & animation resource.",

@@ -546,6 +546,23 @@
 				},
 				{
 					"category": "art",
+					"name": "PixelGif",
+					"url": "http://pixelgif.cn/",
+					"desc": "像素动画参考（HTTP，连接未加密）。",
+					"usage": "查看逐帧动画案例。",
+					"license": "参考学习为主。"
+				},
+				{
+					"category": "art",
+					"name": "PixelFX",
+					"url": "https://github.com/patch-gg/pixelfx",
+					"desc": "开源像素特效库，包含火焰、爆炸、魔法等动画。",
+					"usage": "在仓库的画廊预览，也可导出精灵图用于 Godot 等游戏引擎。",
+					"license": "代码和特效采用 MIT 许可；画廊字体除外。",
+					"added": "2026-11-21"
+				},
+				{
+					"category": "art",
 					"name": "Pixel Art Run Animation Tutorial",
 					"url": "https://www.youtube.com/watch?v=LPBvrdJ_1a8&list=PLBarSI1L3htlNR8oYQyKJ-1wBfSlocsCB&index=8",
 					"desc": "跑步动画教程。",
