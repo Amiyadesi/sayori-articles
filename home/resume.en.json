@@ -1,0 +1,321 @@
+{
+	"meta": {
+		"title": "Amiya_desi · Résumé — indie game developer who also builds tools",
+		"description": "Amiya_desi makes Godot games about time and echoes, and builds websites, tools and self-hosted services. 3 competition awards, 12 game jams and contests, playable games and open-source tools.",
+		"ogAlt": "The AMIYA_DESI pixel title screen"
+	},
+	"ui": {
+		"tagline": "An indie game developer who also builds tools",
+		"menuLabel": "Résumé menu",
+		"menu": {
+			"works": "Continue · Works",
+			"awards": "Achievements · Awards",
+			"skills": "Skill tree",
+			"jams": "Adventure log",
+			"contact": "Save point · Contact",
+			"options": "Options"
+		},
+		"press": "Press any key",
+		"skip": "Skip intro",
+		"hudLabel": "Character status",
+		"hudClass": "Class",
+		"hudClassValue": "Game developer",
+		"hudSub": "Subclass",
+		"hudSubValue": "Toolsmith",
+		"asOf": "As of {date}",
+		"stats": {
+			"awards": "competition awards",
+			"jams": "jams and contests",
+			"repos": "public repositories",
+			"services": "self-hosted services"
+		},
+		"windowControls": {
+			"minimize": "Minimize",
+			"maximize": "Maximize",
+			"restore": "Restore",
+			"close": "Close"
+		},
+		"trayLabel": "Minimized windows",
+		"links": {
+			"play": "Play",
+			"use": "Open",
+			"source": "Source",
+			"evidence": "Evidence",
+			"certificate": "View certificate",
+			"jamPage": "Project page"
+		},
+		"role": "My role",
+		"highlights": "What I built",
+		"open": "Open",
+		"backToWorks": "Back to works",
+		"more": "More works",
+		"evidenceFor": "Shown in",
+		"back": "Back to the desk",
+		"backHref": "/en/",
+		"translationNote": "",
+		"noJs": "With JavaScript on, this page becomes a title screen with draggable windows. You are reading the full text version.",
+		"copyright": "© 2026 Amiya_desi"
+	},
+	"whoami": {
+		"title": "About me",
+		"positioning": "Indie game developer. I also build the tools.",
+		"lede": "I make Godot games about time and echoes, and I build websites, tools and servers that actually run.",
+		"paragraphs": [
+			"Over the past year I entered 12 game jams and contests and won 3 awards. Time is the theme I keep returning to: delays, rewinds, echoes, and solving puzzles with your past self.",
+			"Outside games I build websites and tools. GeoScore is an open-source SEO / GEO audit service, and Search Gateway is a self-hosted search gateway. I deploy and maintain all of sayori.org and the 31 services behind it myself.",
+			"I like to get a working version first, then improve it through play and use. AI speeds up implementation; debugging, trade-offs and game feel are my calls."
+		],
+		"availability": "Open for small commissions: game prototypes, interactive web pages and web tools. One project at a time, finished properly.",
+		"cta": "Start a project"
+	},
+	"awards": {
+		"title": "Awards",
+		"intro": "Each award links to a source you can check.",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025 · Themed jam track",
+				"prize": "Second prize",
+				"note": "233 teams registered and 74 completed the contest. Awarded game: Wake Up at the Border."
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"prize": "Best Time-Themed Game",
+				"note": "The rule was to build only with basic shapes. I entered solo with TimeRewindLinker."
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest · Hangzhou Dianzi University round",
+				"prize": "Excellent Game Award",
+				"note": "Beyond the Heart, a team project by 霜烬计划 (Shuangjin Jihua); I wrote all of the code."
+			}
+		}
+	},
+	"works": {
+		"title": "Works",
+		"intro": "Six games and four tools. Every one can be played, used or read as source.",
+		"kinds": {
+			"game": "Game",
+			"tool": "Tool"
+		},
+		"items": {
+			"wake-up-at-the-border": {
+				"type": "2D pixel side-scroller · puzzles, dialogue and combat",
+				"role": "Lead programmer for gameplay and systems",
+				"summary": "Second prize in the themed jam track of Godot Hub Festival 2025.",
+				"highlights": [
+					"A finite state machine drives player and enemy movement, attacks, blocking and hit reactions, plus dash, double jump and air attacks",
+					"Branching, localized dialogue built on Dialogue Manager, tied to a multi-quest tracker with rewards",
+					"Collision layers for world, player, enemies, attacks and NPCs, with one path for scene changes and loading"
+				]
+			},
+			"time-rewind-linker": {
+				"type": "2D time-puzzle platformer",
+				"role": "Solo developer",
+				"summary": "Record a route, rewind, and a beam links your past self to your present self. Doors open only when that beam sweeps across a sensor. Best Time-Themed Game at the 034 Challenge Game Jam #2.",
+				"highlights": [
+					"A ring buffer records and rewinds 5 seconds at 30 fps by default, with optional position, velocity and animation fields",
+					"A TimeController owns time scale and audio pitch together, and lets selected nodes stay immune or frozen",
+					"Tunable jumps — rise height, rise time and fall curve — with coyote time and input buffering"
+				]
+			},
+			"beyond-the-heart": {
+				"type": "2D platformer and puzzle game",
+				"role": "Team project; I wrote all of the code",
+				"summary": "As a “mind detective”, you build bridges through a patient's inner world. Excellent Game Award at the Kaying Cup (卡赢杯) Open-Source Game Contest, Hangzhou Dianzi University round.",
+				"highlights": [
+					"The core bridge-building mechanic and level interactions",
+					"Coyote jumps and buffered jump input for forgiving, responsive controls"
+				]
+			},
+			"retrace": {
+				"type": "2D atmospheric puzzle exploration",
+				"role": "Solo developer",
+				"summary": "Wake ancient mechanisms with resonance in blue-green ruins, and leave an echo that travels with your self from a moment ago. Entered in thatgamejam #02 and Improve My Game Jam 47; about half an hour long.",
+				"highlights": [
+					"Resonance and echo replay: special devices replay your last 8 seconds of movement",
+					"Mechanisms are composable components, so new levels need no change to the main flow",
+					"Menus, hints and journal pages in 8 languages; Windows and web builds"
+				]
+			},
+			"delaytrace": {
+				"type": "2D time-chase platformer",
+				"role": "Solo developer, still in development",
+				"summary": "The route you take becomes your “past self” 1, 3 or 5 seconds later and chases you. You can also record a route and send it back as a “future echo”.",
+				"highlights": [
+					"Present, past and future timelines solve puzzles together in the same room",
+					"Playable in the browser, with touch controls in the Android build",
+					"Dialogue in English and Simplified Chinese"
+				]
+			},
+			"mios-window-wanderer": {
+				"type": "Multi-window narrative puzzle",
+				"role": "Team of four; I handled programming",
+				"summary": "A thatgamejam #01 entry. Mio wakes up in a virtual world her sister built and pieces together the truth by moving between real desktop windows.",
+				"highlights": [
+					"Scenes and dialogue live in several real OS windows, as an experiment in window-based navigation",
+					"A dialogue-driven story in English, Simplified Chinese, Traditional Chinese and Japanese"
+				]
+			},
+			"geoscore": {
+				"type": "Open-source SEO / GEO audit service",
+				"role": "Author",
+				"summary": "Scores only what it can observe on the page, says which checks could not be verified, and points to the failures worth fixing first.",
+				"highlights": [
+					"Runs on Cloudflare Workers, Pages, D1, KV, Vectorize and Workers AI",
+					"Site mode samples up to five pages deterministically by page type; an interrupted audit reuses module results that are still valid",
+					"37 stars on GitHub; live at geo.sayori.org"
+				]
+			},
+			"enhanced-save-system": {
+				"type": "Save system plugin for Godot 4",
+				"role": "Author",
+				"summary": "A modular save framework with a global save plus slots, where save modules register and run by priority.",
+				"highlights": [
+					"Atomic writes (.tmp, then rename) with optional .bak backups, so an interrupted write never corrupts a save",
+					"Optional AES-GCM / AES-CBC encryption and gzip / deflate compression, with registered migrations between versions",
+					"A runtime save manager and an editor bottom panel"
+				]
+			},
+			"search-gateway": {
+				"type": "Self-hosted search gateway",
+				"role": "Author",
+				"summary": "One API for AI tools: web search, page extraction, screenshots, research summaries and MCP access.",
+				"highlights": [
+					"Built with FastAPI; providers are configured per deployment and the repository holds no runtime credentials",
+					"Multi-source evidence snapshots make it easy to check what an AI answer actually cited",
+					"Open source under the MIT license"
+				]
+			},
+			"agent-session-bridge": {
+				"type": "AI coding session migration tool",
+				"role": "Author",
+				"summary": "Copies or moves conversation context between ten AI coding clients, including Codex, Claude Code, OpenCode and Qwen Code.",
+				"highlights": [
+					"Everything runs locally: no model calls and no uploads",
+					"Moves only the conversation and compaction summaries, filtering out tool calls and reasoning",
+					"A Python CLI plus an AI skill, MIT-licensed, 9 stars on GitHub"
+				]
+			}
+		}
+	},
+	"more": {
+		"items": {
+			"last-minute-echo": "GMTK Game Jam 2026, theme COUNT DOWN: survive one minute and rewind to shake off a hunter",
+			"girls-masquerade": "Global Game Jam 2026, a text-based mystery; I wrote all of the code",
+			"geometric-light": "MengYa Game Jam, resource management with deck building and board planning; I wrote part of the code",
+			"tencent-chengdu": "Tencent Chengdu Game Jam, an online turn-based strategy prototype: server-authoritative ENet, rooms, factions and ready checks",
+			"multi-window-demo": "A Godot template for multi-window traversal gameplay, 4 stars on GitHub",
+			"sayori-lite": "A warm-paper Astro blog starter for Cloudflare Pages",
+			"sayori-org": "This site itself: a blog in 9 languages, a link hub, a status page and the 31 self-hosted services behind them"
+		}
+	},
+	"skills": {
+		"title": "Skill tree",
+		"intro": "No made-up progress bars. Every node links to the work or article that shows it.",
+		"branches": {
+			"client": {
+				"title": "Game client",
+				"nodes": {
+					"godot": "Godot 4 (GDScript / C#)",
+					"fsm": "State machines and character control",
+					"rewind": "Time rewind and ring buffers",
+					"netcode": "Server-authoritative ENet / RPC sync",
+					"save": "Saves, encryption and version migration",
+					"feel": "Jump feel: coyote time, input buffering",
+					"windows": "Multi-window gameplay",
+					"i18n": "Localization"
+				}
+			},
+			"web": {
+				"title": "Web and tools",
+				"nodes": {
+					"cloudflare": "Cloudflare Workers / Pages / D1 / KV",
+					"seo": "SEO / GEO auditing",
+					"fastapi": "FastAPI services",
+					"mcp": "MCP tool integration",
+					"astro": "Astro static sites",
+					"cli": "Python command-line tools"
+				}
+			},
+			"ops": {
+				"title": "Ops and self-hosting",
+				"nodes": {
+					"docker": "Docker Compose deployments",
+					"vps": "Running and hardening 9 VPS nodes",
+					"monitor": "Monitoring and alerts: status page, push notifications",
+					"search": "A self-hosted AI search service"
+				}
+			}
+		},
+		"ai": "Working with AI: AI speeds up implementation; scoping, debugging and the final call stay with me.",
+		"easterEgg": "By the way: the two trailing echoes behind a window you drag use the same ring-buffer replay as TimeRewindLinker."
+	},
+	"jams": {
+		"title": "Adventure log",
+		"intro": "Game jams and contests, in order.",
+		"noWork": "Prototype",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025",
+				"note": "Second prize, themed jam track"
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest",
+				"note": "Excellent Game Award, Hangzhou Dianzi University round"
+			},
+			"thatgamejam-01": {
+				"event": "thatgamejam #01",
+				"note": "Team of four, programming"
+			},
+			"mengya-2026": {
+				"event": "MengYa (萌芽) Game Jam",
+				"note": "Part of the code"
+			},
+			"ggj-2026": {
+				"event": "Global Game Jam 2026 · CiGA",
+				"note": "Shanghai Jiading and online sites; all of the code"
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"note": "Best Time-Themed Game"
+			},
+			"tencent-chengdu-2026": {
+				"event": "Tencent Chengdu Game Jam",
+				"note": "Online turn-based prototype; programming"
+			},
+			"unity2-2026": {
+				"event": "Unity2 Game Jam",
+				"note": "Four days; a loop where you team up with your own afterimage"
+			},
+			"godothub-jam-2026": {
+				"event": "GodotHub Jam",
+				"note": "One I was happy with, still in development"
+			},
+			"gmtk-2026": {
+				"event": "GMTK Game Jam 2026",
+				"note": "Theme: COUNT DOWN"
+			},
+			"thatgamejam-02": {
+				"event": "thatgamejam #02",
+				"note": "Solo entry"
+			},
+			"improve-47": {
+				"event": "Improve My Game Jam 47",
+				"note": "Kept polishing the same game"
+			}
+		}
+	},
+	"contact": {
+		"title": "Save point",
+		"intro": "Want a game prototype, an interactive page or a small tool? Send a short brief through the studio, or just email me. You don't need a finished spec.",
+		"commission": "Start a project",
+		"email": "Email me",
+		"elsewhere": "You can also find me here"
+	},
+	"options": {
+		"title": "Options",
+		"language": "Language",
+		"motion": "Reduce motion",
+		"print": "Print / save as PDF",
+		"replay": "Replay intro"
+	}
+}

@@ -1,0 +1,555 @@
+{
+	"asOf": "2026-11",
+	"person": {
+		"name": "Amiya_desi",
+		"url": "https://sayori.org/",
+		"email": "me@sayori.org",
+		"sameAs": [
+			"https://github.com/Amiyadesi",
+			"https://amiya-desi.itch.io/",
+			"https://space.bilibili.com/3546919890585725",
+			"https://blog.sayori.org/",
+			"https://globalgamejam.org/users/amiyadesi"
+		]
+	},
+	"stats": [
+		{
+			"id": "awards",
+			"value": "3"
+		},
+		{
+			"id": "jams",
+			"value": "12"
+		},
+		{
+			"id": "repos",
+			"value": "39"
+		},
+		{
+			"id": "services",
+			"value": "31"
+		}
+	],
+	"tags": [
+		"Godot 4",
+		"GDScript / C#",
+		"Cloudflare Workers",
+		"Python",
+		"Docker"
+	],
+	"awards": [
+		{
+			"id": "godothub-2025",
+			"date": "2025-11",
+			"work": "wake-up-at-the-border",
+			"evidence": "https://legacy.godothub.com/festival/winners.html"
+		},
+		{
+			"id": "jam034-2026",
+			"date": "2026-03",
+			"work": "time-rewind-linker",
+			"evidence": "/assets/resume/awards/034-certificate.webp"
+		},
+		{
+			"id": "kaying-2025",
+			"date": "2025-11",
+			"work": "beyond-the-heart",
+			"evidence": "https://github.com/Amiyadesi/Beyond_the_heart"
+		}
+	],
+	"works": [
+		{
+			"id": "wake-up-at-the-border",
+			"kind": "game",
+			"title": "梦醒边界",
+			"titleLatin": "Wake Up at the Border",
+			"date": "2025-11",
+			"stack": "Godot 4.4 · GDScript",
+			"cover": "/assets/resume/works/wake-up-at-the-border.webp",
+			"award": "godothub-2025",
+			"links": [
+				{
+					"kind": "play",
+					"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+				},
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/Wake_up_at_the_border"
+				}
+			]
+		},
+		{
+			"id": "time-rewind-linker",
+			"kind": "game",
+			"title": "时序链接",
+			"titleLatin": "TimeRewindLinker",
+			"date": "2026-03",
+			"stack": "Godot 4.6 · C#",
+			"cover": "/assets/resume/works/time-rewind-linker.webp",
+			"award": "jam034-2026",
+			"links": [
+				{
+					"kind": "play",
+					"href": "https://amiya-desi.itch.io/time-rewind-linker"
+				},
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/time-runner"
+				}
+			]
+		},
+		{
+			"id": "beyond-the-heart",
+			"kind": "game",
+			"title": "心之彼方",
+			"titleLatin": "Beyond the Heart",
+			"date": "2025-11",
+			"stack": "Godot 4 · GDScript",
+			"cover": "",
+			"award": "kaying-2025",
+			"links": [
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/Beyond_the_heart"
+				}
+			]
+		},
+		{
+			"id": "retrace",
+			"kind": "game",
+			"title": "溯",
+			"titleLatin": "Retrace",
+			"date": "2026-10",
+			"stack": "Godot 4.7 · GDScript",
+			"cover": "/assets/resume/works/retrace.webp",
+			"award": "",
+			"links": [
+				{
+					"kind": "play",
+					"href": "https://amiya-desi.itch.io/retrace"
+				}
+			]
+		},
+		{
+			"id": "delaytrace",
+			"kind": "game",
+			"title": "Delay Trace",
+			"titleLatin": "Delay Trace",
+			"date": "2026-07",
+			"stack": "Godot 4.7 · GDScript",
+			"cover": "/assets/resume/works/delaytrace.webp",
+			"award": "",
+			"links": [
+				{
+					"kind": "play",
+					"href": "https://amiya-desi.itch.io/delaytrace"
+				},
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/godot-hub-jam"
+				}
+			]
+		},
+		{
+			"id": "mios-window-wanderer",
+			"kind": "game",
+			"title": "Mio's Window Wanderer",
+			"titleLatin": "Mio's Window Wanderer",
+			"date": "2025-12",
+			"stack": "Godot 4.5 · GDScript",
+			"cover": "/assets/resume/works/mios-window-wanderer.webp",
+			"award": "",
+			"links": [
+				{
+					"kind": "play",
+					"href": "https://amiya-desi.itch.io/thatgamejam"
+				},
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/ThatGameJam"
+				}
+			]
+		},
+		{
+			"id": "geoscore",
+			"kind": "tool",
+			"title": "GeoScore",
+			"titleLatin": "GeoScore",
+			"date": "2026-07",
+			"stack": "Cloudflare Workers · D1 · Vectorize",
+			"cover": "",
+			"award": "",
+			"links": [
+				{
+					"kind": "use",
+					"href": "https://geo.sayori.org/"
+				},
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/geoscore"
+				}
+			]
+		},
+		{
+			"id": "enhanced-save-system",
+			"kind": "tool",
+			"title": "Enhanced Save System",
+			"titleLatin": "Enhanced Save System",
+			"date": "",
+			"stack": "Godot 4 · GDScript / C#",
+			"cover": "",
+			"award": "",
+			"links": [
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/enhance_save_system"
+				}
+			]
+		},
+		{
+			"id": "search-gateway",
+			"kind": "tool",
+			"title": "Search Gateway",
+			"titleLatin": "Search Gateway",
+			"date": "2026-07",
+			"stack": "Python · FastAPI · MCP",
+			"cover": "",
+			"award": "",
+			"links": [
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/search-gateway"
+				}
+			]
+		},
+		{
+			"id": "agent-session-bridge",
+			"kind": "tool",
+			"title": "agent-session-bridge",
+			"titleLatin": "agent-session-bridge",
+			"date": "2026-10",
+			"stack": "Python CLI",
+			"cover": "",
+			"award": "",
+			"links": [
+				{
+					"kind": "source",
+					"href": "https://github.com/Amiyadesi/agent-session-bridge"
+				}
+			]
+		}
+	],
+	"more": [
+		{
+			"id": "last-minute-echo",
+			"title": "Last Minute Echo",
+			"href": "https://amiya-desi.itch.io/last-minute-echo"
+		},
+		{
+			"id": "girls-masquerade",
+			"title": "少女的假面舞会 · Girl's Masquerade",
+			"href": "https://amiya-desi.itch.io/girls-masquerade"
+		},
+		{
+			"id": "geometric-light",
+			"title": "几何光点",
+			"href": "https://github.com/Amiyadesi/MengYaGameJam"
+		},
+		{
+			"id": "tencent-chengdu",
+			"title": "TencentChenDuGamejam",
+			"href": "https://github.com/Amiyadesi/TencentChenDuGamejam"
+		},
+		{
+			"id": "multi-window-demo",
+			"title": "muti_window_traverse_demo",
+			"href": "https://github.com/Amiyadesi/muti_window_traverse_demo"
+		},
+		{
+			"id": "sayori-lite",
+			"title": "Sayori Lite",
+			"href": "https://github.com/Amiyadesi/astro-mizuki-blog-from-zero"
+		},
+		{
+			"id": "sayori-org",
+			"title": "sayori.org",
+			"href": "https://sayori.org/"
+		}
+	],
+	"jams": [
+		{
+			"id": "godothub-2025",
+			"date": "2025-11",
+			"work": "wake-up-at-the-border",
+			"award": "godothub-2025",
+			"url": "https://legacy.godothub.com/festival/winners.html"
+		},
+		{
+			"id": "kaying-2025",
+			"date": "2025-11",
+			"work": "beyond-the-heart",
+			"award": "kaying-2025",
+			"url": "https://github.com/Amiyadesi/Beyond_the_heart"
+		},
+		{
+			"id": "thatgamejam-01",
+			"date": "2025-12",
+			"work": "mios-window-wanderer",
+			"award": "",
+			"url": "https://amiya-desi.itch.io/thatgamejam"
+		},
+		{
+			"id": "mengya-2026",
+			"date": "2026-01",
+			"work": "geometric-light",
+			"award": "",
+			"url": "https://github.com/Amiyadesi/MengYaGameJam"
+		},
+		{
+			"id": "ggj-2026",
+			"date": "2026-01",
+			"work": "girls-masquerade",
+			"award": "",
+			"url": "https://amiya-desi.itch.io/girls-masquerade"
+		},
+		{
+			"id": "jam034-2026",
+			"date": "2026-03",
+			"work": "time-rewind-linker",
+			"award": "jam034-2026",
+			"url": "https://amiya-desi.itch.io/time-rewind-linker"
+		},
+		{
+			"id": "tencent-chengdu-2026",
+			"date": "2026-03",
+			"work": "tencent-chengdu",
+			"award": "",
+			"url": "https://github.com/Amiyadesi/TencentChenDuGamejam"
+		},
+		{
+			"id": "unity2-2026",
+			"date": "2026-06",
+			"work": "",
+			"award": "",
+			"url": "https://github.com/Amiyadesi/unity-2-jam"
+		},
+		{
+			"id": "godothub-jam-2026",
+			"date": "2026-07",
+			"work": "delaytrace",
+			"award": "",
+			"url": "https://amiya-desi.itch.io/delaytrace"
+		},
+		{
+			"id": "gmtk-2026",
+			"date": "2026-07",
+			"work": "last-minute-echo",
+			"award": "",
+			"url": "https://amiya-desi.itch.io/last-minute-echo"
+		},
+		{
+			"id": "thatgamejam-02",
+			"date": "2026-10",
+			"work": "retrace",
+			"award": "",
+			"url": "https://amiya-desi.itch.io/retrace"
+		},
+		{
+			"id": "improve-47",
+			"date": "2026-10",
+			"work": "retrace",
+			"award": "",
+			"url": "https://amiya-desi.itch.io/retrace"
+		}
+	],
+	"skills": [
+		{
+			"id": "client",
+			"nodes": [
+				{
+					"id": "godot",
+					"works": [
+						"wake-up-at-the-border",
+						"time-rewind-linker",
+						"retrace",
+						"delaytrace"
+					],
+					"links": []
+				},
+				{
+					"id": "fsm",
+					"works": [
+						"wake-up-at-the-border"
+					],
+					"links": []
+				},
+				{
+					"id": "rewind",
+					"works": [
+						"time-rewind-linker",
+						"delaytrace",
+						"retrace"
+					],
+					"links": []
+				},
+				{
+					"id": "netcode",
+					"works": [],
+					"links": [
+						"https://github.com/Amiyadesi/TencentChenDuGamejam"
+					]
+				},
+				{
+					"id": "save",
+					"works": [
+						"enhanced-save-system"
+					],
+					"links": []
+				},
+				{
+					"id": "feel",
+					"works": [
+						"beyond-the-heart",
+						"time-rewind-linker"
+					],
+					"links": []
+				},
+				{
+					"id": "windows",
+					"works": [
+						"mios-window-wanderer"
+					],
+					"links": [
+						"https://github.com/Amiyadesi/muti_window_traverse_demo"
+					]
+				},
+				{
+					"id": "i18n",
+					"works": [
+						"retrace",
+						"mios-window-wanderer"
+					],
+					"links": []
+				}
+			]
+		},
+		{
+			"id": "web",
+			"nodes": [
+				{
+					"id": "cloudflare",
+					"works": [
+						"geoscore"
+					],
+					"links": [
+						"https://sayori.org/"
+					]
+				},
+				{
+					"id": "seo",
+					"works": [
+						"geoscore"
+					],
+					"links": []
+				},
+				{
+					"id": "fastapi",
+					"works": [
+						"search-gateway"
+					],
+					"links": []
+				},
+				{
+					"id": "mcp",
+					"works": [
+						"search-gateway"
+					],
+					"links": []
+				},
+				{
+					"id": "astro",
+					"works": [],
+					"links": [
+						"https://github.com/Amiyadesi/astro-mizuki-blog-from-zero",
+						"https://blog.sayori.org/"
+					]
+				},
+				{
+					"id": "cli",
+					"works": [
+						"agent-session-bridge"
+					],
+					"links": []
+				}
+			]
+		},
+		{
+			"id": "ops",
+			"nodes": [
+				{
+					"id": "docker",
+					"works": [],
+					"links": [
+						"https://blog.sayori.org/posts/docker-compose-minimum-start/"
+					]
+				},
+				{
+					"id": "vps",
+					"works": [],
+					"links": [
+						"https://blog.sayori.org/posts/sayori-server-01-vps-start/"
+					]
+				},
+				{
+					"id": "monitor",
+					"works": [],
+					"links": [
+						"https://status.sayori.org/",
+						"https://blog.sayori.org/posts/selfhost-ntfy-on-2c2g/"
+					]
+				},
+				{
+					"id": "search",
+					"works": [
+						"search-gateway"
+					],
+					"links": [
+						"https://blog.sayori.org/posts/build-your-search-gateway/"
+					]
+				}
+			]
+		}
+	],
+	"contact": {
+		"email": "me@sayori.org",
+		"commission": "https://studio.sayori.org/commission",
+		"studio": "https://studio.sayori.org/",
+		"links": [
+			{
+				"id": "github",
+				"label": "GitHub",
+				"href": "https://github.com/Amiyadesi"
+			},
+			{
+				"id": "itch",
+				"label": "itch.io",
+				"href": "https://amiya-desi.itch.io/"
+			},
+			{
+				"id": "bilibili",
+				"label": "Bilibili",
+				"href": "https://space.bilibili.com/3546919890585725"
+			},
+			{
+				"id": "blog",
+				"label": "Blog",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"id": "ggj",
+				"label": "Global Game Jam",
+				"href": "https://globalgamejam.org/users/amiyadesi"
+			}
+		]
+	}
+}

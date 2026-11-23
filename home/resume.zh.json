@@ -1,0 +1,321 @@
+{
+	"meta": {
+		"title": "Amiya_desi 的简历 · 独立游戏开发者，顺手造工具",
+		"description": "Amiya_desi：用 Godot 做关于时间与回声的游戏，也做网站、工具和自托管服务。3 项比赛奖项、12 场 Game Jam 与比赛、可试玩作品与开源工具。",
+		"ogAlt": "AMIYA_DESI 的像素标题画面"
+	},
+	"ui": {
+		"tagline": "独立游戏开发者，顺手造工具",
+		"menuLabel": "简历菜单",
+		"menu": {
+			"works": "继续旅程 · 作品",
+			"awards": "成就 · 奖项",
+			"skills": "技能树",
+			"jams": "冒险日志",
+			"contact": "存档点 · 联系",
+			"options": "选项"
+		},
+		"press": "按任意键继续",
+		"skip": "跳过开场",
+		"hudLabel": "角色状态",
+		"hudClass": "职业",
+		"hudClassValue": "游戏开发者",
+		"hudSub": "副职",
+		"hudSubValue": "造工具的人",
+		"asOf": "截至 {date}",
+		"stats": {
+			"awards": "项比赛奖项",
+			"jams": "场 Jam 与比赛",
+			"repos": "个公开仓库",
+			"services": "个自托管服务"
+		},
+		"windowControls": {
+			"minimize": "收起",
+			"maximize": "放大",
+			"restore": "还原",
+			"close": "关闭"
+		},
+		"trayLabel": "已收起的窗口",
+		"links": {
+			"play": "试玩",
+			"use": "在线使用",
+			"source": "源码",
+			"evidence": "证据",
+			"certificate": "查看证书",
+			"jamPage": "作品页"
+		},
+		"role": "我负责",
+		"highlights": "做了什么",
+		"open": "打开",
+		"backToWorks": "回到作品列表",
+		"more": "更多作品",
+		"evidenceFor": "证明它的作品",
+		"back": "回到书桌",
+		"backHref": "/",
+		"translationNote": "",
+		"noJs": "开启 JavaScript 后，这页会变成一个可以拖动窗口的标题画面；现在你看到的是完整的文字版。",
+		"copyright": "© 2026 Amiya_desi"
+	},
+	"whoami": {
+		"title": "关于我",
+		"positioning": "独立游戏开发者，顺手造工具。",
+		"lede": "用 Godot 做关于时间与回声的游戏，也把网站、工具和服务器做到能跑。",
+		"paragraphs": [
+			"过去一年，我参加了 12 场 Game Jam 与比赛，拿过 3 个奖项。最常做的题材是时间：延迟、回溯、回声，和过去的自己一起解谜。",
+			"游戏之外，我写网站和工具。GeoScore 是开源的 SEO / GEO 审计服务，Search Gateway 是自托管的搜索网关。sayori.org 这一整套站点和背后的 31 个服务，都由我自己部署和维护。",
+			"我习惯先做出能运行的版本，再靠试玩和使用来改。AI 是加速器：实现可以借它提速，调试、取舍和手感由我自己判断。"
+		],
+		"availability": "现在接小型委托：游戏原型、互动网页、Web 工具。一次只接一个项目，保证做完。",
+		"cta": "发起合作"
+	},
+	"awards": {
+		"title": "奖项",
+		"intro": "每一项都附了可以核对的来源。",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025 · 命题 Jam 赛道",
+				"prize": "二等奖",
+				"note": "233 支队伍报名，74 支成功参赛；获奖作品《梦醒边界》。"
+			},
+			"jam034-2026": {
+				"event": "第 2 届 034 挑战 GameJam",
+				"prize": "最佳时间题材游戏奖",
+				"note": "规则是只用最基本的图形元素做游戏；我单人参赛，作品《时序链接》。"
+			},
+			"kaying-2025": {
+				"event": "卡赢杯开源游戏比赛 · 杭电站",
+				"prize": "优秀游戏奖",
+				"note": "「霜烬计划」团队作品《心之彼方》，我负责全部程序。"
+			}
+		}
+	},
+	"works": {
+		"title": "作品",
+		"intro": "6 个游戏和 4 个工具，每个都能打开试玩或查看源码。",
+		"kinds": {
+			"game": "游戏",
+			"tool": "工具"
+		},
+		"items": {
+			"wake-up-at-the-border": {
+				"type": "2D 像素横版 · 解谜、对话与战斗",
+				"role": "主程，负责玩法与系统实现",
+				"summary": "Godot Hub Festival 2025 命题 Jam 赛道二等奖作品。",
+				"highlights": [
+					"用有限状态机组织玩家与敌人的移动、攻击、防御和受伤，以及冲刺、二段跳、空中攻击等技能",
+					"接入 Dialogue Manager 做分支对话和国际化，配合多任务追踪与奖励发放",
+					"按世界、玩家、敌人、攻击、NPC 分层管理碰撞，统一处理场景切换与加载"
+				]
+			},
+			"time-rewind-linker": {
+				"type": "2D 时间解谜平台",
+				"role": "单人完成",
+				"summary": "录下一段路线，回溯，再让「过去的你」和现在的你之间拉起一道光束；光束扫过感应器，门才会打开。第 2 届 034 挑战 GameJam 最佳时间题材游戏奖。",
+				"highlights": [
+					"环形缓冲记录与回溯，默认保留 5 秒、每秒 30 帧，位置、速度、动画等字段可选",
+					"TimeController 统一控制时间缩放和音频速率，支持个别节点免疫或冻结",
+					"参数化跳跃：上升高度、时间和下落曲线都能调，带土狼时间和预输入缓冲"
+				]
+			},
+			"beyond-the-heart": {
+				"type": "2D 横版跳跃动作解谜",
+				"role": "团队作品，负责全部程序",
+				"summary": "玩家扮演「心灵侦探」，用「搭桥」能力穿过患者的内心世界。卡赢杯开源游戏比赛杭电站优秀游戏奖。",
+				"highlights": [
+					"实现核心的「搭桥」机制和关卡交互",
+					"土狼跳和预输入跳跃，让跳跃操作更宽容、更跟手"
+				]
+			},
+			"retrace": {
+				"type": "2D 氛围解谜探索",
+				"role": "独立开发",
+				"summary": "在蓝绿色遗迹里用共鸣唤醒机关，留下一道回声，与片刻前的自己同行。thatgamejam #02 与 Improve My Game Jam 47 参赛作品，流程约半小时。",
+				"highlights": [
+					"共鸣与回声重放：特殊装置可以回放最近 8 秒的行动",
+					"机关做成可组合的组件，新关卡不用改主流程就能拼出来",
+					"8 种语言覆盖菜单、机关提示和手记；提供 Windows 桌面版和网页版"
+				]
+			},
+			"delaytrace": {
+				"type": "2D 时态追逐平台",
+				"role": "独立开发，仍在开发中",
+				"summary": "你走过的路线会在 1、3 或 5 秒后变成「过去的你」追上来；你还能录下一段路线，作为「未来回声」送回去。",
+				"highlights": [
+					"现在、过去、未来三条时间线在同一个房间里叠加解谜",
+					"浏览器可直接试玩，另有 Android 触屏操作",
+					"中英双语对话"
+				]
+			},
+			"mios-window-wanderer": {
+				"type": "多窗口叙事解谜",
+				"role": "4 人团队，负责程序",
+				"summary": "thatgamejam #01 作品。Mio 在姐姐创造的虚拟世界里醒来，在一个个系统窗口之间穿行，慢慢拼出真相。",
+				"highlights": [
+					"用多个真实的系统窗口承载场景和对话，试验窗口导航的玩法",
+					"对话驱动的叙事流程，支持英语、简体中文、繁体中文和日语"
+				]
+			},
+			"geoscore": {
+				"type": "开源 SEO / GEO 审计服务",
+				"role": "作者",
+				"summary": "只根据实际观察到的页面证据打分，并说明哪些检查无法验证、哪些问题最值得先修。",
+				"highlights": [
+					"跑在 Cloudflare Workers、Pages、D1、KV、Vectorize 和 Workers AI 上",
+					"站点模式按页面类型确定性抽样，最多 5 页；审计中断后，仍然有效的模块结果可以复用",
+					"GitHub 37 星，在线服务 geo.sayori.org"
+				]
+			},
+			"enhanced-save-system": {
+				"type": "Godot 4 存档插件",
+				"role": "作者",
+				"summary": "模块化存档框架：全局档加槽位档，存档模块按优先级注册和执行。",
+				"highlights": [
+					"原子写入（先写 .tmp 再重命名），可选 .bak 备份，写到一半中断也不会坏档",
+					"AES-GCM / AES-CBC 加密和 gzip / deflate 压缩可选，新旧版本之间可以注册迁移函数",
+					"带运行时存档管理界面和编辑器底部面板"
+				]
+			},
+			"search-gateway": {
+				"type": "自托管搜索网关",
+				"role": "作者",
+				"summary": "给 AI 工具一个统一入口：网页搜索、正文抽取、截图、研究摘要和 MCP 接入。",
+				"highlights": [
+					"FastAPI 实现，搜索提供方按部署配置，仓库里不含任何运行时凭据",
+					"可以保存多来源证据快照，方便核对 AI 引用的出处",
+					"MIT 协议开源"
+				]
+			},
+			"agent-session-bridge": {
+				"type": "AI 编程会话迁移工具",
+				"role": "作者",
+				"summary": "在 Codex、Claude Code、OpenCode、Qwen Code 等十个 AI 编程客户端之间复制或剪切会话上下文。",
+				"highlights": [
+					"全部在本机处理，不调用模型，也不上传会话",
+					"只迁移对话和压缩摘要，过滤掉工具调用和思考过程",
+					"Python CLI 加 AI skill，MIT 协议，GitHub 9 星"
+				]
+			}
+		}
+	},
+	"more": {
+		"items": {
+			"last-minute-echo": "GMTK Game Jam 2026，主题 COUNT DOWN：撑过一分钟，用回溯甩开追杀者",
+			"girls-masquerade": "Global Game Jam 2026，文字解谜，负责全部程序",
+			"geometric-light": "萌芽 GameJam，资源管理加卡牌构筑与棋盘规划，负责部分程序",
+			"tencent-chengdu": "腾讯成都 GameJam，联机回合制策略原型：ENet 服务端权威，房间、阵营与准备流程",
+			"multi-window-demo": "Godot 多窗口穿梭玩法模板，GitHub 4 星",
+			"sayori-lite": "暖纸风 Astro 博客模板，面向 Cloudflare Pages",
+			"sayori-org": "这套站点本身：9 语博客、导航、状态页，以及背后的 31 个自托管服务"
+		}
+	},
+	"skills": {
+		"title": "技能树",
+		"intro": "不画熟练度进度条。每个节点都链接到能证明它的作品或文章。",
+		"branches": {
+			"client": {
+				"title": "游戏客户端",
+				"nodes": {
+					"godot": "Godot 4（GDScript / C#）",
+					"fsm": "有限状态机与角色控制",
+					"rewind": "时间回溯与环形缓冲",
+					"netcode": "ENet / RPC 服务端权威同步",
+					"save": "存档、加密与版本迁移",
+					"feel": "跳跃手感：土狼时间、预输入",
+					"windows": "多窗口玩法",
+					"i18n": "多语言本地化"
+				}
+			},
+			"web": {
+				"title": "Web 与工具",
+				"nodes": {
+					"cloudflare": "Cloudflare Workers / Pages / D1 / KV",
+					"seo": "SEO / GEO 审计",
+					"fastapi": "FastAPI 服务",
+					"mcp": "MCP 工具接入",
+					"astro": "Astro 静态站",
+					"cli": "Python 命令行工具"
+				}
+			},
+			"ops": {
+				"title": "运维与自托管",
+				"nodes": {
+					"docker": "Docker Compose 部署",
+					"vps": "9 个节点的 VPS 运维与加固",
+					"monitor": "监控与告警：状态页、推送通知",
+					"search": "自托管 AI 搜索服务"
+				}
+			}
+		},
+		"ai": "AI 协作：实现可以交给 AI 提速；问题范围、调试和最终取舍由我判断。",
+		"easterEgg": "顺带一提：拖动这些窗口时跟在后面的两层残影，用的正是《时序链接》里那套环形缓冲回放。"
+	},
+	"jams": {
+		"title": "冒险日志",
+		"intro": "按时间排列的 Game Jam 与比赛记录。",
+		"noWork": "原型",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025",
+				"note": "命题 Jam 赛道二等奖"
+			},
+			"kaying-2025": {
+				"event": "卡赢杯开源游戏比赛",
+				"note": "杭电站优秀游戏奖"
+			},
+			"thatgamejam-01": {
+				"event": "thatgamejam #01",
+				"note": "4 人团队，负责程序"
+			},
+			"mengya-2026": {
+				"event": "萌芽 GameJam",
+				"note": "负责部分程序"
+			},
+			"ggj-2026": {
+				"event": "Global Game Jam 2026 · CiGA",
+				"note": "上海嘉定站与线上站，负责全部程序"
+			},
+			"jam034-2026": {
+				"event": "第 2 届 034 挑战 GameJam",
+				"note": "最佳时间题材游戏奖"
+			},
+			"tencent-chengdu-2026": {
+				"event": "腾讯成都 GameJam",
+				"note": "联机回合制原型，负责程序"
+			},
+			"unity2-2026": {
+				"event": "Unity2 Game Jam",
+				"note": "4 天，和自己的残影协作的循环原型"
+			},
+			"godothub-jam-2026": {
+				"event": "GodotHub Jam",
+				"note": "比较满意的一次，之后继续开发"
+			},
+			"gmtk-2026": {
+				"event": "GMTK Game Jam 2026",
+				"note": "主题 COUNT DOWN"
+			},
+			"thatgamejam-02": {
+				"event": "thatgamejam #02",
+				"note": "单人参赛"
+			},
+			"improve-47": {
+				"event": "Improve My Game Jam 47",
+				"note": "同一作品继续打磨"
+			}
+		}
+	},
+	"contact": {
+		"title": "存档点",
+		"intro": "想做一个游戏原型、互动网页或小工具？先在工作室填一份简短的需求，或者直接写邮件。不需要先写成完整的需求文档。",
+		"commission": "发起合作",
+		"email": "写邮件",
+		"elsewhere": "也可以在这些地方找到我"
+	},
+	"options": {
+		"title": "选项",
+		"language": "语言",
+		"motion": "减少动效",
+		"print": "打印版 / 保存为 PDF",
+		"replay": "重播开场"
+	}
+}
