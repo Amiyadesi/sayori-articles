@@ -1,0 +1,321 @@
+{
+	"meta": {
+		"title": "Amiya_desi · Lebenslauf – Indie-Spiele und Tools",
+		"description": "Amiya_desi: Godot-Spiele über Zeit und Echos, Websites, Open-Source-Tools und selbst gehostete Dienste. 3 Preise bei 12 Jams und Wettbewerben. Jetzt spielen.",
+		"ogAlt": "Der Titelbildschirm von AMIYA_DESI in Pixelgrafik"
+	},
+	"ui": {
+		"tagline": "Ich entwickle Indie-Spiele und baue auch Tools",
+		"menuLabel": "Lebenslauf-Menü",
+		"menu": {
+			"works": "Fortsetzen · Projekte",
+			"awards": "Erfolge · Preise",
+			"skills": "Talentbaum",
+			"jams": "Abenteuertagebuch",
+			"contact": "Speicherpunkt · Kontakt",
+			"options": "Optionen"
+		},
+		"press": "Beliebige Taste zum Fortfahren drücken",
+		"skip": "Intro überspringen",
+		"hudLabel": "Charakterstatus",
+		"hudClass": "Klasse",
+		"hudClassValue": "Spieleentwickler",
+		"hudSub": "Nebenklasse",
+		"hudSubValue": "Werkzeugmacher",
+		"asOf": "Stand: {date}",
+		"stats": {
+			"awards": "Wettbewerbspreise",
+			"jams": "Jams und Wettbewerbe",
+			"repos": "öffentliche Repositories",
+			"services": "selbst gehostete Dienste"
+		},
+		"windowControls": {
+			"minimize": "Minimieren",
+			"maximize": "Maximieren",
+			"restore": "Wiederherstellen",
+			"close": "Schließen"
+		},
+		"trayLabel": "Minimierte Fenster",
+		"links": {
+			"play": "Spielen",
+			"use": "Online nutzen",
+			"source": "Quellcode",
+			"evidence": "Nachweis",
+			"certificate": "Urkunde ansehen",
+			"jamPage": "Projektseite"
+		},
+		"role": "Meine Rolle",
+		"highlights": "Was ich umgesetzt habe",
+		"open": "Öffnen",
+		"backToWorks": "Zurück zu den Projekten",
+		"more": "Weitere Projekte",
+		"evidenceFor": "Zu sehen in",
+		"back": "Zurück zum Schreibtisch",
+		"backHref": "/en/",
+		"translationNote": "Diese Seite wurde mit KI-Unterstützung aus dem Chinesischen übersetzt.",
+		"noJs": "Mit JavaScript wird diese Seite zu einem Titelbildschirm, auf dem du die Fenster verschieben kannst. Du liest gerade die vollständige Textfassung.",
+		"copyright": "© 2026 Amiya_desi"
+	},
+	"whoami": {
+		"title": "Über mich",
+		"positioning": "Ich entwickle Indie-Spiele. Werkzeuge baue ich auch.",
+		"lede": "Mit Godot entwickle ich Spiele über Zeit und Echos. Außerdem baue ich Websites und Tools und bringe meine eigenen Server zum Laufen.",
+		"paragraphs": [
+			"Im vergangenen Jahr habe ich an 12 Game Jams und Wettbewerben teilgenommen und 3 Preise gewonnen. Ein Thema beschäftigt mich dabei immer wieder: Zeit. Aktionen setzen verzögert ein, die Zeit läuft zurück, ein Echo bleibt. So löst du Rätsel mit deinem früheren Ich.",
+			"Neben Spielen entwickle ich Websites und Tools. GeoScore ist ein quelloffener Dienst für SEO- und GEO-Audits, Search Gateway ein selbst gehostetes Such-Gateway. Ich kümmere mich selbst um das Deployment und den Betrieb von ganz sayori.org und den 31 Diensten dahinter.",
+			"Ich baue zuerst eine Version, die läuft. Beim Spielen und Benutzen finde ich heraus, was ich ändern muss. KI hilft mir, Ideen schneller umzusetzen. Das Debugging, die Abwägungen und das Urteil über das Spielgefühl übernehme ich selbst."
+		],
+		"availability": "Ich nehme kleine Aufträge an: Spieleprototypen, interaktive Webseiten und Webtools. Immer nur ein Projekt, das ich bis zum Ende betreue.",
+		"cta": "Projekt anfragen"
+	},
+	"awards": {
+		"title": "Preise",
+		"intro": "Zu jedem Preis findest du eine Quelle, in der du das Ergebnis nachlesen kannst.",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025 · Jam mit Themenvorgabe",
+				"prize": "Zweiter Preis",
+				"note": "233 Teams haben sich angemeldet, 74 haben am Wettbewerb teilgenommen. Prämiertes Spiel: Wake Up at the Border."
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"prize": "Bestes Spiel zum Thema Zeit",
+				"note": "Erlaubt waren nur einfache geometrische Formen. Ich bin allein mit TimeRewindLinker angetreten."
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest · Runde an der Hangzhou Dianzi University",
+				"prize": "Auszeichnung für ein hervorragendes Spiel",
+				"note": "Beyond the Heart ist ein Projekt des Teams Shuangjin Jihua (霜烬计划). Ich habe den gesamten Code geschrieben."
+			}
+		}
+	},
+	"works": {
+		"title": "Projekte",
+		"intro": "6 Spiele und 4 Tools. Bei jedem Projekt kannst du spielen, das Tool ausprobieren oder den Quellcode lesen.",
+		"kinds": {
+			"game": "Spiel",
+			"tool": "Tool"
+		},
+		"items": {
+			"wake-up-at-the-border": {
+				"type": "2D-Sidescroller in Pixelgrafik · Rätsel, Dialoge und Kämpfe",
+				"role": "Leitung der Programmierung, Umsetzung von Spielmechaniken und Systemen",
+				"summary": "Zweiter Preis beim Jam mit Themenvorgabe auf dem Godot Hub Festival 2025.",
+				"highlights": [
+					"Ein endlicher Zustandsautomat steuert Bewegung, Angriffe, Abwehr und Trefferreaktionen von Spielfigur und Gegnern sowie Dash, Doppelsprung und Luftangriffe",
+					"Verzweigte, mehrsprachige Dialoge mit Dialogue Manager, verknüpft mit der Fortschrittsverfolgung für mehrere Quests und der Vergabe von Belohnungen",
+					"Getrennte Kollisionsebenen für Spielwelt, Spielfigur, Gegner, Angriffe und NPCs; ein gemeinsamer Ablauf für Szenenwechsel und Ladevorgänge"
+				]
+			},
+			"time-rewind-linker": {
+				"type": "2D-Plattformer mit Zeiträtseln",
+				"role": "Soloentwicklung",
+				"summary": "Zeichne deinen Weg auf und spule zurück: Ein Lichtstrahl verbindet dich mit deinem früheren Ich. Eine Tür öffnet sich erst, wenn der Strahl über einen Sensor streicht. Ausgezeichnet als bestes Spiel zum Thema Zeit beim 034 Challenge Game Jam #2.",
+				"highlights": [
+					"Ein Ringpuffer zeichnet standardmäßig 5 Sekunden mit 30 Bildern pro Sekunde zum Zurückspulen auf. Position, Geschwindigkeit und Animation lassen sich einzeln zur Aufzeichnung auswählen",
+					"TimeController regelt Zeitfaktor und Audiogeschwindigkeit gemeinsam; einzelne Knoten können davon ausgenommen oder eingefroren werden",
+					"Sprunghöhe, Aufstiegszeit und Fallkurve sind einstellbar, mit Coyote Time und Eingabepuffer"
+				]
+			},
+			"beyond-the-heart": {
+				"type": "2D-Action-Plattformer mit Rätseln",
+				"role": "Teamprojekt; den gesamten Code habe ich geschrieben",
+				"summary": "Als „Detektiv der Gedanken“ baust du Brücken durch die innere Welt eines Patienten. Beim Kaying Cup (卡赢杯) Open-Source Game Contest an der Hangzhou Dianzi University als hervorragendes Spiel ausgezeichnet.",
+				"highlights": [
+					"Den Brückenbau als zentrale Spielmechanik und die Interaktionen in den Levels umgesetzt",
+					"Ein Sprung ist noch kurz nach der Kante möglich; auch ein Tastendruck kurz vor der Landung zählt. So reagiert die Figur wie beabsichtigt, selbst wenn das Timing nicht ganz stimmt"
+				]
+			},
+			"retrace": {
+				"type": "Atmosphärisches 2D-Erkundungsspiel mit Rätseln",
+				"role": "Soloentwicklung",
+				"summary": "Wecke mit Resonanz alte Mechanismen in blaugrünen Ruinen. Lass ein Echo zurück, um Seite an Seite mit deinem früheren Ich zu gehen. Beitrag zu thatgamejam #02 und Improve My Game Jam 47; Spielzeit etwa eine halbe Stunde.",
+				"highlights": [
+					"Resonanz und Echowiedergabe: Spezielle Vorrichtungen spielen die letzten 8 Sekunden deiner Bewegungen nach",
+					"Die Mechanismen lassen sich als Bausteine kombinieren. Neue Levels brauchen keine Änderungen am Hauptablauf",
+					"Menüs, Hinweise zu den Mechanismen und Tagebucheinträge in 8 Sprachen; Versionen für Windows und den Browser"
+				]
+			},
+			"delaytrace": {
+				"type": "2D-Plattformer mit zeitversetzter Verfolgung",
+				"role": "Soloentwicklung, noch in Arbeit",
+				"summary": "Dein früheres Ich nimmt 1, 3 oder 5 Sekunden später deine Spur auf und verfolgt dich. Du kannst auch einen Weg aufzeichnen und ihn als „Echo der Zukunft“ zurückschicken.",
+				"highlights": [
+					"Gegenwart, Vergangenheit und Zukunft überlagern sich im selben Raum und greifen beim Lösen der Rätsel ineinander",
+					"Direkt im Browser spielbar, in der Android-Version mit Touch-Steuerung",
+					"Dialoge auf Englisch und in vereinfachtem Chinesisch"
+				]
+			},
+			"mios-window-wanderer": {
+				"type": "Erzählendes Rätselspiel über mehrere Fenster hinweg",
+				"role": "4 Personen im Team; ich war für die Programmierung zuständig",
+				"summary": "Ein Beitrag zu thatgamejam #01. Mio erwacht in einer virtuellen Welt, die ihre ältere Schwester geschaffen hat. Auf ihrem Weg von einem echten Desktopfenster ins nächste setzt sie Stück für Stück die Wahrheit zusammen.",
+				"highlights": [
+					"Szenen und Dialoge verteilen sich auf mehrere echte Fenster des Betriebssystems. So konnte ich den Wechsel zwischen Fenstern als Spielmechanik erproben",
+					"Die Geschichte entfaltet sich in Dialogen auf Englisch, Chinesisch (vereinfacht und traditionell) und Japanisch"
+				]
+			},
+			"geoscore": {
+				"type": "Quelloffener Dienst für SEO- und GEO-Audits",
+				"role": "Entwicklung des Tools",
+				"summary": "In die Bewertung fließt nur ein, was auf der Seite tatsächlich zu sehen ist. Der Dienst zeigt, was sich nicht überprüfen ließ und welche Probleme man zuerst beheben sollte.",
+				"highlights": [
+					"Läuft auf Cloudflare Workers, Pages, D1, KV, Vectorize und Workers AI",
+					"Im Website-Modus wählt der Dienst nach Seitentyp deterministisch bis zu 5 Seiten aus. Nach einem Abbruch verwendet er noch gültige Modulergebnisse weiter",
+					"37 Sterne auf GitHub; online unter geo.sayori.org"
+				]
+			},
+			"enhanced-save-system": {
+				"type": "Speicherstand-Plugin für Godot 4",
+				"role": "Entwicklung des Tools",
+				"summary": "Modulares System mit einem globalen Speicherstand und einzelnen Speicherplätzen. Die Speichermodule werden nach Priorität registriert und ausgeführt.",
+				"highlights": [
+					"Atomares Schreiben: Erst wird in eine .tmp-Datei geschrieben, dann wird sie umbenannt. So bleibt der Speicherstand bei einem Abbruch intakt. Eine .bak-Sicherung ist optional",
+					"Optionale Verschlüsselung mit AES-GCM / AES-CBC und Kompression mit gzip / deflate; Migrationsfunktionen zwischen Versionen lassen sich registrieren",
+					"Oberfläche für die Speicherstandverwaltung im laufenden Spiel und ein Panel am unteren Rand des Editors"
+				]
+			},
+			"search-gateway": {
+				"type": "Selbst gehostetes Such-Gateway",
+				"role": "Entwicklung des Tools",
+				"summary": "Eine API für KI-Tools: Websuche, Extraktion von Seitentexten, Screenshots, Zusammenfassungen von Recherchen und MCP-Zugriff.",
+				"highlights": [
+					"Mit FastAPI umgesetzt. Die Suchanbieter werden pro Deployment konfiguriert; das Repository enthält keine Zugangsdaten für den Betrieb",
+					"Gespeicherte Momentaufnahmen mehrerer Quellen machen nachvollziehbar, worauf sich eine KI-Antwort tatsächlich stützt",
+					"Quelloffen unter der MIT-Lizenz"
+				]
+			},
+			"agent-session-bridge": {
+				"type": "Tool zum Übertragen von Sitzungen zwischen KI-Programmierassistenten",
+				"role": "Entwicklung des Tools",
+				"summary": "Kopiert oder verschiebt Gesprächskontext zwischen 10 KI-Programmierclients, darunter Codex, Claude Code, OpenCode und Qwen Code.",
+				"highlights": [
+					"Alles läuft lokal, ohne Modellaufrufe und ohne Gespräche hochzuladen",
+					"Übertragen werden nur das Gespräch und die bei der Kontextkomprimierung erstellten Zusammenfassungen. Werkzeugaufrufe und Denkschritte bleiben außen vor",
+					"Python-CLI und KI-Skill unter MIT-Lizenz; 9 Sterne auf GitHub"
+				]
+			}
+		}
+	},
+	"more": {
+		"items": {
+			"last-minute-echo": "GMTK Game Jam 2026, Thema COUNT DOWN: Überlebe eine Minute und spule zurück, um deinen Verfolger abzuschütteln",
+			"girls-masquerade": "Global Game Jam 2026: textbasiertes Rätselspiel; ich habe den gesamten Code geschrieben",
+			"geometric-light": "MengYa Game Jam: Ressourcen verwalten, ein Deck zusammenstellen und auf dem Spielbrett vorausplanen; ich habe einen Teil des Codes geschrieben",
+			"tencent-chengdu": "Tencent Chengdu Game Jam: rundenbasierter Online-Strategieprototyp mit ENet, bei dem der Server den Spielzustand vorgibt; Spielräume, Fraktionen und Bereitschaftsabfragen",
+			"multi-window-demo": "Godot-Vorlage für Spiele, in denen man von Fenster zu Fenster wechselt; 4 Sterne auf GitHub",
+			"sayori-lite": "Astro-Blogvorlage für Cloudflare Pages, gestaltet wie Papier in warmen Farbtönen",
+			"sayori-org": "Diese Website selbst: ein Blog in 9 Sprachen, eine Linksammlung, eine Statusseite und die 31 selbst gehosteten Dienste dahinter"
+		}
+	},
+	"skills": {
+		"title": "Talentbaum",
+		"intro": "Keine erfundenen Fortschrittsbalken. Jeder Knoten verlinkt auf ein Projekt oder einen Artikel, der die Fähigkeit in der Praxis zeigt.",
+		"branches": {
+			"client": {
+				"title": "Spielclient",
+				"nodes": {
+					"godot": "Godot 4 (GDScript / C#)",
+					"fsm": "Endliche Zustandsautomaten und Figurensteuerung",
+					"rewind": "Zurückspulen und Ringpuffer",
+					"netcode": "Synchronisierung über ENet / RPC mit dem Server als maßgeblicher Instanz",
+					"save": "Speicherstände, Verschlüsselung und Versionsmigration",
+					"feel": "Sprunggefühl: Coyote Time und Eingabepuffer",
+					"windows": "Spielmechaniken über mehrere Fenster hinweg",
+					"i18n": "Lokalisierung in mehrere Sprachen"
+				}
+			},
+			"web": {
+				"title": "Web und Tools",
+				"nodes": {
+					"cloudflare": "Cloudflare Workers / Pages / D1 / KV",
+					"seo": "SEO- und GEO-Audits",
+					"fastapi": "Dienste mit FastAPI",
+					"mcp": "Anbindung von MCP-Tools",
+					"astro": "Statische Websites mit Astro",
+					"cli": "Kommandozeilentools mit Python"
+				}
+			},
+			"ops": {
+				"title": "Betrieb und Selbsthosting",
+				"nodes": {
+					"docker": "Deployments mit Docker Compose",
+					"vps": "Betrieb und Absicherung von 9 VPS-Knoten",
+					"monitor": "Monitoring und Alarme: Statusseite und Push-Benachrichtigungen",
+					"search": "Selbst gehosteter KI-Suchdienst"
+				}
+			}
+		},
+		"ai": "Mit KI setze ich Ideen schneller um. Ich grenze das Problem ein, übernehme das Debugging und treffe die endgültige Entscheidung.",
+		"easterEgg": "Zieh einmal ein Fenster über den Bildschirm: Die beiden Nachbilder folgen ihm mit derselben Ringpuffer-Wiedergabe wie in TimeRewindLinker."
+	},
+	"jams": {
+		"title": "Abenteuertagebuch",
+		"intro": "Meine Game Jams und Wettbewerbe in zeitlicher Reihenfolge.",
+		"noWork": "Prototyp",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025",
+				"note": "Zweiter Preis im Jam mit Themenvorgabe"
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest",
+				"note": "Auszeichnung für ein hervorragendes Spiel, Runde an der Hangzhou Dianzi University"
+			},
+			"thatgamejam-01": {
+				"event": "thatgamejam #01",
+				"note": "4 Personen im Team; ich war für die Programmierung zuständig"
+			},
+			"mengya-2026": {
+				"event": "MengYa (萌芽) Game Jam",
+				"note": "Einen Teil des Codes geschrieben"
+			},
+			"ggj-2026": {
+				"event": "Global Game Jam 2026 · CiGA",
+				"note": "Standort Jiading in Shanghai und Online-Standort; den gesamten Code geschrieben"
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"note": "Bestes Spiel zum Thema Zeit"
+			},
+			"tencent-chengdu-2026": {
+				"event": "Tencent Chengdu Game Jam",
+				"note": "Rundenbasierter Online-Prototyp; Programmierung übernommen"
+			},
+			"unity2-2026": {
+				"event": "Unity2 Game Jam",
+				"note": "In 4 Tagen entstand ein Prototyp, in dem du bei jedem Durchlauf mit deinem eigenen Nachbild zusammenarbeitest"
+			},
+			"godothub-jam-2026": {
+				"event": "GodotHub Jam",
+				"note": "Mit dem Ergebnis war ich zufrieden und habe das Spiel weiterentwickelt"
+			},
+			"gmtk-2026": {
+				"event": "GMTK Game Jam 2026",
+				"note": "Thema: COUNT DOWN"
+			},
+			"thatgamejam-02": {
+				"event": "thatgamejam #02",
+				"note": "Solo teilgenommen"
+			},
+			"improve-47": {
+				"event": "Improve My Game Jam 47",
+				"note": "Am selben Spiel weitergefeilt"
+			}
+		}
+	},
+	"contact": {
+		"title": "Speicherpunkt",
+		"intro": "Hast du einen Spieleprototyp, eine interaktive Webseite oder ein kleines Tool im Sinn? Beschreibe deine Idee kurz über das Studioformular oder schreib mir direkt eine E-Mail. Ein fertiges Konzept brauchst du dafür nicht.",
+		"commission": "Projekt anfragen",
+		"email": "E-Mail schreiben",
+		"elsewhere": "Hier findest du mich auch"
+	},
+	"options": {
+		"title": "Optionen",
+		"language": "Sprache",
+		"motion": "Animationen reduzieren",
+		"print": "Drucken / als PDF speichern",
+		"replay": "Intro erneut abspielen"
+	}
+}

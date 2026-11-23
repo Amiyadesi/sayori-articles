@@ -12,6 +12,10 @@
 		"dateStamp": "A longer introduction",
 		"title": "Hi, I'm Amiya_desi",
 		"intro": "I'm Amiya_desi. This page gathers projects, work, notes from the process, and useful public links.",
+		"resume": {
+			"label": "Full résumé: works, awards and skills →",
+			"href": "/en/resume/"
+		},
 		"sections": [
 			{
 				"heading": "Creative practice",

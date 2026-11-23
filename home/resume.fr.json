@@ -1,0 +1,321 @@
+{
+	"meta": {
+		"title": "Amiya_desi · CV — jeux indépendants et outils",
+		"description": "Amiya_desi crée des jeux avec Godot sur le temps et les échos. Jeux à essayer, sites, outils libres et services auto-hébergés. 3 prix en 12 jams et concours.",
+		"ogAlt": "Écran-titre en pixel art d’AMIYA_DESI"
+	},
+	"ui": {
+		"tagline": "Je crée des jeux indé, et aussi des outils",
+		"menuLabel": "Menu du CV",
+		"menu": {
+			"works": "Continuer · Projets",
+			"awards": "Succès · Prix",
+			"skills": "Arbre de compétences",
+			"jams": "Journal d’aventure",
+			"contact": "Point de sauvegarde · Contact",
+			"options": "Options"
+		},
+		"press": "Appuyez sur une touche pour continuer",
+		"skip": "Passer l’intro",
+		"hudLabel": "Statut du personnage",
+		"hudClass": "Classe",
+		"hudClassValue": "Dev de jeux",
+		"hudSub": "Classe secondaire",
+		"hudSubValue": "Dev d’outils",
+		"asOf": "Au {date}",
+		"stats": {
+			"awards": "prix en concours",
+			"jams": "jams et concours",
+			"repos": "dépôts publics",
+			"services": "services auto-hébergés"
+		},
+		"windowControls": {
+			"minimize": "Réduire",
+			"maximize": "Agrandir",
+			"restore": "Restaurer",
+			"close": "Fermer"
+		},
+		"trayLabel": "Fenêtres réduites",
+		"links": {
+			"play": "Jouer",
+			"use": "Utiliser en ligne",
+			"source": "Code source",
+			"evidence": "Source du résultat",
+			"certificate": "Voir le certificat",
+			"jamPage": "Page du projet"
+		},
+		"role": "Mon rôle",
+		"highlights": "Ce que j’ai réalisé",
+		"open": "Ouvrir",
+		"backToWorks": "Retour aux projets",
+		"more": "Autres projets",
+		"evidenceFor": "À voir dans ces projets",
+		"back": "Retour au bureau",
+		"backHref": "/en/",
+		"translationNote": "Cette page a été traduite du chinois avec l’aide de l’IA.",
+		"noJs": "Avec JavaScript, cette page devient un écran-titre où vous pouvez déplacer les fenêtres. Vous lisez ici la version texte intégrale.",
+		"copyright": "© 2026 Amiya_desi"
+	},
+	"whoami": {
+		"title": "À propos de moi",
+		"positioning": "Je crée des jeux indé. Je fabrique aussi des outils.",
+		"lede": "Je crée avec Godot des jeux sur le temps et les échos. Je développe aussi des sites et des outils, et je fais tourner mes propres serveurs.",
+		"paragraphs": [
+			"Au cours de l’année écoulée, j’ai participé à 12 game jams et concours et remporté 3 prix. Je reviens souvent au temps : une action à retardement, un retour en arrière, un écho qui permet de résoudre une énigme avec son double du passé.",
+			"En dehors des jeux, je crée des sites et des outils. GeoScore est un service libre d’audit SEO / GEO et Search Gateway, une passerelle de recherche auto-hébergée. Je déploie et maintiens moi-même tout sayori.org et les 31 services qui le font tourner.",
+			"Je commence par une version qui fonctionne. Ensuite, je joue, je m’en sers et je l’améliore. L’IA m’aide à coder plus vite ; je garde la main sur le débogage, les compromis et les sensations de jeu."
+		],
+		"availability": "Je prends de petites commandes : prototypes de jeux, pages web interactives et outils web. Un seul projet à la fois, que je mène jusqu’au bout.",
+		"cta": "Proposer un projet"
+	},
+	"awards": {
+		"title": "Prix",
+		"intro": "Chaque prix est accompagné d’un lien pour en vérifier le résultat.",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025 · Jam à thème imposé",
+				"prize": "Deuxième prix",
+				"note": "233 équipes se sont inscrites, 74 ont pris part à la compétition. Jeu primé : Wake Up at the Border."
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"prize": "Prix du meilleur jeu sur le thème du temps",
+				"note": "La règle : créer un jeu avec des formes géométriques de base, et rien d’autre. J’ai participé en solo avec TimeRewindLinker."
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest · Étape de la Hangzhou Dianzi University",
+				"prize": "Prix d’excellence",
+				"note": "Beyond the Heart est un jeu de l’équipe Shuangjin Jihua (霜烬计划). J’en ai écrit tout le code."
+			}
+		}
+	},
+	"works": {
+		"title": "Projets",
+		"intro": "6 jeux et 4 outils. Pour chacun, vous pouvez jouer, essayer l’outil ou lire le code source.",
+		"kinds": {
+			"game": "Jeu",
+			"tool": "Outil"
+		},
+		"items": {
+			"wake-up-at-the-border": {
+				"type": "Jeu 2D en pixel art à défilement horizontal · énigmes, dialogues et combats",
+				"role": "Responsable de la programmation du gameplay et des systèmes",
+				"summary": "Deuxième prix de la jam à thème imposé du Godot Hub Festival 2025.",
+				"highlights": [
+					"Une machine à états finis gère les déplacements, les attaques, la garde et les réactions aux coups du personnage et des ennemis, ainsi que les ruées, doubles sauts et attaques aériennes",
+					"Dialogues à embranchements en plusieurs langues avec Dialogue Manager, liés au suivi de plusieurs quêtes et à l’attribution des récompenses",
+					"Couches de collision distinctes pour le décor, le personnage, les ennemis, les attaques et les personnages non joueurs (NPC) ; gestion commune des transitions et du chargement des scènes"
+				]
+			},
+			"time-rewind-linker": {
+				"type": "Jeu de plateformes et d’énigmes temporelles en 2D",
+				"role": "Développement en solo",
+				"summary": "Enregistrez un trajet, puis remontez le temps : un rayon vous relie à votre double du passé. La porte ne s’ouvre que si le rayon balaie un capteur. Prix du meilleur jeu sur le thème du temps à la 034 Challenge Game Jam #2.",
+				"highlights": [
+					"Un tampon circulaire permet d’enregistrer et de rembobiner, par défaut sur 5 secondes à 30 images par seconde. Position, vitesse et animation sont des champs facultatifs",
+					"TimeController règle à la fois l’échelle de temps et la vitesse de lecture audio ; certains nœuds peuvent être exclus de ces variations ou figés",
+					"Hauteur du saut, temps de montée et courbe de chute réglables, avec un délai de grâce au bord des plateformes et une mémoire des appuis anticipés"
+				]
+			},
+			"beyond-the-heart": {
+				"type": "Jeu d’action, de plateformes et d’énigmes en 2D",
+				"role": "Projet d’équipe ; j’ai écrit tout le code",
+				"summary": "Dans la peau d’un « détective de l’esprit », vous construisez des ponts pour traverser le monde intérieur d’un patient. Prix d’excellence du Kaying Cup (卡赢杯) Open-Source Game Contest, étape de la Hangzhou Dianzi University.",
+				"highlights": [
+					"Réalisation de la mécanique centrale de construction de ponts et des interactions dans les niveaux",
+					"Le saut reste possible juste après avoir quitté un rebord, et un appui juste avant l’atterrissage est mémorisé : les commandes répondent même si le geste est un peu décalé"
+				]
+			},
+			"retrace": {
+				"type": "Exploration et énigmes en 2D dans des ruines",
+				"role": "Développement en solo",
+				"summary": "Dans des ruines bleu-vert, réveillez d’anciens mécanismes par résonance. Laissez un écho pour avancer avec votre double de l’instant d’avant. Jeu présenté à thatgamejam #02 et à Improve My Game Jam 47 ; comptez environ une demi-heure.",
+				"highlights": [
+					"Résonance et échos : des dispositifs rejouent vos 8 dernières secondes de mouvement",
+					"Les mécanismes sont des composants que l’on peut combiner pour créer des niveaux sans changer le déroulement du jeu",
+					"Menus, indices sur les mécanismes et carnet en 8 langues ; versions Windows et web"
+				]
+			},
+			"delaytrace": {
+				"type": "Jeu de plateformes 2D et de poursuite à travers le temps",
+				"role": "Développement en solo, en cours",
+				"summary": "Votre double du passé reprend votre trajet avec 1, 3 ou 5 secondes de retard et vous poursuit. Vous pouvez aussi enregistrer un trajet et le renvoyer sous forme d’« écho du futur ».",
+				"highlights": [
+					"Le présent, le passé et le futur se superposent dans la même pièce pour résoudre les énigmes",
+					"Jouable dans le navigateur, avec des commandes tactiles sur Android",
+					"Dialogues en anglais et en chinois simplifié"
+				]
+			},
+			"mios-window-wanderer": {
+				"type": "Jeu d’énigmes narratif à plusieurs fenêtres",
+				"role": "Équipe de 4 ; j’ai assuré la programmation",
+				"summary": "Jeu présenté à thatgamejam #01. Mio se réveille dans un monde virtuel créé par sa grande sœur. En passant d’une véritable fenêtre du bureau à l’autre, elle reconstitue peu à peu la vérité.",
+				"highlights": [
+					"Scènes et dialogues répartis dans plusieurs fenêtres du système pour expérimenter une navigation qui fait partie du jeu",
+					"Un récit qui avance par le dialogue, en anglais, chinois simplifié, chinois traditionnel et japonais"
+				]
+			},
+			"geoscore": {
+				"type": "Service libre d’audit SEO / GEO",
+				"role": "Création de l’outil",
+				"summary": "La note ne repose que sur des éléments observés sur la page. L’outil indique ce qu’il n’a pas pu vérifier et les problèmes à corriger en priorité.",
+				"highlights": [
+					"Fonctionne sur Cloudflare Workers, Pages, D1, KV, Vectorize et Workers AI",
+					"En mode site, une règle déterministe sélectionne au plus 5 pages selon leur type. Après une interruption, l’audit réutilise les résultats de modules encore valides",
+					"37 étoiles sur GitHub ; service en ligne sur geo.sayori.org"
+				]
+			},
+			"enhanced-save-system": {
+				"type": "Extension de sauvegarde pour Godot 4",
+				"role": "Création de l’outil",
+				"summary": "Système modulaire avec une sauvegarde globale et des emplacements distincts. Les modules de sauvegarde sont enregistrés et exécutés par ordre de priorité.",
+				"highlights": [
+					"Écriture atomique dans un fichier .tmp, ensuite renommé, avec copie .bak facultative : une interruption laisse la sauvegarde intacte",
+					"Chiffrement AES-GCM / AES-CBC et compression gzip / deflate en option ; possibilité d’enregistrer des fonctions de migration entre versions",
+					"Interface de gestion des sauvegardes en cours de jeu et panneau en bas de l’éditeur"
+				]
+			},
+			"search-gateway": {
+				"type": "Passerelle de recherche auto-hébergée",
+				"role": "Création de l’outil",
+				"summary": "Une seule API pour les outils d’IA : recherche web, extraction du texte des pages, captures d’écran, synthèses de recherche et accès MCP.",
+				"highlights": [
+					"Développée avec FastAPI. Les fournisseurs de recherche se configurent à chaque déploiement ; le dépôt ne contient aucun identifiant d’exécution",
+					"Des instantanés de plusieurs sources permettent de vérifier ce qu’une réponse de l’IA cite réellement",
+					"Code source sous licence MIT"
+				]
+			},
+			"agent-session-bridge": {
+				"type": "Outil de migration de sessions de programmation avec IA",
+				"role": "Création de l’outil",
+				"summary": "Copie ou déplace le contexte des conversations entre 10 clients de programmation avec IA, dont Codex, Claude Code, OpenCode et Qwen Code.",
+				"highlights": [
+					"Tout se passe en local, sans appel à un modèle ni envoi des conversations",
+					"Seuls les échanges et les résumés de compression du contexte sont transférés, sans les appels d’outils ni les étapes de raisonnement",
+					"Une CLI en Python et une compétence pour agent IA, sous licence MIT ; 9 étoiles sur GitHub"
+				]
+			}
+		}
+	},
+	"more": {
+		"items": {
+			"last-minute-echo": "GMTK Game Jam 2026, thème COUNT DOWN : survivez une minute et remontez le temps pour semer votre poursuivant",
+			"girls-masquerade": "Global Game Jam 2026 : jeu d’énigmes en mode texte ; j’ai écrit tout le code",
+			"geometric-light": "MengYa Game Jam : gestion de ressources, construction de deck et planification sur un plateau ; j’ai écrit une partie du code",
+			"tencent-chengdu": "Tencent Chengdu Game Jam : prototype de stratégie en ligne au tour par tour avec ENet. Le serveur fait autorité et gère les salons, les factions et la confirmation des joueurs avant le départ",
+			"multi-window-demo": "Modèle Godot pour passer d’une fenêtre à l’autre en jeu ; 4 étoiles sur GitHub",
+			"sayori-lite": "Modèle de blog Astro pour Cloudflare Pages, inspiré du papier aux teintes chaudes",
+			"sayori-org": "Ce site : un blog en 9 langues, un annuaire de liens, une page de statut et les 31 services auto-hébergés qui les font tourner"
+		}
+	},
+	"skills": {
+		"title": "Arbre de compétences",
+		"intro": "Pas de jauges de niveau imaginaires. Chaque nœud renvoie au projet ou à l’article qui illustre la compétence.",
+		"branches": {
+			"client": {
+				"title": "Client de jeu",
+				"nodes": {
+					"godot": "Godot 4 (GDScript / C#)",
+					"fsm": "Machines à états finis et contrôle du personnage",
+					"rewind": "Retour dans le temps et tampons circulaires",
+					"netcode": "Synchronisation ENet / RPC avec autorité du serveur",
+					"save": "Sauvegardes, chiffrement et migration entre versions",
+					"feel": "Sensations de saut : délai de grâce et mémorisation des appuis anticipés",
+					"windows": "Jeu à plusieurs fenêtres",
+					"i18n": "Localisation en plusieurs langues"
+				}
+			},
+			"web": {
+				"title": "Web et outils",
+				"nodes": {
+					"cloudflare": "Cloudflare Workers / Pages / D1 / KV",
+					"seo": "Audit SEO / GEO",
+					"fastapi": "Services avec FastAPI",
+					"mcp": "Intégration d’outils MCP",
+					"astro": "Sites statiques avec Astro",
+					"cli": "Outils en ligne de commande en Python"
+				}
+			},
+			"ops": {
+				"title": "Exploitation et auto-hébergement",
+				"nodes": {
+					"docker": "Déploiements avec Docker Compose",
+					"vps": "Exploitation et sécurisation de 9 nœuds VPS",
+					"monitor": "Supervision et alertes : page de statut et notifications push",
+					"search": "Service de recherche auto-hébergé pour l’IA"
+				}
+			}
+		},
+		"ai": "L’IA m’aide à coder plus vite. Je définis le périmètre, je débogue et je tranche.",
+		"easterEgg": "Quand vous faites glisser une fenêtre, deux silhouettes suivent son mouvement. Elles utilisent le même système de relecture par tampon circulaire que TimeRewindLinker."
+	},
+	"jams": {
+		"title": "Journal d’aventure",
+		"intro": "Mes game jams et concours, dans l’ordre chronologique.",
+		"noWork": "Prototype",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025",
+				"note": "Deuxième prix de la jam à thème imposé"
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest",
+				"note": "Prix d’excellence, étape de la Hangzhou Dianzi University"
+			},
+			"thatgamejam-01": {
+				"event": "thatgamejam #01",
+				"note": "Équipe de 4 ; j’ai assuré la programmation"
+			},
+			"mengya-2026": {
+				"event": "MengYa (萌芽) Game Jam",
+				"note": "J’ai écrit une partie du code"
+			},
+			"ggj-2026": {
+				"event": "Global Game Jam 2026 · CiGA",
+				"note": "À Jiading (Shanghai) et en ligne ; j’ai écrit tout le code"
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"note": "Prix du meilleur jeu sur le thème du temps"
+			},
+			"tencent-chengdu-2026": {
+				"event": "Tencent Chengdu Game Jam",
+				"note": "Prototype en ligne au tour par tour ; programmation"
+			},
+			"unity2-2026": {
+				"event": "Unity2 Game Jam",
+				"note": "En 4 jours, un prototype où l’on fait équipe avec sa propre image rémanente à chaque boucle"
+			},
+			"godothub-jam-2026": {
+				"event": "GodotHub Jam",
+				"note": "Un résultat qui m’a plu ; j’ai poursuivi le développement"
+			},
+			"gmtk-2026": {
+				"event": "GMTK Game Jam 2026",
+				"note": "Thème : COUNT DOWN"
+			},
+			"thatgamejam-02": {
+				"event": "thatgamejam #02",
+				"note": "Participation en solo"
+			},
+			"improve-47": {
+				"event": "Improve My Game Jam 47",
+				"note": "J’ai continué à peaufiner le même jeu"
+			}
+		}
+	},
+	"contact": {
+		"title": "Point de sauvegarde",
+		"intro": "Un prototype de jeu, une page interactive ou un petit outil en tête ? Décrivez votre idée en quelques lignes via le studio, ou écrivez-moi directement par e-mail. Pas besoin d’un cahier des charges complet.",
+		"commission": "Proposer un projet",
+		"email": "M’écrire",
+		"elsewhere": "Me retrouver ailleurs"
+	},
+	"options": {
+		"title": "Options",
+		"language": "Langue",
+		"motion": "Réduire les animations",
+		"print": "Imprimer / enregistrer en PDF",
+		"replay": "Revoir l’intro"
+	}
+}

@@ -12,6 +12,10 @@
 		"dateStamp": "长期名片",
 		"title": "你好，我是 Amiya_desi",
 		"intro": "我是 Amiya_desi。这里整理我做过的项目、作品和一些过程记录，也放着常用的公开入口。",
+		"resume": {
+			"label": "完整简历：作品、奖项与技能树 →",
+			"href": "/resume/"
+		},
 		"sections": [
 			{
 				"heading": "我的创作与实践",

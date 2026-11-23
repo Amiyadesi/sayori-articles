@@ -1,0 +1,321 @@
+{
+	"meta": {
+		"title": "Amiya_desi 이력서 · 인디 게임과 도구 개발",
+		"description": "Amiya_desi는 Godot으로 시간과 메아리를 다룬 게임을 만듭니다. 웹사이트와 도구를 만들고 서비스도 직접 운영합니다. 게임잼·대회 12회 참가, 3회 수상. 게임을 플레이하거나 오픈 소스 도구를 살펴보세요.",
+		"ogAlt": "AMIYA_DESI의 픽셀 아트 타이틀 화면"
+	},
+	"ui": {
+		"tagline": "인디 게임을 만듭니다. 도구도 직접 만듭니다",
+		"menuLabel": "이력서 메뉴",
+		"menu": {
+			"works": "이어하기 · 작품",
+			"awards": "업적 · 수상 내역",
+			"skills": "스킬 트리",
+			"jams": "모험 일지",
+			"contact": "세이브 포인트 · 연락처",
+			"options": "설정"
+		},
+		"press": "아무 키나 눌러 계속",
+		"skip": "인트로 건너뛰기",
+		"hudLabel": "캐릭터 상태",
+		"hudClass": "직업",
+		"hudClassValue": "게임 개발자",
+		"hudSub": "보조 직업",
+		"hudSubValue": "도구 제작자",
+		"asOf": "{date} 기준",
+		"stats": {
+			"awards": "대회 수상",
+			"jams": "게임잼·대회 참가",
+			"repos": "공개 저장소",
+			"services": "직접 호스팅하는 서비스"
+		},
+		"windowControls": {
+			"minimize": "최소화",
+			"maximize": "최대화",
+			"restore": "이전 크기로 복원",
+			"close": "닫기"
+		},
+		"trayLabel": "최소화한 창",
+		"links": {
+			"play": "플레이하기",
+			"use": "온라인으로 사용하기",
+			"source": "소스 코드",
+			"evidence": "출처",
+			"certificate": "상장 보기",
+			"jamPage": "작품 페이지"
+		},
+		"role": "담당한 일",
+		"highlights": "구현한 내용",
+		"open": "열기",
+		"backToWorks": "작품 목록으로",
+		"more": "다른 작품",
+		"evidenceFor": "이 기술을 쓴 작품",
+		"back": "책상으로 돌아가기",
+		"backHref": "/en/",
+		"translationNote": "중국어 원문을 AI의 도움을 받아 한국어로 옮겼습니다.",
+		"noJs": "JavaScript를 켜면 창을 끌어서 옮길 수 있는 타이틀 화면으로 바뀝니다. 지금은 전체 내용을 텍스트로 보고 있습니다.",
+		"copyright": "© 2026 Amiya_desi"
+	},
+	"whoami": {
+		"title": "자기소개",
+		"positioning": "인디 게임을 만듭니다. 도구도 직접 만듭니다.",
+		"lede": "Godot으로 시간과 메아리를 소재로 게임을 만듭니다. 웹사이트와 도구를 개발하고 서버도 직접 띄워 운영합니다.",
+		"paragraphs": [
+			"지난 1년 동안 게임잼과 대회에 12회 참가해 상을 3개 받았습니다. 자주 돌아오는 소재는 시간입니다. 뒤늦게 일어나는 일, 되감기, 메아리를 이용해 과거의 나와 함께 퍼즐을 풉니다.",
+			"게임 밖에서는 웹사이트와 도구를 만듭니다. GeoScore는 오픈 소스 SEO / GEO 감사 서비스이고, Search Gateway는 셀프 호스팅 검색 게이트웨이입니다. sayori.org의 사이트 전체와 이를 뒷받침하는 서비스 31개를 직접 배포하고 관리합니다.",
+			"먼저 돌아가는 버전을 만들고, 직접 플레이하고 써 보며 고칩니다. AI로 구현 속도를 높이되, 디버깅과 설계상의 선택, 조작감에 대한 판단은 제가 맡습니다."
+		],
+		"availability": "게임 프로토타입, 인터랙티브 웹페이지, 웹 도구처럼 작은 규모의 의뢰를 받습니다. 한 번에 한 프로젝트만 맡아 끝까지 완성합니다.",
+		"cta": "프로젝트 문의"
+	},
+	"awards": {
+		"title": "수상 내역",
+		"intro": "각 수상 내역에는 결과를 확인할 수 있는 출처가 있습니다.",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025 · 지정 주제 게임잼 부문",
+				"prize": "2등상",
+				"note": "233팀이 신청해 74팀이 대회에 참가했습니다. 수상작은 Wake Up at the Border입니다."
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"prize": "시간을 주제로 한 최우수 게임상",
+				"note": "기본 도형만으로 게임을 만드는 게 규칙이었습니다. TimeRewindLinker로 혼자 참가했습니다."
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest · 항저우전자과학기술대학교 대회",
+				"prize": "우수 게임상",
+				"note": "Shuangjin Jihua (霜烬计划) 팀의 작품 Beyond the Heart에서 프로그래밍 전체를 맡았습니다."
+			}
+		}
+	},
+	"works": {
+		"title": "작품",
+		"intro": "게임 6개와 도구 4개입니다. 각 작품을 직접 플레이하거나 도구를 사용하거나 소스 코드를 살펴볼 수 있습니다.",
+		"kinds": {
+			"game": "게임",
+			"tool": "도구"
+		},
+		"items": {
+			"wake-up-at-the-border": {
+				"type": "2D 픽셀 아트 횡스크롤 · 퍼즐, 대화, 전투",
+				"role": "메인 프로그래머로 게임플레이와 시스템 구현 담당",
+				"summary": "Godot Hub Festival 2025 지정 주제 게임잼 부문 2등상 수상작입니다.",
+				"highlights": [
+					"유한 상태 머신으로 플레이어와 적의 이동, 공격, 방어, 피격 반응을 제어하고 대시, 2단 점프, 공중 공격 구현",
+					"Dialogue Manager로 다국어 분기 대화를 구현하고 여러 퀘스트의 진행 추적 및 보상 지급과 연결",
+					"월드, 플레이어, 적, 공격, NPC별로 충돌 레이어를 나누고 장면 전환과 로딩을 한 흐름으로 처리"
+				]
+			},
+			"time-rewind-linker": {
+				"type": "시간 퍼즐 2D 플랫포머",
+				"role": "1인 개발",
+				"summary": "이동 경로를 기록하고 시간을 되감으면 과거의 나와 현재의 나 사이에 빛줄기가 생깁니다. 이 빛줄기가 감지기를 훑고 지나가야 문이 열립니다. 034 Challenge Game Jam #2에서 시간을 주제로 한 최우수 게임상을 받았습니다.",
+				"highlights": [
+					"링 버퍼로 경로를 기록하고 되감으며, 기본값은 초당 30프레임에 5초 분량. 위치, 속도, 애니메이션 중 기록할 항목을 선택 가능",
+					"TimeController로 시간 배율과 오디오 재생 속도를 함께 제어하고, 특정 노드는 영향을 받지 않게 하거나 정지하도록 설정",
+					"점프 높이, 상승 시간, 낙하 곡선을 조정할 수 있고 코요테 타임과 입력 버퍼링 지원"
+				]
+			},
+			"beyond-the-heart": {
+				"type": "2D 횡스크롤 액션 퍼즐 플랫포머",
+				"role": "팀 프로젝트에서 프로그래밍 전체 담당",
+				"summary": "‘마음 탐정’이 되어 환자의 내면세계에 다리를 놓고 건너갑니다. Kaying Cup (卡赢杯) Open-Source Game Contest 항저우전자과학기술대학교 대회에서 우수 게임상을 받았습니다.",
+				"highlights": [
+					"핵심인 다리 놓기와 스테이지 내 상호작용 구현",
+					"발판을 벗어난 직후에도 뛰고 착지 직전 입력도 받아 주도록 해, 타이밍이 조금 어긋나도 의도대로 점프"
+				]
+			},
+			"retrace": {
+				"type": "분위기 중심의 2D 탐험 퍼즐",
+				"role": "1인 개발",
+				"summary": "청록빛 유적에서 공명으로 오래된 장치를 깨웁니다. 메아리를 남기면 조금 전의 나와 나란히 걸을 수 있습니다. thatgamejam #02와 Improve My Game Jam 47 출품작으로, 플레이 시간은 약 30분입니다.",
+				"highlights": [
+					"공명과 메아리 재생: 특수 장치로 직전 8초 동안의 움직임을 재생",
+					"장치를 조합 가능한 컴포넌트로 만들어 게임의 주 흐름을 바꾸지 않고 새 스테이지를 구성",
+					"메뉴, 장치 힌트, 일지를 8개 언어로 제공하며 Windows 버전과 웹 버전 지원"
+				]
+			},
+			"delaytrace": {
+				"type": "시간차 추격 2D 플랫포머",
+				"role": "1인 개발, 현재 개발 중",
+				"summary": "내가 지나온 길을 1초, 3초 또는 5초 뒤에 ‘과거의 나’가 따라오며 나를 쫓습니다. 경로를 기록해 ‘미래의 메아리’로 되돌려 보낼 수도 있습니다.",
+				"highlights": [
+					"같은 방에 겹쳐진 현재, 과거, 미래의 세 시간대를 이용해 퍼즐 해결",
+					"브라우저에서 바로 플레이 가능하며 Android 버전은 터치 조작 지원",
+					"영어와 중국어 간체 대화 지원"
+				]
+			},
+			"mios-window-wanderer": {
+				"type": "여러 창을 오가는 내러티브 퍼즐",
+				"role": "4인 팀에서 프로그래밍 담당",
+				"summary": "thatgamejam #01 출품작입니다. 언니가 만든 가상 세계에서 깨어난 Mio는 실제 데스크톱 창 사이를 오가며 진실을 하나씩 맞춰 갑니다.",
+				"highlights": [
+					"실제 운영체제 창 여러 개에 장면과 대화를 배치해 창 사이를 이동하는 방식의 플레이를 실험",
+					"대화로 진행되는 이야기를 영어, 중국어 간체·번체, 일본어로 제공"
+				]
+			},
+			"geoscore": {
+				"type": "오픈 소스 SEO / GEO 감사 서비스",
+				"role": "제작자",
+				"summary": "페이지에서 직접 확인한 근거만으로 점수를 매깁니다. 확인할 수 없었던 항목과 어떤 문제부터 고치면 좋을지도 알려 줍니다.",
+				"highlights": [
+					"Cloudflare Workers, Pages, D1, KV, Vectorize, Workers AI에서 실행",
+					"사이트 모드에서는 페이지 유형별로 일정한 규칙에 따라 최대 5페이지를 표본으로 선택. 감사가 중단돼도 아직 유효한 모듈 결과는 재사용",
+					"GitHub 스타 37개. geo.sayori.org에서 사용 가능"
+				]
+			},
+			"enhanced-save-system": {
+				"type": "Godot 4 저장 시스템 플러그인",
+				"role": "제작자",
+				"summary": "공통 저장 데이터와 슬롯별 저장 데이터를 함께 다루는 모듈식 프레임워크입니다. 저장 모듈은 우선순위에 따라 등록하고 실행합니다.",
+				"highlights": [
+					".tmp 파일을 먼저 쓴 뒤 이름을 바꾸는 원자적 쓰기로, 도중에 중단돼도 저장 데이터를 보호. .bak 백업은 선택 사항",
+					"AES-GCM / AES-CBC 암호화와 gzip / deflate 압축을 선택할 수 있으며 버전 간 마이그레이션 함수 등록 가능",
+					"실행 중에 쓸 수 있는 저장 관리 화면과 에디터 하단 패널 제공"
+				]
+			},
+			"search-gateway": {
+				"type": "셀프 호스팅 검색 게이트웨이",
+				"role": "제작자",
+				"summary": "AI 도구에서 웹 검색, 페이지 본문 추출, 스크린샷, 조사 결과 요약, MCP 연결을 하나의 API로 이용할 수 있습니다.",
+				"highlights": [
+					"FastAPI로 구현. 검색 제공자는 배포별로 설정하며 저장소에는 실행 시 사용하는 인증 정보를 포함하지 않음",
+					"여러 출처의 자료를 스냅샷으로 저장해 AI 답변이 실제로 무엇을 인용했는지 확인 가능",
+					"MIT 라이선스로 소스 코드 공개"
+				]
+			},
+			"agent-session-bridge": {
+				"type": "AI 코딩 세션 이전 도구",
+				"role": "제작자",
+				"summary": "Codex, Claude Code, OpenCode, Qwen Code 등 AI 코딩 클라이언트 10개 사이에서 대화 맥락을 복사하거나 옮깁니다.",
+				"highlights": [
+					"모든 처리는 로컬에서 진행하며 모델 호출이나 대화 업로드 없음",
+					"대화와 맥락 압축 시 생성된 요약만 옮기고 도구 호출과 추론 과정은 제외",
+					"Python CLI와 AI 스킬을 제공하며 MIT 라이선스 적용. GitHub 스타 9개"
+				]
+			}
+		}
+	},
+	"more": {
+		"items": {
+			"last-minute-echo": "GMTK Game Jam 2026, 주제는 COUNT DOWN. 1분간 살아남고 시간을 되감아 추격자를 따돌리는 게임",
+			"girls-masquerade": "Global Game Jam 2026 텍스트 퍼즐 게임. 프로그래밍 전체 담당",
+			"geometric-light": "MengYa Game Jam 출품작. 자원 관리, 덱 구성, 보드 위 배치 계획을 결합한 게임으로 프로그래밍 일부 담당",
+			"tencent-chengdu": "Tencent Chengdu Game Jam 온라인 턴제 전략 프로토타입. ENet 서버 권한 방식으로 방, 진영, 준비 상태 확인 구현",
+			"multi-window-demo": "여러 창을 오가는 플레이를 위한 Godot 템플릿. GitHub 스타 4개",
+			"sayori-lite": "Cloudflare Pages용 Astro 블로그 템플릿. 따뜻한 색감의 종이를 모티프로 디자인",
+			"sayori-org": "이 사이트 자체도 작품입니다. 9개 언어로 된 블로그와 링크 모음, 상태 페이지, 이를 뒷받침하는 셀프 호스팅 서비스 31개를 운영합니다"
+		}
+	},
+	"skills": {
+		"title": "스킬 트리",
+		"intro": "숙련도는 막대그래프로 표시하지 않습니다. 각 스킬을 선택하면 실제로 적용한 작품이나 글을 볼 수 있습니다.",
+		"branches": {
+			"client": {
+				"title": "게임 클라이언트",
+				"nodes": {
+					"godot": "Godot 4 (GDScript / C#)",
+					"fsm": "유한 상태 머신과 캐릭터 제어",
+					"rewind": "시간 되감기와 링 버퍼",
+					"netcode": "ENet / RPC 서버 권한 방식 동기화",
+					"save": "저장, 암호화, 버전 간 마이그레이션",
+					"feel": "점프 조작감: 코요테 타임과 입력 버퍼링",
+					"windows": "멀티 윈도우 게임플레이",
+					"i18n": "다국어 현지화"
+				}
+			},
+			"web": {
+				"title": "웹과 도구",
+				"nodes": {
+					"cloudflare": "Cloudflare Workers / Pages / D1 / KV",
+					"seo": "SEO / GEO 감사",
+					"fastapi": "FastAPI 서비스",
+					"mcp": "MCP 도구 연동",
+					"astro": "Astro 정적 사이트",
+					"cli": "Python 명령줄 도구"
+				}
+			},
+			"ops": {
+				"title": "운영과 셀프 호스팅",
+				"nodes": {
+					"docker": "Docker Compose 배포",
+					"vps": "VPS 노드 9대 운영 및 보안 강화",
+					"monitor": "모니터링과 알림: 상태 페이지, 푸시 알림",
+					"search": "셀프 호스팅 AI 검색 서비스"
+				}
+			}
+		},
+		"ai": "AI를 활용해 구현 속도를 높입니다. 문제의 범위를 정하고 디버깅하며 최종 결정을 내리는 일은 제가 맡습니다.",
+		"easterEgg": "창을 끌어 보면 잔상이 두 겹으로 따라옵니다. TimeRewindLinker에서 쓰던 것과 같은 링 버퍼로 움직임을 재생합니다."
+	},
+	"jams": {
+		"title": "모험 일지",
+		"intro": "참가한 게임잼과 대회를 시간순으로 정리했습니다.",
+		"noWork": "프로토타입",
+		"items": {
+			"godothub-2025": {
+				"event": "Godot Hub Festival 2025",
+				"note": "지정 주제 게임잼 부문 2등상"
+			},
+			"kaying-2025": {
+				"event": "Kaying Cup (卡赢杯) Open-Source Game Contest",
+				"note": "항저우전자과학기술대학교 대회 우수 게임상"
+			},
+			"thatgamejam-01": {
+				"event": "thatgamejam #01",
+				"note": "4인 팀에서 프로그래밍 담당"
+			},
+			"mengya-2026": {
+				"event": "MengYa (萌芽) Game Jam",
+				"note": "프로그래밍 일부 담당"
+			},
+			"ggj-2026": {
+				"event": "Global Game Jam 2026 · CiGA",
+				"note": "상하이 자딩 행사장과 온라인 행사 참가. 프로그래밍 전체 담당"
+			},
+			"jam034-2026": {
+				"event": "034 Challenge Game Jam #2",
+				"note": "시간을 주제로 한 최우수 게임상"
+			},
+			"tencent-chengdu-2026": {
+				"event": "Tencent Chengdu Game Jam",
+				"note": "온라인 턴제 프로토타입에서 프로그래밍 담당"
+			},
+			"unity2-2026": {
+				"event": "Unity2 Game Jam",
+				"note": "4일 동안 자신의 잔상과 협력하는 플레이 루프를 프로토타입으로 구현"
+			},
+			"godothub-jam-2026": {
+				"event": "GodotHub Jam",
+				"note": "결과가 마음에 들어 잼이 끝난 뒤에도 개발을 계속한 작품"
+			},
+			"gmtk-2026": {
+				"event": "GMTK Game Jam 2026",
+				"note": "주제: COUNT DOWN"
+			},
+			"thatgamejam-02": {
+				"event": "thatgamejam #02",
+				"note": "개인 참가"
+			},
+			"improve-47": {
+				"event": "Improve My Game Jam 47",
+				"note": "같은 작품을 계속 다듬음"
+			}
+		}
+	},
+	"contact": {
+		"title": "세이브 포인트",
+		"intro": "게임 프로토타입이나 인터랙티브 웹페이지, 작은 도구가 필요하신가요? 스튜디오 양식에 아이디어를 간단히 적거나 저에게 바로 이메일을 보내 주세요. 완성된 기획서는 없어도 됩니다.",
+		"commission": "프로젝트 문의",
+		"email": "이메일 보내기",
+		"elsewhere": "다른 곳에서 만나기"
+	},
+	"options": {
+		"title": "설정",
+		"language": "언어",
+		"motion": "동작 줄이기",
+		"print": "인쇄 / PDF로 저장",
+		"replay": "인트로 다시 보기"
+	}
+}
