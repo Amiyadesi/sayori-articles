@@ -1,0 +1,290 @@
+{
+	"meta": {
+		"title": "Amiya_desi · 개인 사이트",
+		"description": "Amiya_desi의 작품과 프로젝트 기록, 공개 노트를 모은 개인 사이트입니다.",
+		"themeColor": "#a8d4e6"
+	},
+	"music": {
+		"buttonLabel": "음악",
+		"ariaLabel": "음악 재생",
+		"pianoAriaLabel": "음악 재생",
+		"tracks": {
+			"ohayouSayori": {
+				"youtube": "BUWuDdfe7v4",
+				"netease": "523658869"
+			},
+			"yourReality": {
+				"youtube": "CAL4WMpBNs0",
+				"netease": "523658880"
+			},
+			"sayoNara": {
+				"youtube": "vkqiC4KPeDs",
+				"netease": "523658877"
+			}
+		}
+	},
+	"links": {
+		"bilibili": "https://space.bilibili.com/3546919890585725",
+		"guestbookEndpoint": "https://comments.sayori.org/",
+		"guestbookPath": "/guestbook/"
+	},
+	"surface": {
+		"title": "Amiya_desi",
+		"entryAriaLabel": "Amiya의 다른 페이지",
+		"entries": [
+			{
+				"num": "01",
+				"title": "블로그",
+				"desc": "— 글, 제작 노트, 회고",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"num": "02",
+				"title": "소셜 링크",
+				"desc": "— 영상, 프로젝트, 계정",
+				"href": "/social/"
+			},
+			{
+				"num": "03",
+				"title": "소개",
+				"desc": "— 프로필, 작품, 공개 노트",
+				"href": "/about/"
+			},
+			{
+				"num": "04",
+				"title": "소프트웨어와 서비스",
+				"desc": "— GeoScore, 도구, 개발 계획",
+				"action": "services"
+			},
+			{
+				"num": "05",
+				"title": "자료 모음",
+				"desc": "— 주제별 도구, 자료, 커뮤니티",
+				"href": "https://nav.sayori.org/",
+				"external": true
+			},
+			{
+				"num": "06",
+				"title": "XY-Amiya Studio",
+				"desc": "— 스튜디오 작품과 협업",
+				"href": "https://studio.sayori.org/",
+				"external": true
+			}
+		],
+		"marginNote": "프로젝트와 작품, 일상의 기록",
+		"footerNotice": "Amiya_desi",
+		"languageLink": {
+			"href": "../zh/",
+			"label": "中文"
+		},
+		"version": "v.2026",
+		"foldHint": "볼래?",
+		"foldAriaLabel": "페이지 넘기기",
+		"heartAriaLabel": "눌러서 하트 띄우기",
+		"stickyQuotes": [
+			"오늘도 힘내",
+			"물 마시는 거 잊지 마",
+			"왔구나~",
+			"여긴 안심해도 돼",
+			"가끔은 쉬어도 괜찮아",
+			"누군가 이 종이를 읽고 있어",
+			"날이 좋으면 산책하러 가",
+			"아침밥도 챙겨 먹어"
+		]
+	},
+	"profile": {
+		"ariaLabel": "Amiya 소개",
+		"backLabel": "← 뒤로",
+		"backAriaLabel": "첫 화면으로",
+		"kicker": "03 / Amiya_desi 소개",
+		"name": "Amiya_desi",
+		"intro": "Amiya_desi입니다. 제 작품과 프로젝트, 공개 노트를 여기에 모았습니다.",
+		"columns": [
+			{
+				"title": "내가 만드는 것들",
+				"items": [
+					"프로젝트: 게임, 웹사이트, 도구, 작은 실험",
+					"웹과 도구: 개인 사이트, GeoScore, 브라우저 도구, 공개 코드, 콘텐츠 제작 과정",
+					"셀프 호스팅: Docker, VPS, Cloudflare, 정적 사이트, 블로그 발행 과정"
+				]
+			},
+			{
+				"title": "주요 프로젝트",
+				"items": [
+					{
+						"text": "WakeUpAtTheBorder: 퍼즐, 대화, 전투를 결합한 Godot 게임. 제3회 GodotHub Jam 테마 부문 2위.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							}
+						]
+					},
+					{
+						"text": "DelayTrace: 행동을 기록하고 시차를 두고 재생하는 Godot 게임. 최근 잼 작품 중 특히 마음에 든다.",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker: 시간을 되감아 행동을 재생하고 과거의 잔상을 잇는 퍼즐 실험.",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "Enhanced Save System: GDScript와 C#으로 구현한 Godot용 모듈형 저장 플러그인.",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
+							}
+						]
+					},
+					{
+						"text": "GeoScore: 공개 웹페이지용 SEO·GEO 점검 도구.",
+						"links": [
+							{
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
+							}
+						]
+					},
+					{
+						"text": "Mio's Window Wanderer: 제작에 참여한 다중 창 내러티브 프로토타입.",
+						"links": [
+							{
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
+							}
+						]
+					}
+				]
+			}
+		],
+		"learning": [
+			"게임과 소프트웨어 프로젝트",
+			"프로젝트 설계와 시제품 제작",
+			"사이트와 도구 개발",
+			"서버, 셀프 호스팅, Cloudflare",
+			"n8n, AI 보조 개발, 콘텐츠 발행 과정",
+			"개인 브랜드와 프로젝트 공개"
+		],
+		"faq": {
+			"title": "자주 묻는 질문",
+			"items": [
+				{
+					"question": "sayori.org는 어떤 곳인가요?",
+					"answer": "Amiya_desi의 개인 사이트로, 작품과 프로젝트 기록, 글, 공개 링크를 모았습니다."
+				},
+				{
+					"question": "블로그에서는 무엇을 다루나요?",
+					"answer": "프로젝트와 웹사이트, 도구, 작업 방식, 직접 만들며 배운 점을 기록합니다."
+				},
+				{
+					"question": "여기서 무엇을 볼 수 있나요?",
+					"answer": "작업이 진행될 때마다 프로젝트와 작품, 관련 기록을 올립니다."
+				},
+				{
+					"question": "연락하거나 더 알아보려면 어떻게 하나요?",
+					"answer": "me@sayori.org로 메일을 보내거나 GitHub, 블로그, itch.io, Bilibili, YouTube, 방명록을 방문해 주세요."
+				}
+			]
+		},
+		"contact": {
+			"email": "me@sayori.org",
+			"linksAriaLabel": "공개 링크",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/Amiyadesi"
+				},
+				{
+					"label": "블로그",
+					"href": "https://blog.sayori.org/"
+				},
+				{
+					"label": "itch.io",
+					"href": "https://amiya-desi.itch.io/"
+				},
+				{
+					"label": "Bilibili",
+					"href": "https://space.bilibili.com/3546919890585725"
+				},
+				{
+					"label": "YouTube",
+					"href": "https://www.youtube.com/@Amiya_desi"
+				},
+				{
+					"label": "X",
+					"href": "https://x.com/amiyadesiwa"
+				},
+				{
+					"label": "Linux.do",
+					"href": "https://linux.do/u/Amiya_desi"
+				},
+				{
+					"label": "NodeLoc",
+					"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+				},
+				{
+					"label": "방명록",
+					"href": "https://blog.sayori.org/guestbook/"
+				}
+			]
+		}
+	},
+	"services": {
+		"ariaLabel": "소프트웨어와 서비스",
+		"backLabel": "← 뒤로",
+		"backAriaLabel": "첫 화면으로",
+		"kicker": "04 / 소프트웨어와 서비스",
+		"title": "소프트웨어와 서비스",
+		"intro": "Amiya_desi가 개발하거나 관리하는 소프트웨어와 프로젝트입니다. 주력 SaaS인 GeoScore는 현재 무료이며 유료 구독이나 사이트 내 결제가 없습니다. 게임과 다른 소프트웨어는 실제 개발 단계대로 소개합니다.",
+		"items": [
+			{
+				"index": "TAP",
+				"title": "Subaru Tap",
+				"desc": "화면을 리듬에 맞춰 두드리면 스바루의 원래 비명과 사망귀환 효과가 나옵니다.",
+				"href": "/tools/subarutap/"
+			},
+			{
+				"index": "SERVICES",
+				"title": "공개 서비스",
+				"desc": "운영 중인 서비스, 직접 호스팅할 수 있는 소스, 개발 계획과 이용 범위.",
+				"href": "https://sayori.org/services/"
+			},
+			{
+				"index": "DIARY",
+				"title": "Sayori's Diary",
+				"desc": "Sayori의 공개 일기와 시, 소소한 일상 이야기.",
+				"href": "https://diary.sayori.org/"
+			},
+			{
+				"index": "BOARD",
+				"title": "Amiya Whiteboard",
+				"desc": "스케치와 도식, 정리되지 않은 아이디어를 그리는 작은 브라우저 화이트보드.",
+				"href": "https://board.sayori.org/"
+			},
+			{
+				"index": "GEO",
+				"title": "GeoScore",
+				"desc": "공개 도메인의 구조화 데이터, 페이지 신호, 콘텐츠를 점검하는 공개 SEO·GEO 도구.",
+				"href": "https://geo.sayori.org/"
+			},
+			{
+				"index": "NOTE",
+				"title": "방명록",
+				"desc": "들른 김에 인사나 감상, 의견을 남겨 주세요.",
+				"href": "https://blog.sayori.org/guestbook/"
+			}
+		],
+		"footnote": "다른 항목은 보여 줄 만해질 때까지 비공개로 둡니다."
+	}
+}

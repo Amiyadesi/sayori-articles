@@ -1,0 +1,290 @@
+{
+	"meta": {
+		"title": "Amiya_desi · Site pessoal",
+		"description": "Projetos, trabalhos selecionados e anotações públicas de Amiya_desi.",
+		"themeColor": "#a8d4e6"
+	},
+	"music": {
+		"buttonLabel": "Música",
+		"ariaLabel": "Tocar música",
+		"pianoAriaLabel": "Tocar música",
+		"tracks": {
+			"ohayouSayori": {
+				"youtube": "BUWuDdfe7v4",
+				"netease": "523658869"
+			},
+			"yourReality": {
+				"youtube": "CAL4WMpBNs0",
+				"netease": "523658880"
+			},
+			"sayoNara": {
+				"youtube": "vkqiC4KPeDs",
+				"netease": "523658877"
+			}
+		}
+	},
+	"links": {
+		"bilibili": "https://space.bilibili.com/3546919890585725",
+		"guestbookEndpoint": "https://comments.sayori.org/",
+		"guestbookPath": "/guestbook/"
+	},
+	"surface": {
+		"title": "Amiya_desi",
+		"entryAriaLabel": "Mais de Amiya",
+		"entries": [
+			{
+				"num": "01",
+				"title": "Blog",
+				"desc": "— artigos, notas de desenvolvimento e retrospectivas",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"num": "02",
+				"title": "Minhas redes",
+				"desc": "— vídeos, projetos e perfis",
+				"href": "/social/"
+			},
+			{
+				"num": "03",
+				"title": "Sobre mim",
+				"desc": "— perfil, trabalhos e notas públicas",
+				"href": "/about/"
+			},
+			{
+				"num": "04",
+				"title": "Software e serviços",
+				"desc": "— GeoScore, ferramentas e planos de desenvolvimento",
+				"action": "services"
+			},
+			{
+				"num": "05",
+				"title": "Recursos",
+				"desc": "— ferramentas, referências e comunidades por tema",
+				"href": "https://nav.sayori.org/",
+				"external": true
+			},
+			{
+				"num": "06",
+				"title": "XY-Amiya Studio",
+				"desc": "— trabalhos do estúdio e colaborações",
+				"href": "https://studio.sayori.org/",
+				"external": true
+			}
+		],
+		"marginNote": "Projetos, trabalhos e notas do dia a dia",
+		"footerNotice": "Amiya_desi",
+		"languageLink": {
+			"href": "../zh/",
+			"label": "中文"
+		},
+		"version": "v.2026",
+		"foldHint": "Quer espiar?",
+		"foldAriaLabel": "Virar a página",
+		"heartAriaLabel": "Clique para ver corações",
+		"stickyQuotes": [
+			"Força aí hoje",
+			"Lembre de beber água",
+			"Você veio!",
+			"Aqui você está em segurança",
+			"Tudo bem descansar às vezes",
+			"Alguém está lendo esta folha",
+			"Se o tempo estiver bom, vá passear",
+			"Não esqueça o café da manhã"
+		]
+	},
+	"profile": {
+		"ariaLabel": "Sobre Amiya",
+		"backLabel": "← Voltar",
+		"backAriaLabel": "Voltar ao início",
+		"kicker": "03 / Sobre Amiya_desi",
+		"name": "Amiya_desi",
+		"intro": "Sou Amiya_desi. Aqui reúno meus projetos, trabalhos e anotações públicas.",
+		"columns": [
+			{
+				"title": "O que eu faço",
+				"items": [
+					"Projetos: jogos, sites, ferramentas e pequenos experimentos",
+					"Web e ferramentas: sites pessoais, GeoScore, ferramentas de navegador, código público e fluxos de publicação",
+					"Hospedagem própria: Docker, VPS, Cloudflare, sites estáticos e publicação do blog"
+				]
+			},
+			{
+				"title": "Projetos selecionados",
+				"items": [
+					{
+						"text": "WakeUpAtTheBorder: jogo em Godot com quebra-cabeças, diálogo e combate. Segundo lugar na categoria temática da terceira jam da GodotHub.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							}
+						]
+					},
+					{
+						"text": "DelayTrace: jogo em Godot que grava ações e as reproduz com atraso. Um dos meus favoritos das últimas jams.",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker: experimento de quebra-cabeça em que você volta no tempo e conecta ecos de ações passadas.",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "Enhanced Save System: plugin modular de salvamento para Godot, com versões em GDScript e C#.",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
+							}
+						]
+					},
+					{
+						"text": "GeoScore: ferramenta de auditoria de SEO e GEO para páginas públicas.",
+						"links": [
+							{
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
+							}
+						]
+					},
+					{
+						"text": "Mio's Window Wanderer: protótipo narrativo com várias janelas do qual participei.",
+						"links": [
+							{
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
+							}
+						]
+					}
+				]
+			}
+		],
+		"learning": [
+			"Jogos e projetos de software",
+			"Design e prototipagem",
+			"Desenvolvimento de sites e ferramentas",
+			"Servidores, hospedagem própria e Cloudflare",
+			"n8n, desenvolvimento com IA e fluxos de publicação",
+			"Marca pessoal e publicação de projetos"
+		],
+		"faq": {
+			"title": "Perguntas frequentes",
+			"items": [
+				{
+					"question": "O que é sayori.org?",
+					"answer": "É o site pessoal de Amiya_desi, com trabalhos, anotações de projetos, textos e links públicos."
+				},
+				{
+					"question": "Sobre o que é o blog?",
+					"answer": "Escrevo sobre projetos, sites, ferramentas, fluxos de trabalho e o que aprendo ao criar."
+				},
+				{
+					"question": "O que encontro aqui?",
+					"answer": "Acrescento projetos, trabalhos e anotações conforme avançam."
+				},
+				{
+					"question": "Como entrar em contato ou saber mais?",
+					"answer": "Escreva para me@sayori.org ou visite o GitHub, o blog, o itch.io, o Bilibili, o YouTube e o livro de visitas."
+				}
+			]
+		},
+		"contact": {
+			"email": "me@sayori.org",
+			"linksAriaLabel": "Links públicos",
+			"links": [
+				{
+					"label": "GitHub",
+					"href": "https://github.com/Amiyadesi"
+				},
+				{
+					"label": "Blog",
+					"href": "https://blog.sayori.org/"
+				},
+				{
+					"label": "itch.io",
+					"href": "https://amiya-desi.itch.io/"
+				},
+				{
+					"label": "Bilibili",
+					"href": "https://space.bilibili.com/3546919890585725"
+				},
+				{
+					"label": "YouTube",
+					"href": "https://www.youtube.com/@Amiya_desi"
+				},
+				{
+					"label": "X",
+					"href": "https://x.com/amiyadesiwa"
+				},
+				{
+					"label": "Linux.do",
+					"href": "https://linux.do/u/Amiya_desi"
+				},
+				{
+					"label": "NodeLoc",
+					"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+				},
+				{
+					"label": "Livro de visitas",
+					"href": "https://blog.sayori.org/guestbook/"
+				}
+			]
+		}
+	},
+	"services": {
+		"ariaLabel": "Software e serviços",
+		"backLabel": "← Voltar",
+		"backAriaLabel": "Voltar ao início",
+		"kicker": "04 / Software e serviços",
+		"title": "Software e serviços",
+		"intro": "Software e projetos que desenvolvo ou mantenho. Meu principal SaaS, GeoScore, é gratuito no momento, sem assinatura paga nem cobrança pelo site. Os demais programas e jogos aparecem no estágio real de desenvolvimento.",
+		"items": [
+			{
+				"index": "TAP",
+				"title": "Subaru Tap",
+				"desc": "Toque na tela no ritmo para ouvir os gritos originais de Subaru e ativar os efeitos de retorno após a morte.",
+				"href": "/tools/subarutap/"
+			},
+			{
+				"index": "SERVICES",
+				"title": "Serviços públicos",
+				"desc": "Serviços disponíveis, código para hospedagem própria, planos e limites de uso.",
+				"href": "https://sayori.org/services/"
+			},
+			{
+				"index": "DIARY",
+				"title": "Sayori's Diary",
+				"desc": "Diário público, poemas e pequenos momentos do dia a dia de Sayori.",
+				"href": "https://diary.sayori.org/"
+			},
+			{
+				"index": "BOARD",
+				"title": "Amiya Whiteboard",
+				"desc": "Um quadro branco no navegador para esboços, diagramas e ideias soltas.",
+				"href": "https://board.sayori.org/"
+			},
+			{
+				"index": "GEO",
+				"title": "GeoScore",
+				"desc": "Ferramenta pública de auditoria de SEO e GEO para domínios públicos, dados estruturados, sinais de página e conteúdo.",
+				"href": "https://geo.sayori.org/"
+			},
+			{
+				"index": "NOTE",
+				"title": "Livro de visitas",
+				"desc": "Deixe um recado, um oi, uma impressão de leitura ou uma sugestão.",
+				"href": "https://blog.sayori.org/guestbook/"
+			}
+		],
+		"footnote": "Os outros links ficam privados até valer a pena mostrá-los."
+	}
+}

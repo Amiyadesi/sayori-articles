@@ -1,0 +1,285 @@
+{
+	"meta": {
+		"title": "Amiya_desi について",
+		"description": "Amiya_desi の自己紹介と主な作品、制作記録。",
+		"themeColor": "#a8d4e6"
+	},
+	"letter": {
+		"ariaLabel": "Amiya_desi について",
+		"backLabel": "← 机に戻る",
+		"backHref": "/ja/",
+		"kicker": "Amiya_desi について",
+		"dateStamp": "少し長めの自己紹介",
+		"title": "こんにちは、Amiya_desi です",
+		"intro": "Amiya_desi です。作ったものや制作中のメモ、よく使う公開リンクをここにまとめました。",
+		"resume": {
+			"label": "履歴書：作品・受賞歴・スキル →",
+			"href": "/ja/resume/"
+		},
+		"sections": [
+			{
+				"heading": "制作と実践",
+				"paragraphs": [
+					"ゲーム：小さな実験や Game Jam から長く取り組む作品まで、アイデアが実際に遊べる形になる過程を記録しています。",
+					"サイトとツール：個人サイトや GeoScore、ブラウザーツールを作っています。自分が困ったことを、誰かも使えて共有できる形にしたいです。",
+					"セルフホスティング：Docker、VPS、Cloudflare で個人サービスを公開・運用し、そこで学んだことも公開しています。",
+					"記事を書き、動画を作り、資料を集めています。整理や公開には n8n などを使い、作ったり人と話したりする時間を残しています。"
+				]
+			},
+			{
+				"heading": "作品と節目",
+				"intro": "これまでの各時期を代表する作品です。現在の状況はそれぞれの作品ページに載せています。",
+				"items": [
+					{
+						"text": "WakeUpAtTheBorder：謎解き、会話、戦闘を組み合わせた Godot ゲーム。第3回 GodotHub Jam のテーマ部門で2位になりました。詳しくは作品ページと受賞一覧へ。",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "受賞一覧",
+								"href": "https://legacy.godothub.com/festival/winners.html"
+							}
+						]
+					},
+					{
+						"text": "DelayTrace：行動を記録し、時間差で再生する Godot ゲーム。最近の Jam 作品の中でもお気に入りで、公開版を遊べます。",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker：時間を巻き戻し、過去の行動の残響をつないで解くパズル。",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "Enhanced Save System：GDScript と C# で実装した Godot 用のモジュール式セーブプラグイン。",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
+							}
+						]
+					},
+					{
+						"text": "GeoScore：公開ページの情報を確かめ、SEO・GEO のチェック結果と改善案を示すツールです。ソースコードも公開しています。",
+						"links": [
+							{
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
+							},
+							{
+								"label": "ソースコード",
+								"href": "https://github.com/Amiyadesi/geoscore"
+							}
+						]
+					},
+					{
+						"text": "Mio's Window Wanderer：制作に参加した物語のプロトタイプ。複数のウィンドウを行き来しながら会話を進めます。",
+						"links": [
+							{
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
+							}
+						]
+					}
+				]
+			},
+			{
+				"heading": "近況",
+				"paragraphs": [
+					"制作が進むたびに作品やプロジェクト、その記録を追加しています。"
+				]
+			},
+			{
+				"heading": "連絡先とリンク",
+				"paragraphs": [
+					"普段は Amiya_desi、GitHub では Amiyadesi と名乗っています。"
+				],
+				"items": [
+					{
+						"text": "ブログ：開発や学習の記録、チュートリアル、振り返り。",
+						"links": [
+							{
+								"label": "ブログ",
+								"href": "https://blog.sayori.org/"
+							}
+						]
+					},
+					{
+						"text": "GitHub：公開コードとオープンソースのプロジェクト。",
+						"links": [
+							{
+								"label": "GitHub",
+								"href": "https://github.com/Amiyadesi"
+							}
+						]
+					},
+					{
+						"text": "itch.io：小さなゲーム、Game Jam 作品、遊び方の実験。",
+						"links": [
+							{
+								"label": "itch.io",
+								"href": "https://amiya-desi.itch.io/"
+							}
+						]
+					},
+					{
+						"text": "Bilibili：動画、ゲーム作品、試行錯誤の記録。",
+						"links": [
+							{
+								"label": "Bilibili",
+								"href": "https://space.bilibili.com/3546919890585725"
+							}
+						]
+					},
+					{
+						"text": "ゲストブック：提案や質問、ひとことのあいさつもどうぞ。",
+						"links": [
+							{
+								"label": "ゲストブック",
+								"href": "https://blog.sayori.org/guestbook/"
+							}
+						]
+					},
+					{
+						"text": "応援：開発と運営を続けるための支援はこちら。",
+						"links": [
+							{
+								"label": "応援",
+								"href": "https://blog.sayori.org/sponsor/"
+							}
+						]
+					}
+				]
+			}
+		],
+		"signature": {
+			"line": "— Amiya_desi、机にて",
+			"ps": "追伸：心に残ったことがあれば、ゲストブックにひとことどうぞ。このページは中国語の原文を AI の助けを借りて翻訳しました。"
+		}
+	},
+	"faq": {
+		"title": "よくある質問",
+		"items": [
+			{
+				"question": "sayori.org とは？",
+				"answer": "Amiya_desi の個人サイトです。作品、制作記録、文章、公開リンクをまとめています。"
+			},
+			{
+				"question": "ブログには何を書いていますか？",
+				"answer": "blog.sayori.org では Godot 開発、ウェブサイトとセルフホスティング、AI を使う作業、ツールや資料、制作の振り返りと学びを書いています。"
+			},
+			{
+				"question": "ここには何がありますか？",
+				"answer": "制作が進むたびに作品やプロジェクト、その記録を追加しています。"
+			},
+			{
+				"question": "連絡先や関連リンクは？",
+				"answer": "me@sayori.org のほか、GitHub、ブログ、itch.io、Bilibili、ゲストブックからどうぞ。"
+			}
+		]
+	},
+	"contact": {
+		"title": "作品と連絡先",
+		"email": "me@sayori.org",
+		"emailLabel": "クリックでコピー",
+		"linksAriaLabel": "公開リンク",
+		"links": [
+			{
+				"label": "GitHub",
+				"handle": "Amiyadesi",
+				"href": "https://github.com/Amiyadesi"
+			},
+			{
+				"label": "ブログ",
+				"handle": "blog.sayori.org",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"label": "itch.io",
+				"handle": "amiya-desi",
+				"href": "https://amiya-desi.itch.io/"
+			},
+			{
+				"label": "Bilibili",
+				"handle": "3546919890585725",
+				"href": "https://space.bilibili.com/3546919890585725"
+			},
+			{
+				"label": "YouTube",
+				"handle": "@Amiya_desi",
+				"href": "https://www.youtube.com/@Amiya_desi"
+			},
+			{
+				"label": "X",
+				"handle": "@amiyadesiwa",
+				"href": "https://x.com/amiyadesiwa"
+			},
+			{
+				"label": "Linux.do",
+				"handle": "Amiya_desi",
+				"href": "https://linux.do/u/Amiya_desi"
+			},
+			{
+				"label": "Bangumi",
+				"handle": "amiya_desi",
+				"href": "https://bangumi.tv/user/amiya_desi"
+			},
+			{
+				"label": "Reddit",
+				"handle": "u/Amiya_desi",
+				"href": "https://www.reddit.com/user/Amiya_desi/"
+			},
+			{
+				"label": "Facebook",
+				"handle": "プロフィール",
+				"href": "https://www.facebook.com/share/14uDD8r6f4x/?mibextid=wwXIfr"
+			},
+			{
+				"label": "Discord",
+				"handle": "amiya_desi",
+				"href": "https://discord.gg/AkWYHWne"
+			},
+			{
+				"label": "Telegram",
+				"handle": "@Amiya_desi",
+				"href": "https://t.me/Amiya_desi"
+			},
+			{
+				"label": "RSS",
+				"handle": "記事を購読",
+				"href": "https://blog.sayori.org/rss.xml"
+			},
+			{
+				"label": "QQ コミュニティ",
+				"handle": "1067973207",
+				"href": "https://blog.sayori.org/about/"
+			},
+			{
+				"label": "NodeLoc",
+				"handle": "amiya_desi",
+				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+			},
+			{
+				"label": "ゲストブック",
+				"handle": "ひとこと書く",
+				"href": "https://blog.sayori.org/guestbook/"
+			},
+			{
+				"label": "応援",
+				"handle": "活動を応援する",
+				"href": "https://blog.sayori.org/sponsor/"
+			}
+		]
+	}
+}

@@ -2,21 +2,16 @@
 
 这里控制 `sayori.org` 的两层页面内容。用 Obsidian 改这些 JSON，再运行预览或部署脚本即可同步到静态站。
 
-- `surface.zh.json` / `surface.en.json`：表层纸面，包含标题、入口、小服务、音乐按钮、贴纸短句。03 号「关于我」入口指向 `/about/` 独立页。
-- `about.zh.json` / `about.en.json`：`/about/` 长期名片信的内容：信的分节、落款、底部 FAQ 和联系方式。几个月才需要重写一次，不要写会过期的当前计划。
-- `truth.zh.json` / `truth.en.json`：底层终端，包含终端命令回复、彩蛋角色图、`.chr` 对话和终端提示文字。
+- `surface.<lang>.json`：首页入口、服务面板、音乐按钮和贴纸短句。
+- `about.<lang>.json`：关于页的介绍信、简历链接、FAQ 与联系方式；社交页也使用这里的联系信息。
+- `truth.<lang>.json`：纸背终端的命令、彩蛋、角色对白与提示。
 
-同步目标：
+手写版本为 `zh`、`en`、`ja`、`fr`、`ko`、`es`、`de`、`pt-br`。繁体由简体转换；需要单独措辞时，用同名的 `*.zh-hant.json` 覆盖。六种新增译文保留链接、作品名与命令，在介绍信附言标明中文原文与 AI 协助翻译。简历与返回首页的链接指向同语言路径。
 
-- `sayori-home/public/assets/data/home-zh.json`
-- `sayori-home/public/assets/data/home-en.json`
-- `sayori-home/public/assets/data/about-zh.json`
-- `sayori-home/public/assets/data/about-en.json`
-- `sayori-home/public/assets/data/lines-zh.json`
-- `sayori-home/public/assets/data/lines-en.json`
+在主站运行 `node scripts/sync-home-content.mjs`，生成九种语言的 `public/assets/data/{home,about,lines}-<lang>.json` 和相应的静态社交页。
 
 注意：
 
 - 这里不要写密钥、Cookie、服务器后台地址或私人日记。
-- 图片路径面向 `sayori-home/public/zh/` / `en/` 页面，通常写 `../assets/generated/name.webp`。
+- 保留已有图片路径与音乐曲目 ID，不按语言重命名。
 - 如果 JSON 写错，同步脚本会直接失败，不会假装成功。

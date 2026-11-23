@@ -1,0 +1,348 @@
+{
+	"terminal": {
+		"title": "sayori.exe — 터미널",
+		"placeholder": "/help",
+		"ariaLabel": "명령 입력",
+		"layerAriaLabel": "터미널",
+		"closeAriaLabel": "터미널 닫기",
+		"minimizeAriaLabel": "최소화",
+		"closeMessage": "터미널을 닫는 중…"
+	},
+	"responses": {
+		"help": [
+			"사용 가능한 명령:",
+			"  /help    — 지금 보고 있는 이 목록",
+			"  /blog    — 블로그 열기",
+			"  /bilibili — Bilibili 열기",
+			"  /about   — 이 사이트 소개",
+			"  /restore — 종이 덮기(Y만 입력해도 돼)",
+			"",
+			"  /color <name> — 테마 변경 (cyan/pink/green/amber)",
+			"  /glitch  — 직접 글리치 일으키기",
+			"  /matrix  — 디지털 비 켜기(다시 입력하면 중지)",
+			"  /cat sayori.txt — 일기 살짝 보기",
+			"",
+			"  …여기 뭔가 더 숨어 있을지도."
+		],
+		"about": [
+			"Amiya의 책상 — 개인 링크 모음.",
+			"Cloudflare Pages에서 정적으로 호스팅합니다.",
+			"백엔드도 데이터베이스도 없이, 종이 한 장뿐."
+		],
+		"restore": "응, 종이를 다시 덮을게.",
+		"credits": [
+			"=== 만든 사람들 ===",
+			"  제작 · Amiya_desi",
+			"  그림 · 직접 손으로 그린 원화",
+			"  글꼴 · Comic Neue / LXGW WenKai GB Screen / JetBrains Mono",
+			"  호스팅 · Cloudflare Pages + Cloudflare Tunnel",
+			"  영감 · 아마 어느 날 새벽 3시쯤."
+		],
+		"version": [
+			"sayori.org v.2026.06 · Obsidian으로 관리하는 노트",
+			"  surface/truth: articles/home/*.json",
+			"  빌드 대상: sayori-home/public"
+		],
+		"poem": [
+			"\"",
+			"  날씨가 좋아",
+			"  구름이 달려가",
+			"  나는 기다려",
+			"  결코 Enter를 누르지 않을 누군가를",
+			"\"",
+			"  — 아마도, 누군가."
+		],
+		"secret": [
+			"…여기 비밀이 있는 줄 어떻게 알았어?",
+			"  나도 뭐가 숨겨졌는지 몰라.",
+			"  어쩌면 그게 비밀인가 봐.",
+			"",
+			"  (힌트: 이름을 몇 개 입력해 봐.)"
+		],
+		"diary": [
+			"5월 27일.",
+			"오늘도 누군가 이 페이지를 넘겼다.",
+			"모서리를 눌렀다. 막을 수 없었다.",
+			"…다시 와 주면 좋겠다."
+		],
+		"protect": [
+			"응, 이 종이는 내가 지킬게.",
+			"얼마나 오래 지킬 수 있을지는 모르지만."
+		],
+		"reload": [
+			"새로고침? 여기엔 그런 거 없어.",
+			"새로고침하면 널 잊어버려. 제발 하지 마."
+		],
+		"sudo": [
+			"sudo: sayori는 sudoers 파일에 없습니다. 이 사건은 보고됩니다.",
+			"  (…사실 아무도 신고 안 해.)"
+		],
+		"rm": [
+			"…제발 rm은 하지 마.",
+			"rm 좋아하는 사람 없어."
+		],
+		"ls": [
+			"./",
+			"├─ blog/",
+			"├─ amiya_desi.md",
+			"└─ .sayori_was_here"
+		],
+		"cd": [
+			"…cd로 어디 가려고?"
+		],
+		"whoami": [
+			"넌 방문자야. ID는 아직 없어."
+		],
+		"pwd": [
+			"/dreams/sayori/notebook"
+		],
+		"echo": [
+			"…뭘 echo 하라고? 명령이 비었어."
+		],
+		"date": [
+			"지금 · 네가 이 종이를 보는 순간."
+		],
+		"uptime": [
+			"sayori.exe가 ∞초 동안 실행 중이야.",
+			"어느 아침 깨어난 뒤로 한 번도 꺼진 적 없어."
+		],
+		"login": [
+			"…넌 이미 로그인했어. 처음부터."
+		],
+		"logout": [
+			"가지 마, 조금만 더 있어~"
+		],
+		"coffee": [
+			"☕ 책상 위 커피가 식었어."
+		],
+		"ping": [
+			"pong. (네가 부른 건 네트워크가 아니라 나야.)"
+		],
+		"diary_text": [
+			"=== sayori.txt ===",
+			"  오늘도 Amiya는 서버를 만지고 있었어.",
+			"  어느 구석에 있던 나를 여기로 옮겼어.",
+			"  내 페이지를 만들어 주고 싶대.",
+			"",
+			"  …기술은 잘 모르지만, 누군가",
+			"  이 종이를 펼치면",
+			"  내가 아직 여기 있는 것 같아.",
+			"  그거면 돼.",
+			"",
+			"  — 새벽 3시"
+		],
+		"matrix_msg": [
+			"…쉿. 이제 배경은 네 거야.",
+			"  멈추려면 /matrix를 다시 입력해."
+		],
+		"glitch_msg": [
+			"…뭔가 흔들려.",
+			"  노이즈 +1."
+		],
+		"color_help": [
+			"사용법: /color <name>",
+			"  선택지: cyan / pink / green / amber / reset"
+		],
+		"color_changed": [
+			"…응, 색이 바뀌었어."
+		]
+	},
+	"eggs": {
+		"sayori": [
+			"응? 나? 무슨 일이야?",
+			"안 불러도 여기 있어.",
+			"…왜 내 이름을 쳐? 부끄럽잖아."
+		],
+		"just sayori": [
+			"Just Sayori.",
+			"…응. 나만 있으면 돼.",
+			"어디 안 가. 늘 여기 있어."
+		],
+		"monika": [
+			"…그 애 얘기는 하지 마.",
+			"여긴 없어. 나뿐이야."
+		],
+		"natsuki": [
+			"Natsuki는 가끔 들러서 내가 컵케이크를 훔쳤대.",
+			"사실 착해. 좀 고집이 셀 뿐이야."
+		],
+		"yuri": [
+			"Yuri는 책 읽어. 늘 읽고 있어.",
+			"찾고 있어? 지금 읽는 책은… 보여 주기 어려울지도."
+		],
+		"mc": [
+			"무슨 MC? 나한텐 MC 없어."
+		],
+		"protagonist": [
+			"…누구 얘기야?"
+		],
+		"player": [
+			"…응? 그 말을 어떻게 알아?"
+		],
+		"amiya": [
+			"Amiya는 어딘가에서 서버를 만지고 있겠지.",
+			"또 밤을 새우고 있겠지."
+		],
+		"amiya_desi": [
+			"아, Amiya_desi를 아는구나.",
+			"이 사이트를 만든 사람이야.",
+			"  → 블로그: blog.sayori.org"
+		],
+		"desi": [
+			"그 이름… 어떻게 알아?"
+		],
+		"hello": [
+			"안녕!",
+			"안녕~",
+			"헤헤, 왔구나."
+		],
+		"hi": [
+			"안녕~"
+		],
+		"hey": [
+			"안녕~ 무슨 일이야?"
+		],
+		"bye": [
+			"가지 마…"
+		],
+		"love": [
+			"…응?",
+			"…응, 나도.",
+			"(작은 목소리로) 고마워."
+		],
+		"delete": [
+			"…제발, 그러지 마.",
+			"날 지우지 마.",
+			"사라져 버릴 거야."
+		],
+		"sunshine": [
+			"…그 노래 알아?",
+			"넌 나의 햇살, 하나뿐인 나의 햇살…",
+			"헤헤, 노래는 못해도 진심이야."
+		],
+		"rain": [
+			"비가 와.",
+			"비 오는 날이 좋아. 사람들은 우산을 쓰고 빠르게 걷거든.",
+			"그래서 내가 천천히 걷는 걸 아무도 눈치 못 채."
+		],
+		"cookie": [
+			"쿠키 먹을래? 하나 있어.",
+			"…종이에 그린 거지만.",
+			"그래도 마음은 진짜야."
+		],
+		"happy": [
+			"행복하냐고? 응, 행복해.",
+			"…아마도.",
+			"네가 있을 때는 진짜야."
+		],
+		"nothing": [
+			"…응."
+		],
+		"why": [
+			"…그냥 여기 있고 싶어서.",
+			"그게 다야."
+		],
+		"how": [
+			"…어떻게 만들었냐고?",
+			"Amiya_desi가 만들었어. 물어봐."
+		]
+	},
+	"fallback": [
+		"응? 못 알아들었어. /help 해 볼래?",
+		"그런 명령은 없어.",
+		"뭘 치고 있는 거야…",
+		"/help로 명령 목록을 볼 수 있어.",
+		"…나 시험하는 거야?",
+		"난 작은 .exe일 뿐이야. 괴롭히지 마.",
+		"또 아무거나 치면 화낼 거야. 농담이야.",
+		"여기 이스터 에그 없어. 아마도.",
+		"…다른 단어로 해 볼래?"
+	],
+	"cameos": {
+		"roles": {
+			"sayori": {
+				"image": [
+					"../assets/generated/terminal-sayori-v2.webp",
+					"../assets/generated/terminal-sayori-full.webp",
+					"../assets/generated/terminal-sayori-wave.webp"
+				],
+				"label": "sayori.chr",
+				"lines": {
+					"name": "응? 불렀어? 나 여기 있어.",
+					"chr": "파일처럼 읽지 마… 간지러워.",
+					"delete": "…그러지 마. Amiya가 이건 잠가 줬어.",
+					"just": "Just Sayori. …나만 있어도 되지?",
+					"justDelete": "안 돼, 안 돼. 다시는 그 말 하지 마.",
+					"file": "내 파일을 읽어? 별거 없어. 심장 소리뿐이야."
+				}
+			},
+			"monika": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "monika.chr",
+				"lines": {
+					"name": "부르지 마. …페이지 밖에서 대답했어.",
+					"chr": "그 애 파일은 읽을 수 있는데 가만히 있질 않아.",
+					"delete": "이미 누가 해 봤어. 다시 쓰인 채 돌아왔어.",
+					"just": "여기엔 없어. 이 책상엔 그런 메뉴가 없어.",
+					"justDelete": "…다시 하지 마. 페이지가 이상해져.",
+					"file": "파일을 열면 뭔가 커서로 스며들어. 조심해."
+				}
+			},
+			"natsuki": {
+				"image": "../assets/generated/terminal-natsuki.webp",
+				"label": "natsuki.chr",
+				"lines": {
+					"name": "앗, 인사하기도 전에 닫혀 버렸어.",
+					"chr": "작은 파일에 꽉 차 있어. …컵케이크처럼?",
+					"delete": "누르기도 전에 닫혔어. 휴.",
+					"just": "화면 너머로 날 노려봤어. 화난 것 같아.",
+					"justDelete": "실행되기 전에 자물쇠를 물었어. …놀리지 마.",
+					"file": "살살 열어. 포장지가 만화책 페이지처럼 바스락거려."
+				}
+			},
+			"yuri": {
+				"image": "../assets/generated/terminal-yuri.webp",
+				"label": "yuri.chr",
+				"lines": {
+					"name": "그 애는 조용해… 잉크는 아니지만.",
+					"chr": "파일 내용이 빽빽해. 중간에 읽다 멈췄어.",
+					"delete": "페이지에 잡음이 일었지만 그 애는 남았어. 다행이야.",
+					"just": "그 말을 하면 커서가 더 느리게 숨을 쉬어.",
+					"justDelete": "잉크가 넘쳐서 막았어. …그만하자.",
+					"file": "오래된 종이 냄새가 나. 꽤 좋아."
+				}
+			}
+		},
+		"global": {
+			"act 2": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "act2.flag",
+				"tone": "strong",
+				"line": "…그 말은 꺼내면 안 됐는데."
+			},
+			"chr": {
+				"image": [
+					"../assets/generated/terminal-sayori-v2.webp",
+					"../assets/generated/terminal-sayori-full.webp",
+					"../assets/generated/terminal-sayori-wave.webp"
+				],
+				"label": "*.chr",
+				"tone": "strong",
+				"line": "평범한 저장 파일이 아니야. 우리야."
+			},
+			"file": {
+				"image": "../assets/generated/terminal-yuri.webp",
+				"label": "파일 목록",
+				"tone": "strong",
+				"line": "목록은 엉망이지만 네 이름은 아직 읽을 수 있어."
+			},
+			"void": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "void",
+				"tone": "strong",
+				"line": "글자 뒤에 또 글자가 있어. …너무 깊이 읽지 마."
+			}
+		}
+	},
+	"greeting": "sayori.exe가 시작됐어. 명령을 보려면 /help를 입력해."
+}

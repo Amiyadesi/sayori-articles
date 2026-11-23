@@ -26,21 +26,17 @@ for (const directory of ["posts", "essays", "friends", "home", "site", "anime", 
 	requireDirectory(directory);
 }
 
-const homeSurfaceZh = readJsonObject("home/surface.zh.json");
-const homeSurfaceEn = readJsonObject("home/surface.en.json");
-const homeTruthZh = readJsonObject("home/truth.zh.json");
-const homeTruthEn = readJsonObject("home/truth.en.json");
-for (const [label, value] of [
-	["home/surface.zh.json", homeSurfaceZh],
-	["home/surface.en.json", homeSurfaceEn],
-]) {
-	requireKeys(value, ["meta", "surface", "profile", "services"], label);
-}
-for (const [label, value] of [
-	["home/truth.zh.json", homeTruthZh],
-	["home/truth.en.json", homeTruthEn],
-]) {
-	requireKeys(value, ["responses", "eggs", "fallback", "greeting"], label);
+for (const lang of ["zh", "en", "ja", "fr", "ko", "es", "de", "pt-br"]) {
+	for (const [kind, keys] of Object.entries({
+		surface: ["meta", "surface", "profile", "services"],
+		about: ["meta", "letter", "faq", "contact"],
+		truth: ["responses", "eggs", "fallback", "greeting"],
+	})) {
+		const file = `home/${kind}.${lang}.json`;
+		const value = readJsonObject(file);
+		requireKeys(value, keys, file);
+		collectExternalUrlWarnings(value);
+	}
 }
 
 const profile = readJsonObject("site/profile.json");
@@ -74,7 +70,7 @@ if (walk(path.join(root, "assets", "sponsor")).length === 0) {
 	violations.push("required asset directory is empty: assets/sponsor");
 }
 
-for (const value of [homeSurfaceZh, homeSurfaceEn, homeTruthZh, homeTruthEn, profile, banner, navigation, sponsor, music]) {
+for (const value of [profile, banner, navigation, sponsor, music]) {
 	collectExternalUrlWarnings(value);
 }
 

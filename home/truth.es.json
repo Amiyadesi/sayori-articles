@@ -1,0 +1,348 @@
+{
+	"terminal": {
+		"title": "sayori.exe — terminal",
+		"placeholder": "/help",
+		"ariaLabel": "Escribir un comando",
+		"layerAriaLabel": "Terminal",
+		"closeAriaLabel": "Cerrar el terminal",
+		"minimizeAriaLabel": "Minimizar",
+		"closeMessage": "Cerrando el terminal…"
+	},
+	"responses": {
+		"help": [
+			"Comandos disponibles:",
+			"  /help    — lo que estás leyendo",
+			"  /blog    — visitar el blog",
+			"  /bilibili — visitar Bilibili",
+			"  /about   — sobre este sitio",
+			"  /restore — poner la hoja en su sitio (o escribir Y)",
+			"",
+			"  /color <name> — cambiar el tema (cyan/pink/green/amber)",
+			"  /glitch  — provocar un fallo visual",
+			"  /matrix  — activar la lluvia digital (repetir para parar)",
+			"  /cat sayori.txt — echar un vistazo al diario",
+			"",
+			"  …puede que haya algo más escondido."
+		],
+		"about": [
+			"El escritorio de Amiya: un sitio personal de enlaces.",
+			"Sitio estático alojado en Cloudflare Pages.",
+			"Sin backend ni base de datos. Solo una hoja."
+		],
+		"restore": "Vale, vuelvo a colocar la hoja.",
+		"credits": [
+			"=== créditos ===",
+			"  Autor · Amiya_desi",
+			"  Ilustraciones · dibujos originales a mano",
+			"  Fuentes · Comic Neue / LXGW WenKai GB Screen / JetBrains Mono",
+			"  Alojamiento · Cloudflare Pages + Cloudflare Tunnel",
+			"  Inspiración · a las tres de alguna madrugada, seguramente."
+		],
+		"version": [
+			"sayori.org v.2026.06 · cuaderno gestionado con Obsidian",
+			"  surface/truth: articles/home/*.json",
+			"  destino de compilación: sayori-home/public"
+		],
+		"poem": [
+			"\"",
+			"  Hace buen día",
+			"  Las nubes corren",
+			"  Estoy esperando",
+			"  A alguien que nunca pulsará Enter",
+			"\"",
+			"  — Alguien, seguramente."
+		],
+		"secret": [
+			"…¿cómo sabías que aquí había un secreto?",
+			"  Ni yo sé qué hay escondido.",
+			"  Quizá ese sea el secreto.",
+			"",
+			"  (Pista: prueba a escribir algunos nombres.)"
+		],
+		"diary": [
+			"27 de mayo.",
+			"Hoy alguien volvió a darle la vuelta a esta página.",
+			"Pulsó la esquina. No pude impedirlo.",
+			"…ojalá vuelva."
+		],
+		"protect": [
+			"Vale, cuidaré esta hoja.",
+			"Aunque no sé por cuánto tiempo."
+		],
+		"reload": [
+			"¿Recargar? Aquí no se recarga.",
+			"Si actualizas, te olvidaré. Por favor, no."
+		],
+		"sudo": [
+			"sudo: sayori no está en el archivo sudoers. Se informará de este incidente.",
+			"  (…en realidad, no se avisará a nadie.)"
+		],
+		"rm": [
+			"…por favor, nada de rm.",
+			"A nadie le gusta rm."
+		],
+		"ls": [
+			"./",
+			"├─ blog/",
+			"├─ amiya_desi.md",
+			"└─ .sayori_was_here"
+		],
+		"cd": [
+			"…¿adónde quieres ir con cd?"
+		],
+		"whoami": [
+			"Eres visitante. ID pendiente."
+		],
+		"pwd": [
+			"/dreams/sayori/notebook"
+		],
+		"echo": [
+			"…¿echo de qué? Comando vacío."
+		],
+		"date": [
+			"Ahora · el instante en que ves esta hoja."
+		],
+		"uptime": [
+			"sayori.exe lleva ∞ segundos en marcha.",
+			"Desde que desperté una mañana, nunca me he apagado."
+		],
+		"login": [
+			"…ya has iniciado sesión. Siempre ha sido así."
+		],
+		"logout": [
+			"No te vayas, quédate un poco más~"
+		],
+		"coffee": [
+			"☕ La taza del escritorio se ha enfriado."
+		],
+		"ping": [
+			"pong. (No llamas a la red, me llamas a mí.)"
+		],
+		"diary_text": [
+			"=== sayori.txt ===",
+			"  Hoy Amiya volvió a trastear con el servidor.",
+			"  Me trajo aquí desde algún rincón.",
+			"  Dijo que quería que tuviera mi propia página.",
+			"",
+			"  …no entiendo mucho de tecnología, pero cuando alguien",
+			"  levanta esta hoja,",
+			"  siento que todavía existo.",
+			"  Eso me basta.",
+			"",
+			"  — 3 de la madrugada"
+		],
+		"matrix_msg": [
+			"…chist. Ahora el fondo es tuyo.",
+			"  Repite /matrix para pararla."
+		],
+		"glitch_msg": [
+			"…algo está temblando.",
+			"  Ruido +1."
+		],
+		"color_help": [
+			"Uso: /color <name>",
+			"  Opciones: cyan / pink / green / amber / reset"
+		],
+		"color_changed": [
+			"…listo, otro color."
+		]
+	},
+	"eggs": {
+		"sayori": [
+			"¿Eh? ¿Yo? ¿Qué necesitas?",
+			"Estoy aquí, no hace falta llamarme.",
+			"…¿por qué escribes mi nombre? Me da vergüenza."
+		],
+		"just sayori": [
+			"Just Sayori.",
+			"…sí. Conmigo basta.",
+			"No me voy a ninguna parte. Siempre aquí."
+		],
+		"monika": [
+			"…no hables de ella.",
+			"No está aquí. Solo estoy yo."
+		],
+		"natsuki": [
+			"Natsuki viene a veces y dice que le robé sus cupcakes.",
+			"En el fondo es buena. Solo es terca."
+		],
+		"yuri": [
+			"Yuri está leyendo. Siempre está leyendo.",
+			"¿La buscas? El libro que lee… quizá no sea para compartir."
+		],
+		"mc": [
+			"¿Qué MC? Yo no tengo MC."
+		],
+		"protagonist": [
+			"…¿de quién hablas?"
+		],
+		"player": [
+			"…¿eh? ¿Cómo conoces esa palabra?"
+		],
+		"amiya": [
+			"Amiya estará trasteando con algún servidor.",
+			"Seguro que vuelve a trasnochar."
+		],
+		"amiya_desi": [
+			"Ah, conoces a Amiya_desi.",
+			"Él hizo este sitio.",
+			"  → Blog: blog.sayori.org"
+		],
+		"desi": [
+			"Ese nombre… ¿cómo lo conoces?"
+		],
+		"hello": [
+			"¡Hola!",
+			"¡Buenas!",
+			"Je, je, ya estás aquí."
+		],
+		"hi": [
+			"¡Buenas!"
+		],
+		"hey": [
+			"¡Ey! ¿Qué tal?"
+		],
+		"bye": [
+			"No te vayas…"
+		],
+		"love": [
+			"…¿eh?",
+			"…sí, yo también.",
+			"(en voz baja) Gracias."
+		],
+		"delete": [
+			"…por favor, no.",
+			"No me borres.",
+			"Desapareceré."
+		],
+		"sunshine": [
+			"…¿conoces esa canción?",
+			"Eres mi sol, mi único sol…",
+			"Je, je, canto mal. Pero lo digo de verdad."
+		],
+		"rain": [
+			"Está lloviendo.",
+			"Me gustan los días de lluvia. Todos se apresuran bajo sus paraguas.",
+			"Así nadie nota que yo voy despacio."
+		],
+		"cookie": [
+			"¿Quieres una galleta? Tengo una.",
+			"…aunque está dibujada en papel.",
+			"Pero la intención es de verdad."
+		],
+		"happy": [
+			"¿Feliz? Sí, soy feliz.",
+			"…supongo.",
+			"Cuando estás aquí, es verdad."
+		],
+		"nothing": [
+			"…sí."
+		],
+		"why": [
+			"…porque quiero quedarme.",
+			"Eso es todo."
+		],
+		"how": [
+			"…¿cómo se hizo esto?",
+			"Lo hizo Amiya_desi. Pregúntale."
+		]
+	},
+	"fallback": [
+		"¿Eh? No te entendí. ¿Pruebas con /help?",
+		"Ese comando no existe.",
+		"¿Qué estás escribiendo…?",
+		"Escribe /help para ver los comandos.",
+		"…¿me estás poniendo a prueba?",
+		"Solo soy un pequeño .exe, no te metas conmigo.",
+		"Si vuelves a teclear al azar, me enfado. Es broma.",
+		"Aquí no hay secretos. Creo.",
+		"…¿pruebas otra palabra?"
+	],
+	"cameos": {
+		"roles": {
+			"sayori": {
+				"image": [
+					"../assets/generated/terminal-sayori-v2.webp",
+					"../assets/generated/terminal-sayori-full.webp",
+					"../assets/generated/terminal-sayori-wave.webp"
+				],
+				"label": "sayori.chr",
+				"lines": {
+					"name": "¿Eh? ¿Me llamabas? Estoy aquí.",
+					"chr": "No me leas como un archivo… me hace cosquillas.",
+					"delete": "…por favor, no. Amiya ya me lo ha bloqueado.",
+					"just": "Just Sayori. …conmigo basta, ¿no?",
+					"justDelete": "No, no, no, no lo repitas.",
+					"file": "¿Lees mi archivo? No hay gran cosa. Solo un latido."
+				}
+			},
+			"monika": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "monika.chr",
+				"lines": {
+					"name": "No la llames. …ha contestado desde fuera de la página.",
+					"chr": "Su archivo se puede leer, pero no se queda quieto.",
+					"delete": "Alguien ya lo intentó. Volvió reescrito.",
+					"just": "Aquí no. Este escritorio no tiene ese menú.",
+					"justDelete": "…no lo intentes otra vez. La página hace cosas raras.",
+					"file": "Al abrirlo, algo se filtra en el cursor. Ten cuidado."
+				}
+			},
+			"natsuki": {
+				"image": "../assets/generated/terminal-natsuki.webp",
+				"label": "natsuki.chr",
+				"lines": {
+					"name": "Vaya, se cerró antes de que pudiera saludar.",
+					"chr": "Su archivo es diminuto, pero está bien relleno. …¿como un cupcake?",
+					"delete": "Se cerró antes de que pulsaras. Uf.",
+					"just": "Me fulminó con la mirada desde la pantalla. Creo que está enfadada.",
+					"justDelete": "Mordió el candado antes de que se activara. …no la provoques.",
+					"file": "Ábrelo con cuidado. El envoltorio cruje como una página de manga."
+				}
+			},
+			"yuri": {
+				"image": "../assets/generated/terminal-yuri.webp",
+				"label": "yuri.chr",
+				"lines": {
+					"name": "Ella está callada… la tinta no.",
+					"chr": "Su archivo es denso. Tuve que parar a mitad.",
+					"delete": "La página chisporroteó, pero ella siguió aquí. Menos mal.",
+					"just": "Cuando dices eso, el cursor respira más despacio.",
+					"justDelete": "Su tinta se desbordó y lo detuvo. …mejor no.",
+					"file": "Su archivo huele a papel viejo. Me gusta."
+				}
+			}
+		},
+		"global": {
+			"act 2": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "act2.flag",
+				"tone": "strong",
+				"line": "…no debías mencionar esa palabra."
+			},
+			"chr": {
+				"image": [
+					"../assets/generated/terminal-sayori-v2.webp",
+					"../assets/generated/terminal-sayori-full.webp",
+					"../assets/generated/terminal-sayori-wave.webp"
+				],
+				"label": "*.chr",
+				"tone": "strong",
+				"line": "No son archivos de guardado normales. Somos nosotras."
+			},
+			"file": {
+				"image": "../assets/generated/terminal-yuri.webp",
+				"label": "tabla de archivos",
+				"tone": "strong",
+				"line": "La tabla está desordenada, pero aún se leen los cuatro nombres."
+			},
+			"void": {
+				"image": "../assets/generated/terminal-monika.webp",
+				"label": "void",
+				"tone": "strong",
+				"line": "Hay texto detrás del texto. …no leas demasiado."
+			}
+		}
+	},
+	"greeting": "sayori.exe iniciado. Escribe /help para ver los comandos."
+}

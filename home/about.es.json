@@ -1,0 +1,285 @@
+{
+	"meta": {
+		"title": "Sobre Amiya_desi",
+		"description": "Presentación de Amiya_desi, obras destacadas y notas de proyectos.",
+		"themeColor": "#a8d4e6"
+	},
+	"letter": {
+		"ariaLabel": "Sobre Amiya_desi",
+		"backLabel": "← Volver al escritorio",
+		"backHref": "/es/",
+		"kicker": "Sobre Amiya_desi",
+		"dateStamp": "Un poco más sobre mí",
+		"title": "Hola, soy Amiya_desi",
+		"intro": "Soy Amiya_desi. Aquí reúno mis proyectos, mis obras, notas del proceso y algunos enlaces útiles.",
+		"resume": {
+			"label": "Currículum completo: obras, premios y habilidades →",
+			"href": "/es/resume/"
+		},
+		"sections": [
+			{
+				"heading": "Qué hago",
+				"paragraphs": [
+					"Juegos: de pequeños experimentos y jams a proyectos largos, documento cómo una idea llega a ser jugable.",
+					"Web y herramientas: creo sitios personales, GeoScore y utilidades de navegador para convertir problemas reales en soluciones que se puedan usar y compartir.",
+					"Alojamiento propio: despliego y mantengo servicios personales con Docker, VPS y Cloudflare, y comparto lo aprendido.",
+					"Escribo artículos, hago vídeos y selecciono recursos. Con herramientas como n8n organizo y comparto el material para dedicar más tiempo a crear y conversar."
+				]
+			},
+			{
+				"heading": "Proyectos e hitos",
+				"intro": "Estos proyectos representan distintas etapas de mi trabajo. Su estado actual figura en la página de cada uno.",
+				"items": [
+					{
+						"text": "WakeUpAtTheBorder: juego de Godot con puzles, diálogos y combate. Quedó segundo en la categoría temática de la tercera jam de GodotHub. Más detalles en el proyecto y la lista de premios.",
+						"links": [
+							{
+								"label": "WakeUpAtTheBorder",
+								"href": "https://amiya-desi.itch.io/wake-up-at-the-border"
+							},
+							{
+								"label": "lista de premios",
+								"href": "https://legacy.godothub.com/festival/winners.html"
+							}
+						]
+					},
+					{
+						"text": "DelayTrace: juego de Godot que graba las acciones y las repite con retardo. Uno de mis favoritos de las últimas jams; hay una versión pública jugable.",
+						"links": [
+							{
+								"label": "DelayTrace",
+								"href": "https://amiya-desi.itch.io/delaytrace"
+							}
+						]
+					},
+					{
+						"text": "TimeRewindLinker: puzles que se resuelven rebobinando el tiempo y enlazando los ecos de acciones pasadas.",
+						"links": [
+							{
+								"label": "TimeRewindLinker",
+								"href": "https://amiya-desi.itch.io/time-rewind-linker"
+							}
+						]
+					},
+					{
+						"text": "Enhanced Save System: complemento modular de guardado para Godot, en GDScript y C#.",
+						"links": [
+							{
+								"label": "Enhanced Save System",
+								"href": "https://github.com/Amiyadesi/enhance_save_system"
+							}
+						]
+					},
+					{
+						"text": "GeoScore: herramienta de auditoría SEO y GEO que usa datos observables de páginas públicas para proponer comprobaciones y mejoras. Ver código fuente.",
+						"links": [
+							{
+								"label": "GeoScore",
+								"href": "https://geo.sayori.org/"
+							},
+							{
+								"label": "código fuente",
+								"href": "https://github.com/Amiyadesi/geoscore"
+							}
+						]
+					},
+					{
+						"text": "Mio's Window Wanderer: prototipo narrativo en el que colaboré, centrado en los diálogos y la navegación entre ventanas.",
+						"links": [
+							{
+								"label": "Mio's Window Wanderer",
+								"href": "https://amiya-desi.itch.io/thatgamejam"
+							}
+						]
+					}
+				]
+			},
+			{
+				"heading": "Novedades",
+				"paragraphs": [
+					"Añado proyectos, obras y apuntes a medida que avanzan."
+				]
+			},
+			{
+				"heading": "Dónde encontrarme",
+				"paragraphs": [
+					"Suelo usar Amiya_desi; en GitHub soy Amiyadesi."
+				],
+				"items": [
+					{
+						"text": "Blog: notas de desarrollo y aprendizaje, tutoriales y retrospectivas.",
+						"links": [
+							{
+								"label": "Blog",
+								"href": "https://blog.sayori.org/"
+							}
+						]
+					},
+					{
+						"text": "GitHub: código público y proyectos de código abierto.",
+						"links": [
+							{
+								"label": "GitHub",
+								"href": "https://github.com/Amiyadesi"
+							}
+						]
+					},
+					{
+						"text": "itch.io: juegos pequeños, proyectos de jams y experimentos jugables.",
+						"links": [
+							{
+								"label": "itch.io",
+								"href": "https://amiya-desi.itch.io/"
+							}
+						]
+					},
+					{
+						"text": "Bilibili: vídeos, proyectos de juegos y notas de experimentación.",
+						"links": [
+							{
+								"label": "Bilibili",
+								"href": "https://space.bilibili.com/3546919890585725"
+							}
+						]
+					},
+					{
+						"text": "Libro de visitas: sugerencias, preguntas o un simple saludo.",
+						"links": [
+							{
+								"label": "Libro de visitas",
+								"href": "https://blog.sayori.org/guestbook/"
+							}
+						]
+					},
+					{
+						"text": "Apoyo: una ayuda para seguir desarrollando y manteniendo los proyectos.",
+						"links": [
+							{
+								"label": "Apoyo",
+								"href": "https://blog.sayori.org/sponsor/"
+							}
+						]
+					}
+				]
+			}
+		],
+		"signature": {
+			"line": "— Amiya_desi, desde mi escritorio",
+			"ps": "P. D. Si algo de esta carta te ha llegado, déjame una nota en el libro de visitas. Esta página se tradujo del chino con ayuda de IA."
+		}
+	},
+	"faq": {
+		"title": "Preguntas frecuentes",
+		"items": [
+			{
+				"question": "¿Qué es sayori.org?",
+				"answer": "Es el sitio personal de Amiya_desi: obras, notas de proyectos, escritos y enlaces públicos."
+			},
+			{
+				"question": "¿De qué trata el blog?",
+				"answer": "En blog.sayori.org escribo sobre Godot, sitios web y alojamiento propio, flujos de trabajo con IA, herramientas, recursos y lo que aprendo al crear proyectos."
+			},
+			{
+				"question": "¿Qué encontraré aquí?",
+				"answer": "Añado proyectos, obras y apuntes a medida que avanzan."
+			},
+			{
+				"question": "¿Cómo puedo contactar o saber más?",
+				"answer": "Escríbeme a me@sayori.org o visita GitHub, el blog, itch.io, Bilibili o el libro de visitas."
+			}
+		]
+	},
+	"contact": {
+		"title": "Proyectos y contacto",
+		"email": "me@sayori.org",
+		"emailLabel": "Pulsa para copiar",
+		"linksAriaLabel": "Enlaces públicos",
+		"links": [
+			{
+				"label": "GitHub",
+				"handle": "Amiyadesi",
+				"href": "https://github.com/Amiyadesi"
+			},
+			{
+				"label": "Blog",
+				"handle": "blog.sayori.org",
+				"href": "https://blog.sayori.org/"
+			},
+			{
+				"label": "itch.io",
+				"handle": "amiya-desi",
+				"href": "https://amiya-desi.itch.io/"
+			},
+			{
+				"label": "Bilibili",
+				"handle": "3546919890585725",
+				"href": "https://space.bilibili.com/3546919890585725"
+			},
+			{
+				"label": "YouTube",
+				"handle": "@Amiya_desi",
+				"href": "https://www.youtube.com/@Amiya_desi"
+			},
+			{
+				"label": "X",
+				"handle": "@amiyadesiwa",
+				"href": "https://x.com/amiyadesiwa"
+			},
+			{
+				"label": "Linux.do",
+				"handle": "Amiya_desi",
+				"href": "https://linux.do/u/Amiya_desi"
+			},
+			{
+				"label": "Bangumi",
+				"handle": "amiya_desi",
+				"href": "https://bangumi.tv/user/amiya_desi"
+			},
+			{
+				"label": "Reddit",
+				"handle": "u/Amiya_desi",
+				"href": "https://www.reddit.com/user/Amiya_desi/"
+			},
+			{
+				"label": "Facebook",
+				"handle": "Perfil",
+				"href": "https://www.facebook.com/share/14uDD8r6f4x/?mibextid=wwXIfr"
+			},
+			{
+				"label": "Discord",
+				"handle": "amiya_desi",
+				"href": "https://discord.gg/AkWYHWne"
+			},
+			{
+				"label": "Telegram",
+				"handle": "@Amiya_desi",
+				"href": "https://t.me/Amiya_desi"
+			},
+			{
+				"label": "RSS",
+				"handle": "Suscribirse a los artículos",
+				"href": "https://blog.sayori.org/rss.xml"
+			},
+			{
+				"label": "Comunidad de QQ",
+				"handle": "1067973207",
+				"href": "https://blog.sayori.org/about/"
+			},
+			{
+				"label": "NodeLoc",
+				"handle": "amiya_desi",
+				"href": "https://www.nodeloc.com/u/amiya_desi/summary"
+			},
+			{
+				"label": "Libro de visitas",
+				"handle": "Dejar una nota",
+				"href": "https://blog.sayori.org/guestbook/"
+			},
+			{
+				"label": "Apoyo",
+				"handle": "Apoyar mi trabajo",
+				"href": "https://blog.sayori.org/sponsor/"
+			}
+		]
+	}
+}
