@@ -1,11 +1,11 @@
 ---
-title: Azure 学生服务器：领取 100 美元，用网页或 CLI 开一台日本 VPS
+title: Azure 学生服务器教程：领取 100 美元额度，用网页或 CLI 开日本 VPS
 published: 2026-10-17
 created: 2026-10-13
-updated: 2026-10-17
-lastEdited: 2026-10-17
-updateCount: 0
-description: 从 GitHub 学生包或学校邮箱领取 Azure for Students，用网页和 Azure CLI 创建日本区 Ubuntu 服务器，算清免费规格、系统盘、IPv4、IPv6 和出站流量
+updated: 2026-11-24
+lastEdited: 2026-11-24
+updateCount: 1
+description: 用学校邮箱或 GitHub 学生包申请 Azure for Students 的 100 美元额度，查余额和到期日，再用网页或 CLI 开日本区 Ubuntu 服务器，算清磁盘、公网 IP 和流量开销
 image: ""
 tags:
   - 实操教程
@@ -18,11 +18,13 @@ lang: zh-Hans
 translationKey: posts/azure-students-100-credit-guide/azure-students-100-credit-guide
 ---
 
-学生权益里，我会把 Azure 这项放在比较靠前的位置，每年 100 美元赠金，不用信用卡，前 12 个月还有小规格服务器和两块系统盘的免费额度，拿来放自己的项目刚刚好
+想领 Azure 学生账号的 **100 美元额度**，可以直接打开[微软学生申请页](https://azure.microsoft.com/zh-cn/free/students/)，用学校邮箱验证，全程不用信用卡，已经拿到 GitHub 学生包的话，下面也放了对应入口
+
+只想领额度的同学，可以在开服务器前停一下，先打开 [Azure 门户](https://portal.azure.com/)，在「订阅」里找到 **Azure for Students**，搜索「教育」，在「概述」里看额度用量和距离续订还有多久。100 美元从订阅激活起算，有效期 12 个月，可以等手头真有项目了再开服务器（[微软的用量查看图解](https://learn.microsoft.com/zh-cn/azure/education-hub/navigate-costs)）
 
 我更推荐先开日本区，系统用 Ubuntu，先把 SSH 连通，再慢慢折腾自己想放的东西，这篇就写到服务器开好，不展开应用部署，感兴趣的可以自己去搜怎么搭建哦～
 
-下面按 2026 年 10 月 17 日的权益和价格整理，网页和 CLI 两种方法选一种做就行
+下面用10 月 17 日整理的规格和价格算一笔账，实际创建前看一下自己订阅里的免费服务，网页和 CLI 两种方法选一种做就行
 
 步骤图参考正常的微软页面，改成了隐私的信息
 
@@ -352,6 +354,10 @@ Docker Registry 返回 `401 Unauthorized` 通常表示已经连到服务，只�
 另外，100 美元是一次到账的一年余额，不是每月重新发 8.33 美元，免费 100 GB 则按月重置，没用完不会累到下个月，区域间流量等其他项目另算
 
 ## 用完以后怎么收拾
+
+**100 美元用完会自动扣钱吗？**
+
+如果你保留的是原来的学生订阅，**赠金额度用完，微软会停用订阅**。要继续按量付费，需要你主动升级，服务器上有项目的话，记得在余额见底或订阅到期前把数据备份出来。[微软学生订阅条款](https://azure.microsoft.com/zh-cn/pricing/offers/ms-azr-0170p/)
 
 平时在订阅的「免费服务」看资源用量，在「成本管理」看 IPv4 和额外流量，学生赠金余额和到期日也顺手记下来
 
