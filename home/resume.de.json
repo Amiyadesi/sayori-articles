@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya_desi · Lebenslauf – Indie-Spiele und Tools",
-		"description": "Amiya_desi: Godot-Spiele über Zeit und Echos, Websites, Open-Source-Tools und selbst gehostete Dienste. 3 Preise bei 12 Jams und Wettbewerben. Jetzt spielen.",
+		"description": "Amiya_desi: Godot-Spiele über Zeit und Echos, Websites, Open-Source-Tools und selbst gehostete Dienste. 4 Preise bei 13 Jams und Wettbewerben. Jetzt spielen.",
 		"ogAlt": "Der Titelbildschirm von AMIYA_DESI in Pixelgrafik"
 	},
 	"ui": {
@@ -61,7 +61,7 @@
 		"positioning": "Ich entwickle Indie-Spiele. Werkzeuge baue ich auch.",
 		"lede": "Mit Godot entwickle ich Spiele über Zeit und Echos. Außerdem baue ich Websites und Tools und bringe meine eigenen Server zum Laufen.",
 		"paragraphs": [
-			"Im vergangenen Jahr habe ich an 12 Game Jams und Wettbewerben teilgenommen und 3 Preise gewonnen. Ein Thema beschäftigt mich dabei immer wieder: Zeit. Aktionen setzen verzögert ein, die Zeit läuft zurück, ein Echo bleibt. So löst du Rätsel mit deinem früheren Ich.",
+			"Im vergangenen Jahr habe ich an 13 Game Jams und Wettbewerben teilgenommen und 4 Preise gewonnen. Ein Thema beschäftigt mich dabei immer wieder: Zeit. Aktionen setzen verzögert ein, die Zeit läuft zurück, ein Echo bleibt. So löst du Rätsel mit deinem früheren Ich.",
 			"Neben Spielen entwickle ich Websites und Tools. GeoScore ist ein quelloffener Dienst für SEO- und GEO-Audits, Search Gateway ein selbst gehostetes Such-Gateway. Ich kümmere mich selbst um das Deployment und den Betrieb von ganz sayori.org und den 31 Diensten dahinter.",
 			"Ich baue zuerst eine Version, die läuft. Beim Spielen und Benutzen finde ich heraus, was ich ändern muss. KI hilft mir, Ideen schneller umzusetzen. Das Debugging, die Abwägungen und das Urteil über das Spielgefühl übernehme ich selbst."
 		],
@@ -72,6 +72,11 @@
 		"title": "Preise",
 		"intro": "Zu jedem Preis findest du eine Quelle, in der du das Ergebnis nachlesen kannst.",
 		"items": {
+			"godothub-festival-2026": {
+				"event": "GodotHub Festival 2026",
+				"prize": "Dritter Preis",
+				"note": "Vergangene und zukünftige Aktionen werden abgespielt, um Rätsel zu lösen."
+			},
 			"godothub-2025": {
 				"event": "Godot Hub Festival 2025 · Jam mit Themenvorgabe",
 				"prize": "Zweiter Preis",
@@ -139,7 +144,7 @@
 			"delaytrace": {
 				"type": "2D-Plattformer mit zeitversetzter Verfolgung",
 				"role": "Soloentwicklung, noch in Arbeit",
-				"summary": "Dein früheres Ich nimmt 1, 3 oder 5 Sekunden später deine Spur auf und verfolgt dich. Du kannst auch einen Weg aufzeichnen und ihn als „Echo der Zukunft“ zurückschicken.",
+				"summary": "Dein früheres Ich nimmt 1, 3 oder 5 Sekunden später deine Spur auf und verfolgt dich. Du kannst auch einen Weg aufzeichnen und ihn als „Echo der Zukunft“ zurückschicken. Das Spiel erhielt beim GodotHub Festival 2026 einen dritten Preis.",
 				"highlights": [
 					"Gegenwart, Vergangenheit und Zukunft überlagern sich im selben Raum und greifen beim Lösen der Rätsel ineinander",
 					"Direkt im Browser spielbar, in der Android-Version mit Touch-Steuerung",
@@ -301,6 +306,10 @@
 			"improve-47": {
 				"event": "Improve My Game Jam 47",
 				"note": "Am selben Spiel weitergefeilt"
+			},
+			"godothub-festival-2026": {
+				"event": "GodotHub Festival 2026",
+				"note": "Dritter Preis"
 			}
 		}
 	},

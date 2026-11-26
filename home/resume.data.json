@@ -15,11 +15,11 @@
 	"stats": [
 		{
 			"id": "awards",
-			"value": "3"
+			"value": "4"
 		},
 		{
 			"id": "jams",
-			"value": "12"
+			"value": "13"
 		},
 		{
 			"id": "repos",
@@ -38,6 +38,12 @@
 		"Docker"
 	],
 	"awards": [
+		{
+			"id": "godothub-festival-2026",
+			"date": "2026-10",
+			"work": "delaytrace",
+			"evidence": "https://godothub.com/event/festival-2026/game#award-third"
+		},
 		{
 			"id": "godothub-2025",
 			"date": "2025-11",
@@ -133,12 +139,12 @@
 		{
 			"id": "delaytrace",
 			"kind": "game",
-			"title": "Delay Trace",
-			"titleLatin": "Delay Trace",
+			"title": "DelayTrace",
+			"titleLatin": "DelayTrace",
 			"date": "2026-07",
 			"stack": "Godot 4.7 · GDScript",
 			"cover": "/assets/resume/works/delaytrace.webp",
-			"award": "",
+			"award": "godothub-festival-2026",
 			"links": [
 				{
 					"kind": "play",
@@ -360,6 +366,13 @@
 			"work": "retrace",
 			"award": "",
 			"url": "https://amiya-desi.itch.io/retrace"
+		},
+		{
+			"id": "godothub-festival-2026",
+			"date": "2026-10",
+			"work": "delaytrace",
+			"award": "godothub-festival-2026",
+			"url": "https://godothub.com/event/festival-2026/game#award-third"
 		}
 	],
 	"skills": [

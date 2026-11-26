@@ -75,18 +75,17 @@ function createValidFixture(root) {
 		fs.mkdirSync(path.join(root, directory), { recursive: true });
 	}
 
-	writeJson(path.join(root, "home", "surface.zh.json"), {
-		meta: {}, surface: {}, profile: {}, services: {}, external: "https://example.invalid/",
-	});
-	writeJson(path.join(root, "home", "surface.en.json"), {
-		meta: {}, surface: {}, profile: {}, services: {},
-	});
-	writeJson(path.join(root, "home", "truth.zh.json"), {
-		responses: {}, eggs: {}, fallback: [], greeting: "hello",
-	});
-	writeJson(path.join(root, "home", "truth.en.json"), {
-		responses: {}, eggs: {}, fallback: [], greeting: "hello",
-	});
+	for (const lang of ["zh", "en", "ja", "fr", "ko", "es", "de", "pt-br"]) {
+		writeJson(path.join(root, "home", `surface.${lang}.json`), {
+			meta: {}, surface: {}, profile: {}, services: {}, external: "https://example.invalid/",
+		});
+		writeJson(path.join(root, "home", `about.${lang}.json`), {
+			meta: {}, letter: {}, faq: {}, contact: {},
+		});
+		writeJson(path.join(root, "home", `truth.${lang}.json`), {
+			responses: {}, eggs: {}, fallback: [], greeting: "hello",
+		});
+	}
 
 	writeJson(path.join(root, "site", "profile.json"), {
 		name: "Test", avatar: "avatar.webp", links: [{ url: "https://example.invalid/" }],

@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya_desi · Currículum — desarrollo de juegos indie y herramientas",
-		"description": "Amiya_desi: juegos en Godot sobre tiempo y ecos, webs, herramientas libres y servicios autoalojados. 3 premios en 12 jams y concursos. Juegos para probar.",
+		"description": "Amiya_desi: juegos en Godot sobre tiempo y ecos, webs, herramientas libres y servicios autoalojados. 4 premios en 13 jams y concursos. Juegos para probar.",
 		"ogAlt": "Pantalla de título de AMIYA_DESI en pixel art"
 	},
 	"ui": {
@@ -61,7 +61,7 @@
 		"positioning": "Creo juegos indie. También hago herramientas.",
 		"lede": "Con Godot hago juegos sobre el tiempo y los ecos. También creo sitios web y herramientas, y pongo en marcha mis propios servidores.",
 		"paragraphs": [
-			"En el último año participé en 12 game jams y concursos y gané 3 premios. Suelo volver al mismo tema: el tiempo. Una acción que llega con retraso, un rebobinado o un eco te permiten resolver un puzle con tu yo del pasado.",
+			"En el último año participé en 13 game jams y concursos y gané 4 premios. Suelo volver al mismo tema: el tiempo. Una acción que llega con retraso, un rebobinado o un eco te permiten resolver un puzle con tu yo del pasado.",
 			"Fuera de los juegos, desarrollo sitios web y herramientas. GeoScore es un servicio de código abierto para auditorías SEO / GEO y Search Gateway es una pasarela de búsqueda autoalojada. Me ocupo del despliegue y el mantenimiento de todo sayori.org y de los 31 servicios que hay detrás.",
 			"Empiezo por una versión que funcione y la mejoro a base de jugar o de usarla. La IA me ayuda a programar más rápido; yo depuro, decido qué conservar y ajusto la respuesta de los controles."
 		],
@@ -72,6 +72,11 @@
 		"title": "Premios",
 		"intro": "Cada premio incluye un enlace para comprobar el resultado.",
 		"items": {
+			"godothub-festival-2026": {
+				"event": "GodotHub Festival 2026",
+				"prize": "Tercer premio",
+				"note": "El juego propone resolver puzles reproduciendo acciones del pasado y del futuro."
+			},
 			"godothub-2025": {
 				"event": "Godot Hub Festival 2025 · Categoría de jam con tema asignado",
 				"prize": "Segundo premio",
@@ -139,7 +144,7 @@
 			"delaytrace": {
 				"type": "Plataformas en 2D con persecuciones en el tiempo",
 				"role": "Desarrollo en solitario, aún en curso",
-				"summary": "Tu yo del pasado repite tu recorrido y te persigue con 1, 3 o 5 segundos de retraso. También puedes grabar un trayecto y enviarlo al pasado como un «eco del futuro».",
+				"summary": "Tu yo del pasado repite tu recorrido y te persigue con 1, 3 o 5 segundos de retraso. También puedes grabar un trayecto y enviarlo al pasado como un «eco del futuro». El juego obtuvo un tercer premio en el GodotHub Festival 2026.",
 				"highlights": [
 					"Presente, pasado y futuro se superponen en la misma sala para resolver los puzles",
 					"Se puede jugar en el navegador; la versión para Android tiene controles táctiles",
@@ -301,6 +306,10 @@
 			"improve-47": {
 				"event": "Improve My Game Jam 47",
 				"note": "Seguí puliendo el mismo juego"
+			},
+			"godothub-festival-2026": {
+				"event": "GodotHub Festival 2026",
+				"note": "Tercer premio"
 			}
 		}
 	},

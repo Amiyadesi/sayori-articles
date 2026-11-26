@@ -1,7 +1,7 @@
 {
 	"meta": {
 		"title": "Amiya_desi · Résumé — indie game developer who also builds tools",
-		"description": "Amiya_desi makes Godot games about time and echoes, and builds websites, tools and self-hosted services. 3 competition awards, 12 game jams and contests, playable games and open-source tools.",
+		"description": "Amiya_desi makes Godot games about time and echoes, and builds websites, tools and self-hosted services. 4 competition awards, 13 game jams and contests, playable games and open-source tools.",
 		"ogAlt": "The AMIYA_DESI pixel title screen"
 	},
 	"ui": {
@@ -61,7 +61,7 @@
 		"positioning": "Indie game developer. I also build the tools.",
 		"lede": "I make Godot games about time and echoes, and I build websites, tools and servers that actually run.",
 		"paragraphs": [
-			"Over the past year I entered 12 game jams and contests and won 3 awards. Time is the theme I keep returning to: delays, rewinds, echoes, and solving puzzles with your past self.",
+			"Over the past year I entered 13 game jams and contests and won 4 awards. Time is the theme I keep returning to: delays, rewinds, echoes, and solving puzzles with your past self.",
 			"Outside games I build websites and tools. GeoScore is an open-source SEO / GEO audit service, and Search Gateway is a self-hosted search gateway. I deploy and maintain all of sayori.org and the 31 services behind it myself.",
 			"I like to get a working version first, then improve it through play and use. AI speeds up implementation; debugging, trade-offs and game feel are my calls."
 		],
@@ -72,6 +72,11 @@
 		"title": "Awards",
 		"intro": "Each award links to a source you can check.",
 		"items": {
+			"godothub-festival-2026": {
+				"event": "GodotHub Festival 2026",
+				"prize": "Third prize",
+				"note": "Replay past and future actions to solve puzzles."
+			},
 			"godothub-2025": {
 				"event": "Godot Hub Festival 2025 · Themed jam track",
 				"prize": "Second prize",
@@ -139,7 +144,7 @@
 			"delaytrace": {
 				"type": "2D time-chase platformer",
 				"role": "Solo developer, still in development",
-				"summary": "The route you take becomes your “past self” 1, 3 or 5 seconds later and chases you. You can also record a route and send it back as a “future echo”.",
+				"summary": "The route you take becomes your “past self” 1, 3 or 5 seconds later and chases you. You can also record a route and send it back as a “future echo”. Winner of a third prize at GodotHub Festival 2026.",
 				"highlights": [
 					"Present, past and future timelines solve puzzles together in the same room",
 					"Playable in the browser, with touch controls in the Android build",
@@ -301,6 +306,10 @@
 			"improve-47": {
 				"event": "Improve My Game Jam 47",
 				"note": "Kept polishing the same game"
+			},
+			"godothub-festival-2026": {
+				"event": "GodotHub Festival 2026",
+				"note": "Third prize"
 			}
 		}
 	},
