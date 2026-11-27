@@ -12,6 +12,8 @@ tags:
   - 游戏设计
 category: 个人记录
 draft: false
+lang: zh-CN
+translationKey: posts/osgj-log-1/osgj-log-1
 alias: ""
 ---
 最近又开始参加 Game Jam 了！
