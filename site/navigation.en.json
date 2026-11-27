@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "Garden",
+      "url": "/garden/"
+    },
+    {
       "preset": "Archive"
     },
     {

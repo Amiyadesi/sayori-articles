@@ -5,6 +5,10 @@
       "url": "/"
     },
     {
+      "name": "花园",
+      "url": "/garden/"
+    },
+    {
       "preset": "Archive"
     },
     {
